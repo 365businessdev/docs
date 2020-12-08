@@ -259,7 +259,7 @@ kbd { display: inline-block; margin-bottom: 0.4em; padding: 1px 8px; border: #CC
   h4 { font-size: 1.9rem; }
   h5 { font-size: 1.8rem; }
   h6 { font-size: 1.8rem; } }
-pre, code, tt { font-family: Inconsolata, Consolas, Courier, "Courier New", "Liberation Mono", monospace; font-size: 0.85em; white-space: pre-wrap; border-radius: 2px; line-height: 1.4; font-weight: 400; background-color: #404145; color: #FAFAFA; border-radius: 2px; }
+pre, code, tt { font-family: Inconsolata, Consolas, Courier, "Courier New", "Liberation Mono", monospace; font-size: 0.85em; white-space: pre-wrap; border-radius: 2px; line-height: 1.4; font-weight: 400; background-color: #e3e3e3; border-radius: 2px; }
 
 pre { box-sizing: border-box; margin: 0 0 1.75em 0; width: 100%; padding: 10px; font-size: 0.9em; white-space: pre; overflow: auto; border-radius: 3px; }
 pre code, pre tt { font-size: inherit; white-space: pre-wrap; background: transparent; border: none; padding: 0; }
@@ -307,14 +307,14 @@ header .open-nav:hover { background-color: rgba(0, 0, 0, 0.1); }
 .content { position: relative; background-color: #fff; color: #222; }
 .content h3::before { content: ""; margin: 60px 0; }
 
-.content, .page-header { max-width: 800px; padding: 0 25px 20px; margin: 20px auto 0 auto; }
+.content, .page-header { max-width: 1280px; padding: 0 25px 20px; margin: 20px auto 0 auto; }
 
 .page-header h2, .page-header h3 { margin: 0; line-height: 1.2; letter-spacing: -1px; }
 .page-header h2 { font-size: 2rem; margin-left: -1px; color: #888; letter-spacing: 0; }
 .page-header h3 { font-size: 4rem; margin-left: -4px; }
 @media (min-width: 700px) { .page-header h2 { font-size: 2.65rem; }
   .page-header h3 { font-size: 4.5rem; } }
-@media (min-width: 1190px) { .page-header { margin-top: 55px; } }
+@media (min-width: 1670px) { .page-header { margin-top: 55px; } }
 
 nav, header > form { display: none; }
 @media (min-width: 700px) { nav, header > form { display: block; } }
@@ -364,7 +364,7 @@ h4 svg { vertical-align: middle; margin-right: 6px; position: relative; top: -2p
 
 blockquote { border-left: 5px solid #FD0; padding: 10px 15px; margin-left: -15px; margin-right: -10px; background-color: #e6f8f9; border-color: #00B7C3; }
 blockquote p:last-child, blockquote .settings-panel-example:last-child { margin-bottom: 0; }
-@media (max-width: 1190px) { blockquote { margin-left: 0; margin-right: 0; } }
+@media (max-width: 1670px) { blockquote { margin-left: 0; margin-right: 0; } }
 
 img { max-width: 100%; height: auto; }
 
