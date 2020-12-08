@@ -1,3 +1,3 @@
 User-agent: *
-Sitemap: https://github.com/365businessdev/docs/sitemap.xml
+Sitemap: https://365businessdev.github.io//sitemap.xml
 Disallow: /search/
