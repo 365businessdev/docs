@@ -22,6 +22,14 @@ try {
 }
 Write-Host "[OK]" -ForegroundColor Green
 
+if (-not (Test-Path ..\gh-pages\.nojekyll)) {
+    $null = New-Item -Path ..\gh-pages\.nojekyll -ItemType File
+}
+
+if (-not (Test-Path ..\gh-pages\CNAME)) {
+    "docs.365businessdev.com" > ..\gh-pages\CNAME
+}
+
 Write-Host "Publish website . . ."
 try {
     Set-Location ..\gh-pages
