@@ -1,10 +1,15 @@
 global:
   github: GitHub
+  loading: Lade
+  results: Ergebnisse
+  for: für
 category:
   welcome: Willkommen
   365-business-api: 365 business API
   365-business-barcode: 365 business Barcode
 titles:
+  al-developer: AL Implementation Guide
+  search: Suche
   introduction: Einführung
   welcome: Willkommen bei 365 business development
   newAndPlanned: Neu und Geplant in den 365 business development Apps

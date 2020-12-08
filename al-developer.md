@@ -1,5 +1,5 @@
 ---
-title: AL Developer
+title: al-developer
 permalink: /al-developer/
 layout: default
 ---
