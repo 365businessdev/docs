@@ -7,12 +7,15 @@ category:
   welcome: Willkommen
   365-business-api: 365 business API
   365-business-barcode: 365 business Barcode
+  365-business-eric: 365 business ERiC
+  365-business-pdf: 365 business PDF
+  365-business-address-validation: 365 business Address Validation
 titles:
   al-developer: AL Implementation Guide
   search: Suche
   introduction: Einführung
   welcome: Willkommen bei 365 business development
-  newAndPlanned: Neu und Geplant in den 365 business development Apps
+  newAndPlanned: New and Planned
   get-started: Erste Schritte
   learn-more: Mehr erfahren
   how-to-register: Wie Sie sich registrieren

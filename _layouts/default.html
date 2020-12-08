@@ -77,11 +77,9 @@
 						{% assign changelog = site.html_pages | where: 'url', '/en-US/al-developer/' | first %}
 						<a href="{{ site.baseurl }}/al-developer/">AL Developer</a>
 					</li>
-				</ul>
-				<ul>
-					<li class="nav-item top-level {% if page.url == '/changelog/' %}current{% endif %}">
-						{% assign changelog = site.html_pages | where: 'url', '/changelog/' | first %}
-						<a href="{{ site.baseurl }}/changelog/">{% t titles.{{ changelog.title }} %}</a>
+					<li class="nav-item top-level {% if page.url == '/new-and-planned/' %}current{% endif %}">
+						{% assign newAndPlanned = site.html_pages | where: 'url', '/new-and-planned/' | first %}
+						<a href="{{ site.baseurl }}/new-and-planned/">{% t titles.{{ newAndPlanned.title }} %}</a>
 					</li>
 				</ul>
 			</nav>
