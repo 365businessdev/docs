@@ -13,18 +13,18 @@
 <meta property="og:locale" content="de_DE" />
 <meta name="description" content="Product documentation for Microsoft Dynamics 365 Business Central Apps of 365 business development GmbH." />
 <meta property="og:description" content="Product documentation for Microsoft Dynamics 365 Business Central Apps of 365 business development GmbH." />
-<link rel="canonical" href="https://365businessdev.github.io/docs/de-DE/365businessapi/apiexception/Exception3/" />
-<meta property="og:url" content="https://365businessdev.github.io/docs/de-DE/365businessapi/apiexception/Exception3/" />
+<link rel="canonical" href="https://docs.365businessdev.com/de-DE/365businessapi/apiexception/Exception3/" />
+<meta property="og:url" content="https://docs.365businessdev.com/de-DE/365businessapi/apiexception/Exception3/" />
 <meta property="og:site_name" content="365 business development" />
 <script type="application/ld+json">
-{"@type":"WebPage","url":"https://365businessdev.github.io/docs/de-DE/365businessapi/apiexception/Exception3/","headline":"Exception Method","author":{"@type":"Person","name":"365 business development"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://365businessdev.github.io/docs/de-DE/siteicon.png"},"name":"365 business development"},"description":"Product documentation for Microsoft Dynamics 365 Business Central Apps of 365 business development GmbH.","@context":"https://schema.org"}</script>
+{"@type":"WebPage","url":"https://docs.365businessdev.com/de-DE/365businessapi/apiexception/Exception3/","headline":"Exception Method","author":{"@type":"Person","name":"365 business development"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.365businessdev.com/de-DE/siteicon.png"},"name":"365 business development"},"description":"Product documentation for Microsoft Dynamics 365 Business Central Apps of 365 business development GmbH.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
-		<link type="application/atom+xml" rel="alternate" href="https://365businessdev.github.io/docs/de-DE/feed.xml" title="365 business development" />
+		<link type="application/atom+xml" rel="alternate" href="https://docs.365businessdev.com/de-DE/feed.xml" title="365 business development" />
 
 		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Open+Sans:400,400italic,600,600italic,700,700italic|Inconsolata:400,700">
-		<link rel="stylesheet" href="/docs/de-DE/css/main.css">
-		<link rel="icon" type="image/png" href="/docs/de-DE/assets/images/favicon.png">
+		<link rel="stylesheet" href="/de-DE/css/main.css">
+		<link rel="icon" type="image/png" href="/de-DE/assets/images/favicon.png">
 
 		
 	</head>
@@ -35,23 +35,23 @@
 				<!-- <a style="color: whitesmoke;" href="#">Deutsch</a> -->
 				
 				
-				<a style="color: whitesmoke; padding-right: 10px;" href="/docs/de-DE/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGzSURBVHjaYvTxcWb4+53h3z8GZpZff/79+v3n/7/fDAz/GHAAgABi+f37e3FxOZD1Dwz+/v3z9y+E/AMFv3//+Qumfv9et241QACxMDExAVWfOHkJJAEW/gUEP0EQDn78+AHE/gFOQJUAAcQiy8Ag8O+fLFj1n1+/QDp+/gQioK7fP378+vkDqOH39x9A/RJ/gE5lAAhAYhzcAACCQBDkgRXRjP034R0IaDTZTFZn0DItot37S94KLOINerEcI7aKHAHE8v/3r/9//zIA1f36/R+o4tevf1ANYNVA9P07RD9IJQMDQACxADHD3z8Ig4GMHz+AqqHagKp//fwLVA0U//v7LwMDQACx/LZiYFD7/5/53/+///79BqK/EMZ/UPACSYa/v/8DyX9A0oTxx2EGgABi+a/H8F/m339BoCoQ+g8kgRaCQvgPJJiBYmAuw39hxn+uDAABxMLwi+E/0PusRkwMvxhBGoDkH4b/v/+D2EDyz///QB1/QLb8+sP0lQEggFh+vGXYM2/SP6A2Zoaf30Ex/J+PgekHwz9gQDAz/P0FYrAyMfz7wcDAzPDtFwNAgAEAd3SIyRitX1gAAAAASUVORK5CYII=" width="16" height="11" style="width: 16px; height: 11px;"></a>
+				<a style="color: whitesmoke; padding-right: 10px;" href="/de-DE/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGzSURBVHjaYvTxcWb4+53h3z8GZpZff/79+v3n/7/fDAz/GHAAgABi+f37e3FxOZD1Dwz+/v3z9y+E/AMFv3//+Qumfv9et241QACxMDExAVWfOHkJJAEW/gUEP0EQDn78+AHE/gFOQJUAAcQiy8Ag8O+fLFj1n1+/QDp+/gQioK7fP378+vkDqOH39x9A/RJ/gE5lAAhAYhzcAACCQBDkgRXRjP034R0IaDTZTFZn0DItot37S94KLOINerEcI7aKHAHE8v/3r/9//zIA1f36/R+o4tevf1ANYNVA9P07RD9IJQMDQACxADHD3z8Ig4GMHz+AqqHagKp//fwLVA0U//v7LwMDQACx/LZiYFD7/5/53/+///79BqK/EMZ/UPACSYa/v/8DyX9A0oTxx2EGgABi+a/H8F/m339BoCoQ+g8kgRaCQvgPJJiBYmAuw39hxn+uDAABxMLwi+E/0PusRkwMvxhBGoDkH4b/v/+D2EDyz///QB1/QLb8+sP0lQEggFh+vGXYM2/SP6A2Zoaf30Ex/J+PgekHwz9gQDAz/P0FYrAyMfz7wcDAzPDtFwNAgAEAd3SIyRitX1gAAAAASUVORK5CYII=" width="16" height="11" style="width: 16px; height: 11px;"></a>
 				
 				
 				
-				<a style="color: whitesmoke; padding-right: 10px;" href="/docs/en-US/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHzSURBVHjaYkxOP8IAB//+Mfz7w8Dwi4HhP5CcJb/n/7evb16/APL/gRFQDiAAw3JuAgAIBEDQ/iswEERjGzBQLEru97ll0g0+3HvqMn1SpqlqGsZMsZsIe0SICA5gt5a/AGIEarCPtFh+6N/ffwxA9OvP/7//QYwff/6fZahmePeB4dNHhi+fGb59Y4zyvHHmCEAAAW3YDzQYaJJ93a+vX79aVf58//69fvEPlpIfnz59+vDhw7t37968efP3b/SXL59OnjwIEEAsDP+YgY53b2b89++/awvLn98MDi2cVxl+/vl6mituCtBghi9f/v/48e/XL86krj9XzwEEEENy8g6gu22rfn78+NGs5Ofr16+ZC58+fvyYwX8rxOxXr169fPny+fPn1//93bJlBUAAsQADZMEBxj9/GBxb2P/9+S/R8u3vzxuyaX8ZHv3j8/YGms3w8ycQARmi2eE37t4ACCDGR4/uSkrKAS35B3TT////wADOgLOBIaXIyjBlwxKAAGKRXjCB0SOEaeu+/y9fMnz4AHQxCP348R/o+l+//sMZQBNLEvif3AcIIMZbty7Ly6t9ZmXl+fXj/38GoHH/UcGfP79//BBiYHjy9+8/oUkNAAHEwt1V/vI/KBY/QSISFqM/GBg+MzB8A6PfYC5EFiDAABqgW776MP0rAAAAAElFTkSuQmCC" width="16" height="11" style="width: 16px; height: 11px;"></a>
+				<a style="color: whitesmoke; padding-right: 10px;" href="/en-US/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHzSURBVHjaYkxOP8IAB//+Mfz7w8Dwi4HhP5CcJb/n/7evb16/APL/gRFQDiAAw3JuAgAIBEDQ/iswEERjGzBQLEru97ll0g0+3HvqMn1SpqlqGsZMsZsIe0SICA5gt5a/AGIEarCPtFh+6N/ffwxA9OvP/7//QYwff/6fZahmePeB4dNHhi+fGb59Y4zyvHHmCEAAAW3YDzQYaJJ93a+vX79aVf58//69fvEPlpIfnz59+vDhw7t37968efP3b/SXL59OnjwIEEAsDP+YgY53b2b89++/awvLn98MDi2cVxl+/vl6mituCtBghi9f/v/48e/XL86krj9XzwEEEENy8g6gu22rfn78+NGs5Ofr16+ZC58+fvyYwX8rxOxXr169fPny+fPn1//93bJlBUAAsQADZMEBxj9/GBxb2P/9+S/R8u3vzxuyaX8ZHv3j8/YGms3w8ycQARmi2eE37t4ACCDGR4/uSkrKAS35B3TT////wADOgLOBIaXIyjBlwxKAAGKRXjCB0SOEaeu+/y9fMnz4AHQxCP348R/o+l+//sMZQBNLEvif3AcIIMZbty7Ly6t9ZmXl+fXj/38GoHH/UcGfP79//BBiYHjy9+8/oUkNAAHEwt1V/vI/KBY/QSISFqM/GBg+MzB8A6PfYC5EFiDAABqgW776MP0rAAAAAElFTkSuQmCC" width="16" height="11" style="width: 16px; height: 11px;"></a>
 				
 				
 			</div>
 			<div style="background-color: #ffffff; box-sizing: border-box; border: 0; border-bottom: 1px solid rgba(0, 0, 0, 0.075); border-left: 5px solid transparent; box-shadow: inset -10px 0 10px -10px rgba(0, 0, 0, 0.1);height: 190px; padding-top: 40px;">
-				<a href="/docs/de-DE/"><img src="/docs/de-DE/assets/images/emblem.png" width="300" alt="365 business development logo"></a>
+				<a href="/de-DE/"><img src="/de-DE/assets/images/emblem.png" width="300" alt="365 business development logo"></a>
 			</div>
 			<button type="button" class="open-nav" id="open-nav"></button>			
 			<!-- 
 			<h1>	365 business development
 			</h1>
 			 -->
-			<form action="/docs/de-DE/search/" method="get">
+			<form action="/de-DE/search/" method="get">
 				<input type="text" name="q" id="search-input" placeholder="Search" autofocus>
 				<input type="submit" value="Search" style="display: none;">
 			</form>
@@ -60,7 +60,7 @@
 				<ul>
 					<li class="nav-item top-level ">
 						
-						<a href="/docs/de-DE/">Willkommen</a>
+						<a href="/de-DE/">Willkommen</a>
 					</li>
 				</ul>
 
@@ -69,24 +69,24 @@
 					
 						<li class="nav-item top-level ">
 							
-							<a href="/docs/de-DE/365-business-api/">365 business API</a>
+							<a href="/de-DE/365-business-api/">365 business API</a>
 							<ul>
 								
 									 
 									
-									<li class="nav-item "><a href="/docs/de-DE/365-business-api/get-started/">Erste Schritte</a></li>
+									<li class="nav-item "><a href="/de-DE/365-business-api/get-started/">Erste Schritte</a></li>
 								
 							</ul>
 						</li>
 					
 						<li class="nav-item top-level ">
 							
-							<a href="/docs/de-DE/365-business-barcode/">365 business Barcode</a>
+							<a href="/de-DE/365-business-barcode/">365 business Barcode</a>
 							<ul>
 								
 									 
 									
-									<li class="nav-item "><a href="/docs/de-DE/365-business-barcode/get-started/">Erste Schritte</a></li>
+									<li class="nav-item "><a href="/de-DE/365-business-barcode/get-started/">Erste Schritte</a></li>
 								
 							</ul>
 						</li>
@@ -95,13 +95,13 @@
 				<ul>
 					<li class="nav-item top-level ">
 						
-						<a href="/docs/de-DE/al-developer/">AL Developer</a>
+						<a href="/de-DE/al-developer/">AL Developer</a>
 					</li>
 				</ul>
 				<ul>
 					<li class="nav-item top-level ">
 						
-						<a href="/docs/de-DE/changelog/">Änderungsprotokoll</a>
+						<a href="/de-DE/changelog/">Änderungsprotokoll</a>
 					</li>
 				</ul>
 			</nav>
@@ -129,8 +129,8 @@ JSON object containing the API response.</p>
 <h3 id="none"><em>None</em></h3>
 
 <h2 id="see-also">See Also</h2>
-<p><a href="/docs/de-DE/365businessapi/apiexception/Exception1/">Exception(HttpResponseMessage)</a><br />
-<a href="/docs/de-DE/365businessapi/apiexception/Exception2/">Exception(Text)</a><br /></p>
+<p><a href="/de-DE/365businessapi/apiexception/Exception1/">Exception(HttpResponseMessage)</a><br />
+<a href="/de-DE/365businessapi/apiexception/Exception2/">Exception(Text)</a><br /></p>
 
 			</article>
 		</section>
