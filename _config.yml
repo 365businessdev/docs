@@ -2,7 +2,7 @@
 # Site
 
 title: 365 business development
-url: "http://localhost:4000"
+url: "https://365businessdev.github.io"
 baseurl: ""
 google_analytics_key:
 show_full_navigation: false
@@ -47,6 +47,7 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENCE
+  - deploy.ps1
 
 collections:
   docs:
