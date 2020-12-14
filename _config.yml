@@ -12,7 +12,7 @@ highlighter: pygments
 default_locale_in_subfolder: true
 languages: [en-US,de-DE]
 defaultLang: en-US
-#exclude_from_localizations: ["assets/images"]
+exclude_from_localizations: ["assets"]
 
 languageNames:
   de-DE: Deutsch
