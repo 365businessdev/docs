@@ -1,3 +1,3 @@
-#### Get Started
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+### Einrichtung
+Nach erfolgter Installation wurde, im Rahmen der Installationsroutinen, bereits die Grundeinrichtung vorgenommen. Dabei werden einige Einrichtungsparameter gem. der häufigsten Wünsche und Anforderungen automatisch gesetzt.
+Die Einrichtung findet in der 365 business API Einrichtung statt
