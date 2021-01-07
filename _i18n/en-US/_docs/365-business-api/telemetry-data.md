@@ -46,5 +46,5 @@ All customer-specific or identifiable information received via telemetry is stor
 In general, telemetry data is stored for 30 days. In individual cases, telemetry data may be used to create work items in our product backlog and in these cases are retained indefinitely.
 
 ### See also
- - [{% t titles.setup %}](../setup)
+ - [{% t titles.setup %}](../365-business-api-setup/)
  - [Privacy Policy](https://365businessdev.com/en/privacy-policy/)
