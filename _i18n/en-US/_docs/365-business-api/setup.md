@@ -16,6 +16,11 @@ Communication without a valid API key is not possible.
 
 > Info<br>You will receive an API key after successful registration. For more information, see [{% t titles.get-started %}](../get-started).
 
+##### Allow Telemetry Data
+Allows the sending of anonymized telemetry data for the use of 365 business API services. The telemetry data is used to help us further improve our services and features and to identify issues and bugs.
+
+> Info<br>For more information about what data is collected, see [{% t titles.telemetry-data %}](../telemetry-data).
+
 #### Version
 This section displays information about currently used API version. In addition, you have the possibility to select specific API service versions here, if corresponding API modules have been installed.
 

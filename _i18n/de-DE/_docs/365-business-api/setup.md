@@ -16,6 +16,11 @@ Eine Kommunikation ohne gültigen API Schlüssel ist nicht möglich.
 
 > Info<br>Sie erhalten eine API Schlüssel nach erfolgreicher Registrierung. Weitere Informationen finden Sie unter [{% t titles.get-started %}](../get-started)
 
+##### Übermittlung von Telemetriedaten
+Erlaubt das Senden von anonymisierten Telemetriedaten zur Verwendung von 365 business API Dienste. Die Telemetriedaten dienen uns unsere Dienste und Funktionen weiter zu verbessern und Probleme und Fehler zu identifizieren.
+
+> Info<br>Weitere Informationen darüber welche Daten erhoben werden finden Sie [{% t titles.telemetry-data %}](../telemetry-data).
+
 #### Version
 In diesem Bereich werden Informationen zu aktuell verwendeten API-Version angezeigt. Zudem haben Sie hier die Möglichkeit spezifische API-Dienstversionen auszuwählen, sofern entsprechende API-Module installiert wurden.
 

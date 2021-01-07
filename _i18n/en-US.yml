@@ -23,6 +23,7 @@ titles:
   changelog: Change Log
   setup: Setup
   registration: Registration
+  telemetry-data: Telemetry
 langs:
   german: German
   english: English
