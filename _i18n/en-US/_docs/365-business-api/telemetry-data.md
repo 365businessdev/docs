@@ -2,6 +2,7 @@
 
 #### Available telemetry
 With 365 business API app 17.0 and later various telemetry data are sent to 365 business development:
+
 | Area | Name | Description | 
 | --- | --- | --- |
 | Communication | [`BDEV-API-00040`]<br>API Request Created | An API request has been created for a specific service. |
@@ -15,6 +16,7 @@ With 365 business API app 17.0 and later various telemetry data are sent to 365 
 Telemetry gathers following data:
 
 ##### General dimensions
+
 | Dimension | Description or value | 
 | --- | --- |
 | eventId | Telemetry Id (e.g. `BDEV-API-00040`). | 
@@ -26,6 +28,7 @@ Telemetry gathers following data:
 
 ##### Custom dimensions
 In addition, some custom dimensions, depending on the verbosity, are sent:
+
 | Dimension | Description or value | Verbosity |
 | --- | --- | --- |
 | callstack | Contains the failing call stack who caused the thrown error or warning. | Critical, Error, Warning |

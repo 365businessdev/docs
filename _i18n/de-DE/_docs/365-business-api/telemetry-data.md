@@ -2,6 +2,7 @@
 
 #### Verfügbare Telemetrie
 Mit 365 business API Version 17.0 und später werden verschiedene Telemetriedaten an 365 business development gesendet:
+
 | Bereich | Name | Beschreibung | 
 | --- | --- | --- |
 | Kommunikation | [`BDEV-API-00040`]<br>API-Anforderung erstellt | Eine API-Anforderung wurde für einen bestimmten Dienst erstellt. |
@@ -15,6 +16,7 @@ Mit 365 business API Version 17.0 und später werden verschiedene Telemetriedate
 Die Telemetrie sammelt folgende Daten:
 
 ##### Allgemeine Dimensionen
+
 | Dimension | Beschreibung oder Wert | 
 | --- | --- |
 | eventId | Telemetrie-Id (z. B. `BDEV-API-00040`). | 
@@ -26,6 +28,7 @@ Die Telemetrie sammelt folgende Daten:
 
 ##### Zusätzliche Dimensionen
 Zusätzlich werden einige Dimensionen, abhängig vom Schweregrad, gesendet:
+
 | Dimension | Beschreibung oder Wert | Schweregrad |
 | --- | --- | --- |
 | callstack | Enthält den fehlerhaften Aufrufstapel, der den geworfenen Fehler oder die Warnung verursacht hat. | Critical, Error, Warning |
