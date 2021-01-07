@@ -24,6 +24,7 @@ titles:
   setup: Setup
   registration: Registration
   telemetry-data: Telemetry
+  feedback: Feedback
 langs:
   german: German
   english: English
