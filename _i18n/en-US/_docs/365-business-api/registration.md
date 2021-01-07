@@ -13,6 +13,6 @@ Registration is only possible once for each e-mail address. The encrypted e-mail
 #### Are there any costs for or after the registration?
 No, there are no costs within the trial period of 30 days. After the trial period expires, the API key is automatically locked and can only be used again if a subscription is taken out. This ensures that no accidental costs are incurred after the trial period expires.
 
-### Siehe auch
+### See also
  - [{% t titles.get-started %}](../get-started)
 
