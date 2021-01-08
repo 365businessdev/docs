@@ -7,4 +7,3 @@ The *Discard changes* action discards the changes, data is not changed in the so
 ### Address data ###
 Via the AssistEdit **...** next to the address fields, the suggested field value can be changed manually.
 
-Translated with www.DeepL.com/Translator (free version)
