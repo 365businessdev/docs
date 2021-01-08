@@ -4,6 +4,6 @@ Via the action *Apply changes* the changed address values are applied to the sou
 
 The *Discard changes* action discards the changes, data is not changed in the source data record.
 
-### Address data ###
+#### Address data
 Via the AssistEdit **...** next to the address fields, the suggested field value can be changed manually.
 

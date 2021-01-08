@@ -4,5 +4,5 @@ Auf der Seite **Adressdatenvergleich** werden die geprüften Adressfelder mit de
 
 Die Aktion *Änderungen verwerfen* verwirft die Änderungen, Daten werden im Ausgangsdatensatz nicht verändert.
 
-### Adressdaten ###
+#### Adressdaten
 Über den AssistEdit **...** neben den Adressfeldern kann der vorgeschlagene Feldwert manuell abgeändert werden.
