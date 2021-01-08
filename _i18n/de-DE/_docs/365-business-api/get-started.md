@@ -1,34 +1,36 @@
-Um mit 365 business API und den zugehörigen erstklassigen Business-Services starten zu können, müssen Sie sich und Ihre Organisation für Ihren persönlichen API-Schlüssel registrieren.
+Um mit 365 business API und den zugehörigen erstklassigen Business-Services starten zu können, benötigen Sie die 365 business API App für Microsoft Dynamics 365 Business Central. Die App stellt die Schnittstelle zum 365 business API Cloud Service bereit und ermöglicht Ihnen die Nutzung der 365 business API Dienste & Funktionen.
 
-> Wichtig<br>Die Registrierung ist vollkommen kostenlos und unverbindlich. Es entstehen Ihnen durch die Registrierung keinerlei Kosten.
+#### Installation
+Die 365 business API App wird über den [Microsoft AppSource](https://appsource.microsoft.com/de-de/product/dynamics-365-business-central/PUBID.business_development_christoph_krieg%7CAID.365-business-api%7CPAPPID.0f94d4ef-5c3a-4002-93f2-2a2be05219c0?tab=Overview) bereitgestellt und kann darüber selbstständig und vollautomatisiert bezogen und installiert werden.
 
-Nach Abschluss der Registrierung erhalten Sie einen eindeutigen persönlichen API-Schlüssel, der Sie gegenüber der 365 business API authentifiziert.
-Zudem beginnt ab dem Moment der Registrierung Ihre kostenfreie 30-tägige Testphase in der Sie alle Dienste der 365 business API konsumieren können.
-
-#### Registrierung
-Die Registrierung kann über zwei Wege erfolgen.
-
-##### Registrierung über Microsoft Dynamics 365 Business Central
-
-1. Laden Sie die **365 business API** App aus dem [Microsoft AppSource](https://appsource.microsoft.com/de-de/product/dynamics-365-business-central/PUBID.business_development_christoph_krieg%7CAID.365-business-api%7CPAPPID.0f94d4ef-5c3a-4002-93f2-2a2be05219c0?tab=Overview) und installieren Sie die App in Ihrem Business Central Tenant.
+Über den Link *Jetzt holen* können Sie die App direkt aus dem Microsoft AppSource in Ihrem Microsoft Dynamics 365 Business Central Tenant installieren:
 
 ![365 business API im Microsoft AppSource](/assets/images/365-business-api/appsource.png)
 
-2. Melden Sie sich in Ihrer Business Central Umgebung an. Anschließend erscheint der Willkommen-Assistent und leitet Sie durch die weitere Einrichtung und Registrierung:<br>
-![Willkommen-Assistent](/assets/images/365-business-api/welcome-wizard-de.png)<br>
-> Hinweis<br>Sollte der Willkommen-Assistent nicht automatisch starten oder sollten Sie den Assistenten abgebrochen haben, so können Sie ihn jederzeit wieder über den Aufruf in der Seite **Unterstütztes Setup** aufrufen:<br>![Unterstütztes Setup](/assets/images/365-business-api/assisted-setup-de.png)
+#### Funktionalität
+Die 365 business API App stellt die Schnittstelle zum 365 business API Cloud Service bereit und ermöglicht Ihnen die Nutzung der 365 business API Dienste & Funktionen.
 
-3. Lesen und bestätigen Sie die Datenschutz- und Lizenzvereinbarung.
-4. Geben Sie im Registrierung-Assistent Ihre Organisationsinformationen für die Registrierung an.
-5. Senden Sie Ihre Registrierung.
+Darüber hinaus bietet die App folgende allgemeinen Funktionalitäten:
+ - Registrierung,
+ - Abonnement abschließen,
+ - Abrufen der aktuellen API Schlüssel Statistik (Abrechnungsinformationen),
+ - Feedback senden.
 
-> Hinweis<br>Bei der Registrierung über die **365 business API** App erhalten Sie unmittelbar nach der Registrierung Ihren persönlichen API-Schlüssel. Ihr Testzeitraum beginnt direkt nach der Registrierung und Sie können die Dienste 30 Tage kostenfrei testen.
+##### Registrierung
+Eine Registrierung für die 365 business API Cloud ist notwendig um einen API Authentifizierungsschlüssel zu erhalten und mit den 365 business API Cloud Diensten kommunizieren zu können.
+Die Registrierung ist vollkommen kostenlos und unverbindlich. Nach der erfolgten Registrierung startet ein 30-tägiger Testzeitraum in dem Sie alle Dienste und Funktionen der 365 business API uneingeschränkt testen können.
 
-##### Registrierung über die 365 business development Website
+Weitere Informationen finden Sie [hier](../registration/).
 
-1. Gehen Sie auf die Website [365businessdev.com/365-business-api-registrierung/](https://365businessdev.com/365-business-api-registrierung/).
-2. Geben Sie Ihre Organisationsinformationen für die Registrierung ein.
-3. Lesen und bestätigen Sie die Lizenzvereinbarung (EULA).
-4. Schließen Sie die Registrierung ab.
+##### Abonnement abschließen
+Mit der Registrierung für die 365 business API Cloud erhalten Sie einen API Authentifizierungsschlüssel und Ihrer Organisation wird eine kostenfreie und unverbindliche 30-tägige Testphase.
 
-> Hinweis<br>Nach Abschluss der Registrierung erhalten Sie eine E-Mail von einem unserer Mitarbeiter.
+>Hinweis<br>Nach Ablauf der Testphase sind weitere Transaktionen mit den 365 business API Cloud Diensten & Funktionen nicht möglich um versehentlich entstehende Kosten zu verhindern.
+
+Um nach Ablauf der Testphase weiterhin die Dienste & Funktionen der 365 business API Cloud verwenden zu können ist der Abschluss eines Abonnements notwendig. Wir bieten verschiedene [Service Pläne](https://365businessdev.com/cloud/preise/) für die Nutzung der 365 business API Cloud an, die sich auch in Ihrem Funktionsumfang unterscheiden.
+Für den Einstieg, nach der Testphase, bietet die 365 business API App die Funktionen ein nutzungsbasiertes Abonnement (*Pay-As-You-Go*) abzuschließen. Sollten Sie sich für einen speziellen Service Plan interessieren, der Ihre Anforderungen besser abdeckt frühen wir uns über Ihre Anfrage.
+
+### Siehe auch
+ - [365 business API App im Microsoft AppSource](https://appsource.microsoft.com/de-de/product/dynamics-365-business-central/PUBID.business_development_christoph_krieg%7CAID.365-business-api%7CPAPPID.0f94d4ef-5c3a-4002-93f2-2a2be05219c0?tab=Overview)
+ - [Registrierung](../registration/)
+ - [365 business API Cloud Service Pläne](https://365businessdev.com/cloud/preise/)

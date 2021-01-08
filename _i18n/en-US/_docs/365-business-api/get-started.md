@@ -1,34 +1,36 @@
-To get started with 365 business API and the associated world-class business services, you need to register yourself and your organization for your personal API key.
+To get started with 365 business API and the associated world-class business services, you need the 365 business API App for Microsoft Dynamics 365 Business Central. The app provides the interface to the 365 business API cloud service and enables you to use 365 business API services & features.
 
-> Important<br>Registration is completely free and without obligation. There is no cost to you for registering.
+#### Installation
+The 365 business API App is provided through the [Microsoft AppSource](https://appsource.microsoft.com/de-de/product/dynamics-365-business-central/PUBID.business_development_christoph_krieg%7CAID.365-business-api%7CPAPPID.0f94d4ef-5c3a-4002-93f2-2a2be05219c0?tab=Overview) and can be obtained and installed through it independently and fully automated.
 
-After completing the registration, you will receive a unique personal API key that authenticates you to the 365 business API.
-In addition, from the moment you register, your free 30-day trial period begins during which you can consume all the services of the 365 business API.
+Using the *Get it now* link, you can install the app directly from the Microsoft AppSource in your Microsoft Dynamics 365 Business Central tenant:
 
-#### Registration
-Registration can be done in two ways.
+![365 business API in Microsoft AppSource](/assets/images/365-business-api/appsource.png)
 
-##### Registration via Microsoft Dynamics 365 Business Central.
+#### Functionality
+The 365 business API app provides the interface to the 365 business API cloud service and allows you to use the 365 business API services & features.
 
-1. download the **365 business API** app from the [Microsoft AppSource](https://appsource.microsoft.com/en-US/product/dynamics-365-business-central/PUBID.business_development_christoph_krieg%7CAID.365-business-api%7CPAPPID.0f94d4ef-5c3a-4002-93f2-2a2be05219c0?tab=Overview) and install the app in your Business Central tenant.
+In addition, the app provides the following general functionalities:
+ - Registration,
+ - Completing subscription,
+ - Retrieve current API key statistics (billing information),
+ - Send feedback.
 
-![365 business API in the Microsoft AppSource](/assets/images/365-business-api/appsource.png)
+##### Registration
+Registration for the 365 business API Cloud is necessary to obtain an API authentication key and to be able to communicate with the 365 business API Cloud services.
+Registration is completely free and without obligation. After registration, a 30-day trial period starts during which you can test all services and functions of the 365 business API without any restrictions.
 
-2. log in to your Business Central environment. The Welcome Wizard will then appear and guide you through the rest of the setup and registration process:<br>
-![Welcome-Wizard](/assets/images/365-business-api/welcome-wizard-en.png)<br>
-> Note<br>Should the welcome wizard not start automatically or should you have cancelled the wizard, you can call it up again at any time via the call in the **Assisted Setup** page:<br>![Assisted Setup](/assets/images/365-business-api/assisted-setup-de.png)
+You can find more information [here](../registration/).
 
-3. read and confirm the privacy and license agreement.
-In the Registration Wizard, provide your organization information for registration.
-5. submit your registration.
+##### Sign up for a subscription
+By registering for the 365 business API Cloud, you will receive an API authentication key and your organization will be granted a free, no-obligation 30-day trial period.
 
-> Note<br>If you register via the **365 business API** app, you will receive your personal API key immediately after registration. Your trial period starts immediately after registration and you can test the services for 30 days free of charge.
+>Note<br>After the trial period expires, further transactions with 365 business API Cloud services & features are not possible to prevent accidental charges.
 
-##### Registration via the 365 business development website
+In order to continue using the 365 business API Cloud services & features after the trial period expires, a subscription is required. We offer various [service plans](https://365businessdev.com/en/cloud/pricing/) for the use of the 365 business API Cloud, which also differ in their scope of functions.
+To get started, after the trial phase, the 365 business API app offers the functions to take out a usage-based subscription (*Pay-As-You-Go*). If you are interested in a special service plan that better covers your requirements, we will be happy to receive your inquiry.
 
-1. go to the website [365businessdev.com/365-business-api-registration/](https://365businessdev.com/365-business-api-registrierung/).
-2. enter your organization information for registration.
-Read and confirm the license agreement (EULA). 4.
-4. complete the registration.
-
-> Note<br>On completion of registration, you will receive an email from one of our representatives.
+### See also
+ - [365 business API app in Microsoft AppSource](https://appsource.microsoft.com/de-de/product/dynamics-365-business-central/PUBID.business_development_christoph_krieg%7CAID.365-business-api%7CPAPPID.0f94d4ef-5c3a-4002-93f2-2a2be05219c0?tab=Overview)
+ - [Registration](../registration/)
+ - [365 business API Cloud Service Plans](https://365businessdev.com/en/cloud/pricing/)

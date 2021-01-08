@@ -1,8 +1,37 @@
-Die Registrierung wird in Microsoft Dynamics 365 Business Central über den Registrierungsassistent durchgeführt.
+Eine Registrierung für die 365 business API Cloud ist notwendig um einen API Authentifizierungsschlüssel zu erhalten und mit den 365 business API Cloud Diensten kommunizieren zu können.
+Die Registrierung ist vollkommen kostenlos und unverbindlich. Nach der erfolgten Registrierung startet ein 30-tägiger Testzeitraum in dem Sie alle Dienste und Funktionen der 365 business API uneingeschränkt testen können.
 
->Info<br>Eine Registrierung ist für die Nutzung der 365 business API notwendig. Nach erfolgter Registrierung beginnt eine kostenfreie 30-tägige Testphase in der Sie uneingeschränkt sämtliche Dienste der 365 business API nutzen können.
+> Wichtig<br>Die Registrierung ist vollkommen kostenlos und unverbindlich.<br>Es entstehen Ihnen durch die Registrierung keinerlei Kosten.
 
-Während der Registrierung werden einige Informationen erfasst, die ein späteres Upgrade der Testlizenz in ein nutzungsbasiertes Abrechnungsmodell ermöglicht. 
+Die Registrierung für die 365 business API Cloud Services kann über folgende Wege stattfinden:
+ - Registrierung über Microsoft Dynamics 365 Business Central
+ - Registrierung über die 365 business development Website
+
+##### Registrierung über Microsoft Dynamics 365 Business Central
+
+1. Laden Sie die **365 business API** App aus dem [Microsoft AppSource](https://appsource.microsoft.com/de-de/product/dynamics-365-business-central/PUBID.business_development_christoph_krieg%7CAID.365-business-api%7CPAPPID.0f94d4ef-5c3a-4002-93f2-2a2be05219c0?tab=Overview) und installieren Sie die App in Ihrem Business Central Tenant.
+![365 business API im Microsoft AppSource](/assets/images/365-business-api/appsource.png)
+
+2. Melden Sie sich in Ihrer Business Central Umgebung an. Anschließend erscheint der Willkommen-Assistent und leitet Sie durch die weitere Einrichtung und Registrierung:<br>
+![Willkommen-Assistent](/assets/images/365-business-api/welcome-wizard-de.png)<br>
+> Hinweis<br>Sollte der Willkommen-Assistent nicht automatisch starten oder sollten Sie den Assistenten abgebrochen haben, so können Sie ihn jederzeit wieder über den Aufruf in der Seite **Unterstütztes Setup** aufrufen:<br>![Unterstütztes Setup](/assets/images/365-business-api/assisted-setup-de.png)
+
+3. Lesen und bestätigen Sie die Datenschutz- und Lizenzvereinbarung.
+4. Geben Sie im Registrierung-Assistent Ihre Organisationsinformationen für die Registrierung an.
+5. Senden Sie Ihre Registrierung.
+
+> Hinweis<br>Bei der Registrierung über die **365 business API** App erhalten Sie unmittelbar nach der Registrierung Ihren persönlichen API-Schlüssel. Ihr Testzeitraum beginnt direkt nach der Registrierung und Sie können die Dienste 30 Tage kostenfrei und unverbindlich testen.
+
+##### Registrierung über die 365 business development Website
+
+1. Gehen Sie auf die Website [365businessdev.com/cloud/registrierung/](https://365businessdev.com/cloud/registrierung/).
+2. Geben Sie Ihre Organisationsinformationen für die Registrierung ein.
+3. Schließen Sie die Registrierung ab.
+
+> Hinweis<br>Nach Abschluss der Registrierung erhalten Sie eine E-Mail von einem unserer Mitarbeiter.
+
+### Registrierungsinformationen
+Während der Registrierung werden einige Informationen erfasst, die ein späteres Upgrade der Testlizenz in ein nutzungsbasiertes Abrechnungsmodell ermöglichen. 
 
 #### Wozu werden meine Daten verwendet?
 Ihre Daten werden ausschließlich für Zuordnungs- und Abrechnungszwecke verwendet. Sollten Sie Ihre Testlizenz nicht in eine vollwertiges nutzungsbasiertes Abonnement umwandeln werden Ihre Daten nach einer Aufbewahrungsfrist von 100 Tagen automatisiert gelöscht.
