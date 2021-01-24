@@ -26,6 +26,16 @@ titles:
   telemetry-data: Telemetrie
   feedback: Feedback
   compare-address: Adressvergleich
+  sales-vat-adv-notification: Umsatzsteuervoranmeldung
+  vat-report: MwSt.-Bericht
+  elster-sales-vat-adv-notification: USt.-Voranmeldung
+  elster-recapulative-statement: Zusammenfassende Meldung
+  elster-perm-time-limit-extension: Dauerfristverlängerung
+  365-business-api-setup: 365 business API Einrichtung
+  company-information: Firmendaten
+  elster-tax-statements: ELSTER Steuerdaten
+  elster-tax-statement-card: ELSTER Steuerdaten Karte
+  elster-tax-data-type: ELSTER Steuerdatenarten
 langs:
   german: Deutsch
   english: English
