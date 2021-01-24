@@ -4,6 +4,12 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-api/
 ---
 
+#### Version 17.5.20.1908
+ - Added Context Sensitive Help Page at https://docs.365businessdev.com.
+ - Added telemetry data submission.
+ - Performance optimizations.
+ - Optimized onboarding experience.
+
 #### Version 15.4.2.1757
  - Emergency hotfix: Fixed Business Central platform bug which causes runtime validation errors due to initialized captions in MIME-Type Enum.
 
