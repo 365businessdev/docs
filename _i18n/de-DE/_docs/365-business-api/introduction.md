@@ -8,7 +8,7 @@ Aktuell werden folgende 365 business Apps angeboten:
 | App | Beschreibung |
 | --- | --- |
 | 365 business PDF | Digitales Signieren Ihrer Berichte & Belege in Business Central.<br>Zusammenführen von Berichten & Belegen aus Business Central mit bestehenden PDF-Dokumenten, wie allgemeinem Geschäftsbedingungen.<br>Automatische Hinterlegung von digitalem Briefpapier an Berichte und Belege, die aus Business Central erstellt wurden. |
-|365 business ERiC | Übermitteln Sie die erstellte Umsatzsteuervoranmeldung (UStVA) direkt aus Business Central an das Finanzamt.<br>Übermitteln Sie die Zusammenfassende Meldung (ZMDO) direkt aus Business Central an das Finanzamt.
+| 365 business ERiC | Übermitteln Sie die verschiedene ELSTER Steuerdatenarten direkt aus Business Central an das Finanzamt.
 | 365 business Barcode | Kodieren Sie 1D- und 2D-Barcode für die Verwendung in Berichten u.v.m.<br>Dekodieren Sie empfangene 1D- und 2D-Barcode-Bilder und extrahieren Sie Informationen daraus. |
 | 365 business AddressValidation | Validieren und vervollständigen Sie Ihre Adressdaten in Business Central. |
 
