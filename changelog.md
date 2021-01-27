@@ -28,7 +28,6 @@ All 365 business development apps are versioned based on the following scheme:
 
 | Feature | Description | Planned Release |
 | --- | --- | --- |
-| Support for Request for Time Extension (Fristverlängerung) | Add support to create and submit ELSTER message `Fristverlängerung` to request for time extension. | Q1-2021 |
 | Support for annual sales tax return (Umsatzsteuer-Jahreserklärung) | Add support to create and submit ELSTER message `Umsatzsteuer-Jahreserklärung`. | H2-2021 |
 
 ### See also
