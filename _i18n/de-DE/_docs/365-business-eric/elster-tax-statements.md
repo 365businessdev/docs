@@ -25,10 +25,8 @@ Die Berechnung der Bemessungsgrundlagen und MwSt.-Beträge werden dabei von der 
 
 Die Datenartspezifische Dokumentation finden Sie hier:
 - **Datenart - USt.-Voranmeldung** - [Dokumentation](../elster-sales-vat-adv-notification/)
-- **Datenart - Zusammenfassende Meldung** - 
-[Dokumentation](../elster-recapulative-statement/)
-- **Datenart - Dauerfristverlängerung** - 
-[Dokumentation](../elster-permanent-time-extension/)
+- **Datenart - Zusammenfassende Meldung** - [Dokumentation](../elster-recapulative-statement/)
+- **Datenart - Dauerfristverlängerung** - [Dokumentation](../elster-permanent-time-extension/)
 - **Datenart - Antrag auf Fristverlängerung** - [Dokumentation](../elster-request-for-time-extension/)
 
 #### Dateien
