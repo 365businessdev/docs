@@ -30,7 +30,8 @@ titles:
   vat-report: VAT Report
   elster-sales-vat-adv-notification: Sales VAT Advance Notification
   elster-recapulative-statement: Recapulative Statement
-  elster-perm-time-limit-extension: Permanent Time Limit Extension
+  elster-permanent-time-limit-extension: Permanent Time Limit Extension
+  elster-request-for-time-extension: Request for Time Extension
   365-business-api-setup: 365 business API Setup
   company-information: Company Information
   elster-tax-statements: ELSTER Tax Statements

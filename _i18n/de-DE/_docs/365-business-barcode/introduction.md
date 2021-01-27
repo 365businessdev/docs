@@ -1,14 +1,14 @@
-#### Barcode Generator for Microsoft Dynamics 365 Business Central. ####
-Encode and decode 1D and 2D barcode directly from Microsoft Dynamics 365 Business Central.
-365 business Barcode from 365 business development is adding the capability to encode and decode 1D and 2D barcode in Microsoft Dynamics 365 Business Central. Now you can modify existing reports such as invoices, shipments, order confirmations and production orders to include barcode and simplify your processes by using barcode scanner.
+#### Barcode Generator für Microsoft Dynamics 365 Business Central. ####
+Kodieren und dekodieren Sie 1D- und 2D-Barcodes direkt aus Microsoft Dynamics 365 Business Central.
+365 Business Barcode von 365 Business Development fügt die Fähigkeit hinzu, 1D und 2D Barcode in Microsoft Dynamics 365 Business Central zu kodieren und zu dekodieren. Jetzt können Sie bestehende Berichte wie Rechnungen, Sendungen, Auftragsbestätigungen und Fertigungsaufträge so anpassen, dass sie Barcodes enthalten und Ihre Prozesse durch den Einsatz von Barcodescannern vereinfachen.
 
-#### Supports 1D and 2D Barcode formats. ####
-365 business Barcode is supporting 20 common barcode formats, including Code 39 (1D), Code 128 (1D), EAN-8 (1D), EAN-13 (1D), QR Code (2D), Data Matrix (2D) and PDF417 (2D).
+#### Unterstützt 1D- und 2D-Barcode-Formate. ####
+365 business Barcode unterstützt 20 gängige Barcodeformate, darunter Code 39 (1D), Code 128 (1D), EAN-8 (1D), EAN-13 (1D), QR-Code (2D), Data Matrix (2D) und PDF417 (2D).
 
-#### Integrating into your business process. ####
-With the decoding option you're able to integrate barcode into your business solution, even without using scanner hardware. Simply decode the barcode image to extract the information and start working with it.
+#### Integration in Ihren Geschäftsprozess. ####
+Mit der Dekodieroption sind Sie in der Lage, Barcodes in Ihre Geschäftslösung zu integrieren, auch ohne Scanner-Hardware. Dekodieren Sie einfach das Barcode-Bild, um die Informationen zu extrahieren und mit ihnen zu arbeiten.
 
-The 365 business Barcode App provides an internal API codeunit that facilitates the implementation in your customer solution and provides you with the full functionality of the 365 business API barcode service. Sample reports are included that you can use as-is or create customized layouts.
+Die 365 business Barcode App stellt eine interne API-Codeeinheit zur Verfügung, die die Implementierung in Ihre Kundenlösung erleichtert und Ihnen die volle Funktionalität des 365 business API Barcode Service zur Verfügung stellt. Es werden Beispielberichte mitgeliefert, die Sie so wie sie sind verwenden oder eigene Layouts erstellen können.
 
 #### 365 business API ####
-The 365 business Barcode app is completely free and all you need is a valid subscription of the 365 business API. The 365 business API is connected to Microsoft Dynamics 365 Business Central through the 365 business API dependency app.
+Die 365 business Barcode App ist komplett kostenlos und alles was Sie benötigen ist ein gültiges Abonnement der 365 business API. Die 365 business API ist mit Microsoft Dynamics 365 Business Central über die 365 business API-Abhängigkeits-App verbunden.

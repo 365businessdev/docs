@@ -27,3 +27,4 @@ Zusätzlich zu den oben genannten Einstellungen können Sie folgende Optionen se
 - [ELSTER Steuerdaten](../elster-tax-statements)
 - [Datenart - USt.-Voranmeldung - Dokumentation](../elster-sales-vat-adv-notification/)
 - [Datenart - Dauerfristverlängerung - Dokumentation](../elster-permanent-time-extension/)
+- [Datenart - Antrag auf Fristverlängerung - Dokumentation](../elster-request-for-time-extension/)

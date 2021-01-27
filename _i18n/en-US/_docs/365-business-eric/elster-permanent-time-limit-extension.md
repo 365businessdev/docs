@@ -1,3 +1,5 @@
+> This page is not available in the selected language. The page is available in **German**. Please select other language to display.
+
 Mit dem Antrag auf Dauerfristverlängerung möchte ein Unternehmer erreichen, dass sein Finanzamt ihm eine einmonatige Frist zur Abgabe seiner Umsatzsteuervoranmeldung gewährt. Eine genehmigte Dauerfristverlängerung gilt nicht nur für die dem Antrag folgende Umsatzsteuervoranmeldung, sondern für sämtliche dem Antrag folgenden Umsatzsteuervoranmeldungen. Sie gilt nicht für die Zusammenfassende Meldung. Der Antrag auf Dauerfristverlängerung ist jedoch nicht zulässig für die Umsatzsteuerjahreserklärung.
 
 Bei Unternehmern mit der Verpflichtung zur monatlichen Abgabe von Umsatzsteuervoranmeldungen ergeht die Dauerfristverlängerung nur unter der Auflage der Anmeldung einer Sondervorauszahlung. Die Sondervorauszahlung beträgt jährlich 1/11 der Summe der Umsatzsteuervorauszahlungen für das vorangegangene Kalenderjahr (§ 47 Abs. 1 und § 48 Abs. 2 UStDV). Wurden im Vorjahr bereits Sondervorauszahlungen geleistet, sind diese für die Berechnung der Sondervorauszahlungen des laufenden Jahres aus der Summe der Umsatzsteuervorauszahlungen des Vorjahres herauszurechnen. Die Sondervorauszahlung wird auf dem gleichen Vordruck wie die Dauerfristverlängerung angemeldet. In der Umsatzsteuervoranmeldung für Dezember rechnet sich der Unternehmer dann die Sondervorauszahlung wieder als Erstattung an. Dieses Verfahren soll einen möglichen Zinsvorteil abschöpfen, welchen sich der Unternehmer durch spätere Zahlung der Umsatzsteuervorauszahlungen verschafft. Die Sondervorauszahlung ist zum 10.02. jährlich anzumelden und zu entrichten.
@@ -36,3 +38,4 @@ Zusätzlich zu den oben genannten Einstellungen können Sie folgende Optionen se
 - [ELSTER Steuerdaten](../elster-tax-statements)
 - [Datenart - USt.-Voranmeldung - Dokumentation](../elster-sales-vat-adv-notification/)
 - [Datenart - Zusammenfassende Meldung - Dokumentation](../elster-recapulative-statement/)
+- [Datenart - Antrag auf Fristverlängerung - Dokumentation](../elster-request-for-time-extension/)
