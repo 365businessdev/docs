@@ -22,9 +22,10 @@ Beim Antrag auf Fristverlängerung muss eine Begründung, sowie ein Datum für d
 4. Geben Sie eine **Beschreibung** ein.
 5. Geben Sie ein **Startdatum** ein, für welches die Meldung gilt.<br><br>**Beispiel:**<br>Geben Sie 01.01.2021 an, wenn Sie den Antrag auf Fristverlängerung für eine Abgabe im Jahr 2021 stellen möchten.
 6. Geben Sie ein **Fristverlängerung bis** Datum ein.<br><br>**Beispiel:**<br>Geben Sie 31.03.2021 ein, wenn Sie eine Verlängerung der Abgabefrist bis zum 31.03.2021 beantragen möchten.
-7. Wenn Sie zusätzliche Informationen für die Bearbeitung an das Finanzamt senden möchten, können Sie diese im Feld **Zusätzliche Informationen** erfassen.
-8. Geben Sie im Bereich **Zeile** eine Begründung für den Antrag auf Fristverlängerung ein. Hierbei können Sie mehrere Zeilen verwenden.
-9. Klicken Sie auf **XML-Datei übertragen** um die Steuerdatei einzureichen und elektronisch an die deutschen Steuerbehörden zu übermitteln.
+7. Geben Sie im Feld **Verlängerung beantragt für** an, für welche Steuerart eine Verlängerung beantragt werden kann. Hierfür können Sie über den Button `...` aus der Liste der Steuerarten auswählen oder den Code (z.B. `0200` für Umsatzsteuerjahreserklärung) manuell eingeben.
+8. Wenn Sie zusätzliche Informationen für die Bearbeitung an das Finanzamt senden möchten, können Sie diese im Feld **Zusätzliche Informationen** erfassen.
+9. Geben Sie im Bereich **Zeile** eine Begründung für den Antrag auf Fristverlängerung ein. Hierbei können Sie mehrere Zeilen verwenden.
+10. Klicken Sie auf **XML-Datei übertragen** um die Steuerdatei einzureichen und elektronisch an die deutschen Steuerbehörden zu übermitteln.
 
 > **Wichtig**<br>Für die Steuerdatenart **Antrag auf Fristverlängerung** findet keine automatisierte Berechnung statt. Stattdessen müssen individuelle Begründungen im Bereich **Zeile** angegeben werden.
 
