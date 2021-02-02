@@ -33,5 +33,5 @@ Neben dem ELSTER-Zertifikat muss auch die Zertifikat PIN in Business Central ges
 1. Öffnen Sie die ELSTER Einrichtung über die Business Central Suche.
 2. Klicken Sie auf **Zertifikat PIN setzen**.
 3. Geben Sie das Zertifikatspasswort ein.
-4. Besätigen Sie das Zertifikatspasswort, indem Sie es erneut eingeben.
+4. Bestätigen Sie das Zertifikatspasswort, indem Sie es erneut eingeben.
 5. Klicken Sie **OK**.
