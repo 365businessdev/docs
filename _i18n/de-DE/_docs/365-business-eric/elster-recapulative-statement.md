@@ -12,9 +12,9 @@ In dieser Meldung werden die Bemessungsgrundlagen aller betroffenen Leistungen, 
 7. Wählen Sie welcher MwSt.-Posten Status für die Berechnung genutzt werden soll.<br><br>**Beispiel:**<br>Wenn Sie die *MwSt.-Abrechnung* bereits gebucht haben sind die MwSt.-Posten ggf. abgeschlossen. Sollen die Posten trotzdem berücksichtigt werden, bspw. für eine berichtigte Meldung, so wählen Sie **Offen und geschlossen** im Feld **MwSt.-Posten inkl.**.
 8. Wählen Sie welche Buchungsdaten bei der Ermittlung der MwSt.-Posten berücksichtigt werden müssen. In der Regel wählen Sie den Wert **Innerhalb Periode** aus.
 9. Wenn Sie zusätzliche Informationen für die Bearbeitung an das Finanzamt senden möchten, können Sie diese im Feld **Zusätzliche Informationen** erfassen.
-10. Klicken Sie auf **Berechnen** um die Steuerkennzahlen für die Datenart zu berechnen.
+10. Klicken Sie auf **Berechnen**, um die Steuerkennzahlen für die Datenart zu berechnen.
 11. Prüfen und korrigieren Sie bei Bedarf die ermittelten Werte der Steuerkennzahlen oder erfassen Sie weitere Steuerkennzahlen.
-12. Klicken Sie auf **XML-Datei übertragen** um die Steuerdatei einzureichen und elektronisch an die deutschen Steuerbehörden zu übermitteln.
+12. Klicken Sie auf **XML-Datei übertragen**, um die Steuerdatei einzureichen und elektronisch an die deutschen Steuerbehörden zu übermitteln.
 
 #### Weitere Optionen
 Zusätzlich zu den oben genannten Einstellungen können Sie folgende Optionen setzen:

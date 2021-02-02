@@ -25,7 +25,7 @@ Beim Antrag auf Fristverlängerung muss eine Begründung, sowie ein Datum für d
 7. Geben Sie im Feld **Verlängerung beantragt für** an, für welche Steuerart eine Verlängerung beantragt werden kann. Hierfür können Sie über den Button `...` aus der Liste der Steuerarten auswählen oder den Code (z.B. `0200` für Umsatzsteuerjahreserklärung) manuell eingeben.
 8. Wenn Sie zusätzliche Informationen für die Bearbeitung an das Finanzamt senden möchten, können Sie diese im Feld **Zusätzliche Informationen** erfassen.
 9. Geben Sie im Bereich **Zeile** eine Begründung für den Antrag auf Fristverlängerung ein. Hierbei können Sie mehrere Zeilen verwenden.
-10. Klicken Sie auf **XML-Datei übertragen** um die Steuerdatei einzureichen und elektronisch an die deutschen Steuerbehörden zu übermitteln.
+10. Klicken Sie auf **XML-Datei übertragen**, um die Steuerdatei einzureichen und elektronisch an die deutschen Steuerbehörden zu übermitteln.
 
 > **Wichtig**<br>Für die Steuerdatenart **Antrag auf Fristverlängerung** findet keine automatisierte Berechnung statt. Stattdessen müssen individuelle Begründungen im Bereich **Zeile** angegeben werden.
 

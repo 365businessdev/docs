@@ -20,9 +20,9 @@ Bei Unternehmern mit der Verpflichtung zur monatlichen Abgabe von Umsatzsteuervo
 7. Wählen Sie welcher MwSt.-Posten Status (Offen und/oder geschlossen) für die Berechnung genutzt werden soll.
 8. Wählen Sie welche Buchungsdaten bei der Ermittlung der MwSt.-Posten berücksichtigt werden müssen. In der Regel wählen Sie den Wert **Innerhalb Periode** aus.
 9. Wenn Sie zusätzliche Informationen für die Bearbeitung an das Finanzamt senden möchten, können Sie diese im Feld **Zusätzliche Informationen** erfassen.
-10. Klicken Sie auf **Berechnen** um die Summe der verbleibenden Umsatzsteuer-Vorauszahlungen für das letzte Kalenderjahr und das zu übermittelende 1/11 der Summe zu berechnen.
+10. Klicken Sie auf **Berechnen**, um die Summe der verbleibenden Umsatzsteuer-Vorauszahlungen für das letzte Kalenderjahr und das zu übermittelende 1/11 der Summe zu berechnen.
 11. Prüfen und korrigieren Sie bei Bedarf die ermittelten Werte.
-12. Klicken Sie auf **XML-Datei übertragen** um die Steuerdatei einzureichen und elektronisch an die deutschen Steuerbehörden zu übermitteln.
+12. Klicken Sie auf **XML-Datei übertragen**, um die Steuerdatei einzureichen und elektronisch an die deutschen Steuerbehörden zu übermitteln.
 
 #### Weitere Optionen
 Zusätzlich zu den oben genannten Einstellungen können Sie folgende Optionen setzen:
