@@ -13,6 +13,9 @@ Folgende Informationen dienen als Grundeinrichtung:
 | Fristverlängerung Nr.-Serie | Nummerierung | Gibt die Nummernserie an, die für die Fristverlängerung verwendet wird. | FRISTV (FRISTV0001 - FRISTV9999)|
 | UStVA MwSt.-Abrechnung Vorlage | Umsatzsteuervoranmeldung | Legt die Vorlage für die MwSt.-Abrechnung fest, die für die Berechnung der Steuerzahlen und -werte verwendet werden soll. | *Ermittlung an Hand der existierenden MwSt.-Abrechnungen* | 
 | UStVA MwSt.-Abrechnung Name | Umsatzsteuervoranmeldung | Legt den Namen der MwSt.-Abrechnung fest, der für die Berechnung der Steuerzahlen und -werte verwendet werden soll. | *Ermittlung an Hand der existierenden MwSt.-Abrechnungen* |
+| Dauerfristverlängerung MwSt.-Abrechnung Vorlage | Dauerfristverlängerung | Legt die Vorlage für die MwSt.-Abrechnung fest, die für die Berechnung der Steuerzahlen und -werte verwendet werden soll. |  | 
+| Dauerfristverlängerung MwSt.-Abrechnung Name | Dauerfristverlängerung | Legt den Namen der MwSt.-Abrechnung fest, der für die Berechnung der Steuerzahlen und -werte verwendet werden soll. | 
+ |
 
 #### Zertifikat
 Ab dem 01.01.2013 kann die Umsatzsteuervoranmeldung, der Antrag auf Dauerfristverlängerung, die Anmeldung auf Sondervorauszahlung und die Lohnsteueranmeldung nur noch mit elektronischem Zertifikat übermittelt werden.
