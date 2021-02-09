@@ -1,1 +1,1 @@
-#### Mehr erfahren ####
+Coming soon . . .
