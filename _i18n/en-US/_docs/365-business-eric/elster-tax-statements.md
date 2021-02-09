@@ -26,10 +26,13 @@ Die Berechnung der Bemessungsgrundlagen und MwSt.-Beträge werden dabei von der 
 9. Klicken Sie auf **XML-Datei übertragen** um die Steuerdatei einzureichen und elektronisch an die deutschen Steuerbehörden zu übermitteln.
 
 Die Datenartspezifische Dokumentation finden Sie hier:
-- **Datenart - USt.-Voranmeldung** - [Dokumentation](../elster-sales-vat-adv-notification/)
-- **Datenart - Zusammenfassende Meldung** - [Dokumentation](../elster-recapulative-statement/)
-- **Datenart - Dauerfristverlängerung** - [Dokumentation](../elster-permanent-time-extension/)
-- **Datenart - Antrag auf Fristverlängerung** - [Dokumentation](../elster-request-for-time-extension/)
+
+| Datenart  | Dokumentation |
+| --- | --- |
+| **USt.-Voranmeldung** | [Dokumentation](../elster-sales-vat-adv-notification/) | 
+| **Zusammenfassende Meldung** | [Dokumentation](../elster-recapulative-statement/) | 
+| **Dauerfristverlängerung** | [Dokumentation](../elster-permanent-time-extension/) | 
+| **Antrag auf Fristverlängerung** | [Dokumentation](../elster-request-for-time-extension/) | 
 
 #### Dateien
 Auf Basis der erfassten Daten wird ein sogenanntes **XML Übertragungsdokument** (*kurz XML-Datei*) erstellt. Diese Datei wird im rechten Bereich der ELSTER Steuerdaten Karte im Bereich **Dateien** engezeigt und kann heruntergeladen werde.
