@@ -4,13 +4,14 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-eric/
 ---
 
-#### Version 17.3.0.0
+#### Version 17.3.42.2083
  - *ELSTER Tax Data*
    - New User Interface.
    - Added Tax Figure Calculation.
    - Data Migration from Sales VAT Adv. Notification (UStVA) & VAT Reports (ZMDO).
    - Added Tax Data File (for XML Submission Document & Submission Confirmation).
  - Added support for Premanent Time Limit Extension (Dauerfristverlängerung).
+ - Added support for Request of Time Extension (Fristverlängerung).
  - Optimzed validation error handling.
 
  >**Important**<br>
