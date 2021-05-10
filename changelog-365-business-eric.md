@@ -4,6 +4,10 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-eric/
 ---
 
+### Version 17.4.46.2218
+ - Add support for undefined VAT Statement Line Amount Type.\
+   *(see CRONUS Demo Company Setup.)*
+
 #### Version 17.3.45.2186
  - Minor bugfix Recapulative Statement (ZMDO)
  - Added Tax Figure `50` and `37` for Sales VAT Adv. Notification (UStVA) Submission 2021
