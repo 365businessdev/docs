@@ -37,6 +37,7 @@ titles:
   elster-tax-statements: ELSTER Steuerdaten
   elster-tax-statement-card: ELSTER Steuerdaten Karte
   elster-tax-data-type: ELSTER Steuerdatenarten
+  elster-validation-message: ELSTER Validierungsmeldungen
 langs:
   german: Deutsch
   english: English
