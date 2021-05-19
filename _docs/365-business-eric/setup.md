@@ -2,7 +2,7 @@
 title: setup
 category: 365-business-eric
 permalink: /365-business-eric/setup/
-order: 4
+order: 5
 
 namespace: 365-business-eric
 ---

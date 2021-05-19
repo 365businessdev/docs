@@ -4,12 +4,12 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-eric/
 ---
 
-### Version 17.5.53.2489
+#### Version 17.5.53.2489
  - Add ELSTER Validation Error to Tax Data Card
  - Retrieve Validation Errors from ELSTER
  - Fix overflow issues in Data Supplier and Company Information
 
-### Version 17.4.46.2218
+#### Version 17.4.46.2218
  - Add support for undefined VAT Statement Line Amount Type.\
    *(see CRONUS Demo Company Setup.)*
 
