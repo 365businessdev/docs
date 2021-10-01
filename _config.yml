@@ -89,3 +89,5 @@ defaults:
 types:
   - minor
   - major
+
+exclude: ["vendor"]
