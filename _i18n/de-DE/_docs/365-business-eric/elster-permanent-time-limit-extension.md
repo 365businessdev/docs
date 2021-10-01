@@ -34,6 +34,8 @@ Zusätzlich zu den oben genannten Einstellungen können Sie folgende Optionen se
 
 ### Siehe auch
 - [ELSTER Steuerdaten](../elster-tax-statements)
+- [MwSt.-Abrechnung Einrichtung](../vat-statement-setup/)
 - [Datenart - USt.-Voranmeldung - Dokumentation](../elster-sales-vat-adv-notification/)
 - [Datenart - Zusammenfassende Meldung - Dokumentation](../elster-recapulative-statement/)
 - [Datenart - Antrag auf Fristverlängerung - Dokumentation](../elster-request-for-time-extension/)
+- [Datenart - Umsatzsteuererklärung - Dokumentation](../elster-annual-vat-return/)

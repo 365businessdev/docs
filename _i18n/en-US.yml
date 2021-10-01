@@ -33,12 +33,14 @@ titles:
   elster-recapulative-statement: Recapulative Statement
   elster-permanent-time-limit-extension: Permanent Time Limit Extension
   elster-request-for-time-extension: Request for Time Extension
+  elster-annual-vat-return: Annual VAT Return
   365-business-api-setup: 365 business API Setup
   company-information: Company Information
   elster-tax-statements: ELSTER Tax Statements
   elster-tax-statement-card: ELSTER Tax Statement Card
   elster-tax-data-type: ELSTER Tax Data Type
   elster-validation-message: ELSTER Validation Message
+  vat-statement-setup: VAT Statement Setup
   audience-lists: Audience Lists
   audience: Audience
   how-to-create-mailchimp-api-key: How to create Mailchimp API Key

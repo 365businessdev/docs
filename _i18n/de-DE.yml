@@ -33,12 +33,14 @@ titles:
   elster-recapulative-statement: Zusammenfassende Meldung
   elster-permanent-time-limit-extension: Dauerfristverlängerung
   elster-request-for-time-extension: Antrag auf Fristverlängerung
+  elster-annual-vat-return: Umsatzsteuererklärung
   365-business-api-setup: 365 business API Einrichtung
   company-information: Firmendaten
   elster-tax-statements: ELSTER Steuerdaten
   elster-tax-statement-card: ELSTER Steuerdaten Karte
   elster-tax-data-type: ELSTER Steuerdatenarten
   elster-validation-message: ELSTER Validierungsmeldungen
+  vat-statement-setup: MwSt.-Abrechnung Einrichtung
   audience-lists: Abonnentenlisten
   audience: Abonnenten
   how-to-create-mailchimp-api-key: Mailchimp API Schlüssel erstellen

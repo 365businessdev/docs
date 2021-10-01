@@ -31,6 +31,7 @@ Die Datenartspezifische Dokumentation finden Sie hier:
 | **Zusammenfassende Meldung** | [Dokumentation](../elster-recapulative-statement/) | 
 | **Dauerfristverlängerung** | [Dokumentation](../elster-permanent-time-extension/) | 
 | **Antrag auf Fristverlängerung** | [Dokumentation](../elster-request-for-time-extension/) | 
+| **Umsatzsteuererklärung** | [Dokumentation](../elster-annual-vat-return/) |
 
 #### Dateien
 Auf Basis der erfassten Daten wird ein sogenanntes **XML Übertragungsdokument** (*kurz XML-Datei*) erstellt. Diese Datei wird im rechten Bereich der ELSTER Steuerdaten Karte im Bereich **Dateien** angezeigt und kann heruntergeladen werde.
@@ -44,4 +45,5 @@ Darüber hinaus werden auch die Rückmeldungen der ELSTER Server, nach erfolgter
  - [Datenart - USt.-Voranmeldung - Dokumentation](../elster-sales-vat-adv-notification/)
  - [Datenart - Zusammenfassende Meldung - Dokumentation](../elster-recapulative-statement/)
  - [Datenart - Dauerfristverlängerung - Dokumentation](../elster-permanent-time-extension/)
-- [Datenart - Antrag auf Fristverlängerung - Dokumentation](../elster-request-for-time-extension/)
+ - [Datenart - Antrag auf Fristverlängerung - Dokumentation](../elster-request-for-time-extension/)
+ - [Datenart - Umsatzsteuererklärung - Dokumentation](../elster-annual-vat-return/)
