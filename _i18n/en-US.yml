@@ -10,6 +10,7 @@ category:
   365-business-eric: 365 business ERiC
   365-business-pdf: 365 business PDF
   365-business-address-validation: 365 business Address Validation
+  365-business-mailchimp-integration: 365 business Mailchimp Integration
 titles:
   al-developer: AL Implementation Guide
   search: Search
@@ -38,6 +39,10 @@ titles:
   elster-tax-statement-card: ELSTER Tax Statement Card
   elster-tax-data-type: ELSTER Tax Data Type
   elster-validation-message: ELSTER Validation Message
+  audience-lists: Audience Lists
+  audience: Audience
+  how-to-create-mailchimp-api-key: How to create Mailchimp API Key
+  synchronization: Synchronization
 langs:
   german: German
   english: English

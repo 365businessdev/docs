@@ -15,6 +15,7 @@ Following the in this documentation covered apps are listed:
 | [365 business Barcode](./365businessbarcode/README.md) | Encode and decode 1D- and 2D-barcodes. |
 | [365 business PDF](./365businesspdf/README.md) | Digitally sign, apply stationery and concatenate PDF documents. |
 | [365 business Address Validation](./365businessaddressvalidation/README.md) | Validate and complete address data. |
+| [365 business Mailchimp Integration](./365businessmailchimpintegration/README.md) | Interface between Mailchimp and Business Central. |
 
 #### Frequently Asked Questions
 
