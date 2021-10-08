@@ -30,15 +30,15 @@ This sample shows how to call the ApplyStationeryToDocument method.
 	begin	
 	    setupTable.Get();
 	
-	    // select stationery configuration to be used.
-        stationeryConfiguration.Reset();
-        stationeryConfigurationList.SetRecord(stationeryConfiguration);
-        stationeryConfigurationList.LookupMode(true);
-        if (not (stationeryConfigurationList.RunModal() = Action::LookupOK)) then
-            exit;
-        stationeryConfigurationList.GetRecord(stationeryConfiguration);	
+		// select stationery configuration to be used.
+		stationeryConfiguration.Reset();
+		stationeryConfigurationList.SetRecord(stationeryConfiguration);
+		stationeryConfigurationList.LookupMode(true);
+		if (not (stationeryConfigurationList.RunModal() = Action::LookupOK)) then
+			exit;
+		stationeryConfigurationList.GetRecord(stationeryConfiguration);	
 	
-	    pdfApi.ApplyStationeryToDocument(document, stationeryConfiguration);	
+		pdfApi.ApplyStationeryToDocument(document, stationeryConfiguration);	
 	end;
 ```
 

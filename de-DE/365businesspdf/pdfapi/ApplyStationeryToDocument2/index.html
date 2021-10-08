@@ -243,15 +243,15 @@ PDF Stationery Configuration.</p>
 	<span class="nx">begin</span>	
 	    <span class="nx">setupTable</span><span class="p">.</span><span class="nx">Get</span><span class="p">();</span>
 	
-	    <span class="c1">// select stationery configuration to be used.</span>
-        <span class="nx">stationeryConfiguration</span><span class="p">.</span><span class="nx">Reset</span><span class="p">();</span>
-        <span class="nx">stationeryConfigurationList</span><span class="p">.</span><span class="nx">SetRecord</span><span class="p">(</span><span class="nx">stationeryConfiguration</span><span class="p">);</span>
-        <span class="nx">stationeryConfigurationList</span><span class="p">.</span><span class="nx">LookupMode</span><span class="p">(</span><span class="kc">true</span><span class="p">);</span>
-        <span class="k">if</span> <span class="p">(</span><span class="nx">not</span> <span class="p">(</span><span class="nx">stationeryConfigurationList</span><span class="p">.</span><span class="nx">RunModal</span><span class="p">()</span> <span class="o">=</span> <span class="nx">Action</span><span class="p">::</span><span class="nx">LookupOK</span><span class="p">))</span> <span class="nx">then</span>
-            <span class="nx">exit</span><span class="p">;</span>
-        <span class="nx">stationeryConfigurationList</span><span class="p">.</span><span class="nx">GetRecord</span><span class="p">(</span><span class="nx">stationeryConfiguration</span><span class="p">);</span>	
+		<span class="c1">// select stationery configuration to be used.</span>
+		<span class="nx">stationeryConfiguration</span><span class="p">.</span><span class="nx">Reset</span><span class="p">();</span>
+		<span class="nx">stationeryConfigurationList</span><span class="p">.</span><span class="nx">SetRecord</span><span class="p">(</span><span class="nx">stationeryConfiguration</span><span class="p">);</span>
+		<span class="nx">stationeryConfigurationList</span><span class="p">.</span><span class="nx">LookupMode</span><span class="p">(</span><span class="kc">true</span><span class="p">);</span>
+		<span class="k">if</span> <span class="p">(</span><span class="nx">not</span> <span class="p">(</span><span class="nx">stationeryConfigurationList</span><span class="p">.</span><span class="nx">RunModal</span><span class="p">()</span> <span class="o">=</span> <span class="nx">Action</span><span class="p">::</span><span class="nx">LookupOK</span><span class="p">))</span> <span class="nx">then</span>
+			<span class="nx">exit</span><span class="p">;</span>
+		<span class="nx">stationeryConfigurationList</span><span class="p">.</span><span class="nx">GetRecord</span><span class="p">(</span><span class="nx">stationeryConfiguration</span><span class="p">);</span>	
 	
-	    <span class="nx">pdfApi</span><span class="p">.</span><span class="nx">ApplyStationeryToDocument</span><span class="p">(</span><span class="nb">document</span><span class="p">,</span> <span class="nx">stationeryConfiguration</span><span class="p">);</span>	
+		<span class="nx">pdfApi</span><span class="p">.</span><span class="nx">ApplyStationeryToDocument</span><span class="p">(</span><span class="nb">document</span><span class="p">,</span> <span class="nx">stationeryConfiguration</span><span class="p">);</span>	
 	<span class="nx">end</span><span class="p">;</span>
 </code></pre></div></div>
 
