@@ -1,26 +1,26 @@
 # SignDocument Method
 Digitally sign PDF stream.
 
-## Syntax
+#### Syntax
 ```javascript
 	SignDocument(var document: Codeunit "Temp Blob"; certificate: Codeunit "Temp Blob"; certificatePin: Text)
 ```
 
-## Parameters
-### *document*
+#### Parameters
+##### *document*
 Type: Codeunit "Temp Blob"<br/>
 "Temp Blob" Codeunit containing the PDF stream.
-### *certificate*
+##### *certificate*
 Type: Codeunit "Temp Blob"<br/>
 "Temp Blob" Codeunit containing the certificate file.
-### *certificatePin*
+##### *certificatePin*
 Type: Text<br/>
 Certificate PIN as string.
 
-## Return Value
-### *None*
+#### Return Value
+##### *None*
 
-## Example
+#### Example
 This sample shows how to call the SignDocument method.
 ```javascript
 	procedure SignDocument(var document: Codeunit "Temp Blob")	
