@@ -24,9 +24,9 @@ This sample shows how to call the ApplyStationeryToDocument method.
 ```javascript
 	procedure ApplyStationeryToDocument(var document: Codeunit "Temp Blob")	
 	var	
-        stationeryConfiguration: Record "bdev.PDF Stationery Config.";	
-	    pdfApi: Codeunit "bdev.PDF API";
-        stationeryConfigurationList: Page "bdev.PDF Stat. Config. List";
+		stationeryConfiguration: Record "bdev.PDF Stationery Config.";	
+		pdfApi: Codeunit "bdev.PDF API";
+		stationeryConfigurationList: Page "bdev.PDF Stat. Config. List";
 	begin	
 	    setupTable.Get();
 	

@@ -237,9 +237,9 @@ PDF Stationery Configuration.</p>
 <p>This sample shows how to call the ApplyStationeryToDocument method.</p>
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	<span class="nx">procedure</span> <span class="nx">ApplyStationeryToDocument</span><span class="p">(</span><span class="kd">var</span> <span class="nb">document</span><span class="p">:</span> <span class="nx">Codeunit</span> <span class="dl">"</span><span class="s2">Temp Blob</span><span class="dl">"</span><span class="p">)</span>	
 	<span class="kd">var</span>	
-        <span class="nx">stationeryConfiguration</span><span class="p">:</span> <span class="nx">Record</span> <span class="dl">"</span><span class="s2">bdev.PDF Stationery Config.</span><span class="dl">"</span><span class="p">;</span>	
-	    <span class="nl">pdfApi</span><span class="p">:</span> <span class="nx">Codeunit</span> <span class="dl">"</span><span class="s2">bdev.PDF API</span><span class="dl">"</span><span class="p">;</span>
-        <span class="nl">stationeryConfigurationList</span><span class="p">:</span> <span class="nx">Page</span> <span class="dl">"</span><span class="s2">bdev.PDF Stat. Config. List</span><span class="dl">"</span><span class="p">;</span>
+		<span class="nx">stationeryConfiguration</span><span class="p">:</span> <span class="nx">Record</span> <span class="dl">"</span><span class="s2">bdev.PDF Stationery Config.</span><span class="dl">"</span><span class="p">;</span>	
+		<span class="nl">pdfApi</span><span class="p">:</span> <span class="nx">Codeunit</span> <span class="dl">"</span><span class="s2">bdev.PDF API</span><span class="dl">"</span><span class="p">;</span>
+		<span class="nl">stationeryConfigurationList</span><span class="p">:</span> <span class="nx">Page</span> <span class="dl">"</span><span class="s2">bdev.PDF Stat. Config. List</span><span class="dl">"</span><span class="p">;</span>
 	<span class="nx">begin</span>	
 	    <span class="nx">setupTable</span><span class="p">.</span><span class="nx">Get</span><span class="p">();</span>
 	
