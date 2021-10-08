@@ -1,23 +1,23 @@
 # ApplyStationeryToDocument Method
 Apply stationery document to PDF stream.
 
-### Syntax
+#### Syntax
 ```javascript
 	ApplyStationeryToDocument(var document: Codeunit "Temp Blob"; stationery: Codeunit "Temp Blob")
 ```
 
-### Parameters
-#### *document*
+#### Parameters
+##### *document*
 Type: Codeunit "Temp Blob"<br/>
 "Temp Blob" Codeunit containing the PDF stream.
-#### *stationery*
+##### *stationery*
 Type: Codeunit "Temp Blob"<br/>
 "Temp Blob" Codeunit containing the stationery document stream.
 
-### Return Value
-#### *None*
+#### Return Value
+##### *None*
 
-### Example
+#### Example
 This sample shows how to call the ApplyStationeryToDocument method.
 ```javascript
 	procedure ApplyStationeryToDocument(var document: Codeunit "Temp Blob")	

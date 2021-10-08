@@ -1,23 +1,23 @@
 # ConcatenateDocument Method
 Concatenate PDF document to PDF stream.
 
-### Syntax
+#### Syntax
 ```javascript
 	ConcatenateDocument(var document: Codeunit "Temp Blob"; document2: Codeunit "Temp Blob")
 ```
 
-### Parameters
-#### *document*
+#### Parameters
+##### *document*
 Type: Codeunit "Temp Blob"<br/>
 "Temp Blob" Codeunit containing the PDF stream.
-#### *document2*
+##### *document2*
 Type: Codeunit "Temp Blob"<br/>
 "Temp Blob" Codeunit containing the document to concatenate with the base document.
 
-### Return Value
-#### *None*
+#### Return Value
+##### *None*
 
-### Example
+#### Example
 This sample shows how to call the ConcatenateDocument method.
 ```javascript
 	procedure ConcatenateDocument(var document: Codeunit "Temp Blob")	
