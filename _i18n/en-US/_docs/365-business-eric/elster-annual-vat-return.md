@@ -26,7 +26,15 @@ Zusätzlich zu den oben genannten Einstellungen können Sie folgende Optionen se
 | Testübertragung | Gibt an, dass diese Steuermeldung nur zu Testzwecken dient. Diese Steuerübertragung wird nach der Übermittlung von ELSTER gelöscht und nicht verarbeitet. |
 | Berichtigte Anmeldung | Gibt an, dass es sich bei dieser Steuermeldung um eine korrigierte Mitteilung handelt. Nachdem Sie eine Steuermeldung für einen bestimmten Zeitraum erfolgreich übertragen haben, müssen Sie diese Option einstellen, damit Sie eine aktualisierte Steuermeldung übertragen können. |
 | Erstattungsbetrag verrechnen | Gibt an, ob ein möglicher Erstattungsbetrag mit der Zahlungsgebühr auf dieser Umsatzsteuervoranmeldung verrechnet werden soll. |
-| Lastschrifteinzug widerrufen | Gibt an, dass das Lastschriftmandat für diese Steuermeldung widerrufen wird. |
+
+#### Einschränkungen
+In der aktuellen Version der USt.-Erklärung für 365 business ERiC gibt es funktionale Einschränkungen, die die Abgabe gewisser Steuervorfälle nicht erlauben. Diese Einschränkungen werden in kommenden Version von 365 business ERiC aufgehoben. Für weitere Informationen prüfen Sie bitte die Seite [New and Planned](../../new-and-planned/).
+
+| Funktion | Beschreibung |
+| --- | --- |
+| Anlagen | Die Abgabe von Anlagen (bspw. Anlage UN) wird aktuell nicht unterstützt. |
+| 2. Zeitraum | Die Angabe vom "2. Zeitraum" wird aktuell nicht unterstützt. |
+| Ergänzende Angaben | Die Angabe von ergänzenden Informationen in einem separaten Dokument mit der Überschrift "Ergänzende Angaben zur Steuererklärung" (Vordruckzeile 27) wird aktuell nicht unterstützt. |
 
 ### Siehe auch
 - [ELSTER Steuerdaten](../elster-tax-statements)
@@ -34,3 +42,4 @@ Zusätzlich zu den oben genannten Einstellungen können Sie folgende Optionen se
 - [Datenart - Zusammenfassende Meldung - Dokumentation](../elster-recapulative-statement/)
 - [Datenart - Dauerfristverlängerung - Dokumentation](../elster-permanent-time-extension/)
 - [Datenart - Antrag auf Fristverlängerung - Dokumentation](../elster-request-for-time-extension/)
+- [New and Planned](../../new-and-planned/)
