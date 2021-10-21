@@ -1,12 +1,18 @@
-#### Was ist die 365 business Address Validation App?
+Die 365 business Address Validation App bietet Ihnen die Möglichkeiten Adressdaten in Microsoft Dynamics 365 Business Central direkt zu überprüfen und zu vervollständigen.
 
-Die 365 business Address Validation App stellt Ihnen die folgenden Funktionen zur Verfügung:
+Die aktuelle Version von 365 business Address Validation bietet eine Integration in zahlreiche Stammdatenbereiche. Aktuell bestehen folgende Integrationen:
+ 
+ - Kontakt
+ - Debitor
+ - Kreditor
+ - Ressource
+ 
+Darüber hinaus können auch Adresseingaben in Einkaufs- und Verkaufsbelegen direkt geprüft werden.
 
-- Adressüberprüfung und
-- Adressvervollständigung
+> **Hinweis**<br>Die bereitgestellten Integrationen innerhalb der 365 business Address Validation App lassen sich über die Seite **365 business API Einrichtung** aktivieren und deaktivieren.<br><br>Erfahren Sie mehr unter [Erste Schritte](../365-business-address-validation/get-started/).
 
-für Kontakte, Debitoren, Kreditoren, Ressourcen, Verkaufsbelege, Einkaufsbelege und mehr.
-Die Adressvalidierung wird in Echtzeit nach Eingabe oder Änderung einer Adresse automatisch ausgeführt und ermöglicht es Ihnen so die Qualität Ihrer Adressdaten zu erhöhen.
+Die Adressvalidierung findet automatisch statt und wird in Echtzeit nach Eingabe oder Änderung einer Adresse ausgeführt. Dies ermöglicht Ihnen die Qualität Ihrer Adressdaten ohne zusätzliche manuelle Prozesse zu erhöhen.
+
 #### Wofür brauche ich die 365 business Address Validation App?
 
 Einwandfreie Kundenstammdaten sind die Voraussetzung dafür, dass Sie Ihren Kunden auch wirklich erreichen. Adressen kommen auf vielen Wegen in Ihr Unternehmen: Sie werden via Telefon, Vertrieb, Briefkontakt, E-Mail, Internet etc. übermittelt und gespeichert. Dabei entstehen schnell Tippfehler oder Verhörer, die dann ungeprüft in den Datenbestand übernommen werden. Das kann weitreichende Folgen haben.
@@ -18,6 +24,8 @@ Mit 365 business Address Validation prüfen, korrigieren und aktualisieren Sie I
 #### Welche Länder und Sprachen werden unterstützt?
 
 Die Adressvalidierung kann in den verschiedensten Sprachen und Schriftsätzen erfolgen, wie beispielsweise Arabisch, Griechisch, Kyrillisch oder Hangul. 
-Auf Grund der umfangreichen Referenzdatenbanken zur Prüfung werden zudem weltweite Adressenprüfungen unterstützt.
+Auf Grund der umfangreichen Referenzdatenbanken zur Prüfung werden zudem weltweite Adressprüfungen unterstützt.
 Der detaillierte, vielfach hausnummerngenaue Adressabgleich sorgt zusätzlich für eine hohe Qualität der Adressdaten.
 
+### Siehe auch 
+ - [Erste Schritte](../365-business-address-validation/get-started/)

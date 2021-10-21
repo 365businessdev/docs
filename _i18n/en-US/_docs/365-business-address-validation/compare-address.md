@@ -1,9 +1,12 @@
-On the **Address data comparison** page, the checked address fields are displayed with the determined address data.
+The **Compare Address** page displays the validated address fields with the determined address data.
 
-Via the action *Apply changes* the changed address values are applied to the source data record (e.g. customer).
+![Address Validation](/assets/images/365-business-address-validation/address-compare.en-US.png)
 
-The *Discard changes* action discards the changes, data is not changed in the source data record.
+The action *Apply Changes* applies the changed address values to the source data record (e.g. customer).
 
-#### Address data
-Via the AssistEdit **...** next to the address fields, the suggested field value can be changed manually.
+The action *Discard Changes* discards the changes, data is not changed in the source data record.
 
+##### How can I change suggested address data?
+
+The AssistEdit `...` button next to the respective address field can be used to manually change the suggested field value. 365 business Address Validaition saves this manual adjustment for the future to prevent repeated corrections.
+Your manual input will be defined as default.
