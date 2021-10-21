@@ -28,7 +28,25 @@ All 365 business development apps are versioned based on the following scheme:
 
 | Feature | Description | Planned Release |
 | --- | --- | --- |
-| Support for annual sales tax return (Umsatzsteuer-Jahreserklärung) | Add support to create and submit ELSTER message `Umsatzsteuer-Jahreserklärung`. | H2-2021 |
+| Tax Statement Preview | View your Tax Statement directly in Dynamics 365 Business Central or print the filled statement. | TBD |
+
+##### 365 business Address Validation
+
+| Feature | Description | Planned Release |
+| --- | --- | --- |
+| Optimized process flow | Optimizing process flow to allow more comfortable address validation and completion within Business Central. | H2-2021 |
+
+##### 365 business Print Agent
+
+We plan to release the 365 business Print Agent in Q1-2022. This module will allow you to use local and virtual printers within Dynamics 365 Business Central, w/o additional dialogs, manual download etc. Additionally it supports to predefine paper trays, duplex mode and more and just use it in Report Selection or your custom report.
+
+> **Planned Release**: Q1-2022
+
+##### 365 business Document Recognition
+
+With 365 business Document Recognition you get a full-featured OCR detection incoming document workflow within Dynamics 365 Business Central, powered by the 365 business API Document Recognition service.
+
+> **Planned Release**: H1-2022
 
 ### See also
 
