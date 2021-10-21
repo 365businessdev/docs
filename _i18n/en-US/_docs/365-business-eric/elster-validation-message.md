@@ -1,7 +1,5 @@
 > This page is not available in the selected language. The page is available in **German**. Please select other language to display.
 
-> **Hinweis**<br>ELSTER Validierungsmeldungen wurden mit der 365 business ERiC Version 17.5 eingeführt.<br>In früheren Versionen wurde nur der grundsätzliche Plausibilitätsprüffehler zurückgemeldet.<br><br>Bitte prüfen Sie, ob Sie über die aktuellste Version von 365 business ERiC verfügen.
-
 Unter **ELSTER Validierungsmeldungen** werden in der ELSTER Steuerdatenkarte im Fall der fehlerhaften Übertragung sämtliche Plausibilitäts- oder Validierungsfehler und -warnungen zu einer Steuerdatenübermittlung angezeigt.
 
 ![](/assets/images/365-business-eric/elster-validation-message.png)
