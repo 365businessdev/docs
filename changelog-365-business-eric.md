@@ -4,6 +4,10 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-eric/
 ---
 
+#### Version 17.6.67.3691
+ - Add support for Annual VAT Return (USt)
+ - Add additional validation error handling procedures to support customer in solving issues
+
 #### Version 17.5.53.2489
  - Add ELSTER Validation Error to Tax Data Card
  - Retrieve Validation Errors from ELSTER
