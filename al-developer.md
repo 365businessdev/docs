@@ -16,6 +16,7 @@ Following the in this documentation covered apps are listed:
 | [365 business PDF](./365businesspdf/README.md) | Digitally sign, apply stationery and concatenate PDF documents. |
 | [365 business Address Validation](./365businessaddressvalidation/README.md) | Validate and complete address data. |
 | [365 business Mailchimp Integration](./365businessmailchimpintegration/README.md) | Interface between Mailchimp and Business Central. |
+| [Find & Replace](./find-and-replace/README.md) | Find & Replace functionality for Microsoft Dynamics 365 Business Central. |
 
 #### Frequently Asked Questions
 
