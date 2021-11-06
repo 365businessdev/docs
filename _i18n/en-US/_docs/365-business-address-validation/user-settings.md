@@ -2,6 +2,8 @@ User settings are used to specify or adjust the behavior of the address validati
 
 > **Note**<br>As administrator, with the permission set `SUPER`, you can change or define global settings and settings of other users.
 
+![User Settings](/assets/images/365-business-address-validation/user-settings.en-US.png)
+
 ##### Which settings are supported?
 
 In the current version the following settings are supported:
