@@ -91,6 +91,18 @@
 					
 						<li class="nav-item top-level ">
 							
+							<a href="/de-DE/365-business-al-extension-manager/">365 business AL Extension Manager</a>
+							<ul>
+								
+									 
+									
+									<li class="nav-item "><a href="/de-DE/365-business-al-extension-manager/get-started/">Erste Schritte</a></li>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
 							<a href="/de-DE/365-business-api/">365 business API</a>
 							<ul>
 								
@@ -302,6 +314,40 @@
 						"category": "",
 						"url": " /365-business-address-validation/user-settings/",
 						"content": "Benutzer Einstellungen dienen dazu das Verhalten der Adressvalidierung pro Benutzer zu spezifizieren bzw. anzupassen.\n\n\n  HinweisAls Administrator, mit dem Berechtigungssatz SUPER, können Sie globale Einstellungen und Einstellungen anderer Benutzer verändern oder definieren.\n\n\n\n\nWelche Einstellungen werden unterstützt?\n\nIn der aktuellen Version werden folgende Einstellungen unterstützt:\n\n\n  \n    \n      Einstellung\n      Beschreibung\n      Standardwert\n      Mindestversion\n    \n  \n  \n    \n      Adressänderungen immer anwenden\n      Gibt an, dass Änderungen durch die Adressvalidierung und -vervollständigung automatisch und ohne vorherige Prüfung über den Adressdatenvergleich angewandt werden.\n      Nein\n      17.4\n    \n  \n\n\nWas sind globale Einstellungen?\n\nGlobale Einstellungen werden für alle Benutzer im System angewandt, sofern diese nicht eine spezifische Einstellung vorgenommen haben. Bei globale Einstellungen bleibt der Wert im Feld Benutzer ID leer.\n\nSiehe auch\n\n  Adressdatenvergleich"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"365-business-al-extension-manager-get-started": {
+						"id": "365-business-al-extension-manager-get-started",
+						"title": "365 business AL Extension Manager  - Erste Schritte",
+						"category": "",
+						"url": " /365-business-al-extension-manager/get-started/",
+						"content": "Wie verbinde ich mich zu meiner Microsoft Dynamics 365 Business Central Instanz?\n\nNach dem Start der Anwendung erscheint der Connection Manager, indem die Verbindungsdaten zur Microsoft Dynamics 365 Business Central Server Instanz eingegeben werden.\n\n\n\nDie Einstellungen können anschließend gespeichert werden.\n\n\n  HinweisFür die Kommunikation wird ein aktivierter OData-/API-Service und Development Service an der Microsoft Dynamics 365 Business Central Server Instanz benötigt.\n\n\nMit Verbinden wird eine Verbindung zur Serverinstanz aufgebaut und die installierten Erweiterungen werden heruntergeladen und angezeigt.\n\nWie verbinde ich mit mit einer Business Central Instanz hinter einem Reverse Proxy?\n\nWählen Sie im Verbindungsmanager die Option Traefik benutzen um sich mit einer Microsoft Dynamics 365 Business Central Server Instanz zu verbinden, die hinter einem Traefik Reverse Proxy betrieben wird.\n\nVerwenden Sie als Instanzname ausschließlich den tatsächlichen Instanznamen. Zusätze, die im Rahmen der Reverse Proxy Regeln festgelegt werden, werden automatisch angewandt.\n\nWie verbinde ich mich mit einer Microsoft SaaS Sandbox?\n\nAktuell wird die Verbindung mit einer Microsoft SaaS Sandbox für Microsoft Dynamics 365 Business Central nicht unterstützt.\n\nWas ist die 365 business Automation API App?\n\nBei der Verbindung mit einer Microsoft Dynamics 365 Business Central Service Instanz wird geprüft, ob die Erweiterung 365 business Automation API App installiert ist. Diese App stellt zusätzliche Funktionalitäten bereit für die Installation, Deinstallation und Abhängigkeitsdiagramme.\n\nDie Erweiterung kann über Aufruf App Automation API installieren direkt installiert werden. Dies wird empfohlen, da andernfalls zum Beispiel Server Runtime Informationen vom Service nicht gelesen werden können.\n\nWie installiere ich Erweiterungen über den AL Extension Manager?\n\nZur Installation einer oder mehrerer Erweiterungen oder Partner Apps, gehen Sie bitte wie folgt vor:\n\n\n  \n    Nachdem Sie sich mit einer Microsoft Dynamics 365 Business Central Server Instanz verbunden haben, klicken Sie im Menüband auf die Aktion Extension hochladen.\n  \n  \n    Es öffnet sich ein Dateiauswahl Dialog, in dem Sie nun beliebig viele *.app Dateien auswählen können.\n  \n  Die Anwendung analysiert die Erweiterungen und liest die Abhängigkeiten und Bedingungen, wie bspw. Server Runtime Version, aus.\n    \n      HinweisHierbei werden Ihnen Warnungen und Fehler direkt angezeigt. So sehen Sie bspw. vor der eigentlichen Installation ob alle Abhängigkeiten erfüllt sind oder die Server Runtime Version kompatibel mit der Runtime Version der Erweiterung ist.\n    \n  \n  Klicken Sie auf Upload um die ausgewählten Erweiterungen oder Partner Apps zu installieren.\n\n\nWie deinstalliere ich Erweiterungen über den AL Extension Manager?\n\nÜber den Button Extension entfernen im Hauptfenster des AL-Extension Managers wird die ausgewählte Erweiterung in Microsoft Dynamics 365 Business Central deinstalliert und die Veröffentlichung aufgehoben (Unpublish)*, dabei wird geprüft ob ggf. abhängige Erweiterungen ebenfalls deinstalliert werden.\n\n\n\n\n  WichtigZum Aufheben der Veröffentlichung einer Erweiterung (Unpublish) ist die 365 business App Automation API Erweiterung (im Lieferumfang enthalten) erforderlich.\n\n\nHierbei werden sämtliche Abhängigkeiten berücksichtigt und entsprechend aufgelöst. Sollte es notwendig sein andere AL-Erweiterungen zu deinstallieren, so wird der Anwender entsprechend darüber informiert und die Deinstallation wird automatisch durchgeführt."
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"365-business-al-extension-manager": {
+						"id": "365-business-al-extension-manager",
+						"title": "365 business AL Extension Manager  - Einführung",
+						"category": "",
+						"url": " /365-business-al-extension-manager/",
+						"content": "Mit dem 365 business AL Extension Manager können Sie einfach und unkompliziert Erweiterungen und Partner Apps für Microsoft Dynamics 365 Business Central installieren, aktualisieren und deinstallieren. All dies in einer intuitiven Benutzeroberfläche.\n\nWozu dient der AL Extension Manager?\n\nMit Einführung der Microsoft Dynamics 365 Business Central Erweiterungen (*.app) und der Umstellung von C/SIDE auf Visual Studio Code hat sich der Prozess zur Implementierung von Anpassungen und Erweiterungen grundlegend verändert.\n\nDiese Veränderung bringt gerade Consultants in On-Premise Umgebungen immer wieder in die Situation, dass Sie mit Hilfe von PowerShell CmdLets Erweiterungen selbst publizieren und installieren müssen.\nGerade auch die Berücksichtigung der Abhängigkeiten zwischen Erweiterungen führt dabei immer wieder zu Problemen, da oftmals die zuständigen Consultants keinen Zugriff auf den zugrundeliegenden AL-Code haben.\n\nZusätzlich erschwert wird der Prozess durch sogenannte Runtime Packages, die von Drittanbietern herausgegeben werden und keinen Quellcode enthalten, wodurch Abhängigkeitsanalysen oftmals über klassische Werkzeuge (bspw. PowerShell Skripte) zusätzlich erschwert werden.\n\n\n  HinweisRuntime Packages sind vorkompilierte AL-Erweiterungen, die auf einer spezifischen Plattform Version kompiliert wurden und ggf. auch nicht auf abweichenden Versionen lauffähig sind.\nRuntime Packages können, entgegen klassischer AL-Erweiterungen, nicht einfach entpackt und analysiert werden.\n\n\nAus diesem Grund ist der 365 business AL Extension Manager entwickelt wurden. Mit dem AL- Extension Manager soll es ermöglicht werden AL-Erweiterungen, egal ob klassische Erweiterungen oder Runtime Packages, über eine benutzerfreundliche und intuitive Oberfläche installieren und deinstallieren zu können. Die Unterscheidung nach Publish, Unpublish, Install, Uninstall, Sync, etc. ist dabei nicht notwendig und wird vom AL-Installer übernommen.\n\nWelche Funktionen unterstützt der AL Extension Manager?\n\nDer 365 business AL Extension Manager verfügt über folgende Funktionen:\n\n  Analyse von Runtime Packages und klassischen AL-Erweiterungen\n  Berücksichtigung von Abhängigkeiten bei der Installation &amp; Deinstallation\n  Installation &amp; Deinstallation, inkl. aller notwendigen Verarbeitungsschritte\n  Analyse von möglichen Problemen und Fehlern bei der Installation\n  365 business App Automation API Erweiterung für erweiterte Verwaltungsmöglichkeiten\n  Visualisierung von Abhängigkeiten zwischen Erweiterungen"
 					}
 
 					
