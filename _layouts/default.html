@@ -72,6 +72,9 @@
 					{% endfor %}
 				</ul>
 				<ul>
+					<li class="nav-item top-level">
+						<a href="https://downloads.365businessdev.com">{% t titles.downloads %}</a>
+					</li>
 					<li class="nav-item top-level {% if page.url == '/al-developer/' %}current{% endif %}">
 						{% assign changelog = site.html_pages | where: 'url', '/en-US/al-developer/' | first %}
 						<a href="{{ site.baseurl }}/al-developer/">AL Developer</a>
