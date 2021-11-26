@@ -49,6 +49,7 @@ titles:
   how-to-create-mailchimp-api-key: How to create Mailchimp API Key
   synchronization: Synchronization
   user-settings: User Settings
+  zmdo-vat-entries-vat-reg-no: VAT Entries for the EU were found where no VAT Registration No. was specified.
 langs:
   german: German
   english: English

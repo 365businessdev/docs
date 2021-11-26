@@ -49,6 +49,7 @@ titles:
   how-to-create-mailchimp-api-key: Mailchimp API Schlüssel erstellen
   synchronization: Synchronisation
   user-settings: Benutzer Einstellungen
+  zmdo-vat-entries-vat-reg-no: Es wurden MwSt.-Posten für die EU gefunden, für die keine USt-IdNr. angegeben wurde.
 langs:
   german: Deutsch
   english: English
