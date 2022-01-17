@@ -19,9 +19,9 @@ In the **Options** section you have the possibility to specify additional settin
 | Option | Description | Default value |
 | --- | --- | --- |
 | Match | Specifies whether the search term is the whole field (option **Whole field**) or whether any part of the field must contain the search term (option **Any part of field**). | Whole Field |
-| Case sensitive | Specifies whether the search term should be case sensitive. | Nein |
-| Ganzes Feld ersetzen | Gibt an, ob beim Ersetzen der komplette Feldinhalt oder nur der Teil des Feldes, der dem Suchbegriff entspricht ersetzt werden soll. | Nein | 
-| Alle ersetzen | Gibt an, dass der Feldwert in allen Datensätzen unabhängig vom Suchbegriff ersetzt werden soll. | No |
+| Case sensitive | Specifies whether the search term should be case sensitive. | No |
+| Replace whole Field | Specifies whether the complete field content or only the part of the field that corresponds to the search term should be replaced when replacing. | No | 
+| Replace All | Specifies that the field value should be replaced in all records regardless of the search term. | No |
 
 #### Validation
 
