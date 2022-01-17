@@ -11,12 +11,12 @@ Following the in this documentation covered apps are listed:
 
 | Name | Description |
 | --- | --- |
-| [365 business API](./365businessapi/README.md) | Base library app, to consume 365 business API services. |
-| [365 business Barcode](./365businessbarcode/README.md) | Encode and decode 1D- and 2D-barcodes. |
-| [365 business PDF](./365businesspdf/README.md) | Digitally sign, apply stationery and concatenate PDF documents. |
-| [365 business Address Validation](./365businessaddressvalidation/README.md) | Validate and complete address data. |
-| [365 business Mailchimp Integration](./365businessmailchimpintegration/README.md) | Interface between Mailchimp and Business Central. |
-| [Find & Replace](./find-and-replace/README.md) | Find & Replace functionality for Microsoft Dynamics 365 Business Central. |
+| [365 business API](./al-developer/365businessapi/README.md) | Base library app, to consume 365 business API services. |
+| [365 business Barcode](./al-developer/365businessbarcode/README.md) | Encode and decode 1D- and 2D-barcodes. |
+| [365 business PDF](./al-developer/365businesspdf/README.md) | Digitally sign, apply stationery and concatenate PDF documents. |
+| [365 business Address Validation](./al-developer/365businessaddressvalidation/README.md) | Validate and complete address data. |
+| [365 business Mailchimp Integration](./al-developer/365businessmailchimpintegration/README.md) | Interface between Mailchimp and Business Central. |
+| [Find & Replace](./al-developer/find-and-replace/README.md) | Find & Replace functionality for Microsoft Dynamics 365 Business Central. |
 
 #### Frequently Asked Questions
 
