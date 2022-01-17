@@ -51,6 +51,7 @@ titles:
   synchronization: Synchronization
   user-settings: User Settings
   zmdo-vat-entries-vat-reg-no: VAT Entries for the EU were found where no VAT Registration No. was specified.
+  find-and-replace: Find & Replace
 langs:
   german: German
   english: English

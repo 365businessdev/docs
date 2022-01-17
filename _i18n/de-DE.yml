@@ -51,6 +51,7 @@ titles:
   synchronization: Synchronisation
   user-settings: Benutzer Einstellungen
   zmdo-vat-entries-vat-reg-no: Es wurden MwSt.-Posten für die EU gefunden, für die keine USt-IdNr. angegeben wurde.
+  find-and-replace: Suchen & Ersetzen
 langs:
   german: Deutsch
   english: English
