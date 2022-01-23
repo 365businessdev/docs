@@ -24,13 +24,14 @@ Folgende Informationen dienen als Grundeinrichtung:
 | USt.-Vorrauszahlungen Sachkontonr. | Umsatzsteuererklärung / Sachkonten | Gibt das Sachkonto für USt.-Vorrauszahlungen (z.B. `1780` (SKR03)) an. |  |
 | USt.-Vorrauszahlungen 1/11 Sachkontonr. | Umsatzsteuererklärung / Sachkonten | Gibt das Sachkonto für USt.-Vorrauszahlungen 1/11 bzw. Sondervorrauszahlungen (z.B. `1781` (SKR03)) an. |  |
 
+
 #### Zertifikat
 Ab dem 01.01.2013 kann die Umsatzsteuervoranmeldung, der Antrag auf Dauerfristverlängerung, die Anmeldung auf Sondervorauszahlung und die Lohnsteueranmeldung nur noch mit elektronischem Zertifikat übermittelt werden.
 Unabhängig von der für die Übermittlung ausgewählten Software ist hierfür die Registrierung in [Mein ELSTER](https://www.elster.de/eportal/start) zwingend notwendig.
 
 Das ELSTER-Zertifikat (PFX-Datei) erhalten Sie nach Abschluss der Registrierung im ElsterOnline-Portal per E-Mail. Den Aktivierungscode zum erstmaligen Login erhalten Sie per Post von der Finanzverwaltung.
 
-Das ELSTER-Zertifikat muss in Business Central gespeichert werden, damit die Steuerdatenmeldungen digital signiert werden können und Sie gegenüber den Steuerbehörden authentifiziert werden.
+Das ELSTER-Zertifikat, üblicherweise das Organisationszertifikat, muss in Business Central gespeichert werden, damit die Steuerdatenmeldungen digital signiert werden können und Sie gegenüber den Steuerbehörden authentifiziert werden.
 
 #### Wie speichere ich mein ELSTER-Zertifikat in Business Central?
 1. Öffnen Sie die ELSTER Einrichtung über die Business Central Suche.
@@ -43,5 +44,14 @@ Neben dem ELSTER-Zertifikat muss auch die Zertifikat PIN in Business Central ges
 1. Öffnen Sie die ELSTER Einrichtung über die Business Central Suche.
 2. Klicken Sie auf **Zertifikat PIN setzen**.
 3. Geben Sie das Zertifikatspasswort ein.
-4. Besätigen Sie das Zertifikatspasswort, indem Sie es erneut eingeben.
+4. Bestätigen Sie das Zertifikatspasswort, indem Sie es erneut eingeben.
 5. Klicken Sie **OK**.
+
+#### Benutzerzertifikate
+
+> **Hinweis**<br>Mit der 365 business ERiC Version 17.8 wurden zusätzlich zum Organisationszertifikat, das in der ELSTER Einrichtung hinterlegt werden kann, sogenannte [Benutzerzertifikate](../user-certificates/) eingeführt.<br>Bitte prüfen Sie, ob Sie über die aktuellste Version von 365 business ERiC verfügen.
+
+Wenn verschiedene Anwender die Steuerdatenmeldungen an das Finanzamt vornehmen und die Anwender über persönliche Zertifikate verfügen, so kann das Zertifikat als [Benutzerzertifikat](../user-certificates/) hinterlegt werden.
+
+### Siehe auch
+ - [Benutzerzertifikate](../user-certificates/)

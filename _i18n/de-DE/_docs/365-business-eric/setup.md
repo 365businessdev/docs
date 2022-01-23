@@ -29,7 +29,7 @@ Unabhängig von der für die Übermittlung ausgewählten Software ist hierfür d
 
 Das ELSTER-Zertifikat (PFX-Datei) erhalten Sie nach Abschluss der Registrierung im ElsterOnline-Portal per E-Mail. Den Aktivierungscode zum erstmaligen Login erhalten Sie per Post von der Finanzverwaltung.
 
-Das ELSTER-Zertifikat muss in Business Central gespeichert werden, damit die Steuerdatenmeldungen digital signiert werden können und Sie gegenüber den Steuerbehörden authentifiziert werden.
+Das ELSTER-Zertifikat, üblicherweise das Organisationszertifikat, muss in Business Central gespeichert werden, damit die Steuerdatenmeldungen digital signiert werden können und Sie gegenüber den Steuerbehörden authentifiziert werden.
 
 #### Wie speichere ich mein ELSTER-Zertifikat in Business Central?
 1. Öffnen Sie die ELSTER Einrichtung über die Business Central Suche.
@@ -44,3 +44,12 @@ Neben dem ELSTER-Zertifikat muss auch die Zertifikat PIN in Business Central ges
 3. Geben Sie das Zertifikatspasswort ein.
 4. Bestätigen Sie das Zertifikatspasswort, indem Sie es erneut eingeben.
 5. Klicken Sie **OK**.
+
+#### Benutzerzertifikate
+
+> **Hinweis**<br>Mit der 365 business ERiC Version 17.8 wurden zusätzlich zum Organisationszertifikat, das in der ELSTER Einrichtung hinterlegt werden kann, sogenannte [Benutzerzertifikate](../user-certificates/) eingeführt.<br>Bitte prüfen Sie, ob Sie über die aktuellste Version von 365 business ERiC verfügen.
+
+Wenn verschiedene Anwender die Steuerdatenmeldungen an das Finanzamt vornehmen und die Anwender über persönliche Zertifikate verfügen, so kann das Zertifikat als [Benutzerzertifikat](../user-certificates/) hinterlegt werden.
+
+### Siehe auch
+ - [Benutzerzertifikate](../user-certificates/)
