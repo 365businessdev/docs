@@ -7,7 +7,7 @@ gem 'i18n', '<=1.8.5'
 gem "github-pages", "~> 209", group: :jekyll_plugins
 
 group :jekyll_plugins do
-  gem 'jekyll-multiple-languages-plugin'
+  gem 'jekyll-multiple-languages-plugin', '1.7.0'
   gem 'jekyll-feed'
   gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'

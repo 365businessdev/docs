@@ -19,7 +19,7 @@
 <meta property="og:url" content="https://docs.365businessdev.com/de-DE/new-and-planned/changelog/365-business-eric/" />
 <meta property="og:site_name" content="365 business development" />
 <script type="application/ld+json">
-{"@type":"WebPage","url":"https://docs.365businessdev.com/de-DE/new-and-planned/changelog/365-business-eric/","headline":"changelog","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.365businessdev.com/de-DE/siteicon.png"},"name":"365 business development"},"author":{"@type":"Person","name":"365 business development"},"description":"Product documentation for Microsoft Dynamics 365 Business Central Apps of 365 business development GmbH.","@context":"https://schema.org"}</script>
+{"url":"https://docs.365businessdev.com/de-DE/new-and-planned/changelog/365-business-eric/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.365businessdev.com/de-DE/siteicon.png"},"name":"365 business development"},"author":{"@type":"Person","name":"365 business development"},"headline":"changelog","description":"Product documentation for Microsoft Dynamics 365 Business Central Apps of 365 business development GmbH.","@type":"WebPage","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 		<link type="application/atom+xml" rel="alternate" href="https://docs.365businessdev.com/de-DE/feed.xml" title="365 business development" />
@@ -248,7 +248,40 @@
 				<h3>Änderungsprotokoll</h3>
 			</div>
 			<article class="content">
-				<h4 id="version-176673691">Version 17.6.67.3691</h4>
+				<h4 id="version-178924457">Version 17.8.92.4457</h4>
+
+<ul>
+  <li>Add ELSTER User Certificates feature</li>
+  <li>Add Copy VAT Statement to Company feature</li>
+  <li>Add Copy ELSTER Setup to Company feature</li>
+  <li>Fix issue #1936 - verification error message for ZMDO verification (introduced in version 17.7.78.4114)</li>
+  <li>Fix issue #1913 - Annual VAT Return (USt) Period Length display (month instead of year)</li>
+  <li>Fix issue #1911 - Notification title length exceeded (translation issue)</li>
+</ul>
+
+<h4 id="version-177824330">Version 17.7.82.4330</h4>
+
+<ul>
+  <li>Fix automated tests (false-positive test)</li>
+</ul>
+
+<h4 id="version-177784114">Version 17.7.78.4114</h4>
+
+<blockquote>
+  <p><strong>Important</strong><br />To be able to submit Tax Data for fiscal year 2022 you need to update to this version or later.</p>
+</blockquote>
+
+<ul>
+  <li>Fiscal Year 2022 update (ELSTER schema change)</li>
+  <li>Fix “Show Entries” action (DrillDown) in Tax Data Lines, for ZMDO data type, if VAT Registration No. is empty</li>
+  <li>Visualize mandatory fields in Tax Data Line</li>
+  <li>Add additional verification for ZMDO Tax Data Lines</li>
+  <li>Add additional Support URLs for ELSTER validation messages</li>
+  <li>Fix set ERiC Figure Code for Tax Data Type if not properly set while installation</li>
+  <li>Fix TableRelation in ELSTER Setup</li>
+</ul>
+
+<h4 id="version-176673691">Version 17.6.67.3691</h4>
 <ul>
   <li>Add support for Annual VAT Return (USt)</li>
   <li>Add additional validation error handling procedures to support customer in solving issues</li>
