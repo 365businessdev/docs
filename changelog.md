@@ -28,13 +28,9 @@ All 365 business development apps are versioned based on the following scheme:
 
 | Feature | Description | Planned Release |
 | --- | --- | --- |
+| New Tax Data Type `GewSt` | Add support for `GewSt` (Gewerbesteuer) Tax Data Type. | Q1-2022 |
+| New Tax Data Type `EUER` | Add support for `EUER` (Einnahmeüberschussrechnung) Tax Data Type. | TBD |
 | Tax Statement Preview | View your Tax Statement directly in Dynamics 365 Business Central or print the filled statement. | TBD |
-
-##### 365 business Address Validation
-
-| Feature | Description | Planned Release |
-| --- | --- | --- |
-| Optimized process flow | Optimizing process flow to allow more comfortable address validation and completion within Business Central. | H2-2021 |
 
 ##### 365 business Print Agent
 

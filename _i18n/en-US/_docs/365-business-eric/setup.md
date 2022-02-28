@@ -16,8 +16,10 @@ Folgende Informationen dienen als Grundeinrichtung:
 | Umsatzsteuererklärung Nr.-Serie | Nummerierung | Gibt die Nummernserie an, die für die Umsatzsteuererklärung verwendet wird. | UST (UST0001 - UST9999)|
 | UStVA MwSt.-Abrechnung Vorlage | Umsatzsteuervoranmeldung | Legt die Vorlage für die MwSt.-Abrechnung fest, die für die Berechnung der Steuerzahlen und -werte verwendet werden soll. | *Ermittlung an Hand der existierenden MwSt.-Abrechnungen* | 
 | UStVA MwSt.-Abrechnung Name | Umsatzsteuervoranmeldung | Legt den Namen der MwSt.-Abrechnung fest, der für die Berechnung der Steuerzahlen und -werte verwendet werden soll. | *Ermittlung an Hand der existierenden MwSt.-Abrechnungen* |
+| Organschaft | Umsatzsteuervoranmeldung | Zeigt an, ob die ausgewählte MwSt.-Abrechnung eine Organschaft verwendet oder nicht.<br><br>_**Hinweis:** Dieses Feld wird nur angezeigt, wenn OPplus installiert ist. Weitere Informationen finden sie [hier](../opp-affiliation/)._ |  |
 | Dauerfristverlängerung MwSt.-Abrechnung Vorlage | Dauerfristverlängerung | Legt die Vorlage für die MwSt.-Abrechnung fest, die für die Berechnung der Steuerzahlen und -werte verwendet werden soll. |  | 
 | Dauerfristverlängerung MwSt.-Abrechnung Name | Dauerfristverlängerung | Legt den Namen der MwSt.-Abrechnung fest, der für die Berechnung der Steuerzahlen und -werte verwendet werden soll. |  |
+| MwSt.-Geschäftsbuchungsgruppe Filter | Zusammenfassende Meldung | Ermöglicht die Angabe zusätzlicher MwSt.-Buchungsgruppenfilter für die Berechnung der zusammenfassenden Meldung. |  |
 | Umsatzsteuererklärung MwSt.-Abrechnung Vorlage | Umsatzsteuererklärung | Legt die Vorlage für die MwSt.-Abrechnung fest, die für die Berechnung der Steuerzahlen und -werte verwendet werden soll. |  | 
 | Umsatzsteuererklärung MwSt.-Abrechnung Name | Umsatzsteuererklärung | Legt den Namen der MwSt.-Abrechnung fest, der für die Berechnung der Steuerzahlen und -werte verwendet werden soll. |  |
 | Besteuerungsart | Umsatzsteuererklärung / Besteuerung | Gibt die von Ihrem Unternehmen verwendete Besteuerungsart an. |  |
@@ -55,3 +57,4 @@ Wenn verschiedene Anwender die Steuerdatenmeldungen an das Finanzamt vornehmen u
 
 ### Siehe auch
  - [Benutzerzertifikate](../user-certificates/)
+ - [Umsatzsteuerliche Organschaft](../opp-affiliation/)

@@ -53,6 +53,7 @@ titles:
   zmdo-vat-entries-vat-reg-no: Es wurden MwSt.-Posten für die EU gefunden, für die keine USt-IdNr. angegeben wurde.
   find-and-replace: Suchen & Ersetzen
   user-certificates: Benutzerzertifikate
+  opp-affiliation: Umsatzsteuerliche Organschaft
 langs:
   german: Deutsch
   english: English

@@ -2,6 +2,12 @@
 
 Umsatzsteuervoranmeldungen müssen von Unternehmern monatlich oder vierteljährlich abgegeben werden, um eine bereits entstandene Umsatzsteuer an das Finanzamt zu melden und abzuführen bzw. bei einem Vorsteuerüberschuss erstattet zu bekommen.
 
+#### Umsatzsteuerliche Organschaft
+
+Mit der 365 business ERiC Version 17.8 wurde die Unterstützung für die Umsatzsteuerliche Organschaft auf Basis von [OPplus 365](https://www.gbedv.de/de/) hinzugefügt.
+
+Weitere Informationen zur umsatzsteuerlichen Organschaft finden Sie [hier](../opp-affiliation/).
+
 #### So erstellen Sie eine USt.-Voranmeldung
 1. Wählen Sie **ELSTER Steuerdaten** in der Suche von Business Central.
 2. Klicken Sie auf **Neu**.
@@ -28,7 +34,9 @@ Zusätzlich zu den oben genannten Einstellungen können Sie folgende Optionen se
 
 ### Siehe auch
 - [ELSTER Steuerdaten](../elster-tax-statements)
+- [MwSt.-Abrechnung Einrichtung](../vat-statement-setup/)
 - [Datenart - Zusammenfassende Meldung - Dokumentation](../elster-recapulative-statement/)
 - [Datenart - Dauerfristverlängerung - Dokumentation](../elster-permanent-time-extension/)
 - [Datenart - Antrag auf Fristverlängerung - Dokumentation](../elster-request-for-time-extension/)
 - [Datenart - Umsatzsteuererklärung - Dokumentation](../elster-annual-vat-return/)
+ - [Umsatzsteuerliche Organschaft](../opp-affiliation/)

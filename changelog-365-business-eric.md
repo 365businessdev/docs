@@ -4,6 +4,36 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-eric/
 ---
 
+#### Version 17.8.98.4682
+
+ - Add OPplus Affiliation (Organschaft) support
+ - Add additional VAT Business Posting Group Filter for Recapulative Statement calculation
+
+#### Version 17.8.92.4457
+
+ - Add ELSTER User Certificates feature
+ - Add Copy VAT Statement to Company feature
+ - Add Copy ELSTER Setup to Company feature
+ - Fix issue #1936 - verification error message for ZMDO verification (introduced in version 17.7.78.4114)
+ - Fix issue #1913 - Annual VAT Return (USt) Period Length display (month instead of year)
+ - Fix issue #1911 - Notification title length exceeded (translation issue)
+
+#### Version 17.7.82.4330
+
+ - Fix automated tests (false-positive test)
+
+#### Version 17.7.78.4114
+
+ > **Important**<br>To be able to submit Tax Data for fiscal year 2022 you need to update to this version or later.
+
+ - Fiscal Year 2022 update (ELSTER schema change)
+ - Fix "Show Entries" action (DrillDown) in Tax Data Lines, for ZMDO data type, if VAT Registration No. is empty
+ - Visualize mandatory fields in Tax Data Line
+ - Add additional verification for ZMDO Tax Data Lines
+ - Add additional Support URLs for ELSTER validation messages
+ - Fix set ERiC Figure Code for Tax Data Type if not properly set while installation
+ - Fix TableRelation in ELSTER Setup
+
 #### Version 17.6.67.3691
  - Add support for Annual VAT Return (USt)
  - Add additional validation error handling procedures to support customer in solving issues
