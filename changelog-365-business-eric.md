@@ -4,6 +4,10 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-eric/
 ---
 
+#### Version 17.8.102.4714
+
+ - Fix error message "Analysis Setup is empty" if OPplus is installed but Trial Balance and VAT module is not licensed.
+
 #### Version 17.8.98.4682
 
  - Add OPplus Affiliation (Organschaft) support
