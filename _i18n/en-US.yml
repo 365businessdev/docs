@@ -54,6 +54,8 @@ titles:
   find-and-replace: Find & Replace
   user-certificates: User Certificates
   opp-affiliation: Affiliation
+  address-prediction: Address Prediction
+  address-validation: Address Validation
 langs:
   german: German
   english: English

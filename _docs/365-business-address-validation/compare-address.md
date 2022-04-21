@@ -1,10 +1,10 @@
 ---
-title: compare-address
+title: address-validation
 category: 365-business-address-validation
 permalink: /365-business-address-validation/compare-address/
-order: 2
+show: false
 
 namespace: 365-business-address-validation
 ---
 
-{% tf _docs/365-business-address-validation/compare-address.md %}
+{% tf _docs/365-business-address-validation/address-validation.md %}

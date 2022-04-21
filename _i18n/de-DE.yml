@@ -54,6 +54,8 @@ titles:
   find-and-replace: Suchen & Ersetzen
   user-certificates: Benutzerzertifikate
   opp-affiliation: Umsatzsteuerliche Organschaft
+  address-prediction: Adressvorhersage
+  address-validation: Addressvalidierung
 langs:
   german: Deutsch
   english: English

@@ -17,4 +17,5 @@ In the current version the following settings are supported:
 Global settings are applied to all users in the system unless they have a specific setting. With global settings, the value in the 'User ID' field remains empty.
 
 ### See also 
- - [Address data comparison](../compare-address/)
+ - [Address Validation Setup](../setup/)
+ - [Address Validataion](../address-validation/)
