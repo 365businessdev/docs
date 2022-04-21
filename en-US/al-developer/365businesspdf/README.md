@@ -12,7 +12,7 @@ The following methods are available:
 
 | Method name | Description | 
 | --- | ---| 
-| [ApplyStationeryToDocument(Codeunit, Codeunit)](./al-developer/pdfapi/ApplyStationeryToDocument.md) | Apply stationery document to PDF stream. |
-| [ApplyStationeryToDocument(Codeunit, Record)](./al-developer/pdfapi/ApplyStationeryToDocument2.md) | Apply stationery page settings, configured in PDF Stationery Configuration, to PDF stream. |
-| [ConcatenateDocument(Codeunit, Codeunit)](./al-developer/pdfapi/ConcatenateDocument.md) | Concatenate PDF document to PDF stream. |
-| [SignDocument(Codeunit, Codeunit)](./al-developer/pdfapi/SignDocument.md) | Digitally sign PDF stream. |
+| [ApplyStationeryToDocument(Codeunit, Codeunit)](pdfapi/ApplyStationeryToDocument.md) | Apply stationery document to PDF stream. |
+| [ApplyStationeryToDocument(Codeunit, Record)](pdfapi/ApplyStationeryToDocument2.md) | Apply stationery page settings, configured in PDF Stationery Configuration, to PDF stream. |
+| [ConcatenateDocument(Codeunit, Codeunit)](pdfapi/ConcatenateDocument.md) | Concatenate PDF document to PDF stream. |
+| [SignDocument(Codeunit, Codeunit)](pdfapi/SignDocument.md) | Digitally sign PDF stream. |
