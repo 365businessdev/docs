@@ -24,6 +24,13 @@ All 365 business development apps are versioned based on the following scheme:
 
 #### Upcoming Features
 
+##### 365 business Address Validation
+
+| Feature | Description | Planned Release |
+| --- | --- | --- |
+| Address Prediction | Add auto-complete functionality to predict address data while entering address data into Microsoft Dynamics 365 Business Central. | May 2022 |
+| Address Validation Role Center | Adding a role center to overview address data quality. | May 2022 |
+
 ##### 365 business ERiC
 
 | Feature | Description | Planned Release |
@@ -36,13 +43,13 @@ All 365 business development apps are versioned based on the following scheme:
 
 We plan to release the 365 business Print Agent in Q1-2022. This module will allow you to use local and virtual printers within Dynamics 365 Business Central, w/o additional dialogs, manual download etc. Additionally it supports to predefine paper trays, duplex mode and more and just use it in Report Selection or your custom report.
 
-> **Planned Release**: Q1-2022
+> **Planned Release**: H1-2022
 
 ##### 365 business Document Recognition
 
 With 365 business Document Recognition you get a full-featured OCR detection incoming document workflow within Dynamics 365 Business Central, powered by the 365 business API Document Recognition service.
 
-> **Planned Release**: H1-2022
+> **Planned Release**: H2-2022
 
 ### See also
 
