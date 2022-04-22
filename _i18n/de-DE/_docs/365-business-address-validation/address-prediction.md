@@ -29,3 +29,7 @@ Die zusätzlichen Informationen sind abhängig von den tatsächlich zur Verfügu
 In der [Einrichtung für Adressvalidierung](../setup/) kann die **Max. Anzahl der Vorhersagen** konfiguriert werden. Der Standardwert liegt bei vier, kann aber beliebig angepasst werden.
 
 > **Tipp**<br>Über die Aktion *Mehr laden...* können alle weiteren Vorhersagen angezeigt werden.
+
+### Siehe auch 
+ - [Einrichtung für Adressvalidierung](setup/)
+ - [Adressvalidierung](address-validation/)

@@ -30,3 +30,7 @@ Ihre manuelle Eingabe wird als Vorgabe definiert.
 In einigen Städten oder Orten werden zum Beispiel Straßennamen mehrfach verwendet und können so, ohne Angabe der korrekten Postleitzahl nicht eindeutig zugeordnet werden. Teilweise sind zudem Straßennamen sehr ähnlich und abgekürzte oder falsch geschriebene Straßennamen können so nicht eindeutig erkannt werden.
 
 Werden bei der Validierung von Adressen mehrere Ergebnisse gefunden, die eventuell die korrekte Adresse sein könnten, wird die Seite **Adressvalidierungs-Ergebnisse** angezeigt. Diese Seite zeigt die potentiellen Adressen und erlaubt dem Anwender die korrekte Adresse auszuwählen.
+
+### Siehe auch 
+ - [Einrichtung für Adressvalidierung](setup/)
+ - [Adressvorhersage](address-prediction/)

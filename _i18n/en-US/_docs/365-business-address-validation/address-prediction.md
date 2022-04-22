@@ -29,3 +29,7 @@ The additional information depends on the actual data available in our data sour
 In [Address Validation Setup](../setup/) you can specify the max. number of predictions shown initially. The default value is four, but can modified according to the business needs.
 
 > **Tip**<br>By clicking the "Load more..." action in the address prediction list, all additional predictions will be shown.
+
+### See also 
+ - [Address Validation Setup](setup/)
+ - [Address Validation](address-validation/)
