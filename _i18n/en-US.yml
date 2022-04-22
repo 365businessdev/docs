@@ -56,6 +56,7 @@ titles:
   opp-affiliation: Affiliation
   address-prediction: Address Prediction
   address-validation: Address Validation
+  address-validation-status: Address Validation Status
 langs:
   german: German
   english: English

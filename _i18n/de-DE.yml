@@ -55,7 +55,8 @@ titles:
   user-certificates: Benutzerzertifikate
   opp-affiliation: Umsatzsteuerliche Organschaft
   address-prediction: Adressvorhersage
-  address-validation: Addressvalidierung
+  address-validation: Adressvalidierung
+  address-validation-status: Status der Adressvalidierung
 langs:
   german: Deutsch
   english: English
