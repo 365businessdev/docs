@@ -1,6 +1,6 @@
 >**Important**<br>**Some of the functionality described in this documentation has not been released.** This documentation currently is based on 365 business Address Validation version 17.6.<br>Please check that you're using the latest version. Learn more: [What's new and planned](../new-and-planned/)
 
-Einwandfreie Kundenstammdaten sind die Voraussetzung dafür, dass Sie Ihren Kunden auch wirklich erreichen. Adressen kommen auf vielen Wegen in Ihr Unternehmen: Sie werden via Telefon, Vertrieb, Briefkontakt, E-Mail, Internet etc. übermittelt und gespeichert. Dabei entstehen schnell Tippfehler oder Verhörer, die dann ungeprüft in den Datenbestand übernommen werden. Das kann weitreichende Folgen haben.
+Fehlerfreie Kundenstammdaten sind die Voraussetzung dafür, dass Sie Ihren Kunden auch wirklich erreichen. Adressen kommen auf vielen Wegen in Ihr Unternehmen: Sie werden via Telefon, Vertrieb, Briefkontakt, E-Mail, Internet etc. übermittelt und gespeichert. Dabei entstehen schnell Tippfehler oder Verhörer, die dann ungeprüft in den Datenbestand übernommen werden. Das kann weitreichende Folgen haben.
 
 Stimmt die Datenbasis nicht, verpuffen Marketing-Aktionen wirkungslos, können Rechnungen nicht zugestellt werden, steigen die Rückläuferquoten und Streuverluste von Mailings. Die Folge: Kunden reagieren verärgert auf mangelhafte Adressierung, doppelte Anschreiben oder nicht erfolgte Lieferungen. Reklamationen führen nicht nur zu erhöhtem Aufwand im Service Center, sondern können Ihrem Image ernsthaft schaden. Und das wirkt sich schnell auf Ihren Umsatz aus.
 
