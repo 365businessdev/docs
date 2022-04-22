@@ -42,7 +42,7 @@ Address validation takes place automatically and is performed in real time after
 
 ![Address Validation](/assets/images/365-business-address-validation/addressvalidation.en-US.gif)
 
-Depending on the settings in the [**address validation setup**](setup/), the [address data comparison](../compare-address/) may be displayed, allowing you to check the differences in validation and accept or reject the address change.
+Depending on the settings in the [**address validation setup**](setup/), the [address data comparison](address-validation/#how-can-i-check-the-address-data-before-they-are-applied) may be displayed, allowing you to check the differences in validation and accept or reject the address change.
 
 For more information on [address validation](address-validation/), see the more detailed [documentation](address-validation/).
 

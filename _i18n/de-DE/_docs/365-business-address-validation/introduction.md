@@ -42,7 +42,7 @@ Die Adressvalidierung findet automatisch statt und wird in Echtzeit nach Eingabe
 
 ![Adressvalidierung](/assets/images/365-business-address-validation/addressvalidation.de-DE.gif)
 
-Abhängig von den Einstellungen in der [**Einrichtung für Adressvalidierung**](setup/) wird unter Umständen der [Adressdatenvergleich](../compare-address/) angezeigt, der Ihnen erlaubt die Unterschiede bei der Validierung zu prüfen und die Adressänderung anzunehmen oder abzulehnen.
+Abhängig von den Einstellungen in der [**Einrichtung für Adressvalidierung**](setup/) wird unter Umständen der [Adressdatenvergleich](address-validation/#wie-kann-ich-die-adressdaten-prüfen-bevor-sie-angewandt-werden) angezeigt, der Ihnen erlaubt die Unterschiede bei der Validierung zu prüfen und die Adressänderung anzunehmen oder abzulehnen.
 
 Weitere Informationen zur [Adressvalidierung](address-validation/) finden Sie in der weiterführenden [Dokumentation](address-validation/).
 
