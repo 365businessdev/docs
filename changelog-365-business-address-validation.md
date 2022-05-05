@@ -4,6 +4,24 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-address-validation/
 ---
 
+#### Version 17.6.70.5125
+
+ - Address Prediction support for:
+   - Contacts,
+   - Customers,
+   - Vendors,
+   - Resources and
+   - Employees.
+ - Move setup to Address Validation Setup.
+ - Add Address Validation Role Center.
+ - Add Address Validation Permission Set (BASIC)
+ - Add Address Validation Status List.
+   - Add support to manually mark addresses as validated.
+
+##### Known issues
+
+ - Address Prediction is not working, after switch between *View* and *Edit* mode in a page.
+
 #### Version 17.5.389.0
 
  - Add Address Validation User Settings.
