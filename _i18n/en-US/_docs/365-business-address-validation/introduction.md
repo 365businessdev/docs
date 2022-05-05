@@ -1,4 +1,3 @@
->**Important**<br>**Some of the functionality described in this documentation has not been released.** This documentation currently is based on 365 business Address Validation version 17.6.<br>Please check that you're using the latest version. Learn more: [What's new and planned](../new-and-planned/)
 
 Flawless customer master data is the prerequisite for actually reaching your customer. Addresses come into your company in many ways: They are transmitted and stored via telephone, sales, letter contact, e-mail, Internet, etc.. Typing errors or mispronunciations can easily occur, which are then transferred to the database without being checked. This can have far-reaching consequences.
 
