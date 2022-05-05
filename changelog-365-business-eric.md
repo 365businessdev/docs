@@ -4,6 +4,14 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-eric/
 ---
 
+#### Version 17.9.125.5182
+
+ - Fiscal Year 2022 update (ELSTER schema change) for USt 2022.
+ - Update manufacturer id in ELSTER XML file.
+ - Add actions from standard sales vat adv. notif. card.
+ - Add visibility control for Calculate action.
+ - Remove legacy code
+
 #### Version 17.8.102.4714
 
  - Fix error message "Analysis Setup is empty" if OPplus is installed but Trial Balance and VAT module is not licensed.
