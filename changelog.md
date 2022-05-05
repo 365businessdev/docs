@@ -24,13 +24,6 @@ All 365 business development apps are versioned based on the following scheme:
 
 #### Upcoming Features
 
-##### 365 business Address Validation
-
-| Feature | Description | Planned Release |
-| --- | --- | --- |
-| Address Prediction | Add auto-complete functionality to predict address data while entering address data into Microsoft Dynamics 365 Business Central. | May 2022 |
-| Address Validation Role Center | Adding a role center to overview address data quality. | May 2022 |
-
 ##### 365 business ERiC
 
 | Feature | Description | Planned Release |
