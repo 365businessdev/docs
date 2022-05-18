@@ -297,7 +297,7 @@ header { position: absolute; top: 0; left: 0; right: 0; overflow-x: hidden; z-in
 header ul { padding: 0; margin: 0; }
 header h1 { padding: 18px 20px; height: 60px; box-sizing: border-box; background-color: #00B7C3; color: #fff; margin: 0; font-size: 1.7rem; line-height: 0.8; letter-spacing: 0; font-weight: 600; text-indent: 0; display: -webkit-flex; display: flex; -webkit-flex-direction: row; flex-direction: row; -webkit-align-items: center; align-items: center; border-bottom: 1px solid rgba(0, 0, 0, 0.075); }
 header h1 img { height: 24px; width: 24px; margin-right: 15px; }
-header .open-nav { background-image: url("/en-US/assets/images/menu.png"); background-color: transparent; background-repeat: no-repeat; background-size: 100%; width: 24px; height: 24px; border: 0; position: absolute; top: 18px; right: 20px; border-radius: 2px; }
+header .open-nav { background-image: url("/en-US../assets/images/menu.png"); background-color: transparent; background-repeat: no-repeat; background-size: 100%; width: 24px; height: 24px; border: 0; position: absolute; top: 18px; right: 20px; border-radius: 2px; }
 header .open-nav:focus { outline: none; background-color: rgba(0, 0, 0, 0.05); }
 header .open-nav:hover { background-color: rgba(0, 0, 0, 0.1); }
 @media (min-width: 700px) { header { background-color: transparent; width: 310px; right: auto; bottom: auto; }
