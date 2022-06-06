@@ -217,6 +217,18 @@
 									
 									<li class="nav-item "><a href="/en-US/365-business-pdf/get-started/">Get Started</a></li>
 								
+									
+									<li class="nav-item "><a href="/en-US/365-business-pdf/pdf-files/">PDF-Files</a></li>
+								
+									
+									<li class="nav-item "><a href="/en-US/365-business-pdf/stationery/">Stationery</a></li>
+								
+									
+									<li class="nav-item "><a href="/en-US/365-business-pdf/signing/">Sign Documents</a></li>
+								
+									
+									<li class="nav-item "><a href="/en-US/365-business-pdf/concatenate/">Concatenate Documents</a></li>
+								
 							</ul>
 						</li>
 					
@@ -1048,12 +1060,29 @@
 					,
 					
 
+					"365-business-pdf-concatenate": {
+						"id": "365-business-pdf-concatenate",
+						"title": "365 business PDF  - Concatenate Documents",
+						"category": "",
+						"url": " /365-business-pdf/concatenate/",
+						"content": "With 365 business PDF, you can link PDF files generated from Microsoft Dynamics 365 Business Central to other PDF files and merge them into one file. For example, you can attach cover pages or supplementary documents to your documents and reports generated from Microsoft Dynamics 365 Business Central to add value to them.\n\nThe setup is done on the PDF Concatenation Configurations page. Multiple chaining configurations can be created here.\n\nHow do I create a concatenation configuration?\n\n\n  Open the page PDF Concatenation Configurations.\n  Select New.\n  Specify a value in Code field.\n  Specify a Description for the configuration.\n  Create a new configuration line.\n  Select the Position (Before/After) to concatenate the PDF file with the printed document.\n    \n      Good to knowIf you want to attach several files before or after the actual document or report, you can specify the order in the Position No. field.\n    \n  \n  Select the PDF File Code for the PDF file you want to concatenate.\n    \n      NotePDF files must be created in the PDF files page before use."
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
 					"365-business-pdf-get-started": {
 						"id": "365-business-pdf-get-started",
 						"title": "365 business PDF  - Get Started",
 						"category": "",
 						"url": " /365-business-pdf/get-started/",
-						"content": "Coming soon . . ."
+						"content": "With 365 business PDF, you add functionality to Microsoft Dynamics 365 Business Central to refine and enhance reports and documents created from Microsoft Dynamics 365 Business Central. For example, you can automatically attach your general terms and conditions to sales quotes.\n\nAll of this without customization and easily and simply configurable through the Microsoft Dynamics 365 Business Central interface.\n\nHow do I configure reports?\n\nFor each supported action, such as signing, chaining and stationery, there is a separate configuration. Each configuration is assigned a unique code which can be referenced in the configuration of the documents and reports.\n\n\n  \n    \n      Action\n      Configuration\n      Description\n    \n  \n  \n    \n      Signing\n      PDF Signing Configurations\n      Signs PDF files based on a certificate to make them tamper-proof.\n    \n    \n      Concatenate\n      PDF Concatenation Configurations\n      Concatenates one or more PDF files with the created document or report from Microsoft Dynamics 365 Business Central.\n    \n    \n      Stationery\n      PDF Stationery Configurations\n      Deposes a digital stationery behind the created document or report from Microsoft Dynamics 365 Business Central.\n    \n  \n\n\nHow do I assign my configurations to documents and reports?\n\n\n  Open the report selection for the desired area (e.g. purchasing, sales, service, projects, reminder/interest invoice).\n  Select Configuration\n\n  Select the configuration code for the desired actions (signing, concatenate, stationery).\n\n\n\nWhat do I need to use 365 business PDF?\n\n365 business PDF is based on the PDF service of the 365 business API. To use it a registration with the 365 business API is required. To test 365 business PDF and other services based on the 365 business API you can register for a 30-day trial period free of charge and without obligation.\nThere are no costs for you and the trial period ends automatically.\n\n\n  How it’s done!Learn more about the registration for the 365 business API and start your free and non-binding test phase.\n\n\nWhat are the costs of use?\n\nThe 365 business API services are charged on a usage base after the free and non-binding trial period. Usage is measured in so-called transactions, whereby a transaction corresponds to a successful use of the API service.\nFor example, if you have the stationery applied to 1,000 documents, the cost is 100 euros (as of May 2022).\n\n\n  NoteThe current prices can be found on our website."
 					}
 
 					
@@ -1070,7 +1099,58 @@
 						"title": "365 business PDF  - Introduction",
 						"category": "",
 						"url": " /365-business-pdf/",
-						"content": "Coming soon . . ."
+						"content": "With 365 business PDF for Microsoft Dynamics 365 Business Central, you can apply a digital stationery (PDF file), digitally sign your documents, or attach other PDF files, such as terms and conditions or cover sheets, before or after the report created from Microsoft Dynamics 365 Business Central without the additional customization of the report layout.\n\nFunctions at a glance\n\nDigital Stationery\n\nIf documents, such as order confirmations, delivery bills and invoices, are not only created and sent digitally as PDF files, but are also printed out in addition, the question often arises as to how the stationery should be handled. If the stationery is in the printer as a preprint, the stationery may not be printed from Business Central. If the letterhead is sent electronically as a PDF file, however, it must be included.\n\n365 business PDF allows via the PDF Stationery Configuration the storage of stationery, which is automatically applied. It is not necessary to create additional report layouts or provide radio buttons in the report.\n\nLinking documents\n\nYou send a complex offer and want to send the supplementary documents together with the offer? Or do you want your current general terms and conditions (GTCs) to be automatically attached to each order confirmation?\n\nWith the PDF Concatenation Configuration in 365 business PDF you can attach any number of documents, before or after the actual document created from Microsoft Dynamics 365 Business Central.\n\nDigital Signature\n\nProtect your documents created from Microsoft Dynamics 365 Business Central from tampering by digital signature!\n\nWith the PDF Signing Configuration in 365 business PDF you protect your documents without any additional effort.\n\nWhich application areas are supported?\n\nIn the current version, the integration is provided in the Microsoft standard for all reports that are controlled via the report selection (Report Selections). These include:\n\n\n  \n    \n      Area\n      Configuration Page\n    \n  \n  \n    \n      Purchasing\n      Report Selection - Purchasing\n    \n    \n      Sales\n      Report selection - Sales\n    \n    \n      Dunning\n      Report selection - Reminder\n    \n    \n      Project\n      Report selection - Project\n    \n    \n      Service\n      Report selection - Service\n    \n  \n\n\nSee also\n\n  PDF Stationery Setup\n  PDF Document linking setup](concatenate/)\n  PDF Signing setup](signing/)"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"365-business-pdf-pdf-files": {
+						"id": "365-business-pdf-pdf-files",
+						"title": "365 business PDF  - PDF-Files",
+						"category": "",
+						"url": " /365-business-pdf/pdf-files/",
+						"content": "In the PDF files page the PDF files are created and uploaded, which are used in the different configurations.\n\n  PDF Stationery Configuration\n  PDF Concatenation Configuration\nare used. The page is used for central administration and allows to maintain and update the referenced files in one place.\n\n\n\n\nHow do I create a new PDF file?\n\n\n  Open the page PDF Files.\n  Select New.\n  Specify a value in Code field, which you want to use for reference the PDF file.\n  Specify a Description for the PDF file.\n  Select Upload File and select a valid PDF file."
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"365-business-pdf-signing": {
+						"id": "365-business-pdf-signing",
+						"title": "365 business PDF  - Sign Documents",
+						"category": "",
+						"url": " /365-business-pdf/signing/",
+						"content": "With 365 business PDF you can sign PDF files generated from Microsoft Dynamics 365 Business Central and integrate this signature into the file. This signature protects your PDF file from tampering and also guarantees the recipient that the PDF file is intact and that it is from where it came.\n\nThe digital signature is executed on the basis of a PKCS 12 certificate file (PFX).\n\nThe setup takes place in the PDF Signing Configurations page. Here, multiple signing configurations can be created, e.g. based on different certificate files.\n\nHow do I create a signing configuration?\n\n\n  Open the page PDF Signing Configurations.\n  Select New.\n  Specify a value in Code field.\n  Specify a Description for the configuration.\n  Select Upload Certificate File and select a valid PFX certificate file.\n  Select Set Certificate PIN and specify the PIN to access the certificate file."
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"365-business-pdf-stationery": {
+						"id": "365-business-pdf-stationery",
+						"title": "365 business PDF  - Stationery",
+						"category": "",
+						"url": " /365-business-pdf/stationery/",
+						"content": "With 365 business PDF you can underlay PDF files generated from Microsoft Dynamics 365 Business Central with a stationery (PDF file). This eliminates the need to create and maintain additional report layouts.\n\nThe setup takes place in the PDF Stationery Configurations page. Here, multiple stationery configurations can be created. For example, it is possible to store different or no stationery for each page.\n\nHow do I create a stationery configuration?\n\n\n  Open the page PDF Stationery Configurations.\n  Select New.\n  Specify a value in Code field.\n  Specify a Description for the configuration.\n  Create a new configuration line.\n  Select the Stationery Type to specify where the PDF file should be applied as stationery.\n  Select the PDF File Code for the PDF file you want to concatenate.\n    \n      NotePDF files must be created in the PDF files page before use."
 					}
 
 					
