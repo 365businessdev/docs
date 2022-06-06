@@ -57,6 +57,10 @@ titles:
   address-prediction: Adressvorhersage
   address-validation: Adressvalidierung
   address-validation-status: Status der Adressvalidierung
+  concatenate: Dokumentverkettung
+  signing: Dokumentsignierung
+  stationery: Elektronisches Briefpapier
+  pdf-files: PDF-Dateien
 langs:
   german: Deutsch
   english: English

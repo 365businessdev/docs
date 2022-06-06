@@ -57,6 +57,10 @@ titles:
   address-prediction: Address Prediction
   address-validation: Address Validation
   address-validation-status: Address Validation Status
+  concatenate: Concatenate Documents
+  signing: Sign Documents
+  stationery: Stationery
+  pdf-files: PDF-Files
 langs:
   german: German
   english: English
