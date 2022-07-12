@@ -62,6 +62,8 @@ titles:
   signing: Sign Documents
   stationery: Stationery
   pdf-files: PDF-Files
+  document-attachments: Document Attachments
+  bulk-print-restriction: Bulk Print Restriction
 langs:
   german: German
   english: English

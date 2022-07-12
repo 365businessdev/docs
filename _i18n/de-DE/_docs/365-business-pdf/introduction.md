@@ -16,6 +16,21 @@ Sie versenden ein komplexes Angebot und möchten die ergänzenden Dokumente zusa
 
 Mit der [PDF Dokumentverkettung Konfiguration](concatenate/) in 365 business PDF können Sie eine beliebige Anzahl an Dokumenten, vor oder nach dem eigentlichen Dokument, welches aus Microsoft Dynamics 365 Business Central erstellt wurde, anhängen.
 
+###### Beleganhänge
+
+Zusätzlich zur Verkettung von Dokumenten, mit Hilfe der [PDF Dokumentverkettung Konfiguration](concatenate/), unterstützt 365 business PDF [Beleganhänge](document-attachments/), die direkt am Beleg definiert werden können. Die Beleganhänge werden zusätzlich zu der Verkettung über die [PDF Dokumentverkettung Konfiguration](concatenate/) angewandt.
+
+![365 business PDF - Beleganhänge](/assets/images/365-business-pdf/365businesspdf-doc-attachments.gif)
+
+Aktuell findet sich der Aufruf der Beleganhänge in:
+
+ - Angebot
+ - Auftrag
+ - Einkaufsanfrage
+ - Bestellung
+
+Weitere Bereiche können bei Bedarf über die interne API von 365 business PDF bereitgestellt werden.
+
 ##### Digitale Signatur
 
 Schützen Sie Ihre aus Microsoft Dynamics 365 Business Central erstellten Dokumente vor Manipulationen durch digitale Signatur!
@@ -38,3 +53,4 @@ In der aktuellen Version ist die Integration im Microsoft Standard für sämtlic
  - [PDF Briefpapier Einrichtung](stationery/)
  - [PDF Dokumentverkettung Einrichtung](concatenate/)
  - [PDF Signierung Einrichtung](signing/)
+ - [Beleganhänge](document-attachments/)

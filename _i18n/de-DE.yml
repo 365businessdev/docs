@@ -62,6 +62,8 @@ titles:
   signing: Dokumentsignierung
   stationery: Elektronisches Briefpapier
   pdf-files: PDF-Dateien
+  document-attachments: Beleganhänge
+  bulk-print-restriction: Einschränkung beim Sammeldruck
 langs:
   german: Deutsch
   english: English

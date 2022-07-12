@@ -1,4 +1,4 @@
-Mit 365 business PDF können Sie PDF-Dateien, die aus Microsoft Dynamics 365 Business Central erzeugt werden, mit anderen PDF-Dateien verketten und in eine Datei zusammenführen. Hiermit können Sie zum Beispiel Deckblätter oder ergänzende Dokumente an Ihre, aus Microsoft Dynamics 365 Business Central erzeugten, Belege und Berichte anfügen um diese zu veredeln.
+Mit 365 business PDF können Sie PDF-Dateien, die aus Microsoft Dynamics 365 Business Central erzeugt werden, mit anderen PDF-Dateien verketten und in eine Datei zusammenführen. Hiermit können Sie zum Beispiel die Allgemeinen Geschäftsbedingungen (AGB) an alle Auftragsbestätigungen, aus Microsoft Dynamics 365 Business Central, automatisch anfügen.
 
 Die Einrichtung findet in der Seite **PDF Verkettung Konfigurationen** statt. Hier können mehrere Verkettungskonfigurationen angelegt werden.
 
@@ -16,3 +16,5 @@ Die Einrichtung findet in der Seite **PDF Verkettung Konfigurationen** statt. Hi
 
 ![Verkettungskonfiguration](/assets/images/365-business-pdf/concatenate-configuration.png)  
 
+### Siehe auch
+ - [Beleganhänge](document-attachments/)

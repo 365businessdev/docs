@@ -16,6 +16,21 @@ You send a complex offer and want to send the supplementary documents together w
 
 With the [PDF Concatenation Configuration](concatenate/) in 365 business PDF you can attach any number of documents, before or after the actual document created from Microsoft Dynamics 365 Business Central.
 
+###### Document Attachments
+
+In addition to concatenating documents using the [PDF Concatenation Configuration](concatenate/), 365 business PDF supports [Document Attachments](document-attachments/) which can be defined directly on the document. The document attachments are applied in addition to the concatenation using the [PDF Concatenation Configuration](concatenate/).
+
+![365 business PDF - Document Attachments](/assets/images/365-business-pdf/365businesspdf-doc-attachments.gif)
+
+Currently, the action Document Attachments can be found in:
+
+ - Sales Quote
+ - Sales Order
+ - Purchase Quote
+ - Purchase Order
+
+Other areas can be made available via the internal API of 365 business PDF if required.
+
 ##### Digital Signature
 
 Protect your documents created from Microsoft Dynamics 365 Business Central from tampering by digital signature!
@@ -35,6 +50,7 @@ In the current version, the integration is provided in the Microsoft standard fo
 | Service | Report selection - Service |
 
 ### See also
- - [PDF Stationery Setup](stationery/)
- - PDF Document linking setup](concatenate/)
- - PDF Signing setup](signing/)
+ - [PDF Stationery Configuration](stationery/)
+ - [PDF Document Concatenate Configuration](concatenate/)
+ - [PDF Signing Configuration](signing/)
+ - [Document Attachments](document-attachments/)

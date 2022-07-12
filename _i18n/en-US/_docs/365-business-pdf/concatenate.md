@@ -1,4 +1,4 @@
-With 365 business PDF, you can link PDF files generated from Microsoft Dynamics 365 Business Central to other PDF files and merge them into one file. For example, you can attach cover pages or supplementary documents to your documents and reports generated from Microsoft Dynamics 365 Business Central to add value to them.
+With 365 business PDF, you can link PDF files generated from Microsoft Dynamics 365 Business Central to other PDF files and merge them into one file. For example, you can attach your terms and conditions to all your order confirmation documents generated from Microsoft Dynamics 365 Business Central.
 
 The setup is done on the **PDF Concatenation Configurations** page. Multiple chaining configurations can be created here.
 
@@ -16,3 +16,5 @@ The setup is done on the **PDF Concatenation Configurations** page. Multiple cha
 
 ![Concatenate Configuration](/assets/images/365-business-pdf/concatenate-configuration.png)  
 
+### See also
+ - [Document Attachments](document-attachments/)
