@@ -51,6 +51,7 @@ titles:
   synchronization: Synchronisation
   user-settings: Benutzer Einstellungen
   zmdo-vat-entries-vat-reg-no: Es wurden MwSt.-Posten für die EU gefunden, für die keine USt-IdNr. angegeben wurde.
+  zmdo-does-not-match-ustva-amount: ZM Betrag entspricht nicht dem UStVA Betrag.
   find-and-replace: Suchen & Ersetzen
   user-certificates: Benutzerzertifikate
   opp-affiliation: Umsatzsteuerliche Organschaft
