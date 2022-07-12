@@ -28,21 +28,21 @@ All 365 business development apps are versioned based on the following scheme:
 
 | Feature | Description | Planned Release |
 | --- | --- | --- |
-| New Tax Data Type `GewSt` | Add support for `GewSt` (Gewerbesteuer) Tax Data Type. | Q1-2022 |
+| New Tax Data Type `GewSt` | Add support for `GewSt` (Gewerbesteuer) Tax Data Type. | 2022 |
 | New Tax Data Type `EUER` | Add support for `EUER` (Einnahmeüberschussrechnung) Tax Data Type. | TBD |
 | Tax Statement Preview | View your Tax Statement directly in Dynamics 365 Business Central or print the filled statement. | TBD |
 
 ##### 365 business Print Agent
 
-We plan to release the 365 business Print Agent in Q1-2022. This module will allow you to use local and virtual printers within Dynamics 365 Business Central, w/o additional dialogs, manual download etc. Additionally it supports to predefine paper trays, duplex mode and more and just use it in Report Selection or your custom report.
+We plan to release the 365 business Print Agent in 2022. This module will allow you to use local and virtual printers within Dynamics 365 Business Central, w/o additional dialogs, manual download etc. Additionally it supports to predefine paper trays, duplex mode and more and just use it in Report Selection or your custom report.
 
-> **Planned Release**: H1-2022
+> **Planned Release**: 2022
 
 ##### 365 business Document Recognition
 
 With 365 business Document Recognition you get a full-featured OCR detection incoming document workflow within Dynamics 365 Business Central, powered by the 365 business API Document Recognition service.
 
-> **Planned Release**: H2-2022
+> **Planned Release**: Q4-2022
 
 ### See also
 

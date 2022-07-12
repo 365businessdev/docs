@@ -4,7 +4,7 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-pdf/
 ---
 
-#### Version 19.0.5.5389
+#### Version 20.0.6.5389
 
  - Redesign
  - Support for Microsoft Dynamics 365 Business Central 2021 Release Wave 2 (19)- Support for multiple concatenate documents.
