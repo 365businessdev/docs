@@ -2,6 +2,8 @@ Mit 365 business PDF für Microsoft Dynamics 365 Business Central können Sie oh
 
 #### Funktionen im Überblick
 
+![365 business PDF](/assets/images/365-business-pdf/365businesspdf.gif)
+
 ##### Digitales Briefpapier
 
 Wenn Belege, wie Auftragsbestätigungen, Lieferscheine und Rechnungen, nicht nur digital als PDF-Datei erstellt und versandt, sondern zusätzlich auch noch ausgedruckt werden, stellt sich oft die Frage, wie mit dem Briefpapier umgegangen werden soll. Wenn das Briefpapier als Vordruck im Drucker liegt, darf aus Business Central heraus das Briefpapier nicht gedruckt werden. Beim elektronischen Versand, als PDF-Datei, hingegen muss das Briefpapier enthalten sein.

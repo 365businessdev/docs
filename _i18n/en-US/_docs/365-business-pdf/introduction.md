@@ -2,6 +2,8 @@ With 365 business PDF for Microsoft Dynamics 365 Business Central, you can apply
 
 #### Functions at a glance
 
+![365 business PDF](/assets/images/365-business-pdf/365businesspdf.gif)  
+
 ##### Digital Stationery
 
 If documents, such as order confirmations, delivery bills and invoices, are not only created and sent digitally as PDF files, but are also printed out in addition, the question often arises as to how the stationery should be handled. If the stationery is in the printer as a preprint, the stationery may not be printed from Business Central. If the letterhead is sent electronically as a PDF file, however, it must be included.
