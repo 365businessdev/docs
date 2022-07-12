@@ -17,4 +17,4 @@ The setup is done on the **PDF Concatenation Configurations** page. Multiple cha
 ![Concatenate Configuration](/assets/images/365-business-pdf/concatenate-configuration.png)  
 
 ### See also
- - [Document Attachments](document-attachments/)
+ - [Document Attachments](../document-attachments/)

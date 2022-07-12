@@ -16,4 +16,4 @@ Translated with www.DeepL.com/Translator (free version)
 ![365 business PDF - Document Attachments](/assets/images/365-business-pdf/365businesspdf-doc-attachments.gif)
 
 ### See also
- - [PDF Document Concatenate Configuration](concatenate/)
+ - [PDF Document Concatenate Configuration](../concatenate/)

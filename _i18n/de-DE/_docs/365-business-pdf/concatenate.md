@@ -17,4 +17,4 @@ Die Einrichtung findet in der Seite **PDF Verkettung Konfigurationen** statt. Hi
 ![Verkettungskonfiguration](/assets/images/365-business-pdf/concatenate-configuration.png)  
 
 ### Siehe auch
- - [Beleganhänge](document-attachments/)
+ - [Beleganhänge](../document-attachments/)
