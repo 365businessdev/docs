@@ -163,10 +163,10 @@
 									<li class="nav-item "><a href="/en-US/365-business-eric/setup/">Setup</a></li>
 								
 									
-									<li class="nav-item "><a href="/en-US/365-business-eric/user-certificates/">User Certificates</a></li>
+									<li class="nav-item "><a href="/en-US/365-business-eric/company-information/">Company Information</a></li>
 								
 									
-									<li class="nav-item "><a href="/en-US/365-business-eric/company-information/">Company Information</a></li>
+									<li class="nav-item "><a href="/en-US/365-business-eric/user-certificates/">User Certificates</a></li>
 								
 									
 									<li class="nav-item "><a href="/en-US/365-business-eric/vat-statement-setup/">VAT Statement Setup</a></li>
@@ -174,6 +174,7 @@
 									
 									<li class="nav-item "><a href="/en-US/365-business-eric/365-business-api-setup/">365 business API Setup</a></li>
 								
+									 
 									 
 									 
 									 
@@ -226,6 +227,9 @@
 								
 									
 									<li class="nav-item "><a href="/en-US/365-business-pdf/signing/">Sign Documents</a></li>
+								
+									
+									<li class="nav-item "><a href="/en-US/365-business-pdf/document-attachments/">Document Attachments</a></li>
 								
 									
 									<li class="nav-item "><a href="/en-US/365-business-pdf/concatenate/">Concatenate Documents</a></li>
@@ -1083,7 +1087,24 @@
 						"title": "365 business PDF  - Concatenate Documents",
 						"category": "",
 						"url": " /365-business-pdf/concatenate/",
-						"content": "With 365 business PDF, you can link PDF files generated from Microsoft Dynamics 365 Business Central to other PDF files and merge them into one file. For example, you can attach cover pages or supplementary documents to your documents and reports generated from Microsoft Dynamics 365 Business Central to add value to them.\n\nThe setup is done on the PDF Concatenation Configurations page. Multiple chaining configurations can be created here.\n\nHow do I create a concatenation configuration?\n\n\n  Open the page PDF Concatenation Configurations.\n  Select New.\n  Specify a value in Code field.\n  Specify a Description for the configuration.\n  Create a new configuration line.\n  Select the Position (Before/After) to concatenate the PDF file with the printed document.\n    \n      Good to knowIf you want to attach several files before or after the actual document or report, you can specify the order in the Position No. field.\n    \n  \n  Select the PDF File Code for the PDF file you want to concatenate.\n    \n      NotePDF files must be created in the PDF files page before use."
+						"content": "With 365 business PDF, you can link PDF files generated from Microsoft Dynamics 365 Business Central to other PDF files and merge them into one file. For example, you can attach your terms and conditions to all your order confirmation documents generated from Microsoft Dynamics 365 Business Central.\n\nThe setup is done on the PDF Concatenation Configurations page. Multiple chaining configurations can be created here.\n\nHow do I create a concatenation configuration?\n\n\n  Open the page PDF Concatenation Configurations.\n  Select New.\n  Specify a value in Code field.\n  Specify a Description for the configuration.\n  Create a new configuration line.\n  Select the Position (Before/After) to concatenate the PDF file with the printed document.\n    \n      Good to knowIf you want to attach several files before or after the actual document or report, you can specify the order in the Position No. field.\n    \n  \n  Select the PDF File Code for the PDF file you want to concatenate.\n    \n      NotePDF files must be created in the PDF files page before use.\n    \n  \n\n\n\n\nSee also\n\n  Document Attachments"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"365-business-pdf-document-attachments": {
+						"id": "365-business-pdf-document-attachments",
+						"title": "365 business PDF  - Document Attachments",
+						"category": "",
+						"url": " /365-business-pdf/document-attachments/",
+						"content": "With 365 business PDF you can link PDF files generated from Microsoft Dynamics 365 Business Central with other PDF files and merge them into one file. This allows you, for example, to attach cover sheets or supplementary documents to your documents and reports generated from Microsoft Dynamics 365 Business Central in order to enhance them.\n\nThe document attachments can be found via the action Document Attachments. Here you can specify any number of attachments (PDF files) in a specific order per document (e.g. sales quotation).\n\nTranslated with www.DeepL.com/Translator (free version)\n\nHow do I specify Document Attachments?\n\n\n  Open the Document (e.g. Sales Quote).\n  Select Quote.\n  Select Document Attachments.\n  Select in field Type whether you want to upload an Attachment or specify to position of the actual Document.\n    \n      Good to knowIf you do not enter a line with the type Document, the actual document is automatically appended to the end of the document.\n    \n  \n  If you’ve selected Attachment as type, select the PDF-File you want to upload.\n\n\n\n\nSee also\n\n  PDF Document Concatenate Configuration"
 					}
 
 					
@@ -1117,7 +1138,7 @@
 						"title": "365 business PDF  - Introduction",
 						"category": "",
 						"url": " /365-business-pdf/",
-						"content": "With 365 business PDF for Microsoft Dynamics 365 Business Central, you can apply a digital stationery (PDF file), digitally sign your documents, or attach other PDF files, such as terms and conditions or cover sheets, before or after the report created from Microsoft Dynamics 365 Business Central without the additional customization of the report layout.\n\nFunctions at a glance\n\n\n\nDigital Stationery\n\nIf documents, such as order confirmations, delivery bills and invoices, are not only created and sent digitally as PDF files, but are also printed out in addition, the question often arises as to how the stationery should be handled. If the stationery is in the printer as a preprint, the stationery may not be printed from Business Central. If the letterhead is sent electronically as a PDF file, however, it must be included.\n\n365 business PDF allows via the PDF Stationery Configuration the storage of stationery, which is automatically applied. It is not necessary to create additional report layouts or provide radio buttons in the report.\n\nLinking documents\n\nYou send a complex offer and want to send the supplementary documents together with the offer? Or do you want your current general terms and conditions (GTCs) to be automatically attached to each order confirmation?\n\nWith the PDF Concatenation Configuration in 365 business PDF you can attach any number of documents, before or after the actual document created from Microsoft Dynamics 365 Business Central.\n\nDigital Signature\n\nProtect your documents created from Microsoft Dynamics 365 Business Central from tampering by digital signature!\n\nWith the PDF Signing Configuration in 365 business PDF you protect your documents without any additional effort.\n\nWhich application areas are supported?\n\nIn the current version, the integration is provided in the Microsoft standard for all reports that are controlled via the report selection (Report Selections). These include:\n\n\n  \n    \n      Area\n      Configuration Page\n    \n  \n  \n    \n      Purchasing\n      Report Selection - Purchasing\n    \n    \n      Sales\n      Report selection - Sales\n    \n    \n      Dunning\n      Report selection - Reminder\n    \n    \n      Project\n      Report selection - Project\n    \n    \n      Service\n      Report selection - Service\n    \n  \n\n\nSee also\n\n  PDF Stationery Setup\n  PDF Document linking setup](concatenate/)\n  PDF Signing setup](signing/)"
+						"content": "With 365 business PDF for Microsoft Dynamics 365 Business Central, you can apply a digital stationery (PDF file), digitally sign your documents, or attach other PDF files, such as terms and conditions or cover sheets, before or after the report created from Microsoft Dynamics 365 Business Central without the additional customization of the report layout.\n\nFunctions at a glance\n\n\n\nDigital Stationery\n\nIf documents, such as order confirmations, delivery bills and invoices, are not only created and sent digitally as PDF files, but are also printed out in addition, the question often arises as to how the stationery should be handled. If the stationery is in the printer as a preprint, the stationery may not be printed from Business Central. If the letterhead is sent electronically as a PDF file, however, it must be included.\n\n365 business PDF allows via the PDF Stationery Configuration the storage of stationery, which is automatically applied. It is not necessary to create additional report layouts or provide radio buttons in the report.\n\nLinking documents\n\nYou send a complex offer and want to send the supplementary documents together with the offer? Or do you want your current general terms and conditions (GTCs) to be automatically attached to each order confirmation?\n\nWith the PDF Concatenation Configuration in 365 business PDF you can attach any number of documents, before or after the actual document created from Microsoft Dynamics 365 Business Central.\n\nDocument Attachments\n\nIn addition to concatenating documents using the PDF Concatenation Configuration, 365 business PDF supports Document Attachments which can be defined directly on the document. The document attachments are applied in addition to the concatenation using the PDF Concatenation Configuration.\n\n\n\nCurrently, the action Document Attachments can be found in:\n\n\n  Sales Quote\n  Sales Order\n  Purchase Quote\n  Purchase Order\n\n\nOther areas can be made available via the internal API of 365 business PDF if required.\n\nDigital Signature\n\nProtect your documents created from Microsoft Dynamics 365 Business Central from tampering by digital signature!\n\nWith the PDF Signing Configuration in 365 business PDF you protect your documents without any additional effort.\n\nWhich application areas are supported?\n\nIn the current version, the integration is provided in the Microsoft standard for all reports that are controlled via the report selection (Report Selections). These include:\n\n\n  \n    \n      Area\n      Configuration Page\n    \n  \n  \n    \n      Purchasing\n      Report Selection - Purchasing\n    \n    \n      Sales\n      Report selection - Sales\n    \n    \n      Dunning\n      Report selection - Reminder\n    \n    \n      Project\n      Report selection - Project\n    \n    \n      Service\n      Report selection - Service\n    \n  \n\n\nSee also\n\n  PDF Stationery Configuration\n  PDF Document Concatenate Configuration\n  PDF Signing Configuration\n  Document Attachments"
 					}
 
 					
@@ -1169,6 +1190,23 @@
 						"category": "",
 						"url": " /365-business-pdf/stationery/",
 						"content": "With 365 business PDF you can underlay PDF files generated from Microsoft Dynamics 365 Business Central with a stationery (PDF file). This eliminates the need to create and maintain additional report layouts.\n\nThe setup takes place in the PDF Stationery Configurations page. Here, multiple stationery configurations can be created. For example, it is possible to store different or no stationery for each page.\n\nHow do I create a stationery configuration?\n\n\n  Open the page PDF Stationery Configurations.\n  Select New.\n  Specify a value in Code field.\n  Specify a Description for the configuration.\n  Create a new configuration line.\n  Select the Stationery Type to specify where the PDF file should be applied as stationery.\n  Select the PDF File Code for the PDF file you want to concatenate.\n    \n      NotePDF files must be created in the PDF files page before use."
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"365-business-eric-support-zmdo-does-not-match-ustva-amount": {
+						"id": "365-business-eric-support-zmdo-does-not-match-ustva-amount",
+						"title": "365 business ERiC  - Recapitulative Stmt. Amount does not match Sales VAT Adv. Notification.",
+						"category": "",
+						"url": " /365-business-eric/support/zmdo-does-not-match-ustva-amount/",
+						"content": "This page is not available in the selected language. The page is available in German. Please select other language to display.\n\n\nDieser Artikel unterstützt Sie bei der Lösung der ELSTER Validierungsmeldung:\n\n\n  Die Gesamtsumme stimmt nicht mit dem erwarteten Wert aus der Umsatzsteuervoranmeldung überein. Bitte überprüfen Sie die Einrichtung der MwSt.-Abrechnung und der MwSt.-Posten, damit die Beträge übereinstimmen. Ein nicht übereinstimmender Wert kann zu weiteren Rückfragen seitens des Finanzamtes führen.\n\n\nUrsache\n\nNach der Berechnung der Zusammenfassenden Meldung wird die Gesamtsumme mit dem Betrag der Steuerkennzahl 41 (Rubrikennr.) aus der Umsatzsteuervoranmeldung bzw. MwSt.-Abrechnung für denselben Zeitraum verglichen. Wenn die Gesamtsumme abweichend ist wird die o.g. Warnmeldung ausgegeben.\nIn der Regel müssen die Beträge zwischen der Steuerkennzahl 41 (Steuerfreie Umsätze mit Vorsteuerabzug: Innergem. Lief. an Abnehmer mit USt-IdNr.) übereinstimmen, andernfalls kommt es unter Umständen zu entsprechenden Rückfragen durch das Finanzamt.\n\nDie Ursache für abweichende Beträge kann unterschiedlich sein. Eine Möglichkeit ist bspw. dass ein nicht EU-Land (z.B. GB) innerhalb der MwSt.-Abrechnung für die UStVA verwendet wird:\n\n\n\n\n  HinweisBei der Berechnung der Zusammenfassenden Meldung wird explizit auf das Kennzeichen EU-Länder-/Regionscode geprüft. Nur Länder mit einem entsprechenden Wert im Feld EU-Länder-/Regionscode werden als EU-Land angesehen.\n\n\nLösung\n\nKorrigieren Sie die MwSt.-Abrechnung für die UStVA-Berechnung bzw. prüfen Sie die korrekte Zuweisung der MwSt.-Geschäftsbuchungsgruppe an den entsprechenden Debitoren."
 					}
 
 					

@@ -163,10 +163,10 @@
 									<li class="nav-item "><a href="/de-DE/365-business-eric/setup/">Einrichtung</a></li>
 								
 									
-									<li class="nav-item "><a href="/de-DE/365-business-eric/user-certificates/">Benutzerzertifikate</a></li>
+									<li class="nav-item "><a href="/de-DE/365-business-eric/company-information/">Firmendaten</a></li>
 								
 									
-									<li class="nav-item "><a href="/de-DE/365-business-eric/company-information/">Firmendaten</a></li>
+									<li class="nav-item "><a href="/de-DE/365-business-eric/user-certificates/">Benutzerzertifikate</a></li>
 								
 									
 									<li class="nav-item "><a href="/de-DE/365-business-eric/vat-statement-setup/">MwSt.-Abrechnung Einrichtung</a></li>
@@ -174,6 +174,7 @@
 									
 									<li class="nav-item "><a href="/de-DE/365-business-eric/365-business-api-setup/">365 business API Einrichtung</a></li>
 								
+									 
 									 
 									 
 									 
@@ -226,6 +227,9 @@
 								
 									
 									<li class="nav-item "><a href="/de-DE/365-business-pdf/signing/">Dokumentsignierung</a></li>
+								
+									
+									<li class="nav-item "><a href="/de-DE/365-business-pdf/document-attachments/">Beleganhänge</a></li>
 								
 									
 									<li class="nav-item "><a href="/de-DE/365-business-pdf/concatenate/">Dokumentverkettung</a></li>
@@ -1083,7 +1087,24 @@
 						"title": "365 business PDF  - Dokumentverkettung",
 						"category": "",
 						"url": " /365-business-pdf/concatenate/",
-						"content": "Mit 365 business PDF können Sie PDF-Dateien, die aus Microsoft Dynamics 365 Business Central erzeugt werden, mit anderen PDF-Dateien verketten und in eine Datei zusammenführen. Hiermit können Sie zum Beispiel Deckblätter oder ergänzende Dokumente an Ihre, aus Microsoft Dynamics 365 Business Central erzeugten, Belege und Berichte anfügen um diese zu veredeln.\n\nDie Einrichtung findet in der Seite PDF Verkettung Konfigurationen statt. Hier können mehrere Verkettungskonfigurationen angelegt werden.\n\nWie erstelle ich eine Verkettungskonfiguration?\n\n\n  Öffnen Sie die Seite PDF Verkettung Konfigurationen.\n  Klicken Sie Neu.\n  Vergeben Sie einen Wert im Feld Code.\n  Geben Sie eine Beschreibung für die Konfiguration ein.\n  Erstellen Sie eine neue Konfigurationszeile.\n  Wählen Sie die Position (Vorher/Nachher), an der die zu verkettende PDF-Datei hinzugefügt werden soll.\n    \n      TippWenn sie mehrere Dateien vor oder hinter dem eigentlichen Beleg oder Bericht anfügen wollen, können Sie im Feld Positionsnr. die Reihenfolge bestimmen.\n    \n  \n  Wählen Sie den PDF-Datei Code für die PDF-Datei aus, die Sie anfügen möchten.\n    \n      HinweisPDF-Dateien müssen vor der Verwendung in der Seite PDF-Dateien angelegt werden."
+						"content": "Mit 365 business PDF können Sie PDF-Dateien, die aus Microsoft Dynamics 365 Business Central erzeugt werden, mit anderen PDF-Dateien verketten und in eine Datei zusammenführen. Hiermit können Sie zum Beispiel die Allgemeinen Geschäftsbedingungen (AGB) an alle Auftragsbestätigungen, aus Microsoft Dynamics 365 Business Central, automatisch anfügen.\n\nDie Einrichtung findet in der Seite PDF Verkettung Konfigurationen statt. Hier können mehrere Verkettungskonfigurationen angelegt werden.\n\nWie erstelle ich eine Verkettungskonfiguration?\n\n\n  Öffnen Sie die Seite PDF Verkettung Konfigurationen.\n  Klicken Sie Neu.\n  Vergeben Sie einen Wert im Feld Code.\n  Geben Sie eine Beschreibung für die Konfiguration ein.\n  Erstellen Sie eine neue Konfigurationszeile.\n  Wählen Sie die Position (Vorher/Nachher), an der die zu verkettende PDF-Datei hinzugefügt werden soll.\n    \n      TippWenn sie mehrere Dateien vor oder hinter dem eigentlichen Beleg oder Bericht anfügen wollen, können Sie im Feld Positionsnr. die Reihenfolge bestimmen.\n    \n  \n  Wählen Sie den PDF-Datei Code für die PDF-Datei aus, die Sie anfügen möchten.\n    \n      HinweisPDF-Dateien müssen vor der Verwendung in der Seite PDF-Dateien angelegt werden.\n    \n  \n\n\n\n\nSiehe auch\n\n  Beleganhänge"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"365-business-pdf-document-attachments": {
+						"id": "365-business-pdf-document-attachments",
+						"title": "365 business PDF  - Beleganhänge",
+						"category": "",
+						"url": " /365-business-pdf/document-attachments/",
+						"content": "Mit 365 business PDF können Sie PDF-Dateien, die aus Microsoft Dynamics 365 Business Central erzeugt werden, mit anderen PDF-Dateien verketten und in eine Datei zusammenführen. Hiermit können Sie zum Beispiel Deckblätter oder ergänzende Dokumente an Ihre, aus Microsoft Dynamics 365 Business Central erzeugten, Belege und Berichte anfügen um diese zu veredeln.\n\nDie Beleganhänge finden sie über die Aktion Beleganhänge. Hier können sie beliebig viele Anhänge (PDF-Dateien) in einer spezifischen Reihenfolge pro Beleg (z.B. Verkaufsangebot) angeben.\n\nWie definiere ich Beleganhänge?\n\n\n  Öffnen Sie den Beleg (z.B. Verkaufsangebot).\n  Klicken Sie Angebot.\n  Klicken Sie auf Beleganhänge.\n  Wählen Sie im Feld Art aus ob es sich um einen Anhang oder den eigentlichen Beleg handelt.\n    \n      Gut zu wissenWenn Sie keine Zeile mit der Art Beleg erfassen, wird der eigentliche Beleg automatisch an das Ende des Dokuments angehangen.\n    \n  \n  Wählen Sie die PDF-Datei aus, die Sie anhängen möchten.\n\n\n\n\nSiehe auch\n\n  PDF Dokumentverkettung Einrichtung"
 					}
 
 					
@@ -1117,7 +1138,7 @@
 						"title": "365 business PDF  - Einführung",
 						"category": "",
 						"url": " /365-business-pdf/",
-						"content": "Mit 365 business PDF für Microsoft Dynamics 365 Business Central können Sie ohne die zusätzliche Anpassung des Berichtslayouts ein digitales Briefpapier (PDF-Datei) anwenden, Ihre Dokumente digital signieren oder weitere PDF-Dateien, wie Allgemeine Geschäftsbedingungen oder Deckblätter, vor oder nach dem aus Microsoft Dynamics 365 Business Central erstelltem Bericht anhängen.\n\nFunktionen im Überblick\n\n\n\nDigitales Briefpapier\n\nWenn Belege, wie Auftragsbestätigungen, Lieferscheine und Rechnungen, nicht nur digital als PDF-Datei erstellt und versandt, sondern zusätzlich auch noch ausgedruckt werden, stellt sich oft die Frage, wie mit dem Briefpapier umgegangen werden soll. Wenn das Briefpapier als Vordruck im Drucker liegt, darf aus Business Central heraus das Briefpapier nicht gedruckt werden. Beim elektronischen Versand, als PDF-Datei, hingegen muss das Briefpapier enthalten sein.\n\n365 business PDF erlaubt über die PDF Briefpapier Konfiguration die Hinterlegung von Briefpapier, welche automatisch angewandt wird. Es ist nicht notwendig zusätzliche Berichtslayouts anzulegen oder Optionsschalter im Bericht vorzusehen.\n\nVerkettung von Dokumenten\n\nSie versenden ein komplexes Angebot und möchten die ergänzenden Dokumente zusammen mit dem Angebot versenden? Oder sollen Ihre aktuellen allgemeinen Geschäftsbedingungen (AGBs) automatisch an jede Auftragsbestätigung angehangen werden?\n\nMit der PDF Dokumentverkettung Konfiguration in 365 business PDF können Sie eine beliebige Anzahl an Dokumenten, vor oder nach dem eigentlichen Dokument, welches aus Microsoft Dynamics 365 Business Central erstellt wurde, anhängen.\n\nDigitale Signatur\n\nSchützen Sie Ihre aus Microsoft Dynamics 365 Business Central erstellten Dokumente vor Manipulationen durch digitale Signatur!\n\nMit der PDF Signierung Konfiguration in 365 business PDF schützen Sie Ihre Dokumente ohne zusätzlichen Aufwand.\n\nWelche Anwendungsbereiche werden unterstützt?\n\nIn der aktuellen Version ist die Integration im Microsoft Standard für sämtliche Berichte, die über die Berichtsauswahl (Report Selections) gesteuert werden vorgesehen. Hierzu zählen unter anderem:\n\n\n  \n    \n      Bereich\n      Konfigurationsseite\n    \n  \n  \n    \n      Einkauf\n      Berichtsauswahl - Einkauf\n    \n    \n      Verkauf\n      Berichtsauswahl - Verkauf\n    \n    \n      Mahnung\n      Berichtsauswahl - Mahnung/Zinsrechnung\n    \n    \n      Projekt\n      Berichtsauswahl - Projekt\n    \n    \n      Service\n      Berichtsauswahl - Service\n    \n  \n\n\nSiehe auch\n\n  PDF Briefpapier Einrichtung\n  PDF Dokumentverkettung Einrichtung\n  PDF Signierung Einrichtung"
+						"content": "Mit 365 business PDF für Microsoft Dynamics 365 Business Central können Sie ohne die zusätzliche Anpassung des Berichtslayouts ein digitales Briefpapier (PDF-Datei) anwenden, Ihre Dokumente digital signieren oder weitere PDF-Dateien, wie Allgemeine Geschäftsbedingungen oder Deckblätter, vor oder nach dem aus Microsoft Dynamics 365 Business Central erstelltem Bericht anhängen.\n\nFunktionen im Überblick\n\n\n\nDigitales Briefpapier\n\nWenn Belege, wie Auftragsbestätigungen, Lieferscheine und Rechnungen, nicht nur digital als PDF-Datei erstellt und versandt, sondern zusätzlich auch noch ausgedruckt werden, stellt sich oft die Frage, wie mit dem Briefpapier umgegangen werden soll. Wenn das Briefpapier als Vordruck im Drucker liegt, darf aus Business Central heraus das Briefpapier nicht gedruckt werden. Beim elektronischen Versand, als PDF-Datei, hingegen muss das Briefpapier enthalten sein.\n\n365 business PDF erlaubt über die PDF Briefpapier Konfiguration die Hinterlegung von Briefpapier, welche automatisch angewandt wird. Es ist nicht notwendig zusätzliche Berichtslayouts anzulegen oder Optionsschalter im Bericht vorzusehen.\n\nVerkettung von Dokumenten\n\nSie versenden ein komplexes Angebot und möchten die ergänzenden Dokumente zusammen mit dem Angebot versenden? Oder sollen Ihre aktuellen allgemeinen Geschäftsbedingungen (AGBs) automatisch an jede Auftragsbestätigung angehangen werden?\n\nMit der PDF Dokumentverkettung Konfiguration in 365 business PDF können Sie eine beliebige Anzahl an Dokumenten, vor oder nach dem eigentlichen Dokument, welches aus Microsoft Dynamics 365 Business Central erstellt wurde, anhängen.\n\nBeleganhänge\n\nZusätzlich zur Verkettung von Dokumenten, mit Hilfe der PDF Dokumentverkettung Konfiguration, unterstützt 365 business PDF Beleganhänge, die direkt am Beleg definiert werden können. Die Beleganhänge werden zusätzlich zu der Verkettung über die PDF Dokumentverkettung Konfiguration angewandt.\n\n\n\nAktuell findet sich der Aufruf der Beleganhänge in:\n\n\n  Angebot\n  Auftrag\n  Einkaufsanfrage\n  Bestellung\n\n\nWeitere Bereiche können bei Bedarf über die interne API von 365 business PDF bereitgestellt werden.\n\nDigitale Signatur\n\nSchützen Sie Ihre aus Microsoft Dynamics 365 Business Central erstellten Dokumente vor Manipulationen durch digitale Signatur!\n\nMit der PDF Signierung Konfiguration in 365 business PDF schützen Sie Ihre Dokumente ohne zusätzlichen Aufwand.\n\nWelche Anwendungsbereiche werden unterstützt?\n\nIn der aktuellen Version ist die Integration im Microsoft Standard für sämtliche Berichte, die über die Berichtsauswahl (Report Selections) gesteuert werden vorgesehen. Hierzu zählen unter anderem:\n\n\n  \n    \n      Bereich\n      Konfigurationsseite\n    \n  \n  \n    \n      Einkauf\n      Berichtsauswahl - Einkauf\n    \n    \n      Verkauf\n      Berichtsauswahl - Verkauf\n    \n    \n      Mahnung\n      Berichtsauswahl - Mahnung/Zinsrechnung\n    \n    \n      Projekt\n      Berichtsauswahl - Projekt\n    \n    \n      Service\n      Berichtsauswahl - Service\n    \n  \n\n\nSiehe auch\n\n  PDF Briefpapier Einrichtung\n  PDF Dokumentverkettung Einrichtung\n  PDF Signierung Einrichtung\n  Beleganhänge"
 					}
 
 					
@@ -1169,6 +1190,23 @@
 						"category": "",
 						"url": " /365-business-pdf/stationery/",
 						"content": "Mit 365 business PDF können Sie PDF-Dateien, die aus Microsoft Dynamics 365 Business Central erzeugt werden, mit einem Briefpapier (PDF-Datei) unterlegen. Hierdurch müssen keine zusätzlichen Berichtslayouts angelegt und gepflegt werden.\n\nDie Einrichtung findet in der Seite PDF Briefpapier Konfigurationen statt. Hier können mehrere Briefpapierkonfigurationen angelegt werden. Beispielsweise ist es möglich für jede Seite unterschiedliche oder keine Briefpapiere zu hinterlegen.\n\nWie erstelle ich eine Briefpapierkonfigurationen?\n\n\n  Öffnen Sie die Seite PDF Briefpapier Konfigurationen.\n  Klicken Sie Neu.\n  Vergeben Sie einen Wert im Feld Code.\n  Geben Sie eine Beschreibung für die Konfiguration ein.\n  Erstellen Sie eine neue Konfigurationszeile.\n  Wählen Sie im Feld Briefpapierart, an welche Stelle das Briefpapier angewandt werden soll.\n  Wählen Sie den PDF-Datei Code für die PDF-Datei aus, die Sie als Briefpapier verwenden möchten.\n    \n      HinweisPDF-Dateien müssen vor der Verwendung in der Seite PDF-Dateien angelegt werden."
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"365-business-eric-support-zmdo-does-not-match-ustva-amount": {
+						"id": "365-business-eric-support-zmdo-does-not-match-ustva-amount",
+						"title": "365 business ERiC  - ZM Betrag entspricht nicht dem UStVA Betrag.",
+						"category": "",
+						"url": " /365-business-eric/support/zmdo-does-not-match-ustva-amount/",
+						"content": "Dieser Artikel unterstützt Sie bei der Lösung der ELSTER Validierungsmeldung:\n\n\n  Die Gesamtsumme stimmt nicht mit dem erwarteten Wert aus der Umsatzsteuervoranmeldung überein. Bitte überprüfen Sie die Einrichtung der MwSt.-Abrechnung und der MwSt.-Posten, damit die Beträge übereinstimmen. Ein nicht übereinstimmender Wert kann zu weiteren Rückfragen seitens des Finanzamtes führen.\n\n\nUrsache\n\nNach der Berechnung der Zusammenfassenden Meldung wird die Gesamtsumme mit dem Betrag der Steuerkennzahl 41 (Rubrikennr.) aus der Umsatzsteuervoranmeldung bzw. MwSt.-Abrechnung für denselben Zeitraum verglichen. Wenn die Gesamtsumme abweichend ist wird die o.g. Warnmeldung ausgegeben.\nIn der Regel müssen die Beträge zwischen der Steuerkennzahl 41 (Steuerfreie Umsätze mit Vorsteuerabzug: Innergem. Lief. an Abnehmer mit USt-IdNr.) übereinstimmen, andernfalls kommt es unter Umständen zu entsprechenden Rückfragen durch das Finanzamt.\n\nDie Ursache für abweichende Beträge kann unterschiedlich sein. Eine Möglichkeit ist bspw. dass ein nicht EU-Land (z.B. GB) innerhalb der MwSt.-Abrechnung für die UStVA verwendet wird:\n\n\n\n\n  HinweisBei der Berechnung der Zusammenfassenden Meldung wird explizit auf das Kennzeichen EU-Länder-/Regionscode geprüft. Nur Länder mit einem entsprechenden Wert im Feld EU-Länder-/Regionscode werden als EU-Land angesehen.\n\n\nLösung\n\nKorrigieren Sie die MwSt.-Abrechnung für die UStVA-Berechnung bzw. prüfen Sie die korrekte Zuweisung der MwSt.-Geschäftsbuchungsgruppe an den entsprechenden Debitoren."
 					}
 
 					
