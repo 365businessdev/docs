@@ -16,5 +16,11 @@ The setup is done on the **PDF Concatenation Configurations** page. Multiple cha
 
 ![Concatenate Configuration](/assets/images/365-business-pdf/concatenate-configuration.png)  
 
+#### How can I specify when to apply the configuration?
+
+You can specify for which action you want to apply the configuration. For example, a common scenario is that you do not want to chain the conditions when you perform a print action because you are printing on company paper that already has the conditions on the back.
+
+You can specify the application for each configuration in the **Application** group on the **PDF Chaining Configuration** page.
+
 ### See also
  - [Document Attachments](../document-attachments/)

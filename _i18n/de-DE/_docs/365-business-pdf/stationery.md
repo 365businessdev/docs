@@ -15,3 +15,8 @@ Die Einrichtung findet in der Seite **PDF Briefpapier Konfigurationen** statt. H
 
 ![Briefpapierkonfiguration](/assets/images/365-business-pdf/stationery-configuration.png)
 
+#### Wie kann ich festlegen, wann die Konfiguration angewendet werden soll?
+
+Sie können angeben, für welche Aktion Sie die Konfiguration anwenden möchten. Ein häufiges Szenario ist z. B., dass Sie das Briefpapier nicht anwenden wollen, wenn Sie einen Druck durchführen, weil Sie auf echtem Firmenpapier drucken.
+
+Sie können die Anwendung für jede Konfiguration in der Gruppe **Anwendung** auf der Seite **PDF Briefpapier Konfiguration** angeben.

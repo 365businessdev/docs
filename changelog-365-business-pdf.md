@@ -4,10 +4,20 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-pdf/
 ---
 
+#### Version 20.1.12.5629
+
+ - Add Document Print Intent Configuration for
+   - Stationery Configuration
+   - Concatenate Configuration
+ - Fix filtering for Concatenate Configuration.
+ - Add Document Attachments (see [Documentation](https://docs.365businessdev.com/en-US/365-business-pdf/document-attachments/))
+ - Fix multiple API request for concatenate multiple documents.
+
 #### Version 20.0.6.5389
 
  - Redesign
- - Support for Microsoft Dynamics 365 Business Central 2021 Release Wave 2 (19)- Support for multiple concatenate documents.
+ - Support for Microsoft Dynamics 365 Business Central 2022 Release Wave 1 (20)
+ - Support for multiple concatenate documents.
  - Fix RDLC report support.
 
 #### Version 15.0.8.0

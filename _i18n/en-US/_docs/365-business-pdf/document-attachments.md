@@ -2,8 +2,6 @@ With 365 business PDF you can link PDF files generated from Microsoft Dynamics 3
 
 The document attachments can be found via the action **Document Attachments**. Here you can specify any number of attachments (PDF files) in a specific order per document (e.g. sales quotation).
 
-Translated with www.DeepL.com/Translator (free version)
-
 #### How do I specify Document Attachments?
 
 1. Open the Document (e.g. Sales Quote).

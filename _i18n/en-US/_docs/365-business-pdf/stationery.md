@@ -15,3 +15,8 @@ The setup takes place in the **PDF Stationery Configurations** page. Here, multi
 
 ![Stationery Configuration](/assets/images/365-business-pdf/stationery-configuration.png)
 
+#### How can I specify when to apply the configuration?
+
+You can specify for which action you want to apply the configuration. For example, a common scenario is that you don't want to apply the stationery when you do a print because you are printing on company paper.
+
+You can specify the application for each configuration in the **Application** group on the **PDF Stationery Configuration** page.

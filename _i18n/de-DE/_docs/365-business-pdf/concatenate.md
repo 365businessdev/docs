@@ -16,5 +16,10 @@ Die Einrichtung findet in der Seite **PDF Verkettung Konfigurationen** statt. Hi
 
 ![Verkettungskonfiguration](/assets/images/365-business-pdf/concatenate-configuration.png)  
 
+#### Wie kann ich festlegen, wann die Konfiguration angewendet werden soll?
+
+Sie können angeben, für welche Aktion Sie die Konfiguration anwenden möchten. Ein häufiges Szenario ist z. B., dass Sie die Allgemeinen Geschäftsbedingungen nicht verketten möchten, wenn Sie einen Druck durchführen, weil Sie auf Firmenpapier drucken, welches die Allgemeinen Geschäftsbedingungen bereits auf der Rückseite enthält.
+
+Sie können die Anwendung für jede Konfiguration in der Gruppe **Anwendung** auf der Seite **PDF Verkettungskonfiguration** angeben.
 ### Siehe auch
  - [Beleganhänge](../document-attachments/)
