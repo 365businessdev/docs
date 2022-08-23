@@ -4,6 +4,14 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-eric/
 ---
 
+#### Version 17.9.132.5631
+
+ - Fix CR/LF in Company Information
+ - Add Recapitulative Stmt. Total Group in ELSTER Tax Data Card
+ - Check Recapitulative Stmt. Amount with Sales Adv. Notification Amount (Tax Figure `41`)
+ - Fix translation
+ - Fix Validation Message handling prior submission
+
 #### Version 17.9.125.5182
 
  - Fiscal Year 2022 update (ELSTER schema change) for USt 2022.
