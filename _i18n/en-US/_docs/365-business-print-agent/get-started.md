@@ -5,7 +5,7 @@ This quick start guide explains how to enable 365 business Print Agent and set u
 ## Prerequisites
 
  - Microsoft Dynamics 365 Business Central 2021 release wave 1 (18.0) or later.
- - A client device, to install and print from [365 business Print Agent Service](../print-agent-client-whatis), running Windows client OS with installed printer.
+ - A Microsoft Windows client device for running [365 business Print Agent Service](../print-agent-client-whatis) & 365 business Print Agent Application.
  - An internet connection.
 
 > **Important**<br>This quick start guide is focusing on Print Agent Cloud service mode.<br>For additional information about set up Direct Connection service mode please visit [documentation](../setup/).
@@ -40,15 +40,15 @@ To set up Print Agent open the **Print Agent Setup** page in Microsoft Dynamics 
  3. Select **365 business Print Agent Cloud (recommend)**.
  4. Paste the Tenant ID copied in step 1.1.
  5. Specify a **Name** to identify the client device.
- 6. Select **Apply** to set up the agent and start the services.
+ 6. Select **Apply** to complete your set up of your 365 business Print Agent service.
 
 ## Step 2: Set up printers
 
-To set up and use printers in Microsoft Dynamics 365 Business Central you've to specify which printers, available on the client device, you want to share with Microsoft Dynamics 365 Business Central,
+To set up and use printers directly in Microsoft Dynamics 365 Business Central you've to specify which printers, you want to share with Microsoft Dynamics 365 Business Central.
 
  1. Open **365 business Print Agent** application.
  2. Select **Printer** to view all available printers on your client device.
- 3. Set checkmark for each printer you want to share with Microsoft Dynamics 365 Business Central.
+ 3. Select each printer you want to share with Microsoft Dynamics 365 Business Central.
     ![Shared Printer](/assets/images/365-business-print-agent/ad01eb85658694c75716cb5dbce514bd3763fb94b48e505c0288c2bcf8638737.png)  
 
 ## Step 2.1: Get shared printers
@@ -69,7 +69,7 @@ To set up and use printers in Microsoft Dynamics 365 Business Central you've to 
 
 ## Step 3: Assign Printer Configuration
 
-To get the most out of direct printing capabilities it's good to set up printer (configuration) for specific reports or users. The configuration take place in Microsoft Dynamics 365 Business Central standard page **Printer Selection**.
+To get the most out of direct printing capabilities it's good to set up a printer (configuration) for specific reports or users. The configuration takes place in Microsoft Dynamics 365 Business Central standard page **Printer Selection**.
 
  1. Open **Print Selection**.
  2. Select **User ID** or leave blank to assign the printer (configuration) for every user.
