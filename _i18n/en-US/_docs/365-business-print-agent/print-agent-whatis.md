@@ -8,7 +8,7 @@ Print Agent is basically consists of at least two components, the Microsoft Dyna
 
 ## Architecture
 
-365 business Print Agent can operate in two separate so-called Service Modes, the Direct Connection and the 365 business Print Agent Cloud mode.
+365 business Print Agent can operate in two separate so-called Service Modes, the 365 business Print Agent Cloud and the Direct Connection mode.
 
 > **Good to know!**<br>365 business Print Agent service and the 365 business Print Agent app support both service modes and the modes can be switched everytime, after initial set up.<br>Please keep in mind, that existing configurations will be removed prior changing the service mode in Microsoft Dynamics 365 Business Central.
 
@@ -25,20 +25,20 @@ Communication between the Print Agent Service and the Cloud is implemented via s
 | Component | Description |
 | --- | --- |
 | Microsoft Dynamics 365 Business Central | Microsoft Dynamics 365 Business Central with the 365 business Print Agent app installed. |
-| Print Agent Cloud | Cloud print service that handles to communication between the 365 business Print Agent app and one or more Print Agent Service to process print jobs. | 
-| Print Agent Service | A component that handles communication between printers and the Print Agent Cloud. |
+| Print Agent Cloud | Cloud print service that handles the communication between the 365 business Print Agent app and one or more Print Agent Service to process print jobs. | 
+| Print Agent Service | A service that handles communication between printers and the Print Agent Cloud. |
 | Printer | A printer that needs to be shared using the 365 business Print Agent service (connector). |
 
 #### Direct Connection
 
-The direct connection mode of 365 business Print Agent is only recommended for on-premises environments of Microsoft Dynamics 365 Business Central, due to the much higher effort necessary to configure firewalls, network routes and many more, to allow a secure and reliable access from Microsoft Dynamics 365 Business Central SaaS environments.
+The direct connection mode of 365 business Print Agent is only recommended for on-premises environments of Microsoft Dynamics 365 Business Central, due to the much higher effort to configure firewalls, network routes and many more, to allow a secure and reliable access from Microsoft Dynamics 365 Business Central SaaS environments.
 
 ![365 business Print Agent - Direct Connection Architecture](/assets/images/365-business-print-agent/76cc532b71007675a8cfd27fc522b1175b08a9ea4f5d7543bf1eae6fe4b401db.png)  
 
 | Component | Description |
 | --- | --- |
 | Microsoft Dynamics 365 Business Central | Microsoft Dynamics 365 Business Central with the 365 business Print Agent app installed. |
-| Print Agent Service | A component that handles communication between printers and the 365 business Print Agent app. |
+| Print Agent Service | A service that handles communication between printers and the 365 business Print Agent app. |
 | Printer | A printer that needs to be shared using the 365 business Print Agent service (connector). |
 
 ## Prerequisite
