@@ -9,7 +9,7 @@
 
 > **Important**<br>If you use Print Agent Service in Direct Connection mode please make sure the Service Port is available through internet from your Microsoft Dynamics 365 Business Central tenant.<br>We strongly recommend to use Print Agent Cloud for SaaS environments of Microsoft Dynamics 365 Business Central.
 
-> **Note**<br>If you are trying to upgrade Print Agent Service, you only need to [download the latest version](https://365businessapi.com/api/SoftwareDownload?AppId=c2e7d99c-d3c6-4ecc-9c6b-7be4048b41a9) and run the installer.
+> **Note**<br>To update your Print Agent Service download and install the [latest version](https://365businessapi.com/api/SoftwareDownload?AppId=c2e7d99c-d3c6-4ecc-9c6b-7be4048b41a9). After the installation your settings are restored. 
 
 ## Before you start
 
@@ -24,7 +24,7 @@ Please [read this article](../print-agent-whatis/) to determine which Service Mo
 
 ## Set up Print Agent Service for Print Agent Cloud Service Mode
 
-To associate Print Agent Service and your Microsoft Dynamics 365 Business Central tenant in Print Agent Cloud you need to specify the **Tenant ID** from **Print Agent Setup** page in Microsoft Dynamics 365 Business Central. See [here](../setup/) for additional information.
+To connect Print Agent Service and your Microsoft Dynamics 365 Business Central tenant in Print Agent Cloud you need to specify the **Tenant ID** from **Print Agent Setup** page in Microsoft Dynamics 365 Business Central. See [here](../setup/) for additional information.
 
  1. Start the **365 business Print Agent** application.
  2. Select **Configuration**.
@@ -40,6 +40,6 @@ To associate Print Agent Service and your Microsoft Dynamics 365 Business Centra
  1. Start the **365 business Print Agent** application.
  2. Select **Configuration**.
  3. Select **365 business Print Agent Server**.
- 4. Specify **Remote Address** to the name the agent service should bind, or leave asterisks to bind every available IP address.
- 5. Specify the **Port** the agent service should listen on (default port `60000`).
+ 4. Specify **Remote Address** to the name the Print Agent service should bind, or leave asterisks to bind every available IP address of your system.
+ 5. Specify the **Port** the Print Agent service should listen on (default port `60000`).
  6. Select **Apply** to set up the agent and start the services.
