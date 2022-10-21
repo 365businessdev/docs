@@ -12,6 +12,7 @@ category:
   365-business-address-validation: 365 business Address Validation
   365-business-mailchimp-integration: 365 business Mailchimp Integration
   365-business-al-extension-manager: 365 business AL Extension Manager
+  365-business-print-agent: 365 business Print Agent
   find-and-replace: 365 business development - Find & Replace
 titles:
   al-developer: AL Implementation Guide
@@ -64,6 +65,14 @@ titles:
   pdf-files: PDF-Files
   document-attachments: Document Attachments
   bulk-print-restriction: Bulk Print Restriction
+  printer: Printer
+  printer-configuration: Printer Configuration
+  print-agent-clients: Print Agent Service
+  paper-kind: Paper Kind
+  paper-source-kind: Paper Source Kind
+  print-agent-service-installation: Install Print Agent Service on Windows
+  print-agent-whatis: What is Print Agent?
+  print-agent-client-whatis: What is the Print Agent Service?
 langs:
   german: German
   english: English
