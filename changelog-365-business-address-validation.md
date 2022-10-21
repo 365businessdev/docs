@@ -4,6 +4,31 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-address-validation/
 ---
 
+#### Version 18.7.86.6114
+ - Removed `Address Validation Status`.
+ - Add `Address Data` Dictionary to support internal address checks w/o API consumption.
+ - Add Address Prediction support for:
+   - Sales Quote,
+   - Sales Order,
+   - Purchase Quote,
+   - Purchase Order.
+ - Add Address Validation support for:
+   - Purchase Quote,
+   - Purchase Order.
+ - Update Permission Sets.
+ - Add Address field text decoration.
+
+#### Version 18.6.74.5706
+ - Add translations es-ES, da-DK, fr-FR, nl-BE, nl-NL.
+ - Fix Address Selection in Sales Order "Validate Address" action.
+ - Add Address prediction service failure telemetry.
+
+#### Version 18.6.72.5426
+
+ > **Important**<br>365 business Address Validation requires Dynamics 365 Business Central 2021 Release Wave 1 (18) or later.
+
+ - Compatibility update.
+
 #### Version 17.6.70.5125
 
  - Address Prediction support for:
