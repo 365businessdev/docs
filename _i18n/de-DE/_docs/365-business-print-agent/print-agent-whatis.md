@@ -10,7 +10,7 @@ Print Agent is basically consists of at least two components, the Microsoft Dyna
 
 ## Architecture
 
-365 business Print Agent can operate in two separate so-called Service Modes, the Direction Connection and the 365 business Print Agent Cloud mode.
+365 business Print Agent can operate in two separate so-called Service Modes, the Direct Connection and the 365 business Print Agent Cloud mode.
 
 > **Good to know!**<br>365 business Print Agent service and the 365 business Print Agent app support both service modes and the modes can be switched everytime, after initial set up.<br>Please keep in mind, that existing configurations will be removed prior changing the service mode in Microsoft Dynamics 365 Business Central.
 

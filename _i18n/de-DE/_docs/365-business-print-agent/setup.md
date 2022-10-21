@@ -19,7 +19,7 @@ The Print Agent Setup contains the configuration for the communication between M
  1. Select **Print Agent Cloud** as **Service Mode**.<br>[Learn more](../print-agent-whatis/#architecture)
  2. Select **Authenticate with Print Agent Service**.
 
-## How to set up Print Agent for Direction Connection Service Mode?
+## How to set up Print Agent for Direct Connection Service Mode?
 
  1. Select **Direct Connection** as **Service Mode**.<br>[Learn more](../print-agent-whatis/#architecture)
  2. Specify **Service URL** (e.g. IP-Address of the hosting Print Agent Service computer).

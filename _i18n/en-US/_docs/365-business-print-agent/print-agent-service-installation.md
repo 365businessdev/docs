@@ -33,7 +33,7 @@ To associate Print Agent Service and your Microsoft Dynamics 365 Business Centra
  5. Specify a **Name** to identify the client device.
  6. Select **Apply** to set up the agent and start the services.
 
-## Set up Print Agent Service for Direction Connection Service Mode
+## Set up Print Agent Service for Direct Connection Service Mode
 
 > **Important**<br>Please make sure the Service URL and Service Port is available from your Microsoft Dynamics 365 Business Central environment.<br>We strongly recommend to use Print Agent Cloud for SaaS environments of Microsoft Dynamics 365 Business Central.
 
