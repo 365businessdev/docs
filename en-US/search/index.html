@@ -134,9 +134,44 @@
 							<a href="/en-US/365-business-barcode/">365 business Barcode</a>
 							<ul>
 								
-									 
 									
 									<li class="nav-item "><a href="/en-US/365-business-barcode/get-started/">Get Started</a></li>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/en-US/365-business-print-agent/">365 business Print Agent</a>
+							<ul>
+								
+									 
+									 
+									 
+									 
+									
+									<li class="nav-item "><a href="/en-US/365-business-print-agent/print-agent-whatis/">What is Print Agent?</a></li>
+								
+									
+									<li class="nav-item "><a href="/en-US/365-business-print-agent/get-started/">Get Started</a></li>
+								
+									
+									<li class="nav-item "><a href="/en-US/365-business-print-agent/setup/">Setup</a></li>
+								
+									
+									<li class="nav-item "><a href="/en-US/365-business-print-agent/printer/">Printer</a></li>
+								
+									
+									<li class="nav-item "><a href="/en-US/365-business-print-agent/printer-configuration/">Printer Configuration</a></li>
+								
+									
+									<li class="nav-item "><a href="/en-US/365-business-print-agent/print-agent-client-whatis/">What is the Print Agent Service?</a></li>
+								
+									
+									<li class="nav-item "><a href="/en-US/365-business-print-agent/print-agent-service-installation/">Install Print Agent Service on Windows</a></li>
+								
+									
+									<li class="nav-item "><a href="/en-US/365-business-print-agent/print-agent-clients/">Print Agent Service</a></li>
 								
 							</ul>
 						</li>
@@ -589,12 +624,12 @@
 					,
 					
 
-					"365-business-barcode": {
-						"id": "365-business-barcode",
-						"title": "365 business Barcode  - Introduction",
+					"365-business-print-agent": {
+						"id": "365-business-print-agent",
+						"title": "365 business Print Agent  - Introduction",
 						"category": "",
-						"url": " /365-business-barcode/",
-						"content": "Barcode Generator for Microsoft Dynamics 365 Business Central.\nEncode and decode 1D and 2D barcode directly from Microsoft Dynamics 365 Business Central.\n365 business Barcode from 365 business development is adding the capability to encode and decode 1D and 2D barcode in Microsoft Dynamics 365 Business Central. Now you can modify existing reports such as invoices, shipments, order confirmations and production orders to include barcode and simplify your processes by using barcode scanner.\n\nSupports 1D and 2D Barcode formats.\n365 business Barcode is supporting 20 common barcode formats, including Code 39 (1D), Code 128 (1D), EAN-8 (1D), EAN-13 (1D), QR Code (2D), Data Matrix (2D) and PDF417 (2D).\n\nIntegrating into your business process.\nWith the decoding option you’re able to integrate barcode into your business solution, even without using scanner hardware. Simply decode the barcode image to extract the information and start working with it.\n\nThe 365 business Barcode App provides an internal API codeunit that facilitates the implementation in your customer solution and provides you with the full functionality of the 365 business API barcode service. Sample reports are included that you can use as-is or create customized layouts.\n\n365 business API\nThe 365 business Barcode app is completely free and all you need is a valid subscription of the 365 business API. The 365 business API is connected to Microsoft Dynamics 365 Business Central through the 365 business API dependency app."
+						"url": " /365-business-print-agent/",
+						"content": "Introducing seamless printing directly from Microsoft Dynamics 365 Business Central, with 365 business Print Agent.\n\n365 business Print Agent is a modern solution to access your print infrastructure directly from Microsoft Dynamics 365 Business Central. It’s available for SaaS environments of Microsoft Dynamics 365 Business Central, as well as for On-Premise environments. Just access your local print infrastructure, as easy as it can be.\n\nLearn basic 365 business Print Agent concepts and processes, including how to setup, register Print Agent services and manage printers.\n\nAbout 365 business Print Agent\n\nLearn more about basics of 365 business Print Agent:\n\n\n  What is 365 business Print Agent?\n  What is 365 business Print Agent Service?\n\n\nGet started\n\nLearn more about get started with 365 business Print Agent:\n\n\n  Setup Microsoft Dynamics 365 Business Central\n  Installing 365 business Print Agent Service\n  Access Printer in Microsoft Dynamics 365 Business Central\n\n\nManage printers\n\nLearn more about managing printers in Microsoft Dynamics 365 Business Central:\n\n\n  Create Printer Configurations in Microsoft Dynamics 365 Business Central\n  Assign Printer Configurations to Reports or Users in Microsoft Dynamics 365 Business Central\n\n\nPrint Agent Service\n\n\n  What is 365 business Print Agent Service?\n  Download 365 business Print Agent Service Installer"
 					}
 
 					
@@ -1207,6 +1242,193 @@
 						"category": "",
 						"url": " /365-business-pdf/support/bulk-print-restriction/",
 						"content": "For technical reasons, the collective printing of documents is not currently supported, since as part of the processing sequence, the PDF document created by Microsoft Dynamics 365 Business Central already contains all the copies and duplicates to be printed."
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"365-business-print-agent-get-started": {
+						"id": "365-business-print-agent-get-started",
+						"title": "365 business Print Agent  - Get Started",
+						"category": "",
+						"url": " /365-business-print-agent/get-started/",
+						"content": "This quick start guide explains how to enable 365 business Print Agent and set up a printer.\n\n\n  Good to know!Explore 365 business Print Agent with no costs in Sandbox environments of Microsoft Dynamics 365 Business Central. Additionally for production and on-premises environments there is a free 30-days trial period with no feature limitations.\n\n\nPrerequisites\n\n\n  Microsoft Dynamics 365 Business Central 2021 release wave 1 (18.0) or later.\n  A client device, to install and print from 365 business Print Agent Service, running Windows client OS with installed printer.\n  An internet connection.\n\n\n\n  ImportantThis quick start guide is focusing on Print Agent Cloud service mode.For additional information about set up Direct Connection service mode please visit documentation.\n\n\nStep 1: Install 365 business Print Agent\n\nOpen the Extension Marketplace in Microsoft Dynamics 365 Business Central and search for 365 business Print Agent.\nInstall the app from Microsoft AppSource and wait until installation is completed.\n\nStep 1.1: Print Agent Setup\n\n\n\nTo set up Print Agent open the Print Agent Setup page in Microsoft Dynamics 365 Business Central,\n\n\n  Select Print Agent Cloud as Service Mode.Learn more\n  Select Authenticate with Print Agent Service.\n  Copy the Tenant ID value (exclude curly brackets).\n    \n      NoteThe Tenant ID is used to couple the Print Agent service with your Microsoft Dynamics 365 Business Central environment. You’ll need the Tenant ID later in set up Print Agent service.\n    \n  \n  Select Download Service… to download the latest version of 365 business Print Agent service.\n\n\nStep 1.2: Install 365 business Print Agent service\n\n\n  Save the downloaded ZIP-file to the server or computer you want to use as print server with 365 business Print Agent.\n  Extract the content of the ZIP-file (e.g. C:\\install)\n  Run the setup file.Learn more\n\n\nStep 1.3: Print Agent Service Setup\n\n\n  Start the 365 business Print Agent application.\n  Select Configuration.\n  Select 365 business Print Agent Cloud (recommend).\n  Paste the Tenant ID copied in step 1.1.\n  Specify a Name to identify the client device.\n  Select Apply to set up the agent and start the services.\n\n\nStep 2: Set up printers\n\nTo set up and use printers in Microsoft Dynamics 365 Business Central you’ve to specify which printers, available on the client device, you want to share with Microsoft Dynamics 365 Business Central,\n\n\n  Open 365 business Print Agent application.\n  Select Printer to view all available printers on your client device.\n  Set checkmark for each printer you want to share with Microsoft Dynamics 365 Business Central.\n\n\n\nStep 2.1: Get shared printers\n\n\n  Open Microsoft Dynamics 365 Business Central.\n  Open Printers page.\n  Select Get Shared Printer… to retrieve the shared printers.\n\n\n\nStep 2.2: Enable Printer Configuration\n\n\n  Good to know!Shared printers are not directly available in Microsoft Dynamics 365 Business Central. Instead it’s necessary to create Printer Configurations which will be assigned in Printer Selection or selected in Report Request Page. You can create multiple printer configurations based on the capabilities you want to use in a specific scenario (e.g. duplex-mode).For each printer a system-created printer configuration is automatically created. This configuration is created with the available features of the printer.\n\n\n\n  Select Printer Configurations.\n  Select Edit.\n  Verify the system-created configuration.\n  Select Enabled to activate the printer configuration.\n\n\nStep 3: Assign Printer Configuration\n\nTo get the most out of direct printing capabilities it’s good to set up printer (configuration) for specific reports or users. The configuration take place in Microsoft Dynamics 365 Business Central standard page Printer Selection.\n\n\n  Open Print Selection.\n  Select User ID or leave blank to assign the printer (configuration) for every user.\n  Specify Report ID or leave blank to assign the printer (configuration) for every report.\n  Select Printer Name by choosing from the Drop-down menu.\n\n\n\n  Good to know!Microsoft Dynamics 365 Business Central provides a additional page, called Printer Management. Here you find every printer (configuration) enabled in Print Agent. From here you can easily open the printer configuration or set the selected printer (configuration) as default.\n\n\nSee also\n\n\n  Print Agent Architecture\n  What is the Print Agent Service?\n  Installing Print Agent Service\n  Print Agent Setup\n  Printer\n  Printer Configuration"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"365-business-print-agent": {
+						"id": "365-business-print-agent",
+						"title": "365 business Print Agent  - Introduction",
+						"category": "",
+						"url": " /365-business-print-agent/",
+						"content": "Introducing seamless printing directly from Microsoft Dynamics 365 Business Central, with 365 business Print Agent.\n\n365 business Print Agent is a modern solution to access your print infrastructure directly from Microsoft Dynamics 365 Business Central. It’s available for SaaS environments of Microsoft Dynamics 365 Business Central, as well as for On-Premise environments. Just access your local print infrastructure, as easy as it can be.\n\nLearn basic 365 business Print Agent concepts and processes, including how to setup, register Print Agent services and manage printers.\n\nAbout 365 business Print Agent\n\nLearn more about basics of 365 business Print Agent:\n\n\n  What is 365 business Print Agent?\n  What is 365 business Print Agent Service?\n\n\nGet started\n\nLearn more about get started with 365 business Print Agent:\n\n\n  Setup Microsoft Dynamics 365 Business Central\n  Installing 365 business Print Agent Service\n  Access Printer in Microsoft Dynamics 365 Business Central\n\n\nManage printers\n\nLearn more about managing printers in Microsoft Dynamics 365 Business Central:\n\n\n  Create Printer Configurations in Microsoft Dynamics 365 Business Central\n  Assign Printer Configurations to Reports or Users in Microsoft Dynamics 365 Business Central\n\n\nPrint Agent Service\n\n\n  What is 365 business Print Agent Service?\n  Download 365 business Print Agent Service Installer"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"365-business-print-agent-paper-kind": {
+						"id": "365-business-print-agent-paper-kind",
+						"title": "365 business Print Agent  - Paper Kind",
+						"category": "",
+						"url": " /365-business-print-agent/paper-kind/",
+						"content": "Specifies the paper sizes supported by the printer. You set the value to any standard paper kind that .NET Framework supports.\n\nYou can see the supported paper kinds at PaperKind Enum."
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"365-business-print-agent-paper-source-kind": {
+						"id": "365-business-print-agent-paper-source-kind",
+						"title": "365 business Print Agent  - Paper Source Kind",
+						"category": "",
+						"url": " /365-business-print-agent/paper-source-kind/",
+						"content": "Specifies a standard paper source for the paper tray. You can set the value to any of the 14 paper sources that are supported by .NET Framework.\n\nYou can see the supported paper sources at PaperSourceKind Enum."
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"365-business-print-agent-print-agent-client-whatis": {
+						"id": "365-business-print-agent-print-agent-client-whatis",
+						"title": "365 business Print Agent  - What is the Print Agent Service?",
+						"category": "",
+						"url": " /365-business-print-agent/print-agent-client-whatis/",
+						"content": "The Print Agent Service is a component that handles the communication with Microsoft Dynamics 365 Business Central (Direction Mode) or 365 business Print Agent Cloud (Cloud Mode). Additionally the Print Agent Service is executing the received print jobs from Microsoft Dynamics 365 Business Central.\n\nEach Print Agent Service is identified using a Client ID (GUID) and monitors the Online status of shared printers of your printer infrastructure. The agent should be installed on a computer running Windows where printers are installed to connect these printers with 365 business Print Agent Cloud or Microsoft Dynamics 365 Business Central.\n\n\n  Good to know!Print Agent Service is able to work with every printer installed on the client device (e.g. print server).\n\n\nConnect printers to Print Agent\n\nAll installed printers on the client device, where Print Agent Service is installed, are automatically available in the Printer view of the 365 business Print Agent application.\n\n\n\nBy selecting the checkmark in the starting column of the list of printers you are sharing the printer inside 365 business Print Agent and make it available from Microsoft Dynamics 365 Business Central.\n\n\n  Important!Once a printer is shared please keep in mind, that revoke sharing or delete the printer may result in failing print jobs inside Microsoft Dynamics 365 Business Central.Please be careful managing your shared printers.\n\n\nThe role of Print Agent Service\n\nThe Print Agent Service performs following main functions:\n\n\n  Handle communication between Microsoft Dynamics 365 Business Central or 365 business Print Agent Cloud.\n  Execute print jobs (actual printing).\n  Manage shared printers."
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"365-business-print-agent-print-agent-clients": {
+						"id": "365-business-print-agent-print-agent-clients",
+						"title": "365 business Print Agent  - Print Agent Service",
+						"category": "",
+						"url": " /365-business-print-agent/print-agent-clients/",
+						"content": "Sometimes it can be helpful to see which Print Agent Services are registered and online for your Tenant. For example in case of an unavailable printer, to perform basic troubleshoot it’s helpful to first check if the associated Print Agent Service is online.\n\n\n  Good to know!You’ll find the name of the Print Agent Service, specified while Print Agent Service Setup, in the Printers page.\n\n\nHow do I view the list of Print Agents?\n\n\n  Open Print Agent Setup page.\n  Select Related.\n  Select Print Agents….\n\n\n\n\n\n  Good to know!Whenever an offline printer is acknowledged in Microsoft Dynamics 365 Business Central a notification will appear in several places to inform you about possible incidents. From this notification, by selecting the Open Print Agents action you can directly open the list of Print Agent’s."
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"365-business-print-agent-print-agent-service-installation": {
+						"id": "365-business-print-agent-print-agent-service-installation",
+						"title": "365 business Print Agent  - Install Print Agent Service on Windows",
+						"category": "",
+						"url": " /365-business-print-agent/print-agent-service-installation/",
+						"content": "Prerequisites\n\n\n  Operating System\n    \n      Windows 10 or later (64-bit)\n      Windows Server 2016 or later (64-bit)\n    \n  \n  .NET 6.0\n  An internet connection.\n  365 business Print Agent Service Installer\n\n\n\n  ImportantIf you use Print Agent Service in Direct Connection mode please make sure the Service Port is available through internet from your Microsoft Dynamics 365 Business Central tenant.We strongly recommend to use Print Agent Cloud for SaaS environments of Microsoft Dynamics 365 Business Central.\n\n\n\n  NoteIf you are trying to upgrade Print Agent Service, you only need to download the latest version and run the installer.\n\n\nBefore you start\n\nPlease read this article to determine which Service Mode you should choose for your scenario.\n\nInstall Print Agent Service software\n\n\n  Download the latest version of Print Agent Service.\n  Save the downloaded ZIP-file to the server or computer you want to use as print server with 365 business Print Agent.\n  Extract the content of the ZIP-file (e.g. C:\\install)\n  Run the setup file and follow the steps to install and launch the Print Agent Service.\n\n\nSet up Print Agent Service for Print Agent Cloud Service Mode\n\nTo associate Print Agent Service and your Microsoft Dynamics 365 Business Central tenant in Print Agent Cloud you need to specify the Tenant ID from Print Agent Setup page in Microsoft Dynamics 365 Business Central. See here for additional information.\n\n\n  Start the 365 business Print Agent application.\n  Select Configuration.\n  Select 365 business Print Agent Cloud (recommend).\n  Paste the Tenant ID copied from Print Agent Setup page in Microsoft Dynamics 365 Business Central.\n  Specify a Name to identify the client device.\n  Select Apply to set up the agent and start the services.\n\n\nSet up Print Agent Service for Direction Connection Service Mode\n\n\n  ImportantPlease make sure the Service URL and Service Port is available from your Microsoft Dynamics 365 Business Central environment.We strongly recommend to use Print Agent Cloud for SaaS environments of Microsoft Dynamics 365 Business Central.\n\n\n\n  Start the 365 business Print Agent application.\n  Select Configuration.\n  Select 365 business Print Agent Server.\n  Specify Remote Address to the name the agent service should bind, or leave asterisks to bind every available IP address.\n  Specify the Port the agent service should listen on (default port 60000).\n  Select Apply to set up the agent and start the services."
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"365-business-print-agent-print-agent-whatis": {
+						"id": "365-business-print-agent-print-agent-whatis",
+						"title": "365 business Print Agent  - What is Print Agent?",
+						"category": "",
+						"url": " /365-business-print-agent/print-agent-whatis/",
+						"content": "365 business Print Agent is a modern print solutions designed for Microsoft Dynamics 365 Business Central to introduce seamless printing experience in Microsoft Dynamics 365 Business Central. 365 business Print Agent allows you to access your printer infrastructure in Microsoft Dynamics 365 Business Central and specify Printer Configurations for each printer which can be assigned or used within Microsoft Dynamics 365 Business Central.\n\n\n\nPrint Agent is supporting both SaaS environments and On-Premise environments of Microsoft Dynamics 365 Business Central to access your printer infrastructure.\n\nPrint Agent is basically consists of at least two components, the Microsoft Dynamics 365 Business Central app, available through Microsoft AppSource, and the Print Agent Service (connector). Print Agent is supporting every printer with Microsoft Windows compatible drivers or printer software.\n\nArchitecture\n\n365 business Print Agent can operate in two separate so-called Service Modes, the Direction Connection and the 365 business Print Agent Cloud mode.\n\n\n  Good to know!365 business Print Agent service and the 365 business Print Agent app support both service modes and the modes can be switched everytime, after initial set up.Please keep in mind, that existing configurations will be removed prior changing the service mode in Microsoft Dynamics 365 Business Central.\n\n\nPrint Agent Cloud (recommended)\n\nUsing the 365 business Print Agent Cloud is the most recommended way to operate Print Agent, because the necessary setup is reduced to a minimum and usually no complex adjustments to firewalls or network routes are necessary. Basically the 365 business Print Agent Cloud is usually up-and-running out-of-the-box after installation and basic set up.\n\nCommunication between the Print Agent Service and the Cloud is implemented via state-of-the-art technologies, such as SignalR, and all data is transmitted in transport encrypted form.\n\n\n\n\n  Good to know!The 365 business Print Agent Cloud service is hosted in Germany and does not store any print job or printer data. The service acts like a relay and creates a real-time connection to the Print Agent Service (connector).Your data is absolutely safe and will never be stored or analyzed for any reason.\n\n\n\n  \n    \n      Component\n      Description\n    \n  \n  \n    \n      Microsoft Dynamics 365 Business Central\n      Microsoft Dynamics 365 Business Central with the 365 business Print Agent app installed.\n    \n    \n      Print Agent Cloud\n      Cloud print service that handles to communication between the 365 business Print Agent app and one or more Print Agent Service to process print jobs.\n    \n    \n      Print Agent Service\n      A component that handles communication between printers and the Print Agent Cloud.\n    \n    \n      Printer\n      A printer that needs to be shared using the 365 business Print Agent service (connector).\n    \n  \n\n\nDirect Connection\n\nThe direct connection mode of 365 business Print Agent is only recommended for on-premises environments of Microsoft Dynamics 365 Business Central, due to the much higher effort necessary to configure firewalls, network routes and many more, to allow a secure and reliable access from Microsoft Dynamics 365 Business Central SaaS environments.\n\n\n\n\n  \n    \n      Component\n      Description\n    \n  \n  \n    \n      Microsoft Dynamics 365 Business Central\n      Microsoft Dynamics 365 Business Central with the 365 business Print Agent app installed.\n    \n    \n      Print Agent Service\n      A component that handles communication between printers and the 365 business Print Agent app.\n    \n    \n      Printer\n      A printer that needs to be shared using the 365 business Print Agent service (connector).\n    \n  \n\n\nPrerequisite\n\n\n  Operating System\n    \n      Windows 10 or later (64-bit)\n      Windows Server 2016 or later (64-bit)\n    \n  \n  .NET 6.0\n\n\nSee also\n\n\n  What is the Print Agent Service?"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"365-business-print-agent-printer-configuration": {
+						"id": "365-business-print-agent-printer-configuration",
+						"title": "365 business Print Agent  - Printer Configuration",
+						"category": "",
+						"url": " /365-business-print-agent/printer-configuration/",
+						"content": "Printer Configuration are actually used as Printers in Microsoft Dynamics 365 Business Central. For each printer a system-created printer configuration is automatically created. This configuration is created with the available features of the printer.\n\nAdditionally you can specify multiple other configurations, based on specific scenario (e.g. color printing) you want to achieve.\n\n\n  Important!The Code field of a Printer Configuration is displayed to the user through the Printer Selection and in various other locations inside Microsoft Dynamics 365 Business Central.Keep in mind to choose a user-friendly Code for the Printer Configuration.\n\n\n\n\nHow do I create a Printer Configuration?\n\nPrinter Configurations can be created manually through the Printer Configuration card page or by using the Assisted Printer Configuration page.\n\n\n  Open Printers page.\n  \n    Select Add Printer Configuration.\n\n  \n  Select Next.\n  Specify a user-friendly Code.\n  Specify a brief Description to describe the usage of the configuration.\n\n  Select Next.\n  Select Paper Kind (e.g. A4 paper (210 mm by 297 mm).)\n  Specify whether to enable color printing or not.(only applicable if printer supports color printing)\n  Specify whether to use simplex printing or duplex printing.(only applicable if printer supports duplex-mode)\n  Specify whether to use multiple paper trays or not.\n  Select Paper Source Kind (Paper Tray) for all pages (if not selected use multiple paper trays) or for the various options.\n    \n  Select Finish.\n  Enable Printer Configuration for usage, by select Yes.\n    \n\n\nNext steps\n\nAt this point, you are ready to print jobs with 365 business Print Agent by manually selecting the Printer Configuration in Report Request Page.\n\n\n\nTo get the most comfort out of direct printing functionality you should now assign the Printer Configuration in Printer Selection page.\n\nHow to assign Printer Configuration in Printer Selection?\n\n\n  Open Print Selection.\n  Select User ID or leave blank to assign the printer (configuration) for every user.\n  Specify Report ID or leave blank to assign the printer (configuration) for every report.\n  Select Printer Name by choosing from the Drop-down menu.\n\n\n\n  Good to know!Microsoft Dynamics 365 Business Central provides a additional page, called Printer Management. Here you find every printer (configuration) enabled in Print Agent. From here you can easily open the printer configuration or set the selected printer (configuration) as default.\n\n\nSee also\n\n\n  Printer"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"365-business-print-agent-printer": {
+						"id": "365-business-print-agent-printer",
+						"title": "365 business Print Agent  - Printer",
+						"category": "",
+						"url": " /365-business-print-agent/printer/",
+						"content": "In Printers page in Microsoft Dynamics 365 Business Central you find all shared printers from 365 business Print Agent services.\n\n\n\nShared printers are not directly usable for users in Microsoft Dynamics 365 Business Central. Instead it’s necessary to create Printer Configurations which will be assigned in Printer Selection or selected in Report Request Page. You can create multiple printer configurations based on the capabilities you want to use in a specific scenario (e.g. duplex-mode).\n\nFor each printer a system-created printer configuration is automatically created. This configuration is created with the available features of the printer.\n\nHow do I know my printers are available?\n\nDue to maintenance, software updates or incidents shared printers may not be available at a specific situation. The Printers page decorates offline printers, so the administrator can easily investigate if a specific printer is not available.\n\n\n\nAdditionally the Print Agents page in Microsoft Dynamics 365 Business Central shows a list of all registered Print Agent Services and there online status.\n\nSee also\n\n\n  Print Agents"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"365-business-print-agent-setup": {
+						"id": "365-business-print-agent-setup",
+						"title": "365 business Print Agent  - Setup",
+						"category": "",
+						"url": " /365-business-print-agent/setup/",
+						"content": "The Print Agent Setup contains the configuration for the communication between Microsoft Dynamics 365 Business Central and 365 business Print Agent Service or Cloud, depending on the selected Service Mode.\n\n\n\nSetup parameters\n\n\n  \n    \n      Field Name\n      Group\n      Description\n    \n  \n  \n    \n      Service Mode\n      Print Agent Service Connection\n      Specifies the operation mode for 365 business Print Agent communication. You can select between direct connection, using the 365 business Print Agent service, or 365 business Print Agent Cloud service to connect to one or multiple 365 business Print Agent services with lower maintenance and without necessary Firewall configurations. We recommend to use 365 business Print Agent Cloud service for SaaS environments of Microsoft Dynamics 365 Business Central.\n    \n    \n      Service URL\n      Print Agent Service Connection\n      Specifies the Service URL to communicate with the Print Agent Service or to communicate with the Print Agent Cloud Service. In general you do not need to change this address from it’s default address.\n    \n    \n      Service Port\n      Print Agent Service Connection\n      Specifies the TCP Port used to communicate with the Print Agent Service.(only applicable in Direct Connection service mode)\n    \n    \n      Connection Status\n      Status\n      Shows the connection status between Print Agent and Microsoft Dynamics 365 Business Central.\n    \n    \n      Tenant ID\n      Status\n      Specifies the Tenant ID used to secure communications between Print Agent and Microsoft Dynamics 365 Business Central.\n    \n  \n\n\nHow to set up Print Agent for Cloud Service Mode?\n\n\n  Select Print Agent Cloud as Service Mode.Learn more\n  Select Authenticate with Print Agent Service.\n\n\nHow to set up Print Agent for Direction Connection Service Mode?\n\n\n  Select Direct Connection as Service Mode.Learn more\n  Specify Service URL (e.g. IP-Address of the hosting Print Agent Service computer).\n  Specify Service Port (default port 60000).\n  Select Authenticate with Print Agent Service.\n\n\nSee also\n\n\n  Print Agent Architecture\n  What is Print Agent?\n  What is the Print Agent Service?"
 					}
 
 					
