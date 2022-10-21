@@ -1,21 +1,21 @@
-Printer Configuration are actually used as _Printers_ in Microsoft Dynamics 365 Business Central. For each printer a system-created printer configuration is automatically created. This configuration is created with the available features of the printer.
+Printer Configuration are actually used as _Printers_ in Microsoft Dynamics 365 Business Central. For each printer a default printer configuration is created, automatically. This configuration is created with the available features of your printer.
 
-Additionally you can specify multiple other configurations, based on specific scenario (e.g. color printing) you want to achieve.
+Additionally, you can create multiple other configurations for different scenarios like color and/or duplex printing.
 
-> **Important!**<br>The **Code** field of a Printer Configuration is displayed to the user through the **Printer Selection** and in various other locations inside Microsoft Dynamics 365 Business Central.<br>Keep in mind to choose a user-friendly Code for the Printer Configuration.
+> **Important!**<br>The **Code** field of a Printer Configuration is displayed to the user through the **Printer Selection** and in various other locations inside Microsoft Dynamics 365 Business Central.<br>Keep in mind to choose a user-friendly Name for the Printer Configuration.
 
 ![Printer Configuration](/assets/images/365-business-print-agent/1b3143accd75d67305341ac9a314b681aa754fe966df87c434e0d240752862a8.png)  
 
 ## How do I create a Printer Configuration?
 
-Printer Configurations can be created manually through the **Printer Configuration** card page or by using the **Assisted Printer Configuration** page.
+Printer Configuration can be created manually through the **Printer Configuration** card page or by using the **Assisted Printer Configuration** page.
 
  1. Open **Printers** page.
  2. Select **Add Printer Configuration**.<br>
     ![Assisted Printer Configuration](/assets/images/365-business-print-agent/3dec41cc0618402d763e35f398cfac74961504a8b36643f152e31f10c428c125.png)  
 
  3. Select **Next**.
- 4. Specify a user-friendly **Code**.
+ 4. Specify a user-friendly Name (Field **Code**).
  5. Specify a brief **Description** to describe the usage of the configuration.<br>
     ![Assisted Printer Configuration - General](/assets/images/365-business-print-agent/1a276d89ea83cdf50266c0cf659f387072d70168d92310a935b122fe2009b856.png)
  6. Select **Next**.
@@ -31,7 +31,7 @@ Printer Configurations can be created manually through the **Printer Configurati
 
 ## Next steps
 
-At this point, you are ready to print jobs with 365 business Print Agent by manually selecting the Printer Configuration in Report Request Page.
+At this point, you are ready to print with 365 business Print Agent by manually selecting the Printer Configuration in Report Request Page.
 
 ![Request Page Printer Selection](/assets/images/365-business-print-agent/7b40a7721875b4237ff74101d0c7aaafeca27c3b8155c8f22fbf6aced188a5c0.png)  
 
