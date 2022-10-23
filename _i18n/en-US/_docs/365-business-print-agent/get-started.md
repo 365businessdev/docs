@@ -37,7 +37,7 @@ To set up Print Agent open the **Print Agent Setup** page in Microsoft Dynamics 
 
  1. Start the **365 business Print Agent** application.
  2. Select **Configuration**.
- 3. Select **365 business Print Agent Cloud (recommend)**.
+ 3. Select **365 business Print Agent Cloud (recommended)**.
  4. Paste the Tenant ID copied in step 1.1.
  5. Specify a **Name** to identify the client device.
  6. Select **Apply** to complete your set up of your 365 business Print Agent service.

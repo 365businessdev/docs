@@ -28,7 +28,7 @@ To connect Print Agent Service and your Microsoft Dynamics 365 Business Central 
 
  1. Start the **365 business Print Agent** application.
  2. Select **Configuration**.
- 3. Select **365 business Print Agent Cloud (recommend)**.
+ 3. Select **365 business Print Agent Cloud (recommended)**.
  4. Paste the Tenant ID copied from **Print Agent Setup** page in Microsoft Dynamics 365 Business Central.
  5. Specify a **Name** to identify the client device.
  6. Select **Apply** to set up the agent and start the services.
