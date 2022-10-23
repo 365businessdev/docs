@@ -5,7 +5,7 @@ This quick start guide explains how to enable 365 business Print Agent and set u
 ## Prerequisites
 
  - Microsoft Dynamics 365 Business Central 2021 release wave 1 (18.0) or later.
- - A Microsoft Windows client device for running [365 business Print Agent Service](../print-agent-client-whatis) & 365 business Print Agent Application.
+ - A Microsoft Windows client device for running [365 business Print Agent Service](../print-agent-client-whatis).
  - An internet connection.
 
 > **Important**<br>This quick start guide is focusing on Print Agent Cloud service mode.<br>For additional information about set up Direct Connection service mode please visit [documentation](../setup/).
