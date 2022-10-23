@@ -68,7 +68,7 @@ body {
 }
 
 .main {
-	margin-top: $space + $nav-header-height;
+	margin-top: 200px;
 
 	@media (min-width: $mobile-break) {
 		margin-top: 0;
@@ -77,7 +77,7 @@ body {
 
 header {
 	$emblem-size: 24px;
-	$emblem-vertical-padding: ($nav-header-height - $emblem-size) / 2;
+	$emblem-vertical-padding: (($nav-header-height - $emblem-size) / 2) + 32;
 	$emblem-horizontal-padding: $space;
 
 	position: absolute;
