@@ -7,10 +7,10 @@ Aktuell werden folgende 365 business Apps angeboten:
 
 | App | Beschreibung |
 | --- | --- |
-| 365 business PDF | Digitales Signieren Ihrer Berichte & Belege in Business Central.<br>Zusammenführen von Berichten & Belegen aus Business Central mit bestehenden PDF-Dokumenten, wie allgemeinem Geschäftsbedingungen.<br>Automatische Hinterlegung von digitalem Briefpapier an Berichte und Belege, die aus Business Central erstellt wurden. |
-| 365 business ERiC | Übermitteln Sie die verschiedene ELSTER Steuerdatenarten direkt aus Business Central an das Finanzamt.
-| 365 business Barcode | Kodieren Sie 1D- und 2D-Barcode für die Verwendung in Berichten u.v.m.<br>Dekodieren Sie empfangene 1D- und 2D-Barcode-Bilder und extrahieren Sie Informationen daraus. |
-| 365 business AddressValidation | Validieren und vervollständigen Sie Ihre Adressdaten in Business Central. |
+| [365 business PDF](../365-business-pdf) | Digitales Signieren Ihrer Berichte & Belege in Business Central.<br>Zusammenführen von Berichten & Belegen aus Business Central mit bestehenden PDF-Dokumenten, wie allgemeinem Geschäftsbedingungen.<br>Automatische Hinterlegung von digitalem Briefpapier an Berichte und Belege, die aus Business Central erstellt wurden. |
+| [365 business ERiC](../365-business-eric) | Übermitteln Sie die verschiedene ELSTER Steuerdatenarten direkt aus Business Central an das Finanzamt.
+| [365 business Barcode](../365-business-barcode) | Kodieren Sie 1D- und 2D-Barcode für die Verwendung in Berichten u.v.m.<br>Dekodieren Sie empfangene 1D- und 2D-Barcode-Bilder und extrahieren Sie Informationen daraus. |
+| [365 business Address Validation](../365-business-address-validation) | Validieren und vervollständigen Sie Ihre Adressdaten in Business Central. |
 
 > Hinweis<br>Zusätzliche Informationen zu weiteren 365 business development Apps finden Sie in der Navigationsleiste links oder auf unserer Website [365businessdev.com](365businessdev.com).
 

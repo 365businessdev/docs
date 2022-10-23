@@ -8,10 +8,10 @@ This app is the base component you need to use other 365 business development ap
 
 | App | Description |
 | --- | --- |
-| 365 business PDF | Digitally sign your reports from Business Central.<br>Merge your reports from Business Central with PDF documents.<br>Apply stationery paper to PDF documents created from Business Central. |
-| 365 business ERiC | Transmit the ELSTER Tax Data directly from Business Central to german tax authorities.|
-| 365 business Barcode | Encode 1D- and 2D-Barcodes for usage in reports and many more.<br>Decode received 1D- and 2D-Barcode images and extract information from it. |
-| 365 business Address Validation | Validate and complete your address data in Business Central. |
+| [365 business PDF](../365-business-pdf) | Digitally sign your reports from Business Central.<br>Merge your reports from Business Central with PDF documents.<br>Apply stationery paper to PDF documents created from Business Central. |
+| [365 business ERiC](../365-business-eric) | Transmit the ELSTER Tax Data directly from Business Central to german tax authorities.|
+| [365 business Barcode](../365-business-barcode) | Encode 1D- and 2D-Barcodes for usage in reports and many more.<br>Decode received 1D- and 2D-Barcode images and extract information from it. |
+| [365 business Address Validation](../365-business-pdf) | Validate and complete your address data in Business Central. |
 
 > Tip<br>You find additional information to other 365 business development apps at the navigation pane to the left or at our website [365businessdev.com](365businessdev.com).
 
