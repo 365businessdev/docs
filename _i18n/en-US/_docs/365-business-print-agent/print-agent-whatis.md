@@ -4,11 +4,11 @@
 
 Print Agent is supporting both SaaS environments and On-Premise environments of Microsoft Dynamics 365 Business Central to access your printer infrastructure.
 
-Print Agent is basically consists of at least two components, the Microsoft Dynamics 365 Business Central app, available through Microsoft AppSource, and the [Print Agent Service](../print-agent-client-whatis/) (connector). Print Agent is supporting every printer with Microsoft Windows compatible drivers or printer software.
+Print Agent basically consists of at least two components, the Microsoft Dynamics 365 Business Central app, available through Microsoft AppSource, and the [Print Agent Service](../print-agent-client-whatis/) (connector). Print Agent supports every printer with Microsoft Windows compatible drivers or printer software.
 
 ## Architecture
 
-365 business Print Agent can operate in two separate so-called Service Modes, the 365 business Print Agent Cloud and the Direct Connection mode.
+365 business Print Agent is able to operate in two separate so-called Service Modes, the 365 business Print Agent Cloud and the Direct Connection mode.
 
 > **Good to know!**<br>365 business Print Agent service and the 365 business Print Agent app support both service modes and the modes can be switched everytime, after initial set up.<br>Please keep in mind, that existing configurations will be removed prior changing the service mode in Microsoft Dynamics 365 Business Central.
 
