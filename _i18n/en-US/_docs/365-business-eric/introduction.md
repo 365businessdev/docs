@@ -9,3 +9,18 @@ Mit der ELSTER Schnittstelle **365 business ERiC** sparen Sie sich nicht nur Zei
 #### Sicherer Versand
 Der Versand Ihrer Steuerdaten erfolgt ausschließlich über verschlüsselte HTTPS-Verbindungen und wird zertifikatsbasiert übertragen. Die Übertragung wird direkt von den ELSTER Servern validiert und umgehend bestätigt.<br>
 Nach erfolgter Einreichung Ihrer Steuerdaten erhalten Sie ein Übertragungsprotokoll als PDF-Datei und alle notwendigen Informationen zur Nachverfolgung und zur Recherche.
+
+## Über 365 business ERiC
+
+Erfahren Sie mehr über 365 business ERiC:
+
+ - [Was ist ERiC?](eric-whatis)
+ - [Welche Steuerdatenarten werden unterstützt?](elster-tax-data-type)
+
+## Erste Schritte
+
+Erfahren Sie wie sie mit 365 business ERiC Ihre Steuerdaten an ELSTER übermitteln können:
+
+ - [ELSTER Einrichtung vornehmen](setup)
+ - [Einrichtung in Firmendaten ergänzen](company-information)
+ - [ELSTER Steuerdaten erstellen](elster-tax-statements)
