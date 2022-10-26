@@ -1,4 +1,4 @@
-Printer Configuration are actually used as _Printers_ in Microsoft Dynamics 365 Business Central. For each printer a default printer configuration is created, automatically. This configuration is created with the available features of your printer.
+Printer Configuration are actually used as _Printers_ in Microsoft Dynamics 365 Business Central. For each printer a default printer configuration is automatically created. This configuration is created with the available features of your printer.
 
 Additionally, you can create multiple other configurations for different scenarios like color and/or duplex printing.
 
@@ -26,7 +26,7 @@ Printer Configuration can be created manually through the **Printer Configuratio
  10. Select **Paper Source Kind** (Paper Tray) for all pages _(if not selected use multiple paper trays)_ or for the various options.<br>
     ![Assisted Printer Configuration - Paper Tray Selection](/assets/images/365-business-print-agent/8a5abd438a19a5badc512c15d08a0ebb706f4c491593f4f58e616e8c3a1f9e8f.png)
  11. Select **Finish**.
- 12. Enable Printer Configuration for usage, by select **Yes**.<br>
+ 12. Enable Printer Configuration for usage, by selecting **Yes**.<br>
     ![Assisted Printer Configuration - Enable Printer Configuration](/assets/images/365-business-print-agent/e5a81f4c85fe8f35f56e061524f6e9b021a7b856078c0fe3a49ba1fbc607ce97.png)  
 
 ## Next steps
@@ -44,7 +44,7 @@ To get the most comfort out of direct printing functionality you should now assi
  3. Specify **Report ID** or leave blank to assign the printer (configuration) for every report.
  4. Select **Printer Name** by choosing from the Drop-down menu.
 
-> **Good to know!**<br>Microsoft Dynamics 365 Business Central provides a additional page, called **Printer Management**. Here you find every printer (configuration) enabled in Print Agent. From here you can easily open the printer configuration or set the selected printer (configuration) as default.<br>![picture 7](../../../../assets/images/365-business-print-agent/f66b313410695f3a550f126155fc3b9d6abf9c663c5840e9d2c1887948fbfd41.png)
+> **Good to know!**<br>Microsoft Dynamics 365 Business Central provides a additional page, called **Printer Management**. Here you'll find every printer (configuration), enabled in Print Agent. From here you can easily open the printer configuration or set the selected printer (configuration) as default.<br>![picture 7](../../../../assets/images/365-business-print-agent/f66b313410695f3a550f126155fc3b9d6abf9c663c5840e9d2c1887948fbfd41.png)
 
 ### See also
 
