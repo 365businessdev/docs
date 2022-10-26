@@ -1,4 +1,4 @@
-Printer Configuration are actually used as _Printers_ in Microsoft Dynamics 365 Business Central. For each printer a default printer configuration is created, automatically. This configuration is created with the available features of your printer.
+Printer Configuration are actually used as _Printers_ in Microsoft Dynamics 365 Business Central. For each printer a default printer configuration is automatically created. This configuration is created with the available features of your printer.
 
 Additionally, you can create multiple other configurations for different scenarios like color and/or duplex printing.
 
