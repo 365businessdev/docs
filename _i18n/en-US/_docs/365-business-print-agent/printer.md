@@ -1,4 +1,4 @@
-In **Printers** page in Microsoft Dynamics 365 Business Central you find all shared printers from 365 business Print Agent services. 
+In **Printers** page in Microsoft Dynamics 365 Business Central you'll find all shared printers from 365 business Print Agent services. 
 
 ![Printers](/assets/images/365-business-print-agent/87afe451377b606dffb0d548cac691fcc4c6bdbf02744a21204a1ee825389a30.png)  
 
