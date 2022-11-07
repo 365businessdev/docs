@@ -4,27 +4,26 @@ Introducing seamless printing directly from Microsoft Dynamics 365 Business Cent
 
 Learn basic 365 business Print Agent concepts and processes, including how to setup, register Print Agent services and manage printers.
 
-## About 365 business Print Agent
+> ## About 365 business Print Agent
+>
+> Learn more about basics of 365 business Print Agent:<br>
+>  <i class="fa-light fa-pen-ruler"></i> [What is 365 business Print Agent?](print-agent-whatis)<br>
+>  <i class="fa-light fa-pen-ruler"></i> [What is 365 business Print Agent Service?](print-agent-client-whatis)
 
-Learn more about basics of 365 business Print Agent:
+> ## Get started
+> 
+> Learn more about get started with 365 business Print Agent:
+> 
+>  - [Setup Microsoft Dynamics 365 Business Central](setup)
+>  - [Installing 365 business Print Agent Service](print-agent-service-installation)
+>  - [Access Printer in Microsoft Dynamics 365 Business Central](printer)
 
- - [What is 365 business Print Agent?](print-agent-whatis)
- - [What is 365 business Print Agent Service?](print-agent-client-whatis)
-
-## Get started
-
-Learn more about get started with 365 business Print Agent:
-
- - [Setup Microsoft Dynamics 365 Business Central](setup)
- - [Installing 365 business Print Agent Service](print-agent-service-installation)
- - [Access Printer in Microsoft Dynamics 365 Business Central](printer)
-
-## Manage printers
-
-Learn more about managing printers in Microsoft Dynamics 365 Business Central:
-
- - [Create Printer Configurations in Microsoft Dynamics 365 Business Central](printer-configuration)
- - [Assign Printer Configurations to Reports or Users in Microsoft Dynamics 365 Business Central](printer-configuration/#printer-selection)
+> ## Manage printers
+> 
+> Learn more about managing printers in Microsoft Dynamics 365 Business Central:
+> 
+>  - [Create Printer Configurations in Microsoft Dynamics 365 Business Central](printer-configuration)
+>  - [Assign Printer Configurations to Reports or Users in Microsoft Dynamics 365 Business Central](printer-configuration/#printer-selection)
 
 ## Print Agent Service
 
