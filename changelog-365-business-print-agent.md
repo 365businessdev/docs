@@ -4,12 +4,13 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-print-agent/
 ---
 
-#### Version 18.0.40.6628
+#### Version 18.0.43.6647
 
  - Add support for Printer status.
    - Get detailed online status from Printer.
    - Get direct feedback on print job.
  - Fix missing relation in Printer Configuration Wizard.
+ - Add Copy to Clipboard Action for Tenant ID.
 
 #### Version 18.0.36.6522
 
