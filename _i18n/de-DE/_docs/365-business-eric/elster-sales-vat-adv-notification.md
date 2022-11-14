@@ -2,7 +2,7 @@ Umsatzsteuervoranmeldungen müssen von Unternehmern monatlich oder vierteljährl
 
 #### Umsatzsteuerliche Organschaft
 
-Mit der 365 business ERiC Version 17.8 wurde die Unterstützung für die Umsatzsteuerliche Organschaft auf Basis von [OPplus 365](https://www.gbedv.de/de/) hinzugefügt.
+Mit der 365 business ERiC Version 17.8 wurde die Unterstützung für die Umsatzsteuerliche Organschaft auf Basis von [OPplus](https://www.continia.com/de/loesungen/opplus/) hinzugefügt.
 
 Weitere Informationen zur umsatzsteuerlichen Organschaft finden Sie [hier](../opp-affiliation/).
 
