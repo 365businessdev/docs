@@ -29,25 +29,27 @@ All 365 business development apps are versioned based on the following scheme:
 | Feature | Description | Planned Release |
 | --- | --- | --- |
 | New Tax Data Type `GewSt` | Add support for `GewSt` (Gewerbesteuer) Tax Data Type. | 2022 |
+| New Tax Data Type `OSS` | Add support for `OSS` (One-Stop-Shop) Tax Data Type. | 2022 |
+| View Entries for Affiliation | Add support to view VAT Entries, based on specified VAT Statement for Affiliation using OPplus. | 2022 |
 | New Tax Data Type `EUER` | Add support for `EUER` (Einnahmeüberschussrechnung) Tax Data Type. | TBD |
-| Tax Statement Preview | View your Tax Statement directly in Dynamics 365 Business Central or print the filled statement. | TBD |
 
-##### 365 business Print Agent
+##### 365 business Teams Integration
 
-We plan to release the 365 business Print Agent in 2022. This module will allow you to use local and virtual printers within Dynamics 365 Business Central, w/o additional dialogs, manual download etc. Additionally it supports to predefine paper trays, duplex mode and more and just use it in Report Selection or your custom report.
+Integrate Microsoft Teams into your Microsoft Dynamics 365 Business Central business processes and lift collaboration to a new level.
 
-> **Planned Release**: 2022
+> **Planned Release**: Q1-2023
 
 ##### 365 business Document Recognition
 
 With 365 business Document Recognition you get a full-featured OCR detection incoming document workflow within Dynamics 365 Business Central, powered by the 365 business API Document Recognition service.
 
-> **Planned Release**: Q4-2022
+> **Planned Release**: 2023
 
-### See also
+### Change Log
 
 - [365 business API Change Log](changelog/365-business-api/)
 - [365 business Barcode Change Log](changelog/365-business-barcode/)
 - [365 business PDF Change Log](changelog/365-business-pdf/)
 - [365 business Address Validation Change Log](changelog/365-business-address-validation/)
 - [365 business ERiC Change Log](changelog/365-business-eric/)
+- [365 business Print Agent Change Log](changelog/365-business-print-agent/)
