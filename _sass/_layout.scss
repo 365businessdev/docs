@@ -117,7 +117,8 @@ header {
 		}
 	}
 
-$nav-image: $baseurl + "/assets/images/menu.png";
+//$nav-image: $baseurl + "/assets/images/menu.png";
+$nav-image: "/assets/images/menu.png";
 	.open-nav {
 		background-image: url($nav-image);
 		background-color: transparent;
@@ -425,6 +426,24 @@ blockquote {
 	@media (max-width: $full-width-break) {
 		margin-left: 0;
 		margin-right: 0;
+	}
+}
+
+blockquote > h2 {
+	font-size: 2rem;
+
+	@media (min-width: $mobile-break) {
+		font-size: 3rem;
+	}
+}
+
+blockquote > h2 > img {
+	width: 1.5rem;
+	height: 1.5rem;
+
+	@media (min-width: $mobile-break) {
+		width: 2.5rem;
+		height: 2.5rem;
 	}
 }
 
