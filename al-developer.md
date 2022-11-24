@@ -17,6 +17,7 @@ Following the in this documentation covered apps are listed:
 | [365 business Address Validation](./al-developer/365businessaddressvalidation/README.md) | Validate and complete address data. |
 | [365 business Mailchimp Integration](./al-developer/365businessmailchimpintegration/README.md) | Interface between Mailchimp and Business Central. |
 | [Find & Replace](./al-developer/find-and-replace/README.md) | Find & Replace functionality for Microsoft Dynamics 365 Business Central. |
+| [365 business Print Agent](./al-developer/365businessprintagent/README.md) | Print documents directly from Microsoft Dynamics 365 Business Central. |
 
 #### Frequently Asked Questions
 
