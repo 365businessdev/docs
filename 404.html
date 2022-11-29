@@ -10,9 +10,9 @@
     var currentUrl = window.location.href;
     var lang = navigator.language || navigator.userLanguage;
     if (lang.indexOf('de') == 0)
-        bestLanguage = '/de-DE/';
+        bestLanguage = 'de-DE';
     else
-        bestLanguage = '/en-US/';
+        bestLanguage = 'en-US';
 
     // replace unsupported language 
     try {
@@ -20,7 +20,7 @@
         console.log(`Language ${currLanguage} is not supported. Forwarding to ${bestLanguage} instead.`);
         window.location = currentUrl.replace(currLanguage, bestLanguage);
     } catch {
-        window.location = baseUrl + bestLanguage;
+        window.location = `${baseUrl}${bestLanguage}/`;
     }
 </script>
 </body>
