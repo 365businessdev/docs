@@ -26,7 +26,7 @@
         return result;
     }
     if ((findGetParameter('unsupportedLocale') !== null) || (currentUrl.includes('unsupportedLocale'))) {
-        window.location = `${baseUrl}${bestLanguage}/?errorCode=404'`;
+        window.location = `${baseUrl}${bestLanguage}/?errorCode=404`;
     } else {
         // replace unsupported language 
         try {
