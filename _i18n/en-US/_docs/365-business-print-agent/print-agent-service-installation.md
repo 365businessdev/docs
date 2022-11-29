@@ -27,18 +27,18 @@ Please [read this article](../print-agent-whatis/) to determine which Service Mo
 During the first start of the 365 business Print Agent application, the assisted setup is started automatically and helps you to perform the basic set up.
 
  1. Start the **365 business Print Agent** application.
- 2. During first start the **365 business Print Agent Configuration Wizard** runs automatically.
+ 2. During first start the **365 business Print Agent Configuration Wizard** runs automatically.<br>
  ![Step 1](/assets/images/365-business-print-agent/7fce036f0be32ae6276110bb38a0abc8f5b967f91b12364a4ba2c58292c2ace8.png)  
  3. Select **Next**.
- 4. Select your preferred connection type (see [service mode](../print-agent-whatis/#architecture)).
+ 4. Select your preferred connection type (see [service mode](../print-agent-whatis/#architecture)).<br>
  ![Step 2](/assets/images/365-business-print-agent/c43ddc32c15333a24a27400b82d42c2511fe4f269bea578756a371f35b0e946d.png)  
  5. Select **Next**.
  6. Paste the Tenant ID copied from **Print Agent Setup** page in Microsoft Dynamics 365 Business Central.
  7. Specify a **Name** to identify the client device.
  8. Select **Next**.
- 9. Windows service will automatically be created and configured. Additionally the tenant registration for your client device will be performed.
+ 9. Windows service will automatically be created and configured. Additionally the tenant registration for your client device will be performed.<br>
  ![Step 4](/assets/images/365-business-print-agent/61c0bdbed1a0465a3106089a86114b982c3d707fff7c245fc775988092e0dcf3.png)
- 1.  Select **Finish**. 
+ 1.  Select **Finish**.<br>
  ![Step 5](/assets/images/365-business-print-agent/8f5fed48cbf63384f8984bd97134af87bd0bc11ddaeaeedebb56b60e6124e6d8.png)  
 
 ## Set up Print Agent Service for Print Agent Cloud Service Mode
