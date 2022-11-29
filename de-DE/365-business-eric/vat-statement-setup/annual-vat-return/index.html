@@ -757,6 +757,12 @@
 				}
 				return result;
 			}
+			if (findGetParameter('errorCode') == '404') {
+				let notification = `<blockquote><p><strong>Page not found.</strong><br>This is not the web page you are looking for. We are sorry, we could not find the page you requested.</p></blockquote>`;
+
+				let content = document.getElementsByClassName('content')[0].innerHTML;
+				document.getElementsByClassName('content')[0].innerHTML = notification + content;
+			}
 			if (findGetParameter('unsupportedLocale') !== null) {
 				let notification = `<blockquote><p>This page is currently not available in the selected language '<strong>${findGetParameter('unsupportedLocale')}</strong>'. You have been automatically redirected to a supported language version matching your browser language.</p></blockquote>`;
 
