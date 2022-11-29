@@ -354,6 +354,24 @@ Exception dictionary containing assigned with previous received error resulting 
 			document.getElementById("open-nav").addEventListener("click", function () {
 				document.body.classList.toggle("nav-open");
 			});
+
+			// show notification for language redirection
+			function findGetParameter(parameterName) {
+				var result = null,
+					tmp = [];
+				var items = location.search.substr(1).split("&");
+				for (var index = 0; index < items.length; index++) {
+					tmp = items[index].split("=");
+					if (tmp[0] === parameterName) result = decodeURIComponent(tmp[1]);
+				}
+				return result;
+			}
+			if (findGetParameter('unsupportedLocale') !== null) {
+				let notification = `<blockquote><p>This page is currently not available in the selected language '${findGetParameter('unsupportedLocale')}'.<br>You have been automatically redirected to a supported language version.</p></blockquote>`;
+
+				let content = document.getElementsByClassName('content')[0].innerHTML;
+				document.getElementsByClassName('content')[0].innerHTML = notification + content;
+			}
 		</script>
 	</body>
 </html>

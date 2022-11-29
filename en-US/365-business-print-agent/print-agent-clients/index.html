@@ -27,9 +27,9 @@
 <meta property="og:url" content="https://docs.365businessdev.com/en-US/365-business-print-agent/print-agent-clients/" />
 <meta property="og:site_name" content="365 business development" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2022-11-29T11:08:01+00:00" />
+<meta property="article:published_time" content="2022-11-29T11:15:54+00:00" />
 <script type="application/ld+json">
-{"author":{"@type":"Person","name":"365 business development"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.365businessdev.com/en-US/siteicon.png"},"name":"365 business development"},"description":"Sometimes it can be helpful to see which Print Agent Services are registered and online for your Tenant. For example in case of an unavailable printer, to perform basic troubleshoot it’s helpful to first check if the associated Print Agent Service is online. Good to know!You’ll find the name of the Print Agent Service, specified while Print Agent Service Setup, in the Printers page. How do I view the list of Print Agents? Open Print Agent Setup page. Select Related. Select Print Agents…. Good to know!Whenever an offline printer is acknowledged in Microsoft Dynamics 365 Business Central a notification will appear in several places to inform you about possible incidents. From this notification, by selecting the Open Print Agents action you can directly open the list of Print Agent’s.","url":"https://docs.365businessdev.com/en-US/365-business-print-agent/print-agent-clients/","headline":"print-agent-clients","@type":"Article","dateModified":"2022-11-29T11:08:01+00:00","datePublished":"2022-11-29T11:08:01+00:00","@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"365 business development"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.365businessdev.com/en-US/siteicon.png"},"name":"365 business development"},"description":"Sometimes it can be helpful to see which Print Agent Services are registered and online for your Tenant. For example in case of an unavailable printer, to perform basic troubleshoot it’s helpful to first check if the associated Print Agent Service is online. Good to know!You’ll find the name of the Print Agent Service, specified while Print Agent Service Setup, in the Printers page. How do I view the list of Print Agents? Open Print Agent Setup page. Select Related. Select Print Agents…. Good to know!Whenever an offline printer is acknowledged in Microsoft Dynamics 365 Business Central a notification will appear in several places to inform you about possible incidents. From this notification, by selecting the Open Print Agents action you can directly open the list of Print Agent’s.","url":"https://docs.365businessdev.com/en-US/365-business-print-agent/print-agent-clients/","headline":"print-agent-clients","@type":"Article","dateModified":"2022-11-29T11:15:54+00:00","datePublished":"2022-11-29T11:15:54+00:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 		<link type="application/atom+xml" rel="alternate" href="https://docs.365businessdev.com/en-US/feed.xml" title="365 business development" />
@@ -350,6 +350,24 @@
 			document.getElementById("open-nav").addEventListener("click", function () {
 				document.body.classList.toggle("nav-open");
 			});
+
+			// show notification for language redirection
+			function findGetParameter(parameterName) {
+				var result = null,
+					tmp = [];
+				var items = location.search.substr(1).split("&");
+				for (var index = 0; index < items.length; index++) {
+					tmp = items[index].split("=");
+					if (tmp[0] === parameterName) result = decodeURIComponent(tmp[1]);
+				}
+				return result;
+			}
+			if (findGetParameter('unsupportedLocale') !== null) {
+				let notification = `<blockquote><p>This page is currently not available in the selected language '${findGetParameter('unsupportedLocale')}'.<br>You have been automatically redirected to a supported language version.</p></blockquote>`;
+
+				let content = document.getElementsByClassName('content')[0].innerHTML;
+				document.getElementsByClassName('content')[0].innerHTML = notification + content;
+			}
 		</script>
 	</body>
 </html>

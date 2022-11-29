@@ -27,9 +27,9 @@
 <meta property="og:url" content="https://docs.365businessdev.com/en-US/365-business-pdf/signing/" />
 <meta property="og:site_name" content="365 business development" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2022-11-29T11:08:01+00:00" />
+<meta property="article:published_time" content="2022-11-29T11:15:54+00:00" />
 <script type="application/ld+json">
-{"author":{"@type":"Person","name":"365 business development"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.365businessdev.com/en-US/siteicon.png"},"name":"365 business development"},"description":"With 365 business PDF you can sign PDF files generated from Microsoft Dynamics 365 Business Central and integrate this signature into the file. This signature protects your PDF file from tampering and also guarantees the recipient that the PDF file is intact and that it is from where it came. The digital signature is executed on the basis of a PKCS 12 certificate file (PFX). The setup takes place in the PDF Signing Configurations page. Here, multiple signing configurations can be created, e.g. based on different certificate files. How do I create a signing configuration? Open the page PDF Signing Configurations. Select New. Specify a value in Code field. Specify a Description for the configuration. Select Upload Certificate File and select a valid PFX certificate file. Select Set Certificate PIN and specify the PIN to access the certificate file.","url":"https://docs.365businessdev.com/en-US/365-business-pdf/signing/","headline":"signing","@type":"Article","dateModified":"2022-11-29T11:08:01+00:00","datePublished":"2022-11-29T11:08:01+00:00","@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"365 business development"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.365businessdev.com/en-US/siteicon.png"},"name":"365 business development"},"description":"With 365 business PDF you can sign PDF files generated from Microsoft Dynamics 365 Business Central and integrate this signature into the file. This signature protects your PDF file from tampering and also guarantees the recipient that the PDF file is intact and that it is from where it came. The digital signature is executed on the basis of a PKCS 12 certificate file (PFX). The setup takes place in the PDF Signing Configurations page. Here, multiple signing configurations can be created, e.g. based on different certificate files. How do I create a signing configuration? Open the page PDF Signing Configurations. Select New. Specify a value in Code field. Specify a Description for the configuration. Select Upload Certificate File and select a valid PFX certificate file. Select Set Certificate PIN and specify the PIN to access the certificate file.","url":"https://docs.365businessdev.com/en-US/365-business-pdf/signing/","headline":"signing","@type":"Article","dateModified":"2022-11-29T11:15:54+00:00","datePublished":"2022-11-29T11:15:54+00:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 		<link type="application/atom+xml" rel="alternate" href="https://docs.365businessdev.com/en-US/feed.xml" title="365 business development" />
@@ -348,6 +348,24 @@
 			document.getElementById("open-nav").addEventListener("click", function () {
 				document.body.classList.toggle("nav-open");
 			});
+
+			// show notification for language redirection
+			function findGetParameter(parameterName) {
+				var result = null,
+					tmp = [];
+				var items = location.search.substr(1).split("&");
+				for (var index = 0; index < items.length; index++) {
+					tmp = items[index].split("=");
+					if (tmp[0] === parameterName) result = decodeURIComponent(tmp[1]);
+				}
+				return result;
+			}
+			if (findGetParameter('unsupportedLocale') !== null) {
+				let notification = `<blockquote><p>This page is currently not available in the selected language '${findGetParameter('unsupportedLocale')}'.<br>You have been automatically redirected to a supported language version.</p></blockquote>`;
+
+				let content = document.getElementsByClassName('content')[0].innerHTML;
+				document.getElementsByClassName('content')[0].innerHTML = notification + content;
+			}
 		</script>
 	</body>
 </html>
