@@ -19,10 +19,9 @@
         }
         return result;
     }
-    console.log(currentUrl);
-    /*
     if ((findGetParameter('unsupportedLocale') !== null) || (currentUrl.includes('unsupportedLocale'))) {
-        window.location = `${baseUrl}?errorCode=404'`;
+        console.log(`Redirect to ${`${baseUrl}?errorCode=404'`}`);
+        //window.location = `${baseUrl}?errorCode=404'`;
     }
 
     var lang = navigator.language || navigator.userLanguage;
@@ -34,12 +33,15 @@
     // replace unsupported language 
     try {
         var currLanguage = currentUrl.split('/')[3];
-        console.log(`Language ${currLanguage} is not supported. Forwarding to ${bestLanguage} instead.`);
-        window.location = `${currentUrl.replace(currLanguage, bestLanguage)}?unsupportedLocale=${currLanguage}`;
+        // console.log(`Language ${currLanguage} is not supported. Forwarding to ${bestLanguage} instead.`);
+        // window.location = `${currentUrl.replace(currLanguage, bestLanguage)}?unsupportedLocale=${currLanguage}`;
+        
+        console.log(`Redirect to ${`${currentUrl.replace(currLanguage, bestLanguage)}?unsupportedLocale=${currLanguage}`}`);
     } catch {
-        window.location = `${baseUrl}${bestLanguage}/?unsupportedLocale=${currLanguage}`;
+        // window.location = `${baseUrl}${bestLanguage}/?unsupportedLocale=${currLanguage}`;
+        
+        console.log(`Redirect to ${`${baseUrl}${bestLanguage}/?unsupportedLocale=${currLanguage}`}`);
     }
-    */
 </script>
 </body>
 </html>
