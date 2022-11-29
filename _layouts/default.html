@@ -112,7 +112,7 @@
 				return result;
 			}
 			if (findGetParameter('unsupportedLocale') !== null) {
-				let notification = `<blockquote><p>This page is currently not available in the selected language '${findGetParameter('unsupportedLocale')}'.<br>You have been automatically redirected to a supported language version.</p></blockquote>`;
+				let notification = `<blockquote><p>This page is currently not available in the selected language '<strong>${findGetParameter('unsupportedLocale')}</strong>'. You have been automatically redirected to a supported language version matching your browser language.</p></blockquote>`;
 
 				let content = document.getElementsByClassName('content')[0].innerHTML;
 				document.getElementsByClassName('content')[0].innerHTML = notification + content;
