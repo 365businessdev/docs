@@ -20,27 +20,21 @@
         return result;
     }
     if ((findGetParameter('unsupportedLocale') !== null) || (currentUrl.includes('unsupportedLocale'))) {
-        console.log(`Redirect to ${`${baseUrl}?errorCode=404'`}`);
-        //window.location = `${baseUrl}?errorCode=404'`;
-    }
+        window.location = `${baseUrl}?errorCode=404'`;
+    } else {
+        var lang = navigator.language || navigator.userLanguage;
+        if (lang.indexOf('de') == 0)
+            bestLanguage = 'de-DE';
+        else
+            bestLanguage = 'en-US';
 
-    var lang = navigator.language || navigator.userLanguage;
-    if (lang.indexOf('de') == 0)
-        bestLanguage = 'de-DE';
-    else
-        bestLanguage = 'en-US';
-
-    // replace unsupported language 
-    try {
-        var currLanguage = currentUrl.split('/')[3];
-        // console.log(`Language ${currLanguage} is not supported. Forwarding to ${bestLanguage} instead.`);
-        // window.location = `${currentUrl.replace(currLanguage, bestLanguage)}?unsupportedLocale=${currLanguage}`;
-        
-        console.log(`Redirect to ${`${currentUrl.replace(currLanguage, bestLanguage)}?unsupportedLocale=${currLanguage}`}`);
-    } catch {
-        // window.location = `${baseUrl}${bestLanguage}/?unsupportedLocale=${currLanguage}`;
-        
-        console.log(`Redirect to ${`${baseUrl}${bestLanguage}/?unsupportedLocale=${currLanguage}`}`);
+        // replace unsupported language 
+        try {
+            var currLanguage = currentUrl.split('/')[3];
+            window.location = `${currentUrl.replace(currLanguage, bestLanguage)}?unsupportedLocale=${currLanguage}`;
+        } catch {
+            window.location = `${baseUrl}${bestLanguage}/?unsupportedLocale=${currLanguage}`;
+        }
     }
 </script>
 </body>
