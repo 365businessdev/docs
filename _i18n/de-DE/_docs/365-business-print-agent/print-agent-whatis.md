@@ -43,6 +43,21 @@ The direct connection mode of 365 business Print Agent is only recommended for o
 | Print Agent Service | A service that handles communication between printers and the 365 business Print Agent app. |
 | Printer | A printer that needs to be shared using the 365 business Print Agent service (connector). |
 
+#### How to decide Service Mode?
+
+Using the 365 Business Print Agent Cloud is the most _recommended_ way to run Print Agent, as the necessary setup is kept to a minimum and typically does not require complex adjustments to firewalls or network routes.
+Nevertheless, we would like to show you a few advantages and disadvantages of the respective service modes here to help you decide.
+
+| | Print Agent Cloud | Direct Connection |
+| --- | :---: | :---: |
+| Support for Business Central Online (SaaS) | <img src="/assets/fontawesome/circle-full.svg"> | <img src="/assets/fontawesome/circle-half.svg">* |
+| Support for Business Central On-Premises | <img src="/assets/fontawesome/circle-full.svg"> | <img src="/assets/fontawesome/circle-full.svg"> |
+| Running multiple Print Agent services | <img src="/assets/fontawesome/circle-full.svg"> | <img src="/assets/fontawesome/circle-empty.svg"> |
+
+
+Note * - Additionall configuration is necessary to secure connection from Business Central Online (SaaS) to locally installed Print Agent service.
+
+
 ## Prerequisite
 
  - Operating System

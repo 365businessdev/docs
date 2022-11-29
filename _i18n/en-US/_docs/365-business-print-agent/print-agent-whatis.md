@@ -10,7 +10,7 @@ Print Agent basically consists of at least two components, the Microsoft Dynamic
 
 365 business Print Agent is able to operate in two separate so-called Service Modes, the 365 business Print Agent Cloud and the Direct Connection mode.
 
-> **Good to know!**<br>365 business Print Agent service and the 365 business Print Agent app support both service modes and the modes can be switched everytime, after initial set up.<br>Please keep in mind, that existing configurations will be removed prior changing the service mode in Microsoft Dynamics 365 Business Central.
+> **Good to know!**<br>365 business Print Agent service and the 365 business Print Agent app support both service modes and the modes can be switched every time, after initial set up.<br>Please keep in mind, that existing configurations will be removed prior changing the service mode in Microsoft Dynamics 365 Business Central.
 
 #### Print Agent Cloud _(recommended)_
 
@@ -40,6 +40,20 @@ The direct connection mode of 365 business Print Agent is only recommended for o
 | Microsoft Dynamics 365 Business Central | Microsoft Dynamics 365 Business Central with the 365 business Print Agent app installed. |
 | Print Agent Service | A service that handles communication between printers and the 365 business Print Agent app. |
 | Printer | A printer that needs to be shared using the 365 business Print Agent service (connector). |
+
+#### How to decide Service Mode?
+
+Using the 365 Business Print Agent Cloud is the most _recommended_ way to run Print Agent, as the necessary setup is kept to a minimum and typically does not require complex adjustments to firewalls or network routes.
+Nevertheless, we would like to show you a few advantages and disadvantages of the respective service modes here to help you decide.
+
+| | Print Agent Cloud | Direct Connection |
+| --- | :---: | :---: |
+| Support for Business Central Online (SaaS) | <img src="/assets/fontawesome/circle-full.svg"> | <img src="/assets/fontawesome/circle-half.svg">* |
+| Support for Business Central On-Premises | <img src="/assets/fontawesome/circle-full.svg"> | <img src="/assets/fontawesome/circle-full.svg"> |
+| Running multiple Print Agent services | <img src="/assets/fontawesome/circle-full.svg"> | <img src="/assets/fontawesome/circle-empty.svg"> |
+
+
+Note * - Additionall configuration is necessary to secure connection from Business Central Online (SaaS) to locally installed Print Agent service.
 
 ## Prerequisite
 
