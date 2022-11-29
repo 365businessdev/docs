@@ -7,6 +7,7 @@
 <body>
 <script>
     var baseUrl = 'https://docs.365businessdev.com/';
+    var currentUrl = window.location.href;
 
     function findGetParameter(parameterName) {
         var result = null,
@@ -18,10 +19,9 @@
         }
         return result;
     }
-    if (findGetParameter('unsupportedLocale') !== null) {
+    if ((findGetParameter('unsupportedLocale') !== null) || (currentUrl.includes('unsupportedLocale'))) {
         window.location = `${baseUrl}?errorCode=404'`;
     }
-    var currentUrl = window.location.href;
 
     var lang = navigator.language || navigator.userLanguage;
     if (lang.indexOf('de') == 0)
