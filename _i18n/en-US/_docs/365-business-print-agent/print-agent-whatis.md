@@ -48,9 +48,9 @@ Nevertheless, we would like to show you a few advantages and disadvantages of th
 
 | | Print Agent Cloud | Direct Connection |
 | --- | :---: | :---: |
-| Support for Business Central Online (SaaS) | <img src="/assets/fontawesome/circle-full.svg"> | <img src="/assets/fontawesome/circle-half.svg">* |
-| Support for Business Central On-Premises | <img src="/assets/fontawesome/circle-full.svg"> | <img src="/assets/fontawesome/circle-full.svg"> |
-| Running multiple Print Agent services | <img src="/assets/fontawesome/circle-full.svg"> | <img src="/assets/fontawesome/circle-empty.svg"> |
+| Support for Business Central Online (SaaS) | <img src="/assets/fontawesome/circle-full.svg" class="fa-icon"> | <img src="/assets/fontawesome/circle-half.svg" class="fa-icon">* |
+| Support for Business Central On-Premises | <img src="/assets/fontawesome/circle-full.svg" class="fa-icon"> | <img src="/assets/fontawesome/circle-full.svg" class="fa-icon"> |
+| Running multiple Print Agent services | <img src="/assets/fontawesome/circle-full.svg" class="fa-icon"> | <img src="/assets/fontawesome/circle-empty.svg" class="fa-icon"> |
 
 
 Note * - Additionall configuration is necessary to secure connection from Business Central Online (SaaS) to locally installed Print Agent service.
