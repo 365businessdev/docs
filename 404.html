@@ -9,6 +9,12 @@
     var baseUrl = 'https://docs.365businessdev.com/';
     var currentUrl = window.location.href;
 
+    var lang = navigator.language || navigator.userLanguage;
+    if (lang.indexOf('de') == 0)
+        bestLanguage = 'de-DE';
+    else
+        bestLanguage = 'en-US';
+
     function findGetParameter(parameterName) {
         var result = null,
             tmp = [];
@@ -20,14 +26,8 @@
         return result;
     }
     if ((findGetParameter('unsupportedLocale') !== null) || (currentUrl.includes('unsupportedLocale'))) {
-        window.location = `${baseUrl}?errorCode=404'`;
+        window.location = `${baseUrl}${bestLanguage}/?errorCode=404'`;
     } else {
-        var lang = navigator.language || navigator.userLanguage;
-        if (lang.indexOf('de') == 0)
-            bestLanguage = 'de-DE';
-        else
-            bestLanguage = 'en-US';
-
         // replace unsupported language 
         try {
             var currLanguage = currentUrl.split('/')[3];
