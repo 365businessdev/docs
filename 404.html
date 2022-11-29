@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>365 business development - File not found</title>
+</head>
+<body>
+<script>
+    var baseUrl = 'https://docs.365businessdev.com/';
+    var currentUrl = window.location.href;
+    var lang = navigator.language || navigator.userLanguage;
+    if (lang.indexOf('de') == 0)
+        bestLanguage = '/de-DE/';
+    else
+        bestLanguage = '/en-US/';
+
+    // replace unsupported language 
+    try {
+        var currLanguage = currentUrl.split('/')[3];
+        console.log(`Language ${currLanguage} is not supported. Forwarding to ${bestLanguage} instead.`);
+        window.location = currentUrl.replace(currLanguage, bestLanguage);
+    } catch {
+        window.location = baseUrl + bestLanguage;
+    }
+</script>
+</body>
+</html>
