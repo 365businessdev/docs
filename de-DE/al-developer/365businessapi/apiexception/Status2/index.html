@@ -27,7 +27,7 @@
 <meta property="og:url" content="https://docs.365businessdev.com/de-DE/al-developer/365businessapi/apiexception/Status2/" />
 <meta property="og:site_name" content="365 business development" />
 <script type="application/ld+json">
-{"author":{"@type":"Person","name":"365 business development"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.365businessdev.com/de-DE/siteicon.png"},"name":"365 business development"},"description":"Product documentation for Microsoft Dynamics 365 Business Central Apps of 365 business development GmbH.","url":"https://docs.365businessdev.com/de-DE/al-developer/365businessapi/apiexception/Status2/","headline":"Status Method","@type":"WebPage","@context":"https://schema.org"}</script>
+{"url":"https://docs.365businessdev.com/de-DE/al-developer/365businessapi/apiexception/Status2/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.365businessdev.com/de-DE/siteicon.png"},"name":"365 business development"},"headline":"Status Method","author":{"@type":"Person","name":"365 business development"},"@type":"WebPage","description":"Product documentation for Microsoft Dynamics 365 Business Central Apps of 365 business development GmbH.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 		<link type="application/atom+xml" rel="alternate" href="https://docs.365businessdev.com/de-DE/feed.xml" title="365 business development" />
@@ -143,10 +143,10 @@
 								
 									 
 									
-									<li class="nav-item "><a href="/de-DE/365-business-barcode/get-started/">Erste Schritte</a></li>
+									<li class="nav-item "><a href="/de-DE/365-business-barcode/supported-barcodes/">Barcodes</a></li>
 								
 									
-									<li class="nav-item "><a href="/de-DE/365-business-barcode/supported-barcodes/">Barcodes</a></li>
+									<li class="nav-item "><a href="/de-DE/365-business-barcode/get-started/">Erste Schritte</a></li>
 								
 							</ul>
 						</li>
@@ -158,10 +158,10 @@
 								
 									 
 									 
+									 
 									
 									<li class="nav-item "><a href="/de-DE/365-business-eric/eric-whatis/">Was ist ERiC?</a></li>
 								
-									 
 									 
 									
 									<li class="nav-item "><a href="/de-DE/365-business-eric/elster-tax-statements/">ELSTER Steuerdaten</a></li>
@@ -176,10 +176,10 @@
 									<li class="nav-item "><a href="/de-DE/365-business-eric/setup/">Einrichtung</a></li>
 								
 									
-									<li class="nav-item "><a href="/de-DE/365-business-eric/user-certificates/">Benutzerzertifikate</a></li>
+									<li class="nav-item "><a href="/de-DE/365-business-eric/company-information/">Firmendaten</a></li>
 								
 									
-									<li class="nav-item "><a href="/de-DE/365-business-eric/company-information/">Firmendaten</a></li>
+									<li class="nav-item "><a href="/de-DE/365-business-eric/user-certificates/">Benutzerzertifikate</a></li>
 								
 									
 									<li class="nav-item "><a href="/de-DE/365-business-eric/vat-statement-setup/">MwSt.-Abrechnung Einrichtung</a></li>
@@ -358,7 +358,7 @@ Status as a string to be assigned to the ‘status’ exception property.</p>
 				return result;
 			}
 			if (findGetParameter('unsupportedLocale') !== null) {
-				let notification = `<blockquote><p>This page is currently not available in the selected language '${findGetParameter('unsupportedLocale')}'.<br>You have been automatically redirected to a supported language version.</p></blockquote>`;
+				let notification = `<blockquote><p>This page is currently not available in the selected language '<strong>${findGetParameter('unsupportedLocale')}</strong>'. You have been automatically redirected to a supported language version matching your browser language.</p></blockquote>`;
 
 				let content = document.getElementsByClassName('content')[0].innerHTML;
 				document.getElementsByClassName('content')[0].innerHTML = notification + content;
