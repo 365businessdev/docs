@@ -1,91 +1,89 @@
-> This page is currently not available in the selected language. The page is available in **English**. Please select other language to display.
+In dieser Kurzanleitung wird erklärt, wie Sie 365 business Print Agent aktivieren und einen Drucker einrichten.
 
-This quick start guide explains how to enable 365 business Print Agent and set up a printer.
+> **Gut zu wissen!**<br>Testen Sie den 365 business Print Agent ohne Kosten in Sandbox-Umgebungen von Microsoft Dynamics 365 Business Central. Zusätzlich gibt es für Echt- und On-Premises-Umgebungen eine kostenlose 30-tägige Testphase ohne Funktionseinschränkungen.
 
-> **Good to know!**<br>Explore 365 business Print Agent with no costs in Sandbox environments of Microsoft Dynamics 365 Business Central. Additionally for production and on-premises environments there is a free 30-days trial period with no feature limitations.
+## Vrrausetzungen
 
-## Prerequisites
+ - Microsoft Dynamics 365 Business Central 2021 release wave 1 (18.0) oder neuer.
+ - Ein Microsoft Windows-Clientgerät zur Ausführung von [365 business Print Agent Service](../print-agent-client-whatis).
+ - Eine Internetverbindung
 
- - Microsoft Dynamics 365 Business Central 2021 release wave 1 (18.0) or later.
- - A Microsoft Windows client device for running [365 business Print Agent Service](../print-agent-client-whatis).
- - An internet connection.
+> **Wichtig**<br>Diese Kurzanleitung konzentriert sich auf den Print Agent Cloud Service Modus.<br>Für weitere Informationen zur Einrichtung des Direct Connection Service Modus besuchen Sie bitte [documentation](../setup/).
 
-> **Important**<br>This quick start guide is focusing on Print Agent Cloud service mode.<br>For additional information about set up Direct Connection service mode please visit [documentation](../setup/).
+## Schritt 1: Installation von 365 business Print Agent
 
-## Step 1: Install 365 business Print Agent
+Öffnen Sie den **Marketplace für Erweiterungen** in Microsoft Dynamics 365 Business Central und suchen Sie nach **365 business Print Agent**.
+Installieren Sie die App von Microsoft AppSource und warten Sie, bis die Installation abgeschlossen ist.
 
-Open the **Extension Marketplace** in Microsoft Dynamics 365 Business Central and search for **365 business Print Agent**.
-Install the app from Microsoft AppSource and wait until installation is completed.
-
-## Step 1.1: Print Agent Setup
+## Schritt 1.1: Print Agent Einrichtung
 
 ![Print Agent Setup](/assets/images/365-business-print-agent/e8147ed3f3a4ba5810c3843510ab68734ce904d7857a0f0b3c60b90851aeae41.png)  
 
-To set up Print Agent open the **Print Agent Setup** page in Microsoft Dynamics 365 Business Central,
+Um den Print Agent einzurichten, öffnen Sie die Seite **Print Agent Einrichtung** in Microsoft Dynamics 365 Business Central,
 
- 1. Select **Print Agent Cloud** as **Service Mode**.<br>[Learn more](../print-agent-whatis/#architecture)
- 2. Select **Authenticate with Print Agent Service**.
- 3. Copy the **Tenant ID** value _(exclude curly brackets)_.
-    > **Note**<br>The Tenant ID is used to couple the Print Agent service with your Microsoft Dynamics 365 Business Central environment. You'll need the Tenant ID later in set up Print Agent service.
- 4. Select **Download Service...** to download the latest version of [365 business Print Agent service](../print-agent-client-whatis/).
+ 1. Wählen Sie **Print Agent Cloud** als **Dienstmodus**.<br>[Mehr erfahren](../print-agent-whatis/#architecture)
+ 2. Wählen Sie **Print Agent authentifizieren**.
+ 3. Kopieren Sie den Wert **Tenant ID**  _(ohne geschweifte Klammern)_.
+    > **Hinweis**<br>Die Tenant ID wird verwendet, um den Print Agent-Dienst mit Ihrer Microsoft Dynamics 365 Business Central-Umgebung zu verknüpfen. Sie benötigen die Tenant ID später bei der Einrichtung des Print Agent-Dienstes.
+ 4. Wählen Sie **Software herunterladen...** um  [365 business Print Agent service](../print-agent-client-whatis/) herunterzuladen.
 
-## Step 1.2: Install 365 business Print Agent service
+## Schritt 1.2: Installieren von 365 business Print Agent service
 
- 1. Save the downloaded ZIP-file to the server or computer you want to use as _print server_ with 365 business Print Agent.
- 2. Extract the content of the ZIP-file (e.g. `C:\install`)
- 3. Run the setup file.<br>[Learn more](../print-agent-service-installation/)
+ 1. Speichern Sie die heruntergeladene ZIP-Datei auf dem Server oder Computer, den Sie als _Druckserver_ mit 365 business Print Agent verwenden möchten.
+ 2. Entpacken Sie die ZIP-Datei (z.B. `C:\install`)
+ 3. Starten Sie die Setup Datei.<br>[mehr erfahren](../print-agent-service-installation/)
 
-## Step 1.3: Print Agent Service Setup
+## Step 1.3: Print Agent Service Einrichtung
 
- 1. Start the **365 business Print Agent** application.
- 2. Select **Configuration**.
- 3. Select **365 business Print Agent Cloud (recommended)**.
- 4. Paste the Tenant ID copied in step 1.1.
- 5. Specify a **Name** to identify the client device.
- 6. Select **Apply** to complete your set up of your 365 business Print Agent service.
+ 1. Starten Sie die **365 business Print Agent** Applikation.
+ 2. Wählen Sie **Konfigurieren**.
+ 3. Wählen Sie **365 business Print Agent Cloud (empfohlen)**.
+ 4. Kopieren Sie die **Tentant ID** aus Schritt 1.1.
+ 5. Bestimmen Sie einen **Namen** um den Client zu identifizieren.
+ 6. Wählen Sie **Übernehmen**, um die Einrichtung von 365 business Print Agent service abzuschließen.
 
-## Step 2: Set up printers
+## Schritt 2: Drucker einrichten
 
-To set up and use printers directly in Microsoft Dynamics 365 Business Central you've to specify which printers, you want to share with Microsoft Dynamics 365 Business Central.
+Um Drucker direkt in Microsoft Dynamics 365 Business Central einzurichten und zu verwenden, müssen Sie angeben, welche Drucker Sie für Microsoft Dynamics 365 Business Central freigeben möchten.
 
- 1. Open **365 business Print Agent** application.
- 2. Select **Printer** to view all available printers on your client device.
- 3. Select each printer you want to share with Microsoft Dynamics 365 Business Central.
+ 1. Öffnen Sie die  **365 business Print Agent** Anwendung.
+ 2. Wählen Sie **Drucker** um alle verfügbaren Drucker auf dem Client anzuzeigen.
+ 3. Wählen Sie alle Drucker aus, die Sie für Microsoft Dynamics 365 Business Central freigeben möchten.
     ![Shared Printer](/assets/images/365-business-print-agent/ad01eb85658694c75716cb5dbce514bd3763fb94b48e505c0288c2bcf8638737.png)  
 
-## Step 2.1: Get shared printers
+## Schritt 2.1: Freigegebene Drucker
 
- 1. Open Microsoft Dynamics 365 Business Central.
- 2. Open **Printers** page.
- 3. Select **Get Shared Printer...** to retrieve the shared printers.
+ 1. Microsoft Dynamics 365 Business Central öffnen.
+ 2. **Drucker** Seite öffnen.
+ 3. Wählen Sie **Freigegebene Drucker holen...**, um die freigegbenen Drucker zu holen
     ![Printers page actions](/assets/images/365-business-print-agent/567d50c1f1eb153215a9880611e4bf22f762cf6e6899086d80325209fc99ce9a.png)
 
-## Step 2.2: Enable Printer Configuration
+## Schritt 2.2: Aktivieren der Druckerkonfiguration
 
-> **Good to know!**<br>Shared printers are not directly available in Microsoft Dynamics 365 Business Central. Instead it's necessary to create [Printer Configurations](../printer-configuration/) which will be assigned in **Printer Selection** or selected in Report Request Page. You can create multiple printer configurations based on the capabilities you want to use in a specific scenario (e.g. duplex-mode).<br><br>For each printer a system-created printer configuration is automatically created. This configuration is created with the available features of the printer.
+> **Wichtig!**<br>Freigegebene Drucker sind in Microsoft Dynamics 365 Business Central nicht direkt verfügbar. Stattdessen ist es notwendig, [Druckerkonfigurationen] zu erstellen.(../printer-configuration/), die dann in der **Druckerauswahhl** oder in der Report Request Page ausgewählt werden können. Sie können mehrere Druckerkonfigurationen auf der Grundlage der Funktionen erstellen, die Sie in einem bestimmten Szenario verwenden möchten (z. B. Duplex-Modus).<br><br>Für jeden Drucker wird automatisch eine vom System erstellte Druckerkonfiguration erstellt. Diese Konfiguration wird mit den verfügbaren Funktionen des Druckers erstellt.
 
- 1. Select **Printer Configurations**.
- 2. Select **Edit**.
- 3. Verify the system-created configuration.
- 4. Select **Enabled** to activate the printer configuration.
+ 1. **Druckereinstellungen** auswählen.
+ 2. **Bearbeiten** auswählen.
+ 3. Überprüfen Sie, die vom System, erstellte Druckereinstellung
+ 4. **Aktiviert** auswählen um die Druckereinstellung zu aktivieren.
 
-## Step 3: Assign Printer Configuration
+## Schritt 3: Druckereinstellungen zuweisen
 
-To get the most out of direct printing capabilities it's good to set up a printer (configuration) for specific reports or users. The configuration takes place in Microsoft Dynamics 365 Business Central standard page **Printer Selection**.
+Um die Möglichkeiten des Direktdrucks optimal nutzen zu können, ist es sinnvoll, einen Drucker (Konfiguration) für bestimmte Berichte oder Benutzer einzurichten. Die Konfiguration erfolgt in Microsoft Dynamics 365 Business Central auf der Standardseite **Druckerauswahl**.
 
- 1. Open **Print Selection**.
- 2. Select **User ID** or leave blank to assign the printer (configuration) for every user.
- 3. Specify **Report ID** or leave blank to assign the printer (configuration) for every report.
- 4. Select **Printer Name** by choosing from the Drop-down menu.
+ 1. **Druckerauswahl** öffnen.  
+ 2. Wählen Sie eine **Benutzer-ID** aus oder lassen Sie das Feld leer, um den Drucker (Konfiguration) für jeden Benutzer zuzuweisen.
+ 3. Geben Sie eine **Berichts-ID** an oder lassen Sie diese leer, um den Drucker (Konfiguration) für jeden Bericht zuzuweisen.
+ 4. Wählen Sie den **Druckernamen** aus dem Dropdown-Menü aus.
 
-> **Good to know!**<br>Microsoft Dynamics 365 Business Central provides a additional page, called **Printer Management**. Here you find every printer (configuration) enabled in Print Agent. From here you can easily open the printer configuration or set the selected printer (configuration) as default.<br>![picture 7](../../../../assets/images/365-business-print-agent/f66b313410695f3a550f126155fc3b9d6abf9c663c5840e9d2c1887948fbfd41.png)
+> **Wichtig!**<br>Microsoft Dynamics 365 Business Central bietet eine zusätzliche Seite, **Druckerverwaltung**. Hier finden Sie alle in Print Agent aktivierten Drucker (Konfigurationen). Von hier aus können Sie die Druckerkonfiguration öffnen oder den ausgewählten Drucker (Konfiguration) als Standard festlegen.<br>![picture 7](../../../../assets/images/365-business-print-agent/f66b313410695f3a550f126155fc3b9d6abf9c663c5840e9d2c1887948fbfd41.png)
 
 
-### See also
+### Siehe auch
 
- - [Print Agent Architecture](../print-agent-whatis/#architecture)
- - [What is the Print Agent Service?](../print-agent-client-whatis/)
- - [Installing Print Agent Service](../print-agent-service-installation/)
- - [Print Agent Setup](../setup/)
- - [Printer](../printer/)
- - [Printer Configuration](../printer-configuration/)
+ - [Print Agent Architektur](../print-agent-whatis/#architecture)
+ - [Was ist der Print Agent Service?](../print-agent-client-whatis/)
+ - [Installation Print Agent Service](../print-agent-service-installation/)
+ - [Print Agent Einrichtung](../setup/)
+ - [Drucker](../printer/)
+ - [Drucker Konfiguration](../printer-configuration/)
