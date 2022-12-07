@@ -14,8 +14,10 @@ Folgende Informationen dienen als Grundeinrichtung:
 | Dauerfristverlängerung Nr.-Serie | Nummerierung | Gibt die Nummernserie an, die für die Dauerfristverlängerung verwendet wird. | USTDV (USTDV0001 - USTDV9999)|
 | Fristverlängerung Nr.-Serie | Nummerierung | Gibt die Nummernserie an, die für die Fristverlängerung verwendet wird. | FRISTV (FRISTV0001 - FRISTV9999)|
 | Umsatzsteuererklärung Nr.-Serie | Nummerierung | Gibt die Nummernserie an, die für die Umsatzsteuererklärung verwendet wird. | UST (UST0001 - UST9999)|
+| One-Stop-Shop (OSS) Nr.-Serie | Nummerierung | Gibt die Nummernserie an, die für One-Stop-Shop (OSS) verwendet wird. | OSS (OSS0001 - OSS9999) |
 | UStVA MwSt.-Abrechnung Vorlage | Umsatzsteuervoranmeldung | Legt die Vorlage für die MwSt.-Abrechnung fest, die für die Berechnung der Steuerzahlen und -werte verwendet werden soll. | *Ermittlung an Hand der existierenden MwSt.-Abrechnungen* | 
 | UStVA MwSt.-Abrechnung Name | Umsatzsteuervoranmeldung | Legt den Namen der MwSt.-Abrechnung fest, der für die Berechnung der Steuerzahlen und -werte verwendet werden soll. | *Ermittlung an Hand der existierenden MwSt.-Abrechnungen* |
+| MwSt.-Datumstyp | Umsatzsteuervoranmeldung | Gibt das Standarddatum an, das zum Filtern der Beträge verwendet werden soll.<br><br>_**Hinweis:** Der gewählte MwSt.-Datumstyp wird auch für andere Steuerdatenarten, wie bspw. Dauerfristverlängerung und Zusammenfassende Meldung verwendet._<br><br>_**Hinweis:** Dieses Feld steht nur für Microsoft Dynamics 365 Business Central 2022 Release Wave 2 (21.0) oder neuer zur Verfügung._ | Buchungsdatum |
 | Organschaft | Umsatzsteuervoranmeldung | Zeigt an, ob die ausgewählte MwSt.-Abrechnung eine Organschaft verwendet oder nicht.<br><br>_**Hinweis:** Dieses Feld wird nur angezeigt, wenn OPplus installiert ist. Weitere Informationen finden sie [hier](../opp-affiliation/)._ |  |
 | Dauerfristverlängerung MwSt.-Abrechnung Vorlage | Dauerfristverlängerung | Legt die Vorlage für die MwSt.-Abrechnung fest, die für die Berechnung der Steuerzahlen und -werte verwendet werden soll. |  | 
 | Dauerfristverlängerung MwSt.-Abrechnung Name | Dauerfristverlängerung | Legt den Namen der MwSt.-Abrechnung fest, der für die Berechnung der Steuerzahlen und -werte verwendet werden soll. |  |
@@ -25,6 +27,8 @@ Folgende Informationen dienen als Grundeinrichtung:
 | Besteuerungsart | Umsatzsteuererklärung / Besteuerung | Gibt die von Ihrem Unternehmen verwendete Besteuerungsart an. |  |
 | USt.-Vorrauszahlungen Sachkontonr. | Umsatzsteuererklärung / Sachkonten | Gibt das Sachkonto für USt.-Vorrauszahlungen (z.B. `1780` (SKR03)) an. |  |
 | USt.-Vorrauszahlungen 1/11 Sachkontonr. | Umsatzsteuererklärung / Sachkonten | Gibt das Sachkonto für USt.-Vorrauszahlungen 1/11 bzw. Sondervorrauszahlungen (z.B. `1781` (SKR03)) an. |  |
+| One-Stop-Shop (OSS) MwSt.-Abrechnung Vorlage | One-Stop-Shop (OSS) | Legt die Vorlage für die MwSt.-Abrechnung fest, die für die Berechnung der Steuerzahlen und -werte verwendet werden soll. |  |
+| One-Stop-Shop (OSS) MwSt.-Abrechnung Name | One-Stop-Shop (OSS) | Legt den Namen der MwSt.-Abrechnung fest, der für die Berechnung der Steuerzahlen und -werte verwendet werden soll. |  |
 
 
 #### Zertifikat
