@@ -48,6 +48,7 @@ titles:
   elster-tax-data-type: ELSTER Steuerdatenarten
   elster-validation-message: ELSTER Validierungsmeldungen
   vat-statement-setup: MwSt.-Abrechnung Einrichtung
+  bop-one-stop-shop: One-Stop-Shop (OSS)
   audience-lists: Abonnentenlisten
   audience: Abonnenten
   how-to-create-mailchimp-api-key: Mailchimp API Schlüssel erstellen
