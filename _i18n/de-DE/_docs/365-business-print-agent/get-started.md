@@ -2,7 +2,7 @@ In dieser Kurzanleitung wird erklärt, wie Sie 365 business Print Agent aktivier
 
 > **Hinweis!**<br>Testen Sie den 365 business Print Agent ohne Kosten in Sandbox-Umgebungen von Microsoft Dynamics 365 Business Central. Zusätzlich gibt es für Echt- und On-Premises-Umgebungen eine kostenlose 30-tägige Testphase ohne Funktionseinschränkungen.
 
-## Vrrausetzungen
+## Voraussetzungen
 
  - Microsoft Dynamics 365 Business Central 2021 release wave 1 (18.0) oder neuer.
  - Ein Microsoft Windows-Clientgerät zur Ausführung von [365 business Print Agent Service](../print-agent-client-whatis).
