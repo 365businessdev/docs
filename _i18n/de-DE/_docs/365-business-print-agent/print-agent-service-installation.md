@@ -1,67 +1,66 @@
-> This page is currently not available in the selected language. The page is available in **English**. Please select other language to display.
+## Voraussetzungen
 
-## Prerequisites
-
- - Operating System
-   - Windows 10 or later (64-bit)
-   - Windows Server 2016 or later (64-bit)
+ - Betriebssystem
+   - Windows 10 oder neuer (64-bit)
+   - Windows Server 2016 oder neuer (64-bit)
  - .NET 6.0
- - An internet connection.
+ - Internetverbindung.
  - [365 business Print Agent Service Installer](https://365businessapi.com/api/SoftwareDownload?AppId=c2e7d99c-d3c6-4ecc-9c6b-7be4048b41a9)
 
-> **Important**<br>If you use Print Agent Service in Direct Connection mode please make sure the Service Port is available through internet from your Microsoft Dynamics 365 Business Central tenant.<br>We strongly recommend to use Print Agent Cloud for SaaS environments of Microsoft Dynamics 365 Business Central.
+> **Wichtig**<br>Wenn Sie den Print Agent Service im Direktverbindungsmodus verwenden, stellen Sie bitte sicher, dass der Service-Port über das Internet von Ihrem Microsoft Dynamics 365 Business Central-Tentant verfügbar ist.<br>Wir empfehlen dringend, Print Agent Cloud für SaaS-Umgebungen von Microsoft Dynamics 365 Business Central zu verwenden.
 
-> **Note**<br>To update your Print Agent Service download and install the [latest version](https://365businessapi.com/api/SoftwareDownload?AppId=c2e7d99c-d3c6-4ecc-9c6b-7be4048b41a9). After the installation your settings are restored. 
+> **Hinweis**<br>Um Ihren Print Agent Service zu aktualisieren, laden Sie die [neuste Version](https://365businessapi.com/api/SoftwareDownload?AppId=c2e7d99c-d3c6-4ecc-9c6b-7be4048b41a9) herunter. Nach der Installation werden Ihre Einstellungen wiederhergestellt. 
 
-## Before you start
+## Bevor Sie starten
 
-Please [read this article](../print-agent-whatis/) to determine which Service Mode you should choose for your scenario.
+Bitte [lesen Sie den Artikel](../print-agent-whatis/) um herauszufinden, welchen Dienstmodus Sie für Ihr Szenario wählen sollten.
 
-## Install Print Agent Service software
+## Installation von Print Agent Service
 
- 1. [Download](https://365businessapi.com/api/SoftwareDownload?AppId=c2e7d99c-d3c6-4ecc-9c6b-7be4048b41a9) the latest version of Print Agent Service.
- 2. Save the downloaded ZIP-file to the server or computer you want to use as _print server_ with 365 business Print Agent.
- 3. Extract the content of the ZIP-file (e.g. `C:\install`)
- 4. Run the setup file and follow the steps to install and launch the Print Agent Service.
+ 1. [Download](https://365businessapi.com/api/SoftwareDownload?AppId=c2e7d99c-d3c6-4ecc-9c6b-7be4048b41a9) der neusten Version von Print Agent Service.
+ 2. Speichern Sie die heruntergeladene ZIP-Datei auf dem Server oder Computer, den Sie als _Druckserver_ mit 365 business Print Agent verwenden möchten.
+ 3. Entpacken Sie den Inhalt der ZIP-Datei (z.B. `C:\install`)
+ 4. Führen Sie die Setup-Datei aus und folgen Sie den Schritten, um den Print Agent Service zu installieren und zu starten.
 
-## Assisted Setup
+## Unterstützte Einrichtung
 
-During the first start of the 365 business Print Agent application, the assisted setup is started automatically and helps you to perform the basic set up.
+Beim ersten Start der 365 Business Print Agent-Anwendung wird die unterstützte Einrichtung automatisch gestartet und hilft Ihnen bei der Einrichtung der Grundeinstellungen.
 
- 1. Start the **365 business Print Agent** application.
- 2. During first start the **365 business Print Agent Configuration Wizard** runs automatically.<br>
- ![Step 1](/assets/images/365-business-print-agent/7fce036f0be32ae6276110bb38a0abc8f5b967f91b12364a4ba2c58292c2ace8.png)  
- 3. Select **Next**.
- 4. Select your preferred connection type (see [service mode](../print-agent-whatis/#architecture)).<br>
- ![Step 2](/assets/images/365-business-print-agent/c43ddc32c15333a24a27400b82d42c2511fe4f269bea578756a371f35b0e946d.png)  
- 5. Select **Next**.
- 6. Paste the Tenant ID copied from **Print Agent Setup** page in Microsoft Dynamics 365 Business Central.
- 7. Specify a **Name** to identify the client device.
- 8. Select **Next**.
- 9. Windows service will automatically be created and configured. Additionally the tenant registration for your client device will be performed.<br>
- ![Step 4](/assets/images/365-business-print-agent/61c0bdbed1a0465a3106089a86114b982c3d707fff7c245fc775988092e0dcf3.png)
- 1.  Select **Finish**.<br> 
- ![Step 5](/assets/images/365-business-print-agent/8f5fed48cbf63384f8984bd97134af87bd0bc11ddaeaeedebb56b60e6124e6d8.png)  
+ 1. Starten Sie die **365 business Print Agent** Applikation.
+ 2. Beim ersten Start wird automatisch der **365 business Print Agent Konfigurations Wizard** ausgeführt.<br>
+ ![Schritt1 1](/assets/images/365-business-print-agent/7fce036f0be32ae6276110bb38a0abc8f5b967f91b12364a4ba2c58292c2ace8.png)  
+ 3. Wählen Sie **Weiter**.
+ 4. Wählen Sie Ihre bevorzugte Verbindungsart (siehe [Dienstmodus](../print-agent-whatis/#architecture)).<br>
+ ![Schritt 2](/assets/images/365-business-print-agent/c43ddc32c15333a24a27400b82d42c2511fe4f269bea578756a371f35b0e946d.png)  
+ 5. Wählen Sie **Weiter**.
+ 6. Fügen Sie die Tentant-ID ein, die Sie von der Seite **Print Agent Einnrichtung** in Microsoft Dynamics 365 Business Central kopiert haben.
+ 7. Geben Sie einen **Name** an, um das Client-Gerät zu identifizieren.
+ 8. Wählen Sie **Weiter**.
+ 9. Der Windows Dienst wird automatisch erstellt und konfiguriert. Außerdem wird die Tenant Registrierung für Ihr Client-Gerät durchgeführt.<br>
+ ![Schritt 4](/assets/images/365-business-print-agent/61c0bdbed1a0465a3106089a86114b982c3d707fff7c245fc775988092e0dcf3.png)
+ 1.  Wählen Sie **Fertigstellen**.<br> 
+ ![Schritt 5](/assets/images/365-business-print-agent/8f5fed48cbf63384f8984bd97134af87bd0bc11ddaeaeedebb56b60e6124e6d8.png)  
 
 
-## Set up Print Agent Service for Print Agent Cloud Service Mode
+## Print Agent Service für Print Agent Cloud Service-Modus einrichten
 
-To connect Print Agent Service and your Microsoft Dynamics 365 Business Central tenant in Print Agent Cloud you need to specify the **Tenant ID** from **Print Agent Setup** page in Microsoft Dynamics 365 Business Central. See [here](../setup/) for additional information.
+Um Print Agent Service und Ihren Microsoft Dynamics 365 Business Central-Tenant in Print Agent Cloud zu verbinden, müssen Sie die **Tenant ID** auf der Seite **Print Agent Einrichtung** in Microsoft Dynamics 365 Business Central angeben. Siehe [hier](../setup/) für weitere Informationen.
 
- 1. Start the **365 business Print Agent** application.
- 2. Select **Configuration**.
- 3. Select **365 business Print Agent Cloud (recommended)**.
- 4. Paste the Tenant ID copied from **Print Agent Setup** page in Microsoft Dynamics 365 Business Central.
- 5. Specify a **Name** to identify the client device.
- 6. Select **Apply** to set up the agent and start the services.
+ 1. Starten Sie die **365 business Print Agent** Applikation.
+ 2. Wählen Sie **Konfiguration**.
+ 3. Wählen Sie **365 business Print Agent Cloud (empfohlen)**.
+ 4. Fügen Sie die Tentant-ID ein, die Sie von der Seite **Print Agent Einnrichtung** in Microsoft Dynamics 365 Business Central kopiert haben.
+ 5. Geben Sie einen **Name** an, um das Client-Gerät zu identifizieren.
+ 6. Wählen Sie **Übernehmen** um den Agent einzurichten und den Dienst zu starten
+ 
 
-## Set up Print Agent Service for Direct Connection Service Mode
+## Print Agent Service für Direct Connection Service Mode einrichten
 
-> **Important**<br>Please make sure the Service URL and Service Port is available from your Microsoft Dynamics 365 Business Central environment.<br>We strongly recommend to use Print Agent Cloud for SaaS environments of Microsoft Dynamics 365 Business Central.
+> **Wichtig**<br>Bitte stellen Sie sicher, dass die Service-URL und der Service-Port in Ihrer Microsoft Dynamics 365 Business Central-Umgebung verfügbar sind.<br>Wir empfehlen dringend, Print Agent Cloud für SaaS-Umgebungen von Microsoft Dynamics 365 Business Central zu verwenden.
 
- 1. Start the **365 business Print Agent** application.
- 2. Select **Configuration**.
- 3. Select **365 business Print Agent Server**.
- 4. Specify **Remote Address** to the name the Print Agent service should bind, or leave asterisks to bind every available IP address of your system.
- 5. Specify the **Port** the Print Agent service should listen on (default port `60000`).
- 6. Select **Apply** to set up the agent and start the services.
+ 1. Starten Sie die **365 business Print Agent** Applikation.
+ 2. Wählen Sie **Konfiguration**.
+ 3. Wählen Sie **365 business Print Agent Server**.
+ 4. Geben Sie die **Remote Adresse** an, an der sich der Print Agent-Dienst binden soll, oder lassen Sie Sternchen stehen, um jede verfügbare IP-Adresse Ihres Systems zu binden.
+ 5. Geben Sie den **Port** an, auf dem der Print Agent-Dienst lauschen soll (Standardport `60000`).
+ 6. Wählen Sie **Übernehmen**, um den Agent einzurichten und die Dienste zu starten.
