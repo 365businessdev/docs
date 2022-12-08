@@ -28,16 +28,15 @@ All 365 business development apps are versioned based on the following scheme:
 
 | Feature | Description | Planned Release |
 | --- | --- | --- |
-| New Tax Data Type `GewSt` | Add support for `GewSt` (Gewerbesteuer) Tax Data Type. | 2022 |
-| New Tax Data Type `OSS` | Add support for `OSS` (One-Stop-Shop) Tax Data Type. | 2022 |
-| View Entries for Affiliation | Add support to view VAT Entries, based on specified VAT Statement for Affiliation using OPplus. | 2022 |
+| New Tax Data Type `GewSt` | Add support for `GewSt` (Gewerbesteuer) Tax Data Type. | H1-2023 |
+| View Entries for Affiliation | Add support to view VAT Entries, based on specified VAT Statement for Affiliation using OPplus. | H1-2023 |
 | New Tax Data Type `EUER` | Add support for `EUER` (Einnahmeüberschussrechnung) Tax Data Type. | TBD |
 
 ##### 365 business Teams Integration
 
 Integrate Microsoft Teams into your Microsoft Dynamics 365 Business Central business processes and lift collaboration to a new level.
 
-> **Planned Release**: Q1-2023
+> **Planned Release**: TBD
 
 ##### 365 business Document Recognition
 

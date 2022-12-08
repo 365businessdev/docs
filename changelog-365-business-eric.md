@@ -4,6 +4,15 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-eric/
 ---
 
+#### Version 17.10.151.6871
+
+ - Add One-Stop-Shop (OSS) support (CSV-Export)
+ - Update to ERiC 37.2 (2023 Update)
+ - Prevent Tax Data from modifications after transmission.
+ - Add VAT Date Type support (BC21 or later)
+ - Fix infinite loop in Password dialog for PFX certificate.
+ - Update `FRISTVERLAENGERUNG` schema to version 21.
+
 #### Version 17.9.132.5631
 
  - Fix CR/LF in Company Information
