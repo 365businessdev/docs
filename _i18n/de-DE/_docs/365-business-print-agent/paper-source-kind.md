@@ -1,5 +1,3 @@
-> This page is currently not available in the selected language. The page is available in **English**. Please select other language to display.
+Legt eine Standardpapierquelle für das Papierfach fest. Sie können den Wert auf eine der 14 Papierquellen setzen, die von .NET Framework unterstützt werden. 
 
-Specifies a standard paper source for the paper tray. You can set the value to any of the 14 paper sources that are supported by .NET Framework. 
-
-You can see the supported paper sources at [PaperSourceKind Enum](https://learn.microsoft.com/en-us/dotnet/api/system.drawing.printing.papersourcekind).
+Die unterstützten Papierquellen finden Sie unter: [PaperSourceKind Enum](https://learn.microsoft.com/de-de/dotnet/api/system.drawing.printing.papersourcekind).
