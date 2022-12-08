@@ -1,5 +1,3 @@
-> This page is currently not available in the selected language. The page is available in **English**. Please select other language to display.
+Gibt die vom Drucker unterstützten Papierformate an. Sie können den Wert auf eine beliebige Standardpapierart setzen, die von .NET Framework unterstützt wird.
 
-Specifies the paper sizes supported by the printer. You set the value to any standard paper kind that .NET Framework supports.
-
-You can see the supported paper kinds at [PaperKind Enum](https://learn.microsoft.com/en-us/dotnet/api/system.drawing.printing.paperkind).
+Die unterstützten Papiersorten finden Sie unter [PaperKind Enum](https://learn.microsoft.com/de-de/dotnet/api/system.drawing.printing.paperkind).
