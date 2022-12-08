@@ -1,26 +1,24 @@
-> This page is currently not available in the selected language. The page is available in **English**. Please select other language to display.
+Der Print Agent Service übernimmt die Kommunikation zwischen Microsoft Dynamics 365 Business Central (Direct Mode) oder 365 Business Print Agent Cloud (Cloud Mode). Zusätzlich führt der Print Agent Service die empfangenen Druckaufträge von Microsoft Dynamics 365 Business Central aus.
 
-The Print Agent Service handles the communication between Microsoft Dynamics 365 Business Central (Direct Mode) or 365 business Print Agent Cloud (Cloud Mode). Additionally the Print Agent Service is executing the received print jobs from Microsoft Dynamics 365 Business Central.
+Jeder Print Agent Service wird anhand einer Client-ID (GUID) identifiziert und überwacht den Online-Status Ihrer freigegebenen Drucker. 
+Der Agent sollte auf einem Windows-System ausgeführt werden, auf dem Ihre Drucker installiert sind.
 
-Each Print Agent Service is identified using a Client ID (GUID) and monitors the Online status of your shared printers. 
-The agent should be running on a Windows system on which your printers are installed.
+> **Hinweis!**<br>Der Print Agent Service ist in der Lage, mit jedem auf dem Client-Gerät (z.B. Druckserver) installierten Drucker zu arbeiten.
 
-> **Good to know!**<br>Print Agent Service is able to work with every printer installed on the client device (e.g. print server).
+## Drucker mit Print Agent verbinden
 
-## Connect printers to Print Agent
-
-All installed printers on the client device are automatically available in the **Printer** view of the 365 business Print Agent application.
+Alle auf dem Client-Gerät installierten Drucker sind automatisch in der Ansicht **Drucker** der 365 business Print Agent Anwendung verfügbar.
 
 ![Shared Printer](/assets/images/365-business-print-agent/ad01eb85658694c75716cb5dbce514bd3763fb94b48e505c0288c2bcf8638737.png)  
 
-Select all printers which you want to make available for printing from Microsoft Dynamics 365 Business Central.
+Wählen Sie alle Drucker aus, die Sie für das Drucken aus Microsoft Dynamics 365 Business Central verfügbar machen möchten.
 
-> **Important!**<br>Once a printer is shared please keep in mind, that revoke sharing or delete the printer may result in failing print jobs inside Microsoft Dynamics 365 Business Central.<br>Please be careful managing your shared printers.
+> **Wichtig!**<br>Bedenken Sie bitte, sobald ein Drucker freigegeben ist, dass die Aufhebung der Freigabe oder das Löschen des Druckers zu fehlgeschlagenen Druckaufträgen in Microsoft Dynamics 365 Business Central führen kann.<br>Verwalten Sie Ihre freigegebenen Drucker mit Bedacht.
 
-## The role of Print Agent Service
+## Die Aufgabe von Print Agent Service
 
-The Print Agent Service performs following functions:
+Der Print Agent Service führt folgende Funktionen aus:
 
- 1. Handles communication between your client and Microsoft Dynamics 365 Business Central or 365 business Print Agent Cloud.
- 2. Initiates print jobs.
- 3. Manage shared printers.
+ 1. Er verwaltet die Kommunikation zwischen Ihrem Client und Microsoft Dynamics 365 Business Central oder 365 Business Print Agent Cloud.
+ 2. Initiiert Druckaufträge.
+ 3. Verwaltet freigegebene Drucker.
