@@ -1,34 +1,32 @@
-> This page is currently not available in the selected language. The page is available in **English**. Please select other language to display.
+Mit dem 365 business Print Agent können Sie direkt aus Microsoft Dynamics 365 Business Central heraus drucken. 
 
-Introducing seamless printing directly from Microsoft Dynamics 365 Business Central, with 365 business Print Agent. 
+365 business Print Agent ist eine moderne Lösung für den Zugriff auf Ihre Druckinfrastruktur direkt von Microsoft Dynamics 365 Business Central aus. Er ist sowohl für SaaS-Umgebungen von Microsoft Dynamics 365 Business Central als auch für On-Premise-Umgebungen verfügbar. Greifen Sie einfach auf Ihre lokale Druckinfrastruktur zu, so einfach wie es nur sein kann.
 
-365 business Print Agent is a modern solution to access your print infrastructure directly from Microsoft Dynamics 365 Business Central. It's available for SaaS environments of Microsoft Dynamics 365 Business Central, as well as for On-Premise environments. Just access your local print infrastructure, as easy as it can be.
+Lernen Sie grundlegende Print Agent-Konzepte und -Prozesse in Microsoft Dynamics 365 Business Central kennen, einschließlich der Einrichtung, Registrierung von Print Agent-Diensten und der Verwaltung von Druckern.
 
-Learn basic 365 business Print Agent concepts and processes, including how to setup, register Print Agent services and manage printers.
-
-> ## <img src="/assets/fontawesome/books-duotone.svg" class="fa-group-icon"> About 365 business Print Agent 
+> ## <img src="/assets/fontawesome/books-duotone.svg" class="fa-group-icon"> Über 365 business Print Agent 
 >
-> Learn more about basics of 365 business Print Agent:
+> Erfahren Sie mehr über die Grundlagen von 365 business Print Agent:
 >
->  - [What is 365 business Print Agent?](print-agent-whatis)
->  - [What is 365 business Print Agent Service?](print-agent-client-whatis)
+>  - [Was ist 365 business Print Agent?](print-agent-whatis)
+>  - [Was ist 365 business Print Agent Service?](print-agent-client-whatis)
 
-> ## <img src="/assets/fontawesome/person-running-duotone.svg" class="fa-group-icon"> Get started
+> ## <img src="/assets/fontawesome/person-running-duotone.svg" class="fa-group-icon"> Erste Schritte
 > 
-> Learn more about get started with 365 business Print Agent:
+>  Erfahren Sie mehr über 365 business Print Agent:
 > 
->  - [Setup Microsoft Dynamics 365 Business Central](setup)
->  - [Installing 365 business Print Agent Service](print-agent-service-installation)
->  - [Access Printer in Microsoft Dynamics 365 Business Central](printer)
+>  - [Einrichtung in Microsoft Dynamics 365 Business Central](setup)
+>  - [Installation 365 business Print Agent Service](print-agent-service-installation)
+>  - [Auf Drucker in Microsoft Dynamics 365 Business Central zugreifen](printer)
 
-> ## <img src="/assets/fontawesome/sliders-duotone.svg" class="fa-group-icon"> Manage printers
+> ## <img src="/assets/fontawesome/sliders-duotone.svg" class="fa-group-icon"> Drucker verwalten
 > 
-> Learn more about managing printers in Microsoft Dynamics 365 Business Central:
+> Erfahren Sie mehr über das Verwalten von Druckern in Microsoft Dynamics 365 Business Central:
 > 
->  - [Create Printer Configurations in Microsoft Dynamics 365 Business Central](printer-configuration)
->  - [Assign Printer Configurations to Reports or Users in Microsoft Dynamics 365 Business Central](printer-configuration/#printer-selection)
+>  - [Drucker Konfigurationen erstellen in Microsoft Dynamics 365 Business Central](printer-configuration)
+>  - [Zuweisen von Druckerkonfigurationen zu Berichten oder Benutzern in Microsoft Dynamics 365 Business Central](printer-configuration/#printer-selection)
 
 > ## <img src="/assets/fontawesome/user-helmet-safety-duotone.svg" class="fa-group-icon"> Print Agent Service
 > 
->  - [What is 365 business Print Agent Service?](print-agent-client-whatis)
+>  - [Was ist 365 business Print Agent Service?](print-agent-client-whatis)
 >  - [Download 365 business Print Agent Service Installer](https://365businessapi.com/api/SoftwareDownload?AppId=c2e7d99c-d3c6-4ecc-9c6b-7be4048b41a9)
