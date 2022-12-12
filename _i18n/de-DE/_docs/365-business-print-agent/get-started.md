@@ -33,7 +33,7 @@ Um den Print Agent einzurichten, öffnen Sie die Seite **Print Agent Einrichtung
  2. Entpacken Sie die ZIP-Datei (z.B. `C:\install`)
  3. Starten Sie die Setup Datei.<br>[mehr erfahren](../print-agent-service-installation/)
 
-## Step 1.3: Print Agent Service Einrichtung
+## Schritt 1.3: Print Agent Service Einrichtung
 
  1. Starten Sie die **365 business Print Agent** Applikation.
  2. Wählen Sie **Konfigurieren**.
