@@ -60,7 +60,7 @@ Um Drucker direkt in Microsoft Dynamics 365 Business Central einzurichten und zu
 
 ## Schritt 2.2: Aktivieren der Druckerkonfiguration
 
-> **Hinweis!**<br>Freigegebene Drucker sind in Microsoft Dynamics 365 Business Central nicht direkt verfügbar. Stattdessen ist es notwendig, [Druckerkonfigurationen] zu erstellen.(../printer-configuration/), die dann in der **Druckerauswahhl** oder in der Report Request Page ausgewählt werden können. Sie können mehrere Druckerkonfigurationen auf der Grundlage der Funktionen erstellen, die Sie in einem bestimmten Szenario verwenden möchten (z. B. Duplex-Modus).<br><br>Für jeden Drucker wird automatisch eine vom System erstellte Druckerkonfiguration erstellt. Diese Konfiguration wird mit den verfügbaren Funktionen des Druckers erstellt.
+> **Hinweis!**<br>Freigegebene Drucker sind in Microsoft Dynamics 365 Business Central nicht direkt verfügbar. Stattdessen ist es notwendig, [Druckerkonfigurationen](../printer-configuration/) zu erstellen., die dann in der **Druckerauswahhl** oder in der Report Request Page ausgewählt werden können. Sie können mehrere Druckerkonfigurationen auf der Grundlage der Funktionen erstellen, die Sie in einem bestimmten Szenario verwenden möchten (z. B. Duplex-Modus).<br><br>Für jeden Drucker wird automatisch eine vom System erstellte Druckerkonfiguration erstellt. Diese Konfiguration wird mit den verfügbaren Funktionen des Druckers erstellt.
 
  1. **Druckereinstellungen** auswählen.
  2. **Bearbeiten** auswählen.
