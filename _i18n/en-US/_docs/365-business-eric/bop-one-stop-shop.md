@@ -10,7 +10,7 @@ Der One-Stop-Shop (OSS) und die Fernverkäufe ab dem 01.07.2021 sind die größt
 
 Die Meldung für One-Stop-Shop (OSS) erfolgt über das [**Mein BOP**](https://www.elster.de/bportal/login/softpse) Onlineportal des Bundeszentralamt für Steuern (BZSt). Die elektronische Meldung erfolgt dabei über eine OSS CSV-Datei, die die relevanten Informationen enthält.
 
-> **Gut zu wissen:**<br>Der Upload der Daten, mittels CSV-Datei, im Mein BOP Onlineportal führt noch nicht zur Übermittlung der Daten an das BZSt. Es besteht nach dem Upload die Möglichkeit, die Daten einzeln zu überprüfen und bei Bedarf zu ändern.
+> **Gut zu wissen**<br>Der Upload der Daten, mittels CSV-Datei, im Mein BOP Onlineportal führt noch nicht zur Übermittlung der Daten an das BZSt. Es besteht nach dem Upload die Möglichkeit, die Daten einzeln zu überprüfen und bei Bedarf zu ändern.
 
 Da es zum aktuellen Zeitpunkt keine Unterstützung der elektronischen Übermittlung durch die ELSTER Rich Client (ERiC) Bibliothek gibt, ist es leider nicht möglich die Daten **direkt** aus Microsoft Dynamics 365 Business Central zu übermitteln.
 Stattdessen muss die CSV-Datei manuell im Mein BOP Onlineportal hochgeladen werden.
@@ -25,7 +25,7 @@ Die Berechnung der One-Stop-Shop (OSS) Werte erfolgt auf Basis der in der [ELSTE
 
 ![OSS MwSt.-Abrechnung](/assets/images/365-business-eric/cacd50a60a6113e35c9371fb5e86bdc83d421bc2f9fd4e8329bc7810d526da60.png)
 
-> **Gut zu wissen:**<br>Es ist empfehlenswert für jedes EU-Mitgliedsland eine entsprechende MwSt.-Geschäftsbuchungsgruppe (z.B. `B2C-AT` für Privatverkäufe nach Österreich) anzulegen und entsprechende Sachkonten für die Verbuchung zu verwenden.
+> **Gut zu wissen**<br>Es ist empfehlenswert für jedes EU-Mitgliedsland eine entsprechende MwSt.-Geschäftsbuchungsgruppe (z.B. `B2C-AT` für Privatverkäufe nach Österreich) anzulegen und entsprechende Sachkonten für die Verbuchung zu verwenden.
 
 Für die Berechnung werden alle MwSt.-Abrechnungszeilen mit der Art **MwSt.-Posten-Summe**, unabhängig von Ihrer Rubrikennr. analysiert. Die zu Grunde liegenden MwSt.-Posten werden anschließend, abhängig von Ihrem Steuersatz, der USt. ID-Nr. und dem Länder ISO-Code, gruppiert und als ELSTER Steuerdatenzeile berechnet.
 
@@ -42,16 +42,16 @@ One-Stop-Shop (OSS) sieht vier sogenannte Satzarten vor, die die unterschiedlich
 
 | Satzart | Beschreibung | 
 | --- | --- | 
-| Warenlieferungen an Endkunden aus Deutschland | In dieser Satzart werden grenzüberschreitende B2C-Verkäufe, die aus Deutschland ausgeführt wurden, gemeldet. Es handelt sich hierbei ausschließlich um die Lieferung von Waren. | 
+| Umsätze für vom Inland aus durchgeführte Warenlieferungen | In dieser Satzart werden grenzüberschreitende B2C-Verkäufe, die aus Deutschland ausgeführt wurden, gemeldet. Es handelt sich hierbei ausschließlich um die Lieferung von Waren. | 
 | Dienstleistungen | In dieser Satzart werden grenzüberschreitende B2C-Verkäufe von **Dienstleistungen**, die aus Deutschland heraus erbracht wurden, gemeldet. | 
-| Lieferungen von Waren an Endkunden aus anderen Mitgliedstaaten | In dieser Satzart werden grenzüberschreitende B2C-Verkäufe, die bspw. aus Lagern im EU-Ausland bedient wurden, gemeldet.<br><br>_**Hinweis:** Diese Satzart wird aktuell nicht unterstützt._ |
-| Dienstleistungen einer ausländischen Betriebsstätte in der EU | In dieser Satzart werden Dienstleistungen gemeldet, die von einer festen Niederlassung im EU-Ausland erbracht wurde.<br><br>_**Hinweis:** Diese Satzart wird aktuell nicht unterstützt._ |
-
-> **Hinweis:** In der aktuellen Version von 365 business ERiC werden nur die Satzarten "Warenlieferungen an Endkunden aus Deutschland" und "Dienstleistungen" unterstützt.<br><br>Wir arbeiten an der Implementierung der weiteren Satzarten.
+| Umsätze für aus anderen Mitgliedstaaten durchgeführte Warenlieferungen | In dieser Satzart werden grenzüberschreitende B2C-Verkäufe, die bspw. aus Lagern im EU-Ausland bedient wurden, gemeldet. |
+| Umsätze einer festen Niederlassung - Dienstleistungen | In dieser Satzart werden Dienstleistungen gemeldet, die von einer festen Niederlassung im EU-Ausland erbracht wurde. |
 
 #### Wie ermittelt 365 business ERiC die OSS-Satzart?
 
-Grundsätzlich werden an Hand der eingerichteten MwSt.-Abrechnung die MwSt.-Posten ermittelt, die für die Berechnung herangezogen werden. Über das Kennzeichen **EU Service** wird in der Folge nach der Satzart "Warenlieferungen an Endkunden aus Deutschland" oder "Dienstleistungen" differenziert.
+Grundsätzlich werden an Hand der eingerichteten MwSt.-Abrechnung die MwSt.-Posten ermittelt, die für die Berechnung herangezogen werden. Über das Kennzeichen **EU Service** wird in der Folge nach der Satzart "Umsätze für vom Inland aus durchgeführte Warenlieferungen" oder "Dienstleistungen" differenziert.
+
+Darüber hinaus wird über den Lagerort in der Verk.-Rechnung oder Verk.-Gutschrift ermittelt, ob es sich um eine inländische Niederlassung oder eine Niederlassung in einem anderen EU-Mitgliedsland handelt.
 
 #### So erstellen Sie eine One-Stop-Shop (OSS) CSV-Datei
 
