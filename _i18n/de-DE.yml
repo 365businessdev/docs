@@ -76,6 +76,7 @@ titles:
   print-agent-service-installation: Print Agent Dienst auf Windows installieren
   print-agent-whatis: Was ist Print Agent?
   print-agent-client-whatis: Was ist der Print Agent Dienst?
+  printer-access-permission: Drucker-Zugriffsberechtigungen
 langs:
   german: Deutsch
   english: English

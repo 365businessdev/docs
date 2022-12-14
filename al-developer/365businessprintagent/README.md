@@ -25,10 +25,12 @@ The `bdev.Print Agent` codeunit object is providing the following public methods
 
 | Method | Description |
 | --- | --- |
-| `PrintPdf(Text, Codeunit, Record)` | Print PDF file, stored in `Temp Blob` codeunit, at specified `bdev.Printer Configuration`. |
-| `PrintPdf(Codeunit, Record)` | Print PDF file, stored in `Temp Blob` codeunit, at specified `bdev.Printer Configuration`. |
-| `PrintPdf(Text, InStream, Record)` | Print PDF file stream at specified `bdev.Printer Configuration`. |
-| `PrintPdf(InStream, Record)` | Print PDF file stream at specified `bdev.Printer Configuration`. |
+| [`PrintPdf(Text, Codeunit, Record)`](#printpdftext-codeunit-record) | Print PDF file, stored in `Temp Blob` codeunit, at specified `bdev.Printer Configuration`. |
+| [`PrintPdf(Codeunit, Record)`](#printpdftext-record) | Print PDF file, stored in `Temp Blob` codeunit, at specified `bdev.Printer Configuration`. |
+| [`PrintPdf(Text, InStream, Record)`](#printpdftext-instream-record) | Print PDF file stream at specified `bdev.Printer Configuration`. |
+| [`PrintPdf(InStream, Record)`](#printpdfinstream-record) | Print PDF file stream at specified `bdev.Printer Configuration`. |
+| [`PrintZPL(Text, Text, Record)`](#printzpltext-text-record) | Send Zebra Programming Language (ZPL) commands to specified Printer Configuration. |
+| [`PrintZPL(Text, Record)`](#printzpltext-record) | Send Zebra Programming Language (ZPL) commands to specified Printer Configuration. | 
 
 #### `PrintPdf(Text, Codeunit, Record)`
 
@@ -80,7 +82,55 @@ If the `documentName` parameter is omitted, _External PDF Document_ will be used
 printAgent.PrintPdf(streamIn, printerConfiguration);
 ```
 
+#### `PrintZPL(Text, Text, Record)`
+
+Send ZPL commands to specified `bdev.Printer Configuration`.
+
+> **Important**<br>Sending ZPL commands is only supported for Zebra printers. Sending ZPL commands to other printers may cause unforeseen errors to occur.
+
+##### Remarks
+
+The `documentName` parameter is used only for the history view in the 365 business Print Agent application.
+
+##### Additional Resources
+
+Zebra Programming Language (ZPL) is the command language used by all ZPL compatible printers. It is a command based language used by the printers as instructions to create the images printed on the labels.
+You find ZPL Command Information and Details at the following link:
+
+- https://supportcommunity.zebra.com/s/article/ZPL-Command-Information-and-DetailsV2
+
+##### Example
+
+```al
+printAgent.PrintZPL(documentName, zplCommands, printerConfiguration);
+```
+
+#### `PrintZPL(Text, Record)`
+
+Send ZPL commands to specified `bdev.Printer Configuration`.
+
+> **Important**<br>Sending ZPL commands is only supported for Zebra printers. Sending ZPL commands to other printers may cause unforeseen errors to occur.
+
+##### Remarks
+
+If the `documentName` parameter is omitted, _ZPL commands_ will be used as the document name. The name of the document is displayed in the history view of the 365 business Print Agent application.
+
+##### Additional Resources
+
+Zebra Programming Language (ZPL) is the command language used by all ZPL compatible printers. It is a command based language used by the printers as instructions to create the images printed on the labels.
+You find ZPL Command Information and Details at the following link:
+
+- https://supportcommunity.zebra.com/s/article/ZPL-Command-Information-and-DetailsV2
+
+##### Example
+
+```al
+printAgent.PrintZPL(zplCommands, printerConfiguration);
+```
+
 ### Example
+
+#### Print external PDF documents from Record Link
 
 ```al
 procedure PrintRecordLink(recordLink: Record "Record Link")

@@ -22,6 +22,7 @@ Printer Configuration can be created manually through the **Printer Configuratio
     ![Assisted Printer Configuration - General](/assets/images/365-business-print-agent/1a276d89ea83cdf50266c0cf659f387072d70168d92310a935b122fe2009b856.png)
  6. Select **Next**.
  7. Select **Paper Kind** (e.g. A4 paper (210 mm by 297 mm).)
+    1. When specified **Custom** Paper Kind you have to specify Paper Size height and width. _(Optional)_
  8. Specify whether to enable color printing or not.<br>_(only applicable if printer supports color printing)_
  8. Specify whether to use simplex printing or duplex printing.<br>_(only applicable if printer supports duplex-mode)_
  9. Specify whether to use multiple paper trays or not.
