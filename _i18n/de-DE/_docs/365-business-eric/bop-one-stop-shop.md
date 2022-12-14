@@ -53,7 +53,7 @@ Darüber hinaus wird über den Lagerort in der Verk.-Rechnung oder Verk.-Gutschr
 
 #### So erstellen Sie eine One-Stop-Shop (OSS) CSV-Datei
 
-![One-Stop-Shop (OSS) in der ELSTER Steuerdaten Karte](/assets/images/365-business-eric/873e116f44dfd2428f2452de4fb82662d3d168beaa3b3a7cfef23f3debeddf5c.png)  
+![One-Stop-Shop (OSS) in der ELSTER Steuerdaten Karte](/assets/images/365-business-eric/e50b77efbd5c68e9cc9a6509adb5d4118f4ec9337b4cf769988c6860b2ee15fb.png)
 
 1. Wählen Sie **ELSTER Steuerdaten** in der Suche von Business Central.
 2. Klicken Sie auf **Neu**.
