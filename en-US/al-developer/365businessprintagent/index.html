@@ -275,6 +275,9 @@
 									<li class="nav-item "><a href="/en-US/365-business-print-agent/printer-configuration/">Printer Configuration</a></li>
 								
 									
+									<li class="nav-item "><a href="/en-US/365-business-print-agent/printer-access-permission/">Printer Access Permission</a></li>
+								
+									
 									<li class="nav-item "><a href="/en-US/365-business-print-agent/print-agent-client-whatis/">What is the Print Agent Service?</a></li>
 								
 									
@@ -354,20 +357,28 @@
   </thead>
   <tbody>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">PrintPdf(Text, Codeunit, Record)</code></td>
+      <td><a href="#printpdftext-codeunit-record"><code class="language-plaintext highlighter-rouge">PrintPdf(Text, Codeunit, Record)</code></a></td>
       <td>Print PDF file, stored in <code class="language-plaintext highlighter-rouge">Temp Blob</code> codeunit, at specified <code class="language-plaintext highlighter-rouge">bdev.Printer Configuration</code>.</td>
     </tr>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">PrintPdf(Codeunit, Record)</code></td>
+      <td><a href="#printpdftext-record"><code class="language-plaintext highlighter-rouge">PrintPdf(Codeunit, Record)</code></a></td>
       <td>Print PDF file, stored in <code class="language-plaintext highlighter-rouge">Temp Blob</code> codeunit, at specified <code class="language-plaintext highlighter-rouge">bdev.Printer Configuration</code>.</td>
     </tr>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">PrintPdf(Text, InStream, Record)</code></td>
+      <td><a href="#printpdftext-instream-record"><code class="language-plaintext highlighter-rouge">PrintPdf(Text, InStream, Record)</code></a></td>
       <td>Print PDF file stream at specified <code class="language-plaintext highlighter-rouge">bdev.Printer Configuration</code>.</td>
     </tr>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">PrintPdf(InStream, Record)</code></td>
+      <td><a href="#printpdfinstream-record"><code class="language-plaintext highlighter-rouge">PrintPdf(InStream, Record)</code></a></td>
       <td>Print PDF file stream at specified <code class="language-plaintext highlighter-rouge">bdev.Printer Configuration</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="#printzpltext-text-record"><code class="language-plaintext highlighter-rouge">PrintZPL(Text, Text, Record)</code></a></td>
+      <td>Send Zebra Programming Language (ZPL) commands to specified Printer Configuration.</td>
+    </tr>
+    <tr>
+      <td><a href="#printzpltext-record"><code class="language-plaintext highlighter-rouge">PrintZPL(Text, Record)</code></a></td>
+      <td>Send Zebra Programming Language (ZPL) commands to specified Printer Configuration.</td>
     </tr>
   </tbody>
 </table>
@@ -419,7 +430,61 @@
 <pre><code class="language-al">printAgent.PrintPdf(streamIn, printerConfiguration);
 </code></pre>
 
-<h3 id="example-3">Example</h3>
+<h4 id="printzpltext-text-record"><code class="language-plaintext highlighter-rouge">PrintZPL(Text, Text, Record)</code></h4>
+
+<p>Send ZPL commands to specified <code class="language-plaintext highlighter-rouge">bdev.Printer Configuration</code>.</p>
+
+<blockquote>
+  <p><strong>Important</strong><br />Sending ZPL commands is only supported for Zebra printers. Sending ZPL commands to other printers may cause unforeseen errors to occur.</p>
+</blockquote>
+
+<h5 id="remarks-4">Remarks</h5>
+
+<p>The <code class="language-plaintext highlighter-rouge">documentName</code> parameter is used only for the history view in the 365 business Print Agent application.</p>
+
+<h5 id="additional-resources">Additional Resources</h5>
+
+<p>Zebra Programming Language (ZPL) is the command language used by all ZPL compatible printers. It is a command based language used by the printers as instructions to create the images printed on the labels.
+You find ZPL Command Information and Details at the following link:</p>
+
+<ul>
+  <li>https://supportcommunity.zebra.com/s/article/ZPL-Command-Information-and-DetailsV2</li>
+</ul>
+
+<h5 id="example-3">Example</h5>
+
+<pre><code class="language-al">printAgent.PrintZPL(documentName, zplCommands, printerConfiguration);
+</code></pre>
+
+<h4 id="printzpltext-record"><code class="language-plaintext highlighter-rouge">PrintZPL(Text, Record)</code></h4>
+
+<p>Send ZPL commands to specified <code class="language-plaintext highlighter-rouge">bdev.Printer Configuration</code>.</p>
+
+<blockquote>
+  <p><strong>Important</strong><br />Sending ZPL commands is only supported for Zebra printers. Sending ZPL commands to other printers may cause unforeseen errors to occur.</p>
+</blockquote>
+
+<h5 id="remarks-5">Remarks</h5>
+
+<p>If the <code class="language-plaintext highlighter-rouge">documentName</code> parameter is omitted, <em>ZPL commands</em> will be used as the document name. The name of the document is displayed in the history view of the 365 business Print Agent application.</p>
+
+<h5 id="additional-resources-1">Additional Resources</h5>
+
+<p>Zebra Programming Language (ZPL) is the command language used by all ZPL compatible printers. It is a command based language used by the printers as instructions to create the images printed on the labels.
+You find ZPL Command Information and Details at the following link:</p>
+
+<ul>
+  <li>https://supportcommunity.zebra.com/s/article/ZPL-Command-Information-and-DetailsV2</li>
+</ul>
+
+<h5 id="example-4">Example</h5>
+
+<pre><code class="language-al">printAgent.PrintZPL(zplCommands, printerConfiguration);
+</code></pre>
+
+<h3 id="example-5">Example</h3>
+
+<h4 id="print-external-pdf-documents-from-record-link">Print external PDF documents from Record Link</h4>
 
 <pre><code class="language-al">procedure PrintRecordLink(recordLink: Record "Record Link")
 var
