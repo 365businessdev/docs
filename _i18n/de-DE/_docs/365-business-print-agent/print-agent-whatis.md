@@ -1,70 +1,68 @@
-> This page is currently not available in the selected language. The page is available in **English**. Please select other language to display.
-
-365 business Print Agent is a modern print solutions designed for Microsoft Dynamics 365 Business Central to introduce seamless printing experience in Microsoft Dynamics 365 Business Central. 365 business Print Agent allows you to access your printer infrastructure in Microsoft Dynamics 365 Business Central and specify [Printer Configurations](../printer-configuration/) for each printer which can be assigned or used within Microsoft Dynamics 365 Business Central.
+365 business Print Agent ist eine moderne Drucklösung, die für Microsoft Dynamics 365 Business Central entwickelt wurde, um eine nahtlose Druckumgebung in Microsoft Dynamics 365 Business Central zu schaffen. Mit dem 365 Business Print Agent können Sie auf Ihre Druckerinfrastruktur in Microsoft Dynamics 365 Business Central zugreifen und [Druckerkonfigurationen](../printer-configuration/) für jeden Drucker innerhalb von von Microsoft Dynamics 365 Business Central anlegen.
 
 ![365 business Print Agent](/assets/images/365-business-print-agent/print-agent-logo.png)  
 
-Print Agent is supporting both SaaS environments and On-Premise environments of Microsoft Dynamics 365 Business Central to access your printer infrastructure.
+Print Agent unterstützt sowohl SaaS- als auch On-Premise-Umgebungen von Microsoft Dynamics 365 Business Central für den Zugriff auf Ihre Druckerinfrastruktur.
 
-Print Agent is basically consists of at least two components, the Microsoft Dynamics 365 Business Central app, available through Microsoft AppSource, and the [Print Agent Service](../print-agent-client-whatis/) (connector). Print Agent is supporting every printer with Microsoft Windows compatible drivers or printer software.
+Print Agent besteht im Wesentlichen aus mindestens zwei Komponenten, der Microsoft Dynamics 365 Business Central App, die über Microsoft AppSource erhältlich ist, und des [Print Agent Service](../print-agent-client-whatis/) (connector). Print Agent unterstützt jeden Drucker mit Microsoft Windows-kompatiblen Treibern oder Druckersoftware.
 
-## Architecture
+## Architektur
 
-365 business Print Agent can operate in two separate so-called Service Modes, the 365 business Print Agent Cloud and the Direct Connection mode.
+365 business Print Agent kann in zwei verschiedenen so genannten Service-Modi betrieben werden, der 365 business Print Agent Cloud und dem Direct Connection Modus.
 
-> **Good to know!**<br>365 business Print Agent service and the 365 business Print Agent app support both service modes and the modes can be switched everytime, after initial set up.<br>Please keep in mind, that existing configurations will be removed prior changing the service mode in Microsoft Dynamics 365 Business Central.
+> **Hinweis!**<br>Der 365 Business Print Agent Service und die 365 Business Print Agent App unterstützen beide Servicemodi und die Modi können nach der Ersteinrichtung jederzeit gewechselt werden.<br>Bitte beachten Sie, dass bestehende Konfigurationen vor der Änderung des Dienstmodus in Microsoft Dynamics 365 Business Central entfernt werden.
 
-#### Print Agent Cloud _(recommended)_
+#### Print Agent Cloud _(empfohlen)_
 
-Using the 365 business Print Agent Cloud is the most _recommended_ way to operate Print Agent, because the necessary setup is reduced to a minimum and usually no complex adjustments to firewalls or network routes are necessary. Basically the 365 business Print Agent Cloud is usually up-and-running out-of-the-box after installation and basic set up.
+Die Verwendung von 365 business Print Agent Cloud ist die _empfohlene_ Art, Print Agent zu betreiben, da die notwendige Einrichtung auf ein Minimum reduziert ist und in der Regel keine komplexen Anpassungen an Firewalls oder Netzwerkrouten notwendig sind. Grundsätzlich ist der 365 business Print Agent Cloud nach der Installation und Grundeinrichtung in der Regel sofort einsatzbereit.
 
-Communication between the Print Agent Service and the Cloud is implemented via state-of-the-art technologies, such as SignalR, and all data is transmitted in transport encrypted form.
+Die Kommunikation zwischen dem Print Agent Service und der Cloud wird über modernste Technologien wie SignalR realisiert und alle Daten werden transportverschlüsselt übertragen.
 
-![365 business Print Agent - Cloud Architecture](/assets/images/365-business-print-agent/dac49de2188026388c10da8f28100d6b562b6bed375acee85c8a0f64d53142bc.png)  
+![365 business Print Agent - Cloud Architektur](/assets/images/365-business-print-agent/dac49de2188026388c10da8f28100d6b562b6bed375acee85c8a0f64d53142bc.png)  
 
-> **Good to know!**<br>The 365 business Print Agent Cloud service is hosted in Germany and does not store any print job or printer data. The service acts like a relay and creates a real-time connection to the Print Agent Service (connector).<br>Your data is absolutely safe and will never be stored or analyzed for any reason.
+> **Hinweis!**<br>Der 365 b,usiness Print Agent Cloud Service wird in Deutschland gehostet und speichert keine Druckaufträge oder Druckerdaten. Der Dienst fungiert wie ein Vermittler und stellt eine Echtzeit-Verbindung zum Print Agent Service (Connector) her.<br>Ihre Daten sind absolut sicher und werden niemals gespeichert oder aus irgendeinem Grund analysiert.
 
-| Component | Description |
+| Komponente | Beschreibung |
 | --- | --- |
-| Microsoft Dynamics 365 Business Central | Microsoft Dynamics 365 Business Central with the 365 business Print Agent app installed. |
-| Print Agent Cloud | Cloud print service that handles the communication between the 365 business Print Agent app and one or more Print Agent Service to process print jobs. | 
-| Print Agent Service | A service that handles communication between printers and the Print Agent Cloud. |
-| Printer | A printer that needs to be shared using the 365 business Print Agent service (connector). |
+| Microsoft Dynamics 365 Business Central | Microsoft Dynamics 365 Business Central mit installierter 365 business Print Agent App. |
+| Print Agent Cloud | Cloud-Druckdienst, der die Kommunikation zwischen der 365 business Print Agent App und einem oder mehreren Print Agent Services zur Verarbeitung von Druckaufträgen übernimmt. | 
+| Print Agent Service | Ein Dienst, der die Kommunikation zwischen Druckern und der Print Agent Cloud übernimmt. |
+| Drucker | Ein Drucker, der über den 365 business Print Agent Service (Connector) freigegeben werden muss. |
 
-#### Direct Connection
+#### Dirkete Kommunikation
 
-The direct connection mode of 365 business Print Agent is only recommended for on-premises environments of Microsoft Dynamics 365 Business Central, due to the much higher effort to configure firewalls, network routes and many more, to allow a secure and reliable access from Microsoft Dynamics 365 Business Central SaaS environments.
+Der direkte Verbindungsmodus des 365 business Print Agent wird nur für On-Premises-Umgebungen von Microsoft Dynamics 365 Business Central empfohlen, da der Aufwand für die Konfiguration von Firewalls, Netzwerkrouten und vielem mehr wesentlich höher ist, um einen sicheren und zuverlässigen Zugriff aus Microsoft Dynamics 365 Business Central SaaS-Umgebungen zu ermöglichen.
 
-![365 business Print Agent - Direct Connection Architecture](/assets/images/365-business-print-agent/76cc532b71007675a8cfd27fc522b1175b08a9ea4f5d7543bf1eae6fe4b401db.png)  
+![365 business Print Agent - Direct Connection Architektur](/assets/images/365-business-print-agent/76cc532b71007675a8cfd27fc522b1175b08a9ea4f5d7543bf1eae6fe4b401db.png)  
 
-| Component | Description |
+| Komponente | Beschreibung |
 | --- | --- |
-| Microsoft Dynamics 365 Business Central | Microsoft Dynamics 365 Business Central with the 365 business Print Agent app installed. |
-| Print Agent Service | A service that handles communication between printers and the 365 business Print Agent app. |
-| Printer | A printer that needs to be shared using the 365 business Print Agent service (connector). |
+| Microsoft Dynamics 365 Business Central | Microsoft Dynamics 365 Business Central mit installierter 365 business Print Agent App. |
+| Print Agent Service | Ein Dienst, der die Kommunikation zwischen Druckern und der 365 business Print Agent App abwickelt. |
+| Drucker | Ein Drucker, der über den 365 business Print Agent Service (Connector) freigegeben werden muss. |
 
-#### How to decide Service Mode?
+#### Wie wählt man die Verbindungsart?
 
-Using the 365 Business Print Agent Cloud is the most _recommended_ way to run Print Agent, as the necessary setup is kept to a minimum and typically does not require complex adjustments to firewalls or network routes.
-Nevertheless, we would like to show you a few advantages and disadvantages of the respective service modes here to help you decide.
+Die Verwendung der 365 Business Print Agent Cloud ist die _empfohlene_ Art, den Print Agent zu betreiben, da die notwendige Einrichtung auf ein Minimum beschränkt ist und in der Regel keine komplexen Anpassungen an Firewalls oder Netzwerkrouten erforderlich sind.
+Dennoch möchten wir Ihnen hier ein paar Vor- und Nachteile der jeweiligen Service-Modi aufzeigen, um Ihnen die Entscheidung zu erleichtern.
 
-| | Print Agent Cloud | Direct Connection |
+| | Print Agent Cloud | Direktverbindung |
 | --- | :---: | :---: |
-| Support for Business Central Online (SaaS) | <img src="/assets/fontawesome/circle-full.svg" class="fa-icon"> | <img src="/assets/fontawesome/circle-half.svg" class="fa-icon">* |
-| Support for Business Central On-Premises | <img src="/assets/fontawesome/circle-full.svg" class="fa-icon"> | <img src="/assets/fontawesome/circle-full.svg" class="fa-icon"> |
-| Running multiple Print Agent services | <img src="/assets/fontawesome/circle-full.svg" class="fa-icon"> | <img src="/assets/fontawesome/circle-empty.svg" class="fa-icon"> |
+| Unterstützung für Business Central Online (SaaS)| <img src="/assets/fontawesome/circle-full.svg" class="fa-icon"> | <img src="/assets/fontawesome/circle-half.svg" class="fa-icon">* |
+| Support für Business Central On-Premises | <img src="/assets/fontawesome/circle-full.svg" class="fa-icon"> | <img src="/assets/fontawesome/circle-full.svg" class="fa-icon"> |
+| Ausführen mehrerer Print Agent-Dienste | <img src="/assets/fontawesome/circle-full.svg" class="fa-icon"> | <img src="/assets/fontawesome/circle-empty.svg" class="fa-icon"> |
 
 
-Note * - Additionall configuration is necessary to secure connection from Business Central Online (SaaS) to locally installed Print Agent service.
+Hinweis * - Es ist eine zusätzliche Konfiguration erforderlich, um die Verbindung von Business Central Online (SaaS) zum lokal installierten Print Agent-Dienst zu sichern.
 
 
-## Prerequisite
+## Voraussetzung
 
- - Operating System
-   - Windows 10 or later (64-bit)
-   - Windows Server 2016 or later (64-bit)
+ - Betriebssystem
+   - Windows 10 oder höher (64-Bit)
+   - Windows Server 2016 oder höher (64-Bit)
  - .NET 6.0
 
-### See also
+### Siehe auch
 
- - [What is the Print Agent Service?](../print-agent-client-whatis/)
+ - [Was ist der Print Agent Service?](../print-agent-client-whatis/)
