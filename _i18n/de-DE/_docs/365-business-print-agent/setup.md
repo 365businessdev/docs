@@ -1,33 +1,31 @@
-> This page is currently not available in the selected language. The page is available in **English**. Please select other language to display.
+Die Print Agent Einrichtung enthält die Konfiguration für die Kommunikation zwischen Microsoft Dynamics 365 Business Central und dem 365 business Print Agent Service oder der Cloud, je nach gewähltem Service Mode.
 
-The Print Agent Setup contains the configuration for the communication between Microsoft Dynamics 365 Business Central and 365 business Print Agent Service or Cloud, depending on the selected Service Mode.
+![Print Agent Einrichtung](/assets/images/365-business-print-agent/e8147ed3f3a4ba5810c3843510ab68734ce904d7857a0f0b3c60b90851aeae41.png)
 
-![Print Agent Setup](/assets/images/365-business-print-agent/e8147ed3f3a4ba5810c3843510ab68734ce904d7857a0f0b3c60b90851aeae41.png)
+## Einrichtungsparameter
 
-## Setup parameters
-
-| Field Name | Group | Description |
+| Feldname | Gruppe | Beschreibung |
 | --- | --- | --- |
-| Service Mode | Print Agent Service Connection | Specifies the operation mode for 365 business Print Agent communication. You can select between direct connection, using the 365 business Print Agent service or 365 business Print Agent Cloud service to connect to one or multiple 365 business Print Agent services with lower maintenance and without necessary network configurations.<br>We recommend to use 365 business Print Agent Cloud service for SaaS environments of Microsoft Dynamics 365 Business Central. |
-| Service URL | Print Agent Service Connection | Specifies the Service URL to communicate with the Print Agent Service or to communicate with the Print Agent Cloud Service. In general you do not need to change this address from it's default address. |
-| Service Port | Print Agent Service Connection | Specifies the TCP Port used to communicate with the Print Agent Service.<br>_(only applicable in Direct Connection service mode)_ |
-| Connection Status | Status | Shows the connection status of Print Agent Service. |
-| Tenant ID | Status | Specifies the Tenant ID used to secure communications between Print Agent and Microsoft Dynamics 365 Business Central. |
+| Dienstmodus | Print Agent Dienstverbindung | Legt den Dienstmodus für die 365 business Print Agent-Kommunikation fest. Sie können zwischen der direkten Verbindung über den 365 business Print Agent und dem 365 business Print Agent Cloud-Dienst wählen, um eine Verbindung zu einem oder mehreren 365 business Print Agents mit geringerem Wartungsaufwand und ohne notwendige Firewallkonfigurationen herzustellen.<br>Wir empfehlen die Verwendung des 365 business Print Agent Cloud-Dienst für SaaS-Umgebungen von Microsoft Dynamics 365 Business Central. |
+| Dienst-Adresse | Print Agent Dienstverbindung | Gibt die Service-URL für die Kommunikation mit dem Print Agent Cloud Service an. In der Regel brauchen Sie diese Adresse nicht zu ändern, da es sich um die Standardadresse handelt. |
+| Dienst-Port | Print Agent Dienstverbindung | Dient zur Angabe des TCP-Port, der für die Kommunikation mit dem Print Agent-Dienst verwendet wird.<br>_(nur anwendbar bei Verwendung des Dienstmodus Direktverbindung)_ |
+| Verbindungsstatus | Status | Zeigt den Verbindungsstatus zwischen Print Agent und Microsoft Dynamics 365 Business Central an. |
+| Tenant ID | Status | Gibt die Tenant-ID an, die zur Sicherung der Kommunikation zwischen Print Agent und Microsoft Dynamics 365 Business Central verwendet wird. |
 
-## How to set up Print Agent for Cloud Service Mode?
+## Wie wird der Print Agent Cloud-Dienstmodus eingerichtet?
 
- 1. Select **Print Agent Cloud** as **Service Mode**.<br>[Learn more](../print-agent-whatis/#architecture)
- 2. Select **Authenticate with Print Agent Service**.
+ 1. Wählen Sie **Print Agent Cloud** als **Dienstmodus**.<br>[Mehr erfahren](../print-agent-whatis/#architecture)
+ 2. Klicken Sie **Print Agent authentifizieren**.
 
-## How to set up Print Agent for Direct Connection Service Mode?
+## Wie wird Direktverbindung als Dienstmodus eingerichtet?
 
- 1. Select **Direct Connection** as **Service Mode**.<br>[Learn more](../print-agent-whatis/#architecture)
- 2. Specify **Service URL** (e.g. IP-Address of the hosting Print Agent Service computer).
- 3. Specify **Service Port** (default port `60000`).
- 4. Select **Authenticate with Print Agent Service**.
+ 1. Wählen Sie **Direktverbindung** als **Dienstmodus**.<br>[Mehr erfahren](../print-agent-whatis/#architecture)
+ 2. Geben Sie die **Dienst-Adresse** (z.B. IP-Adresse des Server, auf dem der Print Agent-Dienst installiert ist) an.
+ 3. Geben Sie den **Dienst-Port** (Standard TCP-Port `60000`) an.
+ 4. Klicken Sie **Print Agent authentifizieren**.
 
-### See also
+### Siehe auch
 
- - [Print Agent Architecture](../print-agent-whatis/#architecture)
- - [What is Print Agent?](../print-agent-whatis/)
- - [What is the Print Agent Service?](../print-agent-client-whatis/)
+ - [Print Agent Architektur](../print-agent-whatis/#architecture)
+ - [Was ist Print Agent?](../print-agent-whatis/)
+ - [Was ist der Print Agent Dienst?](../print-agent-client-whatis/)
