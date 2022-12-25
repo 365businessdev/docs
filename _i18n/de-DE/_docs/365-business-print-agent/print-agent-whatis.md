@@ -1,4 +1,4 @@
-365 business Print Agent ist eine moderne Drucklösung, die für Microsoft Dynamics 365 Business Central entwickelt wurde, um eine nahtlose Druckumgebung in Microsoft Dynamics 365 Business Central zu schaffen. Mit dem 365 Business Print Agent können Sie auf Ihre Druckerinfrastruktur in Microsoft Dynamics 365 Business Central zugreifen und [Druckereinstellungen](../printer-configuration/) für jeden Drucker innerhalb von von Microsoft Dynamics 365 Business Central anlegen.
+365 business Print Agent ist eine moderne Drucklösung, die für Microsoft Dynamics 365 Business Central entwickelt wurde, um eine nahtlose Druckumgebung in Microsoft Dynamics 365 Business Central zu schaffen. Mit dem 365 business Print Agent können Sie auf Ihre Druckerinfrastruktur in Microsoft Dynamics 365 Business Central zugreifen und [Druckereinstellungen](../printer-configuration/) für jeden Drucker innerhalb von von Microsoft Dynamics 365 Business Central anlegen.
 
 ![365 business Print Agent](/assets/images/365-business-print-agent/print-agent-logo.png)  
 
@@ -10,7 +10,7 @@ Print Agent besteht im Wesentlichen aus mindestens zwei Komponenten, der Microso
 
 365 business Print Agent kann in zwei verschiedenen so genannten Service-Modi betrieben werden, der 365 business Print Agent Cloud und dem Direct Connection Modus.
 
-> **Hinweis!**<br>Der 365 Business Print Agent Service und die 365 Business Print Agent App unterstützen beide Servicemodi und die Modi können nach der Ersteinrichtung jederzeit gewechselt werden.<br>Bitte beachten Sie, dass bestehende Konfigurationen vor der Änderung des Dienstmodus in Microsoft Dynamics 365 Business Central entfernt werden.
+> **Hinweis!**<br>Der 365 business Print Agent Service und die 365 business Print Agent App unterstützen beide Servicemodi und die Modi können nach der Ersteinrichtung jederzeit gewechselt werden.<br>Bitte beachten Sie, dass bestehende Konfigurationen vor der Änderung des Dienstmodus in Microsoft Dynamics 365 Business Central entfernt werden.
 
 #### Print Agent Cloud _(empfohlen)_
 
@@ -43,7 +43,7 @@ Der direkte Verbindungsmodus des 365 business Print Agent wird nur für On-Premi
 
 #### Wie wählt man die Verbindungsart?
 
-Die Verwendung der 365 Business Print Agent Cloud ist die _empfohlene_ Art, den Print Agent zu betreiben, da die notwendige Einrichtung auf ein Minimum beschränkt ist und in der Regel keine komplexen Anpassungen an Firewalls oder Netzwerkrouten erforderlich sind.
+Die Verwendung der 365 business Print Agent Cloud ist die _empfohlene_ Art, den Print Agent zu betreiben, da die notwendige Einrichtung auf ein Minimum beschränkt ist und in der Regel keine komplexen Anpassungen an Firewalls oder Netzwerkrouten erforderlich sind.
 Dennoch möchten wir Ihnen hier ein paar Vor- und Nachteile der jeweiligen Service-Modi aufzeigen, um Ihnen die Entscheidung zu erleichtern.
 
 | | Print Agent Cloud | Direktverbindung |

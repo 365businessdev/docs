@@ -1,4 +1,4 @@
-Auf der Seite **Drucker** in Microsoft Dynamics 365 Business Central finden Sie alle freigegebenen Drucker der 365 Business Print Agent Dienste. 
+Auf der Seite **Drucker** in Microsoft Dynamics 365 Business Central finden Sie alle freigegebenen Drucker der 365 business Print Agent Dienste. 
 
 ![Drucker](/assets/images/365-business-print-agent/87afe451377b606dffb0d548cac691fcc4c6bdbf02744a21204a1ee825389a30.png)  
 
