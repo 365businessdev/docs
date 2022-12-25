@@ -69,7 +69,7 @@ titles:
   document-attachments: Beleganhänge
   bulk-print-restriction: Einschränkung beim Sammeldruck
   printer: Drucker
-  printer-configuration: Druckerkonfiguration
+  printer-configuration: Druckereinstellung
   print-agent-clients: Print Agent Dienst
   paper-kind: Papierart
   paper-source-kind: Papierfach

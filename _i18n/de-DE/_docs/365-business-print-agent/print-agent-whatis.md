@@ -1,4 +1,4 @@
-365 business Print Agent ist eine moderne Drucklösung, die für Microsoft Dynamics 365 Business Central entwickelt wurde, um eine nahtlose Druckumgebung in Microsoft Dynamics 365 Business Central zu schaffen. Mit dem 365 Business Print Agent können Sie auf Ihre Druckerinfrastruktur in Microsoft Dynamics 365 Business Central zugreifen und [Druckerkonfigurationen](../printer-configuration/) für jeden Drucker innerhalb von von Microsoft Dynamics 365 Business Central anlegen.
+365 business Print Agent ist eine moderne Drucklösung, die für Microsoft Dynamics 365 Business Central entwickelt wurde, um eine nahtlose Druckumgebung in Microsoft Dynamics 365 Business Central zu schaffen. Mit dem 365 Business Print Agent können Sie auf Ihre Druckerinfrastruktur in Microsoft Dynamics 365 Business Central zugreifen und [Druckereinstellungen](../printer-configuration/) für jeden Drucker innerhalb von von Microsoft Dynamics 365 Business Central anlegen.
 
 ![365 business Print Agent](/assets/images/365-business-print-agent/print-agent-logo.png)  
 
