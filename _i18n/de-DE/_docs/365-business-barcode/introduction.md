@@ -4,7 +4,7 @@
 
 365 business Barcode verwendet den Barcode Dienst der [365 business API](../365-business-api/) und setzt, nach Ablauf der kostenlosen und unverbindlichen Testphase, eine aktive Subscription voraus. Die 365 business API ist mit Microsoft Dynamics 365 Business Central über die 365 business API-App verbunden.
 
-> **Gut zu wissen**<br>365 business Barcode kann kostenlos und unverbindlich für 30 Tage getestet werden.<br>Sie brauche mehr Zeit? Kein Problem, sprechen Sie uns einfach an!
+> **Gut zu wissen**<br>365 business Barcode kann kostenlos und unverbindlich für 30 Tage getestet werden.<br>Sie brauchen mehr Zeit? Kein Problem, sprechen Sie uns einfach an!
 
 #### Funktionen im Überblick
 
