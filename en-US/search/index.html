@@ -143,10 +143,19 @@
 								
 									 
 									
-									<li class="nav-item "><a href="/en-US/365-business-barcode/supported-barcodes/">Barcodes</a></li>
+									<li class="nav-item "><a href="/en-US/365-business-barcode/get-started/">Get Started</a></li>
 								
 									
-									<li class="nav-item "><a href="/en-US/365-business-barcode/get-started/">Get Started</a></li>
+									<li class="nav-item "><a href="/en-US/365-business-barcode/barcode-whatis/">What is 365 business Barcode?</a></li>
+								
+									
+									<li class="nav-item "><a href="/en-US/365-business-barcode/barcode-settings/">Barcode Settings</a></li>
+								
+									
+									<li class="nav-item "><a href="/en-US/365-business-barcode/supported-barcodes/">Supported Barcode Symbologies</a></li>
+								
+									
+									<li class="nav-item "><a href="/en-US/365-business-barcode/barcode-howto/">Implement 365 business Barcode</a></li>
 								
 							</ul>
 						</li>
@@ -624,12 +633,63 @@
 					,
 					
 
+					"365-business-barcode-barcode-howto": {
+						"id": "365-business-barcode-barcode-howto",
+						"title": "365 business Barcode  - Implement 365 business Barcode",
+						"category": "",
+						"url": " /365-business-barcode/barcode-howto/",
+						"content": "To implement 365 business Barcode into your own individual business processes it is necessary to add the 365 business Barcode App as a dependency to your own extension.\n\nThis gives you access to the provided interfaces and objects. A detailed documentation can be found in our AL Developer Documentation.\n\nBelow is a code example explaining how you can use 365 business Barcode.\n\nStep 1: Add dependency\n\n\n  Open the app.json file in your AL project.\n  Add the following code to the dependency token:\n    {\n  \"id\": \"9aca19d9-d261-4fa0-88fd-121ad0daa0f7\",\n  \"name\": \"365 business Barcode\",\n  \"version\": \"18.2.0.0\",\n  \"publisher\": \"365 business development\"\n}\n    \n  \n  Run the command AL: Download symbols.\n\n\nStep 2: Implementation\n\nTwo scenarios are shown below:\n\nStep 2.1: QR Code in Report Object\n\n\n  Add a new data item with reference to bdev.Barcode.\n  Set the property UseTemporary to true.\n  Set the DataItemTableView property to sorting(\"Primary Key\").\n  Add a new column for the Barcode field.\n  Add an OnPreDataItem() trigger with the following code:\n    Reset();\nDeleteAll(false);\n\n\"Barcode Symbology\" := Enum::\"bdev.Barcode Symbology\"::\"QR Code\";\nHeight := 70;\n\"Barcode Value\" := &lt;BARCODE VALUE&gt;;\nif (Encode()) then\n    Insert();\n\n  \n  Compile your extension using the command AL: Package.\n  Open your layout and add an image with the reference to your new Barcode column.\n\n\nSource Code\n\ndataitem(BarcodeBuffer; \"bdev.Barcode\")\n{\n    UseTemporary = true;\n    DataItemTableView = sorting(\"Primary Key\");\n\n    column(Barcode; Barcode)\n    { }\n\n    trigger OnPreDataItem()\n    begin\n        Reset();\n        DeleteAll(false);\n\n        \"Barcode Symbology\" := Enum::\"bdev.Barcode Symbology\"::\"QR Code\";\n        Height := 80;\n        \"Barcode Value\" := &lt;BARCODE VALUE&gt;;\n        if (Encode()) then\n            Insert();\n    end;\n}\n\n\nStep 2.2: Add barcode to item barcode\n\n\n  Create a page extension for the ‘Item Identifiers’ page.\n  Add an action.\n    action(\"PTE CreateBarcode\")\n{\n    ApplicationArea = All;\n    Caption = 'Create Barcode';\n    ToolTip = 'Encode the item identifier to create a barcode in selected barcode defintion.';\n    Image = BarCode;\n    Promoted = true;\n    PromotedIsBig = true;\n    PromotedCategory = Process;\n\n    trigger OnAction()\n    begin\n        EncodeBarcodeItemIdentifier(Rec);\n        CurrPage.Update(false);\n    end;\n}\n\n  \n  Add a new function named EncodeBarcodeItemIdentifier.\n    procedure EncodeBarcodeItemIdentifier(var itemIdentifier: Record \"Item Identifier\")\nvar\n   barcodeSettings: Record \"bdev.Barcode Settings\";\n   tempBlob: Codeunit \"Temp Blob\";\n   encodeBarcode: Codeunit \"bdev.Encode Barcode\";\n   stream: InStream;\nbegin\n   itemIdentifier.TestField(\"bdev.Barcode Settings Code\");\n   barcodeSettings.Get(itemIdentifier.\"bdev.Barcode Settings Code\");\n   tempBlob := encodeBarcode.Encode(barcodeSettings, itemIdentifier.\"Code\");\n   if (tempBlob.HasValue()) then begin\n       tempBlob.CreateInStream(stream);\n       itemIdentifier.\"bdev.Barcode\".ImportStream(stream, 'Barcode', 'image/png');\n       itemIdentifier.Modify(true);\n   end else\n       Error(UnableToEncodeBarcodeErr);\nend;\n\n  \n\n\nSee also\n\n\n  AL Developer Documentation"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"365-business-barcode-barcode-settings": {
+						"id": "365-business-barcode-barcode-settings",
+						"title": "365 business Barcode  - Barcode Settings",
+						"category": "",
+						"url": " /365-business-barcode/barcode-settings/",
+						"content": "Barcode settings are used to create reusable templates that can be used in the implementation in your business processes. Instead of making all settings in AL Code, they can be made in an intuitive and user-friendly interface and referenced in AL Code for the corresponding barcode setting only via the code.\n\n\n\nHow do I create a new Barcode Setting?\n\n\n  Open the Barcode Settings page in Microsoft Dynamics 365 Business Central.\n  Click New to create a new barcode setting.\n  Select a Code.\n  Select the type of barcode you want to use (for example, QR Code) in Barcode symbology field.\n\n\n\n  NoteWhile setting up the barcode settings, the preview of the barcode with a sample value is continuously displayed.\n\n\n\n  Select a description for the barcode setting.\n  Specify the desired height (px).\n  Click in the Color and/or Background color field to define colors different from the default. (optional)\n\n\n\n  Good to knowDepending on the selected barcode symbology further options are available."
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"365-business-barcode-barcode-whatis": {
+						"id": "365-business-barcode-barcode-whatis",
+						"title": "365 business Barcode  - What is 365 business Barcode?",
+						"category": "",
+						"url": " /365-business-barcode/barcode-whatis/",
+						"content": "What is a barcode?\n\nThere are many different types of barcodes. They all consist of optical patterns and encode data so that it can be read automatically or by machine. The German term for barcode is Strichcode, as it is made up of parallel bars of varying widths and gaps.\n\nHowever, the term barcode is often equated with the EAN barcode known from product packaging. As the name EAN barcode suggests, this code encodes the product’s global article number, known then as EAN and now as GTIN. This makes it quick and easy to scan the product at the supermarket checkout.\n\nHow and where are barcodes used?\n\nThere are many possible uses for barcodes. Below you will find some practical examples:\n\n\n  As consumers, we encounter the most prominent example virtually every day when shopping in the supermarket. There we find the EAN barcode on product packaging. This is used for fast and error-free checkout of goods at the cash register, but also for inventory management.\n  In industry, barcodes are used to record goods movements and stock levels.\n  In logistics and shipping service providers, the barcode has a permanent place in status tracking and documentation.\n  Barcodes are also an important component for the traceability of goods.\n\n\nWhat information is contained in a barcode?\n\nDepending on the purpose, various information can be encoded in a barcode. For example, it can be the following:\n\n\n  The EAN barcode on product packaging in supermarkets encodes the product’s article number (GTIN, formerly EAN), ensuring that the product can be easily and quickly recorded at the checkout.\n  In logistics, the GS1-128 barcode encodes the SSCC. With the help of the SSCC, any type of transport unit, e.g. pallets or cartons, can be identified.\n  GS1 data identifiers can also be used to encode other information, such as batch number or best before date, in GS1 barcodes.\n\n\nWhat is 365 business Barcode?\n\nWith 365 business Barcode, you can integrate barcodes into any part of your application, whether it’s on the job card, picking slip, sales shipment or invoice! With our powerful and flexiable app you can implement barcodes into your business processes with a minimum amount of effort.\n\n365 business Barcode is an extension for Microsoft Dynamics 365 Business Central, you can use to add barcode capabilities to your business processes."
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
 					"365-business-barcode-get-started": {
 						"id": "365-business-barcode-get-started",
 						"title": "365 business Barcode  - Get Started",
 						"category": "",
 						"url": " /365-business-barcode/get-started/",
-						"content": "365 business Barcode is an extension for Microsoft Dynamics 365 Business Central that gives you the ability to encode and decode barcodes, within Microsoft Dynamics 365 Business Central.\n\nAbout 365 business Barcode\n\nBelow you will find information on how 365 business Barcode can be implemented at your site:\n\n\n  Developer Documentation"
+						"content": "365 business Barcode is an extension for Microsoft Dynamics 365 Business Central that gives you the ability to encode and decode barcodes, within Microsoft Dynamics 365 Business Central.\n\nThis quick guide explains how you can make various barcode settings in 365 business Barcode, which you can then integrate into your application.\n\nStep 1: Install 365 business Barcode\n\nOpen the Extensions Marketplace in Microsoft Dynamics 365 Business Central and search for 365 business Barcode. Install the app from Microsoft AppSource and wait for the installation to complete.\n\nStep 1.1: Register for 365 business API\n\nAfter installation, if the 365 business API was not already installed, the Welcome Wizard will appear automatically and guide you through registration.\n\nAfter the registration is complete, you will receive your personal API authentication key, which is required to communicate with the 365 business API.\nLearn more\n\n\n  NoteNo further setup of 365 business Barcode is necessary.\n\n\nStep 2: Set up barcode settings\n\n\n  Good to knowDuring the installation of 365 business Barcode some standard barcode types are added automatically. You can use, modify or delete them directly.\n\n\nTo set up barcode settings, open the Barcode Settings page in Microsoft Dynamics 365 Business Central.\n\n\n  Click New to create a new barcode setting.\n  Select a Code.\n  Select the type of barcode you want to use (for example, QR Code) in Barcode symbology field.\n\n\n\n  NoteWhile setting up the barcode settings, the preview of the barcode with a sample value is continuously displayed.\n\n\n\n  Select a description for the barcode setting.\n  Specify the desired height (px).\n  Click in the Color and/or Background color field to define colors different from the default. (optional)\n\n\n\n  Good to knowDepending on the selected barcode symbology further options are available.\n\n\nStep 2.1: Enable GS1-Format (optional)\n\nOver the years, different types of barcodes have emerged. They were all developed for different tasks and optimized for the needs of individual industries. The GS1 format was developed to integrate additional information into a barcode in a machine-readable way.\nBasically, the following barcode types can be distinguished:\n\n\n  One-dimensional barcode: In 1D codes, the bars are always arranged in a single row. The EAN barcode, the GS1-128 and the GS1 DataBar belong to this type.\n  Two-Dimensional Barcode: In 2D codes, the information is usually deposited in a square or rectangular area in the form of dots or small squares. This category includes the GS1 DataMatrix and the GS1 QR Code.\n\n\nYou can activate the GS1 Format option, for supported barcode types, via the GS1 Format switch.\n\nStep 2.2: Embed image (only applicable QR Code)\n\nFor QR Code barcodes there is the possibility of individualization, beyond the control of the foreground and background color. Any image can be embedded in the barcode. The barcode will still be readable.\n\nProceed as follows to embed an image in the barcode:\n\n\n  click Upload Embedded Image.\n  Click Select.\n  Select a PNG image file to embed in the barcode. 4.\n  click OK.\n\n\n\n\nStep 3: Implement 365 business Barcode\n\nBelow you will find information on how 365 business Barcode can be implemented at your site:\n\n\n  Developer Documentation"
 					}
 
 					
@@ -646,7 +706,7 @@
 						"title": "365 business Barcode  - Introduction",
 						"category": "",
 						"url": " /365-business-barcode/",
-						"content": "Barcode Generator for Microsoft Dynamics 365 Business Central.\nEncode and decode 1D and 2D barcode directly from Microsoft Dynamics 365 Business Central.\n365 business Barcode from 365 business development is adding the capability to encode and decode 1D and 2D barcode in Microsoft Dynamics 365 Business Central. Now you can modify existing reports such as invoices, shipments, order confirmations and production orders to include barcode and simplify your processes by using barcode scanner.\n\nSupports 1D and 2D Barcode formats.\n365 business Barcode is supporting 20 common barcode formats, including Code 39 (1D), Code 128 (1D), EAN-8 (1D), EAN-13 (1D), QR Code (2D), Data Matrix (2D) and PDF417 (2D).\n\nIntegrating into your business process.\nWith the decoding option you’re able to integrate barcode into your business solution, even without using scanner hardware. Simply decode the barcode image to extract the information and start working with it.\n\nThe 365 business Barcode App provides an internal API codeunit that facilitates the implementation in your customer solution and provides you with the full functionality of the 365 business API barcode service. Sample reports are included that you can use as-is or create customized layouts.\n\n365 business API\nThe 365 business Barcode app is completely free and all you need is a valid subscription of the 365 business API. The 365 business API is connected to Microsoft Dynamics 365 Business Central through the 365 business API dependency app."
+						"content": "Encode and decode 1D and 2D barcodes directly from Microsoft Dynamics 365 Business Central, via 365 business Barcode. With 365 business Barcode, you can integrate barcodes into any part of your application, whether it’s on the work ticket, the picking slip, the delivery bill or the invoice! With our powerful and flexible app, you can support your processes with barcodes without much implementation effort.\n\n\n\n365 business Barcode uses the barcode service of the 365 business API and requires an active subscription after the free and non-binding trial period. Die 365 business API ist mit Microsoft Dynamics 365 Business Central über die 365 business API-App verbunden.\n\n\n  Good to know365 business Barcode can be tested free of charge and without obligation for 30 days.You need more time? Kein Problem, sprechen Sie uns einfach an!\n  Functions at a glance\n\n\n\n\n\n   About 365 business Barcode\n\n  Learn more about basics of 365 business Print Agent:\n\n  \n    What is 365 business Barcode?\n    Which barcode types are supported?\n  \n\n\n\n   Get started\n\n  Learn more about get started with 365 business Print Agent:\n\n  \n    Barcode Settings\n  \n\n\n\n   Implementation\n\n  Learn how to integrate 365 business barcode into your application:\n\n  \n    Implement 365 business Barcode\n    AL Developer Documentation"
 					}
 
 					
@@ -660,10 +720,10 @@
 
 					"365-business-barcode-supported-barcodes": {
 						"id": "365-business-barcode-supported-barcodes",
-						"title": "365 business Barcode  - Barcodes",
+						"title": "365 business Barcode  - Supported Barcode Symbologies",
 						"category": "",
 						"url": " /365-business-barcode/supported-barcodes/",
-						"content": "365 business API Barcode services generates barcodes based on the following standards.\n\n\n\nSee also\n\n\n  365 business API Barcode documentation"
+						"content": "365 business Barcode supports 15 popular barcode types, including Code 39 (1D), Code 128 (1D), EAN-8 (1D), EAN-13 (1D), QR Code (2D), Data Matrix (2D) and PDF417 (2D), as well as other options such as GS1 format for selected barcode types.\n\n\n\nSupported barcode types\n\nThe following barcode types are currently supported:\n\n\n  \n    \n      Barcode\n      Encode\n      Decode\n      GS1 Format\n      Color\n      Customization\n    \n  \n  \n    \n      Aztec\n      Yes\n      Yes\n      No\n      Yes\n      No\n    \n    \n      Codabar\n      Yes\n      Yes\n      No\n      Yes\n      No\n    \n    \n      Code39\n      Yes\n      Yes\n      No\n      Yes\n      No\n    \n    \n      Code93\n      Yes\n      Yes\n      Yes\n      Yes\n      No\n    \n    \n      Code128\n      Yes\n      Yes\n      Yes\n      Yes\n      No\n    \n    \n      Data Matrix\n      Yes\n      Yes\n      No\n      Yes\n      No\n    \n    \n      EAN8\n      Yes\n      Yes\n      No\n      Yes\n      No\n    \n    \n      EAN13\n      Yes\n      Yes\n      No\n      Yes\n      No\n    \n    \n      ITF\n      Yes\n      Yes\n      No\n      Yes\n      No\n    \n    \n      MSI\n      Yes\n      No\n      No\n      Yes\n      No\n    \n    \n      PDF417\n      Yes\n      Yes\n      No\n      Yes\n      Yes\n    \n    \n      Plessey\n      Yes\n      No\n      No\n      Yes\n      No\n    \n    \n      QR Code\n      Yes\n      Yes\n      Yes\n      Yes\n      Yes\n    \n    \n      UPC-A\n      Yes\n      Yes\n      No\n      Yes\n      No\n    \n    \n      UPC-E\n      Yes\n      Yes\n      No\n      Yes\n      No\n    \n  \n\n\n\n  Good to knowSome barcode types, such as QR codes, can be customized by embedding images, for example."
 					}
 
 					
