@@ -95,7 +95,7 @@ dataitem(BarcodeBuffer; "bdev.Barcode")
      var
         barcodeSettings: Record "bdev.Barcode Settings";
         tempBlob: Codeunit "Temp Blob";
-        encodeBarcode: Codeunit "bdev.Encode Barcode";
+        encodeBarcode: Codeunit "bdev.Barcode";
         stream: InStream;
      begin
         itemIdentifier.TestField("bdev.Barcode Settings Code");
