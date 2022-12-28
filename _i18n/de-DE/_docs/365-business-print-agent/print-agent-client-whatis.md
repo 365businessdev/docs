@@ -1,4 +1,4 @@
-Der Print Agent Service übernimmt die Kommunikation zwischen Microsoft Dynamics 365 Business Central (Direct Mode) oder 365 Business Print Agent Cloud (Cloud Mode). Zusätzlich führt der Print Agent Service die empfangenen Druckaufträge von Microsoft Dynamics 365 Business Central aus.
+Der Print Agent Service übernimmt die Kommunikation zwischen Microsoft Dynamics 365 Business Central (Direct Mode) oder 365 business Print Agent Cloud (Cloud Mode). Zusätzlich führt der Print Agent Service die empfangenen Druckaufträge von Microsoft Dynamics 365 Business Central aus.
 
 Jeder Print Agent Service wird anhand einer Client-ID (GUID) identifiziert und überwacht den Online-Status Ihrer freigegebenen Drucker. 
 Der Agent sollte auf einem Windows-System ausgeführt werden, auf dem Ihre Drucker installiert sind.
@@ -19,6 +19,6 @@ Wählen Sie alle Drucker aus, die Sie für das Drucken aus Microsoft Dynamics 36
 
 Der Print Agent Service führt folgende Funktionen aus:
 
- 1. Er verwaltet die Kommunikation zwischen Ihrem Client und Microsoft Dynamics 365 Business Central oder 365 Business Print Agent Cloud.
+ 1. Er verwaltet die Kommunikation zwischen Ihrem Client und Microsoft Dynamics 365 Business Central oder 365 business Print Agent Cloud.
  2. Initiiert Druckaufträge.
  3. Verwaltet freigegebene Drucker.

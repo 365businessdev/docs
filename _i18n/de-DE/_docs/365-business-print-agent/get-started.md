@@ -58,9 +58,9 @@ Um Drucker direkt in Microsoft Dynamics 365 Business Central einzurichten und zu
  3. Wählen Sie **Freigegebene Drucker holen...**, um die freigegbenen Drucker zu holen
     ![Printers page actions](/assets/images/365-business-print-agent/567d50c1f1eb153215a9880611e4bf22f762cf6e6899086d80325209fc99ce9a.png)
 
-## Schritt 2.2: Aktivieren der Druckerkonfiguration
+## Schritt 2.2: Aktivieren der Druckereinstellung
 
-> **Hinweis!**<br>Freigegebene Drucker sind in Microsoft Dynamics 365 Business Central nicht direkt verfügbar. Stattdessen ist es notwendig, [Druckerkonfigurationen](../printer-configuration/) zu erstellen., die dann in der **Druckerauswahhl** oder in der Report Request Page ausgewählt werden können. Sie können mehrere Druckerkonfigurationen auf der Grundlage der Funktionen erstellen, die Sie in einem bestimmten Szenario verwenden möchten (z. B. Duplex-Modus).<br><br>Für jeden Drucker wird automatisch eine vom System erstellte Druckerkonfiguration erstellt. Diese Konfiguration wird mit den verfügbaren Funktionen des Druckers erstellt.
+> **Hinweis!**<br>Freigegebene Drucker sind in Microsoft Dynamics 365 Business Central nicht direkt verfügbar. Stattdessen ist es notwendig, [Druckereinstellungen](../printer-configuration/) zu erstellen., die dann in der **Druckerauswahhl** oder in der Report Request Page ausgewählt werden können. Sie können mehrere Druckereinstellungen auf der Grundlage der Funktionen erstellen, die Sie in einem bestimmten Szenario verwenden möchten (z. B. Duplex-Modus).<br><br>Für jeden Drucker wird automatisch eine vom System erstellte Druckereinstellung erstellt. Diese Konfiguration wird mit den verfügbaren Funktionen des Druckers erstellt.
 
  1. **Druckereinstellungen** auswählen.
  2. **Bearbeiten** auswählen.
@@ -76,7 +76,7 @@ Um die Möglichkeiten des Direktdrucks optimal nutzen zu können, ist es sinnvol
  3. Geben Sie eine **Berichts-ID** an oder lassen Sie diese leer, um den Drucker (Konfiguration) für jeden Bericht zuzuweisen.
  4. Wählen Sie den **Druckernamen** aus dem Dropdown-Menü aus.
 
-> **Hinweis!!**<br>Microsoft Dynamics 365 Business Central bietet eine zusätzliche Seite, **Druckerverwaltung**. Hier finden Sie alle in Print Agent aktivierten Drucker (Konfigurationen). Von hier aus können Sie die Druckerkonfiguration öffnen oder den ausgewählten Drucker (Konfiguration) als Standard festlegen.<br>![picture 7](../../../../assets/images/365-business-print-agent/f66b313410695f3a550f126155fc3b9d6abf9c663c5840e9d2c1887948fbfd41.png)
+> **Hinweis!!**<br>Microsoft Dynamics 365 Business Central bietet eine zusätzliche Seite, **Druckerverwaltung**. Hier finden Sie alle in Print Agent aktivierten Drucker (Konfigurationen). Von hier aus können Sie die Druckereinstellung öffnen oder den ausgewählten Drucker (Konfiguration) als Standard festlegen.<br>![picture 7](../../../../assets/images/365-business-print-agent/f66b313410695f3a550f126155fc3b9d6abf9c663c5840e9d2c1887948fbfd41.png)
 
 
 ### Siehe auch

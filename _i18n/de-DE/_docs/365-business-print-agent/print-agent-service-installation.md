@@ -24,7 +24,7 @@ Bitte [lesen Sie den Artikel](../print-agent-whatis/) um herauszufinden, welchen
 
 ## Unterstützte Einrichtung
 
-Beim ersten Start der 365 Business Print Agent-Anwendung wird die unterstützte Einrichtung automatisch gestartet und hilft Ihnen bei der Einrichtung der Grundeinstellungen.
+Beim ersten Start der 365 business Print Agent-Anwendung wird die unterstützte Einrichtung automatisch gestartet und hilft Ihnen bei der Einrichtung der Grundeinstellungen.
 
  1. Starten Sie die **365 business Print Agent** Applikation.
  2. Beim ersten Start wird automatisch der **365 business Print Agent Konfigurations Wizard** ausgeführt.<br>

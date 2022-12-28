@@ -24,7 +24,7 @@ Lernen Sie grundlegende Print Agent-Konzepte und -Prozesse in Microsoft Dynamics
 > Erfahren Sie mehr über das Verwalten von Druckern in Microsoft Dynamics 365 Business Central:
 > 
 >  - [Drucker Konfigurationen erstellen in Microsoft Dynamics 365 Business Central](printer-configuration)
->  - [Zuweisen von Druckerkonfigurationen zu Berichten oder Benutzern in Microsoft Dynamics 365 Business Central](printer-configuration/#printer-selection)
+>  - [Zuweisen von Druckereinstellungen zu Berichten oder Benutzern in Microsoft Dynamics 365 Business Central](printer-configuration/#printer-selection)
 
 > ## <img src="/assets/fontawesome/user-helmet-safety-duotone.svg" class="fa-group-icon"> Print Agent Service
 > 

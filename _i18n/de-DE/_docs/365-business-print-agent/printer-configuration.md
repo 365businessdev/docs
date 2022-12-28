@@ -1,54 +1,52 @@
-> This page is currently not available in the selected language. The page is available in **English**. Please select other language to display.
+Druckereinstellungen werden als _Drucker_ in Microsoft Dynamics 365 Business Central verwendet. Für jeden Drucker wird automatisch eine Standarddruckerkonfiguration erstellt. Diese Konfiguration wird mit den verfügbaren Funktionen Ihres Druckers erstellt.
 
-Printer Configuration are actually used as _Printers_ in Microsoft Dynamics 365 Business Central. For each printer a default printer configuration is created, automatically. This configuration is created with the available features of your printer.
+Außerdem können Sie weitere Konfigurationen für verschiedene Szenarien wie Farb- und/oder Duplexdruck erstellen.
 
-Additionally, you can create multiple other configurations for different scenarios like color and/or duplex printing.
+> **Wichtig!**<br>Das **Code** Feld einer Druckereinstellung wird dem Benutzer über die **Druckerauswahl** und an verschiedenen anderen Stellen in Microsoft Dynamics 365 Business Central angezeigt.<br>Achten Sie darauf, dass Sie einen benutzerfreundlichen Namen für die Druckereinstellung wählen.
 
-> **Important!**<br>The **Code** field of a Printer Configuration is displayed to the user through the **Printer Selection** and in various other locations inside Microsoft Dynamics 365 Business Central.<br>Keep in mind to choose a user-friendly Name for the Printer Configuration.
+![Druckereinstellung](/assets/images/365-business-print-agent/1b3143accd75d67305341ac9a314b681aa754fe966df87c434e0d240752862a8.png)  
 
-![Printer Configuration](/assets/images/365-business-print-agent/1b3143accd75d67305341ac9a314b681aa754fe966df87c434e0d240752862a8.png)  
+## Wie erstelle ich eine Druckereinstellung?
 
-## How do I create a Printer Configuration?
+Die Druckereinstellung kann manuell über die Kartenseite **Druckereinstellung** oder mit Hilfe der Seite **Unterstützte Druckereinstellung** erstellt werden.
 
-Printer Configuration can be created manually through the **Printer Configuration** card page or by using the **Assisted Printer Configuration** page.
+ 1. **Drucker** Page öffnen.
+ 2. **Druckereinstellungen hinzufügen** wählen.<br>
+    ![Unterstützte Druckereinstellung](/assets/images/365-business-print-agent/3dec41cc0618402d763e35f398cfac74961504a8b36643f152e31f10c428c125.png)  
 
- 1. Open **Printers** page.
- 2. Select **Add Printer Configuration**.<br>
-    ![Assisted Printer Configuration](/assets/images/365-business-print-agent/3dec41cc0618402d763e35f398cfac74961504a8b36643f152e31f10c428c125.png)  
+ 3. **Weiter** wählen.
+ 4. Geben Sie einen benutzerfreundlichen Namen an (Feld **Code**).
+ 5. Geben Sie eine kurze **Beschreibung** an, um die Verwendung der Konfiguration zu beschreiben.<br>
+    ![Unterstützte Druckereinstellung - Allgemein](/assets/images/365-business-print-agent/1a276d89ea83cdf50266c0cf659f387072d70168d92310a935b122fe2009b856.png)
+ 6. **Weiter** wählen.
+ 7. Wählen Sie **Papierart** (z. B. A4-Papier (210 mm x 297 mm)).
+     7.1.Wenn Sie **Benutzerdefiniertes** Papierformat angeben, müssen Sie Höhe und Breite des Papierformats angeben. _(Optional)_
+ 8. Geben Sie an, ob der Farbdruck aktiviert werden soll oder nicht.<br>_(nur anwendbar, wenn der Drucker Farbdruck unterstützt)_
+ 9. Geben Sie an, ob Simplex- oder Duplexdruck verwendet werden soll.<br>(nur anwendbar, wenn der Drucker den Duplex-Modus unterstützt)_
+ 10. Legen Sie fest, ob mehrere Papierfächer verwendet werden sollen oder nicht.
+ 11. Wählen Sie **Papierquelle** (Papierfach) für alle Seiten _(wenn nicht ausgewählt, mehrere Papierfächer verwenden)_ oder für die verschiedenen Optionen.<br>
+    ![Unterstützte Druckereinstellung - Auswahl des Papierfachs](/assets/images/365-business-print-agent/8a5abd438a19a5badc512c15d08a0ebb706f4c491593f4f58e616e8c3a1f9e8f.png)
+ 12. **Fertigstellen** auswählen.
+ 13. Um die Druckereinstellung zu aktivieren **Ja** auswählen.<br>
+    ![Unterstützte Druckereinstellung - Aktivieren der Druckereinstellung](/assets/images/365-business-print-agent/e5a81f4c85fe8f35f56e061524f6e9b021a7b856078c0fe3a49ba1fbc607ce97.png)  
 
- 3. Select **Next**.
- 4. Specify a user-friendly Name (Field **Code**).
- 5. Specify a brief **Description** to describe the usage of the configuration.<br>
-    ![Assisted Printer Configuration - General](/assets/images/365-business-print-agent/1a276d89ea83cdf50266c0cf659f387072d70168d92310a935b122fe2009b856.png)
- 6. Select **Next**.
- 7. Select **Paper Kind** (e.g. A4 paper (210 mm by 297 mm).)
-    1. When specified **Custom** Paper Kind you have to specify Paper Size height and width. _(Optional)_
- 8. Specify whether to enable color printing or not.<br>_(only applicable if printer supports color printing)_
- 8. Specify whether to use simplex printing or duplex printing.<br>_(only applicable if printer supports duplex-mode)_
- 9. Specify whether to use multiple paper trays or not.
- 10. Select **Paper Source Kind** (Paper Tray) for all pages _(if not selected use multiple paper trays)_ or for the various options.<br>
-    ![Assisted Printer Configuration - Paper Tray Selection](/assets/images/365-business-print-agent/8a5abd438a19a5badc512c15d08a0ebb706f4c491593f4f58e616e8c3a1f9e8f.png)
- 11. Select **Finish**.
- 12. Enable Printer Configuration for usage, by select **Yes**.<br>
-    ![Assisted Printer Configuration - Enable Printer Configuration](/assets/images/365-business-print-agent/e5a81f4c85fe8f35f56e061524f6e9b021a7b856078c0fe3a49ba1fbc607ce97.png)  
+## Weitere Schritte
 
-## Next steps
+Jetzt können Sie mit dem 365 business Print Agent drucken, indem Sie die Druckereinstellung auf der Seite Berichtsanforderung manuell auswählen.
 
-At this point, you are ready to print with 365 business Print Agent by manually selecting the Printer Configuration in Report Request Page.
+![Request Page Druckerauswahl](/assets/images/365-business-print-agent/7b40a7721875b4237ff74101d0c7aaafeca27c3b8155c8f22fbf6aced188a5c0.png)  
 
-![Request Page Printer Selection](/assets/images/365-business-print-agent/7b40a7721875b4237ff74101d0c7aaafeca27c3b8155c8f22fbf6aced188a5c0.png)  
+Um die Direktdruckfunktion optimal nutzen zu können, sollten Sie nun die Druckereinstellung auf der Seite **Druckerauswahl** festlegen.
 
-To get the most comfort out of direct printing functionality you should now assign the Printer Configuration in **Printer Selection** page.
+#### Wie weise ich Drucker in der Druckerauswahl zu
 
-#### How to assign Printer Configuration in Printer Selection?
+ 1. **Druckerauswahl** öffnen.
+ 2. Wählen Sie **Benutzer-ID** oder lassen Sie das Feld leer, um den Drucker (Konfiguration) für jeden Benutzer zuzuweisen.
+ 3. Geben Sie **Berichts-ID** an oder lassen Sie das Feld leer, um den Drucker (die Konfiguration) für jeden Bericht zuzuweisen.
+ 4. Wählen Sie **Druckername** aus dem Dropdown-Menü aus.
 
- 1. Open **Print Selection**.
- 2. Select **User ID** or leave blank to assign the printer (configuration) for every user.
- 3. Specify **Report ID** or leave blank to assign the printer (configuration) for every report.
- 4. Select **Printer Name** by choosing from the Drop-down menu.
+> **Hinweis!**<br>Microsoft Dynamics 365 Business Central bietet eine zusätzliche Übersicht, die **Druckerverwaltung**. Hier finden Sie alle im Print Agent aktivierten Drucker (Konfigurationen). Von hier aus können Sie die Druckereinstellung einfach öffnen oder den ausgewählten Drucker (Konfiguration) als Standard festlegen.<br>![picture 7](../../../../assets/images/365-business-print-agent/f66b313410695f3a550f126155fc3b9d6abf9c663c5840e9d2c1887948fbfd41.png)
 
-> **Good to know!**<br>Microsoft Dynamics 365 Business Central provides a additional page, called **Printer Management**. Here you find every printer (configuration) enabled in Print Agent. From here you can easily open the printer configuration or set the selected printer (configuration) as default.<br>![picture 7](../../../../assets/images/365-business-print-agent/f66b313410695f3a550f126155fc3b9d6abf9c663c5840e9d2c1887948fbfd41.png)
+### Siehe auch
 
-### See also
-
- - [Printer](../printer/)
+ - [Drucker](../printer/)
