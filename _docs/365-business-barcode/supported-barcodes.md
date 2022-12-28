@@ -2,7 +2,7 @@
 title: supported-barcodes
 category: 365-business-barcode
 permalink: /365-business-barcode/supported-barcodes/
-order: 1
+order: 4
 
 namespace: 365-business-barcode
 ---

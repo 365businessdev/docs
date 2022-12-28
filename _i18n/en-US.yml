@@ -26,7 +26,10 @@ titles:
   how-to-register: How To Register
   details: Details
   changelog: Change Log
-  supported-barcodes: Barcodes
+  supported-barcodes: Supported Barcode Symbologies
+  barcode-settings: Barcode Settings
+  barcode-howto: Implement 365 business Barcode
+  barcode-whatis: What is 365 business Barcode?
   setup: Setup
   registration: Registration
   telemetry-data: Telemetry

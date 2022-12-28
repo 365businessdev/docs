@@ -4,4 +4,29 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-barcode/
 ---
 
-Coming soon
+#### Version 18.2.35.7062
+
+ - Redesign
+ - Add additional capabilities for barcode symbolics.
+ - Add barcode preview _(free-of-charge)_.
+ - Add color picker.
+ - Add GS1 support for
+   - QR Code
+   - Code 128
+   - Code 93
+   - Data Matrix
+ - Add context sensitive help.
+
+> **Important**<br>With this release, the minimum required version of Microsoft Dynamics 365 Business Central has been increased to **2021 release wave 1 (18.0)**.
+
+#### Version 15.1.25.9
+
+ - Add 2D barcodes support.
+ - Support API version 2.0.
+ - Add `Item Label` and `Shipment Label` sample report.
+ - Add `Item Identifiers` integration.
+
+#### Version 15.0.0.0
+
+ - Initial release for Microsoft Dynamics 365 Business Central 2019 release wave 2 (15.0)
+ - Support for 1D-barcodes.
