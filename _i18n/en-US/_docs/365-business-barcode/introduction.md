@@ -5,6 +5,7 @@ Encode and decode 1D and 2D barcodes directly from Microsoft Dynamics 365 Busine
 365 business Barcode uses the barcode service of the [365 business API](../365-business-api/) and requires an active subscription after the free and non-binding trial period. Die 365 business API ist mit Microsoft Dynamics 365 Business Central über die 365 business API-App verbunden.
 
 > **Good to know**<br>365 business Barcode can be tested free of charge and without obligation for 30 days.<br>You need more time? Kein Problem, sprechen Sie uns einfach an!
+
 #### Functions at a glance
 
 ![Barcode Settings](/assets/images/365-business-barcode/barcode-settings.en-US.gif)
