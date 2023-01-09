@@ -10,6 +10,7 @@
 			g.async=true; g.src='https://cdn.matomo.cloud/businessdev.matomo.cloud/container_v7xJrAFg.js'; s.parentNode.insertBefore(g,s);
 		</script>
 		<!-- End Matomo Tag Manager -->
+		<script src="/de-DE/scripts/anchor.min.js"></script>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -395,6 +396,12 @@ Der Agent sollte auf einem Windows-System ausgeführt werden, auf dem Ihre Druck
 				let content = document.getElementsByClassName('content')[0].innerHTML;
 				document.getElementsByClassName('content')[0].innerHTML = notification + content;
 			}
+
+			// anchor.js implementation
+			document.addEventListener("DOMContentLoaded", function(event) {
+				anchors.add('article section h1, h2, h3, h4, h5, h6');
+				anchors.options.placement = 'left';
+			});
 		</script>
 	</body>
 </html>

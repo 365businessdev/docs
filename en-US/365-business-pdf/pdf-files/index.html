@@ -10,6 +10,7 @@
 			g.async=true; g.src='https://cdn.matomo.cloud/businessdev.matomo.cloud/container_v7xJrAFg.js'; s.parentNode.insertBefore(g,s);
 		</script>
 		<!-- End Matomo Tag Manager -->
+		<script src="/en-US/scripts/anchor.min.js"></script>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -27,9 +28,9 @@
 <meta property="og:url" content="https://docs.365businessdev.com/en-US/365-business-pdf/pdf-files/" />
 <meta property="og:site_name" content="365 business development" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2023-01-09T18:33:04+00:00" />
+<meta property="article:published_time" content="2023-01-09T18:37:48+00:00" />
 <script type="application/ld+json">
-{"url":"https://docs.365businessdev.com/en-US/365-business-pdf/pdf-files/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.365businessdev.com/en-US/siteicon.png"},"name":"365 business development"},"headline":"pdf-files","dateModified":"2023-01-09T18:33:04+00:00","datePublished":"2023-01-09T18:33:04+00:00","author":{"@type":"Person","name":"365 business development"},"@type":"Article","description":"In the PDF files page the PDF files are created and uploaded, which are used in the different configurations. PDF Stationery Configuration PDF Concatenation Configuration are used. The page is used for central administration and allows to maintain and update the referenced files in one place. How do I create a new PDF file? Open the page PDF Files. Select New. Specify a value in Code field, which you want to use for reference the PDF file. Specify a Description for the PDF file. Select Upload File and select a valid PDF file.","@context":"https://schema.org"}</script>
+{"url":"https://docs.365businessdev.com/en-US/365-business-pdf/pdf-files/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.365businessdev.com/en-US/siteicon.png"},"name":"365 business development"},"headline":"pdf-files","dateModified":"2023-01-09T18:37:48+00:00","datePublished":"2023-01-09T18:37:48+00:00","author":{"@type":"Person","name":"365 business development"},"@type":"Article","description":"In the PDF files page the PDF files are created and uploaded, which are used in the different configurations. PDF Stationery Configuration PDF Concatenation Configuration are used. The page is used for central administration and allows to maintain and update the referenced files in one place. How do I create a new PDF file? Open the page PDF Files. Select New. Specify a value in Code field, which you want to use for reference the PDF file. Specify a Description for the PDF file. Select Upload File and select a valid PDF file.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 		<link type="application/atom+xml" rel="alternate" href="https://docs.365businessdev.com/en-US/feed.xml" title="365 business development" />
@@ -385,6 +386,12 @@ are used. The page is used for central administration and allows to maintain and
 				let content = document.getElementsByClassName('content')[0].innerHTML;
 				document.getElementsByClassName('content')[0].innerHTML = notification + content;
 			}
+
+			// anchor.js implementation
+			document.addEventListener("DOMContentLoaded", function(event) {
+				anchors.add('article section h1, h2, h3, h4, h5, h6');
+				anchors.options.placement = 'left';
+			});
 		</script>
 	</body>
 </html>
