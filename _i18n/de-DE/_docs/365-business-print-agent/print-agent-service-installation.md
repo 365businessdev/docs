@@ -15,6 +15,8 @@
 
 Bitte [lesen Sie den Artikel](../print-agent-whatis/) um herauszufinden, welchen Dienstmodus Sie für Ihr Szenario wählen sollten.
 
+> **Bemerkung**<br>Die Freigabe von Netzwerkdruckern in 365 business Print Agent kann zu Zeitüberschreitungen führen, da die Antwort des tatsächlichen Druckers länger dauern kann. Dies ist ein häufiges Problem bei der Windows-Druckerverwaltung und kann unter Umständen nicht durch 365 business Print Agent gelöst werden.<br><br>Wir empfehlen dringend, 365 business Print Agent direkt auf Druckservern zu installieren, um lokal installierte Drucker freizugeben, anstatt Drucker von einem entfernten Druckserver freizugeben.
+
 ## Installation von Print Agent Service
 
  1. [Download](https://365businessapi.com/api/SoftwareDownload?AppId=c2e7d99c-d3c6-4ecc-9c6b-7be4048b41a9) der neusten Version von Print Agent Service.

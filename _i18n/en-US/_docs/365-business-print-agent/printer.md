@@ -12,6 +12,8 @@ For each printer a default printer configuration is automatically created. This 
 Print Agent is supporting every printer with Microsoft Windows compatible drivers or printer software.
 Additionally Print Agent is supporting native `Zebra (ZPL)` emulation to communicate with [Zebra printers](https://www.zebra.com/) using native ZPL commands, instead of PDF printing.
 
+> **Remarks**<br>Sharing network printers in 365 business Print Agent may cause timeouts as the actual printer takes longer to respond. This is a common problem with Windows printer management and cannot be solved by 365 business Print Agent.<br><br>We strongly recommend installing 365 business Print Agent directly on print servers to share locally installed printers instead of sharing printers from a remote print server.
+
 #### How do I enable ZPL emulation for printers?
 
 In Print Agent service application, installed on your printer server, you find a list of all currently installed printers. In column `Emulation` you can specify `Zebra (ZPL)` instead of `Default` to use PDF to ZPL conversion and communicate with the Zebra printer using native ZPL commands.

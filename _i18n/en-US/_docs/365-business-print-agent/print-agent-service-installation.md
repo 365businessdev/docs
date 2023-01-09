@@ -15,6 +15,8 @@
 
 Please [read this article](../print-agent-whatis/) to determine which Service Mode you should choose for your scenario.
 
+> **Remarks**<br>Sharing network printers in 365 business Print Agent may cause timeouts as the actual printer takes longer to respond. This is a common problem with Windows printer management and cannot be solved by 365 business Print Agent.<br><br>We strongly recommend installing 365 business Print Agent directly on print servers to share locally installed printers instead of sharing printers from a remote print server.
+
 ## Install Print Agent Service software
 
  1. [Download](https://365businessapi.com/api/SoftwareDownload?AppId=c2e7d99c-d3c6-4ecc-9c6b-7be4048b41a9) the latest version of Print Agent Service.
