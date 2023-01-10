@@ -1,14 +1,16 @@
 The Print Agent Setup contains the configuration for the communication between Microsoft Dynamics 365 Business Central and 365 business Print Agent Service or Cloud, depending on the selected Service Mode.
 
-![Print Agent Setup](/assets/images/365-business-print-agent/e8147ed3f3a4ba5810c3843510ab68734ce904d7857a0f0b3c60b90851aeae41.png)
+![Print Agent Setup](/assets/images/365-business-print-agent/646d98fab6c688ad444f61f5397dce86873cda4a90db60986a40ba1eb3911ce9.png)
 
 ## Setup parameters
 
 | Field Name | Group | Description |
 | --- | --- | --- |
 | Service Mode | Print Agent Service Connection | Specifies the operation mode for 365 business Print Agent communication. You can select between direct connection, using the 365 business Print Agent service or 365 business Print Agent Cloud service to connect to one or multiple 365 business Print Agent services with lower maintenance and without necessary network configurations.<br>We recommend to use 365 business Print Agent Cloud service for SaaS environments of Microsoft Dynamics 365 Business Central. |
-| Service URL | Print Agent Service Connection | Specifies the Service URL to communicate with the Print Agent Service or to communicate with the Print Agent Cloud Service. In general you do not need to change this address from it's default address. |
-| Service Port | Print Agent Service Connection | Specifies the TCP Port used to communicate with the Print Agent Service.<br>_(only applicable in Direct Connection service mode)_ |
+| Name | Print Agent Client Setup | Specifies the Name of the Print Agent service instance.<br>_(only applicable in Direct Connection service mode)_ |
+| Service URL | Print Agent Client Setup | Specifies the Service URL to communicate with the Print Agent Service or to communicate with the Print Agent Cloud Service. In general you do not need to change this address from it's default address.<br>_(only applicable in Direct Connection service mode)_ |
+| Service Port | Print Agent Client Setup | Print Agent Service Connection | Specifies the TCP Port used to communicate with the Print Agent Service.<br>_(only applicable in Direct Connection service mode)_ |
+| Authenticated | Print Agent Client Setup | Specifies whether the Print Agent service instance is authenticated with your Microsoft Dynamics 365 Business Central tenant or not.<br>_(only applicable in Direct Connection service mode)_ |
 | Connection Status | Status | Shows the connection status of Print Agent Service. |
 | Tenant ID | Status | Specifies the Tenant ID used to secure communications between Print Agent and Microsoft Dynamics 365 Business Central. |
 
