@@ -17,8 +17,8 @@ Print Agent basically consists of at least two components, the Microsoft Dynamic
 Using the 365 business Print Agent Cloud is the most _recommended_ way to operate Print Agent, because the necessary setup is reduced to a minimum and usually no complex adjustments to firewalls or network routes are necessary. Basically the 365 business Print Agent Cloud is usually up-and-running out-of-the-box after installation and basic set up.
 
 Communication between the Print Agent Service and the Cloud is implemented via state-of-the-art technologies, such as SignalR, and all data is transmitted in transport encrypted form.
-
-![365 business Print Agent - Cloud Architecture](/assets/images/365-business-print-agent/dac49de2188026388c10da8f28100d6b562b6bed375acee85c8a0f64d53142bc.png)  
+ 
+![365 business Print Agent - Cloud Architecture](/assets/images/365-business-print-agent/595f77629b38af2a850494a4d1c0e75ab37d0bde234e206a427cfe5dc37d3180.png)
 
 > **Good to know**<br>The 365 business Print Agent Cloud service is hosted in Germany and does not store any print job or printer data. The service acts like a relay and creates a real-time connection to the Print Agent Service (connector).<br>Your data is absolutely safe and will never be stored or analyzed for any reason.
 
@@ -33,7 +33,7 @@ Communication between the Print Agent Service and the Cloud is implemented via s
 
 The direct connection mode of 365 business Print Agent is only recommended for on-premises environments of Microsoft Dynamics 365 Business Central, due to the much higher effort to configure firewalls, network routes and many more, to allow a secure and reliable access from Microsoft Dynamics 365 Business Central SaaS environments.
 
-![365 business Print Agent - Direct Connection Architecture](/assets/images/365-business-print-agent/76cc532b71007675a8cfd27fc522b1175b08a9ea4f5d7543bf1eae6fe4b401db.png)  
+![365 business Print Agent - Direct Connection Architecture](/assets/images/365-business-print-agent/cb88a62c787b05b43c69deba7535032968e75f8e42579e64d6c621cc7e994405.png)
 
 | Component | Description |
 | --- | --- |

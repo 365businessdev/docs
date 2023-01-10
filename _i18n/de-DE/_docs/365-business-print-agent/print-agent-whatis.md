@@ -18,7 +18,7 @@ Die Verwendung von 365 business Print Agent Cloud ist die _empfohlene_ Art, Prin
 
 Die Kommunikation zwischen dem Print Agent Service und der Cloud wird über modernste Technologien wie SignalR realisiert und alle Daten werden transportverschlüsselt übertragen.
 
-![365 business Print Agent - Cloud Architektur](/assets/images/365-business-print-agent/dac49de2188026388c10da8f28100d6b562b6bed375acee85c8a0f64d53142bc.png)  
+![365 business Print Agent - Cloud Architektur](/assets/images/365-business-print-agent/595f77629b38af2a850494a4d1c0e75ab37d0bde234e206a427cfe5dc37d3180.png)
 
 > **Hinweis**<br>Der 365 business Print Agent Cloud Service wird in Deutschland gehostet und speichert keine Druckaufträge oder Druckerdaten. Der Dienst fungiert wie ein Vermittler und stellt eine Echtzeit-Verbindung zum Print Agent Service (Connector) her.<br>Ihre Daten sind absolut sicher und werden niemals gespeichert oder aus irgendeinem Grund analysiert.
 
@@ -33,7 +33,7 @@ Die Kommunikation zwischen dem Print Agent Service und der Cloud wird über mode
 
 Der direkte Verbindungsmodus des 365 business Print Agent wird nur für On-Premises-Umgebungen von Microsoft Dynamics 365 Business Central empfohlen, da der Aufwand für die Konfiguration von Firewalls, Netzwerkrouten und vielem mehr wesentlich höher ist, um einen sicheren und zuverlässigen Zugriff aus Microsoft Dynamics 365 Business Central SaaS-Umgebungen zu ermöglichen.
 
-![365 business Print Agent - Direct Connection Architektur](/assets/images/365-business-print-agent/76cc532b71007675a8cfd27fc522b1175b08a9ea4f5d7543bf1eae6fe4b401db.png)  
+![365 business Print Agent - Direct Connection Architektur](/assets/images/365-business-print-agent/cb88a62c787b05b43c69deba7535032968e75f8e42579e64d6c621cc7e994405.png)  
 
 | Komponente | Beschreibung |
 | --- | --- |
