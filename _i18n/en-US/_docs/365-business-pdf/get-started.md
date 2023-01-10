@@ -25,7 +25,7 @@ For each supported action, such as signing, chaining and stationery, there is a 
 365 business PDF is based on the PDF service of the [365 business API](../../365-business-api). To use it a [registration with the 365 business API](../../365-business-api/registration/) is required. To test 365 business PDF and other services based on the 365 business API you can register for a 30-day trial period free of charge and without obligation.
 There are no costs for you and the trial period ends automatically.
 
-> **How it's done!**<br>Learn more about the [registration](../../365-business-api/registration/) for the 365 business API and start your free and non-binding test phase.
+> **How it's done**<br>Learn more about the [registration](../../365-business-api/registration/) for the 365 business API and start your free and non-binding test phase.
 
 ##### What are the costs of use?
 
