@@ -3,7 +3,7 @@ The Print Agent Service handles the communication between Microsoft Dynamics 365
 Each Print Agent Service is identified using a Client ID (GUID) and monitors the Online status of your shared printers. 
 The agent should be running on a Windows system on which your printers are installed.
 
-> **Good to know!**<br>Print Agent Service is able to work with every printer installed on the client device (e.g. print server).
+> **Good to know**<br>Print Agent Service is able to work with every printer installed on the client device (e.g. print server).
 
 ## Connect printers to Print Agent
 
@@ -13,7 +13,7 @@ All installed printers on the client device are automatically available in the *
 
 Select all printers which you want to make available for printing from Microsoft Dynamics 365 Business Central.
 
-> **Important!**<br>Once a printer is shared please keep in mind, that revoke sharing or delete the printer may result in failing print jobs inside Microsoft Dynamics 365 Business Central.<br>Please be careful managing your shared printers.
+> **Important**<br>Once a printer is shared please keep in mind, that revoke sharing or delete the printer may result in failing print jobs inside Microsoft Dynamics 365 Business Central.<br>Please be careful managing your shared printers.
 
 ## The role of Print Agent Service
 

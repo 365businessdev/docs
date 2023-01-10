@@ -3,7 +3,7 @@ Der Print Agent Service übernimmt die Kommunikation zwischen Microsoft Dynamics
 Jeder Print Agent Service wird anhand einer Client-ID (GUID) identifiziert und überwacht den Online-Status Ihrer freigegebenen Drucker. 
 Der Agent sollte auf einem Windows-System ausgeführt werden, auf dem Ihre Drucker installiert sind.
 
-> **Hinweis!**<br>Der Print Agent Service ist in der Lage, mit jedem auf dem Client-Gerät (z.B. Druckserver) installierten Drucker zu arbeiten.
+> **Hinweis**<br>Der Print Agent Service ist in der Lage, mit jedem auf dem Client-Gerät (z.B. Druckserver) installierten Drucker zu arbeiten.
 
 ## Drucker mit Print Agent verbinden
 
@@ -13,7 +13,7 @@ Alle auf dem Client-Gerät installierten Drucker sind automatisch in der Ansicht
 
 Wählen Sie alle Drucker aus, die Sie für das Drucken aus Microsoft Dynamics 365 Business Central verfügbar machen möchten.
 
-> **Wichtig!**<br>Bedenken Sie bitte, sobald ein Drucker freigegeben ist, dass die Aufhebung der Freigabe oder das Löschen des Druckers zu fehlgeschlagenen Druckaufträgen in Microsoft Dynamics 365 Business Central führen kann.<br>Verwalten Sie Ihre freigegebenen Drucker mit Bedacht.
+> **Wichtig**<br>Bedenken Sie bitte, sobald ein Drucker freigegeben ist, dass die Aufhebung der Freigabe oder das Löschen des Druckers zu fehlgeschlagenen Druckaufträgen in Microsoft Dynamics 365 Business Central führen kann.<br>Verwalten Sie Ihre freigegebenen Drucker mit Bedacht.
 
 ## Die Aufgabe von Print Agent Service
 

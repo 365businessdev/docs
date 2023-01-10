@@ -1,5 +1,4 @@
-> **Note**<br>This feature was added with 365 business Print Agent version 18.1.
-Please check if you have the latest version of 365 business Print Agent to use this feature.
+> **Note**<br>This feature was added with 365 business Print Agent version 18.1.<br>Please check if you have the latest version of 365 business Print Agent to use this feature.
 
 In some environments, e.g. with locally separated branch offices, it can make sense to make printers accessible only for certain users. This can be achieved via the **Printer Access Permissions** by assigning one or more [user groups](https://learn.microsoft.com/en-US/dynamics365/business-central/ui-define-granular-permissions) to a printer.
 

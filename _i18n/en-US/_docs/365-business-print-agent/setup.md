@@ -19,10 +19,17 @@ The Print Agent Setup contains the configuration for the communication between M
 
 ## How to set up Print Agent for Direct Connection Service Mode?
 
+> **Note**<br>The support to connect multiple Print Agent service instances was added with 365 business Print Agent version 18.2.<br>Please check if you have the latest version of 365 business Print Agent to use this feature.
+
  1. Select **Direct Connection** as **Service Mode**.<br>[Learn more](../print-agent-whatis/#architecture)
- 2. Specify **Service URL** (e.g. IP-Address of the hosting Print Agent Service computer).
- 3. Specify **Service Port** (default port `60000`).
- 4. Select **Authenticate with Print Agent Service**.
+ 2. Create new row in **Print Agent Client Setup** list.
+ 3. Specify **Name** of the Print Agent service instance.
+ 4. Specify **Service URL** (e.g. IP-Address of the hosting Print Agent service computer).
+ 5. Specify **Service Port** (default port `60000`).
+ 6. Select **Yes** at the confirmation dialog to authenticate with the Print Agent service instance.<br>![Confirmation dialog for Print Agent service authentication](/assets/images/365-business-print-agent/a35b2150c883bf9145a1c14e555a9e3bdd18c906ddcef52e7b14a4600699a44a.png)
+ 7. Repeat steps 2-6 for additional Print Agent service instances.
+
+![Direct Connection - Print Agent Client Setup](/assets/images/365-business-print-agent/ad7903e49277a20398b0c18fa585552dcfe486312d657bc2c78b7e41f2b3d62b.png) 
 
 ### See also
 

@@ -4,6 +4,12 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-print-agent/
 ---
 
+#### Version 18.2.66.7209
+
+ - Add Print Agent Client Setup for **Direct Connection** service mode.
+ - Add support for multiple Print Agent service instances in **Direct Connection** mode.
+ - Fix permission set `bdev.PRINTAGENT`.
+
 #### Version 18.1.57.6944
 
  - Add `ZPL` emulation support for Zebra printers.
