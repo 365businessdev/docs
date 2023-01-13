@@ -1,5 +1,7 @@
-> This page is not available in the selected language. The page is available in **German**. Please select other language to display.
-> 
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Info:</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
+</div>
+
 ERiC stellt eine C-Bibliothek mit Schnittstellenspezifikation zur Verfügung. ERiC wird von der Steuerverwaltung kostenlos zur Integration in die eigenen Steuer-, Finanz- und Lohnbuchhaltungsprogramme zur Verfügung gestellt.
 
 ERiC plausibilisiert die Steuerdaten und übermittelt diese verschlüsselt über eine sichere Verbindung an die Annahmeserver der Finanzverwaltung. Bei erfolgreicher Rückmeldung der Annahmeserver kann ERiC eine PDF-Datei erstellen.

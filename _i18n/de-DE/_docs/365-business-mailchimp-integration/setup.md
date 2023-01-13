@@ -15,7 +15,9 @@ In der Einrichtung müssen folgende Einstellungen angegeben werden:
 | **Standard Absender E-Mail** | Gibt die Standard Absenderadresse für neue Abonnentenlisten an.|
 | **Standard Sprache** | Gibt den Standard Sprache für neue Abonnentenlisten an.|
 
->**Hinweis**<br>Nach der Hinterlegung des API Schlüssel wird dieser gegen die Mailchimp API geprüft und Ihre Mailchimp Kontoinformationen werden ermittelt.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong>Nach der Hinterlegung des API Schlüssel wird dieser gegen die Mailchimp API geprüft und Ihre Mailchimp Kontoinformationen werden ermittelt.
+</div>
 
 ### Siehe auch
 - [Mailchimp API Schlüssel erstellen](../how-to-create-mailchimp-api-key/)

@@ -29,7 +29,7 @@ After installation, the basic setup and some setup parameters are already set au
 
 There are two permission sets included with 365 business Address Validation:
 
-![Permission Sets](/assets/images/365-business-address-validation/permissions.en-US.png)
+![Permission Sets](/assets/images/365-business-address-validation/permissions.de-DE.png)
 
 With the **ADDRESSVALIDATION** permission set, users are given full access to address validation, prediction, and setup for address validation.
 

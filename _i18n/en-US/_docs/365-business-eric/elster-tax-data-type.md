@@ -1,4 +1,6 @@
-> This page is not available in the selected language. The page is available in **German**. Please select other language to display.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Info:</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
+</div>
 
 Die 365 business ERiC Extension für Microsoft Dynamics 365 Business Central unterstützt aktuell folgende ELSTER Steuerdatenarten:
 
@@ -16,7 +18,7 @@ Die 365 business ERiC Extension für Microsoft Dynamics 365 Business Central unt
 - [ELSTER Steuerdaten](../elster-tax-statements)
 - [Datenart - USt.-Voranmeldung - Dokumentation](../elster-sales-vat-adv-notification/)
 - [Datenart - Zusammenfassende Meldung - Dokumentation](../elster-recapulative-statement/)
-- [Datenart - Dauerfristverlängerung - Dokumentation](../elster-permanent-time-extension/)
+- [Datenart - Dauerfristverlängerung - Dokumentation](../elster-permanent-time-limit-extension/)
 - [Datenart - Antrag auf Fristverlängerung - Dokumentation](../elster-request-for-time-extension/)
 - [Datenart - Umsatzsteuererklärung - Dokumentation](../elster-annual-vat-return/)
 - [Datenart - One-Stop-Shop (OSS) - Dokumentation](../bop-one-stop-shop/)

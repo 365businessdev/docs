@@ -9,8 +9,9 @@ Gerade auch die Berücksichtigung der Abhängigkeiten zwischen Erweiterungen fü
 
 Zusätzlich erschwert wird der Prozess durch sogenannte Runtime Packages, die von Drittanbietern herausgegeben werden und keinen Quellcode enthalten, wodurch Abhängigkeitsanalysen oftmals über klassische Werkzeuge (bspw. PowerShell Skripte) zusätzlich erschwert werden.
 
->**Hinweis**<br>Runtime Packages sind vorkompilierte AL-Erweiterungen, die auf einer spezifischen Plattform Version kompiliert wurden und ggf. auch nicht auf abweichenden Versionen lauffähig sind.
-Runtime Packages können, entgegen klassischer AL-Erweiterungen, nicht einfach entpackt und analysiert werden.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong>Runtime Packages sind vorkompilierte AL-Erweiterungen, die auf einer spezifischen Plattform Version kompiliert wurden und ggf. auch nicht auf abweichenden Versionen lauffähig sind.<br>Runtime Packages können, entgegen klassischer AL-Erweiterungen, nicht einfach entpackt und analysiert werden.
+</div>
 
 Aus diesem Grund ist der 365 business AL Extension Manager entwickelt wurden. Mit dem AL- Extension Manager soll es ermöglicht werden AL-Erweiterungen, egal ob klassische Erweiterungen oder Runtime Packages, über eine benutzerfreundliche und intuitive Oberfläche installieren und deinstallieren zu können. Die Unterscheidung nach Publish, Unpublish, Install, Uninstall, Sync, etc. ist dabei nicht notwendig und wird vom AL-Installer übernommen.
 

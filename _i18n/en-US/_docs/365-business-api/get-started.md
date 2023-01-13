@@ -25,7 +25,9 @@ You can find more information [here](../registration/).
 ##### Sign up for a subscription
 By registering for the 365 business API Cloud, you will receive an API authentication key and your organization will be granted a free, no-obligation 30-day trial period.
 
->Note<br>After the trial period expires, further transactions with 365 business API Cloud services & features are not possible to prevent accidental charges.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong>After the trial period expires, further transactions with 365 business API Cloud services & features are not possible to prevent accidental charges.
+</div>
 
 In order to continue using the 365 business API Cloud services & features after the trial period expires, a subscription is required. We offer various [service plans](https://365businessdev.com/en/cloud/pricing/) for the use of the 365 business API Cloud, which also differ in their scope of functions.
 To get started, after the trial phase, the 365 business API app offers the functions to take out a usage-based subscription (*Pay-As-You-Go*). If you are interested in a special service plan that better covers your requirements, we will be happy to receive your inquiry.

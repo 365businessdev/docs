@@ -1,6 +1,10 @@
-> This page is not available in the selected language. The page is available in **German**. Please select other language to display.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Info:</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
+</div>
 
-> **Hinweis**<br>Mit der 365 business ERiC Version 17.10 wurde die Unterstützung für One-Stop-Shop (OSS) hinzugefügt.<br>Bitte prüfen Sie, ob Sie über die aktuellste Version von 365 business ERiC verfügen um diese Funktion zu verwenden.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong> Mit der 365 business ERiC Version 17.10 wurde die Unterstützung für One-Stop-Shop (OSS) hinzugefügt.<br>Bitte prüfen Sie, ob Sie über die aktuellste Version von 365 business ERiC verfügen um diese Funktion zu verwenden.
+</div>
 
 Der One-Stop-Shop (OSS) und die Fernverkäufe ab dem 01.07.2021 sind die größte Reform der Umsatzsteuer für den EU-Onlinehandel und sollen den innergemeinschaftlichen Handel endlich vereinfachen. Die Besteuerung erfolgt ab einem Gesamtwert von 10.000 € im Bestimmungsland, die bisherigen Lieferschwellen entfallen. Die Mehrwertsteuer muss nur noch bei einer zentralen Registrierungsstelle pro Land angemeldet werden, Umsatzsteueranmeldungen in einzelnen Ländern werden damit überflüssig.
 
@@ -10,7 +14,9 @@ Der One-Stop-Shop (OSS) und die Fernverkäufe ab dem 01.07.2021 sind die größt
 
 Die Meldung für One-Stop-Shop (OSS) erfolgt über das [**Mein BOP**](https://www.elster.de/bportal/login/softpse) Onlineportal des Bundeszentralamt für Steuern (BZSt). Die elektronische Meldung erfolgt dabei über eine OSS CSV-Datei, die die relevanten Informationen enthält.
 
-> **Gut zu wissen**<br>Der Upload der Daten, mittels CSV-Datei, im Mein BOP Onlineportal führt noch nicht zur Übermittlung der Daten an das BZSt. Es besteht nach dem Upload die Möglichkeit, die Daten einzeln zu überprüfen und bei Bedarf zu ändern.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Gut zu wissen:</strong> Der Upload der Daten, mittels CSV-Datei, im Mein BOP Onlineportal führt noch nicht zur Übermittlung der Daten an das BZSt. Es besteht nach dem Upload die Möglichkeit, die Daten einzeln zu überprüfen und bei Bedarf zu ändern.
+</div>
 
 Da es zum aktuellen Zeitpunkt keine Unterstützung der elektronischen Übermittlung durch die ELSTER Rich Client (ERiC) Bibliothek gibt, ist es leider nicht möglich die Daten **direkt** aus Microsoft Dynamics 365 Business Central zu übermitteln.
 Stattdessen muss die CSV-Datei manuell im Mein BOP Onlineportal hochgeladen werden.
@@ -25,7 +31,9 @@ Die Berechnung der One-Stop-Shop (OSS) Werte erfolgt auf Basis der in der [ELSTE
 
 ![OSS MwSt.-Abrechnung](/assets/images/365-business-eric/cacd50a60a6113e35c9371fb5e86bdc83d421bc2f9fd4e8329bc7810d526da60.png)
 
-> **Gut zu wissen**<br>Es ist empfehlenswert für jedes EU-Mitgliedsland eine entsprechende MwSt.-Geschäftsbuchungsgruppe (z.B. `B2C-AT` für Privatverkäufe nach Österreich) anzulegen und entsprechende Sachkonten für die Verbuchung zu verwenden.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Gut zu wissen:</strong> Es ist empfehlenswert für jedes EU-Mitgliedsland eine entsprechende MwSt.-Geschäftsbuchungsgruppe (z.B. <code>B2C-AT</code> für Privatverkäufe nach Österreich) anzulegen und entsprechende Sachkonten für die Verbuchung zu verwenden.
+</div>
 
 Für die Berechnung werden alle MwSt.-Abrechnungszeilen mit der Art **MwSt.-Posten-Summe**, unabhängig von Ihrer Rubrikennr. analysiert. Die zu Grunde liegenden MwSt.-Posten werden anschließend, abhängig von Ihrem Steuersatz, der USt. ID-Nr. und dem Länder ISO-Code, gruppiert und als ELSTER Steuerdatenzeile berechnet.
 

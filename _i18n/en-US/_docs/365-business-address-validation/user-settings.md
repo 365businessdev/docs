@@ -1,6 +1,8 @@
 User settings are used to specify or adjust the behavior of the address validation per user.
 
-> **Note**<br>As administrator, with the permission set `SUPER`, you can change or define global settings and settings of other users.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong> As administrator, with the permission set <code>SUPER</code>, you can change or define global settings and settings of other users.
+</div>
 
 ![User Settings](/assets/images/365-business-address-validation/user-settings.en-US.png)
 

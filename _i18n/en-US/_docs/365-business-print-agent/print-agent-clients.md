@@ -1,6 +1,8 @@
 Sometimes it can be helpful to see which Print Agent Services are registered and online for your Tenant. For example in case of an unavailable printer, to perform basic troubleshoot it's helpful to first check if the associated Print Agent Service is online.
 
-> **Good to know**<br>You'll find the name of the Print Agent Service, specified while [Print Agent Service Setup](../print-agent-service-installation/), in the **Printers** page.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Good to know:</strong> You'll find the name of the Print Agent Service, specified while <a href="../print-agent-service-installation/">Print Agent Service Setup</a>, in the <b>Printers</b> page.
+</div>
 
 ## How do I view the list of Print Agents?
 
@@ -10,5 +12,7 @@ Sometimes it can be helpful to see which Print Agent Services are registered and
 
 ![Print Agents](/assets/images/365-business-print-agent/c982001222cfac7a39a3afe60ad8e9df282ed1fee0a6b8fdf36b8983db709b82.png)  
 
-> **Good to know**<br>Whenever an offline printer is acknowledged in Microsoft Dynamics 365 Business Central a notification will appear in several places to inform you about possible incidents. From this notification, by selecting the **Open Print Agents** action you can directly open the list of Print Agent's.<br>![Offline Printer Notification](/assets/images/365-business-print-agent/963a4f085cf47531b7d709717d63ff7de1138bd64bc34fc0d5c1215156b8e087.png)  
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Good to know:</strong> Whenever an offline printer is acknowledged in Microsoft Dynamics 365 Business Central a notification will appear in several places to inform you about possible incidents. From this notification, by selecting the <b>Open Print Agents</b> action you can directly open the list of Print Agent's.<br><img src="/assets/images/365-business-print-agent/963a4f085cf47531b7d709717d63ff7de1138bd64bc34fc0d5c1215156b8e087.png">  
+</div>
 

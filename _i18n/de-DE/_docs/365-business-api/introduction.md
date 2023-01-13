@@ -12,7 +12,9 @@ Aktuell werden folgende 365 business Apps angeboten:
 | [365 business Barcode](../365-business-barcode) | Kodieren Sie 1D- und 2D-Barcode für die Verwendung in Berichten u.v.m.<br>Dekodieren Sie empfangene 1D- und 2D-Barcode-Bilder und extrahieren Sie Informationen daraus. |
 | [365 business Address Validation](../365-business-address-validation) | Validieren und vervollständigen Sie Ihre Adressdaten in Business Central. |
 
-> Hinweis<br>Zusätzliche Informationen zu weiteren 365 business development Apps finden Sie in der Navigationsleiste links oder auf unserer Website [365businessdev.com](365businessdev.com).
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong>Zusätzliche Informationen zu weiteren 365 business development Apps finden Sie in der Navigationsleiste links oder auf unserer Website <a href="https://365businessdev.com">365businessdev.com</a>.
+</div>
 
 Zusätzlich führt Sie diese App durch den Registrierungsprozess, um eine Evaluierungslizenz für die kostenlose Nutzung der 365 business API Dienste zu erhalten und bietet Ihnen die Möglichkeit, Ihre Lizenz zu einem uneingeschränkten Pay-As-You-Go-Abonnement zu erweitern.
 

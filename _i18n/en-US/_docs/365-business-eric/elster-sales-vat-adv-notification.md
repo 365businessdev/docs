@@ -1,4 +1,6 @@
-> This page is not available in the selected language. The page is available in **German**. Please select other language to display.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Info:</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
+</div>
 
 Umsatzsteuervoranmeldungen müssen von Unternehmern monatlich oder vierteljährlich abgegeben werden, um eine bereits entstandene Umsatzsteuer an das Finanzamt zu melden und abzuführen bzw. bei einem Vorsteuerüberschuss erstattet zu bekommen.
 
@@ -36,7 +38,7 @@ Zusätzlich zu den oben genannten Einstellungen können Sie folgende Optionen se
 - [ELSTER Steuerdaten](../elster-tax-statements)
 - [MwSt.-Abrechnung Einrichtung](../vat-statement-setup/)
 - [Datenart - Zusammenfassende Meldung - Dokumentation](../elster-recapulative-statement/)
-- [Datenart - Dauerfristverlängerung - Dokumentation](../elster-permanent-time-extension/)
+- [Datenart - Dauerfristverlängerung - Dokumentation](../elster-permanent-time-limit-extension/)
 - [Datenart - Antrag auf Fristverlängerung - Dokumentation](../elster-request-for-time-extension/)
 - [Datenart - Umsatzsteuererklärung - Dokumentation](../elster-annual-vat-return/)
  - [Umsatzsteuerliche Organschaft](../opp-affiliation/)

@@ -1,6 +1,10 @@
-> This page is not available in the selected language. The page is available in **German**. Please select other language to display.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Info:</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
+</div>
 
-> **Hinweis**<br>Die Berechnung und Übermittlung von Umsatzsteuererklärungen wurden mit der 365 business ERiC Version 17.6 eingeführt.<br>Bitte prüfen Sie, ob Sie über die aktuellste Version von 365 business ERiC verfügen.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong> Die Berechnung und Übermittlung von Umsatzsteuererklärungen wurden mit der 365 business ERiC Version 17.6 eingeführt.<br>Bitte prüfen Sie, ob Sie über die aktuellste Version von 365 business ERiC verfügen.
+</div>
 
 Die Umsatzsteuererklärung hat jedes Unternehmen bzw. jeder umsatzsteuerpflichtige und selbständig Tätige einmal im Jahr zu erstellen. Bei der Umsatzsteuererklärung werden alle Formen des entgeltlichen Tätigwerdens eines Unternehmens erfasst. Umsatzsteuern fallen sowohl auf Verkäufe als auch auf Dienstleistungen an. Die Abgabefrist ist der 31. Mai des Folgejahres.
 
@@ -33,13 +37,13 @@ In der aktuellen Version der USt.-Erklärung für 365 business ERiC gibt es funk
 | Funktion | Beschreibung |
 | --- | --- |
 | Anlagen | Die Abgabe von Anlagen (bspw. Anlage UN) wird aktuell nicht unterstützt. |
-| 2. Zeitraum | Die Angabe vom "2. Zeitraum" wird aktuell nicht unterstützt. |
+| 2. Zeitraum | Die Angabe vom "2. Zeitraum" (Vordruckzeile 21) wird aktuell nicht unterstützt. |
 | Ergänzende Angaben | Die Angabe von ergänzenden Informationen in einem separaten Dokument mit der Überschrift "Ergänzende Angaben zur Steuererklärung" (Vordruckzeile 27) wird aktuell nicht unterstützt. |
 
 ### Siehe auch
 - [ELSTER Steuerdaten](../elster-tax-statements)
 - [Datenart - Umsatzsteuervoranmeldung - Dokumentation](../elster-sales-vat-adv-notification/)
 - [Datenart - Zusammenfassende Meldung - Dokumentation](../elster-recapulative-statement/)
-- [Datenart - Dauerfristverlängerung - Dokumentation](../elster-permanent-time-extension/)
+- [Datenart - Dauerfristverlängerung - Dokumentation](../elster-permanent-time-limit-extension/)
 - [Datenart - Antrag auf Fristverlängerung - Dokumentation](../elster-request-for-time-extension/)
 - [New and Planned](../../new-and-planned/)

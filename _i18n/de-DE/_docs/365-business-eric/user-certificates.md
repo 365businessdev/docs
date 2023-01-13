@@ -1,10 +1,14 @@
-> **Hinweis**<br>Mit der 365 business ERiC Version 17.8 wurden zusätzlich zum Organisationszertifikat, das in der ELSTER Einrichtung hinterlegt werden kann, sogenannte Benutzerzertifikate eingeführt.<br>Bitte prüfen Sie, ob Sie über die aktuellste Version von 365 business ERiC verfügen.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong> Mit der 365 business ERiC Version 17.8 wurden zusätzlich zum Organisationszertifikat, das in der ELSTER Einrichtung hinterlegt werden kann, sogenannte Benutzerzertifikate eingeführt.<br>Bitte prüfen Sie, ob Sie über die aktuellste Version von 365 business ERiC verfügen.
+</div>
 
 Wenn verschiedene Anwender die Steuerdatenmeldungen an das Finanzamt vornehmen und die Anwender über persönliche Zertifikate verfügen, so kann das Zertifikat als Benutzerzertifikat hinterlegt werden. Benutzerzertifikate werden dabei über die **ELSTER Einrichtung**, durch den Aufruf **Benutzerzertifikate** in der Gruppe **Zertifikat**, verwaltet.
 
 ![Aktion - Benutzerzertifikate](/assets/images/365-business-eric/user-certificates-action.png)
 
-> **Hinweis**<br>Benutzerzertifikate werden additiv zum Organisationszertifikat, dass in der [ELSTER Einrichtung](../setup/) hinterlegt wird, verwendet.<br>Sofern für den übermittelnden Benutzer kein Benutzerzertifikat existiert, verwendet 365 business ERiC das Organisationszertifikat für die Übermittlung.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong> Benutzerzertifikate werden additiv zum Organisationszertifikat, dass in der <a href="../setup/">ELSTER Einrichtung</a> hinterlegt wird, verwendet.<br>Sofern für den übermittelnden Benutzer kein Benutzerzertifikat existiert, verwendet 365 business ERiC das Organisationszertifikat für die Übermittlung.
+</div>
 
 In der Ansicht **ELSTER Benutzerzertifikate** finden Sie die Liste alle hinterlegten Benutzerzertifikate für die ELSTER Übermittlung.
 

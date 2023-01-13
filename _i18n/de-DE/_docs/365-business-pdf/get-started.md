@@ -25,11 +25,15 @@ Für jede unterstützte Aktion, wie Signierung, Verkettung und Briefpapier, gibt
 365 business PDF basiert auf dem PDF-Dienst der [365 business API](../../365-business-api). Zur Verwendung wird eine [Registrierung bei der 365 business API](../../365-business-api/registration/) benötigt. Um 365 business PDF und andere auf der 365 business API basierende Dienste zu testen können Sie sich kostenlos und unverbindlich für eine 30-tägige Testphase registrieren.
 Es entstehen Ihnen keinerlei Kosten und die Testphase endet automatisch.
 
-> **So wird's gemacht**<br>Erfahren Sie mehr über die [Registrierung](../../365-business-api/registration/) für die 365 business API und starten Sie Ihre kostenlose und unverbindliche Testphase.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>So wird's gemacht:</strong> Erfahren Sie mehr über die <a href="../../365-business-api/registration/">Registrierung</a> für die 365 business API und starten Sie Ihre kostenlose und unverbindliche Testphase.
+</div>
 
 ##### Welche Kosten entstehen bei der Nutzung?
 
 Die 365 business API Dienste werden, nach Ablauf der kostenlosen und unverbindlichen Testphase, nutzungsbasiert abgerechnet. Die Nutzung wird dabei in sogenannten *Transaktionen* gemessen, wobei eine *Transaktion* eine erfolgreiche Nutzung des API-Dienst entspricht.
 Wenn Sie bspw. bei 1.000 Dokumenten das Briefpapier anwenden lassen, liegen die Kosten bei 100,- Euro (Stand: Mai 2022)
 
-> **Hinweis**<br>Die aktuellen Preise können Sie unserer [Website](https://365businessdev.com/cloud/preise/pdf/) entnehmen.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong> Die aktuellen Preise können Sie unserer <a href="https://365businessdev.com/cloud/preise/pdf/">Website</a> entnehmen.
+</div>

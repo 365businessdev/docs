@@ -1,4 +1,6 @@
-> This page is not available in the selected language. The page is available in **German**. Please select other language to display.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Info:</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
+</div>
 
 Mit der 365 business ERiC App für Microsoft Dynamics 365 Business Central können Sie verschiedene [ELSTER Steuerdatenarten](elster-tax-data-type/) direkt an die deutschen Steuerbehörden übertragen.
 

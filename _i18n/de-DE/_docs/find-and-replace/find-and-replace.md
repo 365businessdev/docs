@@ -6,7 +6,9 @@ Im Dialog-Fenster `Suchen & Ersetzen` können Sie die Parameter für die Durchf�
 
 Im Bereich **Datensatz** wird die Tabelle (z.B. Debitor) und die vorgefilterte Anzahl an Datensätzen angezeigt.
 
-> **Hinweis**<br>Aktuell gesetzte Filter in der aufrufenden Ansicht (z.B. Debitor Übersicht) werden beim Aufruf von Suchen & Ersetzen berücksichtigt. Somit können Sie bereits ein Vorauswahl für die zu verarbeitenden Datensätze treffen.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong> Aktuell gesetzte Filter in der aufrufenden Ansicht (z.B. Debitor Übersicht) werden beim Aufruf von Suchen & Ersetzen berücksichtigt. Somit können Sie bereits ein Vorauswahl für die zu verarbeitenden Datensätze treffen.
+</div>
 
 #### Ersetzen
 
@@ -25,6 +27,8 @@ Im Bereich **Optionen** haben Sie die Möglichkeit zusätzliche Einstellungen f�
 
 #### Überprüfung
 
-> **Warnung**<br>Wir empfehlen die Einstellungen im Bereich Überprüfung **nicht** zu verändern, da dies unter Umständen zu Inkonsistenzen führen kann.<br><br>Bitte konsultieren Sie Ihren Microsoft Dynamics Partner bevor Sie Datenänderungen ohne Überprüfung/Validierung durchführen.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Warnung:</strong> Wir empfehlen die Einstellungen im Bereich Überprüfung <b>nicht</b> zu verändern, da dies unter Umständen zu Inkonsistenzen führen kann.<br><br>Bitte konsultieren Sie Ihren Microsoft Dynamics Partner bevor Sie Datenänderungen ohne Überprüfung/Validierung durchführen.
+</div>
 
 Im Bereich **Überprüfung** kann die Validierung von Datensatz- oder Feldänderungen deaktiviert werden.

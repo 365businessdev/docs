@@ -1,4 +1,6 @@
-> This page is not available in the selected language. The page is available in **German**. Please select other language to display.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Info:</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
+</div>
 
 Mit dem Antrag auf Fristverlängerung möchte ein Unternehmer erreichen, dass sein Finanzamt ihm eine Verlängerung der Frist zur Abgabe einer Steuererklärung gewährt. Dabei kann der Antrag auf Fristverlängerung für folgende Steuerarten beantragt werden:
 - Einkommensteuererklärung
@@ -15,7 +17,9 @@ Mit dem Antrag auf Fristverlängerung möchte ein Unternehmer erreichen, dass se
 
 Beim Antrag auf Fristverlängerung muss eine Begründung, sowie ein Datum für die gewünschte Dauer der Fristverlängerung angegeben werden.
 
-> **Hinweis**<br>Elektronisch abgegebene Anträge auf Fristverlängerung werden standardmäßig maschinell geprüft.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong> Elektronisch abgegebene Anträge auf Fristverlängerung werden standardmäßig maschinell geprüft.
+</div>
 
 #### So erstellen Sie einen Antrag auf Fristverlängerung
 1. Wählen Sie **ELSTER Steuerdaten** in der Suche von Business Central.
@@ -29,7 +33,9 @@ Beim Antrag auf Fristverlängerung muss eine Begründung, sowie ein Datum für d
 9. Geben Sie im Bereich **Zeile** eine Begründung für den Antrag auf Fristverlängerung ein. Hierbei können Sie mehrere Zeilen verwenden.
 10. Klicken Sie auf **XML-Datei übertragen**, um die Steuerdatei einzureichen und elektronisch an die deutschen Steuerbehörden zu übermitteln.
 
-> **Wichtig**<br>Für die Steuerdatenart **Antrag auf Fristverlängerung** findet keine automatisierte Berechnung statt. Stattdessen müssen individuelle Begründungen im Bereich **Zeile** angegeben werden.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Wichtig:</strong> Für die Steuerdatenart <b>Antrag auf Fristverlängerung</b> findet keine automatisierte Berechnung statt. Stattdessen müssen individuelle Begründungen im Bereich <b>Zeile</b> angegeben werden.
+</div>
 
 #### Weitere Optionen
 Zusätzlich zu den oben genannten Einstellungen können Sie folgende Optionen setzen:
@@ -42,5 +48,5 @@ Zusätzlich zu den oben genannten Einstellungen können Sie folgende Optionen se
 - [ELSTER Steuerdaten](../elster-tax-statements)
 - [Datenart - USt.-Voranmeldung - Dokumentation](../elster-sales-vat-adv-notification/)
 - [Datenart - Zusammenfassende Meldung - Dokumentation](../elster-recapulative-statement/)
-- [Datenart - Dauerfristverlängerung - Dokumentation](../elster-permanent-time-extension/)
+- [Datenart - Dauerfristverlängerung - Dokumentation](../elster-permanent-time-limit-extension/)
 - [Datenart - Umsatzsteuererklärung - Dokumentation](../elster-annual-vat-return/)

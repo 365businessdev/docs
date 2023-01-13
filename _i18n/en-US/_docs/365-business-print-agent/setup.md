@@ -21,7 +21,9 @@ The Print Agent Setup contains the configuration for the communication between M
 
 ## How to set up Print Agent for Direct Connection Service Mode?
 
-> **Note**<br>The support to connect multiple Print Agent service instances was added with 365 business Print Agent version 18.2.<br>Please check if you have the latest version of 365 business Print Agent to use this feature.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong> The support to connect multiple Print Agent service instances was added with 365 business Print Agent version 18.2.<br>Please check if you have the latest version of 365 business Print Agent to use this feature.
+</div>
 
  1. Select **Direct Connection** as **Service Mode**.<br>[Learn more](../print-agent-whatis/#architecture)
  2. Create new row in **Print Agent Client Setup** list.

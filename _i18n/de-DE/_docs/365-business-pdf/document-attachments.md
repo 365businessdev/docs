@@ -7,8 +7,10 @@ Die Beleganhänge finden sie über die Aktion **Beleganhänge**. Hier können si
 1. Öffnen Sie den Beleg (z.B. Verkaufsangebot).
 2. Klicken Sie **Angebot**.
 3. Klicken Sie auf **Beleganhänge**.
-4. Wählen Sie im Feld **Art** aus ob es sich um einen Anhang oder den eigentlichen Beleg handelt.
-   >**Gut zu wissen**<br>Wenn Sie keine Zeile mit der Art **Beleg** erfassen, wird der eigentliche Beleg automatisch an das Ende des Dokuments angehangen.
+4. Wählen Sie im Feld **Art** aus ob es sich um einen Anhang oder den eigentlichen Beleg handelt.<br>
+   <div class="alert alert-notice">
+       <i class="fa-solid fa-notes"></i> <strong>Gut zu wissen:</strong>Wenn Sie keine Zeile mit der Art **Beleg** erfassen, wird der eigentliche Beleg automatisch an das Ende des Dokuments angehangen.
+   </div>
 5. Wählen Sie die PDF-Datei aus, die Sie anhängen möchten.
 
 ![365 business PDF - Beleganhänge](/assets/images/365-business-pdf/365businesspdf-doc-attachments.gif)

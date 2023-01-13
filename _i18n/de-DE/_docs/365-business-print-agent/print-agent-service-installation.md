@@ -7,15 +7,21 @@
  - Internetverbindung.
  - [365 business Print Agent Service Installer](https://365businessapi.com/api/SoftwareDownload?AppId=c2e7d99c-d3c6-4ecc-9c6b-7be4048b41a9)
 
-> **Wichtig**<br>Wenn Sie den Print Agent Service im Direktverbindungsmodus verwenden, stellen Sie bitte sicher, dass der Service-Port über das Internet von Ihrem Microsoft Dynamics 365 Business Central-Tentant verfügbar ist.<br>Wir empfehlen dringend, Print Agent Cloud für SaaS-Umgebungen von Microsoft Dynamics 365 Business Central zu verwenden.
+<div class="alert alert-notice">
+    <i class="fa-solid fa-notes"></i> <strong>Wichtig:</strong>Wenn Sie den Print Agent Service im Direktverbindungsmodus verwenden, stellen Sie bitte sicher, dass der Service-Port über das Internet von Ihrem Microsoft Dynamics 365 Business Central-Tentant verfügbar ist.<br>Wir empfehlen dringend, Print Agent Cloud für SaaS-Umgebungen von Microsoft Dynamics 365 Business Central zu verwenden.
+</div>
 
-> **Hinweis**<br>Um Ihren Print Agent Service zu aktualisieren, laden Sie die [neuste Version](https://365businessapi.com/api/SoftwareDownload?AppId=c2e7d99c-d3c6-4ecc-9c6b-7be4048b41a9) herunter. Nach der Installation werden Ihre Einstellungen wiederhergestellt. 
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong> Um Ihren Print Agent Service zu aktualisieren, laden Sie die <a href="https://365businessapi.com/api/SoftwareDownload?AppId=c2e7d99c-d3c6-4ecc-9c6b-7be4048b41a9">neuste Version</a> herunter. Nach der Installation werden Ihre Einstellungen wiederhergestellt. 
+</div>
 
 ## Bevor Sie starten
 
 Bitte [lesen Sie den Artikel](../print-agent-whatis/) um herauszufinden, welchen Dienstmodus Sie für Ihr Szenario wählen sollten.
 
-> **Bemerkung**<br>Die Freigabe von Netzwerkdruckern in 365 business Print Agent kann zu Zeitüberschreitungen führen, da die Antwort des tatsächlichen Druckers länger dauern kann. Dies ist ein häufiges Problem bei der Windows-Druckerverwaltung und kann unter Umständen nicht durch 365 business Print Agent gelöst werden.<br><br>Wir empfehlen dringend, 365 business Print Agent direkt auf Druckservern zu installieren, um lokal installierte Drucker freizugeben, anstatt Drucker von einem entfernten Druckserver freizugeben.
+<div class="alert alert-notice">
+    <i class="fa-solid fa-notes"></i> <strong>Bemerkung:</strong> Die Freigabe von Netzwerkdruckern in 365 business Print Agent kann zu Zeitüberschreitungen führen, da die Antwort des tatsächlichen Druckers länger dauern kann. Dies ist ein häufiges Problem bei der Windows-Druckerverwaltung und kann unter Umständen nicht durch 365 business Print Agent gelöst werden.<br><br>Wir empfehlen dringend, 365 business Print Agent direkt auf Druckservern zu installieren, um lokal installierte Drucker freizugeben, anstatt Drucker von einem entfernten Druckserver freizugeben.
+</div>
 
 ## Installation von Print Agent Service
 
@@ -58,7 +64,9 @@ Um Print Agent Service und Ihren Microsoft Dynamics 365 Business Central-Tenant 
 
 ## Print Agent Service für Direct Connection Service Mode einrichten
 
-> **Wichtig**<br>Bitte stellen Sie sicher, dass die Service-URL und der Service-Port in Ihrer Microsoft Dynamics 365 Business Central-Umgebung verfügbar sind.<br>Wir empfehlen dringend, Print Agent Cloud für SaaS-Umgebungen von Microsoft Dynamics 365 Business Central zu verwenden.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Wichtig:</strong> Bitte stellen Sie sicher, dass die Service-URL und der Service-Port in Ihrer Microsoft Dynamics 365 Business Central-Umgebung verfügbar sind.<br>Wir empfehlen dringend, Print Agent Cloud für SaaS-Umgebungen von Microsoft Dynamics 365 Business Central zu verwenden.
+</div>
 
  1. Starten Sie die **365 business Print Agent** Applikation.
  2. Wählen Sie **Konfiguration**.

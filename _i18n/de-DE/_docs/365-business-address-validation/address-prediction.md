@@ -28,7 +28,9 @@ Die zusätzlichen Informationen sind abhängig von den tatsächlich zur Verfügu
 
 In der [Einrichtung für Adressvalidierung](../setup/) kann die **Max. Anzahl der Vorhersagen** konfiguriert werden. Der Standardwert liegt bei vier, kann aber beliebig angepasst werden.
 
-> **Tipp**<br>Über die Aktion *Mehr laden...* können alle weiteren Vorhersagen angezeigt werden.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Tipp:</strong> Über die Aktion <i>Mehr laden...</i> können alle weiteren Vorhersagen angezeigt werden.
+</div>
 
 ### Siehe auch 
  - [Einrichtung für Adressvalidierung](setup/)

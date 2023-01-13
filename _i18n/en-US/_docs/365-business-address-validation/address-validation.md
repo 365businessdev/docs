@@ -10,7 +10,9 @@ The address validation can be executed in different ways:
  - Manual validation via the action *Check address* and
  - Batch processing execution (e.g. *Check contact addresses*).
 
-> **Note**<br>The automatic validation on address change is only executed if the [address prediction](../address-prediction/) was not used to select the address.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong> The automatic validation on address change is only executed if the <a href="../address-prediction/">address prediction</a> was not used to select the address.
+</div>
 
 #### How can I check the address data before they are applied?
 

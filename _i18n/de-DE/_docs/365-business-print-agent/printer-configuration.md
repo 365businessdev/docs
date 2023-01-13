@@ -2,7 +2,9 @@ Druckereinstellungen werden als _Drucker_ in Microsoft Dynamics 365 Business Cen
 
 Außerdem können Sie weitere Konfigurationen für verschiedene Szenarien wie Farb- und/oder Duplexdruck erstellen.
 
-> **Wichtig**<br>Das **Code** Feld einer Druckereinstellung wird dem Benutzer über die **Druckerauswahl** und an verschiedenen anderen Stellen in Microsoft Dynamics 365 Business Central angezeigt.<br>Achten Sie darauf, dass Sie einen benutzerfreundlichen Namen für die Druckereinstellung wählen.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Wichtig:</strong> Das <b>Code</b> Feld einer Druckereinstellung wird dem Benutzer über die <b>Druckerauswahl</b> und an verschiedenen anderen Stellen in Microsoft Dynamics 365 Business Central angezeigt.<br>Achten Sie darauf, dass Sie einen benutzerfreundlichen Namen für die Druckereinstellung wählen.
+</div>
 
 ![Druckereinstellung](/assets/images/365-business-print-agent/1b3143accd75d67305341ac9a314b681aa754fe966df87c434e0d240752862a8.png)  
 
@@ -45,7 +47,9 @@ Um die Direktdruckfunktion optimal nutzen zu können, sollten Sie nun die Drucke
  3. Geben Sie **Berichts-ID** an oder lassen Sie das Feld leer, um den Drucker (die Konfiguration) für jeden Bericht zuzuweisen.
  4. Wählen Sie **Druckername** aus dem Dropdown-Menü aus.
 
-> **Hinweis**<br>Microsoft Dynamics 365 Business Central bietet eine zusätzliche Übersicht, die **Druckerverwaltung**. Hier finden Sie alle im Print Agent aktivierten Drucker (Konfigurationen). Von hier aus können Sie die Druckereinstellung einfach öffnen oder den ausgewählten Drucker (Konfiguration) als Standard festlegen.<br>![picture 7](../../../../assets/images/365-business-print-agent/f66b313410695f3a550f126155fc3b9d6abf9c663c5840e9d2c1887948fbfd41.png)
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong> Microsoft Dynamics 365 Business Central bietet eine zusätzliche Übersicht, die <b>Druckerverwaltung</b>. Hier finden Sie alle im Print Agent aktivierten Drucker (Konfigurationen). Von hier aus können Sie die Druckereinstellung einfach öffnen oder den ausgewählten Drucker (Konfiguration) als Standard festlegen.<br><img src="/assets/images/365-business-print-agent/f66b313410695f3a550f126155fc3b9d6abf9c663c5840e9d2c1887948fbfd41.png">
+</div>
 
 ### Siehe auch
 

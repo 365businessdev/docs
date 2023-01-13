@@ -13,25 +13,32 @@ After installation, if the 365 business API was not already installed, the Welco
 After the registration is complete, you will receive your personal API authentication key, which is required to communicate with the 365 business API.<br>
 [Learn more](../../365-business-api/registration/)
 
-> **Note**<br>No further setup of 365 business Barcode is necessary.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong> No further setup of 365 business Barcode is necessary.
+</div>
 
 ## Step 2: Set up barcode settings
 
-> **Good to know**<br>During the installation of 365 business Barcode some standard barcode types are added automatically. You can use, modify or delete them directly.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Good to know:</strong> During the installation of 365 business Barcode some standard barcode types are added automatically. You can use, modify or delete them directly.
+</div>
 
 To set up barcode settings, open the **Barcode Settings** page in Microsoft Dynamics 365 Business Central.
 
  1. Click **New** to create a new barcode setting.
  2. Select a **Code**. 
  3. Select the type of barcode you want to use (for example, `QR Code`) in **Barcode symbology** field.
-
->**Note**<br>While setting up the barcode settings, the preview of the barcode with a sample value is continuously displayed.
-
  4. Select a **description** for the barcode setting.
  5. Specify the desired height (px).
  6. Click in the **Color** and/or **Background color** field to define colors different from the default. _(optional)_<br>![Color Picker](/assets/images/365-business-barcode/5c299f7b1b93a3b1b6c71d46c162491a9264e72fb4d66f9e435a182684624243.png)
 
-> **Good to know**<br>Depending on the selected **barcode symbology** further options are available.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong>While setting up the barcode settings, the preview of the barcode with a sample value is continuously displayed.
+</div>
+
+<div class="alert alert-notice">
+    <i class="fa-solid fa-notes"></i> <strong>Good to know:</strong>Depending on the selected <b>barcode symbology</b> further options are available.
+</div>
 
 ## Step 2.1: Enable GS1-Format _(optional)_
 

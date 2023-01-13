@@ -17,7 +17,9 @@ Dieser Fehler tritt auf, wenn Sonderzeichen in Feldern enthalten sind. Prüfen S
 
 Der hinterlegte Zertifikat PIN ist nicht korrekt (siehe [Einrichtung](../setup/)).
 
-> **Hinweis**<br>Die Liste der häufigen Validierungsmeldungen wird regelmäßig aktualisiert um Ihnen direkt Lösungsvorschläge zu bieten. Sollte Ihre Meldung hier nicht aufgelistet sein und Sie benötigen Unterstützung, wenden Sie sich bitte an support@365businessdev.de.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong> Die Liste der häufigen Validierungsmeldungen wird regelmäßig aktualisiert um Ihnen direkt Lösungsvorschläge zu bieten. Sollte Ihre Meldung hier nicht aufgelistet sein und Sie benötigen Unterstützung, wenden Sie sich bitte an <a href="mailto:support@365businessdev.de">support@365businessdev.de</a>.
+</div>
 
 
 ### Siehe auch

@@ -14,7 +14,7 @@ Die 365 business ERiC Extension für Microsoft Dynamics 365 Business Central unt
 - [ELSTER Steuerdaten](../elster-tax-statements)
 - [Datenart - USt.-Voranmeldung - Dokumentation](../elster-sales-vat-adv-notification/)
 - [Datenart - Zusammenfassende Meldung - Dokumentation](../elster-recapulative-statement/)
-- [Datenart - Dauerfristverlängerung - Dokumentation](../elster-permanent-time-extension/)
+- [Datenart - Dauerfristverlängerung - Dokumentation](../elster-permanent-time-limit-extension/)
 - [Datenart - Antrag auf Fristverlängerung - Dokumentation](../elster-request-for-time-extension/)
 - [Datenart - Umsatzsteuererklärung - Dokumentation](../elster-annual-vat-return/)
 - [Datenart - One-Stop-Shop (OSS) - Dokumentation](../bop-one-stop-shop/)

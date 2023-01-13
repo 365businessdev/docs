@@ -24,7 +24,9 @@ Telemetry gathers following data:
 | severityLevel | Verbosity (e.g. `Error`). |
 | sessionId | Unique session id (`GUID`). |
 
-> Info<br>Additional dimensions may be sent automatically by Microsoft Dynamics 365 Business Central.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong>Additional dimensions may be sent automatically by Microsoft Dynamics 365 Business Central.
+</div>
 
 ##### Custom dimensions
 In addition, some custom dimensions, depending on the verbosity, are sent:

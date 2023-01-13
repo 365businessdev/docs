@@ -7,15 +7,21 @@
  - An internet connection.
  - [365 business Print Agent Service Installer](https://365businessapi.com/api/SoftwareDownload?AppId=c2e7d99c-d3c6-4ecc-9c6b-7be4048b41a9)
 
-> **Important**<br>If you use Print Agent Service in Direct Connection mode please make sure the Service Port is available through internet from your Microsoft Dynamics 365 Business Central tenant.<br>We strongly recommend to use Print Agent Cloud for SaaS environments of Microsoft Dynamics 365 Business Central.
+<div class="alert alert-notice">
+    <i class="fa-solid fa-notes"></i> <strong>Important:</strong>If you use Print Agent Service in Direct Connection mode please make sure the Service Port is available through internet from your Microsoft Dynamics 365 Business Central tenant.<br>We strongly recommend to use Print Agent Cloud for SaaS environments of Microsoft Dynamics 365 Business Central.
+</div>
 
-> **Note**<br>To update your Print Agent Service download and install the [latest version](https://365businessapi.com/api/SoftwareDownload?AppId=c2e7d99c-d3c6-4ecc-9c6b-7be4048b41a9). After the installation your settings are restored. 
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong> To update your Print Agent Service download and install the <a href="https://365businessapi.com/api/SoftwareDownload?AppId=c2e7d99c-d3c6-4ecc-9c6b-7be4048b41a9">latest version</a>. After the installation your settings are restored. 
+</div>
 
 ## Before you start
 
 Please [read this article](../print-agent-whatis/) to determine which Service Mode you should choose for your scenario.
 
-> **Remarks**<br>Sharing network printers in 365 business Print Agent may cause timeouts as the actual printer takes longer to respond. This is a common problem with Windows printer management and cannot be solved by 365 business Print Agent.<br><br>We strongly recommend installing 365 business Print Agent directly on print servers to share locally installed printers instead of sharing printers from a remote print server.
+<div class="alert alert-notice">
+    <i class="fa-solid fa-notes"></i> <strong>Remarks:</strong> Sharing network printers in 365 business Print Agent may cause timeouts as the actual printer takes longer to respond. This is a common problem with Windows printer management and cannot be solved by 365 business Print Agent.<br><br>We strongly recommend installing 365 business Print Agent directly on print servers to share locally installed printers instead of sharing printers from a remote print server.
+</div>
 
 ## Install Print Agent Service software
 
@@ -56,7 +62,9 @@ To connect Print Agent Service and your Microsoft Dynamics 365 Business Central 
 
 ## Set up Print Agent Service for Direct Connection Service Mode
 
-> **Important**<br>Please make sure the Service URL and Service Port is available from your Microsoft Dynamics 365 Business Central environment.<br>We strongly recommend to use Print Agent Cloud for SaaS environments of Microsoft Dynamics 365 Business Central.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Important:</strong> Please make sure the Service URL and Service Port is available from your Microsoft Dynamics 365 Business Central environment.<br>We strongly recommend to use Print Agent Cloud for SaaS environments of Microsoft Dynamics 365 Business Central.
+</div>
 
  1. Start the **365 business Print Agent** application.
  2. Select **Configuration**.

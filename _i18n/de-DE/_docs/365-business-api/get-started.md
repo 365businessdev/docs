@@ -25,7 +25,9 @@ Weitere Informationen finden Sie [hier](../registration/).
 ##### Abonnement abschließen
 Mit der Registrierung für die 365 business API Cloud erhalten Sie einen API Authentifizierungsschlüssel und Ihrer Organisation wird eine kostenfreie und unverbindliche 30-tägige Testphase.
 
->Hinweis<br>Nach Ablauf der Testphase sind weitere Transaktionen mit den 365 business API Cloud Diensten & Funktionen nicht möglich um versehentlich entstehende Kosten zu verhindern.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong>Nach Ablauf der Testphase sind weitere Transaktionen mit den 365 business API Cloud Diensten & Funktionen nicht möglich um versehentlich entstehende Kosten zu verhindern.
+</div>
 
 Um nach Ablauf der Testphase weiterhin die Dienste & Funktionen der 365 business API Cloud verwenden zu können ist der Abschluss eines Abonnements notwendig. Wir bieten verschiedene [Service Pläne](https://365businessdev.com/cloud/preise/) für die Nutzung der 365 business API Cloud an, die sich auch in Ihrem Funktionsumfang unterscheiden.
 Für den Einstieg, nach der Testphase, bietet die 365 business API App die Funktionen ein nutzungsbasiertes Abonnement (*Pay-As-You-Go*) abzuschließen. Sollten Sie sich für einen speziellen Service Plan interessieren, der Ihre Anforderungen besser abdeckt frühen wir uns über Ihre Anfrage.

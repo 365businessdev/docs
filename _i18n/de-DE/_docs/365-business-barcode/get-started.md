@@ -13,25 +13,32 @@ Nach der Installation erscheint, sofern die 365 business API nicht bereits insta
 Nach der erfolgten Registrierung erhalten Sie Ihren persönlichen API-Authentifizierungsschlüssel, der zur Kommunikation mit der 365 business API benötigt wird.<br>
 [Mehr erfahren](../../365-business-api/registration/)
 
-> **Hinweis**<br>Es ist keine weitere Einrichtung von 365 business Barcode notwendig.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong> Es ist keine weitere Einrichtung von 365 business Barcode notwendig.
+</div>
 
 ## Schritt 2: Barcodeeinstellungen vornehmen
 
-> **Gut zu wissen**<br>Während der Installation von 365 business Barcode werden automatisch einige Standard Barcodearten hinzugefügt. Diese können Sie direkt verwenden, ändern oder löschen.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Gut zu wissen:</strong> Während der Installation von 365 business Barcode werden automatisch einige Standard Barcodearten hinzugefügt. Diese können Sie direkt verwenden, ändern oder löschen.
+</div>
 
 Um Barcodeeinstellungen vorzunehmen, öffnen Sie die Seite **Barcode Einstellungen** in Microsoft Dynamics 365 Business Central.
 
  1. Klicken Sie **Neu** um eine neue Barcode Einstellung zu erstellen.
  2. Wählen Sie einen **Code**.
  3. Wählen Sie im Feld **Barcode-Symbolik** die Art des Barcodes aus, die Sie verwenden möchten (z.B. `QR Code`).
-
->**Hinweis**<br>Während der Einrichtung der Barcode Einstellungen wird laufend die Vorschau des Barcodes mit einem Beispielwert angezeigt.
-
  4. Wählen Sie eine **Beschreibung** für die Barcode Einstellung.
  5. Geben Sie die gewünschte Höhe (px) an.
  6. Klicken Sie in das Feld **Farbe** und/oder **Hintergrundfarbe** um, abweichend vom Standard, Farben zu definieren. _(optional)_<br>![Farbauswahl](/assets/images/365-business-barcode/5c299f7b1b93a3b1b6c71d46c162491a9264e72fb4d66f9e435a182684624243.png)
 
-Abhängig von der gewählten **Barcode-Symbolik** stehen weitere Optionen zur Verfügung.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong>Während der Einrichtung der Barcode Einstellungen wird laufend die Vorschau des Barcodes mit einem Beispielwert angezeigt.
+</div>
+
+<div class="alert alert-notice">
+    <i class="fa-solid fa-notes"></i> <strong>Gut zu wissen:</strong>Abhängig von der gewählten <b>Barcode-Symbolik</b> stehen weitere Optionen zur Verfügung.
+</div>
 
 ## Schritt 2.1: GS1-Format Barcode erstellen _(optional)_
 

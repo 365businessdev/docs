@@ -34,7 +34,7 @@ Zusätzlich zu den oben genannten Einstellungen können Sie folgende Optionen se
 - [ELSTER Steuerdaten](../elster-tax-statements)
 - [MwSt.-Abrechnung Einrichtung](../vat-statement-setup/)
 - [Datenart - Zusammenfassende Meldung - Dokumentation](../elster-recapulative-statement/)
-- [Datenart - Dauerfristverlängerung - Dokumentation](../elster-permanent-time-extension/)
+- [Datenart - Dauerfristverlängerung - Dokumentation](../elster-permanent-time-limit-extension/)
 - [Datenart - Antrag auf Fristverlängerung - Dokumentation](../elster-request-for-time-extension/)
 - [Datenart - Umsatzsteuererklärung - Dokumentation](../elster-annual-vat-return/)
  - [Umsatzsteuerliche Organschaft](../opp-affiliation/)

@@ -22,7 +22,9 @@ The following application areas are supported in the current version:
 
 The existing integration can be enabled or disabled through the [Address Validation Setup](setup/).<br>Learn more at [Get Started](get-started/).
 
-> **Note**<br>Additional integrations can be easily connected via the provided API.<br>Learn more in our [Developer Documentation](https://docs.365businessdev.com/en-US/al-developer/365businessaddressvalidation/).
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong> Additional integrations can be easily connected via the provided API.<br>Learn more in our <a href="https://docs.365businessdev.com/en-US/al-developer/365businessaddressvalidation/">Developer Documentation</a>.
+</div>
 
 #### How does the address prediction work?
 
@@ -31,7 +33,9 @@ Typically, the function is available on the **Name** and **Address** fields.
 
 ![Address Prediction](/assets/images/365-business-address-validation/addressprediction.en-US.gif)
 
-> **Note**<br>The address prediction in the **Name** field searches for companies and organizations for Customers, Vendors and Company Contacts. In addition, further organizational information is determined and supplemented if necessary.<br><br>In the **Address** field, on the other hand, only a valid postal address is searched for.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong> The address prediction in the <b>Name</b> field searches for companies and organizations for Customers, Vendors and Company Contacts. In addition, further organizational information is determined and supplemented if necessary.<br><br>In the <b>Address</b> field, on the other hand, only a valid postal address is searched for.
+</div>
 
 For more information on [address prediction](address-prediction/), please refer to the more detailed [documentation](address-prediction/).
 

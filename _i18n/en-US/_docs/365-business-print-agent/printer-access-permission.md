@@ -1,14 +1,20 @@
-> **Note**<br>This feature was added with 365 business Print Agent version 18.1.<br>Please check if you have the latest version of 365 business Print Agent to use this feature.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong> This feature was added with 365 business Print Agent version 18.1.<br>Please check if you have the latest version of 365 business Print Agent to use this feature.
+</div>
 
 In some environments, e.g. with locally separated branch offices, it can make sense to make printers accessible only for certain users. This can be achieved via the **Printer Access Permissions** by assigning one or more [user groups](https://learn.microsoft.com/en-US/dynamics365/business-central/ui-define-granular-permissions) to a printer.
 
-> **Good to know**<br>If no user groups are assigned to a printer, this printer and the associated printer settings are accessible to all users in Microsoft Dynamics 365 Business Central.
+<div class="alert alert-notice">
+    <i class="fa-solid fa-notes"></i> <strong>Good to know:</strong>If no user groups are assigned to a printer, this printer and the associated printer settings are accessible to all users in Microsoft Dynamics 365 Business Central.
+</div>
 
 ## What are Printer Access Permissions?
 
 Printer access permissions restrict the visibility of printers and printer settings within Microsoft Dynamics 365 Business Central. If a printer is not accessible by the current user, the respective printer will not be displayed in printer selections.
 
-> **Important**<br>Regardless of the printer selection, it is also possible to print on a printer without assigned printer access authorization, e.g. via background processes.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Important:</strong> Regardless of the printer selection, it is also possible to print on a printer without assigned printer access authorization, e.g. via background processes.
+</div>
 
 ## How do I assign user groups to a printer?
 

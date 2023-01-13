@@ -1,4 +1,6 @@
-> This page is not available in the selected language. The page is available in **German**. Please select other language to display.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Info:</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
+</div>
 
 Bevor Sie [ELSTER Steuerdatenarten](../elster-tax-data-type/) verwalten und elektronisch übermitteln können, müssen die Regeln und Werte konfiguriert werden, die die Berechnung und Übermittlung an die deutschen Steuerbehörden für den Mandanten definieren.
 
@@ -55,7 +57,9 @@ Neben dem ELSTER-Zertifikat muss auch die Zertifikat PIN in Business Central ges
 
 #### Benutzerzertifikate
 
-> **Hinweis**<br>Mit der 365 business ERiC Version 17.8 wurden zusätzlich zum Organisationszertifikat, das in der ELSTER Einrichtung hinterlegt werden kann, sogenannte [Benutzerzertifikate](../user-certificates/) eingeführt.<br>Bitte prüfen Sie, ob Sie über die aktuellste Version von 365 business ERiC verfügen.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong> Mit der 365 business ERiC Version 17.8 wurden zusätzlich zum Organisationszertifikat, das in der ELSTER Einrichtung hinterlegt werden kann, sogenannte <a href="../user-certificates/">Benutzerzertifikate</a> eingeführt.<br>Bitte prüfen Sie, ob Sie über die aktuellste Version von 365 business ERiC verfügen.
+</div>
 
 Wenn verschiedene Anwender die Steuerdatenmeldungen an das Finanzamt vornehmen und die Anwender über persönliche Zertifikate verfügen, so kann das Zertifikat als [Benutzerzertifikat](../user-certificates/) hinterlegt werden.
 

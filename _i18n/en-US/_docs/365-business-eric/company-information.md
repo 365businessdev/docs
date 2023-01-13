@@ -1,4 +1,6 @@
-> This page is not available in the selected language. The page is available in **German**. Please select other language to display.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Info:</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
+</div>
 
 Auf der Seite **Firmendaten** werden alle für den aktuellen Mandanten relevanten Unternehmensdaten hinterlegt. 
 
@@ -14,4 +16,6 @@ In der Regel handelt es sich hierbei immer um denselben Kontakt. Aus diesem Grun
 
 ![Firmendaten, Gruppe Steuerbehörde](/assets/images/365-business-eric/company-information-de.png)
 
-> **Wichtiger Hinweis**<br>Die Angabe von Kontaktinformationen ist für die meisten ELSTER Steuerdatenarten verpflichtend und die fehlende Angabe ist ein Ablehnungsgrund.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Wichtiger Hinweis:</strong> Die Angabe von Kontaktinformationen ist für die meisten ELSTER Steuerdatenarten verpflichtend und die fehlende Angabe ist ein Ablehnungsgrund.
+</div>

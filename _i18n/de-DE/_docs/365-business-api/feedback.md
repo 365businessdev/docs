@@ -4,7 +4,9 @@ Dieses System ermöglicht es Ihnen, Ihre Fragen, Probleme und Verbesserungsvorsc
 
 Die Verwendung der 365 business API Feedback ist der **bevorzugte Weg**, um Probleme oder Verbesserungsvorschläge einzureichen.
 
->Ihr Feedback wird sehr geschätzt und hilft uns, zuverlässigere Dienste zu liefern und ein besseres Benutzererlebnis zu bieten.
+<div class="alert alert-notice">
+    Ihr Feedback wird sehr geschätzt und hilft uns, zuverlässigere Dienste zu liefern und ein besseres Benutzererlebnis zu bieten.   
+</div>
 
 #### Verwendung
 Das Feedback-System ist in die 365 business API App integriert, die die Hauptkomponente aller 365 business API Cloud Services für Microsoft Dynamics 365 Business Central ist. Das **Feedback-Formular** kann über die Business Central-Suche (`Alt`+`Q`) aufgerufen werden:
@@ -13,7 +15,9 @@ Das Feedback-System ist in die 365 business API App integriert, die die Hauptkom
 
 Das Feedback-Formular soll dem Benutzer helfen, Verbesserungsvorschläge und Probleme bei der Nutzung der 365 business Apps einzureichen.
 
->Hinweis<br>Bitte beachten Sie, dass die Diagnoseinformationen aus Gründen der Nachverfolgung Ihre spezifischen API-Schlüssel enthalten. Um uns vor Spam oder anderen Angriffen zu schützen, dürfen nur gültige API-Schlüssel Informationen übermitteln.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong>Bitte beachten Sie, dass die Diagnoseinformationen aus Gründen der Nachverfolgung Ihre spezifischen API-Schlüssel enthalten. Um uns vor Spam oder anderen Angriffen zu schützen, dürfen nur gültige API-Schlüssel Informationen übermitteln.
+</div>
 
 ![Feedback-Formular](/assets/images/365-business-api/feedback-de.png) 
 

@@ -8,11 +8,14 @@ Barcode Einstellungen dienen dazu wiederverwendbare Vorlagen zu erstellen, welch
  2. Klicken Sie **Neu** um eine neue Barcode Einstellung zu erstellen.
  3. Wählen Sie einen **Code**.
  4. Wählen Sie im Feld **Barcode-Symbolik** die Art des Barcodes aus, die Sie verwenden möchten (z.B. `QR Code`).
-
->**Hinweis**<br>Während der Einrichtung der Barcode Einstellungen wird laufend die Vorschau des Barcodes mit einem Beispielwert angezeigt.
-
  5. Wählen Sie eine **Beschreibung** für die Barcode Einstellung.
  6. Geben Sie die gewünschte Höhe (px) an.
  7. Klicken Sie in das Feld **Farbe** und/oder **Hintergrundfarbe** um, abweichend vom Standard, Farben zu definieren. _(optional)_<br>![Farbauswahl](/assets/images/365-business-barcode/5c299f7b1b93a3b1b6c71d46c162491a9264e72fb4d66f9e435a182684624243.png)
 
-> **Gut zu wissen**<br>Abhängig von der gewählten **Barcode-Symbolik** stehen weitere Optionen zur Verfügung.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong>Während der Einrichtung der Barcode Einstellungen wird laufend die Vorschau des Barcodes mit einem Beispielwert angezeigt.
+</div>
+
+<div class="alert alert-notice">
+    <i class="fa-solid fa-notes"></i> <strong>Gut zu wissen:</strong>Abhängig von der gewählten <b>Barcode-Symbolik</b> stehen weitere Optionen zur Verfügung.
+</div>

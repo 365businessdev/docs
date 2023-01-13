@@ -25,11 +25,15 @@ For each supported action, such as signing, chaining and stationery, there is a 
 365 business PDF is based on the PDF service of the [365 business API](../../365-business-api). To use it a [registration with the 365 business API](../../365-business-api/registration/) is required. To test 365 business PDF and other services based on the 365 business API you can register for a 30-day trial period free of charge and without obligation.
 There are no costs for you and the trial period ends automatically.
 
-> **How it's done**<br>Learn more about the [registration](../../365-business-api/registration/) for the 365 business API and start your free and non-binding test phase.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>How it's done:</strong> Learn more about the <a href="../../365-business-api/registration/">registration</a> for the 365 business API and start your free and non-binding test phase.
+</div>
 
 ##### What are the costs of use?
 
 The 365 business API services are charged on a usage base after the free and non-binding trial period. Usage is measured in so-called *transactions*, whereby a *transaction* corresponds to a successful use of the API service.
 For example, if you have the stationery applied to 1,000 documents, the cost is 100 euros (as of May 2022).
 
-> **Note**<br>The current prices can be found on our [website](https://365businessdev.com/cloud/preise/pdf/).
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong> The current prices can be found on our <a href="https://365businessdev.com/cloud/preise/pdf/">website</a>.
+</div>

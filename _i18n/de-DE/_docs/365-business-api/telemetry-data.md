@@ -24,7 +24,9 @@ Die Telemetrie sammelt folgende Daten:
 | severityLevel | Schweregrad (z. B. `Error`). |
 | sessionId | Eindeutige Sitzungskennung (`GUID`). |
 
-> Info<br>Zusätzliche Dimensionen können automatisch von Microsoft Dynamics 365 Business Central gesendet werden.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong>Zusätzliche Dimensionen können automatisch von Microsoft Dynamics 365 Business Central gesendet werden.
+</div>
 
 ##### Zusätzliche Dimensionen
 Zusätzlich werden einige Dimensionen, abhängig vom Schweregrad, gesendet:

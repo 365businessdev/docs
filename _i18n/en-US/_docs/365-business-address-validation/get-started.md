@@ -28,7 +28,9 @@ The [address prediction](../address-prediction/) function is already paid for as
 The [address validation](../address-validation/) function is based on the 365 business API Cloud Service - Address Validation, which is usually billed on a per-use basis. The respective costs depend, among other things, on the number of addresses validated.
 You can find the [prices](https://365businessdev.com/en/cloud-solution/pricing/address-validation/) of the Address Validation service on our [website](https://365businessdev.com/).
 
->**Note**<br>Would you like to learn more about licensing and billing for 365 business API cloud services?<br>Please feel free to contact us or write to us at *info@365businessdev.com*.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong>Would you like to learn more about licensing and billing for 365 business API cloud services?<br>Please feel free to contact us or write to us at <a href="mailto:info@365businessdev.com"><i>info@365businessdev.com</i></a>.
+</div>
 
 ### See also
  - [Address Validation](../address-validation/)

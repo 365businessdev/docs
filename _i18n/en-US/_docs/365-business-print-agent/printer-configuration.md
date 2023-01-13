@@ -2,7 +2,9 @@ Printer Configuration are actually used as _Printers_ in Microsoft Dynamics 365 
 
 Additionally, you can create multiple other configurations for different scenarios like color and/or duplex printing.
 
-> **Important**<br>The **Code** field of a Printer Configuration is displayed to the user through the **Printer Selection** and in various other locations inside Microsoft Dynamics 365 Business Central.<br>Keep in mind to choose a user-friendly Name for the Printer Configuration.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Important:</strong> The <b>Code</b> field of a Printer Configuration is displayed to the user through the <b>Printer Selection</b> and in various other locations inside Microsoft Dynamics 365 Business Central.<br>Keep in mind to choose a user-friendly Name for the Printer Configuration.
+</div>
 
 ![Printer Configuration](/assets/images/365-business-print-agent/1b3143accd75d67305341ac9a314b681aa754fe966df87c434e0d240752862a8.png)  
 
@@ -45,7 +47,9 @@ To get the most comfort out of direct printing functionality you should now assi
  3. Specify **Report ID** or leave blank to assign the printer (configuration) for every report.
  4. Select **Printer Name** by choosing from the Drop-down menu.
 
-> **Good to know**<br>Microsoft Dynamics 365 Business Central provides a additional page, called **Printer Management**. Here you'll find every printer (configuration), enabled in Print Agent. From here you can easily open the printer configuration or set the selected printer (configuration) as default.<br>![picture 7](../../../../assets/images/365-business-print-agent/f66b313410695f3a550f126155fc3b9d6abf9c663c5840e9d2c1887948fbfd41.png)
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Good to know:</strong> Microsoft Dynamics 365 Business Central provides a additional page, called <b>Printer Management</b>. Here you'll find every printer (configuration), enabled in Print Agent. From here you can easily open the printer configuration or set the selected printer (configuration) as default.<br><img src="/assets/images/365-business-print-agent/f66b313410695f3a550f126155fc3b9d6abf9c663c5840e9d2c1887948fbfd41.png">
+</div>
 
 ### See also
 

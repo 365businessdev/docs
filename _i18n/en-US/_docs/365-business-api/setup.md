@@ -8,18 +8,24 @@ The General section contains two pieces of information:
 Specifies the URL to connect to the 365 business API services. The value is set automatically during installation and does not need to be changed.
 The default value is: `https://365businessapi.azurewebsites.net`
 
-> Info<br>Customers who have Development access can store the URL to the Development System in this field. Transactions with the Development System will not be charged. However, please note that the data sent to the Development System is not encrypted and can be further processed by our team.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Info:</strong>Customers who have Development access can store the URL to the Development System in this field. Transactions with the Development System will not be charged. However, please note that the data sent to the Development System is not encrypted and can be further processed by our team.
+</div>
 
 ##### API Authentication Key
 Specifies the API authentication key (API key for short) for the 365 business API. This API key authenticates you to the 365 business API and is used for billing purposes.
 Communication without a valid API key is not possible.
 
-> Info<br>You will receive an API key after successful registration. For more information, see [{% t titles.get-started %}](../get-started).
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong>You will receive an API key after successful registration. For more information, see <a href="../get-started">Get Started</a>.
+</div>
 
 ##### Allow Telemetry Data
 Allows the sending of anonymized telemetry data for the use of 365 business API services. The telemetry data is used to help us further improve our services and features and to identify issues and bugs.
 
-> Info<br>For more information about what data is collected, see [{% t titles.telemetry-data %}](../telemetry-data).
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong>For more information about what data is collected, see <a href="../telemetry-data">Telemetry Data</a>.
+</div>
 
 #### Version
 This section displays information about currently used API version. In addition, you have the possibility to select specific API service versions here, if corresponding API modules have been installed.

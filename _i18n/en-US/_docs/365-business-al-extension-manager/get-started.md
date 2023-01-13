@@ -6,7 +6,9 @@ After launching the application, the Connection Manager appears by entering the 
 
 The settings can then be saved.
 
-> **Note**<br>For the communication an activated OData-/API-Service and Development Service at the Microsoft Dynamics 365 Business Central Server instance is required.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong> For the communication an activated OData-/API-Service and Development Service at the Microsoft Dynamics 365 Business Central Server instance is required.
+</div>
 
 Pressing `Connect` will connect to the server instance and download and display the installed extensions.
 
@@ -30,21 +32,25 @@ The extension can be installed directly by calling 'Install App Automation API'.
 
 To install one or more extensions or partner apps, please proceed as follows:
 
- 1. after connecting to a Microsoft Dynamics 365 Business Central Server instance, click the `upload extension` action in the ribbon.<br>![Upload Extension](/assets/images/365-business-al-extension-manager/upload-extension-button.de-DE.png).
+1. After connecting to a Microsoft Dynamics 365 Business Central Server instance, click the `upload extension` action in the ribbon.<br>![Upload Extension](/assets/images/365-business-al-extension-manager/upload-extension-button.de-DE.png).
 
- 2. a file selection dialog opens, where you can now select as many `*.app` files as you like.
- 
- 3. the application analyzes the extensions and reads out the dependencies and conditions, such as server runtime version.<br>![Upload Extensions](/assets/images/365-business-al-extension-manager/upload-extension-view.de-DE.png)<br>
-    >**Note**<br>This will show you warnings and errors directly. So you see for example before the actual installation whether all dependencies are fulfilled or the server runtime version is compatible with the runtime version of the extension. 4.
+2. A file selection dialog opens, where you can now select as many `*.app` files as you like.
 
- Click on 'Upload' to install the selected extensions or partner apps.
+3. The application analyzes the extensions and reads out the dependencies and conditions, such as server runtime version.<br>![Upload Extensions](/assets/images/365-business-al-extension-manager/upload-extension-view.de-DE.png)<br>
+   <div class="alert alert-info">
+       <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong>This will show you warnings and errors directly. So you see for example before the actual installation whether all dependencies are fulfilled or the server runtime version is compatible with the runtime version of the extension. 
+   </div>
+
+4. Click on `Upload` to install the selected extensions or partner apps.
 
 #### How do I uninstall extensions via AL Extension Manager?
 
-Clicking on the button 'Remove Extension' in the main window of the AL Extension Manager uninstalls the selected extension in Microsoft Dynamics 365 Business Central and unpublishes it*, checking if any dependent extensions are also uninstalled.
+Clicking on the button `Remove Extension` in the main window of the AL Extension Manager uninstalls the selected extension in Microsoft Dynamics 365 Business Central and unpublishes it*, checking if any dependent extensions are also uninstalled.
 
 ![Uninstall dependencies](/assets/images/365-business-al-extension-manager/unpublish-extension.de-DE.png)
 
->**Important**<br>In order to unpublish an extension (_Unpublish_), the `365 business App Automation API` extension (included) is required.
+<div class="alert alert-notice">
+    <i class="fa-solid fa-notes"></i> <strong>Important:</strong>In order to unpublish an extension, the <code>365 business App Automation API</code> extension (included) is required.
+</div>
 
 Here, all dependencies are taken into account and resolved accordingly. If it is necessary to uninstall other AL extensions, the user will be informed accordingly and the uninstallation will be performed automatically.

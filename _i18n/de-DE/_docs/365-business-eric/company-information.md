@@ -12,4 +12,6 @@ In der Regel handelt es sich hierbei immer um denselben Kontakt. Aus diesem Grun
 
 ![Firmendaten, Gruppe Steuerbehörde](/assets/images/365-business-eric/company-information-de.png)
 
-> **Wichtiger Hinweis**<br>Die Angabe von Kontaktinformationen ist für die meisten ELSTER Steuerdatenarten verpflichtend und die fehlende Angabe ist ein Ablehnungsgrund.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Wichtiger Hinweis:</strong> Die Angabe von Kontaktinformationen ist für die meisten ELSTER Steuerdatenarten verpflichtend und die fehlende Angabe ist ein Ablehnungsgrund.
+</div>

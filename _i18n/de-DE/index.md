@@ -4,4 +4,6 @@ Business Central ist schnell implementiert, leicht konfiguriert, und das Konzept
 
 Als Microsoft Development Partner bietet Ihnen 365 business development neben der individuellen Entwicklung von Extensions zahlreiche Lösungen im Microsoft AppSource.
 
-> Tipp<br />Wenn Sie nicht sicher sind, wo Sie das finden, wonach Sie suchen, können Sie im Navigationsbereich links nach Titeln filtern.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Tipp:</strong>Wenn Sie nicht sicher sind, wo Sie das finden, wonach Sie suchen, können Sie im Navigationsbereich links nach Titeln filtern.
+</div>

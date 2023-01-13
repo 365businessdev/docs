@@ -11,7 +11,9 @@ Die Ursache für abweichende Beträge kann unterschiedlich sein. Eine Möglichke
 
 ![MwSt.-Posten](/assets/images/365-business-eric/zmdo-does-not-match-ustva-amount.vat-entries.png)
 
-> **Hinweis**<br>Bei der Berechnung der Zusammenfassenden Meldung wird explizit auf das Kennzeichen `EU-Länder-/Regionscode` geprüft. Nur Länder mit einem entsprechenden Wert im Feld `EU-Länder-/Regionscode` werden als EU-Land angesehen.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong> Bei der Berechnung der Zusammenfassenden Meldung wird explizit auf das Kennzeichen <code>EU-Länder-/Regionscode</code> geprüft. Nur Länder mit einem entsprechenden Wert im Feld <code>EU-Länder-/Regionscode</code> werden als EU-Land angesehen.
+</div>
 
 #### Lösung
 

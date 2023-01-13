@@ -9,8 +9,9 @@ Especially the consideration of dependencies between extensions leads to problem
 
 The process is further complicated by so-called runtime packages, which are published by third parties and do not contain any source code, which often makes dependency analyses using classic tools (e.g. PowerShell scripts) even more difficult.
 
->**Note**<br>Runtime Packages are precompiled AL extensions that have been compiled on a specific platform version and may not run on different versions.
-Runtime Packages, unlike classic AL extensions, cannot be easily unpacked and analyzed.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong>Runtime Packages are precompiled AL extensions that have been compiled on a specific platform version and may not run on different versions.<br>Runtime Packages, unlike classic AL extensions, cannot be easily unpacked and analyzed.
+</div>
 
 For this reason the 365 business AL Extension Manager was developed. With the AL Extension Manager it should be possible to install and uninstall AL extensions, whether classic extensions or runtime packages, via a user-friendly and intuitive interface. The distinction between Publish, Unpublish, Install, Uninstall, Sync, etc. is not necessary and is taken over by the AL-Installer.
 

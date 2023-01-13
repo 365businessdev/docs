@@ -6,7 +6,9 @@ In the dialog window `Find & Replace` you can specify the parameters for the exe
 
 In the **Record Set** area, the table (e.g. Customer) and the pre-filtered number of records are displayed.
 
-> **Note**<br>Currently set filters in the calling view (e.g. customer overview) are taken into account when calling Search & Replace. Thus you can already make a preselection for the data records to be processed.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong> Currently set filters in the calling view (e.g. customer overview) are taken into account when calling Search & Replace. Thus you can already make a preselection for the data records to be processed.
+</div>
 
 #### Replace
 
@@ -25,6 +27,8 @@ In the **Options** section you have the possibility to specify additional settin
 
 #### Validation
 
-> **Warning**<br>We recommend **not** changing the settings in the Validation section, as this may cause inconsistencies.<br><br>Please consult your Microsoft Dynamics partner before making any data changes without verification/validation.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Warning:</strong> We recommend <b>not</b> changing the settings in the Validation section, as this may cause inconsistencies.<br><br>Please consult your Microsoft Dynamics partner before making any data changes without verification/validation.
+</div>
 
 In the **Validation** area, the validation of record or field changes can be disabled.

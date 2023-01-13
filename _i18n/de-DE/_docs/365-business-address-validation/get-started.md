@@ -28,7 +28,9 @@ Die Funktion der [Adressvorhersage](../address-prediction/) ist im Rahmen der Be
 Bei der Funktion der [Adressvalidierung](../address-validation/) handelt es sich um den 365 business API Cloud Dienst - Address Validation, welcher in der Regel nutzungsbasiert abgerechnet wird. Die jeweiligen Kosten sind dabei unter anderem abhängig vom Anzahl der geprüften Adressen.
 Sie finden die [Preise](https://365businessdev.com/cloud/preise/address-validation/) des Address Validation Dienst auf unserer [Website](https://365businessdev.com/).
 
->**Hinweis**<br>Sie möchten mehr über die Lizensierung und die Abrechnung der 365 business API Cloud Dienste erfahren?<br>Sprechen Sie uns gerne an oder schreiben Sie uns unter *info@365businessdev.com*.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong>Sie möchten mehr über die Lizensierung und die Abrechnung der 365 business API Cloud Dienste erfahren?<br>Sprechen Sie uns gerne an oder schreiben Sie uns unter <a href="mailto:info@365businessdev.com">info@365businessdev.com</a>.
+</div>
 
 ### Siehe auch 
  - [Adressvalidierung](../address-validation/)

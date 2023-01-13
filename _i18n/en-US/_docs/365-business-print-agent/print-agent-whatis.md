@@ -10,7 +10,9 @@ Print Agent basically consists of at least two components, the Microsoft Dynamic
 
 365 business Print Agent is able to operate in two separate so-called Service Modes, the 365 business Print Agent Cloud and the Direct Connection mode.
 
-> **Good to know**<br>365 business Print Agent service and the 365 business Print Agent app support both service modes and the modes can be switched every time, after initial set up.<br>Please keep in mind, that existing configurations will be removed prior changing the service mode in Microsoft Dynamics 365 Business Central.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Good to know:</strong> 365 business Print Agent service and the 365 business Print Agent app support both service modes and the modes can be switched every time, after initial set up.<br>Please keep in mind, that existing configurations will be removed prior changing the service mode in Microsoft Dynamics 365 Business Central.
+</div>
 
 #### Print Agent Cloud _(recommended)_
 
@@ -20,7 +22,9 @@ Communication between the Print Agent Service and the Cloud is implemented via s
  
 ![365 business Print Agent - Cloud Architecture](/assets/images/365-business-print-agent/595f77629b38af2a850494a4d1c0e75ab37d0bde234e206a427cfe5dc37d3180.png)
 
-> **Good to know**<br>The 365 business Print Agent Cloud service is hosted in Germany and does not store any print job or printer data. The service acts like a relay and creates a real-time connection to the Print Agent Service (connector).<br>Your data is absolutely safe and will never be stored or analyzed for any reason.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Good to know:</strong> The 365 business Print Agent Cloud service is hosted in Germany and does not store any print job or printer data. The service acts like a relay and creates a real-time connection to the Print Agent Service (connector).<br>Your data is absolutely safe and will never be stored or analyzed for any reason.
+</div>
 
 | Component | Description |
 | --- | --- |

@@ -1,6 +1,8 @@
 In dieser Kurzanleitung wird erklärt, wie Sie 365 business Print Agent aktivieren und einen Drucker einrichten.
 
-> **Hinweis**<br>Testen Sie den 365 business Print Agent ohne Kosten in Sandbox-Umgebungen von Microsoft Dynamics 365 Business Central. Zusätzlich gibt es für Echt- und On-Premises-Umgebungen eine kostenlose 30-tägige Testphase ohne Funktionseinschränkungen.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong> Testen Sie den 365 business Print Agent ohne Kosten in Sandbox-Umgebungen von Microsoft Dynamics 365 Business Central. Zusätzlich gibt es für Echt- und On-Premises-Umgebungen eine kostenlose 30-tägige Testphase ohne Funktionseinschränkungen.
+</div>
 
 ## Voraussetzungen
 
@@ -8,7 +10,9 @@ In dieser Kurzanleitung wird erklärt, wie Sie 365 business Print Agent aktivier
  - Ein Microsoft Windows-Clientgerät zur Ausführung von [365 business Print Agent Service](../print-agent-client-whatis).
  - Eine Internetverbindung
 
-> **Hinweis**<br>Diese Kurzanleitung konzentriert sich auf den Print Agent Cloud Service Modus.<br>Für weitere Informationen zur Einrichtung des Direct Connection Service Modus besuchen Sie bitte [documentation](../setup/).
+<div class="alert alert-notice">
+    <i class="fa-solid fa-notes"></i> <strong>Wichtiger Hinweis:</strong>Diese Kurzanleitung konzentriert sich auf den Dienstmodus Print Agent Cloud.<br>Für weitere Informationen zur Einrichtung der Direktverbindung besuchen Sie bitte die <a href="../setup/">Dokumentation</a>.
+</div>
 
 ## Schritt 1: Installation von 365 business Print Agent
 
@@ -22,7 +26,9 @@ Um den Print Agent einzurichten, öffnen Sie die Seite **Print Agent Einrichtung
  1. Wählen Sie **Print Agent Cloud** als **Dienstmodus**.<br>[Mehr erfahren](../print-agent-whatis/#architecture)<br>![Print Agent Einrichtung - Dienstmodus Auswahl](/assets/images/365-business-print-agent/646d98fab6c688ad444f61f5397dce86873cda4a90db60986a40ba1eb3911ce9.png)
  2. Wählen Sie **Print Agent authentifizieren**.
  3. Kopieren Sie den Wert **Tenant ID** indem Sie auf den Feldwert klicken.
-    > **Hinweis**<br>Die Tenant ID wird verwendet, um den Print Agent-Dienst mit Ihrer Microsoft Dynamics 365 Business Central-Umgebung zu verknüpfen. Sie benötigen die Tenant ID später bei der Einrichtung des Print Agent-Dienstes.
+    <div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong> Die Tenant ID wird verwendet, um den Print Agent-Dienst mit Ihrer Microsoft Dynamics 365 Business Central-Umgebung zu verknüpfen. Sie benötigen die Tenant ID später bei der Einrichtung des Print Agent-Dienstes.
+    </div>
  4. Wählen Sie **Software herunterladen...** um  [365 business Print Agent service](../print-agent-client-whatis/) herunterzuladen.
 
 ## Schritt 1.2: Installieren von 365 business Print Agent service
@@ -58,7 +64,9 @@ Um Drucker direkt in Microsoft Dynamics 365 Business Central einzurichten und zu
 
 ## Schritt 2.2: Aktivieren der Druckereinstellung
 
-> **Hinweis**<br>Freigegebene Drucker sind in Microsoft Dynamics 365 Business Central nicht direkt verfügbar. Stattdessen ist es notwendig, [Druckereinstellungen](../printer-configuration/) zu erstellen., die dann in der **Druckerauswahl** oder in der Report Request Page ausgewählt werden können. Sie können mehrere Druckereinstellungen auf der Grundlage der Funktionen erstellen, die Sie in einem bestimmten Szenario verwenden möchten (z.B. Duplex-Modus).<br><br>Für jeden Drucker wird automatisch eine vom System erstellte Druckereinstellung erstellt. Diese Konfiguration wird mit den verfügbaren Funktionen des Druckers erstellt.
+<div class="alert alert-notice">
+    <i class="fa-solid fa-notes"></i> <strong>Gut zu wissen:</strong>Freigegebene Drucker sind in Microsoft Dynamics 365 Business Central nicht direkt verfügbar. Stattdessen ist es notwendig, <a href="../printer-configuration/">Druckereinstellungen</a> zu erstellen., die dann in der <b>Druckerauswahl</b> oder in der Report Request Page ausgewählt werden können. Sie können mehrere Druckereinstellungen auf der Grundlage der Funktionen erstellen, die Sie in einem bestimmten Szenario verwenden möchten (z.B. Duplex-Modus).<br><br>Für jeden Drucker wird automatisch eine vom System erstellte Druckereinstellung erstellt. Diese Konfiguration wird mit den verfügbaren Funktionen des Druckers erstellt.
+</div>
 
  1. **Druckereinstellungen** auswählen.
  2. **Bearbeiten** auswählen.
@@ -74,7 +82,9 @@ Um die Möglichkeiten des Direktdrucks optimal nutzen zu können, ist es sinnvol
  3. Geben Sie eine **Berichts-ID** an oder lassen Sie diese leer, um den Drucker (Konfiguration) für jeden Bericht zuzuweisen.
  4. Wählen Sie den **Druckernamen** aus dem Dropdown-Menü aus.
 
-> **Hinweis**<br>Microsoft Dynamics 365 Business Central bietet eine zusätzliche Seite, **Druckerverwaltung**. Hier finden Sie alle in Print Agent aktivierten Drucker (Konfigurationen). Von hier aus können Sie die Druckereinstellung öffnen oder den ausgewählten Drucker (Konfiguration) als Standard festlegen.<br>![picture 7](../../../../assets/images/365-business-print-agent/f66b313410695f3a550f126155fc3b9d6abf9c663c5840e9d2c1887948fbfd41.png)
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong> Microsoft Dynamics 365 Business Central bietet eine zusätzliche Seite, <b>Druckerverwaltung</b>. Hier finden Sie alle in Print Agent aktivierten Drucker (Konfigurationen). Von hier aus können Sie die Druckereinstellung öffnen oder den ausgewählten Drucker (Konfiguration) als Standard festlegen.<br><img src="/assets/images/365-business-print-agent/f66b313410695f3a550f126155fc3b9d6abf9c663c5840e9d2c1887948fbfd41.png">
+</div>
 
 
 ### Siehe auch

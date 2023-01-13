@@ -27,4 +27,6 @@ Mit 365 business Barcode können Sie in beliebige Bereiche Ihrer Anwendung Barco
 
 Es handelt sich bei 365 business Barcode um eine Erweiterung für Microsoft Dynamics 365 Business Central, die in die individuellen Geschäftsprozesse in Microsoft Dynamics 365 Business Central integriert werden kann.
 
-> **Hinweis**<br>Da die Geschäftsprozesse und Belege in aller Regel kundenindividuell sind muss die Integration von 365 business Barcode in Ihre individuellen Geschäftsprozesse und Belege vorgenommen werden.<br><br>Sprechen Sie uns gerne an, wenn Sie Unterstützung bei der Implementierung benötigen.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong> Da die Geschäftsprozesse und Belege in aller Regel kundenindividuell sind muss die Integration von 365 business Barcode in Ihre individuellen Geschäftsprozesse und Belege vorgenommen werden.<br><br>Sprechen Sie uns gerne an, wenn Sie Unterstützung bei der Implementierung benötigen.
+</div>
