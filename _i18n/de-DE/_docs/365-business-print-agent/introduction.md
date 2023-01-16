@@ -4,29 +4,67 @@ Mit dem 365 business Print Agent können Sie direkt aus Microsoft Dynamics 365 B
 
 Lernen Sie grundlegende Print Agent-Konzepte und -Prozesse in Microsoft Dynamics 365 Business Central kennen, einschließlich der Einrichtung, Registrierung von Print Agent-Diensten und der Verwaltung von Druckern.
 
-> ## <img src="/assets/fontawesome/books-duotone.svg" class="fa-group-icon"> Über 365 business Print Agent 
->
-> Erfahren Sie mehr über die Grundlagen von 365 business Print Agent:
->
->  - [Was ist 365 business Print Agent?](print-agent-whatis)
->  - [Was ist 365 business Print Agent Service?](print-agent-client-whatis)
+<div class="columns">
+    <div>
+        <a href="print-agent-whatis/">
+            <div>
+                <div><i class="fa-duotone fa-map"></i></div>
+                <div>&Uuml;bersicht</div>
+                <div>Was ist 365 business Print Agent?</div>
+            </div>
+        </a>
+    </div>
+    <div>
+        <a href="get-started/">
+            <div>
+                <div><i class="fa-duotone fa-ballot-check"></i></div>
+                <div>Schrittanleitung</div>
+                <div>Erste Schritte</div>
+            </div>
+        </a>
+    </div>
+    <div>
+        <a href="printer-configuration/">
+            <div>
+                <div><i class="fa-duotone fa-book-open-cover"></i></div>
+                <div>Einrichtung</div>
+                <div>Druckereinstellungen</div>
+            </div>
+        </a>
+    </div>
+</div>
 
-> ## <img src="/assets/fontawesome/person-running-duotone.svg" class="fa-group-icon"> Erste Schritte
-> 
->  Erfahren Sie mehr über 365 business Print Agent:
-> 
->  - [Einrichtung in Microsoft Dynamics 365 Business Central](setup)
->  - [Installation 365 business Print Agent Service](print-agent-service-installation)
->  - [Auf Drucker in Microsoft Dynamics 365 Business Central zugreifen](printer)
-
-> ## <img src="/assets/fontawesome/sliders-duotone.svg" class="fa-group-icon"> Drucker verwalten
-> 
-> Erfahren Sie mehr über das Verwalten von Druckern in Microsoft Dynamics 365 Business Central:
-> 
->  - [Drucker Konfigurationen erstellen in Microsoft Dynamics 365 Business Central](printer-configuration)
->  - [Zuweisen von Druckereinstellungen zu Berichten oder Benutzern in Microsoft Dynamics 365 Business Central](printer-configuration/#printer-selection)
-
-> ## <img src="/assets/fontawesome/user-helmet-safety-duotone.svg" class="fa-group-icon"> Print Agent Service
-> 
->  - [Was ist 365 business Print Agent Service?](print-agent-client-whatis)
->  - [Download 365 business Print Agent Service Installer](https://365businessapi.com/api/SoftwareDownload?AppId=c2e7d99c-d3c6-4ecc-9c6b-7be4048b41a9)
+<div class="columns" style="margin-top: 30px;">
+    <div>
+        <span class="columns-title">Konzept</span>
+        <p>
+            Erfahren Sie mehr über die Grundlagen:
+            <ul class="fa-ul">
+                <li><span class="fa-li"><i class="fa-solid fa-pen-ruler"></i></span><a href="print-agent-whatis/">Was ist 365 business Print Agent?</a></li>
+                <li><span class="fa-li"><i class="fa-solid fa-sitemap"></i></span><a href="print-agent-client-whatis/">Was ist 365 business Print Agent Service?</a></li>
+            </ul>            
+        </p>
+    </div>
+    <div>
+        <span class="columns-title">Einrichtung</span>
+        <p>
+            Erfahren Sie mehr über die Einrichtung:
+            <ul class="fa-ul">
+                <li><span class="fa-li"><i class="fa-solid fa-screwdriver-wrench"></i></span><a href="setup/">Einrichtung in Microsoft Dynamics 365 Business Central</a></li>
+                <li><span class="fa-li"><i class="fa-solid fa-gear"></i></span><a href="print-agent-service-installation/">Installation 365 business Print Agent Service</a></li>
+                <li><span class="fa-li"><i class="fa-solid fa-print"></i></span><a href="printer/">Auf Drucker in Microsoft Dynamics 365 Business Central zugreifen</a></li>
+            </ul>
+        </p>
+    </div>
+    <div>
+         <span class="columns-title">Drucker verwalten</span>
+             <p>
+                Erfahren Sie mehr über das Verwalten von Druckern:
+                <ul class="fa-ul">
+                    <li><span class="fa-li"><i class="fa-solid fa-print"></i></span><a href="printer-configuration/">Druckereinstellungen erstellen in Microsoft Dynamics 365 Business Central</a></li>
+                    <li><span class="fa-li"><i class="fa-solid fa-user-plus"></i></span><a href="printer-configuration/#printer-selection">Zuweisen von Druckereinstellungen zu Berichten oder Benutzern in Microsoft Dynamics 365 Business Central</a></li>
+                    <li><span class="fa-li"><i class="fa-solid fa-users"></i></span><a href="printer-access-permission/">Druckereinstellungen für Benutzergruppen berechtigen</a></li>
+                </ul>
+            </p>
+    </div>
+</div>

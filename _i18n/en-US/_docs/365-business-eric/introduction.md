@@ -8,21 +8,70 @@ Dabei verwenden Sie den offiziellen Elster Rich Client (ERiC), der über die [36
 
 Mit der ELSTER Schnittstelle **365 business ERiC** sparen Sie sich nicht nur Zeit und Aufwand bei der elektronischen Übermittlung der Steuerdaten. Unsere App unterstützt Sie zudem bei der Vorbereitung Ihrer Steuerdaten und ermittelt die Steuerkennzahlen und Werte für Sie.
 
-#### Sicherer Versand
-Der Versand Ihrer Steuerdaten erfolgt ausschließlich über verschlüsselte HTTPS-Verbindungen und wird zertifikatsbasiert übertragen. Die Übertragung wird direkt von den ELSTER Servern validiert und umgehend bestätigt.<br>
-Nach erfolgter Einreichung Ihrer Steuerdaten erhalten Sie ein Übertragungsprotokoll als PDF-Datei und alle notwendigen Informationen zur Nachverfolgung und zur Recherche.
+<div class="columns">
+   <div>
+       <a href="eric-whatis/">
+           <div>
+               <div><i class="fa-duotone fa-map"></i></div>
+               <div>&Uuml;bersicht</div>
+               <div>Was ist ERiC?</div>
+           </div>
+       </a>
+   </div>
+   <div>
+       <a href="elster-tax-statements/">
+           <div>
+               <div><i class="fa-duotone fa-ballot-check"></i></div>
+               <div>Schrittanleitung</div>
+               <div>ELSTER Steuerdaten erstellen</div>
+           </div>
+       </a>
+   </div>
+   <div>
+       <a href="setup/">
+           <div>
+               <div><i class="fa-duotone fa-book-open-cover"></i></div>
+               <div>Einrichtung</div>
+               <div>ELSTER Einrichtung vornehmen</div>
+           </div>
+       </a>
+   </div>
+</div>
 
-> ## <img src="/assets/fontawesome/books-duotone.svg" class="fa-group-icon"> Über 365 business ERiC
-> 
-> Erfahren Sie mehr über 365 business ERiC:
-> 
->  - [Was ist ERiC?](eric-whatis)
->  - [Welche Steuerdatenarten werden unterstützt?](elster-tax-data-type)
-
-> ## <img src="/assets/fontawesome/person-running-duotone.svg" class="fa-group-icon"> Erste Schritte
-> 
-> Erfahren Sie wie sie mit 365 business ERiC Ihre Steuerdaten an ELSTER übermitteln können:
-> 
->  - [ELSTER Einrichtung vornehmen](setup)
->  - [Einrichtung in Firmendaten ergänzen](company-information)
->  - [ELSTER Steuerdaten erstellen](elster-tax-statements)
+<div class="columns" style="margin-top: 30px;">
+    <div>
+        <span class="columns-title">Grundlagen</span>
+        <p>
+            Erfahren Sie mehr über 365 business ERiC:
+            <ul class="fa-ul">
+                <li><span class="fa-li"><i class="fa-solid fa-pen-ruler"></i></span><a href="eric-whatis">Was ist 365 business ERiC?</a></li>
+                <li><span class="fa-li"><i class="fa-solid fa-folders"></i></span><a href="elster-tax-data-type">Welche Steuerdatenarten werden unterstützt?</a></li>
+            </ul>
+        </p>
+    </div>
+    <div>
+         <span class="columns-title">Erste Schritte</span>
+             <p>
+                Erfahren Sie wie mit 365 business ERiC Steuerdaten an ELSTER übermittelt werden:
+                <ul class="fa-ul">
+                    <li><span class="fa-li"><i class="fa-solid fa-play"></i></span><a href="elster-tax-statements/">ELSTER Steuerdaten erstellen</a></li>
+                    <li><span class="fa-li"><i class="fa-solid fa-building-columns"></i></span><a href="elster-sales-vat-adv-notification/">Umsatzsteuervoranmeldung erstellen</a></li>
+                    <li><span class="fa-li"><i class="fa-solid fa-building-columns"></i></span><a href="elster-annual-vat-return/">Umsatzsteuererklärung erstellen</a></li>
+                    <li><span class="fa-li"><i class="fa-solid fa-calendar-clock"></i></span><a href="elster-permanent-time-limit-extension/">Dauerfristverlängerung erstellen</a></li>
+                    <li><span class="fa-li"><i class="fa-solid fa-building-columns"></i></span><a href="elster-recapulative-statement/">Zusammenfassende Meldung erstellen</a></li>
+                    <li><span class="fa-li"><i class="fa-solid fa-cart-shopping"></i></span><a href="bop-one-stop-shop/">One-Stop-Shop (OSS) erstellen</a></li>
+                </ul>
+            </p>
+    </div>
+    <div>
+         <span class="columns-title">Einrichtung</span>
+             <p>
+                Erfahren Sie mehr über die Einrichtung:
+                <ul class="fa-ul">
+                    <li><span class="fa-li"><i class="fa-solid fa-pen-ruler"></i></span><a href="setup/">ELSTER Einrichtung vornehmen</a></li>
+                    <li><span class="fa-li"><i class="fa-solid fa-buildings"></i></span><a href="company-information/">Einrichtung in Firmendaten ergänzen</a></li>
+                    <li><span class="fa-li"><i class="fa-solid fa-calculator-simple"></i></span><a href="vat-statement-setup/">MwSt.-Abrechnung einrichten</a></li>
+                </ul>
+            </p>
+    </div>
+</div>

@@ -4,7 +4,37 @@ Encode and decode 1D and 2D barcodes directly from Microsoft Dynamics 365 Busine
 
 365 business Barcode uses the barcode service of the [365 business API](../365-business-api/) and requires an active subscription after the free and non-binding trial period. Die 365 business API ist mit Microsoft Dynamics 365 Business Central über die 365 business API-App verbunden.
 
-<div class="alert alert-info">
+<div class="columns">
+   <div>
+       <a href="barcode-whatis/">
+           <div>
+               <div><i class="fa-duotone fa-map"></i></div>
+               <div>Overview</div>
+               <div>What is 365 business Barcode?</div>
+           </div>
+       </a>
+   </div>
+   <div>
+       <a href="supported-barcodes/">
+           <div>
+               <div><i class="fa-duotone fa-barcode"></i></div>
+               <div>Features</div>
+               <div>Supported Barcode types</div>
+           </div>
+       </a>
+   </div>
+   <div>
+       <a href="barcode-settings/">
+           <div>
+               <div><i class="fa-duotone fa-book-open-cover"></i></div>
+               <div>Set up</div>
+               <div>Barcode Settings</div>
+           </div>
+       </a>
+   </div>
+</div>
+
+<div class="alert alert-notice">
     <i class="fa-solid fa-lightbulb"></i> <strong>Good to know:</strong> 365 business Barcode can be tested free of charge and without obligation for 30 days.<br>You need more time? Kein Problem, sprechen Sie uns einfach an!
 </div>
 
@@ -12,22 +42,34 @@ Encode and decode 1D and 2D barcodes directly from Microsoft Dynamics 365 Busine
 
 ![Barcode Settings](/assets/images/365-business-barcode/barcode-settings.en-US.gif)
 
-> ## <img src="/assets/fontawesome/books-duotone.svg" class="fa-group-icon"> About 365 business Barcode
-> 
-> Learn more about basics of 365 business Print Agent:
-> 
->  - [What is 365 business Barcode?](barcode-whatis)
->  - [Which barcode types are supported?](supported-barcodes)
-
-> ## <img src="/assets/fontawesome/person-running-duotone.svg" class="fa-group-icon"> Get started
-> 
-> Learn more about get started with 365 business Print Agent:
-> 
->  - [Barcode Settings](barcode-settings)
-
-> ## <img src="/assets/fontawesome/user-helmet-safety-duotone.svg" class="fa-group-icon"> Implementation
-> 
-> Learn how to integrate 365 business barcode into your application:
-> 
->  - [Implement 365 business Barcode](barcode-howto)
->  - [AL Developer Documentation](../al-developer/)
+<div class="columns" style="margin-top: 30px;">
+    <div>
+        <span class="columns-title">Grundlagen</span>
+        <p>
+            Learn more about basics of 365 business Barcode:
+            <ul class="fa-ul">
+                <li><span class="fa-li"><i class="fa-solid fa-pen-ruler"></i></span><a href="barcode-whatis/">What is 365 business Barcode?</a></li>
+                <li><span class="fa-li"><i class="fa-solid fa-barcode"></i></span><a href="supported-barcodes/">Which barcode types are supported?</a></li>
+            </ul>
+        </p>
+    </div>
+    <div>
+         <span class="columns-title">Set up</span>
+             <p>
+                Learn more about get started with 365 business Print Agent:
+                <ul class="fa-ul">
+                    <li><span class="fa-li"><i class="fa-solid fa-sliders"></i></span><a href="barcode-settings/">Set up barcode settings</a></li>
+                </ul>
+            </p>
+    </div>
+    <div>
+         <span class="columns-title">Einbinden</span>
+             <p>
+                Learn how to integrate 365 business barcode into your application:
+                <ul class="fa-ul">
+                    <li><span class="fa-li"><i class="fa-solid fa-display-code"></i></span><a href="barcode-howto/">Implement 365 business Barcode</a></li>
+                    <li><span class="fa-li"><i class="fa-solid fa-code"></i></span><a href="../al-developer/">AL Developer Documentation</a></li>
+                </ul>
+            </p>
+    </div>
+</div>
