@@ -1,0 +1,77 @@
+{
+    "Columns Summary": {
+        "prefix": "tcolumns-summary",
+        "body": [
+            "<div class=\"columns\">",
+            "   <div>",
+            "       <a href=\"${1:#}\">",
+            "           <div>",
+            "               <div><i class=\"fa-duotone fa-map\"></i></div>",
+            "               <div>${2:Subtitle}</div>",
+            "               <div>${3:Title}</div>",
+            "           </div>",
+            "       </a>",
+            "   </div>",
+            "   <div>",
+            "       <a href=\"${4:#}\">",
+            "           <div>",
+            "               <div><i class=\"fa-duotone fa-ballot-check\"></i></div>",
+            "               <div>${5:Subtitle}</div>",
+            "               <div>${6:Title}</div>",
+            "           </div>",
+            "       </a>",
+            "   </div>",
+            "   <div>",
+            "       <a href=\"${7:#}\">",
+            "           <div>",
+            "               <div><i class=\"fa-duotone fa-book-open-cover\"></i></div>",
+            "               <div>${8:Subtitle}</div>",
+            "               <div>${9:Title}</div>",
+            "           </div>",
+            "       </a>",
+            "   </div>",
+            "</div>"
+        ],
+        "scope": "markdown",
+        "description": "Three-column overview box for introduction documentation."
+    },
+    "Link Box": {
+        "prefix": "tcolumns-linkbox",
+        "body": [
+          "<div class=\"columns\" style=\"margin-top: 30px;\">",
+          "    <div>",
+          "        <span class=\"columns-title\">${1:Title}</span>",
+          "        <p>",
+          "            ${2:Introduction}:",
+          "            <ul class=\"fa-ul\">",
+          "                <li><span class=\"fa-li\">${3:<i class=\"fa-solid fa-pen-ruler\"></i>}</span><a href=\"${4:#}\">${5:Link Text}</a></li>",
+          "            </ul>",
+          "        </p>",
+          "    </div>",
+          "</div>"
+        ],
+        "description": "Link Box"
+    },
+    "Link Box Entry": {
+        "prefix": "tcolumns-linkbox-box",
+        "body": [
+          "<div>",
+          "     <span class=\"columns-title\">${1:Title}</span>",
+          "         <p>",
+          "            ${2:Introduction}:",
+          "            <ul class=\"fa-ul\">",
+          "                <li><span class=\"fa-li\">${3:<i class=\"fa-solid fa-pen-ruler\">}</i></span><a href=\"${4:#}\">${5:Link Text}</a></li>",
+          "            </ul>",
+          "        </p>",
+          "</div>"
+        ],
+        "description": "Link Box Entry"
+    },
+    "Link Box Entry Link": {
+        "prefix": "tcolumns-linkbox-linkentry",
+        "body": [
+          "<li><span class=\"fa-li\">${1:<i class=\"fa-solid fa-pen-ruler\"></i>}</span><a href=\"${2:#}\">${3:Link Text}</a></li>"
+        ],
+        "description": "Link Box Entry Link"
+    }
+}
