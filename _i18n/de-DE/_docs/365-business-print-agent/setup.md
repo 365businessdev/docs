@@ -22,7 +22,7 @@ Die Print Agent Einrichtung enthält die Konfiguration für die Kommunikation zw
 ## Wie wird Direktverbindung als Dienstmodus eingerichtet?
 
 <div class="alert alert-info">
-    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong> Die Unterstützung für die Verbindung mehrerer Print Agent-Dienst Instanzen wurde mit 365 business Print Agent Version 18.2 hinzugefügt.<br>Bitte überprüfen Sie, ob Sie die neueste Version von 365 business Print Agent verwenden, um diese Funktion zu nutzen.
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong> Die Unterstützung für die Verbindung mehrerer Print Agent-Dienst Instanzen wurde mit 365 business Print Agent Version 18.2 hinzugefügt.<br>Bitte überprüfen Sie, ob Sie die neueste Version von 365 business Print Agent verwenden, um diese Funktion zu nutzen.
 </div>
 
  1. Wählen Sie **Direktverbindung** als **Dienstmodus**.<br>[Mehr erfahren](../print-agent-whatis/#architecture)
