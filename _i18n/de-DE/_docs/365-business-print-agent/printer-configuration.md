@@ -22,9 +22,9 @@ Die Druckereinstellung kann manuell über die Kartenseite **Druckereinstellung**
     ![Unterstützte Druckereinstellung - Allgemein](/assets/images/365-business-print-agent/1a276d89ea83cdf50266c0cf659f387072d70168d92310a935b122fe2009b856.png)
  6. **Weiter** wählen.
  7. Wählen Sie **Papierart** (z. B. A4-Papier (210 mm x 297 mm)).
-     7.1.Wenn Sie **Benutzerdefiniertes** Papierformat angeben, müssen Sie Höhe und Breite des Papierformats angeben. _(Optional)_
+    1. Wenn Sie **Benutzerdefiniertes** Papierformat angeben, müssen Sie Höhe und Breite des Papierformats angeben. _(Optional)_
  8. Geben Sie an, ob der Farbdruck aktiviert werden soll oder nicht.<br>_(nur anwendbar, wenn der Drucker Farbdruck unterstützt)_
- 9. Geben Sie an, ob Simplex- oder Duplexdruck verwendet werden soll.<br>(nur anwendbar, wenn der Drucker den Duplex-Modus unterstützt)_
+ 9.  Geben Sie an, ob Simplex- oder Duplexdruck verwendet werden soll.<br>(nur anwendbar, wenn der Drucker den Duplex-Modus unterstützt)_
  10. Legen Sie fest, ob mehrere Papierfächer verwendet werden sollen oder nicht.
  11. Wählen Sie **Papierquelle** (Papierfach) für alle Seiten _(wenn nicht ausgewählt, mehrere Papierfächer verwenden)_ oder für die verschiedenen Optionen.<br>
     ![Unterstützte Druckereinstellung - Auswahl des Papierfachs](/assets/images/365-business-print-agent/8a5abd438a19a5badc512c15d08a0ebb706f4c491593f4f58e616e8c3a1f9e8f.png)
