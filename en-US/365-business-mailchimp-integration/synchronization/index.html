@@ -28,9 +28,9 @@
 <meta property="og:url" content="https://docs.365businessdev.com/en-US/365-business-mailchimp-integration/synchronization/" />
 <meta property="og:site_name" content="365 business development" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2023-01-17T15:59:40+00:00" />
+<meta property="article:published_time" content="2023-01-18T11:39:01+00:00" />
 <script type="application/ld+json">
-{"author":{"@type":"Person","name":"365 business development"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.365businessdev.com/en-US/siteicon.png"},"name":"365 business development"},"description":"This page is not available in the selected language. The page is available in German. Please select other language to display. Die Mailchimp Integration App für Microsoft Dynamics 365 Business Central führt eine regelmäßige und ereignisbezogene Synchronisation zwischen Mailchimp und Microsoft Dynamics 365 Business Central aus. Die Synchronisation erfolgt im Hintergrund, kann allerdings bei Bedarf auch, bspw. in der Abonnentenliste, manuell ausgeführt werden. Synchronisation Es werden folgende Entitäten aus oder von Mailchimp synchronisiert bzw. übertragen: Abonnentenliste Bei der Synchronisation von Abonnentenlisten werden folgende Informationen synchronisiert: Microsoft Dynamics 365 Business Central Mailchimp Richtung Beschreibung name Bidirektional Beschreibung 2 n/a   Abonnentenliste ID audience id Von Mailchimp Abonnenten Bei der Synchronisation von Abonnenten werden folgende Informationen synchronisiert Microsoft Dynamics 365 Business Central Mailchimp Richtung Abonnentenliste ID audience id Bidirektional Kontakt E-Mail Adresse email_address Bidrektional Status status Bidirektional Ursache unsubscribe reason Von Mailchimp Opt-In IP-Adress ip opt Von Mailchimp Opt-In Zeitpunkt timestamp opt Von Mailchimp HinweisDie Synchronisation des Status findet indirekt statt, jedoch unter Berücksichtigung der Workflows in Mailchimp. Der Status kann über die Aktionen Abonnieren (Status = Abonniert) und Abonnement beenden (Status = Nicht abonniert) aus Microsoft Dynamics 365 Business Central gesteuert werden. Alle andere Status können nicht direkt aus Microsoft Dynamics 365 Business Central gewählt werden. Kontakte Bei der Synchronisation von Kontakten werden folgende Informationen synchronisiert: Microsoft Dynamics 365 Business Central Mailchimp Richtung Name FNAME &amp; LNAME Bidirektional Vorname FNAME Bidirektional E-Mail email address Bidirektional Adresse addr1 Bidirektional Adresse 2 addr2 Bidirektional Ort city Bidirektional PLZ Code zip Bidirektional Länder-/Regionscode country Bidirektional Wie findet die Synchronisation von Kontakten statt? Um Dubletten zu verhindern und neue Abonnenten / Kontakte korrekt zuzuordnen wird die Synchronisation auf Basis der E-Mail Adresse durchgeführt. Existiert die registrierte E-Mail Adresse bereits in einem Microsoft Dynamics 365 Business Central Kontakt, so wird der bestehende Kontakt verwendet. Wird kein Kontakt mit der entsprechenden E-Mail Adresse gefunden, so erstellt die Mailchimp Integration App einen neuen Kontakt auf Basis der zur Verfügung stehenden Informationen. Über die Domain der übermittelten E-Mail Adresse (bspw. “@365businessdev.com”) wird nach einem Unternehmenskontakt gesucht um den neuen Kontakt korrekt zuzuordnen. HinweisUm zu verhindern, dass Kontakte, bei der Verwendung von öffentlichen E-Mail Providern, wie bspw. Google Mail, versehentlich bzw. falsch zugeordnet werden, findet die beschriebene Unternehmenskontaktsuche, an Hand der Domain bei öffentlichen E-Mail Providern nicht statt. WichtigWird eine E-Mail Adresse in Mailchimp geändert so ist dies für Microsoft Dynamics 365 Business Central ein neuer Kontakt, da Mailchimp keinerlei Informationen zur “ursprünglichen” E-Mail Adresse ausgibt.","url":"https://docs.365businessdev.com/en-US/365-business-mailchimp-integration/synchronization/","headline":"synchronization","@type":"Article","dateModified":"2023-01-17T15:59:40+00:00","datePublished":"2023-01-17T15:59:40+00:00","@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"365 business development"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.365businessdev.com/en-US/siteicon.png"},"name":"365 business development"},"description":"This page is not available in the selected language. The page is available in German. Please select other language to display. Die Mailchimp Integration App für Microsoft Dynamics 365 Business Central führt eine regelmäßige und ereignisbezogene Synchronisation zwischen Mailchimp und Microsoft Dynamics 365 Business Central aus. Die Synchronisation erfolgt im Hintergrund, kann allerdings bei Bedarf auch, bspw. in der Abonnentenliste, manuell ausgeführt werden. Synchronisation Es werden folgende Entitäten aus oder von Mailchimp synchronisiert bzw. übertragen: Abonnentenliste Bei der Synchronisation von Abonnentenlisten werden folgende Informationen synchronisiert: Microsoft Dynamics 365 Business Central Mailchimp Richtung Beschreibung name Bidirektional Beschreibung 2 n/a   Abonnentenliste ID audience id Von Mailchimp Abonnenten Bei der Synchronisation von Abonnenten werden folgende Informationen synchronisiert Microsoft Dynamics 365 Business Central Mailchimp Richtung Abonnentenliste ID audience id Bidirektional Kontakt E-Mail Adresse email_address Bidrektional Status status Bidirektional Ursache unsubscribe reason Von Mailchimp Opt-In IP-Adress ip opt Von Mailchimp Opt-In Zeitpunkt timestamp opt Von Mailchimp HinweisDie Synchronisation des Status findet indirekt statt, jedoch unter Berücksichtigung der Workflows in Mailchimp. Der Status kann über die Aktionen Abonnieren (Status = Abonniert) und Abonnement beenden (Status = Nicht abonniert) aus Microsoft Dynamics 365 Business Central gesteuert werden. Alle andere Status können nicht direkt aus Microsoft Dynamics 365 Business Central gewählt werden. Kontakte Bei der Synchronisation von Kontakten werden folgende Informationen synchronisiert: Microsoft Dynamics 365 Business Central Mailchimp Richtung Name FNAME &amp; LNAME Bidirektional Vorname FNAME Bidirektional E-Mail email address Bidirektional Adresse addr1 Bidirektional Adresse 2 addr2 Bidirektional Ort city Bidirektional PLZ Code zip Bidirektional Länder-/Regionscode country Bidirektional Wie findet die Synchronisation von Kontakten statt? Um Dubletten zu verhindern und neue Abonnenten / Kontakte korrekt zuzuordnen wird die Synchronisation auf Basis der E-Mail Adresse durchgeführt. Existiert die registrierte E-Mail Adresse bereits in einem Microsoft Dynamics 365 Business Central Kontakt, so wird der bestehende Kontakt verwendet. Wird kein Kontakt mit der entsprechenden E-Mail Adresse gefunden, so erstellt die Mailchimp Integration App einen neuen Kontakt auf Basis der zur Verfügung stehenden Informationen. Über die Domain der übermittelten E-Mail Adresse (bspw. “@365businessdev.com”) wird nach einem Unternehmenskontakt gesucht um den neuen Kontakt korrekt zuzuordnen. HinweisUm zu verhindern, dass Kontakte, bei der Verwendung von öffentlichen E-Mail Providern, wie bspw. Google Mail, versehentlich bzw. falsch zugeordnet werden, findet die beschriebene Unternehmenskontaktsuche, an Hand der Domain bei öffentlichen E-Mail Providern nicht statt. WichtigWird eine E-Mail Adresse in Mailchimp geändert so ist dies für Microsoft Dynamics 365 Business Central ein neuer Kontakt, da Mailchimp keinerlei Informationen zur “ursprünglichen” E-Mail Adresse ausgibt.","url":"https://docs.365businessdev.com/en-US/365-business-mailchimp-integration/synchronization/","headline":"synchronization","@type":"Article","dateModified":"2023-01-18T11:39:01+00:00","datePublished":"2023-01-18T11:39:01+00:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 		<link type="application/atom+xml" rel="alternate" href="https://docs.365businessdev.com/en-US/feed.xml" title="365 business development" />
@@ -46,8 +46,12 @@
 	</head>
 
 	<body>
-		<header>
-			<div style="position: fixed; height: 32px; top: 0; left: 0; background-color: #23282d; direction: rtl; width: 100%; font-size: 13px;">
+		<div style="position: fixed; height: 32px; top: 0; left: 0; background-color: #23282d; width: 100%; font-size: 13px; z-index: 9999;">
+			<div style="float: left; width: 70%; box-sizing: border-box; color: rgb(209, 209, 209); font-weight: 600; height: 100%;">
+				<div id="page-scroll-title">
+				</div>
+			</div>
+			<div style="float: left; width: 30%; margin-right: 0px; box-sizing: border-box; direction: rtl;">
 				
 								
 				<a style="color: whitesmoke; padding-right: 10px;" href="/de-DE/365-business-mailchimp-integration/synchronization/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGzSURBVHjaYvTxcWb4+53h3z8GZpZff/79+v3n/7/fDAz/GHAAgABi+f37e3FxOZD1Dwz+/v3z9y+E/AMFv3//+Qumfv9et241QACxMDExAVWfOHkJJAEW/gUEP0EQDn78+AHE/gFOQJUAAcQiy8Ag8O+fLFj1n1+/QDp+/gQioK7fP378+vkDqOH39x9A/RJ/gE5lAAhAYhzcAACCQBDkgRXRjP034R0IaDTZTFZn0DItot37S94KLOINerEcI7aKHAHE8v/3r/9//zIA1f36/R+o4tevf1ANYNVA9P07RD9IJQMDQACxADHD3z8Ig4GMHz+AqqHagKp//fwLVA0U//v7LwMDQACx/LZiYFD7/5/53/+///79BqK/EMZ/UPACSYa/v/8DyX9A0oTxx2EGgABi+a/H8F/m339BoCoQ+g8kgRaCQvgPJJiBYmAuw39hxn+uDAABxMLwi+E/0PusRkwMvxhBGoDkH4b/v/+D2EDyz///QB1/QLb8+sP0lQEggFh+vGXYM2/SP6A2Zoaf30Ex/J+PgekHwz9gQDAz/P0FYrAyMfz7wcDAzPDtFwNAgAEAd3SIyRitX1gAAAAASUVORK5CYII=" width="16" height="11" style="width: 16px; height: 11px; margin-top: 10px;"></a>
@@ -58,7 +62,9 @@
 				
 				
 			</div>
-			<div style="background-color: #ffffff; box-sizing: border-box; border: 0; border-bottom: 1px solid rgba(0, 0, 0, 0.075); border-left: 5px solid transparent; box-shadow: inset -10px 0 10px -10px rgba(0, 0, 0, 0.1);height: 190px; padding-top: 40px;">
+		</div>
+		<header>			
+			<div style="background-color: #ffffff; box-sizing: border-box; border: 0; border-bottom: 1px solid rgba(0, 0, 0, 0.075); border-left: 5px solid transparent; box-shadow: inset -10px 0 10px -10px rgba(0, 0, 0, 0.1); padding-top: 40px;">
 				<a href="/en-US/"><img src="/assets/images/emblem.png" width="300" alt="365 business development logo"></a>
 			</div>
 			<button type="button" class="open-nav" id="open-nav"></button>			
@@ -537,6 +543,36 @@
 				anchors.add('article section h1, h2, h3, h4, h5, h6');
 				anchors.options.placement = 'left';
 			});
+
+			document.body.onscroll = function() {
+				let pageScrollTitle = document.getElementById('page-scroll-title');
+				if (pageScrollTitle === null) {
+					return;
+				}
+				
+				let headerElements = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+				pageScrollTitle.innerText = headerElements[0].innerText;
+				let lastHeaderTitle = '';
+
+				// console.log(`document.documentElement.scrollTop: ${document.documentElement.scrollTop}`);
+				if (document.documentElement.scrollTop >= 100) {
+					pageScrollTitle.style.display = 'block';
+
+					for (let i = 1; i < headerElements.length; i++) {
+						const headerElement = headerElements[i];
+						if (headerElement.offsetTop < document.documentElement.scrollTop) {
+							lastHeaderTitle = headerElement.innerText;
+						}
+					}
+
+					if (lastHeaderTitle !== '') {
+						pageScrollTitle.innerText = pageScrollTitle.innerText + ' - ' + lastHeaderTitle;
+					}
+
+				} else {
+					pageScrollTitle.style.display = 'none';
+				}
+			}
 		</script>
 	</body>
 </html>
