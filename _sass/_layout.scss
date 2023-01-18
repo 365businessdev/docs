@@ -303,10 +303,22 @@ body {
 }
 
 .main {
-	margin-top: 200px;
+	margin-top: 232.8px;
 
 	@media (min-width: $mobile-break) {
 		margin-top: 0;
+	}
+}
+
+#page-scroll-title {
+	padding-left: 10px;
+	padding-top: 5px;
+	display: none;
+}
+
+@media (max-width: $mobile-break) {
+	#page-scroll-title {
+		display: none !important;	
 	}
 }
 
@@ -316,7 +328,7 @@ header {
 	$emblem-horizontal-padding: $space;
 
 	position: absolute;
-	top: 0;
+	top: 32px;
 	left: 0;
 	right: 0;
 	overflow-x: hidden;
