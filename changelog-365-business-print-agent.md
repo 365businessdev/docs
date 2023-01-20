@@ -4,6 +4,14 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-print-agent/
 ---
 
+#### Version 18.2.74.7325
+
+ - Fix unregister Tenant from Print Agent Cloud on Service Mode change.
+ - Fix issue #2547 - Error code `1008` - Error while printing.
+ - Fix issue #2556 - User-defined paper source kind not recognized.
+ - Add dialog when direct connection clients are queried.
+ - Update printer status, after time-out of print job (related to network printers only).
+
 #### Version 18.2.66.7209
 
  - Add Print Agent Client Setup for **Direct Connection** service mode.
