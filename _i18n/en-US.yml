@@ -59,6 +59,7 @@ titles:
   user-settings: User Settings
   zmdo-vat-entries-vat-reg-no: VAT Entries for the EU were found where no VAT Registration No. was specified.
   zmdo-does-not-match-ustva-amount: Recapitulative Stmt. Amount does not match Sales VAT Adv. Notification.
+  vat-registration-no-format: VAT Registration No. Format
   find-and-replace: Find & Replace
   user-certificates: User Certificates
   opp-affiliation: Affiliation
