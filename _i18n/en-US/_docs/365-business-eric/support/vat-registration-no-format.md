@@ -23,7 +23,7 @@ Dabei können folgende Situationen eintreten:
 
  - Es wurden unzulässige Zeichen, wie bspw. Sonderzeichen, gefunden und automatisch entfernt.
  - Die führenden Kennzeichen zur Länderidentifizierung sind nicht enthalten und konnten nicht automatisch angefügt werden.
- - Die führenden Kennzeichen zur Länderidentifizierung wurden automatisch.
+ - Die führenden Kennzeichen zur Länderidentifizierung wurden automatisch ergänzt.
 
 #### Handlungsempfehlung
 
