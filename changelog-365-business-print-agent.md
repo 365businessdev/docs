@@ -4,6 +4,12 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-print-agent/
 ---
 
+#### Version 18.2.100.7598
+
+ - Fix issue #2575 - Paper source type is not displayed properly for user-defined types.
+ - Fix issue #2579 - Available flag for printers is removed on "Toner low" status.
+ - Changed sorting in paper source kind view.
+
 #### Version 18.2.74.7325
 
  - Fix unregister Tenant from Print Agent Cloud on Service Mode change.
