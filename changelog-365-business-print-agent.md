@@ -4,6 +4,11 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-print-agent/
 ---
 
+#### Version 18.2.106.8229 
+ - Fix issue #2581 - Missing page link in User Group Member Factbox
+ - Update reference to Extension License Manager.
+ - Expose field "Printer ID" in Printer Configuration.
+
 #### Version 18.2.100.7598
 
  - Fix issue #2575 - Paper source type is not displayed properly for user-defined types.
