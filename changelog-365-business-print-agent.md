@@ -9,6 +9,17 @@ permalink: /new-and-planned/changelog/365-business-print-agent/
  - Update reference to Extension License Manager.
  - Expose field "Printer ID" in Printer Configuration.
 
+**365 business Print Agent service - Version 1.3.8.8403**
+
+ - Added SQL Server database support, to introduce fail-over setup.
+ - Added SQLite to SQL Server database migration.
+ - Added advanced statistics in 365 business Print Agent application.
+ - Added 365 business Print Agent stand-alone licensing option.
+ - 365 business Print Agent application UI optimization.
+ - Added service statistics in 365 business Print Agent application dashboard.
+ - Overall performance optimizations.
+ - Add print job status flag in history tab.
+
 #### Version 18.2.100.7598
 
  - Fix issue #2575 - Paper source type is not displayed properly for user-defined types.
