@@ -4,7 +4,15 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-print-agent/
 ---
 
+#### Version 18.2.111.8882
+
+ - Fix issue #2647 - Overrule printer access permission for administrators, using the `BDEV.PRINTAGENTSETUP` permission set.
+ - Fix issue #2648 - Tenant ID for Print Agent authentication is not synced.
+ - Fix issue #2643 - Custom height/width fields not editable, when custom paper source selected in Configuration Page Range page.
+ - Update permission set captions.
+
 #### Version 18.2.106.8229 
+
  - Fix issue #2581 - Missing page link in User Group Member Factbox
  - Update reference to Extension License Manager.
  - Expose field "Printer ID" in Printer Configuration.
