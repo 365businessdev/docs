@@ -24,12 +24,6 @@ All 365 business development apps are versioned based on the following scheme:
 
 #### Upcoming Features
 
-##### 365 business Print Agent
-
-| Feature | Description | Planned Release |
-| --- | --- | --- |
-| Microsoft SQL Server Connection | Add support to store the Print Agent service database on Microsoft SQL Server. This enables you to share service database with multiple instances of Print Agent service to implement fail-over concepts. | Q1-2023 |
-
 ##### 365 business ERiC
 
 | Feature | Description | Planned Release |
