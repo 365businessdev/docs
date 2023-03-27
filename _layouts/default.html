@@ -76,7 +76,16 @@
 							<ul>
 								{% for item in items %}
 									{% if item.show == false %} {% continue %} {% endif %}
+									{% if item.subcategory %} {% continue %} {% endif %}
 									<li class="nav-item {% if item.url == page.url %}current{% endif %}"><a href="{{ site.baseurl }}{{ item.url }}">{% t titles.{{ item.title }} %}</a></li>
+									<ul style="margin-left: 10px;">
+										{% for subcategoryItem in items %}
+											{% if subcategoryItem.show == false %} {% continue %} {% endif %}
+											{% if subcategoryItem.subcategory == item.title %}
+												<li class="nav-item {% if subcategoryItem.url == page.url %}current{% endif %}"><a href="{{ site.baseurl }}{{ subcategoryItem.url }}">{% t titles.{{ subcategoryItem.title }} %}</a></li>
+											{% endif %}
+										{% endfor %}
+									</ul>
 								{% endfor %}
 							</ul>
 						</li>
