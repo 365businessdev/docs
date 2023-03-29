@@ -5,7 +5,12 @@
 In some environments, e.g. with locally separated branch offices, it can make sense to make printers accessible only for certain users. This can be achieved via the **Printer Access Permissions** by assigning one or more [user groups](https://learn.microsoft.com/en-US/dynamics365/business-central/ui-define-granular-permissions) to a printer.
 
 <div class="alert alert-notice">
-    <i class="fa-solid fa-notes"></i> <strong>Good to know:</strong>If no user groups are assigned to a printer, this printer and the associated printer settings are accessible to all users in Microsoft Dynamics 365 Business Central.
+    <i class="fa-solid fa-notes"></i> <strong>Good to know:</strong>If no user groups are assigned to a printer, this printer and the associated printer settings are accessible to all users in Microsoft Dynamics 365 Business Central.<br>
+    <br>
+    <br>
+    Users who use the "365 business Print Agent - Full Access" (<code>bdev.PRINTAGENTSETUP</code>) permission set are considered administrative users and are exempt from restricting the selection of printers via the printer access permissions.<br>
+    <br>
+    This is to allow administrators to assign printers that you generally do not have access to to other users.
 </div>
 
 ## What are Printer Access Permissions?
