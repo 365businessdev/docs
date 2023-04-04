@@ -81,6 +81,7 @@ titles:
   print-agent-whatis: What is Print Agent?
   print-agent-client-whatis: What is the Print Agent Service?
   printer-access-permission: Printer Access Permission
+  setup-xps-printer: Set up Microsoft XPS Document Writer (MXDW)
 langs:
   german: German
   english: English
