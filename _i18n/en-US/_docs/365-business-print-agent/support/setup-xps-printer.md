@@ -15,14 +15,11 @@ When choosing the option to Print to File from an application, the user is promp
 
 1. Go to Devices and Printers.
 2. Click on Add Printers.
-3. Click on Add a local or network printer with manual settings.
-   ![Find a printer by other options dialog](/assets/images/365-business-print-agent/1062d8a1ab2ec8922f457cc23dd6c50d8f6b1bc0f58344d43481ea4b962d11eb.png)
-4. Click on Create a new port: Local Port.
-   ![Create a new port: Local Port](/assets/images/365-business-print-agent/7ab8a8f098dcb9c886ac9540a3b8e967fe476b3aa49d4d3628d833995079056e.png)
+3. Click on Add a local or network printer with manual settings.<br>![Find a printer by other options dialog](/assets/images/365-business-print-agent/1062d8a1ab2ec8922f457cc23dd6c50d8f6b1bc0f58344d43481ea4b962d11eb.png)
+4. Click on Create a new port: Local Port.<br>![Create a new port: Local Port](/assets/images/365-business-print-agent/7ab8a8f098dcb9c886ac9540a3b8e967fe476b3aa49d4d3628d833995079056e.png)
 5. You will get a Port Name Box - Type in Path and the file name. for example, `C:\Temp\PrintJob.xps`.
 6. Select the Manufacturer - `Microsoft`.
-7. Select Printers - `Microsoft XPS Document Writer v4`.
-   ![Install the printer driver dialog](/assets/images/365-business-print-agent/9c5fc601bb9842bccf3df601502307b88455e37363aad807034ad5df2a3c9780.png)
+7. Select Printers - `Microsoft XPS Document Writer v4`.<br>![Install the printer driver dialog](/assets/images/365-business-print-agent/9c5fc601bb9842bccf3df601502307b88455e37363aad807034ad5df2a3c9780.png)
 8. Select - Use the driver that is currently installed (recommended).
 9. Type a name for the printer.
 10. Finish.

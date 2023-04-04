@@ -15,14 +15,11 @@ Wenn Sie die Option "In Datei drucken" aus einer Anwendung heraus wählen, wird 
 
 1. Öffnen Sie die Geräte und Drucker.
 2. Wählen Sie Drucker hinzufügen.
-3. Klicken Sie auf Einen lokalen oder Netzwerkdrucker mit manuellen Einstellungen hinzufügen.
-   ![Find a printer by other options dialog](/assets/images/365-business-print-agent/1062d8a1ab2ec8922f457cc23dd6c50d8f6b1bc0f58344d43481ea4b962d11eb.png)
-4. Klicken Sie auf Einen neuen Anschluss erstellen: Lokaler Anschluss.
-   ![Create a new port: Local Port](/assets/images/365-business-print-agent/7ab8a8f098dcb9c886ac9540a3b8e967fe476b3aa49d4d3628d833995079056e.png)
+3. Klicken Sie auf Einen lokalen oder Netzwerkdrucker mit manuellen Einstellungen hinzufügen.<br>![Find a printer by other options dialog](/assets/images/365-business-print-agent/1062d8a1ab2ec8922f457cc23dd6c50d8f6b1bc0f58344d43481ea4b962d11eb.png)
+4. Klicken Sie auf Einen neuen Anschluss erstellen: Lokaler Anschluss.<br>![Create a new port: Local Port](/assets/images/365-business-print-agent/7ab8a8f098dcb9c886ac9540a3b8e967fe476b3aa49d4d3628d833995079056e.png)
 5. Sie erhalten ein Feld für den Anschlussnamen - geben Sie den Pfad und den Dateinamen ein, z. B. `C:\Temp\PrintJob.xps`.
 6. Wählen Sie die Hersteller - `Microsoft`.
-7. Wählen Sie den Drucker - `Microsoft XPS Document Writer v4`.
-   ![Install the printer driver dialog](/assets/images/365-business-print-agent/9c5fc601bb9842bccf3df601502307b88455e37363aad807034ad5df2a3c9780.png)
+7. Wählen Sie den Drucker - `Microsoft XPS Document Writer v4`.<br>![Install the printer driver dialog](/assets/images/365-business-print-agent/9c5fc601bb9842bccf3df601502307b88455e37363aad807034ad5df2a3c9780.png)
 8. Wählen Sie - Den aktuell installierten Treiber verwenden (empfohlen).
 9. Geben Sie einen Namen für den Drucker ein.
 10. Fertigstellen.
