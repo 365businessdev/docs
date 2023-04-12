@@ -24,6 +24,12 @@ All 365 business development apps are versioned based on the following scheme:
 
 #### Upcoming Features
 
+##### 365 business Print Agent
+
+| Feature | Description | Planned Release |
+| --- | --- | --- |
+| Printer Configuration Sync. | Synchronize the printer configurations through all companies inside Microsoft Dynamics 365 Business Central. | April 2023 |
+
 ##### 365 business ERiC
 
 | Feature | Description | Planned Release |
