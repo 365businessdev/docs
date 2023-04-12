@@ -4,6 +4,18 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-print-agent/
 ---
 
+#### Version 18.3.133.9299
+
+ - Fix issue #2664 - Support SATO Industrial label printers (incl. ZPL emulation support).
+ - Enhancement #2654 - Option to auto-enable printer configurations.
+ - Enhancement #2665 - "Do not show anymore" action for optional notifications.
+ - Task #2658 - Support for virtual printers, like Microsoft XPS Document Writer (MXDW). See [documentation](https://docs.365businessdev.com/en-US/365-business-print-agent/support/setup-xps-printer/) for additional information.
+ - UI optimizations.
+ - Minor fixes in handling printer issues.
+ - Enable / disable printer configuration actions in list views.
+ - Fix issue #2667 - Fix false-positive message on failed Print Agent direct connection authentication.
+ - Prevent from multiple set up Print Agent client in direct connection.
+
 #### Version 18.2.111.8882
 
  - Fix issue #2647 - Overrule printer access permission for administrators, using the `BDEV.PRINTAGENTSETUP` permission set.
