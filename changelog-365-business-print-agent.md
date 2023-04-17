@@ -4,6 +4,11 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-print-agent/
 ---
 
+#### Version 18.4.135.9367
+
+ - Task #2655 - Cross-tenant printer and printer configurations (DataPerCompany = false)
+ - UI optimizations.
+
 #### Version 18.3.133.9299
 
  - Fix issue #2664 - Support SATO Industrial label printers (incl. ZPL emulation support).
