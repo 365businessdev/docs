@@ -85,7 +85,7 @@ titles:
   print-agent-config: Print Agent Config
   quick-start: Schnellstart
   print-agent-config-printers: Verwaltung von Druckern
-  print-agent-config-connections: Verbindungstyp
+  print-agent-config-connections: Dienstmodus / Verbindungstyp
   print-agent-config-firststart: Ersteinrichtung
   print-agent-config-databases: Datenbanken
   print-agent-config-statistics: Auswertung und Statistiken

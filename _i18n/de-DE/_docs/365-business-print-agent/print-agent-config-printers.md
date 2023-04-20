@@ -1,6 +1,11 @@
 Unter dem Menüpunkt "Drucker" werden alle auf dem aktuellen Windows System installierten Drucker angezeigt. Durch die Checkbox in der ersten Spalte der Tabelle können Sie einen Drucker für die Benutzung in Microsoft Business Central freigeben oder die Freigabe widerrufen.
+In der Spalte "Emulation" können Sie für jeden Drucker zwischen "Standard" und "Zebra (ZPL)" wählen.
 
-Neben dem Namen des Druckers, werden Ihnen weitere Information zum ausgewähltem Gerät angezeigt. Wird ein Drucker ausgewählt, werden weitere Information im unteren Bereich angezeigt. Dazu zählen unter anderem alle unterstützten Papierformate und -quellen, welche später ebenfalls im Microsoft Business Central zur Verfügung stehen.
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong> Wählen Sie "Zebra (ZPL)", wenn es sich um einen Drucker der Firma Zebra handelt und die erzeugte PDF Datei in das ZPL Format konvertiert werden soll. Dies kann den Druckvorgang beschleunigen, weil in diesem Fall nicht der Drucker, sondern der 365 business Print Agent die Umwandlung in das ZPL kompatible Format übernimmt.
+</div>
+
+Neben dem Namen des Druckers werden Ihnen weitere Information zum ausgewählten Gerät angezeigt. Wird ein Drucker ausgewählt, werden weitere Information im unteren Bereich angezeigt. Dazu zählen unter anderem alle unterstützten Papierformate und -quellen, welche später ebenfalls im Microsoft Business Central zur Verfügung stehen.
 
 ![Druckerverwaltung](/assets/images/365-business-print-agent/config/Printer.PNG)  
 
@@ -44,5 +49,5 @@ table tr:nth-child(even) td{
 </div>
 
 <div class="alert alert-info">
-    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong> Ein Sonderfall stellen Drucker der "Microsoft XPS" Serie dar. Da es sich bei diesen Druckern, nicht um physische Drucker handelt, benötigt die Benutzung zusätzliche Konfiguration. Nährere Informationen dazu finden sie [hier](../support/setup-xps-printer/)
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong> Ein Sonderfall stellen Drucker der "Microsoft XPS" Serie dar. Da es sich bei diesen Druckern, nicht um physische Drucker handelt, benötigt die Benutzung zusätzliche Konfiguration. Nähere Informationen dazu finden sie <a href="../support/setup-xps-printer/">hier</a>.
 </div>

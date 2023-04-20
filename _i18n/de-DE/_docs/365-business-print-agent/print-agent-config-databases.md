@@ -17,7 +17,7 @@ Sollten Sie in Ihrer Umgebung lange Laufzeiten feststellen, empfehlen wir den We
 </div>
 
 <div class="alert alert-info">
-    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong>Je nach Anzahl der zu migrierenden Druckaufträge, kann eine Migration mehrere Stunden dauern. Sie werden über einen Migrations-Status Dialog über den aktuellen Verarbeitungsstand informiert.
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong>Je nach Anzahl der zu migrierenden Druckaufträge kann eine Migration mehrere Stunden dauern. Sie werden während des gesamten Prozesses über den aktuellen Verarbeitungsstand informiert.
 </div>
 
 <div class="alert alert-info">

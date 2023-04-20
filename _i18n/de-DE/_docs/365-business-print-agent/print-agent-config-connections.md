@@ -1,17 +1,17 @@
-Wie im Punkt [Was ist Print Agent?](../print-agent-whatis/) beschrieben, kann der 365 business Print Agent in zwei unterschiedlichen Service-Modi betrieben werden.
+Wie im Punkt "[Was ist Print Agent?](../print-agent-whatis/)" beschrieben, kann der 365 business Print Agent in zwei unterschiedlichen Dienst-Modi betrieben werden.
 
-Unter dem Menüpunkt "Einstellungen" kann der Service-Modus, falls gewünscht jederzeit gewechselt werden.
+Unter dem Menüpunkt "Einstellungen" kann der Dienstmodus, falls gewünscht, jederzeit gewechselt werden.
 
 ### 365 business Print Agent Cloud (empfohlen)
 
-Die Nutzung der 365 business Print Agent Cloud ist die empfohlende Methode.
+Die Nutzung der 365 business Print Agent Cloud ist die empfohlene Methode.
 Der Vorteil dieser ist, dass die Einrichtung auf ein Minimum reduziert und sofort einsatzbereit ist.
 
 Folgende Schritte sind notwendig, um über die 365 business Print Agent Cloud zu drucken:
 
 #### Microsoft Dynamics 365 Business Central
 1. Installieren Sie die "365 business Print Agent" App über den Microsoft AppSource in Ihrem Microsoft Dynamics 365 Business Central Tenant.
-2. Nach der Installation wählen Sie in der 365 business Print Agent App den Service Mode "Print Agent Cloud" aus.
+2. Nach der Installation wählen Sie in der 365 business Print Agent App den Dienstmodus "Print Agent Cloud" aus.
 3. Wählen Sie "Print Agent authentifizieren" und kopieren Sie den Wert "Tenant ID" aus dem Feld.
 
 #### 365 business Print Agent Config 
@@ -39,7 +39,7 @@ Folgende Schritte sind notwendig, um über die 365 business Print Agent Server z
 
 #### Microsoft Dynamics 365 Business Central
 1. Installieren Sie die "365 business Print Agent" App über den Microsoft AppSource in Ihrem Microsoft Dynamics 365 Business Central Tenant.
-2. Nach der Installation wählen Sie in der 365 business Print Agent App den Service Mode "Direct Connection" aus.
+2. Nach der Installation wählen Sie in der 365 business Print Agent App den Dienstmodus "Direct Connection" aus.
 3. Geben Sie einen Namen, sowie die "Dienst-Adresse" und den "Dienst-Port" an. Diese entsprechen der IP oder der http(s) Adresse zu Ihrem internen 365 business Print Agent Server.
 
 #### 365 business Print Agent Config 
@@ -53,10 +53,10 @@ Im nachfolgenden Dialog wird die Einrichtung grafisch dargestellt. Sobald dieser
 ![Einstellung-Server](/assets/images/365-business-print-agent/config/Settings_Server.PNG)
 
 <div class="alert alert-notice">
-    <i class="fa-solid fa-notes"></i> <strong>Wichtig:</strong>Die Konfiguration des 365 business Print Agent Server ist damit abgeschlossen. Damit dieser aber von ausserhalb Ihres Netzwerkes verfügbar ist, sind weitere Schritte notwendig (Konfiguration von Firewalls, Netzwerkrouten etc.). Bitte kontaktieren Sie Ihren Netzwerk-/Systemadministrator oder Dienstleister.
+    <i class="fa-solid fa-notes"></i> <strong>Wichtig:</strong>Die Konfiguration des 365 business Print Agent Server ist damit abgeschlossen. Damit dieser aber von außerhalb Ihres Netzwerkes verfügbar ist, sind weitere Schritte notwendig (Konfiguration von Firewalls, Netzwerkrouten etc.). Bitte kontaktieren Sie Ihren Netzwerk-/Systemadministrator oder Dienstleister.
 </div>
 
 <div class="alert alert-info">
-    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong>Es ist ebenfalls möglich den Server mit dem <strong>HTTPS</strong> Protokoll zu betreiben. Dazu klicken Sie auf den Button "HTTPS Konfiguration". Im folgenden Dialog können Sie zwischen 3 unterschiedlichen Arten wählen, wie Sie das notwendige Zertifikat einbinden. Es besteht die Möglichkeit ein Zertifikat über PFX Datei, über PEM und Key Datei oder über den Microsoft Windows Zertifikatsspeicher einzubinden.<br/>
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong>Es ist ebenfalls möglich, den Server mit dem <strong>HTTPS</strong> Protokoll zu betreiben. Dazu klicken Sie auf den Button "HTTPS Konfiguration". Im folgenden Dialog können Sie zwischen 3 unterschiedlichen Arten wählen, wie Sie das notwendige Zertifikat einbinden. Es besteht die Möglichkeit ein Zertifikat über PFX Datei, über PEM und Key Datei oder über den Microsoft Windows Zertifikatsspeicher einzubinden.<br/>
     Nach dem Übernehmen der Einstellungen und anschließendem "Speichern" wird die Einrichtung für die HTTPS Konfiguration durchgeführt.
 </div>
