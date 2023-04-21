@@ -85,7 +85,7 @@ titles:
   print-agent-config: Print Agent Config
   quick-start: Quick Start
   print-agent-config-printers: Printer Management
-  print-agent-config-connections: Connection types
+  print-agent-config-connections: Serice Mode / Connection Type
   print-agent-config-firststart: Initial setup
   print-agent-config-databases: Databases
   print-agent-config-statistics: Reporting and statistics

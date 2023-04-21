@@ -1,7 +1,7 @@
 Beim ersten Start nach der erfolgreichen Installation von 365 business Print Config werden Sie durch einen Assistenten durch die Ersteinrichtung begleitet.
 Während der Einrichtung definieren Sie die zu nutzende Datenbank und den zu verwendenden Dienstmodus.
 
-Sind alle notwendigen Einstellungen vollzogen, wird die Datenbank und der entsprechende Dienst für die Kommunikation mit Microsoft 365 Business Central erstellt und konfiguriert.
+Sind alle notwendigen Einstellungen vollzogen, wird die Datenbank und der entsprechende Dienst für die Kommunikation mit Microsoft Dynamics 365 Business Central erstellt und konfiguriert.
 
 <div class="alert alert-notice">
     <i class="fa-solid fa-notes"></i> <strong>Wichtig:</strong>Bitte beachten Sie, dass Sie <strong>vor</strong> der Ersteinrichtung im 365 business Print Config, die Installation und Einrichtung der "365 business Print Agent" App über den Microsoft AppSource in Ihrem Microsoft Dynamics 365 Business Central Tenant abgeschlossen haben müssen.<br/>
@@ -39,7 +39,7 @@ Sind alle notwendigen Einstellungen vollzogen, wird die Datenbank und der entspr
        <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong>Die Tenant ID können Sie der "365 business Print Agent" App in Ihrem Microsoft Dynamics 365 Business Central Tenant entnehmen.
    </div><br/>
 
-5. Durch das Bestätigen der Einstellungen für den 365 business Print Agent Cloud Service, wird die Datenbank und der Service für die Kommunikation zu Ihrem Microsoft 365 Business Central Tenant erstellt und eingerichtet.<br/>
+5. Durch das Bestätigen der Einstellungen für den 365 business Print Agent Cloud Service, wird die Datenbank und der Service für die Kommunikation zu Ihrem Microsoft Dynamics 365 Business Central Tenant erstellt und eingerichtet.<br/>
 ![CloudClient](/assets/images/365-business-print-agent/config/wizard/wizard5-cloud.PNG) 
 
 6. Nach der erfolgreichen Einrichtung kann der Assistent beendet werden.<br/>
