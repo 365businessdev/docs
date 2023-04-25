@@ -82,6 +82,7 @@ titles:
   print-agent-whatis: Was ist Print Agent?
   print-agent-client-whatis: Was ist der Print Agent Dienst?
   printer-access-permission: Drucker-Zugriffsberechtigungen
+  setup-xps-printer: Microsoft XPS Document Writer (MXDW) einrichten
   print-agent-config: Print Agent Config
   quick-start: Schnellstart
   print-agent-config-printers: Verwaltung von Druckern
