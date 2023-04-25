@@ -7,7 +7,7 @@ Nachfolgend wird an einem Code-Beispiel erklärt, wie Sie 365 business Barcode n
 ## Schritt 1: Abhängigkeit hinzufügen
 
  1. Öffnen Sie die `app.json` Datei in Ihrem AL-Projekt.
- 2. Fügen sie folgenden Code in den `dependency`-Token ein:
+ 2. Fügen Sie folgenden Code in den `dependency`-Token ein:
     ```json
     {
       "id": "9aca19d9-d261-4fa0-88fd-121ad0daa0f7",

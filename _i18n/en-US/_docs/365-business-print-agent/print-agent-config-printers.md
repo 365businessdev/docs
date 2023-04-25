@@ -49,5 +49,9 @@ table tr:nth-child(even) td{
 </div>
 
 <div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong>Remember that for Zebra printers, the settings must be configured for all users. For help with setting up your Zebra printers, click <a href="../support/setup-zebra-default-settings/">here</a>.
+</div>
+
+<div class="alert alert-info">
     <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong>The "Microsoft XPS" series printers are a special case. Since these printers are not physical printers, their use requires additional configuration. <a href="../support/setup-xps-printer/">Learn more</a>.
 </div>

@@ -49,5 +49,9 @@ table tr:nth-child(even) td{
 </div>
 
 <div class="alert alert-info">
-    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong> Ein Sonderfall stellen Drucker der "Microsoft XPS" Serie dar. Da es sich bei diesen Druckern, nicht um physische Drucker handelt, benötigt die Benutzung zusätzliche Konfiguration. Nähere Informationen dazu finden sie <a href="../support/setup-xps-printer/">hier</a>.
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong>Beachten Sie, dass für Zebra Drucker die Eimstellungen für alle Benutzer konfiguriert werden muss. Hilfe bei der Einrichtung von Zebra Druckern erhalten Sie <a href="../support/setup-zebra-default-settings/">hier</a>.
+</div>
+
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong> Ein Sonderfall stellen Drucker der "Microsoft XPS" Serie dar. Da es sich bei diesen Druckern, nicht um physische Drucker handelt, benötigt die Benutzung zusätzliche Konfiguration. Nähere Informationen dazu finden Sie <a href="../support/setup-xps-printer/">hier</a>.
 </div>

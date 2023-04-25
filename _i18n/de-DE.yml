@@ -90,6 +90,7 @@ titles:
   print-agent-config-firststart: Ersteinrichtung
   print-agent-config-databases: Datenbanken
   print-agent-config-statistics: Auswertung und Statistiken
+  setup-zebra-default-settings: Setzen von Standardeinstellungen für Zebra Drucker
 langs:
   german: Deutsch
   english: English

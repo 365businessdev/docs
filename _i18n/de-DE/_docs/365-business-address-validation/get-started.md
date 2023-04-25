@@ -1,4 +1,4 @@
-Mit der Installation von 365 business Address Validation sind sie bereit die Qualität Ihrer Adressdaten auf eine neue Stufe zu heben und können unmittelbar nach der erfolgten Installation die Funktionen [Adressvorhersage](../address-prediction/) und [Adressvalidierung](../address-validation/) nutzen.
+Mit der Installation von 365 business Address Validation sind Sie bereit die Qualität Ihrer Adressdaten auf eine neue Stufe zu heben und können unmittelbar nach der erfolgten Installation die Funktionen [Adressvorhersage](../address-prediction/) und [Adressvalidierung](../address-validation/) nutzen.
 
 #### Erfahren Sie mehr über
 
