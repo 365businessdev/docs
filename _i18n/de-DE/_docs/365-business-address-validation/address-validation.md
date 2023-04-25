@@ -14,7 +14,7 @@ Die Adressvalidierung kann dabei über verschiedene Wege ausgeführt werden:
     <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong> Die automatische Validierung bei Adressänderung / -eingabe wird nur ausgeführt, wenn die <a href="../address-prediction/">Adressvorhersage</a> nicht verwendet wurde.
 </div>
 
-#### Wie kann ich die Adressdaten prüfen, bevor sie angewandt werden?
+#### Wie kann ich die Adressdaten prüfen, bevor diese angewandt werden?
 
 In der [Einrichtung für Adressvalidierung](../setup/) kann die **Adressenüberprüfung** aktiviert werden, um vor der Aktualisierung von Adressdaten die Originaladresse und die validierte Adresse vergleichen zu können.
 

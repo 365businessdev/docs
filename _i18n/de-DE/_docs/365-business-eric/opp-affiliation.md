@@ -9,7 +9,7 @@ Alle Unternehmen der Organschaft sind beim Finanzamt unter einer Steuernummer er
 Mit dem Microsoft Dynamics 365 Business Central Modul [OPplus](https://www.continia.com/de/loesungen/opplus/) haben Sie die Möglichkeit eine Umsatzsteuerliche Organschaft abzubilden. Hierfür wird in der Bilanz und Umsatzsteuer Einrichtung von OPplus ein Code für die Organschaft angelegt. Alle Mandanten mit dem identischen Code werden in der Folge bei der Berechnung der Umsatzsteuervoranmeldung zusammengerechnet.
 
 <div class="alert alert-info">
-    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong> Weitere Informationen finden sie in der <a href="https://help.gbedv.de/de-DE/site/tax/#umsatzsteuer">Dokumentation von OPplus</a>.
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong> Weitere Informationen finden Sie in der <a href="https://help.gbedv.de/de-DE/site/tax/#umsatzsteuer">Dokumentation von OPplus</a>.
 </div>
 
 365 business ERiC unterstützt die Implementierung der umsatzsteuerlichen Organschaft in der Berechnung der [Umsatzsteuervoranmeldung](../elster-sales-vat-adv-notification). Dabei wird die konfigurierte MwSt.-Abrechnung des Organträgers verwendet um entsprechend in den Organgesellschaften (Mandanten) die Beträge zu ermitteln.

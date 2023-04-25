@@ -14,6 +14,7 @@ category:
   365-business-al-extension-manager: 365 business AL Extension Manager
   365-business-print-agent: 365 business Print Agent
   find-and-replace: 365 business development - Suchen & Ersetzen
+  365-business-address-completion: 365 business Address Completion
 titles:
   al-developer: AL Implementation Guide
   search: Suche
@@ -82,6 +83,14 @@ titles:
   print-agent-client-whatis: Was ist der Print Agent Dienst?
   printer-access-permission: Drucker-Zugriffsberechtigungen
   setup-xps-printer: Microsoft XPS Document Writer (MXDW) einrichten
+  print-agent-config: Print Agent Config
+  quick-start: Schnellstart
+  print-agent-config-printers: Verwaltung von Druckern
+  print-agent-config-connections: Dienstmodus / Verbindungstyp
+  print-agent-config-firststart: Ersteinrichtung
+  print-agent-config-databases: Datenbanken
+  print-agent-config-statistics: Auswertung und Statistiken
+  setup-zebra-default-settings: Setzen von Standardeinstellungen für Zebra Drucker
 langs:
   german: Deutsch
   english: English
