@@ -1,0 +1,2050 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<!-- Matomo Tag Manager -->
+		<script>
+			var _mtm = window._mtm = window._mtm || [];
+			_mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.async=true; g.src='https://cdn.matomo.cloud/businessdev.matomo.cloud/container_v7xJrAFg.js'; s.parentNode.insertBefore(g,s);
+		</script>
+		<!-- End Matomo Tag Manager -->
+		<script src="/de-DE/scripts/anchor.min.js"></script>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title> Datenbanken | 365 business development</title>
+
+		<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>print-agent-config-databases | 365 business development</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="print-agent-config-databases" />
+<meta name="author" content="365 business development" />
+<meta property="og:locale" content="de_DE" />
+<meta name="description" content="Das 365 business Print Agent Config Tool benutzt eine Datenbank zum Speichern der freigegebenen Drucker, sowie der verarbeiteten Druckaufträge. Durch ein erhöhtes Druckvolumen (ab ca. 2000 Druckaufträge / Tag) kann es bei der Aufbereitung von Statistiken bei Benutzung der (standardmäßig, bei der Ersteinrichtung ausgewählten) SQLite Datenbank zu längeren Ladezeiten kommen. Sollten Sie in Ihrer Umgebung lange Laufzeiten feststellen, empfehlen wir den Wechsel zum Microsoft SQL Server. Dazu gehen Sie wie folgt vor: 365 business Print Agent Config Öffnen Sie den Menüpunkt “Datenbank” im 365 business Print Agent Config aus. Geben Sie den zu nutzenden Microsoft SQL Server, einen Datenbank Namen, sowie Benutzer und Passwort an. Klicken Sie auf “Migrieren”, um die Daten auf den Microsoft SQL Server zu übertragen. Wichtig:Die Benutzung eines Microsoft SQL Server kann Lizenzkosten verursachen! Hinweis:Je nach Anzahl der zu migrierenden Druckaufträge kann eine Migration mehrere Stunden dauern. Sie werden während des gesamten Prozesses über den aktuellen Verarbeitungsstand informiert. Hinweis:Ein Wechsel zurück zur SQLite Datenbank ist natürlich möglich." />
+<meta property="og:description" content="Das 365 business Print Agent Config Tool benutzt eine Datenbank zum Speichern der freigegebenen Drucker, sowie der verarbeiteten Druckaufträge. Durch ein erhöhtes Druckvolumen (ab ca. 2000 Druckaufträge / Tag) kann es bei der Aufbereitung von Statistiken bei Benutzung der (standardmäßig, bei der Ersteinrichtung ausgewählten) SQLite Datenbank zu längeren Ladezeiten kommen. Sollten Sie in Ihrer Umgebung lange Laufzeiten feststellen, empfehlen wir den Wechsel zum Microsoft SQL Server. Dazu gehen Sie wie folgt vor: 365 business Print Agent Config Öffnen Sie den Menüpunkt “Datenbank” im 365 business Print Agent Config aus. Geben Sie den zu nutzenden Microsoft SQL Server, einen Datenbank Namen, sowie Benutzer und Passwort an. Klicken Sie auf “Migrieren”, um die Daten auf den Microsoft SQL Server zu übertragen. Wichtig:Die Benutzung eines Microsoft SQL Server kann Lizenzkosten verursachen! Hinweis:Je nach Anzahl der zu migrierenden Druckaufträge kann eine Migration mehrere Stunden dauern. Sie werden während des gesamten Prozesses über den aktuellen Verarbeitungsstand informiert. Hinweis:Ein Wechsel zurück zur SQLite Datenbank ist natürlich möglich." />
+<link rel="canonical" href="https://docs.365businessdev.com/de-DE/365-business-print-agent/print-agent-config-databases/" />
+<meta property="og:url" content="https://docs.365businessdev.com/de-DE/365-business-print-agent/print-agent-config-databases/" />
+<meta property="og:site_name" content="365 business development" />
+<script type="application/ld+json">
+{"author":{"@type":"Person","name":"365 business development"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.365businessdev.com/de-DE/siteicon.png"},"name":"365 business development"},"description":"Das 365 business Print Agent Config Tool benutzt eine Datenbank zum Speichern der freigegebenen Drucker, sowie der verarbeiteten Druckaufträge. Durch ein erhöhtes Druckvolumen (ab ca. 2000 Druckaufträge / Tag) kann es bei der Aufbereitung von Statistiken bei Benutzung der (standardmäßig, bei der Ersteinrichtung ausgewählten) SQLite Datenbank zu längeren Ladezeiten kommen. Sollten Sie in Ihrer Umgebung lange Laufzeiten feststellen, empfehlen wir den Wechsel zum Microsoft SQL Server. Dazu gehen Sie wie folgt vor: 365 business Print Agent Config Öffnen Sie den Menüpunkt “Datenbank” im 365 business Print Agent Config aus. Geben Sie den zu nutzenden Microsoft SQL Server, einen Datenbank Namen, sowie Benutzer und Passwort an. Klicken Sie auf “Migrieren”, um die Daten auf den Microsoft SQL Server zu übertragen. Wichtig:Die Benutzung eines Microsoft SQL Server kann Lizenzkosten verursachen! Hinweis:Je nach Anzahl der zu migrierenden Druckaufträge kann eine Migration mehrere Stunden dauern. Sie werden während des gesamten Prozesses über den aktuellen Verarbeitungsstand informiert. Hinweis:Ein Wechsel zurück zur SQLite Datenbank ist natürlich möglich.","url":"https://docs.365businessdev.com/de-DE/365-business-print-agent/print-agent-config-databases/","@type":"Article","headline":"print-agent-config-databases","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+		<link type="application/atom+xml" rel="alternate" href="https://docs.365businessdev.com/de-DE/feed.xml" title="365 business development" />
+
+		<link rel="stylesheet" href="/de-DE/css/main.css">		
+		<link href="/assets/fontawesome-pro/css/fontawesome.css" rel="stylesheet">
+		<link href="/assets/fontawesome-pro/css/light.css" rel="stylesheet">
+		<link href="/assets/fontawesome-pro/css/thin.css" rel="stylesheet">
+		<link href="/assets/fontawesome-pro/css/solid.css" rel="stylesheet">
+		<link href="/assets/fontawesome-pro/css/regular.css" rel="stylesheet">
+		<link href="/assets/fontawesome-pro/css/duotone.css" rel="stylesheet">
+		<link rel="icon" type="image/png" href="/assets/images/favicon.png">
+	</head>
+
+	<body>
+		<div style="position: fixed; height: 32px; top: 0; left: 0; background-color: #23282d; width: 100%; font-size: 13px; z-index: 9999;">
+			<div style="float: left; width: 70%; box-sizing: border-box; color: rgb(209, 209, 209); font-weight: 600; height: 100%;">
+				<div id="page-scroll-title">
+				</div>
+			</div>
+			<div style="float: left; width: 30%; margin-right: 0px; box-sizing: border-box; direction: rtl;">
+				
+								
+				<a style="color: whitesmoke; padding-right: 10px;" href="/de-DE/365-business-print-agent/print-agent-config-databases/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGzSURBVHjaYvTxcWb4+53h3z8GZpZff/79+v3n/7/fDAz/GHAAgABi+f37e3FxOZD1Dwz+/v3z9y+E/AMFv3//+Qumfv9et241QACxMDExAVWfOHkJJAEW/gUEP0EQDn78+AHE/gFOQJUAAcQiy8Ag8O+fLFj1n1+/QDp+/gQioK7fP378+vkDqOH39x9A/RJ/gE5lAAhAYhzcAACCQBDkgRXRjP034R0IaDTZTFZn0DItot37S94KLOINerEcI7aKHAHE8v/3r/9//zIA1f36/R+o4tevf1ANYNVA9P07RD9IJQMDQACxADHD3z8Ig4GMHz+AqqHagKp//fwLVA0U//v7LwMDQACx/LZiYFD7/5/53/+///79BqK/EMZ/UPACSYa/v/8DyX9A0oTxx2EGgABi+a/H8F/m339BoCoQ+g8kgRaCQvgPJJiBYmAuw39hxn+uDAABxMLwi+E/0PusRkwMvxhBGoDkH4b/v/+D2EDyz///QB1/QLb8+sP0lQEggFh+vGXYM2/SP6A2Zoaf30Ex/J+PgekHwz9gQDAz/P0FYrAyMfz7wcDAzPDtFwNAgAEAd3SIyRitX1gAAAAASUVORK5CYII=" width="16" height="11" style="width: 16px; height: 11px; margin-top: 10px;"></a>
+				
+				
+								
+				<a style="color: whitesmoke; padding-right: 10px;" href="/en-US/365-business-print-agent/print-agent-config-databases/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHzSURBVHjaYkxOP8IAB//+Mfz7w8Dwi4HhP5CcJb/n/7evb16/APL/gRFQDiAAw3JuAgAIBEDQ/iswEERjGzBQLEru97ll0g0+3HvqMn1SpqlqGsZMsZsIe0SICA5gt5a/AGIEarCPtFh+6N/ffwxA9OvP/7//QYwff/6fZahmePeB4dNHhi+fGb59Y4zyvHHmCEAAAW3YDzQYaJJ93a+vX79aVf58//69fvEPlpIfnz59+vDhw7t37968efP3b/SXL59OnjwIEEAsDP+YgY53b2b89++/awvLn98MDi2cVxl+/vl6mituCtBghi9f/v/48e/XL86krj9XzwEEEENy8g6gu22rfn78+NGs5Ofr16+ZC58+fvyYwX8rxOxXr169fPny+fPn1//93bJlBUAAsQADZMEBxj9/GBxb2P/9+S/R8u3vzxuyaX8ZHv3j8/YGms3w8ycQARmi2eE37t4ACCDGR4/uSkrKAS35B3TT////wADOgLOBIaXIyjBlwxKAAGKRXjCB0SOEaeu+/y9fMnz4AHQxCP348R/o+l+//sMZQBNLEvif3AcIIMZbty7Ly6t9ZmXl+fXj/38GoHH/UcGfP79//BBiYHjy9+8/oUkNAAHEwt1V/vI/KBY/QSISFqM/GBg+MzB8A6PfYC5EFiDAABqgW776MP0rAAAAAElFTkSuQmCC" width="16" height="11" style="width: 16px; height: 11px; margin-top: 10px;"></a>
+				
+				
+			</div>
+		</div>
+		<header>			
+			<div style="background-color: #ffffff; box-sizing: border-box; border: 0; border-bottom: 1px solid rgba(0, 0, 0, 0.075); border-left: 5px solid transparent; box-shadow: inset -10px 0 10px -10px rgba(0, 0, 0, 0.1); padding-top: 40px;">
+				<a href="/de-DE/"><img src="/assets/images/emblem.png" width="300" alt="365 business development logo"></a>
+			</div>
+			<button type="button" class="open-nav" id="open-nav"></button>			
+			<!-- 
+			<h1>	365 business development
+			</h1>
+			 -->
+			<form action="/de-DE/search/" method="get">
+				<input type="text" name="q" id="search-input" placeholder="Search" autofocus>
+				<input type="submit" value="Search" style="display: none;">
+			</form>
+
+			<nav >
+				<ul>
+					<li class="nav-item top-level ">
+						
+						<a href="/de-DE/">Willkommen</a>
+					</li>
+				</ul>
+
+				<ul>
+					
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/de-DE/365-business-address-completion/">365 business Address Completion</a>
+							<ul>
+								
+									 
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-address-completion/get-started/">Erste Schritte</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-address-completion/install/"></a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-address-completion/setup/">Einrichtung</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/de-DE/365-business-address-validation/">365 business Address Validation</a>
+							<ul>
+								
+									 
+									 
+									 
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-address-validation/get-started/">Erste Schritte</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-address-validation/address-validation/">Adressvalidierung</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-address-validation/address-validation-status/">Status der Adressvalidierung</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-address-validation/address-prediction/">Adressvorhersage</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-address-validation/setup/">Einrichtung</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-address-validation/user-settings/">Benutzer Einstellungen</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/de-DE/365-business-al-extension-manager/">365 business AL Extension Manager</a>
+							<ul>
+								
+									 
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-al-extension-manager/get-started/">Erste Schritte</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+									</ul>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/de-DE/365-business-api/">365 business API</a>
+							<ul>
+								
+									 
+									 
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-api/get-started/">Erste Schritte</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-api/365-business-api-setup/">Einrichtung</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-api/registration/">Registrierung</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-api/feedback/">Feedback</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/de-DE/365-business-barcode/">365 business Barcode</a>
+							<ul>
+								
+									 
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-barcode/get-started/">Erste Schritte</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-barcode/barcode-whatis/">Was ist 365 business Barcode?</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-barcode/barcode-settings/">Barcode Einstellungen</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-barcode/supported-barcodes/">Unterstützte Barcodearten</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-barcode/barcode-howto/">365 business Barcode einbinden</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/de-DE/365-business-eric/">365 business ERiC</a>
+							<ul>
+								
+									 
+									 
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-eric/eric-whatis/">Was ist ERiC?</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											 
+											
+											
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									 
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-eric/elster-tax-statements/">ELSTER Steuerdaten</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											 
+											
+											
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									 
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-eric/elster-tax-data-type/">ELSTER Steuerdatenarten</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											 
+											
+											
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-eric/elster-validation-message/">ELSTER Validierungsmeldungen</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											 
+											
+											
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-eric/setup/">Einrichtung</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											 
+											
+											
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-eric/user-certificates/">Benutzerzertifikate</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											 
+											
+											
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-eric/company-information/">Firmendaten</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											 
+											
+											
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-eric/vat-statement-setup/">MwSt.-Abrechnung Einrichtung</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											 
+											
+											
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-eric/365-business-api-setup/">365 business API Einrichtung</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											 
+											
+											
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									 
+									 
+									 
+									 
+									 
+									 
+									 
+									 
+									 
+									 
+									 
+									 
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/de-DE/365-business-mailchimp-integration/">365 business Mailchimp Integration</a>
+							<ul>
+								
+									 
+									 
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-mailchimp-integration/audience-lists/">Abonnentenlisten</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-mailchimp-integration/audience/">Abonnenten</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-mailchimp-integration/synchronization/">Synchronisation</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-mailchimp-integration/setup/">Einrichtung</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/de-DE/365-business-pdf/">365 business PDF</a>
+							<ul>
+								
+									 
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-pdf/get-started/">Erste Schritte</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-pdf/pdf-files/">PDF-Dateien</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-pdf/stationery/">Elektronisches Briefpapier</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-pdf/signing/">Dokumentsignierung</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-pdf/document-attachments/">Beleganhänge</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-pdf/concatenate/">Dokumentverkettung</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+									</ul>
+								
+									 
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level current">
+							
+							<a href="/de-DE/365-business-print-agent/">365 business Print Agent</a>
+							<ul>
+								
+									 
+									 
+									 
+									
+									 
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-whatis/">Was ist Print Agent?</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+									</ul>
+								
+									
+									 
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-print-agent/get-started/">Schnellstart</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+									</ul>
+								
+									
+									 
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config/">Print Agent Config</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+												<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config-firststart/">Ersteinrichtung</a></li>
+											
+										
+											
+											
+										
+											
+											
+												<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config-printers/">Verwaltung von Druckern</a></li>
+											
+										
+											
+											
+										
+											
+											
+												<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config-connections/">Dienstmodus / Verbindungstyp</a></li>
+											
+										
+											
+											
+										
+											
+											
+												<li class="nav-item current"><a href="/de-DE/365-business-print-agent/print-agent-config-databases/">Datenbanken</a></li>
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+												<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config-statistics/">Auswertung und Statistiken</a></li>
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+									</ul>
+								
+									
+									 
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-print-agent/setup/">Einrichtung</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-print-agent/printer/">Drucker</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+									</ul>
+								
+									
+									 
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-print-agent/printer-configuration/">Druckereinstellung</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-print-agent/printer-access-permission/">Drucker-Zugriffsberechtigungen</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-client-whatis/">Was ist der Print Agent Dienst?</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-service-installation/">Print Agent Dienst auf Windows installieren</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-clients/">Print Agent Dienst</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+									</ul>
+								
+									 
+									 
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/de-DE/find-and-replace/">365 business development - Suchen & Ersetzen</a>
+							<ul>
+								
+									 
+									
+									
+									<li class="nav-item "><a href="/de-DE/find-and-replace/find-and-replace/">Suchen & Ersetzen</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+									</ul>
+								
+							</ul>
+						</li>
+					
+				</ul>
+				<ul>
+					<li class="nav-item top-level">
+						<a href="https://downloads.365businessdev.com">Downloads</a>
+					</li>
+					<li class="nav-item top-level ">
+						
+						<a href="/de-DE/al-developer/">AL Developer</a>
+					</li>
+					<li class="nav-item top-level ">
+						
+						<a href="/de-DE/new-and-planned/">New and Planned</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<section class="main">
+			<div class="page-header">
+				<h2>365 business Print Agent</h2>
+				<h3>Datenbanken</h3>
+			</div>
+			<article class="content">
+				<p>Das 365 business Print Agent Config Tool benutzt eine Datenbank zum Speichern der freigegebenen Drucker, sowie der verarbeiteten Druckaufträge.</p>
+
+<p>Durch ein erhöhtes Druckvolumen (ab ca. 2000 Druckaufträge / Tag) kann es bei der Aufbereitung von Statistiken bei Benutzung der (standardmäßig, bei der Ersteinrichtung ausgewählten) SQLite Datenbank zu längeren Ladezeiten kommen.</p>
+
+<p>Sollten Sie in Ihrer Umgebung lange Laufzeiten feststellen, empfehlen wir den Wechsel zum Microsoft SQL Server.
+<br />Dazu gehen Sie wie folgt vor:</p>
+
+<h4 id="365-business-print-agent-config">365 business Print Agent Config</h4>
+<ol>
+  <li>Öffnen Sie den Menüpunkt “Datenbank” im 365 business Print Agent Config aus.</li>
+  <li>Geben Sie den zu nutzenden Microsoft SQL Server, einen Datenbank Namen, sowie Benutzer und Passwort an.</li>
+  <li>Klicken Sie auf “Migrieren”, um die Daten auf den Microsoft SQL Server zu übertragen.</li>
+</ol>
+
+<p><img src="/assets/images/365-business-print-agent/config/Database_SQL.PNG" alt="Datenbank" /></p>
+
+<div class="alert alert-notice">
+    <i class="fa-solid fa-notes"></i> <strong>Wichtig:</strong>Die Benutzung eines Microsoft SQL Server kann Lizenzkosten verursachen! 
+</div>
+
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong>Je nach Anzahl der zu migrierenden Druckaufträge kann eine Migration mehrere Stunden dauern. Sie werden während des gesamten Prozesses über den aktuellen Verarbeitungsstand informiert.
+</div>
+
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong>Ein Wechsel zurück zur SQLite Datenbank ist natürlich möglich.
+</div>
+
+
+			</article>
+		</section>
+
+		<script>
+			document.getElementById("open-nav").addEventListener("click", function () {
+				document.body.classList.toggle("nav-open");
+			});
+
+			// show notification for language redirection
+			function findGetParameter(parameterName) {
+				var result = null,
+					tmp = [];
+				var items = location.search.substr(1).split("&");
+				for (var index = 0; index < items.length; index++) {
+					tmp = items[index].split("=");
+					if (tmp[0] === parameterName) result = decodeURIComponent(tmp[1]);
+				}
+				return result;
+			}
+			if (findGetParameter('errorCode') == '404') {
+				let notification = `<blockquote><p><strong>Page not found.</strong><br>This is not the web page you are looking for. We are sorry, we could not find the page you requested.</p></blockquote>`;
+
+				let content = document.getElementsByClassName('content')[0].innerHTML;
+				document.getElementsByClassName('content')[0].innerHTML = notification + content;
+			}
+			if (findGetParameter('unsupportedLocale') !== null) {
+				let notification = `<blockquote><p>This page is currently not available in the selected language '<strong>${findGetParameter('unsupportedLocale')}</strong>'. You have been automatically redirected to a supported language version matching your browser language.</p></blockquote>`;
+
+				let content = document.getElementsByClassName('content')[0].innerHTML;
+				document.getElementsByClassName('content')[0].innerHTML = notification + content;
+			}
+
+			// anchor.js implementation
+			document.addEventListener("DOMContentLoaded", function(event) {
+				anchors.add('article section h1, h2, h3, h4, h5, h6');
+				anchors.options.placement = 'left';
+			});
+
+			document.body.onscroll = function() {
+				let pageScrollTitle = document.getElementById('page-scroll-title');
+				if (pageScrollTitle === null) {
+					return;
+				}
+				
+				let headerElements = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+				pageScrollTitle.innerText = headerElements[0].innerText;
+				let lastHeaderTitle = '';
+
+				// console.log(`document.documentElement.scrollTop: ${document.documentElement.scrollTop}`);
+				if (document.documentElement.scrollTop >= 100) {
+					pageScrollTitle.style.display = 'block';
+
+					for (let i = 1; i < headerElements.length; i++) {
+						const headerElement = headerElements[i];
+						if (headerElement.offsetTop < document.documentElement.scrollTop) {
+							lastHeaderTitle = headerElement.innerText;
+						}
+					}
+
+					if (lastHeaderTitle !== '') {
+						pageScrollTitle.innerText = pageScrollTitle.innerText + ' - ' + lastHeaderTitle;
+					}
+
+				} else {
+					pageScrollTitle.style.display = 'none';
+				}
+			}
+		</script>
+	</body>
+</html>
