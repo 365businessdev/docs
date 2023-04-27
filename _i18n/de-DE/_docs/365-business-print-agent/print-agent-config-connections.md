@@ -23,7 +23,7 @@ Folgende Schritte sind notwendig, um über die 365 business Print Agent Cloud zu
 
 Im nachfolgenden Dialog wird die Einrichtung grafisch dargestellt. Sobald dieser Dialog geschlossen ist und der "Service Status" einen grünen Haken zeigt, ist die Einrichtung abgeschlossen.
 
-![Einstellung-Cloud](/assets/images/365-business-print-agent/config/Settings_Cloud.PNG)
+![Einstellung-Cloud](/assets/images/365-business-print-agent/config-tool/Settings_Cloud.PNG)
 
 <div class="alert alert-notice">
     <i class="fa-solid fa-notes"></i> <strong>Wichtig:</strong>Sollte die Konfiguration mit einem Fehler beendet werden, prüfen Sie bitte, ob die Reihenfolge der Schritte eingehalten wurde.<br/> Es muss zwingend zuerst die Installation & Einrichtung der "365 business Print Agent" App in Ihrem Microsoft Dynamics 365 Business Central Tenant erfolgen, bevor die Konfiguration im "365 business Print Agent Config" erfolgen kann.
@@ -50,7 +50,7 @@ Folgende Schritte sind notwendig, um über die 365 business Print Agent Server z
 
 Im nachfolgenden Dialog wird die Einrichtung grafisch dargestellt. Sobald dieser Dialog geschlossen ist und der "Service Status" einen grünen Haken zeigt, ist die Einrichtung abgeschlossen.
 
-![Einstellung-Server](/assets/images/365-business-print-agent/config/Settings_Server.PNG)
+![Einstellung-Server](/assets/images/365-business-print-agent/config-tool/Settings_Server.PNG)
 
 <div class="alert alert-notice">
     <i class="fa-solid fa-notes"></i> <strong>Wichtig:</strong>Die Konfiguration des 365 business Print Agent Server ist damit abgeschlossen. Damit dieser aber von außerhalb Ihres Netzwerkes verfügbar ist, sind weitere Schritte notwendig (Konfiguration von Firewalls, Netzwerkrouten etc.). Bitte kontaktieren Sie Ihren Netzwerk-/Systemadministrator oder Dienstleister.

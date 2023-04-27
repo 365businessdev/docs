@@ -7,7 +7,7 @@ The "Emulation" column allows you to choose between "Standard" and "Zebra (ZPL)"
 
 In addition to the name of the printer, further information about the selected device is displayed. If a printer is selected, further information is displayed in the lower area. This includes all supported paper formats and paper sources, which are also available later in Microsoft Business Central.
 
-![Druckerverwaltung](/assets/images/365-business-print-agent/config/Printer_en.PNG)  
+![Druckerverwaltung](/assets/images/365-business-print-agent/config-tool/Printer_en.PNG)  
 
 <div class="alert alert-info">
     <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong>The "Status" column shows the current printer status.

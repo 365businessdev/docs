@@ -10,7 +10,7 @@ Sollten Sie in Ihrer Umgebung lange Laufzeiten feststellen, empfehlen wir den We
 2. Geben Sie den zu nutzenden Microsoft SQL Server, einen Datenbank Namen, sowie Benutzer und Passwort an.
 3. Klicken Sie auf "Migrieren", um die Daten auf den Microsoft SQL Server zu übertragen.
 
-![Datenbank](/assets/images/365-business-print-agent/config/Database_SQL.PNG)
+![Datenbank](/assets/images/365-business-print-agent/config-tool/Database_SQL.PNG)
 
 <div class="alert alert-notice">
     <i class="fa-solid fa-notes"></i> <strong>Wichtig:</strong>Die Benutzung eines Microsoft SQL Server kann Lizenzkosten verursachen! 

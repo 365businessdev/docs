@@ -13,8 +13,8 @@ Use this information to:
       <th colspan="2">Dashboard</th>
     </tr>
     <tr>
-      <td colspan="2"><img src="/assets/images/365-business-print-agent/config/statistics_en.PNG" alt="Statistics"></td>
-      <td colspan="2"><img src="/assets/images/365-business-print-agent/config/dashboard_en.PNG" alt="Start-Dashboard"></td>
+      <td colspan="2"><img src="/assets/images/365-business-print-agent/config-tool/statistics_en.PNG" alt="Statistics"></td>
+      <td colspan="2"><img src="/assets/images/365-business-print-agent/config-tool/dashboard_en.PNG" alt="Start-Dashboard"></td>
     </tr>
     <tr>
         <td style="padding: 0px !important;width:25%"></td>
@@ -35,7 +35,7 @@ Use this information to:
     </tr>
     <tr>
       <td></td>
-      <td colspan="2"><img src="/assets/images/365-business-print-agent/config/history_en.PNG" alt="History"></td>
+      <td colspan="2"><img src="/assets/images/365-business-print-agent/config-tool/history_en.PNG" alt="History"></td>
       <td></td>
     </tr>
 </table>

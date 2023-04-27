@@ -10,7 +10,7 @@ If you experience long runtimes in your environment, we recommend switching to M
 2. Enter the Microsoft SQL Server to be used, a database name and user & password.
 3. Click on "Migrate" to transfer the data to the Microsoft SQL Server.
 
-![Database](/assets/images/365-business-print-agent/config/Database_SQL_en.PNG)
+![Database](/assets/images/365-business-print-agent/config-tool/Database_SQL_en.PNG)
 
 <div class="alert alert-notice">
     <i class="fa-solid fa-notes"></i> <strong>Important:</strong>The usage of a Microsoft SQL Server can cause license costs! 

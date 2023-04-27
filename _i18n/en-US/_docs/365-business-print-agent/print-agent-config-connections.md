@@ -23,7 +23,7 @@ The following steps are required to print using the 365 business Print Agent Clo
 
 The following dialog shows the setup process. When this dialog is closed and the "Service Status" displays a green check mark, the setup is complete.
 
-![Settings-Cloud](/assets/images/365-business-print-agent/config/Settings_Cloud_en.PNG)
+![Settings-Cloud](/assets/images/365-business-print-agent/config-tool/Settings_Cloud_en.PNG)
 
 <div class="alert alert-notice">
     <i class="fa-solid fa-notes"></i> <strong>Important:</strong>If the configuration fails, check that you have followed the steps in the correct order.<br/>Before you can configure in "365 business Print Agent Config", you must first install and set up the 365 business Print Agent app in your Microsoft Dynamics 365 Business Central tenant.
@@ -50,7 +50,7 @@ The following steps are required to print using the 365 Business Print Agent Ser
 
 The following dialog shows the setup process. When this dialog is closed and the "Service Status" displays a green check mark, the setup is complete.
 
-![Settings-Server](/assets/images/365-business-print-agent/config/Settings_Server_en.PNG)
+![Settings-Server](/assets/images/365-business-print-agent/config-tool/Settings_Server_en.PNG)
 
 <div class="alert alert-notice">
     <i class="fa-solid fa-notes"></i> <strong>Important:</strong>The 365 business Print Agent Server is now configured. However, in order to make it available from outside your network, further steps are necessary (configuration of firewalls, network routes, etc.). Please contact your network/system administrator or service provider for more information.
