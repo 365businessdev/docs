@@ -28,9 +28,9 @@
 <meta property="og:url" content="https://docs.365businessdev.com/en-US/365-business-mailchimp-integration/synchronization/" />
 <meta property="og:site_name" content="365 business development" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2023-04-27T08:24:15+00:00" />
+<meta property="article:published_time" content="2023-05-05T12:26:21+00:00" />
 <script type="application/ld+json">
-{"url":"https://docs.365businessdev.com/en-US/365-business-mailchimp-integration/synchronization/","headline":"synchronization","dateModified":"2023-04-27T08:24:15+00:00","datePublished":"2023-04-27T08:24:15+00:00","author":{"@type":"Person","name":"365 business development"},"@type":"Article","description":"This page is not available in the selected language. The page is available in German. Please select other language to display. Die Mailchimp Integration App für Microsoft Dynamics 365 Business Central führt eine regelmäßige und ereignisbezogene Synchronisation zwischen Mailchimp und Microsoft Dynamics 365 Business Central aus. Die Synchronisation erfolgt im Hintergrund, kann allerdings bei Bedarf auch, bspw. in der Abonnentenliste, manuell ausgeführt werden. Synchronisation Es werden folgende Entitäten aus oder von Mailchimp synchronisiert bzw. übertragen: Abonnentenliste Bei der Synchronisation von Abonnentenlisten werden folgende Informationen synchronisiert: Microsoft Dynamics 365 Business Central Mailchimp Richtung Beschreibung name Bidirektional Beschreibung 2 n/a   Abonnentenliste ID audience id Von Mailchimp Abonnenten Bei der Synchronisation von Abonnenten werden folgende Informationen synchronisiert Microsoft Dynamics 365 Business Central Mailchimp Richtung Abonnentenliste ID audience id Bidirektional Kontakt E-Mail Adresse email_address Bidrektional Status status Bidirektional Ursache unsubscribe reason Von Mailchimp Opt-In IP-Adress ip opt Von Mailchimp Opt-In Zeitpunkt timestamp opt Von Mailchimp HinweisDie Synchronisation des Status findet indirekt statt, jedoch unter Berücksichtigung der Workflows in Mailchimp. Der Status kann über die Aktionen Abonnieren (Status = Abonniert) und Abonnement beenden (Status = Nicht abonniert) aus Microsoft Dynamics 365 Business Central gesteuert werden. Alle andere Status können nicht direkt aus Microsoft Dynamics 365 Business Central gewählt werden. Kontakte Bei der Synchronisation von Kontakten werden folgende Informationen synchronisiert: Microsoft Dynamics 365 Business Central Mailchimp Richtung Name FNAME &amp; LNAME Bidirektional Vorname FNAME Bidirektional E-Mail email address Bidirektional Adresse addr1 Bidirektional Adresse 2 addr2 Bidirektional Ort city Bidirektional PLZ Code zip Bidirektional Länder-/Regionscode country Bidirektional Wie findet die Synchronisation von Kontakten statt? Um Dubletten zu verhindern und neue Abonnenten / Kontakte korrekt zuzuordnen wird die Synchronisation auf Basis der E-Mail Adresse durchgeführt. Existiert die registrierte E-Mail Adresse bereits in einem Microsoft Dynamics 365 Business Central Kontakt, so wird der bestehende Kontakt verwendet. Wird kein Kontakt mit der entsprechenden E-Mail Adresse gefunden, so erstellt die Mailchimp Integration App einen neuen Kontakt auf Basis der zur Verfügung stehenden Informationen. Über die Domain der übermittelten E-Mail Adresse (bspw. “@365businessdev.com”) wird nach einem Unternehmenskontakt gesucht um den neuen Kontakt korrekt zuzuordnen. HinweisUm zu verhindern, dass Kontakte, bei der Verwendung von öffentlichen E-Mail Providern, wie bspw. Google Mail, versehentlich bzw. falsch zugeordnet werden, findet die beschriebene Unternehmenskontaktsuche, an Hand der Domain bei öffentlichen E-Mail Providern nicht statt. WichtigWird eine E-Mail Adresse in Mailchimp geändert so ist dies für Microsoft Dynamics 365 Business Central ein neuer Kontakt, da Mailchimp keinerlei Informationen zur “ursprünglichen” E-Mail Adresse ausgibt.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.365businessdev.com/en-US/siteicon.png"},"name":"365 business development"},"@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"365 business development"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.365businessdev.com/en-US/siteicon.png"},"name":"365 business development"},"description":"This page is not available in the selected language. The page is available in German. Please select other language to display. Die Mailchimp Integration App für Microsoft Dynamics 365 Business Central führt eine regelmäßige und ereignisbezogene Synchronisation zwischen Mailchimp und Microsoft Dynamics 365 Business Central aus. Die Synchronisation erfolgt im Hintergrund, kann allerdings bei Bedarf auch, bspw. in der Abonnentenliste, manuell ausgeführt werden. Synchronisation Es werden folgende Entitäten aus oder von Mailchimp synchronisiert bzw. übertragen: Abonnentenliste Bei der Synchronisation von Abonnentenlisten werden folgende Informationen synchronisiert: Microsoft Dynamics 365 Business Central Mailchimp Richtung Beschreibung name Bidirektional Beschreibung 2 n/a   Abonnentenliste ID audience id Von Mailchimp Abonnenten Bei der Synchronisation von Abonnenten werden folgende Informationen synchronisiert Microsoft Dynamics 365 Business Central Mailchimp Richtung Abonnentenliste ID audience id Bidirektional Kontakt E-Mail Adresse email_address Bidrektional Status status Bidirektional Ursache unsubscribe reason Von Mailchimp Opt-In IP-Adress ip opt Von Mailchimp Opt-In Zeitpunkt timestamp opt Von Mailchimp HinweisDie Synchronisation des Status findet indirekt statt, jedoch unter Berücksichtigung der Workflows in Mailchimp. Der Status kann über die Aktionen Abonnieren (Status = Abonniert) und Abonnement beenden (Status = Nicht abonniert) aus Microsoft Dynamics 365 Business Central gesteuert werden. Alle andere Status können nicht direkt aus Microsoft Dynamics 365 Business Central gewählt werden. Kontakte Bei der Synchronisation von Kontakten werden folgende Informationen synchronisiert: Microsoft Dynamics 365 Business Central Mailchimp Richtung Name FNAME &amp; LNAME Bidirektional Vorname FNAME Bidirektional E-Mail email address Bidirektional Adresse addr1 Bidirektional Adresse 2 addr2 Bidirektional Ort city Bidirektional PLZ Code zip Bidirektional Länder-/Regionscode country Bidirektional Wie findet die Synchronisation von Kontakten statt? Um Dubletten zu verhindern und neue Abonnenten / Kontakte korrekt zuzuordnen wird die Synchronisation auf Basis der E-Mail Adresse durchgeführt. Existiert die registrierte E-Mail Adresse bereits in einem Microsoft Dynamics 365 Business Central Kontakt, so wird der bestehende Kontakt verwendet. Wird kein Kontakt mit der entsprechenden E-Mail Adresse gefunden, so erstellt die Mailchimp Integration App einen neuen Kontakt auf Basis der zur Verfügung stehenden Informationen. Über die Domain der übermittelten E-Mail Adresse (bspw. “@365businessdev.com”) wird nach einem Unternehmenskontakt gesucht um den neuen Kontakt korrekt zuzuordnen. HinweisUm zu verhindern, dass Kontakte, bei der Verwendung von öffentlichen E-Mail Providern, wie bspw. Google Mail, versehentlich bzw. falsch zugeordnet werden, findet die beschriebene Unternehmenskontaktsuche, an Hand der Domain bei öffentlichen E-Mail Providern nicht statt. WichtigWird eine E-Mail Adresse in Mailchimp geändert so ist dies für Microsoft Dynamics 365 Business Central ein neuer Kontakt, da Mailchimp keinerlei Informationen zur “ursprünglichen” E-Mail Adresse ausgibt.","url":"https://docs.365businessdev.com/en-US/365-business-mailchimp-integration/synchronization/","@type":"Article","headline":"synchronization","dateModified":"2023-05-05T12:26:21+00:00","datePublished":"2023-05-05T12:26:21+00:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 		<link type="application/atom+xml" rel="alternate" href="https://docs.365businessdev.com/en-US/feed.xml" title="365 business development" />
@@ -87,66 +87,6 @@
 
 				<ul>
 					
-					
-						<li class="nav-item top-level ">
-							
-							<a href="/en-US/365-business-address-completion/">365 business Address Completion</a>
-							<ul>
-								
-									 
-									
-									
-									<li class="nav-item "><a href="/en-US/365-business-address-completion/get-started/">Get Started</a></li>
-									<ul style="margin-left: 10px;">
-										
-											 
-											
-											
-										
-											
-											
-										
-											
-											
-										
-									</ul>
-								
-									
-									
-									<li class="nav-item "><a href="/en-US/365-business-address-completion/install/"></a></li>
-									<ul style="margin-left: 10px;">
-										
-											 
-											
-											
-										
-											
-											
-										
-											
-											
-										
-									</ul>
-								
-									
-									
-									<li class="nav-item "><a href="/en-US/365-business-address-completion/setup/">Setup</a></li>
-									<ul style="margin-left: 10px;">
-										
-											 
-											
-											
-										
-											
-											
-										
-											
-											
-										
-									</ul>
-								
-							</ul>
-						</li>
 					
 						<li class="nav-item top-level ">
 							
@@ -572,7 +512,6 @@
 								
 									 
 									 
-									 
 									
 									
 									<li class="nav-item "><a href="/en-US/365-business-eric/eric-whatis/">What is ERiC?</a></li>
@@ -580,10 +519,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -623,6 +562,7 @@
 											 
 									</ul>
 								
+									 
 									
 									
 									<li class="nav-item "><a href="/en-US/365-business-eric/elster-tax-statements/">ELSTER Tax Statements</a></li>
@@ -630,10 +570,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -681,10 +621,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -731,10 +671,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -781,60 +721,10 @@
 										
 											 
 											 
-											 
-											
-											
-										
 											
 											
 										
 											 
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-									</ul>
-								
-									
-									
-									<li class="nav-item "><a href="/en-US/365-business-eric/company-information/">Company Information</a></li>
-									<ul style="margin-left: 10px;">
-										
-											 
-											 
-											 
-											
-											
-										
 											
 											
 										
@@ -881,10 +771,60 @@
 										
 											 
 											 
+											
+											
+										
 											 
 											
 											
 										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-eric/company-information/">Company Information</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											 
 											
 											
 										
@@ -931,10 +871,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -981,10 +921,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -1316,10 +1256,67 @@
 									
 									 
 									
+									
+									<li class="nav-item "><a href="/en-US/365-business-print-agent/print-agent-whatis/">What is Print Agent?</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+									</ul>
+								
+									
 									 
 									
 									
-									<li class="nav-item "><a href="/en-US/365-business-print-agent/print-agent-whatis/">What is Print Agent?</a></li>
+									<li class="nav-item "><a href="/en-US/365-business-print-agent/get-started/">Quick Start</a></li>
 									<ul style="margin-left: 10px;">
 										
 											 
@@ -1391,6 +1388,9 @@
 										
 											
 											
+										
+											
+											
 												<li class="nav-item "><a href="/en-US/365-business-print-agent/print-agent-config-printers/">Printer Management</a></li>
 											
 										
@@ -1407,13 +1407,13 @@
 										
 											
 											
-										
-											
-											
-										
-											
-											
 												<li class="nav-item "><a href="/en-US/365-business-print-agent/print-agent-config-databases/">Databases</a></li>
+											
+										
+											
+											
+										
+											
 											
 										
 											
@@ -1436,70 +1436,12 @@
 											
 											
 										
-											
-											
-										
 											 
 											 
 									</ul>
 								
 									
-									
-									<li class="nav-item "><a href="/en-US/365-business-print-agent/get-started/">Quick Start</a></li>
-									<ul style="margin-left: 10px;">
-										
-											 
-											 
-											 
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											 
-											 
-									</ul>
-								
+									 
 									
 									
 									<li class="nav-item "><a href="/en-US/365-business-print-agent/setup/">Setup</a></li>
@@ -1558,10 +1500,6 @@
 									</ul>
 								
 									
-									 
-									
-									 
-									
 									
 									<li class="nav-item "><a href="/en-US/365-business-print-agent/printer/">Printer</a></li>
 									<ul style="margin-left: 10px;">
@@ -1618,6 +1556,8 @@
 											 
 									</ul>
 								
+									
+									 
 									
 									
 									<li class="nav-item "><a href="/en-US/365-business-print-agent/printer-configuration/">Printer Configuration</a></li>
