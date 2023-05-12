@@ -1,6 +1,6 @@
-As explained in the section "[What is Print Agent?](../print-agent-whatis/)", the 365 business Print Agent can be run in two different service modes.
+As explained in the section **[What is Print Agent?](../print-agent-whatis/)**, the 365 business Print Agent can be run in two different service modes.
 
-The service mode can be changed at any time under the "Settings" menu.
+The service mode can be changed at any time under the **Settings** menu.
 
 ### 365 business Print Agent Cloud (recommended)
 

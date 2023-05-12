@@ -83,11 +83,11 @@ titles:
   print-agent-client-whatis: What is the Print Agent Service?
   printer-access-permission: Printer Access Permission
   setup-xps-printer: Set up Microsoft XPS Document Writer (MXDW)
-  print-agent-config: Print Agent Config
-  quick-start: Quick Start
+  print-agent-config: Print Agent Configuration
+  quick-start: Get Started
   print-agent-config-printers: Printer Management
   print-agent-config-connections: Serice Mode / Connection Type
-  print-agent-config-firststart: Initial setup
+  print-agent-config-firststart: Quick Start
   print-agent-config-databases: Databases
   print-agent-config-statistics: Reporting and statistics
   setup-zebra-default-settings: Defining default printer settings for Zebra printer

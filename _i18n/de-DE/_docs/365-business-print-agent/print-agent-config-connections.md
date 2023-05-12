@@ -1,6 +1,6 @@
-Wie im Punkt "[Was ist Print Agent?](../print-agent-whatis/)" beschrieben, kann der 365 business Print Agent in zwei unterschiedlichen Dienst-Modi betrieben werden.
+Wie im Punkt **[Was ist Print Agent?](../print-agent-whatis/)** beschrieben, kann der 365 business Print Agent in zwei unterschiedlichen Dienst-Modi betrieben werden.
 
-Unter dem Menüpunkt "Einstellungen" kann der Dienstmodus, falls gewünscht, jederzeit gewechselt werden.
+Unter dem Menüpunkt **Einstellungen** kann der Dienstmodus, falls gewünscht, jederzeit gewechselt werden.
 
 ### 365 business Print Agent Cloud (empfohlen)
 
