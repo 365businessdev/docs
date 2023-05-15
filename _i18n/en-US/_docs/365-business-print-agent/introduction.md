@@ -1,4 +1,36 @@
-Introducing seamless printing directly from Microsoft Dynamics 365 Business Central, with 365 business Print Agent. 
+Welcome to the documentation for 365 business Print Agent! This comprehensive guide will provide you with all the information you need to effectively use and maximize the benefits of 365 business Print Agent in your printing workflows.
+
+## About 365 business Print Agent
+
+365 business Print Agent is a powerful extension for Microsoft Dynamics 365 Business Central that simplifies and enhances your printing experience. It allows you to print documents directly from Microsoft Dynamics 365 Business Central, eliminating the need for intermediate steps and streamlining your printing workflows.
+
+## Features and Capabilities
+
+- **Effortless Printing**: With 365 business Print Agent, you can easily print invoices, reports, shipping labels, and more, directly from your web browser within Microsoft Dynamics 365 Business Central.
+
+- **Configurable Printer Settings**: Customize and configure printer settings such as duplex mode, color printing, paper tray selection, and more, to meet your specific requirements for each print job.
+
+- **Seamless Integration**: 365 business Print Agent seamlessly integrates with Microsoft Dynamics 365 Business Central, ensuring a smooth and intuitive printing experience without the need to manual interact or download PDF files.
+
+- **Easy Setup**: Getting started with 365 business Print Agent is quick and straightforward. This documentation will guide you through the installation process and help you configure the app for optimal performance.
+
+## Documentation Structure
+
+This documentation is structured to provide you with comprehensive guidance and support throughout your experience with 365 business Print Agent. Here's an overview of the sections you'll find:
+
+- **Installation**: Learn how to install and set up 365 business Print Agent in your Microsoft Dynamics 365 Business Central environment.
+
+- **Configuration**: Discover how to configure printer settings, manage print queues, and customize the behavior of 365 business Print Agent to suit your printing requirements.
+
+- **Printing Workflow**: Explore step-by-step instructions on how to perform various printing tasks, including printing invoices, reports, labels, and more.
+
+- **Troubleshooting**: Find solutions to common issues you may encounter while using 365 business Print Agent, along with troubleshooting tips and recommendations.
+
+## Get Started
+
+To get started with 365 business Print Agent, refer to the installation guide for your specific environment. If you have any questions or need further assistance, our support team is ready to help.
+
+Let's dive in and discover how 365 business Print Agent can transform your printing workflows and enhance productivity within Microsoft Dynamics 365 Business Central!
 
 365 business Print Agent is a modern solution to access your print infrastructure directly from Microsoft Dynamics 365 Business Central. It's available for SaaS environments of Microsoft Dynamics 365 Business Central, as well as for On-Premise environments. Just access your local print infrastructure, as easy as it can be.
 
