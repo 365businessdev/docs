@@ -29,6 +29,10 @@ Im nachfolgenden Dialog wird die Einrichtung grafisch dargestellt. Sobald dieser
     <i class="fa-solid fa-notes"></i> <strong>Wichtig:</strong>Sollte die Konfiguration mit einem Fehler beendet werden, prüfen Sie bitte, ob die Reihenfolge der Schritte eingehalten wurde.<br/> Es muss zwingend zuerst die Installation & Einrichtung der "365 business Print Agent" App in Ihrem Microsoft Dynamics 365 Business Central Tenant erfolgen, bevor die Konfiguration im "365 business Print Agent Config" erfolgen kann.
 </div>
 
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong>Sollten die Netzwerksicherheitsrichtlinien Ihrer Organisation erfordern, dass der gesamte ausgehende Internetverkehr über einen Proxyserver geleitet wird, beachten Sie bitte diesen <a href="../support/print-agent-proxy/">Support-Artikel</a>.
+</div>
+
 ### 365 business Print Agent Server
 
 Durch die Auswahl des 365 business Print Agent Server wird eine direkte Verbindung zwischen Microsoft Dynamics 365 Business Central und dem aktuellen System aufgebaut.
@@ -59,4 +63,8 @@ Im nachfolgenden Dialog wird die Einrichtung grafisch dargestellt. Sobald dieser
 <div class="alert alert-info">
     <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong>Es ist ebenfalls möglich, den Server mit dem <strong>HTTPS</strong> Protokoll zu betreiben. Dazu klicken Sie auf den Button "HTTPS Konfiguration". Im folgenden Dialog können Sie zwischen 3 unterschiedlichen Arten wählen, wie Sie das notwendige Zertifikat einbinden. Es besteht die Möglichkeit ein Zertifikat über PFX Datei, über PEM und Key Datei oder über den Microsoft Windows Zertifikatsspeicher einzubinden.<br/>
     Nach dem Übernehmen der Einstellungen und anschließendem "Speichern" wird die Einrichtung für die HTTPS Konfiguration durchgeführt.
+</div>
+
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong>Sollten die Netzwerksicherheitsrichtlinien Ihrer Organisation erfordern, dass der gesamte ausgehende Internetverkehr über einen Proxyserver geleitet wird, beachten Sie bitte diesen <a href="../support/print-agent-proxy/">Support-Artikel</a>.
 </div>

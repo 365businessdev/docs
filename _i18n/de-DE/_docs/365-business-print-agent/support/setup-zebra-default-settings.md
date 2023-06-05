@@ -1,5 +1,5 @@
 #### Problem
-Ihre manuell auf dem Zebra Drucker ausgedruckten Etiketten sehen perfekt aus. Hingehen sind die Etiketten, die über den 365 business Print Agent gedruckt werden, schlecht zu lesen, verschoben, leer, gedreht oder seitenverkehrt.
+Ihre manuell auf dem Zebra Drucker ausgedruckten Etiketten sehen perfekt aus. Hingegen sind die Etiketten, die über den 365 business Print Agent gedruckt werden, schlecht zu lesen, verschoben, leer, gedreht oder seitenverkehrt.
 
 #### Grund
 Wenn Sie Computer als Druckserver verwenden, müssen Sie dafür sorgen, dass für alle Benutzer des Druckservers die gleichen Druckereinstellungen gelten (z. B. Geschwindigkeit, Helligkeit, Farbbandverwendung usw.).
