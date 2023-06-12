@@ -34,7 +34,7 @@ Printer Configuration can be created manually through the **Printer Configuratio
 
 <div class="alert alert-notice">
     <i class="fa-solid fa-notes"></i> <strong>Good to know:</strong>In some cases it can be useful to rotate the print output during printing, for example to print a layout that was created in landscape format in portrait format on a label printer.<br>.
-    Use the **Rotation** field in the printer settings to define how the print output should be rotated.
+    Use the <strong>Rotation</strong> field in the printer settings to define how the print output should be rotated.
 </div>
 
 ## Next steps

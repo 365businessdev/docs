@@ -34,7 +34,7 @@ Die Druckereinstellung kann manuell über die Kartenseite **Druckereinstellung**
 
 <div class="alert alert-notice">
     <i class="fa-solid fa-notes"></i> <strong>Gut zu wissen:</strong>In manchen Fällen kann es sinnvoll sein die Druckausgabe während des Drucks zu drehen, um beispielsweise ein Layout, dass im Querformat erstellt wurde im Hochformat auf einem Etikettendrucker auszudrucken.<br>
-    Verwenden Sie hierzu das Feld **Drehung** in den Druckereinstellungen um zu definieren, wie die Druckausgabe gedreht werden soll.
+    Verwenden Sie hierzu das Feld <strong>Drehung</strong> in den Druckereinstellungen um zu definieren, wie die Druckausgabe gedreht werden soll.
 </div>
 
 ## Weitere Schritte
