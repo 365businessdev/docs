@@ -32,6 +32,11 @@ Die Druckereinstellung kann manuell über die Kartenseite **Druckereinstellung**
  13. Um die Druckereinstellung zu aktivieren **Ja** auswählen.<br>
     ![Unterstützte Druckereinstellung - Aktivieren der Druckereinstellung](/assets/images/365-business-print-agent/e5a81f4c85fe8f35f56e061524f6e9b021a7b856078c0fe3a49ba1fbc607ce97.png)  
 
+<div class="alert alert-notice">
+    <i class="fa-solid fa-notes"></i> <strong>Gut zu wissen:</strong>In manchen Fällen kann es sinnvoll sein die Druckausgabe während des Drucks zu drehen, um beispielsweise ein Layout, dass im Querformat erstellt wurde im Hochformat auf einem Etikettendrucker auszudrucken.<br>
+    Verwenden Sie hierzu das Feld **Drehung** in den Druckereinstellungen um zu definieren, wie die Druckausgabe gedreht werden soll.
+</div>
+
 ## Weitere Schritte
 
 Jetzt können Sie mit dem 365 business Print Agent drucken, indem Sie die Druckereinstellung auf der Seite Berichtsanforderung manuell auswählen.
