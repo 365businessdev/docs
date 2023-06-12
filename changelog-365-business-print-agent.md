@@ -4,6 +4,18 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-print-agent/
 ---
 
+#### Version 18.5.148.10910
+
+ - Task #2731 - Support for localized paper tray names.
+ - Task #2732 - Implement async. print job execution.
+ - Task #2762 - Add 90°, 180° and 270° rotation support.
+
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Important:</strong> Asynchronous print job executing is implemented with 365 business Print Agent service 1.4.0.0 and later. Please update 365 business Print Agent service instances to enable asynchronous print job execution.<br><br>
+    <a href="https://365businessapi.com/api/SoftwareDownload?AppId=c2e7d99c-d3c6-4ecc-9c6b-7be4048b41a9">Get latest version</a>.
+</div>
+
+
 #### Version 18.4.135.9367
 
  - Task #2655 - Cross-tenant printer and printer configurations (DataPerCompany = false)
