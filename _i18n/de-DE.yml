@@ -91,6 +91,7 @@ titles:
   print-agent-config-databases: Datenbanken
   print-agent-config-statistics: Auswertung und Statistiken
   setup-zebra-default-settings: Setzen von Standardeinstellungen für Zebra Drucker
+  print-agent-proxy: Verbindung über einen HTTP-Proxyserver
 langs:
   german: Deutsch
   english: English

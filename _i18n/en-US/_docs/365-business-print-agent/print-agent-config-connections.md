@@ -29,6 +29,10 @@ The following dialog shows the setup process. When this dialog is closed and the
     <i class="fa-solid fa-notes"></i> <strong>Important:</strong>If the configuration fails, check that you have followed the steps in the correct order.<br/>Before you can configure in "365 business Print Agent Config", you must first install and set up the 365 business Print Agent app in your Microsoft Dynamics 365 Business Central tenant.
 </div>
 
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong>If your organization’s network security policies require all outbound Internet traffic to go through a proxy server, please read this <a href="../support/print-agent-proxy/">support article</a>.
+</div>
+<br>
 ### 365 business Print Agent Server
 
 Selecting the 365 Business Print Agent Server will establish a direct connection between Microsoft Dynamics 365 Business Central and the current system.
@@ -58,4 +62,8 @@ The following dialog shows the setup process. When this dialog is closed and the
 
 <div class="alert alert-info">
     <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong>It is also possible to operate the server using the <strong>HTTPS</strong> protocol. To do this, press the "HTTPS Configuration" button. In the following dialog, you can select between 3 different ways to include the required certificate. You can use a PFX file, a PEM and key file or the Microsoft Windows certificate store.<br/>After applying the settings and clicking "Save", the HTTPS configuration will be set up.
+</div>
+
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong>If your organization’s network security policies require all outbound Internet traffic to go through a proxy server, please read this <a href="../support/print-agent-proxy/">support article</a>.
 </div>
