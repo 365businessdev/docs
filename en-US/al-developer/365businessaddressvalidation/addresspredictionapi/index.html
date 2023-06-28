@@ -17,18 +17,18 @@
 		<title>  | 365 business development</title>
 
 		<!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>GetValidationBuffer Method | 365 business development</title>
+<title>bdev.Address Prediction API | 365 business development</title>
 <meta name="generator" content="Jekyll v3.9.0" />
-<meta property="og:title" content="GetValidationBuffer Method" />
+<meta property="og:title" content="bdev.Address Prediction API" />
 <meta name="author" content="365 business development" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Product documentation for Microsoft Dynamics 365 Business Central Apps of 365 business development GmbH." />
 <meta property="og:description" content="Product documentation for Microsoft Dynamics 365 Business Central Apps of 365 business development GmbH." />
-<link rel="canonical" href="https://docs.365businessdev.com/en-US/al-developer/365businessaddressvalidation/addressvalidationapi/GetValidationBuffer1/" />
-<meta property="og:url" content="https://docs.365businessdev.com/en-US/al-developer/365businessaddressvalidation/addressvalidationapi/GetValidationBuffer1/" />
+<link rel="canonical" href="https://docs.365businessdev.com/en-US/al-developer/365businessaddressvalidation/addresspredictionapi/" />
+<meta property="og:url" content="https://docs.365businessdev.com/en-US/al-developer/365businessaddressvalidation/addresspredictionapi/" />
 <meta property="og:site_name" content="365 business development" />
 <script type="application/ld+json">
-{"author":{"@type":"Person","name":"365 business development"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.365businessdev.com/en-US/siteicon.png"},"name":"365 business development"},"description":"Product documentation for Microsoft Dynamics 365 Business Central Apps of 365 business development GmbH.","url":"https://docs.365businessdev.com/en-US/al-developer/365businessaddressvalidation/addressvalidationapi/GetValidationBuffer1/","@type":"WebPage","headline":"GetValidationBuffer Method","@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"365 business development"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.365businessdev.com/en-US/siteicon.png"},"name":"365 business development"},"description":"Product documentation for Microsoft Dynamics 365 Business Central Apps of 365 business development GmbH.","url":"https://docs.365businessdev.com/en-US/al-developer/365businessaddressvalidation/addresspredictionapi/","@type":"WebPage","headline":"bdev.Address Prediction API","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 		<link type="application/atom+xml" rel="alternate" href="https://docs.365businessdev.com/en-US/feed.xml" title="365 business development" />
@@ -1900,28 +1900,265 @@
 				<h3></h3>
 			</div>
 			<article class="content">
-				<h1 id="getvalidationbuffer-method">GetValidationBuffer Method</h1>
-<p>Fill the validation buffer table with Contact record data.</p>
+				<h1 id="bdevaddress-prediction-api">bdev.Address Prediction API</h1>
 
-<h2 id="syntax">Syntax</h2>
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">GetValidationBuffer</span><span class="p">(</span><span class="nx">contact</span><span class="p">:</span> <span class="nx">Record</span> <span class="nx">Contact</span><span class="p">;</span> <span class="kd">var</span> <span class="nx">buffer</span><span class="p">:</span> <span class="nx">Record</span> <span class="dl">"</span><span class="s2">bdev.Address Validation Buffer</span><span class="dl">"</span> <span class="nx">temporary</span><span class="p">)</span>
-</code></pre></div></div>
+<p>The bdev.Address Prediction API codeunit object is providing the Address Prediction
+functionalities and allows other extensions to integrate.</p>
 
-<h2 id="parameters">Parameters</h2>
-<h3 id="contact"><em>contact</em></h3>
-<p>Type: Record Contact<br />
-Contact record to validate the address with.</p>
-<h3 id="buffer"><em>buffer</em></h3>
-<p>Type: Record “bdev.Address Validation Buffer” temporary<br />
-Temporary “bdev.Address Validation Buffer” record to be filled with the table data.</p>
+<h2 id="properties">Properties</h2>
 
-<h2 id="return-value">Return Value</h2>
-<h3 id="none"><em>None</em></h3>
+<table>
+  <thead>
+    <tr>
+      <th>Property</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Object Type</td>
+      <td>Codeunit</td>
+    </tr>
+    <tr>
+      <td>Object Subtype</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Object ID</td>
+      <td>5523621</td>
+    </tr>
+    <tr>
+      <td>Accessibility Level</td>
+      <td>Public</td>
+    </tr>
+  </tbody>
+</table>
 
-<h2 id="see-also">See Also</h2>
-<p><a href="/en-US/al-developer/365businessaddressvalidation/addressvalidationapi/GetValidationBuffer2/">GetValidationBuffer(Record, Record)</a><br />
-<a href="/en-US/al-developer/365businessaddressvalidation/addressvalidationapi/GetValidationBuffer3/">GetValidationBuffer(Record, Record)</a><br />
-<a href="/en-US/al-developer/365businessaddressvalidation/addressvalidationapi/GetValidationBuffer4/">GetValidationBuffer(Record, Record)</a><br /></p>
+<h2 id="procedures">Procedures</h2>
+
+<h3 id="initializeaddressprediction"><code class="language-plaintext highlighter-rouge">InitializeAddressPrediction()</code></h3>
+
+<p>Reset and initialize Address Prediction instance.</p>
+
+<h4 id="syntax">Syntax</h4>
+
+<pre><code class="language-al">InitializeAddressPrediction()
+</code></pre>
+
+<h3 id="oncontroladdinready"><code class="language-plaintext highlighter-rouge">OnControlAddInReady()</code></h3>
+
+<p>Activate “bdev.Address Autocomplete” Control Add-In on OnControlReady() event.</p>
+
+<h4 id="syntax-1">Syntax</h4>
+
+<pre><code class="language-al">OnControlAddInReady(tableNo: Integer, control: ControlAddIn "bdev.Address Autocomplete")
+</code></pre>
+
+<h4 id="parameters">Parameters</h4>
+
+<p><em>tableNo</em><br />
+ Type: Integer <br /></p>
+
+<p>Table No. the Address Prediction is invoked for. Subscribe to OnIsAddressPredictionEnabled(Integer, var Boolean) event in “bdev.Address Prediction” Codeunit to support custom tables.</p>
+
+<p><em>control</em><br />
+ Type: ControlAddIn  “bdev.Address Autocomplete”<br /></p>
+
+<p>Control Add-In from the current page.</p>
+
+<h3 id="bindaddressprediction"><code class="language-plaintext highlighter-rouge">BindAddressPrediction()</code></h3>
+
+<p>Bind list of fields from current page.</p>
+
+<h4 id="syntax-2">Syntax</h4>
+
+<pre><code class="language-al">BindAddressPrediction(fieldNames: Dictionary of [Text, Enum "bdev.Address Prediction Type"], control: ControlAddIn "bdev.Address Autocomplete")
+</code></pre>
+
+<h4 id="parameters-1">Parameters</h4>
+
+<p><em>fieldNames</em><br />
+ Type: Dictionary  of [Text, Enum “bdev.Address Prediction Type”]<br /></p>
+
+<p>Dictionary of fieldnames with their address prediction type. Use type to specify address prediction should look up for address or establishment.</p>
+
+<p><em>control</em><br />
+ Type: ControlAddIn  “bdev.Address Autocomplete”<br /></p>
+
+<p>Control Add-In from the current page.</p>
+
+<h3 id="bindaddressprediction-1"><code class="language-plaintext highlighter-rouge">BindAddressPrediction()</code></h3>
+
+<p>Bind list of fields from current page.</p>
+<blockquote>
+  <p>All fields will be added as type “Address”.</p>
+</blockquote>
+
+<h4 id="syntax-3">Syntax</h4>
+
+<pre><code class="language-al">BindAddressPrediction(fieldNames: List of [Text], control: ControlAddIn "bdev.Address Autocomplete")
+</code></pre>
+
+<h4 id="parameters-2">Parameters</h4>
+
+<p><em>fieldNames</em><br />
+ Type: List  of [Text]<br /></p>
+
+<p>List of fieldnames.</p>
+
+<p><em>control</em><br />
+ Type: ControlAddIn  “bdev.Address Autocomplete”<br /></p>
+
+<p>Control Add-In from the current page.</p>
+
+<h3 id="bindaddressprediction-2"><code class="language-plaintext highlighter-rouge">BindAddressPrediction()</code></h3>
+
+<p>Bind field from current page.</p>
+<blockquote>
+  <p>Field will be added as type “Address”.</p>
+</blockquote>
+
+<h4 id="syntax-4">Syntax</h4>
+
+<pre><code class="language-al">BindAddressPrediction(fieldName: Text, control: ControlAddIn "bdev.Address Autocomplete")
+</code></pre>
+
+<h4 id="parameters-3">Parameters</h4>
+
+<p><em>fieldName</em><br />
+ Type: Text <br /></p>
+
+<p>Fieldname.</p>
+
+<p><em>control</em><br />
+ Type: ControlAddIn  “bdev.Address Autocomplete”<br /></p>
+
+<p>Control Add-In from the current page.</p>
+
+<h3 id="bindaddressprediction-3"><code class="language-plaintext highlighter-rouge">BindAddressPrediction()</code></h3>
+
+<p>Bind field from current page.</p>
+
+<h4 id="syntax-5">Syntax</h4>
+
+<pre><code class="language-al">BindAddressPrediction(fieldName: Text, addrPreditionType: Enum "bdev.Address Prediction Type", control: ControlAddIn "bdev.Address Autocomplete")
+</code></pre>
+
+<h4 id="parameters-4">Parameters</h4>
+
+<p><em>fieldName</em><br />
+ Type: Text <br /></p>
+
+<p>Fieldname.</p>
+
+<p><em>addrPreditionType</em><br />
+ Type: Enum  “bdev.Address Prediction Type”<br /></p>
+
+<p>Specify address prediction should whether look up for address or establishment.</p>
+
+<p><em>control</em><br />
+ Type: ControlAddIn  “bdev.Address Autocomplete”<br /></p>
+
+<p>Control Add-In from the current page.</p>
+
+<h3 id="unbindaddressprediction"><code class="language-plaintext highlighter-rouge">UnbindAddressPrediction()</code></h3>
+
+<p>Unbind field from current page.</p>
+
+<h4 id="syntax-6">Syntax</h4>
+
+<pre><code class="language-al">UnbindAddressPrediction(fieldName: Text, control: ControlAddIn "bdev.Address Autocomplete")
+</code></pre>
+
+<h4 id="parameters-5">Parameters</h4>
+
+<p><em>fieldName</em><br />
+ Type: Text <br /></p>
+
+<p>Fieldname.</p>
+
+<p><em>control</em><br />
+ Type: ControlAddIn  “bdev.Address Autocomplete”<br /></p>
+
+<p>Control Add-In from the current page.</p>
+
+<h3 id="getaddresspredictions"><code class="language-plaintext highlighter-rouge">GetAddressPredictions()</code></h3>
+
+<p>Get address predictions based on the given input for specified fieldname.</p>
+
+<h4 id="syntax-7">Syntax</h4>
+
+<pre><code class="language-al">GetAddressPredictions(fieldName: Text, input: Text, control: ControlAddIn "bdev.Address Autocomplete")
+</code></pre>
+
+<h4 id="parameters-6">Parameters</h4>
+
+<p><em>fieldName</em><br />
+ Type: Text <br /></p>
+
+<p>Fieldname.</p>
+
+<p><em>input</em><br />
+ Type: Text <br /></p>
+
+<p>Current input by the user.</p>
+
+<p><em>control</em><br />
+ Type: ControlAddIn  “bdev.Address Autocomplete”<br /></p>
+
+<p>Control Add-In from the current page.</p>
+
+<h3 id="getselectedaddressprediction"><code class="language-plaintext highlighter-rouge">GetSelectedAddressPrediction()</code></h3>
+
+<p>Get address dictionary for given address prediction id.
+Invoke this procedure from OnPredictionSelected(Text, Text) trigger of the control add-in.</p>
+
+<h4 id="syntax-8">Syntax</h4>
+
+<pre><code class="language-al">[Boolean] := GetSelectedAddressPrediction(var address: Dictionary of [Text, Text], addressType: Enum "bdev.Address Prediction Type", id: Text)
+</code></pre>
+
+<h4 id="parameters-7">Parameters</h4>
+
+<p><em>address</em><br />
+ Type: Dictionary  of [Text, Text]<br /></p>
+
+<p>Out variable containing address dictionary.</p>
+
+<p><em>addressType</em><br />
+ Type: Enum  “bdev.Address Prediction Type”<br /></p>
+
+<p>Specify address prediction type. Select whether address or establishment.</p>
+
+<p><em>id</em><br />
+ Type: Text <br /></p>
+
+<p>Address prediction id.</p>
+
+<h4 id="return">Return</h4>
+
+<p><em>Boolean</em><br /></p>
+
+<h3 id="getaddresstype"><code class="language-plaintext highlighter-rouge">GetAddressType()</code></h3>
+
+<p>Get address prediction type for specified fieldname.</p>
+
+<h4 id="syntax-9">Syntax</h4>
+
+<pre><code class="language-al">[Enum "bdev.Address Prediction Type"] := GetAddressType(fieldName: Text)
+</code></pre>
+
+<h4 id="parameters-8">Parameters</h4>
+
+<p><em>fieldName</em><br />
+ Type: Text<br /></p>
+
+<p>Fieldname.</p>
+
+<h4 id="return-1">Return</h4>
+
+<p><em>Enum “bdev.Address Prediction Type”</em><br />
+Return value of type Enum “bdev.Address Prediction Type”.</p>
 
 			</article>
 		</section>

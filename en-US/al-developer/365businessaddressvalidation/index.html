@@ -1901,7 +1901,26 @@
 			</div>
 			<article class="content">
 				<h1 id="365-business-address-validation">365 business Address Validation</h1>
-<p>The <code class="language-plaintext highlighter-rouge">365 business Address Validation</code> app implements the <code class="language-plaintext highlighter-rouge">365 business API</code> services <code class="language-plaintext highlighter-rouge">Address Validation</code>. The app is providing Address Validation and Address Completion capabilities. The app is supporting the following entities:</p>
+
+<h2 id="address-validation">Address Validation</h2>
+
+<p>The <code class="language-plaintext highlighter-rouge">365 business Address Validation</code> app implements the <code class="language-plaintext highlighter-rouge">365 business API</code> services <code class="language-plaintext highlighter-rouge">Address Validation</code>. The app is providing Address Validation and Address Completion capabilities. <code class="language-plaintext highlighter-rouge">Address Validation</code> is supporting the following entities:</p>
+<ul>
+  <li>Contact</li>
+  <li>Customer</li>
+  <li>Vendor</li>
+  <li>Alternative Address</li>
+  <li>Order Address</li>
+  <li>Ship-To Address</li>
+  <li>Sales Header</li>
+  <li>Purchase Header.</li>
+</ul>
+
+<h2 id="address-prediction">Address Prediction</h2>
+
+<p>Additionally the <code class="language-plaintext highlighter-rouge">Address Prediction</code> feature is supported by <code class="language-plaintext highlighter-rouge">365 business Address Validation</code> app. <code class="language-plaintext highlighter-rouge">Address Prediction</code> is an auto-complete type-ahead feature.</p>
+
+<p><code class="language-plaintext highlighter-rouge">Address Prediction</code> is supporting the following entities:</p>
 <ul>
   <li>Contact</li>
   <li>Customer</li>
@@ -1914,76 +1933,93 @@
 </ul>
 
 <h2 id="interfaces">Interfaces</h2>
+
 <p>The <code class="language-plaintext highlighter-rouge">365 business Address Validation</code> app is providing an internal API codeunit to allow integration into customer specific business processes. For example you can implement your own table into the address validation using the provided procedures inside the API codeunit.</p>
 
 <h3 id="address-validation-api-codeunit-5523600---bdevaddress-validation-api">Address Validation API (Codeunit <code class="language-plaintext highlighter-rouge">5523600</code> - <code class="language-plaintext highlighter-rouge">bdev.Address Validation API</code>)</h3>
+
 <p>The <code class="language-plaintext highlighter-rouge">bdev.Address Validation API</code> codeunit object is providing the Address Validation and Address Completion functionalities and allows other extensions to integrate.</p>
 
-<h4 id="methods">Methods</h4>
-<p>The following methods are available:</p>
+<p><a href="addressvalidationapi/">See detailed documentation</a></p>
 
-<table>
-  <thead>
-    <tr>
-      <th>Method</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="/en-US/al-developer/365businessaddressvalidation/addressvalidationapi/AddressValidationEnabled/">AddressValidationEnabled</a></td>
-      <td>Test whether the address validation is enabled for the specific table or not.</td>
-    </tr>
-    <tr>
-      <td><a href="/en-US/al-developer/365businessaddressvalidation/addressvalidationapi/GetValidationBuffer1/">GetValidationBuffer</a></td>
-      <td>Fill the validation buffer table with Contact record data.</td>
-    </tr>
-    <tr>
-      <td><a href="/en-US/al-developer/365businessaddressvalidation/addressvalidationapi/GetValidationBuffer2/">GetValidationBuffer</a></td>
-      <td>Fill the validation buffer table with Customer record data.</td>
-    </tr>
-    <tr>
-      <td><a href="/en-US/al-developer/365businessaddressvalidation/addressvalidationapi/GetValidationBuffer3/">GetValidationBuffer</a></td>
-      <td>Fill the validation buffer table with Vendor record data.</td>
-    </tr>
-    <tr>
-      <td><a href="/en-US/al-developer/365businessaddressvalidation/addressvalidationapi/GetValidationBuffer4/">GetValidationBuffer</a></td>
-      <td>Fill the validation buffer table with Alternative Address record data.</td>
-    </tr>
-    <tr>
-      <td><a href="/en-US/al-developer/365businessaddressvalidation/addressvalidationapi/SetHideAddressSelection/">SetHideAddressSelection</a></td>
-      <td>Sets to hide or show (default) the address validation selection if multiple addresses where received.</td>
-    </tr>
-    <tr>
-      <td><a href="/en-US/al-developer/365businessaddressvalidation/addressvalidationapi/Validate1/">Validate</a></td>
-      <td>Validate and auto-complete a Contact address.</td>
-    </tr>
-    <tr>
-      <td><a href="/en-US/al-developer/365businessaddressvalidation/addressvalidationapi/Validate2/">Validate</a></td>
-      <td>Validate and auto-complete a Customer address.</td>
-    </tr>
-    <tr>
-      <td><a href="/en-US/al-developer/365businessaddressvalidation/addressvalidationapi/Validate3/">Validate</a></td>
-      <td>Validate and auto-complete a Vendor address.</td>
-    </tr>
-    <tr>
-      <td><a href="/en-US/al-developer/365businessaddressvalidation/addressvalidationapi/Validate4/">Validate</a></td>
-      <td>Validate and auto-complete a alternative address.</td>
-    </tr>
-    <tr>
-      <td><a href="/en-US/al-developer/365businessaddressvalidation/addressvalidationapi/Validate5/">Validate</a></td>
-      <td>Validate and auto-complete a order address.</td>
-    </tr>
-    <tr>
-      <td><a href="/en-US/al-developer/365businessaddressvalidation/addressvalidationapi/Validate6/">Validate</a></td>
-      <td>Validate and auto-complete a ship-to address.</td>
-    </tr>
-    <tr>
-      <td><a href="/en-US/al-developer/365businessaddressvalidation/addressvalidationapi/Validate7/">Validate</a></td>
-      <td>Validate and auto-complete a address given in the validation buffer.</td>
-    </tr>
-  </tbody>
-</table>
+<h3 id="address-prediction-api-codeunit-5523621---bdevaddress-prediction-api">Address Prediction API (Codeunit <code class="language-plaintext highlighter-rouge">5523621</code> - <code class="language-plaintext highlighter-rouge">bdev.Address Prediction API</code>)</h3>
+
+<p>The bdev.Address Prediction API codeunit object is providing the Address Prediction functionalities and allows other extensions to integrate.</p>
+
+<p><a href="addresspredictionapi/">See detailed documentation</a></p>
+
+<h4 id="example">Example</h4>
+
+<p>The following example is showing how to implement <code class="language-plaintext highlighter-rouge">Address Prediction</code> into a custom entity called:</p>
+
+<pre><code class="language-al">
+page 50000 "My Page"
+{
+    ..
+
+    layout
+    {
+        area(Content)
+        {
+            usercontrol("bdev.Address Prediction Control"; "bdev.Address Autocomplete")
+            {
+                ApplicationArea = All;
+
+                trigger OnControlReady()
+                begin
+                    AddressPrediction.OnControlAddInReady(Rec.RecordId().TableNo(), CurrPage."bdev.Address Prediction Control");
+                end;
+
+                trigger GetAddressPredictions(fieldName: Text; input: Text)
+                begin
+                    AddressPrediction.GetAddressPredictions(fieldName, input, CurrPage."bdev.Address Prediction Control");
+                end;
+
+                trigger OnPredictionSelected(fieldName: Text; id: Text)
+                var
+                    address: Dictionary of [Text, Text];
+                begin
+                    if (not AddressPrediction.GetSelectedAddressPrediction(address, AddressPrediction.GetAddressType(fieldName), id)) then
+                        exit;
+
+                    ApplyAddress(address);
+                end;
+            }
+        }
+    }
+
+    trigger OnOpenPage()
+    begin
+        AddressPrediction.InitializeAddressPrediction();
+    end;
+
+    trigger OnNewRecord(BelowxRec: Boolean)
+    begin
+        BindAddressPreditionFields();
+    end;
+    
+    trigger OnAfterGetRecord()
+    begin
+        BindAddressPreditionFields();
+    end;
+    
+    local procedure BindAddressPreditionFields()
+    var
+        fieldNames: Dictionary of [Text, Enum "bdev.Address Prediction Type"];
+    begin
+        // bind "Name" field and look up for establishments (companies) while typing.
+        fieldNames.Add(Rec.FieldName(Name), Enum::"bdev.Address Prediction Type"::Establishment);
+
+        // bind "Address" field and look up for address while typing.
+        fieldNames.Add(Rec.FieldName(Address), Enum::"bdev.Address Prediction Type"::Address);
+    end;
+
+    var
+        AddressPrediction: Codeunit "bdev.Address Prediction API";
+}
+
+</code></pre>
+
 
 			</article>
 		</section>

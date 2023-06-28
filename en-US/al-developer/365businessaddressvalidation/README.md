@@ -1,5 +1,22 @@
 # 365 business Address Validation
-The `365 business Address Validation` app implements the `365 business API` services `Address Validation`. The app is providing Address Validation and Address Completion capabilities. The app is supporting the following entities:
+
+## Address Validation
+
+The `365 business Address Validation` app implements the `365 business API` services `Address Validation`. The app is providing Address Validation and Address Completion capabilities. `Address Validation` is supporting the following entities:
+ - Contact
+ - Customer
+ - Vendor
+ - Alternative Address
+ - Order Address
+ - Ship-To Address
+ - Sales Header
+ - Purchase Header.
+
+## Address Prediction
+
+Additionally the `Address Prediction` feature is supported by `365 business Address Validation` app. `Address Prediction` is an auto-complete type-ahead feature.
+
+`Address Prediction` is supporting the following entities:
  - Contact
  - Customer
  - Vendor
@@ -10,26 +27,91 @@ The `365 business Address Validation` app implements the `365 business API` serv
  - Purchase Header.
 
 ## Interfaces
+
 The `365 business Address Validation` app is providing an internal API codeunit to allow integration into customer specific business processes. For example you can implement your own table into the address validation using the provided procedures inside the API codeunit.
 
 ### Address Validation API (Codeunit `5523600` - `bdev.Address Validation API`)
+
 The `bdev.Address Validation API` codeunit object is providing the Address Validation and Address Completion functionalities and allows other extensions to integrate.
 
-#### Methods
-The following methods are available:
+[See detailed documentation](addressvalidationapi/)
 
-| Method | Description |
-| --- | --- |
-| [AddressValidationEnabled](addressvalidationapi/AddressValidationEnabled.md) | Test whether the address validation is enabled for the specific table or not. | 
-| [GetValidationBuffer](addressvalidationapi/GetValidationBuffer1.md) | Fill the validation buffer table with Contact record data. | 
-| [GetValidationBuffer](addressvalidationapi/GetValidationBuffer2.md) | Fill the validation buffer table with Customer record data. | 
-| [GetValidationBuffer](addressvalidationapi/GetValidationBuffer3.md) | Fill the validation buffer table with Vendor record data. | 
-| [GetValidationBuffer](addressvalidationapi/GetValidationBuffer4.md) | Fill the validation buffer table with Alternative Address record data. | 
-| [SetHideAddressSelection](addressvalidationapi/SetHideAddressSelection.md) | Sets to hide or show (default) the address validation selection if multiple addresses where received. | 
-| [Validate](addressvalidationapi/Validate1.md) | Validate and auto-complete a Contact address. | 
-| [Validate](addressvalidationapi/Validate2.md) | Validate and auto-complete a Customer address. | 
-| [Validate](addressvalidationapi/Validate3.md) | Validate and auto-complete a Vendor address. | 
-| [Validate](addressvalidationapi/Validate4.md) | Validate and auto-complete a alternative address. | 
-| [Validate](addressvalidationapi/Validate5.md) | Validate and auto-complete a order address. | 
-| [Validate](addressvalidationapi/Validate6.md) | Validate and auto-complete a ship-to address. | 
-| [Validate](addressvalidationapi/Validate7.md) | Validate and auto-complete a address given in the validation buffer. | 
+### Address Prediction API (Codeunit `5523621` - `bdev.Address Prediction API`)
+
+The bdev.Address Prediction API codeunit object is providing the Address Prediction functionalities and allows other extensions to integrate.
+
+[See detailed documentation](addresspredictionapi/)
+
+#### Example
+
+The following example is showing how to implement `Address Prediction` into a custom entity called:
+
+```al
+
+page 50000 "My Page"
+{
+    ..
+
+    layout
+    {
+        area(Content)
+        {
+            usercontrol("bdev.Address Prediction Control"; "bdev.Address Autocomplete")
+            {
+                ApplicationArea = All;
+
+                trigger OnControlReady()
+                begin
+                    AddressPrediction.OnControlAddInReady(Rec.RecordId().TableNo(), CurrPage."bdev.Address Prediction Control");
+                end;
+
+                trigger GetAddressPredictions(fieldName: Text; input: Text)
+                begin
+                    AddressPrediction.GetAddressPredictions(fieldName, input, CurrPage."bdev.Address Prediction Control");
+                end;
+
+                trigger OnPredictionSelected(fieldName: Text; id: Text)
+                var
+                    address: Dictionary of [Text, Text];
+                begin
+                    if (not AddressPrediction.GetSelectedAddressPrediction(address, AddressPrediction.GetAddressType(fieldName), id)) then
+                        exit;
+
+                    ApplyAddress(address);
+                end;
+            }
+        }
+    }
+
+    trigger OnOpenPage()
+    begin
+        AddressPrediction.InitializeAddressPrediction();
+    end;
+
+    trigger OnNewRecord(BelowxRec: Boolean)
+    begin
+        BindAddressPreditionFields();
+    end;
+    
+    trigger OnAfterGetRecord()
+    begin
+        BindAddressPreditionFields();
+    end;
+    
+    local procedure BindAddressPreditionFields()
+    var
+        fieldNames: Dictionary of [Text, Enum "bdev.Address Prediction Type"];
+    begin
+        // bind "Name" field and look up for establishments (companies) while typing.
+        fieldNames.Add(Rec.FieldName(Name), Enum::"bdev.Address Prediction Type"::Establishment);
+
+        // bind "Address" field and look up for address while typing.
+        fieldNames.Add(Rec.FieldName(Address), Enum::"bdev.Address Prediction Type"::Address);
+    end;
+
+    var
+        AddressPrediction: Codeunit "bdev.Address Prediction API";
+}
+
+```
+
