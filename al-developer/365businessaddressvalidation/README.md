@@ -62,6 +62,62 @@ page 50000 "My Page"
     {
         area(Content)
         {
+            group(General)
+            {
+                Caption = 'General';
+
+                field(Name; Rec.Name)
+                {
+                    ApplicationArea = All;
+                    Importance = Promoted;
+                    ShowMandatory = true;
+                    ToolTip = 'Specifies the name. This name will appear on all documents.';
+                }                
+                field(Address; Address)
+                {
+                    ApplicationArea = Basic, Suite;
+                    ToolTip = 'Specifies the address. This address will appear on all documents.';
+                }
+                field("Address 2"; Rec."Address 2")
+                {
+                    ApplicationArea = Basic, Suite;
+                    ToolTip = 'Specifies additional address information.';
+                }
+                field("Country/Region Code"; Rec."Country/Region Code")
+                {
+                    ApplicationArea = Basic, Suite;
+                    ToolTip = 'Specifies the country/region of the address.';
+
+                    trigger OnValidate()
+                    begin
+                        IsCountyVisible := FormatAddress.UseCounty("Country/Region Code");
+                    end;
+                }
+                field(City; City)
+                {
+                    ApplicationArea = Basic, Suite;
+                    ToolTip = 'Specifies the customer''s city.';
+                }
+                group(Control10)
+                {
+                    ShowCaption = false;
+                    Visible = IsCountyVisible;
+                    field(County; County)
+                    {
+                        ApplicationArea = Basic, Suite;
+                        ToolTip = 'Specifies the state, province or county as a part of the address.';
+                    }
+                }
+                field("Post Code"; Rec."Post Code")
+                {
+                    ApplicationArea = Basic, Suite;
+                    Importance = Promoted;
+                    ToolTip = 'Specifies the postal code.';
+                }
+            }
+
+            ..
+
             usercontrol("bdev.Address Prediction Control"; "bdev.Address Autocomplete")
             {
                 ApplicationArea = All;
