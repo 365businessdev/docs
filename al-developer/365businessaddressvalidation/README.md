@@ -40,6 +40,12 @@ The `bdev.Address Validation API` codeunit object is providing the Address Valid
 
 The bdev.Address Prediction API codeunit object is providing the Address Prediction functionalities and allows other extensions to integrate.
 
+<div class="alert alert-notice">
+    <i class="fa-solid fa-notes"></i> <strong>Important:</strong>Address Prediction API has been introduced with 365 business Address Validation version 18.9.<br>
+    <br>
+    Please consider update 365 business Address Validation to get access to the Address Prediction API.
+</div>
+
 [See detailed documentation](addresspredictionapi/)
 
 #### Example
