@@ -1934,19 +1934,19 @@
   <tbody>
     <tr>
       <td><a href="#printpdftext-codeunit-record"><code class="language-plaintext highlighter-rouge">PrintPdf(Text, Codeunit, Record)</code></a></td>
-      <td>Print PDF file, stored in <code class="language-plaintext highlighter-rouge">Temp Blob</code> codeunit, at specified <code class="language-plaintext highlighter-rouge">bdev.Printer Configuration</code>.</td>
+      <td>Print PDF file, stored in <code class="language-plaintext highlighter-rouge">Temp Blob</code> codeunit, at specified <code class="language-plaintext highlighter-rouge">bdev.PrA Printer Configuration</code>.</td>
     </tr>
     <tr>
       <td><a href="#printpdftext-record"><code class="language-plaintext highlighter-rouge">PrintPdf(Codeunit, Record)</code></a></td>
-      <td>Print PDF file, stored in <code class="language-plaintext highlighter-rouge">Temp Blob</code> codeunit, at specified <code class="language-plaintext highlighter-rouge">bdev.Printer Configuration</code>.</td>
+      <td>Print PDF file, stored in <code class="language-plaintext highlighter-rouge">Temp Blob</code> codeunit, at specified <code class="language-plaintext highlighter-rouge">bdev.PrA Printer Configuration</code>.</td>
     </tr>
     <tr>
       <td><a href="#printpdftext-instream-record"><code class="language-plaintext highlighter-rouge">PrintPdf(Text, InStream, Record)</code></a></td>
-      <td>Print PDF file stream at specified <code class="language-plaintext highlighter-rouge">bdev.Printer Configuration</code>.</td>
+      <td>Print PDF file stream at specified <code class="language-plaintext highlighter-rouge">bdev.PrA Printer Configuration</code>.</td>
     </tr>
     <tr>
       <td><a href="#printpdfinstream-record"><code class="language-plaintext highlighter-rouge">PrintPdf(InStream, Record)</code></a></td>
-      <td>Print PDF file stream at specified <code class="language-plaintext highlighter-rouge">bdev.Printer Configuration</code>.</td>
+      <td>Print PDF file stream at specified <code class="language-plaintext highlighter-rouge">bdev.PrA Printer Configuration</code>.</td>
     </tr>
     <tr>
       <td><a href="#printzpltext-text-record"><code class="language-plaintext highlighter-rouge">PrintZPL(Text, Text, Record)</code></a></td>
@@ -1961,7 +1961,7 @@
 
 <h4 id="printpdftext-codeunit-record"><code class="language-plaintext highlighter-rouge">PrintPdf(Text, Codeunit, Record)</code></h4>
 
-<p>Print PDF file, stored in <code class="language-plaintext highlighter-rouge">Temp Blob</code> codeunit, at specified <code class="language-plaintext highlighter-rouge">bdev.Printer Configuration</code>.</p>
+<p>Print PDF file, stored in <code class="language-plaintext highlighter-rouge">Temp Blob</code> codeunit, at specified <code class="language-plaintext highlighter-rouge">bdev.PrA Printer Configuration</code>.</p>
 
 <h5 id="remarks">Remarks</h5>
 
@@ -1974,7 +1974,7 @@
 
 <h4 id="printpdfcodeunit-record"><code class="language-plaintext highlighter-rouge">PrintPdf(Codeunit, Record)</code></h4>
 
-<p>Print PDF file, stored in <code class="language-plaintext highlighter-rouge">Temp Blob</code> codeunit, at specified <code class="language-plaintext highlighter-rouge">bdev.Printer Configuration</code>.</p>
+<p>Print PDF file, stored in <code class="language-plaintext highlighter-rouge">Temp Blob</code> codeunit, at specified <code class="language-plaintext highlighter-rouge">bdev.PrA Printer Configuration</code>.</p>
 
 <h5 id="remarks-1">Remarks</h5>
 
@@ -1982,7 +1982,7 @@
 
 <h4 id="printpdftext-instream-record"><code class="language-plaintext highlighter-rouge">PrintPdf(Text, InStream, Record)</code></h4>
 
-<p>Print PDF file stream at specified <code class="language-plaintext highlighter-rouge">bdev.Printer Configuration</code>.</p>
+<p>Print PDF file stream at specified <code class="language-plaintext highlighter-rouge">bdev.PrA Printer Configuration</code>.</p>
 
 <h5 id="remarks-2">Remarks</h5>
 
@@ -1995,7 +1995,7 @@
 
 <h4 id="printpdfinstream-record"><code class="language-plaintext highlighter-rouge">PrintPdf(InStream, Record)</code></h4>
 
-<p>Print PDF file stream at specified <code class="language-plaintext highlighter-rouge">bdev.Printer Configuration</code>.</p>
+<p>Print PDF file stream at specified <code class="language-plaintext highlighter-rouge">bdev.PrA Printer Configuration</code>.</p>
 
 <h5 id="remarks-3">Remarks</h5>
 
@@ -2008,7 +2008,7 @@
 
 <h4 id="printzpltext-text-record"><code class="language-plaintext highlighter-rouge">PrintZPL(Text, Text, Record)</code></h4>
 
-<p>Send ZPL commands to specified <code class="language-plaintext highlighter-rouge">bdev.Printer Configuration</code>.</p>
+<p>Send ZPL commands to specified <code class="language-plaintext highlighter-rouge">bdev.PrA Printer Configuration</code>.</p>
 
 <blockquote>
   <p><strong>Important</strong><br />Sending ZPL commands is only supported for Zebra printers. Sending ZPL commands to other printers may cause unforeseen errors to occur.</p>
@@ -2034,7 +2034,7 @@ You find ZPL Command Information and Details at the following link:</p>
 
 <h4 id="printzpltext-record"><code class="language-plaintext highlighter-rouge">PrintZPL(Text, Record)</code></h4>
 
-<p>Send ZPL commands to specified <code class="language-plaintext highlighter-rouge">bdev.Printer Configuration</code>.</p>
+<p>Send ZPL commands to specified <code class="language-plaintext highlighter-rouge">bdev.PrA Printer Configuration</code>.</p>
 
 <blockquote>
   <p><strong>Important</strong><br />Sending ZPL commands is only supported for Zebra printers. Sending ZPL commands to other printers may cause unforeseen errors to occur.</p>
@@ -2089,7 +2089,7 @@ begin
         Error('Failed to read content.');
 end;
 
-local procedure GetPrinterConfiguration() PrinterConfiguration: Record "bdev.Printer Configuration"
+local procedure GetPrinterConfiguration() PrinterConfiguration: Record "bdev.PrA Printer Configuration"
 begin
     PrinterConfiguration.Reset();
     PrinterConfiguration.SetRange(Enabled, true);
