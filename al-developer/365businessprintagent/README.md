@@ -25,16 +25,16 @@ The `bdev.Print Agent` codeunit object is providing the following public methods
 
 | Method | Description |
 | --- | --- |
-| [`PrintPdf(Text, Codeunit, Record)`](#printpdftext-codeunit-record) | Print PDF file, stored in `Temp Blob` codeunit, at specified `bdev.Printer Configuration`. |
-| [`PrintPdf(Codeunit, Record)`](#printpdftext-record) | Print PDF file, stored in `Temp Blob` codeunit, at specified `bdev.Printer Configuration`. |
-| [`PrintPdf(Text, InStream, Record)`](#printpdftext-instream-record) | Print PDF file stream at specified `bdev.Printer Configuration`. |
-| [`PrintPdf(InStream, Record)`](#printpdfinstream-record) | Print PDF file stream at specified `bdev.Printer Configuration`. |
+| [`PrintPdf(Text, Codeunit, Record)`](#printpdftext-codeunit-record) | Print PDF file, stored in `Temp Blob` codeunit, at specified `bdev.PrA Printer Configuration`. |
+| [`PrintPdf(Codeunit, Record)`](#printpdftext-record) | Print PDF file, stored in `Temp Blob` codeunit, at specified `bdev.PrA Printer Configuration`. |
+| [`PrintPdf(Text, InStream, Record)`](#printpdftext-instream-record) | Print PDF file stream at specified `bdev.PrA Printer Configuration`. |
+| [`PrintPdf(InStream, Record)`](#printpdfinstream-record) | Print PDF file stream at specified `bdev.PrA Printer Configuration`. |
 | [`PrintZPL(Text, Text, Record)`](#printzpltext-text-record) | Send Zebra Programming Language (ZPL) commands to specified Printer Configuration. |
 | [`PrintZPL(Text, Record)`](#printzpltext-record) | Send Zebra Programming Language (ZPL) commands to specified Printer Configuration. | 
 
 #### `PrintPdf(Text, Codeunit, Record)`
 
-Print PDF file, stored in `Temp Blob` codeunit, at specified `bdev.Printer Configuration`.
+Print PDF file, stored in `Temp Blob` codeunit, at specified `bdev.PrA Printer Configuration`.
 
 ##### Remarks
 
@@ -48,7 +48,7 @@ printAgent.PrintPdf(documentName, tempBlob, printerConfiguration);
 
 #### `PrintPdf(Codeunit, Record)`
 
-Print PDF file, stored in `Temp Blob` codeunit, at specified `bdev.Printer Configuration`.
+Print PDF file, stored in `Temp Blob` codeunit, at specified `bdev.PrA Printer Configuration`.
 
 ##### Remarks
 
@@ -56,7 +56,7 @@ If the `documentName` parameter is omitted, _External PDF Document_ will be used
 
 #### `PrintPdf(Text, InStream, Record)`
 
-Print PDF file stream at specified `bdev.Printer Configuration`.
+Print PDF file stream at specified `bdev.PrA Printer Configuration`.
 
 ##### Remarks
 
@@ -70,7 +70,7 @@ printAgent.PrintPdf(documentName, streamIn, printerConfiguration);
 
 #### `PrintPdf(InStream, Record)`
 
-Print PDF file stream at specified `bdev.Printer Configuration`.
+Print PDF file stream at specified `bdev.PrA Printer Configuration`.
 
 ##### Remarks
 
@@ -84,7 +84,7 @@ printAgent.PrintPdf(streamIn, printerConfiguration);
 
 #### `PrintZPL(Text, Text, Record)`
 
-Send ZPL commands to specified `bdev.Printer Configuration`.
+Send ZPL commands to specified `bdev.PrA Printer Configuration`.
 
 > **Important**<br>Sending ZPL commands is only supported for Zebra printers. Sending ZPL commands to other printers may cause unforeseen errors to occur.
 
@@ -107,7 +107,7 @@ printAgent.PrintZPL(documentName, zplCommands, printerConfiguration);
 
 #### `PrintZPL(Text, Record)`
 
-Send ZPL commands to specified `bdev.Printer Configuration`.
+Send ZPL commands to specified `bdev.PrA Printer Configuration`.
 
 > **Important**<br>Sending ZPL commands is only supported for Zebra printers. Sending ZPL commands to other printers may cause unforeseen errors to occur.
 
@@ -160,7 +160,7 @@ begin
         Error('Failed to read content.');
 end;
 
-local procedure GetPrinterConfiguration() PrinterConfiguration: Record "bdev.Printer Configuration"
+local procedure GetPrinterConfiguration() PrinterConfiguration: Record "bdev.PrA Printer Configuration"
 begin
     PrinterConfiguration.Reset();
     PrinterConfiguration.SetRange(Enabled, true);
