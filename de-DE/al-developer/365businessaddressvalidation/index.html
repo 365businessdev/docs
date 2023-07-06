@@ -1956,7 +1956,7 @@
 
 <h4 id="example">Example</h4>
 
-<p>The following example is showing how to implement <code class="language-plaintext highlighter-rouge">Address Prediction</code> into a custom entity called:</p>
+<p>The following example is showing how to implement <code class="language-plaintext highlighter-rouge">Address Prediction</code> into a custom entity:</p>
 
 <pre><code class="language-al">
 page 50000 "My Page"
@@ -2074,6 +2074,9 @@ page 50000 "My Page"
 
         // bind "Address" field and look up for address while typing.
         fieldNames.Add(Rec.FieldName(Address), Enum::"bdev.Address Prediction Type"::Address);
+
+        // perform binding in Control Add-In
+        AddressPrediction.BindAddressPrediction(fieldNames, CurrPage."bdev.Address Prediction Control");
     end;
 
     var
@@ -2082,6 +2085,21 @@ page 50000 "My Page"
 
 </code></pre>
 
+<p>Additionally, for custom entities only, you need to subscribe to the <code class="language-plaintext highlighter-rouge">OnIsAddressPredictionEnabledForTableNo(Integer, Boolean)</code> event, to enable execution for custom table nos.</p>
+
+<pre><code class="language-al">codeunit 50000 "My Event Subscriber" 
+{
+    ..
+
+    [EventSubscriber(ObjectType::Codeunit, Codeunit::"bdev.Address Prediction API", 'OnIsAddressPredictionEnabledForTableNo', '', true, true)]
+    local procedure EnableMyTableOnIsAddressPredictionEnabledForTableNo(tableNo: Integer; var enabled: Boolean)
+    begin
+        enabled := (tableNo = Database::"My Table");
+    end;
+
+    ..
+}
+</code></pre>
 
 			</article>
 		</section>
