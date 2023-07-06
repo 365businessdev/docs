@@ -50,7 +50,7 @@ The bdev.Address Prediction API codeunit object is providing the Address Predict
 
 #### Example
 
-The following example is showing how to implement `Address Prediction` into a custom entity called:
+The following example is showing how to implement `Address Prediction` into a custom entity:
 
 ```al
 
@@ -169,6 +169,9 @@ page 50000 "My Page"
 
         // bind "Address" field and look up for address while typing.
         fieldNames.Add(Rec.FieldName(Address), Enum::"bdev.Address Prediction Type"::Address);
+
+        // perform binding in Control Add-In
+        AddressPrediction.BindAddressPrediction(fieldNames, CurrPage."bdev.Address Prediction Control");
     end;
 
     var
@@ -177,3 +180,19 @@ page 50000 "My Page"
 
 ```
 
+Additionally, for custom entities only, you need to subscribe to the `OnIsAddressPredictionEnabledForTableNo(Integer, Boolean)` event, to enable execution for custom table nos.
+
+```al
+codeunit 50000 "My Event Subscriber" 
+{
+    ..
+
+    [EventSubscriber(ObjectType::Codeunit, Codeunit::"bdev.Address Prediction API", 'OnIsAddressPredictionEnabledForTableNo', '', true, true)]
+    local procedure EnableMyTableOnIsAddressPredictionEnabledForTableNo(tableNo: Integer; var enabled: Boolean)
+    begin
+        enabled := (tableNo = Database::"My Table");
+    end;
+
+    ..
+}
+```
