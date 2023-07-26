@@ -4,6 +4,25 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-print-agent/
 ---
 
+#### Version 18.6.167.11458
+ 
+ - Task #2660 - Migrate User Group to Security Group for Business Central 22.
+ - Task #2831 - Error Message Collector for auto-enable printer configurations.
+ - Fix issue #2832 - Rotation support for Print Agent cloud service mode.
+ - Task #2896 - Export/Import Print Agent Setup (on-premises only).
+ - Fix issue #2900 - Fix RunModal exception on licensing check at OnAfterSetupPrinter event.
+
+#### Version 18.5.158.11287 
+
+ - Task #2686 - Fix Entitlements.
+
+#### Version 18.5.156.11208
+
+ - Task #2686 - Support Microsoft - Per User Offer Plan licensing.
+ - Add tenant licensing model.
+ - Add max. wait time for async. print job execution.
+ - Performance optimizations.
+
 #### Version 18.5.148.10910
 
  - Task #2731 - Support for localized paper tray names.
@@ -14,7 +33,6 @@ permalink: /new-and-planned/changelog/365-business-print-agent/
     <i class="fa-solid fa-lightbulb"></i> <strong>Important:</strong> Asynchronous print job executing is implemented with 365 business Print Agent service 1.4.0.0 and later. Please update 365 business Print Agent service instances to enable asynchronous print job execution.<br><br>
     <a href="https://365businessapi.com/api/SoftwareDownload?AppId=c2e7d99c-d3c6-4ecc-9c6b-7be4048b41a9">Get latest version</a>.
 </div>
-
 
 #### Version 18.4.135.9367
 

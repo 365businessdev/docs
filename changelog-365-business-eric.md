@@ -4,6 +4,16 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-eric/
 ---
 
+#### Version 17.11.176.11184
+
+ - Fix rounding on zmdo verification.
+ - Ignore VAT Entries w/o VAT Registration No.
+ - Fix VAT Reg. No formatting
+ - Prevent from duplicate entries in validation message
+ - Add Company and Tenant licensing models.
+
+> **Important**<br>With this release licensing is changed from pay-as-you-go to new licensing models.
+
 #### Version 17.10.151.6871
 
  - Add One-Stop-Shop (OSS) support (CSV-Export)

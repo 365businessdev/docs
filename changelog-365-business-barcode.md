@@ -4,6 +4,14 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-barcode/
 ---
 
+#### Version 18.2.48.11422
+
+ - Add support for
+   - ITF-14 (SCC-14) symbology.
+ - Add Company and Tenant licensing models.
+
+> **Important**<br>With this release licensing is changed from pay-as-you-go to new licensing models.
+
 #### Version 18.2.35.7062
 
  - Redesign

@@ -4,6 +4,22 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-address-validation/
 ---
 
+#### Version 18.9.102.11230
+
+ - `Address Prediction API` for integration in custom entities.
+ - Fix HTML decoded special characters in Address Prediction.
+ - Perform validation on address prediction result.
+ - Write Country/Region Code only if needed.
+ - Respect UseCounty() in Address Data.
+ - Do only replace non blank fields in user modification.
+ - Only migrate complete address data.
+ - Fix `AddOrUpdateAddressData()`
+ - Update contact from vendor/customer on modify.
+ - Add `OnIsAddressPredictionEnabledForTableNo()` event.
+ - Add User, Company and Tenant licensing models.
+
+> **Important**<br>With this release licensing is changed from pay-as-you-go to new licensing models.
+
 #### Version 18.7.86.6114
  - Removed `Address Validation Status`.
  - Add `Address Data` Dictionary to support internal address checks w/o API consumption.
