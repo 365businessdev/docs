@@ -1900,7 +1900,27 @@
 				<h3>Change Log</h3>
 			</div>
 			<article class="content">
-				<h4 id="version-187866114">Version 18.7.86.6114</h4>
+				<h4 id="version-18910211230">Version 18.9.102.11230</h4>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Address Prediction API</code> for integration in custom entities.</li>
+  <li>Fix HTML decoded special characters in Address Prediction.</li>
+  <li>Perform validation on address prediction result.</li>
+  <li>Write Country/Region Code only if needed.</li>
+  <li>Respect UseCounty() in Address Data.</li>
+  <li>Do only replace non blank fields in user modification.</li>
+  <li>Only migrate complete address data.</li>
+  <li>Fix <code class="language-plaintext highlighter-rouge">AddOrUpdateAddressData()</code></li>
+  <li>Update contact from vendor/customer on modify.</li>
+  <li>Add <code class="language-plaintext highlighter-rouge">OnIsAddressPredictionEnabledForTableNo()</code> event.</li>
+  <li>Add User, Company and Tenant licensing models.</li>
+</ul>
+
+<blockquote>
+  <p><strong>Important</strong><br />With this release licensing is changed from pay-as-you-go to new licensing models.</p>
+</blockquote>
+
+<h4 id="version-187866114">Version 18.7.86.6114</h4>
 <ul>
   <li>Removed <code class="language-plaintext highlighter-rouge">Address Validation Status</code>.</li>
   <li>Add <code class="language-plaintext highlighter-rouge">Address Data</code> Dictionary to support internal address checks w/o API consumption.</li>
