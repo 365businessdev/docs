@@ -15,7 +15,7 @@ Nutzen Sie diese Informationen, um:
     </tr>
     <tr>
       <td colspan="2"><img src="/assets/images/365-business-print-agent/config-tool/statistics.png" alt="Statistiken"></td>
-      <td colspan="2"><img src="/assets/images/365-business-print-agent/config-tool/dashboard.png" alt="Start-Dashboard"></td>
+      <td colspan="2"><img src="/assets/images/365-business-print-agent/config-tool/Dashboard.PNG" alt="Start-Dashboard"></td>
     </tr>
     <tr>
         <td style="padding: 0px !important;width:25%"></td>
@@ -36,7 +36,7 @@ Nutzen Sie diese Informationen, um:
     </tr>
     <tr>
       <td></td>
-      <td colspan="2"><img src="/assets/images/365-business-print-agent/config-tool/history.png" alt="Verlauf"></td>
+      <td colspan="2"><img src="/assets/images/365-business-print-agent/config-tool/History.PNG" alt="Verlauf"></td>
       <td></td>
     </tr>
 </table>
