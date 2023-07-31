@@ -20,6 +20,7 @@ Folgende Informationen dienen als Grundeinrichtung:
 | Dauerfristverlängerung MwSt.-Abrechnung Vorlage | Dauerfristverlängerung | Legt die Vorlage für die MwSt.-Abrechnung fest, die für die Berechnung der Steuerzahlen und -werte verwendet werden soll. |  | 
 | Dauerfristverlängerung MwSt.-Abrechnung Name | Dauerfristverlängerung | Legt den Namen der MwSt.-Abrechnung fest, der für die Berechnung der Steuerzahlen und -werte verwendet werden soll. |  |
 | MwSt.-Geschäftsbuchungsgruppe Filter | Zusammenfassende Meldung | Ermöglicht die Angabe zusätzlicher MwSt.-Buchungsgruppenfilter für die Berechnung der zusammenfassenden Meldung. |  |
+| Lief. an Länder-/Regionscode aus Herkunftsbeleg | Zusammenfassende Meldung | Verwende den Lief.-an Länder-/Regionscode des Herkunftsbeleg, um festzustellen, ob das Land zur Europäischen Union gehört oder nicht. Andernfalls wird der Länder-/Regionscode aus dem MwSt.-Posten verwendet. |  |
 | Umsatzsteuererklärung MwSt.-Abrechnung Vorlage | Umsatzsteuererklärung | Legt die Vorlage für die MwSt.-Abrechnung fest, die für die Berechnung der Steuerzahlen und -werte verwendet werden soll. |  | 
 | Umsatzsteuererklärung MwSt.-Abrechnung Name | Umsatzsteuererklärung | Legt den Namen der MwSt.-Abrechnung fest, der für die Berechnung der Steuerzahlen und -werte verwendet werden soll. |  |
 | Besteuerungsart | Umsatzsteuererklärung / Besteuerung | Gibt die von Ihrem Unternehmen verwendete Besteuerungsart an. |  |
