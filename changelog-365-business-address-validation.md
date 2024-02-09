@@ -4,6 +4,24 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-address-validation/
 ---
 
+#### Version 18.9.121.x
+
+ - Task #57874 - Add `Address Validation Scope` setting.
+ - Optimize known address detection.
+ - Optimize Address Validation Batch visualization.
+ - Fix issue #57871 - Show validation errors in bulk processing.
+ - Task #57869 - Suggest preferred option for accept address data in bulk processing.
+ - Fix issue #57875 - Auto-apply correct and validated address data.
+
+##### Know issue
+
+ - Address Prediction is not working properly, after collapse *Invoicing* tab in sales or purchase documents.
+
+#### Version 18.9.111.12432
+
+ - Fix licensing issue, for usage-based 365 business API customers.
+ - Fix address data initialization infinity loop.
+
 #### Version 18.9.102.11230
 
  - `Address Prediction API` for integration in custom entities.
