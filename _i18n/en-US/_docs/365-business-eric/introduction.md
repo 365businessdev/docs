@@ -1,8 +1,37 @@
 <div class="alert alert-info">
     <i class="fa-solid fa-lightbulb"></i> <strong>Info:</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
 </div>
+Willkommen in der Dokumentation für 365 business ERiC! Dieser umfassende Leitfaden bietet Ihnen alle notwendigen Informationen, um 365 business ERiC effektiv zu nutzen.
 
-Mit der 365 business ERiC App für Microsoft Dynamics 365 Business Central können Sie verschiedene [ELSTER Steuerdatenarten](elster-tax-data-type/) direkt an die deutschen Steuerbehörden übertragen.
+## Über 365 business ERiC
+
+365 business ERiC ist eine leistungsstarke Erweiterung für Microsoft Dynamics 365 Business Central, die entwickelt wurde, um den Prozess der elektronischen Berechnung und Übermittlung von Steuererklärungen und -anmeldungen an deutsche Steuerbehörden mithilfe von ELSTER zu vereinfachen und zu optimieren. Mit 365 business ERiC können Sie Ihre Steuererklärungen und -anmeldungen vollständig elektronisch aus Microsoft Dynamics 365 Business Central übermitteln, den manuellen Aufwand reduzieren und eine genaue und rechtzeitige Übermittlung der Steuererklärungen und -anmeldungen sicherstellen.
+
+## Funktionen und Möglichkeiten
+
+- **Elektronische Übermittlung**: Mit 365 business ERiC können Sie Steuererklärungen und -anmeldungen elektronisch berechnen und an deutsche Steuerbehörden übermitteln. Dadurch entfällt der Medienbruch, zwischen Microsoft Dynamics 365 Business Central und dem Mein ELSTER Portal, manuelle Übertragung und Ihre Prozesse für Steuererklärungen und -anmeldungen werden optimiert.
+
+- **Nahtlose ELSTER-Integration**: Dank nahtloser Integration mit ELSTER, dem offiziellen Steuerportal in Deutschland, gewährleistet 365 business ERiC die Einhaltung der gesetzlichen Anforderungen und ermöglicht eine direkte Kommunikation mit den Steuerbehörden.
+
+- **Fehlerfreie Datenvalidierung**: 365 business ERiC führt umfassende Datenvalidierungsprüfungen durch, um die Genauigkeit und Vollständigkeit Ihrer Steuererklärungen sicherzustellen und das Risiko von Fehlern und potenziellen Strafen zu minimieren.
+
+- **Effizienter Datentransfer**: Die Anwendung ermöglicht einen sicheren und effizienten Datentransfer zwischen Microsoft Dynamics 365 Business Central und ELSTER und gewährleistet den reibungslosen Austausch von steuerbezogenen Informationen.
+
+## Dokumentationsstruktur
+
+Diese Dokumentation ist so aufgebaut, dass sie umfassende Anleitung und Unterstützung während Ihrer Erfahrungen mit 365 business ERiC bietet. Hier finden Sie eine Übersicht über die Abschnitte:
+
+- **Installation**: Erfahren Sie, wie Sie 365 business ERiC in Ihrer Microsoft Dynamics 365 Business Central-Umgebung installieren und einrichten.
+
+- **Konfiguration**: Entdecken Sie, wie Sie Steuereinstellungen konfigurieren, Steuerkennzeichen definieren und Dokumentenvorlagen für Steuererklärungen einrichten.
+
+- **Steuererklärungsprozess**: Erkunden Sie schrittweise Anleitungen zum Durchführen von Steuerberechnungen, Generieren von Steuererklärungen und elektronischen Übermitteln dieser mithilfe von 365 business ERiC.
+
+- **Fehlersuche**: Finden Sie Lösungen für häufig auftretende Probleme, die bei der Verwendung von 365 business ERiC auftreten können, sowie Tipps und Empfehlungen zur Fehlerbehebung.
+
+## Los geht's
+
+Mit der 365 business ERiC App für Microsoft Dynamics 365 Business Central können Sie verschiedene [ELSTER Steuerdatenarten](elster-tax-data-type/) direkt an die deutschen Steuerbehörden übertragen. Wenn Sie Fragen haben oder weitere Unterstützung benötigen, steht Ihnen unser Support-Team gerne zur Verfügung.
 
 Dabei verwenden Sie den offiziellen Elster Rich Client (ERiC), der über die [365 business API](https://365businessdev.com/cloud/) bereitgestellt wird. Alles, was Sie dazu benötigen, ist Ihr persönliches Zertifikat (PFX-Datei) zur Authentifizierung gegenüber dem Finanzamt.
 

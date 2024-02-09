@@ -17,7 +17,7 @@ Print Agent unterstützt als Windows kompatiblen Drucker. Zusätzlich unterstüz
 
 #### Wie wird die ZPL Emulation für Drucker aktiviert?
 
-In der Print Agent Anwendung finden Sie die Liste der aktuell installierten Drucker und können diese für die Verwendung über 365 business Print Agent freigeben. In der Spalte `Emulation` können sie, abweichend vom `Standard`, die Option `Zebra (ZPL)` aktivieren um die ZPL Emulation, und damit die PDF-zu-ZPL Konvertierung, sowie die direkte Kommunikation über ZPL Steuerzeichen zu nutzen.
+In der Print Agent Anwendung finden Sie die Liste der aktuell installierten Drucker und können diese für die Verwendung über 365 business Print Agent freigeben. In der Spalte `Emulation` können Sie, abweichend vom `Standard`, die Option `Zebra (ZPL)` aktivieren um die ZPL Emulation, und damit die PDF-zu-ZPL Konvertierung, sowie die direkte Kommunikation über ZPL Steuerzeichen zu nutzen.
 
 <div class="alert alert-info">
     <i class="fa-solid fa-lightbulb"></i> <strong>Gut zu wissen:</strong> In der Regel ist der Druck über ZPL Steuerzeichen, verglichen mit dem PDF-Druck, auf einem Zebra Label Drucker wesentlich schneller und liefert bessere Druckergebnisse.<br>Wir empfehlen, beim Einsatz von Zebra Druckern die <code>Zebra (ZPL)</code> Emulation zu aktivieren.

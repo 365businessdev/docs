@@ -1,6 +1,6 @@
 Mit 365 business PDF können Sie PDF-Dateien, die aus Microsoft Dynamics 365 Business Central erzeugt werden, mit anderen PDF-Dateien verketten und in eine Datei zusammenführen. Hiermit können Sie zum Beispiel Deckblätter oder ergänzende Dokumente an Ihre, aus Microsoft Dynamics 365 Business Central erzeugten, Belege und Berichte anfügen um diese zu veredeln.
 
-Die Beleganhänge finden sie über die Aktion **Beleganhänge**. Hier können sie beliebig viele Anhänge (PDF-Dateien) in einer spezifischen Reihenfolge pro Beleg (z.B. Verkaufsangebot) angeben.
+Die Beleganhänge finden Sie über die Aktion **Beleganhänge**. Hier können Sie beliebig viele Anhänge (PDF-Dateien) in einer spezifischen Reihenfolge pro Beleg (z.B. Verkaufsangebot) angeben.
 
 #### Wie definiere ich Beleganhänge?
 

@@ -110,7 +110,7 @@
 		<section class="main">
 			<div class="page-header">
 				<h2>{% if page.category %}{% t category.{{ page.category }} %}{% else %}{{ site.title }}{% endif %}</h2>
-				<h3>{% t titles.{{ page.title }}%}</h3>
+				{% if page.title %}<h3>{% t titles.{{ page.title }}%}</h3>{% endif %}
 			</div>
 			<article class="content">
 				{{ content }}

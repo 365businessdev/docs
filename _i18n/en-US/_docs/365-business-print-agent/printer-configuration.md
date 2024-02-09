@@ -32,6 +32,11 @@ Printer Configuration can be created manually through the **Printer Configuratio
  13. Enable Printer Configuration for usage, by selecting **Yes**.<br>
     ![Assisted Printer Configuration - Enable Printer Configuration](/assets/images/365-business-print-agent/e5a81f4c85fe8f35f56e061524f6e9b021a7b856078c0fe3a49ba1fbc607ce97.png)  
 
+<div class="alert alert-notice">
+    <i class="fa-solid fa-notes"></i> <strong>Good to know:</strong>In some cases it can be useful to rotate the print output during printing, for example to print a layout that was created in landscape format in portrait format on a label printer.<br>.
+    Use the <strong>Rotation</strong> field in the printer settings to define how the print output should be rotated.
+</div>
+
 ## Next steps
 
 At this point, you are ready to print with 365 business Print Agent by manually selecting the Printer Configuration in Report Request Page.

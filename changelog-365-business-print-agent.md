@@ -4,6 +4,53 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-print-agent/
 ---
 
+#### Version 18.6.167.11458
+ 
+ - Task #2660 - Migrate User Group to Security Group for Business Central 22.
+ - Task #2831 - Error Message Collector for auto-enable printer configurations.
+ - Fix issue #2832 - Rotation support for Print Agent cloud service mode.
+ - Task #2896 - Export/Import Print Agent Setup (on-premises only).
+ - Fix issue #2900 - Fix RunModal exception on licensing check at OnAfterSetupPrinter event.
+
+#### Version 18.5.158.11287 
+
+ - Task #2686 - Fix Entitlements.
+
+#### Version 18.5.156.11208
+
+ - Task #2686 - Support Microsoft - Per User Offer Plan licensing.
+ - Add tenant licensing model.
+ - Add max. wait time for async. print job execution.
+ - Performance optimizations.
+
+#### Version 18.5.148.10910
+
+ - Task #2731 - Support for localized paper tray names.
+ - Task #2732 - Implement async. print job execution.
+ - Task #2762 - Add 90°, 180° and 270° rotation support.
+
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Important:</strong> Asynchronous print job executing is implemented with 365 business Print Agent service 1.4.0.0 and later. Please update 365 business Print Agent service instances to enable asynchronous print job execution.<br><br>
+    <a href="https://365businessapi.com/api/SoftwareDownload?AppId=c2e7d99c-d3c6-4ecc-9c6b-7be4048b41a9">Get latest version</a>.
+</div>
+
+#### Version 18.4.135.9367
+
+ - Task #2655 - Cross-tenant printer and printer configurations (DataPerCompany = false)
+ - UI optimizations.
+
+#### Version 18.3.133.9299
+
+ - Fix issue #2664 - Support SATO Industrial label printers (incl. ZPL emulation support).
+ - Enhancement #2654 - Option to auto-enable printer configurations.
+ - Enhancement #2665 - "Do not show anymore" action for optional notifications.
+ - Task #2658 - Support for virtual printers, like Microsoft XPS Document Writer (MXDW). See [documentation](https://docs.365businessdev.com/en-US/365-business-print-agent/support/setup-xps-printer/) for additional information.
+ - UI optimizations.
+ - Minor fixes in handling printer issues.
+ - Enable / disable printer configuration actions in list views.
+ - Fix issue #2667 - Fix false-positive message on failed Print Agent direct connection authentication.
+ - Prevent from multiple set up Print Agent client in direct connection.
+
 #### Version 18.2.111.8882
 
  - Fix issue #2647 - Overrule printer access permission for administrators, using the `BDEV.PRINTAGENTSETUP` permission set.

@@ -9,7 +9,7 @@ In der Einrichtung müssen folgende Einstellungen angegeben werden:
 
 | Feldname | Beschreibung |
 | --- | --- |
-| **API-Schlüssel** | Der API-Schlüssel identifiziert sie mit der Mailchimp API.<br>Weitere Informationen unter: https://mailchimp.com/help/about-api-keys/|
+| **API-Schlüssel** | Der API-Schlüssel identifiziert Sie mit der Mailchimp API.<br>Weitere Informationen unter: https://mailchimp.com/help/about-api-keys/|
 | **Abonnentenliste Nr.-Serie** | Gibt die Nummernserie für die Abonnentenlisten in Microsoft Dynamics 365 Business Central an.|
 | **Standard Absender** | Gibt den Standard Absendername für neue Abonnentenlisten an.|
 | **Standard Absender E-Mail** | Gibt die Standard Absenderadresse für neue Abonnentenlisten an.|

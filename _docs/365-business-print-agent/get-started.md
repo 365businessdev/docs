@@ -1,5 +1,5 @@
 ---
-title: get-started
+title: quick-start
 category: 365-business-print-agent
 permalink: /365-business-print-agent/get-started/
 order: 2

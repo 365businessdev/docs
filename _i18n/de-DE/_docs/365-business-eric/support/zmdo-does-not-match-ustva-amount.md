@@ -4,10 +4,14 @@ Dieser Artikel unterstützt Sie bei der Lösung der ELSTER Validierungsmeldung:
 
 #### Ursache
 
-Nach der Berechnung der Zusammenfassenden Meldung wird die Gesamtsumme mit dem Betrag der Steuerkennzahl `41` (Rubrikennr.) aus der Umsatzsteuervoranmeldung bzw. MwSt.-Abrechnung für denselben Zeitraum verglichen. Wenn die Gesamtsumme abweichend ist wird die o.g. Warnmeldung ausgegeben.
-In der Regel müssen die Beträge zwischen der Steuerkennzahl `41` (Steuerfreie Umsätze mit Vorsteuerabzug: Innergem. Lief. an Abnehmer mit USt-IdNr.) übereinstimmen, andernfalls kommt es unter Umständen zu entsprechenden Rückfragen durch das Finanzamt.
+Nach der Berechnung der Zusammenfassenden Meldung wird die ermittelte Gesamtsumme mit der Umsatzsteuervoranmeldung, bzw. der MwSt.-Abrechnung, für denselben Zeitraum verglichen. In der zusammenfassenden Meldung sind folgende Umsatzarten, die zusammengefasst in der Umsatzsteuervoranmeldung deklariert wurden, zu übermitteln:
+ - Innergemeinschaftliche Lieferungen gem. § 4 Nr. 1 Buchst. b UStG an Abnehmer mit USt-IdNr. (UStVA-Steuerkennzahl `41`)
+ - Nicht steuerbare sonstige Leistungen gem. § 18b Satz 1 Nr. 2 UStG (UStVA-Steuerkennzahl `21`)
+ - Lieferungen des ersten Abnehmers bei innergemeinschaftlichen Dreiecksgeschäften gem. § 25b Abs. 2 UStG (UStVA-Steuerkennzahl `42`)
 
-Die Ursache für abweichende Beträge kann unterschiedlich sein. Eine Möglichkeit ist bspw. dass ein nicht EU-Land (z.B. `GB`) innerhalb der MwSt.-Abrechnung für die UStVA verwendet wird:
+Die Summe der beiden Meldungen sollte grundsätzlich übereinstimmen. Ist dies nicht der Fall wird die o.g. Warnmeldung ausgegeben, um den Anwender auf mögliche Unstimmigkeiten hinzuweisen.
+
+Die Ursachen für abweichende Beträge können unterschiedlich sein. Eine Möglichkeit ist bspw. dass ein nicht EU-Land (z.B. `GB`) innerhalb der MwSt.-Abrechnung für die UStVA verwendet wird:
 
 ![MwSt.-Posten](/assets/images/365-business-eric/zmdo-does-not-match-ustva-amount.vat-entries.png)
 
@@ -17,4 +21,4 @@ Die Ursache für abweichende Beträge kann unterschiedlich sein. Eine Möglichke
 
 #### Lösung
 
-Korrigieren Sie die MwSt.-Abrechnung für die UStVA-Berechnung bzw. prüfen Sie die korrekte Zuweisung der `MwSt.-Geschäftsbuchungsgruppe` an den entsprechenden Debitoren.
+Korrigieren Sie die MwSt.-Abrechnung für die UStVA-Berechnung bzw. prüfen Sie die korrekte Zuweisung der `MwSt.-Geschäftsbuchungsgruppe` an den entsprechenden Debitoren und MwSt.-Posten.

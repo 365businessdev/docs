@@ -4,6 +4,13 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-pdf/
 ---
 
+#### Version 20.1.19.11252
+
+ - Fix blank code fields possible.
+ - Add User, Company and Tenant licensing models.
+
+> **Important**<br>With this release licensing is changed from pay-as-you-go to new licensing models.
+
 #### Version 20.1.12.5629
 
  - Add Document Print Intent Configuration for
