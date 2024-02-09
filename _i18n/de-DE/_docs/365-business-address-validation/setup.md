@@ -8,7 +8,8 @@ Nach erfolgter Installation sind bereits, im Rahmen der Installationsroutinen, d
 
 | Feldname | Gruppe | Beschreibung | Standardwert |
 | --- | --- | --- | --- |
-| Adressvalidierung aktiviert | Adressvalidierung | Aktiviert oder deaktiviert die komplette Adressvalidierungsfunktion. | Aktiviert |
+| Adressvalidierung aktiviert | Adressvalidierung | Aktiviert oder deaktiviert die automatische Adressvalidierungsfunktion. | Deaktiviert |
+| Anwendungsbereich für Adressvalidierung | Adressvalidierung | Gibt die Art der Sitzungen an, bei denen das Addressvalidierung Feature angewandt wird. Hierbei kann unterschieden werden nach: <ul><li><strong>Alle</strong> - Die automatische Adressvalidierung ist für alle Sitzungsarten aktiviert.</li><li><strong>Nur aktiviert für Client-Sitzungen mit Benutzeroberfläche</strong> - Die automatische Adressvalidierung ist nur für Sitzungsarten mit Benutzeroberfläche, wie dem Web Client, aktiviert.</li><li><strong>Nur aktiviert für Sitzungen ohne Benutzeroberfläche</strong> - Die automatische Adressvalidierung ist nur für Sitzungsarten ohne Benutzeroberfläche, wie Web Services oder dem Task Scheduler, aktiviert.</li></ul> | Alle |
 | Adressüberprüfung | Adressvalidierung | Aktiviert oder deaktiviert die zusätzliche Adressüberprüfung, nachdem die Adressvalidierung eine abweichende Adresse gefunden hat, die zur Eingabe passt.<br><br>Erfahren Sie mehr unter [Adressvalidierung](../address-validation/). | Aktiviert |
 | Kontakt | Adressvalidierung | Aktiviert oder deaktiviert die automatische Adressüberprüfung für Kontakte. | Aktiviert |
 | Debitor | Adressvalidierung | Aktiviert oder deaktiviert die automatische Adressüberprüfung für Debitoren. | Aktiviert |
@@ -22,7 +23,11 @@ Nach erfolgter Installation sind bereits, im Rahmen der Installationsroutinen, d
 | Kontakt | Adressvorhersage | Aktiviert oder deaktiviert die Adressvorhersage für Kontakte. | Aktiviert |
 | Debitor | Adressvorhersage | Aktiviert oder deaktiviert die Adressvorhersage für Debitoren. | Aktiviert |
 | Kreditor | Adressvorhersage | Aktiviert oder deaktiviert die Adressvorhersage für Kreditoren. | Aktiviert |
+| Verkaufsbelege | Adressvorhersage | Aktiviert oder deaktiviert die Adressvorhersage für Verkaufsbelege, wie Verkaufsaufträge, -angebote und -rechnungen. | Aktiviert |
+| Lieferadresse | Adressvorhersage | Aktiviert oder deaktiviert die Adressvorhersage für Lief.-an Adressen. | Deaktiviert |
+| Einkaufsbelege | Adressvorhersage | Aktiviert oder deaktiviert die Adressvorhersage für Einkaufsbelege, wie Einkaufsbestellungen, -anfragen und -rechnungen. | Aktiviert |
 | Mitarbeiter | Adressvorhersage | Aktiviert oder deaktiviert die Adressvorhersage für Mitarbeiter. | Aktiviert |
+| Ressource | Adressvorhersage | Aktiviert oder deaktiviert die Adressvorhersage für Ressourcen. | Aktiviert |
 
 #### Berechtigungen
 

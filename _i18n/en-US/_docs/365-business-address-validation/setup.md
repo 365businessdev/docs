@@ -8,7 +8,8 @@ After installation, the basic setup and some setup parameters are already set au
 
 | Field Name | Group | Description | Default Value |
 | --- | --- | --- | --- |
-| Address Validation enabled | Address Validation | Enables or disables the complete functionality for address validation. | Enabled |
+| Address Validation enabled | Address Validation | Enables or disables the automatic address validation functionality. | Disabled |
+| Address Validation Scope | Address Validation | Specifies the type of sessions the address validation feature is scoped to. A distinction can be made between: <ul><li><strong>All</strong> - Automatic address validation is activated for all session types.</li><li><strong>Only enabled for client sessions with user interface</strong> - Automatic address validation is only activated for session types with a user interface, such as the Web Client.</li><li><strong>Only enabled for sessions without user interface</strong> - Automatic address validation is only activated for session types without a user interface, such as Web Services or the Task Scheduler.</li></ul> | All |
 | Address Verification | Address Validation | Enables the additional manual address verification. If turned on, an additional comparison  window will appear every time the address validation has been changed or completed the address data. The user can decide, based on the comparison to apply the changes or not.<br><br>Find out more at [Address Validation](../address-validation/). | Enabled |
 | Contact | Address Validation | Enables or disables automatic address validation for contacts. | Enabled |
 | Customer | Address Validation | Enables or disables automatic address validation for customers. | Enabled |
@@ -23,6 +24,9 @@ After installation, the basic setup and some setup parameters are already set au
 | Contact | Address Prediction | Enables the address prediction for Contacts. | Enabled |
 | Customer | Address Prediction | Enables the address prediction for Customers. | Enabled |
 | Vendor | Address Prediction | Enables the address prediction for Vendors. | Enabled |
+| Sales Documents | Address Prediction | Enables or disables address prediction for sales documents, such as sales orders, quotes, and invoices. | Enabled |
+| Ship-To Address | Address Prediction | Enables or disables address prediction for delivery to addresses. | Disabled |
+| Purchase Documents | Address Prediction | Enables or disables address prediction for purchasing documents, such as purchase orders, requests, and invoices. | Enabled |
 | Employee | Address Prediction | Enables the address prediction for Employees. | Enabled |
 
 #### Permissions
