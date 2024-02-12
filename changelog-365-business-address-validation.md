@@ -4,7 +4,7 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-address-validation/
 ---
 
-#### Version 18.9.121.x
+#### Version 18.10.121.13641
 
  - Task #57874 - Add `Address Validation Scope` setting.
  - Optimize known address detection.
