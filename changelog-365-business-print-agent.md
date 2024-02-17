@@ -4,6 +4,25 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-print-agent/
 ---
 
+#### Version 18.8.188.13754
+ 
+ - Fix issue #57864 - Allow disabling printer status check.
+ - Fix issue #57821 - Support for custom paper kinds, outside of valid .NET enum range.
+ - Fix issue #57867 - Fix logic on "No. of Copies".
+
+#### Version 18.7.177.13071
+
+ - Task #3344 - Add "No. of Copies" setting in printer configuration.
+ - General performance optimizations.
+
+#### Version 18.6.172.11679
+
+ - Fix issue #2946 - Update failing, if Print Agent client is offline.
+
+#### Version 18.6.171.11584
+
+ - Add option to direct print from Job Queue Entry.
+
 #### Version 18.6.167.11458
  
  - Task #2660 - Migrate User Group to Security Group for Business Central 22.
