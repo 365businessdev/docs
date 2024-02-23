@@ -2097,6 +2097,128 @@ begin
 end;
 </code></pre>
 
+<h2 id="events">Events</h2>
+
+<p>Additionally <code class="language-plaintext highlighter-rouge">365 business Print Agent</code> app is providing an codeunit to subscribe to various events.</p>
+
+<h3 id="event-publisher">Event Publisher</h3>
+
+<p>The <code class="language-plaintext highlighter-rouge">bdev.Print Agent Events</code> codeunit object is providing the following event publisher:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Event Publisher</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="#printagentclientofflineeventtext-datetime"><code class="language-plaintext highlighter-rouge">PrintAgentClientOfflineEvent(Text, DateTime)</code></a></td>
+      <td>Event raised when a Print Agent Client goes offline.</td>
+    </tr>
+    <tr>
+      <td><a href="#printerofflineeventtext-text-text"><code class="language-plaintext highlighter-rouge">PrinterOfflineEvent(Text, Text, Text)</code></a></td>
+      <td>Event raised when a printer goes offline.</td>
+    </tr>
+    <tr>
+      <td><a href="#printerfailureeventtext-text-text"><code class="language-plaintext highlighter-rouge">PrinterFailureEvent(Text, Text, Text)</code></a></td>
+      <td>Event raised when a printer goes into failure mode.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="printagentclientofflineeventtext-datetime"><code class="language-plaintext highlighter-rouge">PrintAgentClientOfflineEvent(Text, DateTime)</code></h4>
+
+<p>Event raised when a Print Agent Client goes offline.</p>
+
+<h5 id="parameter">Parameter</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">printAgentName</code></td>
+      <td>Name of the print agent client service.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">lastSeen</code></td>
+      <td>Date/time the print agent client service was last seen.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="printerofflineeventtext-text-text"><code class="language-plaintext highlighter-rouge">PrinterOfflineEvent(Text, Text, Text)</code></h4>
+
+<p>Event raised when a printer goes offline.</p>
+
+<h5 id="parameter-1">Parameter</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">printAgentName</code></td>
+      <td>Name of the print agent client service, hosting the printer.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">printerName</code></td>
+      <td>Name of the printer.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">status</code></td>
+      <td>Current status of the printer, e.g. ‘Not available’ of ‘Offline’.</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Good to know:</strong>Status can be a comma separated list of status values. Refer to Enum 'bdev.Printer Status' for list of possible status.
+</div>
+
+<h4 id="printerfailureeventtext-text-text"><code class="language-plaintext highlighter-rouge">PrinterFailureEvent(Text, Text, Text)</code></h4>
+
+<p>Event raised when a printer goes into failure mode.</p>
+
+<h5 id="parameter-2">Parameter</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">printAgentName</code></td>
+      <td>Name of the print agent client service, hosting the printer.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">printerName</code></td>
+      <td>Name of the printer.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">status</code></td>
+      <td>Current status of the printer, e.g. ‘Low Toner’.</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Good to know:</strong>Status can be a comma separated list of status values. Refer to Enum 'bdev.Printer Status' for list of possible status.
+</div>
+
 			</article>
 		</section>
 
