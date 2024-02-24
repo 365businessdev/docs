@@ -4,6 +4,15 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-print-agent/
 ---
 
+#### Version 18.8.201.13851
+
+ - Fix custom paper kind usage in Assisted Setup
+ - Add `bdev.Print Agent Events` codeunit
+  - Add `PrintAgentClientOfflineEvent()` event
+  - Add `PrinterOfflineEvent()` event
+  - Add `PrinterFailureEvent()` event
+ - Auto-fill custom paper width & height
+
 #### Version 18.8.188.13754
  
  - Fix issue #57864 - Allow disabling printer status check.
