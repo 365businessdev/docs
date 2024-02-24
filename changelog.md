@@ -24,25 +24,17 @@ All 365 business development apps are versioned based on the following scheme:
 
 #### Upcoming Features
 
-##### 365 business ERiC
+##### 365 business Risk Management
 
-| Feature | Description | Planned Release |
-| --- | --- | --- |
-| New Tax Data Type `GewSt` | Add support for `GewSt` (Gewerbesteuer) Tax Data Type. | H1-2023 |
-| View Entries for Affiliation | Add support to view VAT Entries, based on specified VAT Statement for Affiliation using OPplus. | H1-2023 |
-| New Tax Data Type `EUER` | Add support for `EUER` (Einnahmeüberschussrechnung) Tax Data Type. | TBD |
+Get legal and company information of your trading partners and check against sanctions lists, directly within Dynamics 365 Business Central
 
-##### 365 business Teams Integration
+> **Planned Release**: Q2/2024
 
-Integrate Microsoft Teams into your Microsoft Dynamics 365 Business Central business processes and lift collaboration to a new level.
+##### 365 business Post & Print
 
-> **Planned Release**: TBD
+Post & print functionality for Microsoft Dynamics 365 Business Central.
 
-##### 365 business Document Recognition
-
-With 365 business Document Recognition you get a full-featured OCR detection incoming document workflow within Dynamics 365 Business Central, powered by the 365 business API Document Recognition service.
-
-> **Planned Release**: 2023
+> **Planned Release**: Q2/2024
 
 ### Change Log
 
