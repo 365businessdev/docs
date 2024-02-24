@@ -167,3 +167,60 @@ begin
     PrinterConfiguration.FindFirst();
 end;
 ```
+
+## Events
+
+Additionally `365 business Print Agent` app is providing an codeunit to subscribe to various events.
+
+### Event Publisher
+
+The `bdev.Print Agent Events` codeunit object is providing the following event publisher:
+
+| Event Publisher | Description |
+| --- | --- |
+| [`PrintAgentClientOfflineEvent(Text, DateTime)`](#printagentclientofflineeventtext-datetime) | Event raised when a Print Agent Client goes offline. |
+| [`PrinterOfflineEvent(Text, Text, Text)`](#printerofflineeventtext-text-text) | Event raised when a printer goes offline. |
+| [`PrinterFailureEvent(Text, Text, Text)`](#printerfailureeventtext-text-text) | Event raised when a printer goes into failure mode. |
+
+#### `PrintAgentClientOfflineEvent(Text, DateTime)`
+
+Event raised when a Print Agent Client goes offline.
+
+##### Parameter
+
+| Parameter | Description |
+| --- | --- |
+| `printAgentName` | Name of the print agent client service. | 
+| `lastSeen` | Date/time the print agent client service was last seen. | 
+
+#### `PrinterOfflineEvent(Text, Text, Text)`
+
+Event raised when a printer goes offline.
+
+##### Parameter
+
+| Parameter | Description |
+| --- | --- |
+| `printAgentName` | Name of the print agent client service, hosting the printer. | 
+| `printerName` | Name of the printer. | 
+| `status` | Current status of the printer, e.g. 'Not available' of 'Offline'. |
+
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Good to know:</strong>Status can be a comma separated list of status values. Refer to Enum 'bdev.Printer Status' for list of possible status.
+</div>
+
+#### `PrinterFailureEvent(Text, Text, Text)`
+
+Event raised when a printer goes into failure mode.
+
+##### Parameter
+
+| Parameter | Description |
+| --- | --- |
+| `printAgentName` | Name of the print agent client service, hosting the printer. | 
+| `printerName` | Name of the printer. | 
+| `status` | Current status of the printer, e.g. 'Low Toner'. |
+
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Good to know:</strong>Status can be a comma separated list of status values. Refer to Enum 'bdev.Printer Status' for list of possible status.
+</div>
