@@ -13,6 +13,10 @@ permalink: /new-and-planned/changelog/365-business-print-agent/
   - Add `PrinterFailureEvent()` event
  - Auto-fill custom paper width & height
 
+<div class="alert alert-warn">
+    <i class="fa-solid fa-triangle-exclamation"></i> <strong>Important:</strong>This version requires an update of the Dynamics 365 Business Central license.
+</div>
+
 #### Version 18.8.188.13754
  
  - Fix issue #57864 - Allow disabling printer status check.
