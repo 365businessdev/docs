@@ -25,12 +25,58 @@ The `bdev.Print Agent` codeunit object is providing the following public methods
 
 | Method | Description |
 | --- | --- |
+| [`IsPrinted(): Boolean`](#isprinted-boolean) | Returns the status of the last print job execution. |
 | [`PrintPdf(Text, Codeunit, Record)`](#printpdftext-codeunit-record) | Print PDF file, stored in `Temp Blob` codeunit, at specified `bdev.PrA Printer Configuration`. |
+| [`PrintPdf(Text, Codeunit, Integer, Record)`](#printpdftext-codeunit-integer-record) | Print specified number of copies of the PDF file, stored in `Temp Blob` codeunit, at specified `bdev.PrA Printer Configuration`. |
 | [`PrintPdf(Codeunit, Record)`](#printpdftext-record) | Print PDF file, stored in `Temp Blob` codeunit, at specified `bdev.PrA Printer Configuration`. |
+| [`PrintPdf(Codeunit, Integer, Record)`](#printpdftext-integer-record) | Print specified number of copies of the PDF file, stored in `Temp Blob` codeunit, at specified `bdev.PrA Printer Configuration`. |
 | [`PrintPdf(Text, InStream, Record)`](#printpdftext-instream-record) | Print PDF file stream at specified `bdev.PrA Printer Configuration`. |
+| [`PrintPdf(Text, InStream, Integer, Record)`](#printpdftext-instream-integer-record) | Print specified number of copies of the PDF file stream at specified `bdev.PrA Printer Configuration`. |
 | [`PrintPdf(InStream, Record)`](#printpdfinstream-record) | Print PDF file stream at specified `bdev.PrA Printer Configuration`. |
+| [`PrintPdf(InStream, Integer, Record)`](#printpdfinstream-integer-record) | Print specified number of copies of the PDF file stream at specified `bdev.PrA Printer Configuration`. |
 | [`PrintZPL(Text, Text, Record)`](#printzpltext-text-record) | Send Zebra Programming Language (ZPL) commands to specified Printer Configuration. |
 | [`PrintZPL(Text, Record)`](#printzpltext-record) | Send Zebra Programming Language (ZPL) commands to specified Printer Configuration. | 
+
+#### `IsPrinted(): Boolean`
+
+Returns the status of the last print job execution.
+
+##### Remarks
+
+Use GetLastErrorText() to get further information, if a print job has not been executed successfully.
+
+##### Return
+
+True if previous print job has been executed successfully. Otherwise false.
+
+##### Example
+
+```al
+procedure MyCustomPrint(documentName: Text; var tempBlob: Codeunit "Temp Blob"; printerConfigurationCode: Text[250])
+var
+    printerConfiguration: Record "bdev.PrA Printer Configuration";
+    printAgent: Codeunit "bdev.Print Agent";
+    printJobFailedErr: Label 'The print job failed with following error message: %1', Comment = '%1 = Error message';
+begin
+    if (not printerConfiguration.Get(printerConfigurationCode)) then
+        exit;
+
+    if (not printerConfiguration.Enabled) then
+        exit;
+
+    printAgent.PrintPdf(
+        documentName,
+        tempBlob,
+        printerConfiguration
+    );
+
+    if (not printAgent.IsPrinter()) then
+        Error(
+            printJobFailedErr,
+            GetLastErrorText()
+        );
+end;
+```
 
 #### `PrintPdf(Text, Codeunit, Record)`
 
@@ -46,6 +92,16 @@ The `documentName` parameter is used only for the history view in the 365 busine
 printAgent.PrintPdf(documentName, tempBlob, printerConfiguration);
 ```
 
+#### `PrintPdf(Text, Codeunit, Integer, Record)`
+
+Print specifed number of copies of the PDF file, stored in `Temp Blob` codeunit, at specified `bdev.PrA Printer Configuration`.
+
+##### Remarks
+
+The `documentName` parameter is used only for the history view in the 365 business Print Agent application.
+
+`noOfCopies` parameter specifies the number of __additional__ copies to be printed. For example if you want to print just the original document specify `noOfCopies` = 0, but to print the original document and one copy of the document specify `noOfCopies` = 1.
+
 #### `PrintPdf(Codeunit, Record)`
 
 Print PDF file, stored in `Temp Blob` codeunit, at specified `bdev.PrA Printer Configuration`.
@@ -53,6 +109,16 @@ Print PDF file, stored in `Temp Blob` codeunit, at specified `bdev.PrA Printer C
 ##### Remarks
 
 If the `documentName` parameter is omitted, _External PDF Document_ will be used as the document name. The name of the document is displayed in the history view of the 365 business Print Agent application.
+
+#### `PrintPdf(Codeunit, Integer, Record)`
+
+Print specified number of copies of the PDF file, stored in `Temp Blob` codeunit, at specified `bdev.PrA Printer Configuration`.
+
+##### Remarks
+
+If the `documentName` parameter is omitted, _External PDF Document_ will be used as the document name. The name of the document is displayed in the history view of the 365 business Print Agent application.
+
+`noOfCopies` parameter specifies the number of __additional__ copies to be printed. For example if you want to print just the original document specify `noOfCopies` = 0, but to print the original document and one copy of the document specify `noOfCopies` = 1.
 
 #### `PrintPdf(Text, InStream, Record)`
 
@@ -68,6 +134,22 @@ The `documentName` parameter is used only for the history view in the 365 busine
 printAgent.PrintPdf(documentName, streamIn, printerConfiguration);
 ```
 
+#### `PrintPdf(Text, InStream, Integer, Record)`
+
+Print specified number of copies of the PDF file stream at specified `bdev.PrA Printer Configuration`.
+
+##### Remarks
+
+The `documentName` parameter is used only for the history view in the 365 business Print Agent application.
+
+`noOfCopies` parameter specifies the number of __additional__ copies to be printed. For example if you want to print just the original document specify `noOfCopies` = 0, but to print the original document and one copy of the document specify `noOfCopies` = 1.
+
+##### Example
+
+```al
+printAgent.PrintPdf(documentName, streamIn, noOfCopies, printerConfiguration);
+```
+
 #### `PrintPdf(InStream, Record)`
 
 Print PDF file stream at specified `bdev.PrA Printer Configuration`.
@@ -80,6 +162,22 @@ If the `documentName` parameter is omitted, _External PDF Document_ will be used
 
 ```al
 printAgent.PrintPdf(streamIn, printerConfiguration);
+```
+
+#### `PrintPdf(InStream, Integer, Record)`
+
+Print PDF file stream at specified `bdev.PrA Printer Configuration`.
+
+##### Remarks
+
+If the `documentName` parameter is omitted, _External PDF Document_ will be used as the document name. The name of the document is displayed in the history view of the 365 business Print Agent application.
+
+`noOfCopies` parameter specifies the number of __additional__ copies to be printed. For example if you want to print just the original document specify `noOfCopies` = 0, but to print the original document and one copy of the document specify `noOfCopies` = 1.
+
+##### Example
+
+```al
+printAgent.PrintPdf(streamIn, noOfCopies, printerConfiguration);
 ```
 
 #### `PrintZPL(Text, Text, Record)`

@@ -1933,20 +1933,40 @@
   </thead>
   <tbody>
     <tr>
+      <td><a href="#isprinted-boolean"><code class="language-plaintext highlighter-rouge">IsPrinted(): Boolean</code></a></td>
+      <td>Returns the status of the last print job execution.</td>
+    </tr>
+    <tr>
       <td><a href="#printpdftext-codeunit-record"><code class="language-plaintext highlighter-rouge">PrintPdf(Text, Codeunit, Record)</code></a></td>
       <td>Print PDF file, stored in <code class="language-plaintext highlighter-rouge">Temp Blob</code> codeunit, at specified <code class="language-plaintext highlighter-rouge">bdev.PrA Printer Configuration</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="#printpdftext-codeunit-integer-record"><code class="language-plaintext highlighter-rouge">PrintPdf(Text, Codeunit, Integer, Record)</code></a></td>
+      <td>Print specified number of copies of the PDF file, stored in <code class="language-plaintext highlighter-rouge">Temp Blob</code> codeunit, at specified <code class="language-plaintext highlighter-rouge">bdev.PrA Printer Configuration</code>.</td>
     </tr>
     <tr>
       <td><a href="#printpdftext-record"><code class="language-plaintext highlighter-rouge">PrintPdf(Codeunit, Record)</code></a></td>
       <td>Print PDF file, stored in <code class="language-plaintext highlighter-rouge">Temp Blob</code> codeunit, at specified <code class="language-plaintext highlighter-rouge">bdev.PrA Printer Configuration</code>.</td>
     </tr>
     <tr>
+      <td><a href="#printpdftext-integer-record"><code class="language-plaintext highlighter-rouge">PrintPdf(Codeunit, Integer, Record)</code></a></td>
+      <td>Print specified number of copies of the PDF file, stored in <code class="language-plaintext highlighter-rouge">Temp Blob</code> codeunit, at specified <code class="language-plaintext highlighter-rouge">bdev.PrA Printer Configuration</code>.</td>
+    </tr>
+    <tr>
       <td><a href="#printpdftext-instream-record"><code class="language-plaintext highlighter-rouge">PrintPdf(Text, InStream, Record)</code></a></td>
       <td>Print PDF file stream at specified <code class="language-plaintext highlighter-rouge">bdev.PrA Printer Configuration</code>.</td>
     </tr>
     <tr>
+      <td><a href="#printpdftext-instream-integer-record"><code class="language-plaintext highlighter-rouge">PrintPdf(Text, InStream, Integer, Record)</code></a></td>
+      <td>Print specified number of copies of the PDF file stream at specified <code class="language-plaintext highlighter-rouge">bdev.PrA Printer Configuration</code>.</td>
+    </tr>
+    <tr>
       <td><a href="#printpdfinstream-record"><code class="language-plaintext highlighter-rouge">PrintPdf(InStream, Record)</code></a></td>
       <td>Print PDF file stream at specified <code class="language-plaintext highlighter-rouge">bdev.PrA Printer Configuration</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="#printpdfinstream-integer-record"><code class="language-plaintext highlighter-rouge">PrintPdf(InStream, Integer, Record)</code></a></td>
+      <td>Print specified number of copies of the PDF file stream at specified <code class="language-plaintext highlighter-rouge">bdev.PrA Printer Configuration</code>.</td>
     </tr>
     <tr>
       <td><a href="#printzpltext-text-record"><code class="language-plaintext highlighter-rouge">PrintZPL(Text, Text, Record)</code></a></td>
@@ -1959,51 +1979,141 @@
   </tbody>
 </table>
 
-<h4 id="printpdftext-codeunit-record"><code class="language-plaintext highlighter-rouge">PrintPdf(Text, Codeunit, Record)</code></h4>
+<h4 id="isprinted-boolean"><code class="language-plaintext highlighter-rouge">IsPrinted(): Boolean</code></h4>
 
-<p>Print PDF file, stored in <code class="language-plaintext highlighter-rouge">Temp Blob</code> codeunit, at specified <code class="language-plaintext highlighter-rouge">bdev.PrA Printer Configuration</code>.</p>
+<p>Returns the status of the last print job execution.</p>
 
 <h5 id="remarks">Remarks</h5>
 
-<p>The <code class="language-plaintext highlighter-rouge">documentName</code> parameter is used only for the history view in the 365 business Print Agent application.</p>
+<p>Use GetLastErrorText() to get further information, if a print job has not been executed successfully.</p>
+
+<h5 id="return">Return</h5>
+
+<p>True if previous print job has been executed successfully. Otherwise false.</p>
 
 <h5 id="example">Example</h5>
 
-<pre><code class="language-al">printAgent.PrintPdf(documentName, tempBlob, printerConfiguration);
+<pre><code class="language-al">procedure MyCustomPrint(documentName: Text; var tempBlob: Codeunit "Temp Blob"; printerConfigurationCode: Text[250])
+var
+    printerConfiguration: Record "bdev.PrA Printer Configuration";
+    printAgent: Codeunit "bdev.Print Agent";
+    printJobFailedErr: Label 'The print job failed with following error message: %1', Comment = '%1 = Error message';
+begin
+    if (not printerConfiguration.Get(printerConfigurationCode)) then
+        exit;
+
+    if (not printerConfiguration.Enabled) then
+        exit;
+
+    printAgent.PrintPdf(
+        documentName,
+        tempBlob,
+        printerConfiguration
+    );
+
+    if (not printAgent.IsPrinter()) then
+        Error(
+            printJobFailedErr,
+            GetLastErrorText()
+        );
+end;
 </code></pre>
 
-<h4 id="printpdfcodeunit-record"><code class="language-plaintext highlighter-rouge">PrintPdf(Codeunit, Record)</code></h4>
+<h4 id="printpdftext-codeunit-record"><code class="language-plaintext highlighter-rouge">PrintPdf(Text, Codeunit, Record)</code></h4>
 
 <p>Print PDF file, stored in <code class="language-plaintext highlighter-rouge">Temp Blob</code> codeunit, at specified <code class="language-plaintext highlighter-rouge">bdev.PrA Printer Configuration</code>.</p>
 
 <h5 id="remarks-1">Remarks</h5>
 
-<p>If the <code class="language-plaintext highlighter-rouge">documentName</code> parameter is omitted, <em>External PDF Document</em> will be used as the document name. The name of the document is displayed in the history view of the 365 business Print Agent application.</p>
+<p>The <code class="language-plaintext highlighter-rouge">documentName</code> parameter is used only for the history view in the 365 business Print Agent application.</p>
 
-<h4 id="printpdftext-instream-record"><code class="language-plaintext highlighter-rouge">PrintPdf(Text, InStream, Record)</code></h4>
+<h5 id="example-1">Example</h5>
 
-<p>Print PDF file stream at specified <code class="language-plaintext highlighter-rouge">bdev.PrA Printer Configuration</code>.</p>
+<pre><code class="language-al">printAgent.PrintPdf(documentName, tempBlob, printerConfiguration);
+</code></pre>
+
+<h4 id="printpdftext-codeunit-integer-record"><code class="language-plaintext highlighter-rouge">PrintPdf(Text, Codeunit, Integer, Record)</code></h4>
+
+<p>Print specifed number of copies of the PDF file, stored in <code class="language-plaintext highlighter-rouge">Temp Blob</code> codeunit, at specified <code class="language-plaintext highlighter-rouge">bdev.PrA Printer Configuration</code>.</p>
 
 <h5 id="remarks-2">Remarks</h5>
 
 <p>The <code class="language-plaintext highlighter-rouge">documentName</code> parameter is used only for the history view in the 365 business Print Agent application.</p>
 
-<h5 id="example-1">Example</h5>
+<p><code class="language-plaintext highlighter-rouge">noOfCopies</code> parameter specifies the number of <strong>additional</strong> copies to be printed. For example if you want to print just the original document specify <code class="language-plaintext highlighter-rouge">noOfCopies</code> = 0, but to print the original document and one copy of the document specify <code class="language-plaintext highlighter-rouge">noOfCopies</code> = 1.</p>
+
+<h4 id="printpdfcodeunit-record"><code class="language-plaintext highlighter-rouge">PrintPdf(Codeunit, Record)</code></h4>
+
+<p>Print PDF file, stored in <code class="language-plaintext highlighter-rouge">Temp Blob</code> codeunit, at specified <code class="language-plaintext highlighter-rouge">bdev.PrA Printer Configuration</code>.</p>
+
+<h5 id="remarks-3">Remarks</h5>
+
+<p>If the <code class="language-plaintext highlighter-rouge">documentName</code> parameter is omitted, <em>External PDF Document</em> will be used as the document name. The name of the document is displayed in the history view of the 365 business Print Agent application.</p>
+
+<h4 id="printpdfcodeunit-integer-record"><code class="language-plaintext highlighter-rouge">PrintPdf(Codeunit, Integer, Record)</code></h4>
+
+<p>Print specified number of copies of the PDF file, stored in <code class="language-plaintext highlighter-rouge">Temp Blob</code> codeunit, at specified <code class="language-plaintext highlighter-rouge">bdev.PrA Printer Configuration</code>.</p>
+
+<h5 id="remarks-4">Remarks</h5>
+
+<p>If the <code class="language-plaintext highlighter-rouge">documentName</code> parameter is omitted, <em>External PDF Document</em> will be used as the document name. The name of the document is displayed in the history view of the 365 business Print Agent application.</p>
+
+<p><code class="language-plaintext highlighter-rouge">noOfCopies</code> parameter specifies the number of <strong>additional</strong> copies to be printed. For example if you want to print just the original document specify <code class="language-plaintext highlighter-rouge">noOfCopies</code> = 0, but to print the original document and one copy of the document specify <code class="language-plaintext highlighter-rouge">noOfCopies</code> = 1.</p>
+
+<h4 id="printpdftext-instream-record"><code class="language-plaintext highlighter-rouge">PrintPdf(Text, InStream, Record)</code></h4>
+
+<p>Print PDF file stream at specified <code class="language-plaintext highlighter-rouge">bdev.PrA Printer Configuration</code>.</p>
+
+<h5 id="remarks-5">Remarks</h5>
+
+<p>The <code class="language-plaintext highlighter-rouge">documentName</code> parameter is used only for the history view in the 365 business Print Agent application.</p>
+
+<h5 id="example-2">Example</h5>
 
 <pre><code class="language-al">printAgent.PrintPdf(documentName, streamIn, printerConfiguration);
+</code></pre>
+
+<h4 id="printpdftext-instream-integer-record"><code class="language-plaintext highlighter-rouge">PrintPdf(Text, InStream, Integer, Record)</code></h4>
+
+<p>Print specified number of copies of the PDF file stream at specified <code class="language-plaintext highlighter-rouge">bdev.PrA Printer Configuration</code>.</p>
+
+<h5 id="remarks-6">Remarks</h5>
+
+<p>The <code class="language-plaintext highlighter-rouge">documentName</code> parameter is used only for the history view in the 365 business Print Agent application.</p>
+
+<p><code class="language-plaintext highlighter-rouge">noOfCopies</code> parameter specifies the number of <strong>additional</strong> copies to be printed. For example if you want to print just the original document specify <code class="language-plaintext highlighter-rouge">noOfCopies</code> = 0, but to print the original document and one copy of the document specify <code class="language-plaintext highlighter-rouge">noOfCopies</code> = 1.</p>
+
+<h5 id="example-3">Example</h5>
+
+<pre><code class="language-al">printAgent.PrintPdf(documentName, streamIn, noOfCopies, printerConfiguration);
 </code></pre>
 
 <h4 id="printpdfinstream-record"><code class="language-plaintext highlighter-rouge">PrintPdf(InStream, Record)</code></h4>
 
 <p>Print PDF file stream at specified <code class="language-plaintext highlighter-rouge">bdev.PrA Printer Configuration</code>.</p>
 
-<h5 id="remarks-3">Remarks</h5>
+<h5 id="remarks-7">Remarks</h5>
 
 <p>If the <code class="language-plaintext highlighter-rouge">documentName</code> parameter is omitted, <em>External PDF Document</em> will be used as the document name. The name of the document is displayed in the history view of the 365 business Print Agent application.</p>
 
-<h5 id="example-2">Example</h5>
+<h5 id="example-4">Example</h5>
 
 <pre><code class="language-al">printAgent.PrintPdf(streamIn, printerConfiguration);
+</code></pre>
+
+<h4 id="printpdfinstream-integer-record"><code class="language-plaintext highlighter-rouge">PrintPdf(InStream, Integer, Record)</code></h4>
+
+<p>Print PDF file stream at specified <code class="language-plaintext highlighter-rouge">bdev.PrA Printer Configuration</code>.</p>
+
+<h5 id="remarks-8">Remarks</h5>
+
+<p>If the <code class="language-plaintext highlighter-rouge">documentName</code> parameter is omitted, <em>External PDF Document</em> will be used as the document name. The name of the document is displayed in the history view of the 365 business Print Agent application.</p>
+
+<p><code class="language-plaintext highlighter-rouge">noOfCopies</code> parameter specifies the number of <strong>additional</strong> copies to be printed. For example if you want to print just the original document specify <code class="language-plaintext highlighter-rouge">noOfCopies</code> = 0, but to print the original document and one copy of the document specify <code class="language-plaintext highlighter-rouge">noOfCopies</code> = 1.</p>
+
+<h5 id="example-5">Example</h5>
+
+<pre><code class="language-al">printAgent.PrintPdf(streamIn, noOfCopies, printerConfiguration);
 </code></pre>
 
 <h4 id="printzpltext-text-record"><code class="language-plaintext highlighter-rouge">PrintZPL(Text, Text, Record)</code></h4>
@@ -2014,7 +2124,7 @@
   <p><strong>Important</strong><br />Sending ZPL commands is only supported for Zebra printers. Sending ZPL commands to other printers may cause unforeseen errors to occur.</p>
 </blockquote>
 
-<h5 id="remarks-4">Remarks</h5>
+<h5 id="remarks-9">Remarks</h5>
 
 <p>The <code class="language-plaintext highlighter-rouge">documentName</code> parameter is used only for the history view in the 365 business Print Agent application.</p>
 
@@ -2027,7 +2137,7 @@ You find ZPL Command Information and Details at the following link:</p>
   <li>https://supportcommunity.zebra.com/s/article/ZPL-Command-Information-and-DetailsV2</li>
 </ul>
 
-<h5 id="example-3">Example</h5>
+<h5 id="example-6">Example</h5>
 
 <pre><code class="language-al">printAgent.PrintZPL(documentName, zplCommands, printerConfiguration);
 </code></pre>
@@ -2040,7 +2150,7 @@ You find ZPL Command Information and Details at the following link:</p>
   <p><strong>Important</strong><br />Sending ZPL commands is only supported for Zebra printers. Sending ZPL commands to other printers may cause unforeseen errors to occur.</p>
 </blockquote>
 
-<h5 id="remarks-5">Remarks</h5>
+<h5 id="remarks-10">Remarks</h5>
 
 <p>If the <code class="language-plaintext highlighter-rouge">documentName</code> parameter is omitted, <em>ZPL commands</em> will be used as the document name. The name of the document is displayed in the history view of the 365 business Print Agent application.</p>
 
@@ -2053,12 +2163,12 @@ You find ZPL Command Information and Details at the following link:</p>
   <li>https://supportcommunity.zebra.com/s/article/ZPL-Command-Information-and-DetailsV2</li>
 </ul>
 
-<h5 id="example-4">Example</h5>
+<h5 id="example-7">Example</h5>
 
 <pre><code class="language-al">printAgent.PrintZPL(zplCommands, printerConfiguration);
 </code></pre>
 
-<h3 id="example-5">Example</h3>
+<h3 id="example-8">Example</h3>
 
 <h4 id="print-external-pdf-documents-from-record-link">Print external PDF documents from Record Link</h4>
 
