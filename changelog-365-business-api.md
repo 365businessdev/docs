@@ -4,6 +4,11 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-api/
 ---
 
+#### Version 17.8.49.14013
+
+ - Added support for new 365 business API.
+ - Fix visibility of deprecated actions, groups and fields.
+
 #### Version 17.5.20.1908
  - Added Context Sensitive Help Page at https://docs.365businessdev.com.
  - Added telemetry data submission.
