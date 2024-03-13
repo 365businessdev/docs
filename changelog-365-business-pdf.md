@@ -4,6 +4,17 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-pdf/
 ---
 
+#### Version 20.2.51.14062
+
+ - Feature #57892 - Add ZUGFeRD 2.1 / FacturX 1.0.05 support (additional feature).
+  - Support for Sales Invoice.
+  - Support for Sales Credit Memo.
+ - Update to 365 business API model v4
+ - Add support for PDF security configuration in concatenate or stationery feature.
+  - Password prompt 
+  - Functional restriction, like print, edit or fill fields.
+ - Add default compression from 365 business API to shrink file size of PDF files from Microsoft Dynamics 365 Business Central.
+
 #### Version 20.1.19.11252
 
  - Fix blank code fields possible.
