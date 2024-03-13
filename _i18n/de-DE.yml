@@ -15,6 +15,7 @@ category:
   365-business-print-agent: 365 business Print Agent
   find-and-replace: 365 business development - Suchen & Ersetzen
   365-business-address-completion: 365 business Address Completion
+  licensing: Lizenzierung
 titles:
   al-developer: AL Implementation Guide
   search: Suche
@@ -92,6 +93,14 @@ titles:
   print-agent-config-statistics: Auswertung und Statistiken
   setup-zebra-default-settings: Setzen von Standardeinstellungen für Zebra Drucker
   print-agent-proxy: Verbindung über einen HTTP-Proxyserver
+  app-trial: Testversion
+  assign-license-entity: Lizenzen zuweisen
+  extension-license-management: Erweiterungslizenzverwaltung
+  feature-details: Feature Details
+  invoices: Rechnungen
+  legal: Rechtliches
+  migrate-from-pay-as-you-go: Migration von Pay-as-you-Go auf Abonnement
+  spending-limit: Ausgabengrenze
 langs:
   german: Deutsch
   english: English
