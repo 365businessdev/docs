@@ -15,6 +15,7 @@ category:
   365-business-print-agent: 365 business Print Agent
   find-and-replace: 365 business development - Suchen & Ersetzen
   365-business-address-completion: 365 business Address Completion
+  al-build: AL.build für Azure DevOps
 titles:
   al-developer: AL Implementation Guide
   search: Suche
@@ -92,6 +93,11 @@ titles:
   print-agent-config-statistics: Auswertung und Statistiken
   setup-zebra-default-settings: Setzen von Standardeinstellungen für Zebra Drucker
   print-agent-proxy: Verbindung über einen HTTP-Proxyserver
+  al-build-whatis: What is AL.build?
+  build-tasks: Build Tasks
+  release-tasks: Release Tasks
+  pipeline: Pipeline
+  templates: Templates
 langs:
   german: Deutsch
   english: English
