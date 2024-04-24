@@ -60,10 +60,10 @@ Lernen Sie grundlegende Konzepte und Prozesse zu AL.build für Azure DevOps kenn
         <p>
             Erfahren Sie mehr über die Grundlagen:
             <ul class="fa-ul">
-                <li><span class="fa-li"><i class="fa-solid fa-pen-ruler"></i></span><a href="al-build-whatis/">Was ist AL.build?</a></li>
-                <li><span class="fa-li"><i class="fa-solid fa-sitemap"></i></span><a href="al-build-whatis/#cicd">Was ist CI/CD?</a></li>
-                <li><span class="fa-li"><i class="fa-solid fa-sitemap"></i></span><a href="al-build-whatis/#pipeline">Was ist eine Pipeline?</a></li>
-                <li><span class="fa-li"><i class="fa-solid fa-sitemap"></i></span><a href="al-build-whatis/#release">Was ist ein Release?</a></li>
+                <li><span class="fa-li"><i class="fa-solid fa-code-branch"></i></span><a href="al-build-whatis/">Was ist AL.build?</a></li>
+                <li><span class="fa-li"><i class="fa-solid fa-code-compare"></i></span><a href="al-build-whatis/#cicd">Was ist CI/CD?</a></li>
+                <li><span class="fa-li"><i class="fa-solid fa-robot"></i></span><a href="al-build-whatis/#pipeline">Was ist eine Pipeline?</a></li>
+                <li><span class="fa-li"><i class="fa-solid fa-hands-holding-diamond"></i></span><a href="al-build-whatis/#release">Was ist ein Release?</a></li>
             </ul>            
         </p>
     </div>
@@ -73,8 +73,8 @@ Lernen Sie grundlegende Konzepte und Prozesse zu AL.build für Azure DevOps kenn
             Erfahren Sie mehr über die Einrichtung:
             <ul class="fa-ul">
                 <li><span class="fa-li"><i class="fa-solid fa-screwdriver-wrench"></i></span><a href="install-and-setup/">AL.build installieren</a></li>
-                <li><span class="fa-li"><i class="fa-solid fa-gear"></i></span><a href="install-and-setup/#build-tasks">AL.build Build Tasks</a></li>
-                <li><span class="fa-li"><i class="fa-solid fa-gear"></i></span><a href="install-and-setup/#release-task">AL.build Release Tasks</a></li>
+                <li><span class="fa-li"><i class="fa-solid fa-gear-complex-code"></i></span><a href="build-tasks/">AL.build Build Tasks</a></li>
+                <li><span class="fa-li"><i class="fa-solid fa-rocket-launch"></i></span><a href="release-task/">AL.build Release Tasks</a></li>
             </ul>
         </p>
     </div>
@@ -83,11 +83,11 @@ Lernen Sie grundlegende Konzepte und Prozesse zu AL.build für Azure DevOps kenn
              <p>
                 Erfahren Sie mehr über AL.build Pipelines:
                 <ul class="fa-ul">
-                    <li><span class="fa-li"><i class="fa-solid fa-print"></i></span><a href="templates/">AL.build Pipeline Vorlagen</a></li>
-                    <li><span class="fa-li"><i class="fa-solid fa-user-plus"></i></span><a href="#">CI Pipelines mit AL.build</a></li>
-                    <li><span class="fa-li"><i class="fa-solid fa-user-plus"></i></span><a href="#">CD Pipelines mit AL.build</a></li>
-                    <li><span class="fa-li"><i class="fa-solid fa-user-plus"></i></span><a href="#">Release Pipelines mit AL.build</a></li>
-                    <li><span class="fa-li"><i class="fa-solid fa-user-plus"></i></span><a href="#">Runtime Package Pipelines mit AL.build</a></li>
+                    <li><span class="fa-li"><i class="fa-sharp fa-solid fa-pen-ruler"></i></span><a href="templates/">AL.build Pipeline Vorlagen</a></li>
+                    <li><span class="fa-li"><i class="fa-solid fa-code"></i></span><a href="templates/ci-pipeline/">CI Pipelines mit AL.build</a></li>
+                    <li><span class="fa-li"><i class="fa-solid fa-infinity"></i></span><a href="templates/cd-pipeline/">CD Pipelines mit AL.build</a></li>
+                    <li><span class="fa-li"><i class="fa-solid fa-rocket-launch"></i></span><a href="templates/release-pipeline/">Release Pipelines mit AL.build</a></li>
+                    <li><span class="fa-li"><i class="fa-solid fa-cubes"></i></span><a href="templates/runtime-package-pipeline/">Runtime Package Pipelines mit AL.build</a></li>
                 </ul>
             </p>
     </div>

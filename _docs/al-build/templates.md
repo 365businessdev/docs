@@ -2,7 +2,7 @@
 permalink: /al-build/templates/
 title: templates
 category: al-build
-order: 2
+order: 4
 ---
 
 {% tf _docs/al-build/templates.md %}
