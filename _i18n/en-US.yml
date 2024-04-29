@@ -15,6 +15,7 @@ category:
   365-business-print-agent: 365 business Print Agent
   find-and-replace: 365 business development - Find & Replace
   365-business-address-completion: 365 business Address Completion
+  365-business-proxy-application: 365 business Proxy Application
 titles:
   al-developer: AL Implementation Guide
   search: Search
@@ -92,6 +93,10 @@ titles:
   print-agent-config-statistics: Reporting and statistics
   setup-zebra-default-settings: Defining default printer settings for Zebra printer
   print-agent-proxy: Connecting through an HTTP proxy server
+  proxy-application-whatis: What is Proxy Application?
+  proxy-application-client-whatis: What is the Proxy Application Client Service?
+  proxy-application-clients: Proxy Application Client
+  proxy-application-service-installation: Install Proxy Application Client Dienst on Windows
 langs:
   german: German
   english: English
