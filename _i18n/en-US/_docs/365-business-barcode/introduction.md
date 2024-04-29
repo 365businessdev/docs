@@ -35,7 +35,7 @@ Encode and decode 1D and 2D barcodes directly from Microsoft Dynamics 365 Busine
 </div>
 
 <div class="alert alert-notice">
-    <i class="fa-solid fa-lightbulb"></i> <strong>Good to know:</strong> 365 business Barcode can be tested free of charge and without obligation for 30 days.<br>You need more time? Kein Problem, sprechen Sie uns einfach an!
+    <i class="fa-solid fa-lightbulb"></i> <strong>Good to know:</strong> 365 business Barcode can be tested free of charge and without obligation for 30 days.<br>You need more time? No problem, just contact us.
 </div>
 
 #### Functions at a glance
@@ -44,7 +44,7 @@ Encode and decode 1D and 2D barcodes directly from Microsoft Dynamics 365 Busine
 
 <div class="columns" style="margin-top: 30px;">
     <div>
-        <span class="columns-title">Grundlagen</span>
+        <span class="columns-title">Basics</span>
         <p>
             Learn more about basics of 365 business Barcode:
             <ul class="fa-ul">
@@ -63,7 +63,7 @@ Encode and decode 1D and 2D barcodes directly from Microsoft Dynamics 365 Busine
             </p>
     </div>
     <div>
-         <span class="columns-title">Einbinden</span>
+         <span class="columns-title">Implement</span>
              <p>
                 Learn how to integrate 365 business barcode into your application:
                 <ul class="fa-ul">
