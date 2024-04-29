@@ -2,7 +2,7 @@ Encode and decode 1D and 2D barcodes directly from Microsoft Dynamics 365 Busine
 
 ![365 business Barcode](/assets/images/365-business-barcode/c2d1994e3928121cbe3688812536565148167627fcfc18fd6fa635219e78eb4f.png)  
 
-365 business Barcode uses the barcode service of the [365 business API](../365-business-api/) and requires an active subscription after the free and non-binding trial period. Die 365 business API ist mit Microsoft Dynamics 365 Business Central über die 365 business API-App verbunden.
+365 business Barcode uses the barcode service of the [365 business API](../365-business-api/) and requires an active subscription after the free and non-binding trial period. The 365 business API is connected to Microsoft Dynamics 365 Business Central via the 365 business API app.
 
 <div class="columns">
    <div>
