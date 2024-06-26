@@ -4,6 +4,11 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-eric/
 ---
 
+#### Version 17.11.207.14513
+
+ - Maintenance release
+ - Fix issue 58122 - Add VAT context for Annual VAT Return (Fiscal year 2024)
+
 #### Version 17.11.176.11184
 
  - Fix rounding on zmdo verification.
