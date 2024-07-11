@@ -20,6 +20,33 @@ Weitere Informationen zur umsatzsteuerlichen Organschaft finden Sie [hier](../op
 11. Prüfen und korrigieren Sie bei Bedarf die ermittelten Werte der Steuerkennzahlen oder erfassen Sie weitere Steuerkennzahlen.
 12. Klicken Sie auf **XML-Datei übertragen**, um die Steuerdatei einzureichen und elektronisch an die deutschen Steuerbehörden zu übermitteln.
 
+![Umsatzsteuervoranmeldung](/assets/images/365-business-eric/elster-sales-vat-adv-notification.png)
+
+#### Infobox-Bereich
+
+##### Dateien
+
+In den Dateien der ELSTER Steuerdaten werden sämtliche übertragenen und empfangenen Dateien zur aktuellen Umsatzsteuervoranmeldung gespeichert.
+Hierzu zählen:
+
+ - XML Übertragungsdokument - Die an ELSTER übertragene XML-Datei.
+ - XML Übertragungsbestätigung - Die von ELSTER empfangene XML-Datei, nach der erfolgten Einreichung.
+ - Übertragungsbestätigung - Die von ELSTER empfangene Übertragungsbestätigung im PDF-Format.
+
+Weitere Informationen finden Sie [hier](../elster-tax-statements/#dateien).
+
+##### MwSt.-Abrechnungszeilen
+
+Im Infobox-Bereich **MwSt.-Abrechnungszeilen** werden die für die ausgewählte Steuerdatenzeile verwendeten MwSt.-Abrechnungszeilen, inkl. der Betragsart und dem Betrag, angezeigt.
+
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Wichtiger Hinweis:</strong> Der Betrag, entweder der MwSt.-Betrag oder die Bemessungsgrundlage, der Zeile in der MwSt.-Abrechnung. Bitte beachten Sie, dass dieser Betrag zum Zeitpunkt der Berechnung der ELSTER-Steuererklärung berechnet wird und der aktuelle Betrag in der MwSt.-Abrechnung abweichen kann.
+</div>
+
+##### ELSTER Übertragung
+
+Im Infobox-Bereich **ELSTER Übertragung** werden die wesentlichen Informationen zur elektronischen Übermittlung der ELSTER Steuerdaten zusammengefasst.
+
 #### Weitere Optionen
 Zusätzlich zu den oben genannten Einstellungen können Sie folgende Optionen setzen:
 
@@ -37,4 +64,4 @@ Zusätzlich zu den oben genannten Einstellungen können Sie folgende Optionen se
 - [Datenart - Dauerfristverlängerung - Dokumentation](../elster-permanent-time-limit-extension/)
 - [Datenart - Antrag auf Fristverlängerung - Dokumentation](../elster-request-for-time-extension/)
 - [Datenart - Umsatzsteuererklärung - Dokumentation](../elster-annual-vat-return/)
- - [Umsatzsteuerliche Organschaft](../opp-affiliation/)
+- [Umsatzsteuerliche Organschaft](../opp-affiliation/)
