@@ -1,3 +1,4 @@
+<#
 Write-Host "Update gems . . ."
 try {
     bundle update
@@ -5,7 +6,7 @@ try {
     Write-Host "[ERROR]" -ForegroundColor Red
 }
 Write-Host "[OK]" -ForegroundColor Green
-
+#>
 Write-Host "Build website . . ."
 try {
     bundle exec jekyll build
