@@ -4,6 +4,27 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-eric/
 ---
 
+#### Version 17.12.240.15865
+
+ - Fix issue 58554 - E50 (Annual VAT Return) schema update
+ - Task 58428 - G/L Entry & VAT Entry Relation
+   - Add G/L Entry & VAT Entry relation in Sales VAT Adv. Notification
+   - Add Check for multiple submissions
+ - Migrate to 365 business API - ERiC v3 service implementation
+   - Switch to new 365 business API (`https://api.365businessdev.com`)
+   - New endpoints for `send`, `validate` and `testSend` to identify purpose of transmission (invoicing relevant)
+   - Implement new submission method
+ - Task 58422 - Advanced ELSTER validation parsing
+   - Add additional validation parsing to improve error handling
+ - Migrate to `No. Series` module from Business Foundation app _(BC24 or above)_
+ - UI enhancements
+   - Move ELSTER Submission group to Factbox area
+   - Add related VAT Statement Lines in Factbox area for Sales Adv. VAT Notification
+ - Fix issue 58647 Feature telemetry implementation for BC20 and newer
+ - Fix issue 58649 Error Info - AL0666: 'AddNavigationAction' is not available in runtime version '10.2'
+ - Fix issue 58648 Record ID return value is not supported in BC17
+ - Fix issue 58650 Enum 'bdev.ERiC Response Type' is marked for removal
+
 #### Version 17.11.207.14513
 
  - Maintenance release
