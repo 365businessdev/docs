@@ -192,5 +192,5 @@ Eine detaillierte Dokumenation finden Sie in der [Plugin Dokumenation](../plugin
 
  - [Proxy Application Architektur](../proxy-application-whatis/#architektur)
  - [Was ist der Proxy Application Service?](../proxy-application-client-whatis/)
- - [Installation Proxy Application Service](../proxy-application-service-installation/)
+ - [Installation Proxy Application Service](../proxy-application-client-installation/)
  - [Proxy Application Einrichtung](../setup/)

@@ -192,7 +192,7 @@ Detailed documentation can be found in the [Plugin documentation](../plugins/).
 
  - [Proxy Application Architecture](../proxy-application-whatis/#architecture)
  - [What is the Proxy Application Service](../proxy-application-client-whatis/)
- - [Proxy Application Service Installation](../proxy-application-service-installation/)
+ - [Proxy Application Service Installation](../proxy-application-client-installation/)
  - [Proxy Application Setup](../setup/)
 
 
