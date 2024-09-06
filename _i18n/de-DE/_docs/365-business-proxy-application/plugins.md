@@ -11,11 +11,11 @@
 | Komponente | Beschreibung | Dokumentation |
 | --- | --- | --- |
 | File Plugin | Vollumfänglicher Zugriff auf das lokale Dateisystem. | [Dokumenation](../plugins/file/) |
-| Print Plugin | Direkte Ansteuerung von lokalen Druckern. | [Dokumenation](../plugins/print/) |
 | Image Plugin | Bilder aus dem Dateisystem lesen, skalieren und Größe anpassen. | [Dokumenation](../plugins/image/) |
-| Zip Plugin | ZIP Archive packen und entpacken. | [Dokumenation](../plugins/zip/) |
-| Kaptura Plugin | KAPTURA 3D Scanner ansteuern. | [Dokumenation](../plugins/kaptura/) |
-| Haenel Lift Plugin | Steuerung des Haenel Lagerlift. | [Dokumenation](../plugins/haenel/) |
+| Print Plugin | Direkte Ansteuerung von lokalen Druckern. | [Dokumenation](../plugins/print/) |
+| Zip Plugin | ZIP Archive packen und entpacken. | *Dokumentation folgt in Kürze* |
+| Kaptura Plugin | KAPTURA 3D Scanner ansteuern. | *Dokumentation folgt in Kürze* |
+| Haenel Lift Plugin | Steuerung des Haenel Lagerlift. | *Dokumentation folgt in Kürze* |
 
 ### Weitere individuelle Plugins
 
@@ -29,5 +29,8 @@ Hierzu zählen unter anderem:
  - MES-Anbindung
  - uvm.
 
+<div class="alert alert-notice">
+    <i class="fa-solid fa-notes"></i> <strong>Gut zu wissen:</strong>365 business Proxy Application ist darauf konzipiert mit möglichst wenig Aufwand Integrationen von lokalen Ressourcen in Ihre Geschäftsprozesse zu ermöglichen.<br>Sie benötigen eine individuelle Anbindung an ein lokales Gerät oder eine Maschine? <a href="https://365businessdev.com/kontakt/" target="_blank">Sprechen Sie uns gerne an</a>.
+</div>
 
 

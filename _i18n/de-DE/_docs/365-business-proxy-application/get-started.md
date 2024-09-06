@@ -57,7 +57,7 @@ Um auf die Proxy Application Clients direkt in Microsoft Dynamics 365 Business C
 
  1. Öffnen Sie die  **Proxy Application Einrichtung** in Microsoft Dynamics 365 Business Central.
  2. Beim Öffnen der Seite werden automatisch alle verfügbaren 365 business Proxy Application Clients abgerufen und werden in der Einrichtung angezeigt:
-    ![Proxy Application Setup](/assets/images/365-business-proxy-application/9c4905bab8db474caa704353d2772447fdcea02339e7dbb5ec2e138974df12dd.png)  
+    ![Proxy Application Einrichtung](/assets/images/365-business-proxy-application/9c4905bab8db474caa704353d2772447fdcea02339e7dbb5ec2e138974df12dd.png)  
  3. Wählen Sie **Aktiviert** um einen Proxy Application Client für die Verwendung zu aktivieren.
  4. Klicken Sie auf den **Namen** des Proxy Application Client um die Karte zu öffnen.
  5. In der Proxy Application Client Karte finden Sie das Feld **Client ID**.
@@ -75,7 +75,7 @@ Um auf die Proxy Application Clients direkt in Microsoft Dynamics 365 Business C
  4. Wählen Sie den gewünschten Proxy Application Client, an Hand des Namens den Sie im vorherigen Schritt vergeben haben.
  5. Wählen Sie **Plugins installieren**.
  6. Klicken Sie **Weiter**.
- 7. Wählen Sie die Plugins (z.B. File Plugin), die Sie installieren möchten.
+ 7. Wählen Sie die Plugins (z.B. File Plugin), die Sie installieren möchten.<br>
     ![Plugin Auswahl](/assets/images/365-business-proxy-application/2fd00b9a-6e91-4db9-9418-05a7cb61c22f.png)
  8. Klicken Sie **Weiter**.
  9.  Nach der erfolgten Plugin Installation klicken Sie **Schließen**.
@@ -90,6 +90,8 @@ Um die Ansteuerung von Clients zu vereinfachen gibt es die Möglichkeit einen St
  4. Wählen Sie **Standard Clients**.
  5. Wählen Sie das **Plugin** aus, für das Sie einen Standard Client festlegen möchten (z.B. File Plugin).
  6. Wählen Sie den **Namen** des Clients aus.
+
+![Proxy Application Einrichtung - Standard Client für Plugin](/assets/images/365-business-proxy-application/3fafd304-0799-4d9a-a079-a6a13e1a27ff.png)
 
 <div class="alert alert-info">
     <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong>Die Auswahl von Clients ist nur möglich, wenn auf dem Client bereits das ausgewählte Plugin installiert ist.

@@ -96,7 +96,12 @@ titles:
   proxy-application-whatis: Was ist Proxy Application?
   proxy-application-client-whatis: Was ist der Proxy Application Client?
   proxy-application-clients: Proxy Application Client
-  proxy-application-service-installation: Proxy Application Client auf Windows installieren
+  proxy-application-client-installation: Proxy Application Client auf Windows installieren
+  plugins: Plugins
+  file-plugin: Datei-Plugin
+  image-plugin: Bild-Plugin
+  print-plugin: Druck-Plugin
+  your-custom-plugin: Ihr eigenes Plugin
 langs:
   german: Deutsch
   english: English
