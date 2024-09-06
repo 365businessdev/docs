@@ -53,6 +53,22 @@ Um den 365 business Proxy Application einzurichten, öffnen Sie die Seite **Prox
 
 ## Schritt 2: Proxy Application Client einrichten
 
+Um auf die Proxy Application Clients direkt in Microsoft Dynamics 365 Business Central zugreifen zu können, müssen die Clients aktiviert werden.
+
+ 1. Öffnen Sie die  **Proxy Application Einrichtung** in Microsoft Dynamics 365 Business Central.
+ 2. Beim Öffnen der Seite werden automatisch alle verfügbaren 365 business Proxy Application Clients abgerufen und werden in der Einrichtung angezeigt:
+    ![Proxy Application Setup](/assets/images/365-business-proxy-application/9c4905bab8db474caa704353d2772447fdcea02339e7dbb5ec2e138974df12dd.png)  
+ 3. Wählen Sie **Aktiviert** um einen Proxy Application Client für die Verwendung zu aktivieren.
+ 4. Klicken Sie auf den **Namen** des Proxy Application Client um die Karte zu öffnen.
+ 5. In der Proxy Application Client Karte finden Sie das Feld **Client ID**.
+    <div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong> Die Client ID wird verwendet, um den Proxy Application Dienst zu adressieren. 365 business Proxy Application stellt zusätzlich Funktionen zur Verfügung um die Clients, die ein spezifisches Plugin unterstützen, zurückgibt. In dieser Kurzanleitung wird allerdings davon ausgegangen, dass die spezifische Client ID verwendet wird.
+    </div>
+
+## Schritt 2.1: Proxy Application Client Plugins installieren
+
+![Proxy Application Client Plugin Installation](/assets/images/365-business-proxy-application/proxyapp-installplugin-de-DE.gif)
+
  1. Microsoft Dynamics 365 Business Central öffnen.
  2. **Proxy Application Clients** Seite öffnen.
  3. Wählen Sie **Aktualisieren** um die verfügbaren 365 business Proxy Application Clients zu laden.
@@ -60,10 +76,11 @@ Um den 365 business Proxy Application einzurichten, öffnen Sie die Seite **Prox
  5. Wählen Sie **Plugins installieren**.
  6. Klicken Sie **Weiter**.
  7. Wählen Sie die Plugins (z.B. File Plugin), die Sie installieren möchten.
+    ![Plugin Auswahl](/assets/images/365-business-proxy-application/2fd00b9a-6e91-4db9-9418-05a7cb61c22f.png)
  8. Klicken Sie **Weiter**.
- 9. Nach der erfolgten Plugin Installation klicken Sie **Schließen**.
+ 9.  Nach der erfolgten Plugin Installation klicken Sie **Schließen**.
 
-## Schritt 2.1: Standard Clients für Plugin (Optional)
+## Schritt 2.2: Standard Clients für Plugin *(Optional)*
 
 Um die Ansteuerung von Clients zu vereinfachen gibt es die Möglichkeit einen Standard Client für Plugins zu definieren. Hierdurch ermöglichen Sie 365 business Proxy Application automatisch den Client für das aktuelle Plugin auszuwählen.
 
@@ -80,47 +97,98 @@ Um die Ansteuerung von Clients zu vereinfachen gibt es die Möglichkeit einen St
 
 ## Schritt 3: Implementierung File Plugin
 
-Im folgenden wird die Implementierung des File Plugin beschrieben. Hierbei wird beispielhaft eine Datei geschrieben und anschließend wieder gelesen.
+In dieser Kurzanleitung wird erklärt, wie Sie mit Hilfe von 365 business Proxy Application eine Datei in Ihrem lokalen Dateisystem schreiben. Im folgenden wird eine AL-Erweiterung für Microsoft Dynamics 365 Business Central vorgenommen. Diese Kurzanleitung geht dabei davon aus, dass das AL-Projekt bereits existiert und nur um die Integration mit 365 business Proxy Application erweitert werden muss.
+
+## Schritt 3.1: Abhängigkeit zu 365 business Proxy Application
+
+Um auf die Funktionen in 365 business Proxy Application zugreifen zu können, muss Ihre AL-Erweiterung eine Abhängigkeit zu 365 business Proxy Application festlegen.
+
+ 1. Öffnen Sie das Application Manifest (`app.json`) in Visual Studio Code.  
+ 2. Ergänzen Sie folgenden Eintrag im JSON-Token `dependencies`:
+    ```json
+    [..],
+    "dependencies": [
+        {
+        "id": "ae907ccb-e4a3-4594-9955-bd931031af8f",
+        "name": "365 business Proxy Application",
+        "publisher": "365 business development",
+        "version": "18.0.0.0"
+        }
+    ],
+    [..]
+    ```
+ 3. Führen Sie den Befehl **AL: Download symbols** aus.
+
+## Schritt 3.2: AL Implementierung
+
+Im folgenden wird beispielhaft eine Datei geschrieben und anschließend wieder gelesen. In dieser Kurzanleitung wird angenommen, dass eine Datei mit dem Inhalt "Hello, World!" als `test.txt` im Pfad `C:\temp` geschrieben werden soll.
 
 Eine detaillierte Dokumenation finden Sie in der [Plugin Dokumenation](../plugins/).
 
-```al
-local procedure WriteReadFileExample()
-var
-    filePath: Text;
-begin
-    filePath := WriteFile('Hello, World!');
+ 1. Öffnen Sie eine bestehende Codeunit oder erstellen Sie eine neuen AL-Datei, in der der AL-Code entwickelt werden kann.
+ 2. Fügen Sie folgenden AL-Code ein:
+    ```al
+    procedure WriteAndReadHelloWorldFile()
+    var
+        proxyApp: Codeunit "bdev.PRX Proxy Application";
+        file: Codeunit "Temp Blob";
+        filePath: Text;
+        sampleText: Label 'Hello, World!', Locked = true;
+    begin
+        // write "Hello World" into the text file
+        CreateFileInTempBlob(file, sampleText);
 
-    if (ReadFile(filePath) <> 'Hello, World!') then
-        Error('The file content does not matcht.')
-    else
-        Message('The file has been written.');
-end;
+        // set file path
+        filePath := 'c:\temp\test.txt';
 
-local procedure WriteFile(content: Text) filePath: Text
-var
-    proxyApp: Codeunit "bdev.PRX Proxy Application";
-begin
-    filePath := 'c:\temp\test.txt';
+        // write file to filesystem
+        if (not proxyApp.PostFile(
+            filePath,
+            file
+        )) then
+            Error('Failed to write file!\Error: %1', GetLastErrorText());
 
-    // invoke Proxy Application plugin
-    if (not proxyApp.PostFile(
-        filePath,
-        content
-    )) then
-        Error('Error: %1', GetLastErrorText());
-end;
+        Clear(file); // reset temp blob
 
-local procedure ReadFile(filePath: Text): Text
-var
-    proxyApp: Codeunit "bdev.PRX Proxy Application";
-    file: Codeunit "Temp Blob";
-begin
-    // invoke Proxy Application plugin
-    file := proxyApp.GetFile(
-        filePath
-    );
+        // read file from filesystem
+        file := proxyApp.GetFile(
+            filePath
+        );
 
-    exit(ReadContentFromTempBlob(file));
-end;
-```
+        // compare content with expected content
+        if (ReadContentFromTempBlob(file) <> sampleText)then
+            Error('The file content does not matcht.')
+        else
+            Message('The file has been written.');
+    end;
+
+    local procedure CreateFileInTempBlob(var file: Codeunit "Temp Blob", fileContent: Text)
+    var
+        stream: OutStream;
+    begin
+        file.CreateOutStream(stream, TextEncoding::UTF8);
+        stream.WriteText(fileContent);
+    end;
+
+
+    local procedure ReadFile(filePath: Text): Text
+    var
+        proxyApp: Codeunit "bdev.PRX Proxy Application";
+        file: Codeunit "Temp Blob";
+    begin
+        // invoke Proxy Application plugin
+        file := proxyApp.GetFile(
+            filePath
+        );
+
+        exit(ReadContentFromTempBlob(file));
+    end;
+    ```
+ 3. Führen Sie die Funktion `WriteAndReadHelloWorldFile()` aus.
+
+### Siehe auch
+
+ - [Proxy Application Architektur](../proxy-application-whatis/#architektur)
+ - [Was ist der Proxy Application Service?](../proxy-application-client-whatis/)
+ - [Installation Proxy Application Service](../proxy-application-service-installation/)
+ - [Proxy Application Einrichtung](../setup/)
