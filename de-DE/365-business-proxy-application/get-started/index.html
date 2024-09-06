@@ -28,7 +28,7 @@
 <meta property="og:url" content="https://docs.365businessdev.com/de-DE/365-business-proxy-application/get-started/" />
 <meta property="og:site_name" content="365 business development" />
 <script type="application/ld+json">
-{"url":"https://docs.365businessdev.com/de-DE/365-business-proxy-application/get-started/","author":{"@type":"Person","name":"365 business development"},"@type":"Article","headline":"quick-start","description":"In dieser Kurzanleitung wird erklärt, wie Sie 365 business Proxy Application in Ihrer Microsoft Dynamics 365 Business Central Umgebung installieren und einrichten. Hinweis: Testen Sie den 365 business Proxy Application, inkl. aller Standard Plugins, ohne Kosten in Sandbox-Umgebungen von Microsoft Dynamics 365 Business Central. Zusätzlich gibt es für Echt- und On-Premises-Umgebungen eine kostenlose 30-tägige Testphase ohne Funktionseinschränkungen. Voraussetzungen Microsoft Dynamics 365 Business Central 2021 release wave 1 (18.0) oder neuer. Ein Microsoft Windows-Clientgerät zur Ausführung von 365 business Proxy Application Client. Eine Internetverbindung. Wichtiger Hinweis:Diese Kurzanleitung beschreibt die Einrichtung und Inbetriebnahme von 365 business Proxy Application mit dem File-Plugin.Für weitere Informationen zur Einrichtung weiterer Plugins besuchen Sie bitte die Dokumentation. Schritt 1: Installation von 365 business Proxy Application Öffnen Sie den Marketplace für Erweiterungen in Microsoft Dynamics 365 Business Central und suchen Sie nach 365 business Proxy Application. Installieren Sie die App von Microsoft AppSource und warten Sie, bis die Installation abgeschlossen ist. Hinweis:Die App Pakete für Ihre Microsoft Dynamics 365 Business Central On-Premise Umgebung finden Sie in unseren Downloads. Schritt 1.1: Proxy Application Einrichtung Um den 365 business Proxy Application einzurichten, öffnen Sie die Seite Proxy Application Einrichtung in Microsoft Dynamics 365 Business Central. Wählen Sie Authentifizieren um Ihre Microsoft Dynamics 365 Business Central Umgebung mit 365 business Proxy Application Service zu verbinden. Kopieren Sie den Wert Tenant ID indem Sie auf den Feldwert klicken. Hinweis: Gibt die Tenant-ID an, die zur Sicherung der Kommunikation zwischen dem Proxy Application Dienst und Microsoft Dynamics 365 Business Central verwendet wird. Wählen Sie Client herunterladen… um 365 business Proxy Application Client herunterzuladen. Schritt 1.2: Installieren von 365 business Proxy Application Client Speichern Sie die heruntergeladene ZIP-Datei auf dem Server oder Computer, den Sie mit 365 business Proxy Application verwenden möchten. Entpacken Sie die ZIP-Datei (z.B. C:\\install) Starten Sie die Setup Datei und folgen Sie den Anweisungen. Geben Sie die Tenant ID aus dem vorherigen Schritt und einen Namen für den Client ein, der Ihnen dabei hilft den Client in Microsoft Dynamics 365 Business Central zu identifizieren. (Optional) Geben Sie einen Domänenbenutzer und das Kennwort ein, mit dem 365 business Proxy Application Client betrieben werden soll. Hinweis: Wenn Sie keinen Benutzer angeben, wird 365 business Proxy Application Client im Kontext **Lokales System** ausgeführt. Schritt 2: Proxy Application Client einrichten Um auf die Proxy Application Clients direkt in Microsoft Dynamics 365 Business Central zugreifen zu können, müssen die Clients aktiviert werden. Öffnen Sie die Proxy Application Einrichtung in Microsoft Dynamics 365 Business Central. Beim Öffnen der Seite werden automatisch alle verfügbaren 365 business Proxy Application Clients abgerufen und werden in der Einrichtung angezeigt: Wählen Sie Aktiviert um einen Proxy Application Client für die Verwendung zu aktivieren. Klicken Sie auf den Namen des Proxy Application Client um die Karte zu öffnen. In der Proxy Application Client Karte finden Sie das Feld Client ID. Hinweis: Die Client ID wird verwendet, um den Proxy Application Dienst zu adressieren. 365 business Proxy Application stellt zusätzlich Funktionen zur Verfügung um die Clients, die ein spezifisches Plugin unterstützen, zurückgibt. In dieser Kurzanleitung wird allerdings davon ausgegangen, dass die spezifische Client ID verwendet wird. Schritt 2.1: Proxy Application Client Plugins installieren Microsoft Dynamics 365 Business Central öffnen. Proxy Application Clients Seite öffnen. Wählen Sie Aktualisieren um die verfügbaren 365 business Proxy Application Clients zu laden. Wählen Sie den gewünschten Proxy Application Client, an Hand des Namens den Sie im vorherigen Schritt vergeben haben. Wählen Sie Plugins installieren. Klicken Sie Weiter. Wählen Sie die Plugins (z.B. File Plugin), die Sie installieren möchten. Klicken Sie Weiter. Nach der erfolgten Plugin Installation klicken Sie Schließen. Schritt 2.2: Standard Clients für Plugin (Optional) Um die Ansteuerung von Clients zu vereinfachen gibt es die Möglichkeit einen Standard Client für Plugins zu definieren. Hierdurch ermöglichen Sie 365 business Proxy Application automatisch den Client für das aktuelle Plugin auszuwählen. Microsoft Dynamics 365 Business Central öffnen. Proxy Application Einrichtung Seite öffnen. Wählen Sie Zugehörig. Wählen Sie Standard Clients. Wählen Sie das Plugin aus, für das Sie einen Standard Client festlegen möchten (z.B. File Plugin). Wählen Sie den Namen des Clients aus. Hinweis:Die Auswahl von Clients ist nur möglich, wenn auf dem Client bereits das ausgewählte Plugin installiert ist. Schritt 3: Implementierung File Plugin In dieser Kurzanleitung wird erklärt, wie Sie mit Hilfe von 365 business Proxy Application eine Datei in Ihrem lokalen Dateisystem schreiben. Im folgenden wird eine AL-Erweiterung für Microsoft Dynamics 365 Business Central vorgenommen. Diese Kurzanleitung geht dabei davon aus, dass das AL-Projekt bereits existiert und nur um die Integration mit 365 business Proxy Application erweitert werden muss. Schritt 3.1: Abhängigkeit zu 365 business Proxy Application Um auf die Funktionen in 365 business Proxy Application zugreifen zu können, muss Ihre AL-Erweiterung eine Abhängigkeit zu 365 business Proxy Application festlegen. Öffnen Sie das Application Manifest (app.json) in Visual Studio Code. Ergänzen Sie folgenden Eintrag im JSON-Token dependencies: [..], &quot;dependencies&quot;: [ { &quot;id&quot;: &quot;ae907ccb-e4a3-4594-9955-bd931031af8f&quot;, &quot;name&quot;: &quot;365 business Proxy Application&quot;, &quot;publisher&quot;: &quot;365 business development&quot;, &quot;version&quot;: &quot;18.0.0.0&quot; } ], [..] Führen Sie den Befehl AL: Download symbols aus. Schritt 3.2: AL Implementierung Im folgenden wird beispielhaft eine Datei geschrieben und anschließend wieder gelesen. In dieser Kurzanleitung wird angenommen, dass eine Datei mit dem Inhalt “Hello, World!” als test.txt im Pfad C:\\temp geschrieben werden soll. Eine detaillierte Dokumenation finden Sie in der Plugin Dokumenation. Öffnen Sie eine bestehende Codeunit oder erstellen Sie eine neuen AL-Datei, in der der AL-Code entwickelt werden kann. Fügen Sie folgenden AL-Code ein: procedure WriteAndReadHelloWorldFile() var proxyApp: Codeunit &quot;bdev.PRX Proxy Application&quot;; file: Codeunit &quot;Temp Blob&quot;; filePath: Text; sampleText: Label &#39;Hello, World!&#39;, Locked = true; begin // write &quot;Hello World&quot; into the text file CreateFileInTempBlob(file, sampleText); // set file path filePath := &#39;c:\\temp\\test.txt&#39;; // write file to filesystem if (not proxyApp.PostFile( filePath, file )) then Error(&#39;Failed to write file!\\Error: %1&#39;, GetLastErrorText()); Clear(file); // reset temp blob // read file from filesystem file := proxyApp.GetFile( filePath ); // compare content with expected content if (ReadContentFromTempBlob(file) &lt;&gt; sampleText)then Error(&#39;The file content does not matcht.&#39;) else Message(&#39;The file has been written.&#39;); end; local procedure CreateFileInTempBlob(var file: Codeunit &quot;Temp Blob&quot;, fileContent: Text) var stream: OutStream; begin file.CreateOutStream(stream, TextEncoding::UTF8); stream.WriteText(fileContent); end; local procedure ReadFile(filePath: Text): Text var proxyApp: Codeunit &quot;bdev.PRX Proxy Application&quot;; file: Codeunit &quot;Temp Blob&quot;; begin // invoke Proxy Application plugin file := proxyApp.GetFile( filePath ); exit(ReadContentFromTempBlob(file)); end; Führen Sie die Funktion WriteAndReadHelloWorldFile() aus. Siehe auch Proxy Application Architektur Was ist der Proxy Application Service? Installation Proxy Application Service Proxy Application Einrichtung","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.365businessdev.com/de-DE/siteicon.png"},"name":"365 business development"},"@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"365 business development"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.365businessdev.com/de-DE/siteicon.png"},"name":"365 business development"},"description":"In dieser Kurzanleitung wird erklärt, wie Sie 365 business Proxy Application in Ihrer Microsoft Dynamics 365 Business Central Umgebung installieren und einrichten. Hinweis: Testen Sie den 365 business Proxy Application, inkl. aller Standard Plugins, ohne Kosten in Sandbox-Umgebungen von Microsoft Dynamics 365 Business Central. Zusätzlich gibt es für Echt- und On-Premises-Umgebungen eine kostenlose 30-tägige Testphase ohne Funktionseinschränkungen. Voraussetzungen Microsoft Dynamics 365 Business Central 2021 release wave 1 (18.0) oder neuer. Ein Microsoft Windows-Clientgerät zur Ausführung von 365 business Proxy Application Client. Eine Internetverbindung. Wichtiger Hinweis:Diese Kurzanleitung beschreibt die Einrichtung und Inbetriebnahme von 365 business Proxy Application mit dem File-Plugin.Für weitere Informationen zur Einrichtung weiterer Plugins besuchen Sie bitte die Dokumentation. Schritt 1: Installation von 365 business Proxy Application Öffnen Sie den Marketplace für Erweiterungen in Microsoft Dynamics 365 Business Central und suchen Sie nach 365 business Proxy Application. Installieren Sie die App von Microsoft AppSource und warten Sie, bis die Installation abgeschlossen ist. Hinweis:Die App Pakete für Ihre Microsoft Dynamics 365 Business Central On-Premise Umgebung finden Sie in unseren Downloads. Schritt 1.1: Proxy Application Einrichtung Um den 365 business Proxy Application einzurichten, öffnen Sie die Seite Proxy Application Einrichtung in Microsoft Dynamics 365 Business Central. Wählen Sie Authentifizieren um Ihre Microsoft Dynamics 365 Business Central Umgebung mit 365 business Proxy Application Service zu verbinden. Kopieren Sie den Wert Tenant ID indem Sie auf den Feldwert klicken. Hinweis: Gibt die Tenant-ID an, die zur Sicherung der Kommunikation zwischen dem Proxy Application Dienst und Microsoft Dynamics 365 Business Central verwendet wird. Wählen Sie Client herunterladen… um 365 business Proxy Application Client herunterzuladen. Schritt 1.2: Installieren von 365 business Proxy Application Client Speichern Sie die heruntergeladene ZIP-Datei auf dem Server oder Computer, den Sie mit 365 business Proxy Application verwenden möchten. Entpacken Sie die ZIP-Datei (z.B. C:\\install) Starten Sie die Setup Datei und folgen Sie den Anweisungen. Geben Sie die Tenant ID aus dem vorherigen Schritt und einen Namen für den Client ein, der Ihnen dabei hilft den Client in Microsoft Dynamics 365 Business Central zu identifizieren. (Optional) Geben Sie einen Domänenbenutzer und das Kennwort ein, mit dem 365 business Proxy Application Client betrieben werden soll. Hinweis: Wenn Sie keinen Benutzer angeben, wird 365 business Proxy Application Client im Kontext **Lokales System** ausgeführt. Schritt 2: Proxy Application Client einrichten Um auf die Proxy Application Clients direkt in Microsoft Dynamics 365 Business Central zugreifen zu können, müssen die Clients aktiviert werden. Öffnen Sie die Proxy Application Einrichtung in Microsoft Dynamics 365 Business Central. Beim Öffnen der Seite werden automatisch alle verfügbaren 365 business Proxy Application Clients abgerufen und werden in der Einrichtung angezeigt: Wählen Sie Aktiviert um einen Proxy Application Client für die Verwendung zu aktivieren. Klicken Sie auf den Namen des Proxy Application Client um die Karte zu öffnen. In der Proxy Application Client Karte finden Sie das Feld Client ID. Hinweis: Die Client ID wird verwendet, um den Proxy Application Dienst zu adressieren. 365 business Proxy Application stellt zusätzlich Funktionen zur Verfügung um die Clients, die ein spezifisches Plugin unterstützen, zurückgibt. In dieser Kurzanleitung wird allerdings davon ausgegangen, dass die spezifische Client ID verwendet wird. Schritt 2.1: Proxy Application Client Plugins installieren Microsoft Dynamics 365 Business Central öffnen. Proxy Application Clients Seite öffnen. Wählen Sie Aktualisieren um die verfügbaren 365 business Proxy Application Clients zu laden. Wählen Sie den gewünschten Proxy Application Client, an Hand des Namens den Sie im vorherigen Schritt vergeben haben. Wählen Sie Plugins installieren. Klicken Sie Weiter. Wählen Sie die Plugins (z.B. File Plugin), die Sie installieren möchten. Klicken Sie Weiter. Nach der erfolgten Plugin Installation klicken Sie Schließen. Schritt 2.2: Standard Clients für Plugin (Optional) Um die Ansteuerung von Clients zu vereinfachen gibt es die Möglichkeit einen Standard Client für Plugins zu definieren. Hierdurch ermöglichen Sie 365 business Proxy Application automatisch den Client für das aktuelle Plugin auszuwählen. Microsoft Dynamics 365 Business Central öffnen. Proxy Application Einrichtung Seite öffnen. Wählen Sie Zugehörig. Wählen Sie Standard Clients. Wählen Sie das Plugin aus, für das Sie einen Standard Client festlegen möchten (z.B. File Plugin). Wählen Sie den Namen des Clients aus. Hinweis:Die Auswahl von Clients ist nur möglich, wenn auf dem Client bereits das ausgewählte Plugin installiert ist. Schritt 3: Implementierung File Plugin In dieser Kurzanleitung wird erklärt, wie Sie mit Hilfe von 365 business Proxy Application eine Datei in Ihrem lokalen Dateisystem schreiben. Im folgenden wird eine AL-Erweiterung für Microsoft Dynamics 365 Business Central vorgenommen. Diese Kurzanleitung geht dabei davon aus, dass das AL-Projekt bereits existiert und nur um die Integration mit 365 business Proxy Application erweitert werden muss. Schritt 3.1: Abhängigkeit zu 365 business Proxy Application Um auf die Funktionen in 365 business Proxy Application zugreifen zu können, muss Ihre AL-Erweiterung eine Abhängigkeit zu 365 business Proxy Application festlegen. Öffnen Sie das Application Manifest (app.json) in Visual Studio Code. Ergänzen Sie folgenden Eintrag im JSON-Token dependencies: [..], &quot;dependencies&quot;: [ { &quot;id&quot;: &quot;ae907ccb-e4a3-4594-9955-bd931031af8f&quot;, &quot;name&quot;: &quot;365 business Proxy Application&quot;, &quot;publisher&quot;: &quot;365 business development&quot;, &quot;version&quot;: &quot;18.0.0.0&quot; } ], [..] Führen Sie den Befehl AL: Download symbols aus. Schritt 3.2: AL Implementierung Im folgenden wird beispielhaft eine Datei geschrieben und anschließend wieder gelesen. In dieser Kurzanleitung wird angenommen, dass eine Datei mit dem Inhalt “Hello, World!” als test.txt im Pfad C:\\temp geschrieben werden soll. Eine detaillierte Dokumenation finden Sie in der Plugin Dokumenation. Öffnen Sie eine bestehende Codeunit oder erstellen Sie eine neuen AL-Datei, in der der AL-Code entwickelt werden kann. Fügen Sie folgenden AL-Code ein: procedure WriteAndReadHelloWorldFile() var proxyApp: Codeunit &quot;bdev.PRX Proxy Application&quot;; file: Codeunit &quot;Temp Blob&quot;; filePath: Text; sampleText: Label &#39;Hello, World!&#39;, Locked = true; begin // write &quot;Hello World&quot; into the text file CreateFileInTempBlob(file, sampleText); // set file path filePath := &#39;c:\\temp\\test.txt&#39;; // write file to filesystem if (not proxyApp.PostFile( filePath, file )) then Error(&#39;Failed to write file!\\Error: %1&#39;, GetLastErrorText()); Clear(file); // reset temp blob // read file from filesystem file := proxyApp.GetFile( filePath ); // compare content with expected content if (ReadContentFromTempBlob(file) &lt;&gt; sampleText)then Error(&#39;The file content does not matcht.&#39;) else Message(&#39;The file has been written.&#39;); end; local procedure CreateFileInTempBlob(var file: Codeunit &quot;Temp Blob&quot;, fileContent: Text) var stream: OutStream; begin file.CreateOutStream(stream, TextEncoding::UTF8); stream.WriteText(fileContent); end; local procedure ReadFile(filePath: Text): Text var proxyApp: Codeunit &quot;bdev.PRX Proxy Application&quot;; file: Codeunit &quot;Temp Blob&quot;; begin // invoke Proxy Application plugin file := proxyApp.GetFile( filePath ); exit(ReadContentFromTempBlob(file)); end; Führen Sie die Funktion WriteAndReadHelloWorldFile() aus. Siehe auch Proxy Application Architektur Was ist der Proxy Application Service? Installation Proxy Application Service Proxy Application Einrichtung","url":"https://docs.365businessdev.com/de-DE/365-business-proxy-application/get-started/","@type":"Article","headline":"quick-start","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 		<link type="application/atom+xml" rel="alternate" href="https://docs.365businessdev.com/de-DE/feed.xml" title="365 business development" />
@@ -510,7 +510,6 @@
 								
 									 
 									 
-									 
 									
 									
 									<li class="nav-item "><a href="/de-DE/365-business-eric/eric-whatis/">Was ist ERiC?</a></li>
@@ -518,10 +517,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -561,6 +560,7 @@
 											 
 									</ul>
 								
+									 
 									
 									
 									<li class="nav-item "><a href="/de-DE/365-business-eric/elster-tax-statements/">ELSTER Steuerdaten</a></li>
@@ -568,10 +568,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -619,10 +619,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -669,10 +669,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -719,60 +719,10 @@
 										
 											 
 											 
-											 
-											
-											
-										
 											
 											
 										
 											 
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-									</ul>
-								
-									
-									
-									<li class="nav-item "><a href="/de-DE/365-business-eric/company-information/">Firmendaten</a></li>
-									<ul style="margin-left: 10px;">
-										
-											 
-											 
-											 
-											
-											
-										
 											
 											
 										
@@ -819,10 +769,60 @@
 										
 											 
 											 
+											
+											
+										
 											 
 											
 											
 										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-eric/company-information/">Firmendaten</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											 
 											
 											
 										
@@ -869,10 +869,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -919,10 +919,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -1254,10 +1254,68 @@
 									
 									 
 									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-whatis/">Was ist Print Agent?</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+									</ul>
+								
+									
 									 
 									
 									
-									<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-whatis/">Was ist Print Agent?</a></li>
+									<li class="nav-item "><a href="/de-DE/365-business-print-agent/get-started/">Erste Schritte</a></li>
 									<ul style="margin-left: 10px;">
 										
 											 
@@ -1330,6 +1388,9 @@
 										
 											
 											
+										
+											
+											
 												<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config-printers/">Verwaltung von Druckern</a></li>
 											
 										
@@ -1346,13 +1407,13 @@
 										
 											
 											
-										
-											
-											
-										
-											
-											
 												<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config-databases/">Datenbanken</a></li>
+											
+										
+											
+											
+										
+											
 											
 										
 											
@@ -1375,72 +1436,13 @@
 											
 											
 										
-											
-											
-										
 											 
 											 
 											 
 									</ul>
 								
 									
-									
-									<li class="nav-item "><a href="/de-DE/365-business-print-agent/get-started/">Erste Schritte</a></li>
-									<ul style="margin-left: 10px;">
-										
-											 
-											 
-											 
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											 
-											 
-											 
-									</ul>
-								
+									 
 									
 									
 									<li class="nav-item "><a href="/de-DE/365-business-print-agent/setup/">Einrichtung</a></li>
@@ -1500,10 +1502,6 @@
 									</ul>
 								
 									
-									 
-									
-									 
-									
 									
 									<li class="nav-item "><a href="/de-DE/365-business-print-agent/printer/">Drucker</a></li>
 									<ul style="margin-left: 10px;">
@@ -1561,6 +1559,8 @@
 											 
 									</ul>
 								
+									
+									 
 									
 									
 									<li class="nav-item "><a href="/de-DE/365-business-print-agent/printer-configuration/">Druckereinstellung</a></li>
@@ -1902,8 +1902,6 @@
 									
 									 
 									
-									 
-									
 									
 									<li class="nav-item current"><a href="/de-DE/365-business-proxy-application/get-started/">Erste Schritte</a></li>
 									<ul style="margin-left: 10px;">
@@ -1978,6 +1976,8 @@
 									</ul>
 								
 									
+									 
+									
 									
 									<li class="nav-item "><a href="/de-DE/365-business-proxy-application/plugins/">Plugins</a></li>
 									<ul style="margin-left: 10px;">
@@ -1988,12 +1988,7 @@
 										
 											
 											
-												<li class="nav-item "><a href="/de-DE/365-business-proxy-application/plugins/file">Datei-Plugin</a></li>
-											
-										
-											
-											
-												<li class="nav-item "><a href="/de-DE/365-business-proxy-application/plugins/image">Bild-Plugin</a></li>
+												<li class="nav-item "><a href="/de-DE/365-business-proxy-application/plugins/file/">Datei-Plugin</a></li>
 											
 										
 											
@@ -2001,10 +1996,15 @@
 										
 											
 											
-												<li class="nav-item "><a href="/de-DE/365-business-proxy-application/plugins/print">Druck-Plugin</a></li>
+												<li class="nav-item "><a href="/de-DE/365-business-proxy-application/plugins/image/">Bild-Plugin</a></li>
 											
 										
 											
+											
+										
+											
+											
+												<li class="nav-item "><a href="/de-DE/365-business-proxy-application/plugins/print/">Druck-Plugin</a></li>
 											
 										
 											

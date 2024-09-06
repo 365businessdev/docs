@@ -14,23 +14,23 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<title> Print Plugin | 365 business development</title>
+		<title> File Plugin | 365 business development</title>
 
 		<!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>print-plugin | 365 business development</title>
+<title>file-plugin | 365 business development</title>
 <meta name="generator" content="Jekyll v3.9.0" />
-<meta property="og:title" content="print-plugin" />
+<meta property="og:title" content="file-plugin" />
 <meta name="author" content="365 business development" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="The Print plugin in 365 business Proxy Application offers the possibility to access images from the local file system, as well as available network drives or UNC paths. Good to know: Are you looking for a fully integrated connection to your local printer infrastructure in Microsoft Dynamics 365 Business Central? Do you want to connect regular printers or label printers and control them natively from Microsoft Dynamics 365 Business Central? Then 365 business Print Agent is the right solution for you! Find out more and book a free, no-obligation demonstration. The Print Plugin is one of the standard plugins of 365 business Proxy Application and can be installed directly via the Proxy Application Clients page. Functions Print (Print) success: Boolean := Print([clientId: Guid,] printerName: Text, file: Codeunit &quot;Temp Blob&quot;) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. printerName: Text Specifies the name of the printer. file: Codeunit &quot;Temp Blob&quot; Specifies the document to be printed (e.g. PDF file). Return Returns true if the print job was successfully created. Print Loakele file (Print) success: Boolean := Print([clientId: Guid,] printerName: Text, filePath: Text) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. printerName: Text Specifies the name of the printer. filePath: Text Specifies the path or UNC path for which the file list is to be retrieved. **Returns Returns true if the print job was successfully created." />
-<meta property="og:description" content="The Print plugin in 365 business Proxy Application offers the possibility to access images from the local file system, as well as available network drives or UNC paths. Good to know: Are you looking for a fully integrated connection to your local printer infrastructure in Microsoft Dynamics 365 Business Central? Do you want to connect regular printers or label printers and control them natively from Microsoft Dynamics 365 Business Central? Then 365 business Print Agent is the right solution for you! Find out more and book a free, no-obligation demonstration. The Print Plugin is one of the standard plugins of 365 business Proxy Application and can be installed directly via the Proxy Application Clients page. Functions Print (Print) success: Boolean := Print([clientId: Guid,] printerName: Text, file: Codeunit &quot;Temp Blob&quot;) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. printerName: Text Specifies the name of the printer. file: Codeunit &quot;Temp Blob&quot; Specifies the document to be printed (e.g. PDF file). Return Returns true if the print job was successfully created. Print Loakele file (Print) success: Boolean := Print([clientId: Guid,] printerName: Text, filePath: Text) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. printerName: Text Specifies the name of the printer. filePath: Text Specifies the path or UNC path for which the file list is to be retrieved. **Returns Returns true if the print job was successfully created." />
-<link rel="canonical" href="https://docs.365businessdev.com/en-US/365-business-proxy-application/plugins/print" />
-<meta property="og:url" content="https://docs.365businessdev.com/en-US/365-business-proxy-application/plugins/print" />
+<meta name="description" content="The File plugin in 365 business Proxy Application provides full access to the local file system, as well as available network drives or UNC paths. The File plugin is one of the standard plugins of 365 business Proxy Application and can be installed directly via the Proxy Application Clients page. Functions Call up file list (ListFiles) files: Record &quot;bdev.PRX File Item&quot; temporary := ListFiles([clientId: Guid,] filePath: Text [,fileFilter: Text]) ListFiles(var files: Record &quot;bdev.PRX File Item&quot; temporary, [clientId: Guid,] filePath: Text [,fileFilter: Text]) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. filePath: Text Specifies the path or UNC path for which the file list is to be retrieved. fileFilter: Text Specifies the filter (e.g. *.txt) to be applied to the listing. Return Returns the temporary table bdev.PRX File Item, which represents the file list. Check if file exists (FileExists) fileExists: Boolean := FileExists([clientId: Guid,] filePath: Text) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. filePath: Text Specifies the path or UNC path of the file. **Returns Returns true if the file exists. Read file (GetFile) file: Codeunit &quot;Temp Blob&quot; := GetFile([clientId: Guid,] filePath: Text) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. filePath: Text Specifies the path or UNC path of the file. Return Returns Codeunit &quot;Temp Blob&quot; with the content of the file. Write file (PostFile) success: Boolean := PostFile([clientId: Guid,] filePath: Text, file: Codeunit &quot;Temp Blob&quot;) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. filePath: Text Specifies the path or UNC path of the file. file: Codeunit &quot;Temp Blob&quot; The file to be written. **Returns Returns true if the file was written successfully. Delete file (DeleteFile) success: Boolean := DeleteFile([clientId: Guid,] filePath: Text) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. filePath: Text Specifies the path or UNC path of the file. **Returns Returns true if the file was successfully deleted. Move file (MoveFile) success: Boolean := MoveFile([clientId: Guid,] fromFilePath: Text, toFilePath: Text [, overwrite: Boolean]) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. fromFilePath: Text Specifies the path or UNC path of the file to be moved. toFilePath: Text Specifies the target path or UNC path to which the file is to be moved. overwrite: Boolean Specifies whether the file should be overwritten at the destination if it already exists. **Returns Returns true if the file was successfully moved. Copy file (CopyFile) success: Boolean := CopyFile([clientId: Guid,] fromFilePath: Text, toFilePath: Text [, overwrite: Boolean]) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. fromFilePath: Text Specifies the path or UNC path of the file to be copied. toFilePath: Text Specifies the target path or UNC path to which the file is to be copied. overwrite: Boolean Specifies whether the file should be overwritten at the destination if it already exists. **Returns Returns true if the file was copied successfully. Rename file (RenameFile) success: Boolean := RenameFile([clientId: Guid,] filePath: Text, newFilePath: Text) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. filePath: Text Specifies the path or UNC path of the file. newFilePath: Text Specifies the new name and path of the file. **Returns Returns true if the file has been successfully renamed. Check if directory exists (DirectoryExists) success: Boolean := DirectoryExists([clientId: Guid,] directoryPath: Text) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. directoryPath: Text Specifies the path or UNC path of the directory. **Returns Returns true if the directory exists. Create directory (CreateDirectory) success: Boolean := CreateDirectory([clientId: Guid,] directoryPath: Text) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. directoryPath: Text Specifies the path or UNC path of the directory to be created. **Returns Returns true if the directory has been created. Delete directory (DeleteDirectory) success: Boolean := DeleteDirectory([clientId: Guid,] directoryPath: Text [, recursive: Boolean]) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. directoryPath: Text Specifies the path or UNC path of the directory to be deleted. recursive: Boolean Specifies whether the directory is to be deleted recursively. **Returns Returns true if the directory has been deleted. Move directory (MoveDirectory) success: Boolean := MoveDirectory([clientId: Guid,] fromDirectoryPath: Text, toDirectoryPath: Text) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. fromDirectoryPath: Text Specifies the path or UNC path of the directory to be moved. toDirectoryPath: Text Specifies the path or UNC path to which the directory is to be moved. **Returns Returns true if the directory has been moved. Copy directory (CopyDirectory) success: Boolean := CopyDirectory([clientId: Guid,] fromDirectoryPath: Text, toDirectoryPath: Text) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. fromDirectoryPath: Text Specifies the path or UNC path of the directory to be copied. toDirectoryPath: Text Specifies the path or UNC path to which the directory is to be copied. **Returns Returns true if the directory has been copied." />
+<meta property="og:description" content="The File plugin in 365 business Proxy Application provides full access to the local file system, as well as available network drives or UNC paths. The File plugin is one of the standard plugins of 365 business Proxy Application and can be installed directly via the Proxy Application Clients page. Functions Call up file list (ListFiles) files: Record &quot;bdev.PRX File Item&quot; temporary := ListFiles([clientId: Guid,] filePath: Text [,fileFilter: Text]) ListFiles(var files: Record &quot;bdev.PRX File Item&quot; temporary, [clientId: Guid,] filePath: Text [,fileFilter: Text]) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. filePath: Text Specifies the path or UNC path for which the file list is to be retrieved. fileFilter: Text Specifies the filter (e.g. *.txt) to be applied to the listing. Return Returns the temporary table bdev.PRX File Item, which represents the file list. Check if file exists (FileExists) fileExists: Boolean := FileExists([clientId: Guid,] filePath: Text) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. filePath: Text Specifies the path or UNC path of the file. **Returns Returns true if the file exists. Read file (GetFile) file: Codeunit &quot;Temp Blob&quot; := GetFile([clientId: Guid,] filePath: Text) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. filePath: Text Specifies the path or UNC path of the file. Return Returns Codeunit &quot;Temp Blob&quot; with the content of the file. Write file (PostFile) success: Boolean := PostFile([clientId: Guid,] filePath: Text, file: Codeunit &quot;Temp Blob&quot;) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. filePath: Text Specifies the path or UNC path of the file. file: Codeunit &quot;Temp Blob&quot; The file to be written. **Returns Returns true if the file was written successfully. Delete file (DeleteFile) success: Boolean := DeleteFile([clientId: Guid,] filePath: Text) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. filePath: Text Specifies the path or UNC path of the file. **Returns Returns true if the file was successfully deleted. Move file (MoveFile) success: Boolean := MoveFile([clientId: Guid,] fromFilePath: Text, toFilePath: Text [, overwrite: Boolean]) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. fromFilePath: Text Specifies the path or UNC path of the file to be moved. toFilePath: Text Specifies the target path or UNC path to which the file is to be moved. overwrite: Boolean Specifies whether the file should be overwritten at the destination if it already exists. **Returns Returns true if the file was successfully moved. Copy file (CopyFile) success: Boolean := CopyFile([clientId: Guid,] fromFilePath: Text, toFilePath: Text [, overwrite: Boolean]) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. fromFilePath: Text Specifies the path or UNC path of the file to be copied. toFilePath: Text Specifies the target path or UNC path to which the file is to be copied. overwrite: Boolean Specifies whether the file should be overwritten at the destination if it already exists. **Returns Returns true if the file was copied successfully. Rename file (RenameFile) success: Boolean := RenameFile([clientId: Guid,] filePath: Text, newFilePath: Text) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. filePath: Text Specifies the path or UNC path of the file. newFilePath: Text Specifies the new name and path of the file. **Returns Returns true if the file has been successfully renamed. Check if directory exists (DirectoryExists) success: Boolean := DirectoryExists([clientId: Guid,] directoryPath: Text) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. directoryPath: Text Specifies the path or UNC path of the directory. **Returns Returns true if the directory exists. Create directory (CreateDirectory) success: Boolean := CreateDirectory([clientId: Guid,] directoryPath: Text) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. directoryPath: Text Specifies the path or UNC path of the directory to be created. **Returns Returns true if the directory has been created. Delete directory (DeleteDirectory) success: Boolean := DeleteDirectory([clientId: Guid,] directoryPath: Text [, recursive: Boolean]) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. directoryPath: Text Specifies the path or UNC path of the directory to be deleted. recursive: Boolean Specifies whether the directory is to be deleted recursively. **Returns Returns true if the directory has been deleted. Move directory (MoveDirectory) success: Boolean := MoveDirectory([clientId: Guid,] fromDirectoryPath: Text, toDirectoryPath: Text) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. fromDirectoryPath: Text Specifies the path or UNC path of the directory to be moved. toDirectoryPath: Text Specifies the path or UNC path to which the directory is to be moved. **Returns Returns true if the directory has been moved. Copy directory (CopyDirectory) success: Boolean := CopyDirectory([clientId: Guid,] fromDirectoryPath: Text, toDirectoryPath: Text) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. fromDirectoryPath: Text Specifies the path or UNC path of the directory to be copied. toDirectoryPath: Text Specifies the path or UNC path to which the directory is to be copied. **Returns Returns true if the directory has been copied." />
+<link rel="canonical" href="https://docs.365businessdev.com/en-US/365-business-proxy-application/plugins/file/" />
+<meta property="og:url" content="https://docs.365businessdev.com/en-US/365-business-proxy-application/plugins/file/" />
 <meta property="og:site_name" content="365 business development" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-09-06T15:40:30+00:00" />
+<meta property="article:published_time" content="2024-09-06T15:48:35+00:00" />
 <script type="application/ld+json">
-{"url":"https://docs.365businessdev.com/en-US/365-business-proxy-application/plugins/print","author":{"@type":"Person","name":"365 business development"},"@type":"Article","headline":"print-plugin","dateModified":"2024-09-06T15:40:30+00:00","datePublished":"2024-09-06T15:40:30+00:00","description":"The Print plugin in 365 business Proxy Application offers the possibility to access images from the local file system, as well as available network drives or UNC paths. Good to know: Are you looking for a fully integrated connection to your local printer infrastructure in Microsoft Dynamics 365 Business Central? Do you want to connect regular printers or label printers and control them natively from Microsoft Dynamics 365 Business Central? Then 365 business Print Agent is the right solution for you! Find out more and book a free, no-obligation demonstration. The Print Plugin is one of the standard plugins of 365 business Proxy Application and can be installed directly via the Proxy Application Clients page. Functions Print (Print) success: Boolean := Print([clientId: Guid,] printerName: Text, file: Codeunit &quot;Temp Blob&quot;) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. printerName: Text Specifies the name of the printer. file: Codeunit &quot;Temp Blob&quot; Specifies the document to be printed (e.g. PDF file). Return Returns true if the print job was successfully created. Print Loakele file (Print) success: Boolean := Print([clientId: Guid,] printerName: Text, filePath: Text) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. printerName: Text Specifies the name of the printer. filePath: Text Specifies the path or UNC path for which the file list is to be retrieved. **Returns Returns true if the print job was successfully created.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.365businessdev.com/en-US/siteicon.png"},"name":"365 business development"},"@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"365 business development"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.365businessdev.com/en-US/siteicon.png"},"name":"365 business development"},"description":"The File plugin in 365 business Proxy Application provides full access to the local file system, as well as available network drives or UNC paths. The File plugin is one of the standard plugins of 365 business Proxy Application and can be installed directly via the Proxy Application Clients page. Functions Call up file list (ListFiles) files: Record &quot;bdev.PRX File Item&quot; temporary := ListFiles([clientId: Guid,] filePath: Text [,fileFilter: Text]) ListFiles(var files: Record &quot;bdev.PRX File Item&quot; temporary, [clientId: Guid,] filePath: Text [,fileFilter: Text]) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. filePath: Text Specifies the path or UNC path for which the file list is to be retrieved. fileFilter: Text Specifies the filter (e.g. *.txt) to be applied to the listing. Return Returns the temporary table bdev.PRX File Item, which represents the file list. Check if file exists (FileExists) fileExists: Boolean := FileExists([clientId: Guid,] filePath: Text) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. filePath: Text Specifies the path or UNC path of the file. **Returns Returns true if the file exists. Read file (GetFile) file: Codeunit &quot;Temp Blob&quot; := GetFile([clientId: Guid,] filePath: Text) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. filePath: Text Specifies the path or UNC path of the file. Return Returns Codeunit &quot;Temp Blob&quot; with the content of the file. Write file (PostFile) success: Boolean := PostFile([clientId: Guid,] filePath: Text, file: Codeunit &quot;Temp Blob&quot;) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. filePath: Text Specifies the path or UNC path of the file. file: Codeunit &quot;Temp Blob&quot; The file to be written. **Returns Returns true if the file was written successfully. Delete file (DeleteFile) success: Boolean := DeleteFile([clientId: Guid,] filePath: Text) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. filePath: Text Specifies the path or UNC path of the file. **Returns Returns true if the file was successfully deleted. Move file (MoveFile) success: Boolean := MoveFile([clientId: Guid,] fromFilePath: Text, toFilePath: Text [, overwrite: Boolean]) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. fromFilePath: Text Specifies the path or UNC path of the file to be moved. toFilePath: Text Specifies the target path or UNC path to which the file is to be moved. overwrite: Boolean Specifies whether the file should be overwritten at the destination if it already exists. **Returns Returns true if the file was successfully moved. Copy file (CopyFile) success: Boolean := CopyFile([clientId: Guid,] fromFilePath: Text, toFilePath: Text [, overwrite: Boolean]) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. fromFilePath: Text Specifies the path or UNC path of the file to be copied. toFilePath: Text Specifies the target path or UNC path to which the file is to be copied. overwrite: Boolean Specifies whether the file should be overwritten at the destination if it already exists. **Returns Returns true if the file was copied successfully. Rename file (RenameFile) success: Boolean := RenameFile([clientId: Guid,] filePath: Text, newFilePath: Text) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. filePath: Text Specifies the path or UNC path of the file. newFilePath: Text Specifies the new name and path of the file. **Returns Returns true if the file has been successfully renamed. Check if directory exists (DirectoryExists) success: Boolean := DirectoryExists([clientId: Guid,] directoryPath: Text) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. directoryPath: Text Specifies the path or UNC path of the directory. **Returns Returns true if the directory exists. Create directory (CreateDirectory) success: Boolean := CreateDirectory([clientId: Guid,] directoryPath: Text) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. directoryPath: Text Specifies the path or UNC path of the directory to be created. **Returns Returns true if the directory has been created. Delete directory (DeleteDirectory) success: Boolean := DeleteDirectory([clientId: Guid,] directoryPath: Text [, recursive: Boolean]) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. directoryPath: Text Specifies the path or UNC path of the directory to be deleted. recursive: Boolean Specifies whether the directory is to be deleted recursively. **Returns Returns true if the directory has been deleted. Move directory (MoveDirectory) success: Boolean := MoveDirectory([clientId: Guid,] fromDirectoryPath: Text, toDirectoryPath: Text) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. fromDirectoryPath: Text Specifies the path or UNC path of the directory to be moved. toDirectoryPath: Text Specifies the path or UNC path to which the directory is to be moved. **Returns Returns true if the directory has been moved. Copy directory (CopyDirectory) success: Boolean := CopyDirectory([clientId: Guid,] fromDirectoryPath: Text, toDirectoryPath: Text) Parameter clientId: Guid (Optional) Specifies the ID of the proxy application client on which the operation is to be executed. fromDirectoryPath: Text Specifies the path or UNC path of the directory to be copied. toDirectoryPath: Text Specifies the path or UNC path to which the directory is to be copied. **Returns Returns true if the directory has been copied.","url":"https://docs.365businessdev.com/en-US/365-business-proxy-application/plugins/file/","@type":"Article","headline":"file-plugin","dateModified":"2024-09-06T15:48:35+00:00","datePublished":"2024-09-06T15:48:35+00:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 		<link type="application/atom+xml" rel="alternate" href="https://docs.365businessdev.com/en-US/feed.xml" title="365 business development" />
@@ -54,11 +54,11 @@
 			<div style="float: left; width: 30%; margin-right: 0px; box-sizing: border-box; direction: rtl;">
 				
 								
-				<a style="color: whitesmoke; padding-right: 10px;" href="/de-DE/365-business-proxy-application/plugins/print"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGzSURBVHjaYvTxcWb4+53h3z8GZpZff/79+v3n/7/fDAz/GHAAgABi+f37e3FxOZD1Dwz+/v3z9y+E/AMFv3//+Qumfv9et241QACxMDExAVWfOHkJJAEW/gUEP0EQDn78+AHE/gFOQJUAAcQiy8Ag8O+fLFj1n1+/QDp+/gQioK7fP378+vkDqOH39x9A/RJ/gE5lAAhAYhzcAACCQBDkgRXRjP034R0IaDTZTFZn0DItot37S94KLOINerEcI7aKHAHE8v/3r/9//zIA1f36/R+o4tevf1ANYNVA9P07RD9IJQMDQACxADHD3z8Ig4GMHz+AqqHagKp//fwLVA0U//v7LwMDQACx/LZiYFD7/5/53/+///79BqK/EMZ/UPACSYa/v/8DyX9A0oTxx2EGgABi+a/H8F/m339BoCoQ+g8kgRaCQvgPJJiBYmAuw39hxn+uDAABxMLwi+E/0PusRkwMvxhBGoDkH4b/v/+D2EDyz///QB1/QLb8+sP0lQEggFh+vGXYM2/SP6A2Zoaf30Ex/J+PgekHwz9gQDAz/P0FYrAyMfz7wcDAzPDtFwNAgAEAd3SIyRitX1gAAAAASUVORK5CYII=" width="16" height="11" style="width: 16px; height: 11px; margin-top: 10px;"></a>
+				<a style="color: whitesmoke; padding-right: 10px;" href="/de-DE/365-business-proxy-application/plugins/file/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGzSURBVHjaYvTxcWb4+53h3z8GZpZff/79+v3n/7/fDAz/GHAAgABi+f37e3FxOZD1Dwz+/v3z9y+E/AMFv3//+Qumfv9et241QACxMDExAVWfOHkJJAEW/gUEP0EQDn78+AHE/gFOQJUAAcQiy8Ag8O+fLFj1n1+/QDp+/gQioK7fP378+vkDqOH39x9A/RJ/gE5lAAhAYhzcAACCQBDkgRXRjP034R0IaDTZTFZn0DItot37S94KLOINerEcI7aKHAHE8v/3r/9//zIA1f36/R+o4tevf1ANYNVA9P07RD9IJQMDQACxADHD3z8Ig4GMHz+AqqHagKp//fwLVA0U//v7LwMDQACx/LZiYFD7/5/53/+///79BqK/EMZ/UPACSYa/v/8DyX9A0oTxx2EGgABi+a/H8F/m339BoCoQ+g8kgRaCQvgPJJiBYmAuw39hxn+uDAABxMLwi+E/0PusRkwMvxhBGoDkH4b/v/+D2EDyz///QB1/QLb8+sP0lQEggFh+vGXYM2/SP6A2Zoaf30Ex/J+PgekHwz9gQDAz/P0FYrAyMfz7wcDAzPDtFwNAgAEAd3SIyRitX1gAAAAASUVORK5CYII=" width="16" height="11" style="width: 16px; height: 11px; margin-top: 10px;"></a>
 				
 				
 								
-				<a style="color: whitesmoke; padding-right: 10px;" href="/en-US/365-business-proxy-application/plugins/print"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHzSURBVHjaYkxOP8IAB//+Mfz7w8Dwi4HhP5CcJb/n/7evb16/APL/gRFQDiAAw3JuAgAIBEDQ/iswEERjGzBQLEru97ll0g0+3HvqMn1SpqlqGsZMsZsIe0SICA5gt5a/AGIEarCPtFh+6N/ffwxA9OvP/7//QYwff/6fZahmePeB4dNHhi+fGb59Y4zyvHHmCEAAAW3YDzQYaJJ93a+vX79aVf58//69fvEPlpIfnz59+vDhw7t37968efP3b/SXL59OnjwIEEAsDP+YgY53b2b89++/awvLn98MDi2cVxl+/vl6mituCtBghi9f/v/48e/XL86krj9XzwEEEENy8g6gu22rfn78+NGs5Ofr16+ZC58+fvyYwX8rxOxXr169fPny+fPn1//93bJlBUAAsQADZMEBxj9/GBxb2P/9+S/R8u3vzxuyaX8ZHv3j8/YGms3w8ycQARmi2eE37t4ACCDGR4/uSkrKAS35B3TT////wADOgLOBIaXIyjBlwxKAAGKRXjCB0SOEaeu+/y9fMnz4AHQxCP348R/o+l+//sMZQBNLEvif3AcIIMZbty7Ly6t9ZmXl+fXj/38GoHH/UcGfP79//BBiYHjy9+8/oUkNAAHEwt1V/vI/KBY/QSISFqM/GBg+MzB8A6PfYC5EFiDAABqgW776MP0rAAAAAElFTkSuQmCC" width="16" height="11" style="width: 16px; height: 11px; margin-top: 10px;"></a>
+				<a style="color: whitesmoke; padding-right: 10px;" href="/en-US/365-business-proxy-application/plugins/file/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHzSURBVHjaYkxOP8IAB//+Mfz7w8Dwi4HhP5CcJb/n/7evb16/APL/gRFQDiAAw3JuAgAIBEDQ/iswEERjGzBQLEru97ll0g0+3HvqMn1SpqlqGsZMsZsIe0SICA5gt5a/AGIEarCPtFh+6N/ffwxA9OvP/7//QYwff/6fZahmePeB4dNHhi+fGb59Y4zyvHHmCEAAAW3YDzQYaJJ93a+vX79aVf58//69fvEPlpIfnz59+vDhw7t37968efP3b/SXL59OnjwIEEAsDP+YgY53b2b89++/awvLn98MDi2cVxl+/vl6mituCtBghi9f/v/48e/XL86krj9XzwEEEENy8g6gu22rfn78+NGs5Ofr16+ZC58+fvyYwX8rxOxXr169fPny+fPn1//93bJlBUAAsQADZMEBxj9/GBxb2P/9+S/R8u3vzxuyaX8ZHv3j8/YGms3w8ycQARmi2eE37t4ACCDGR4/uSkrKAS35B3TT////wADOgLOBIaXIyjBlwxKAAGKRXjCB0SOEaeu+/y9fMnz4AHQxCP348R/o+l+//sMZQBNLEvif3AcIIMZbty7Ly6t9ZmXl+fXj/38GoHH/UcGfP79//BBiYHjy9+8/oUkNAAHEwt1V/vI/KBY/QSISFqM/GBg+MzB8A6PfYC5EFiDAABqgW776MP0rAAAAAElFTkSuQmCC" width="16" height="11" style="width: 16px; height: 11px; margin-top: 10px;"></a>
 				
 				
 			</div>
@@ -512,7 +512,6 @@
 								
 									 
 									 
-									 
 									
 									
 									<li class="nav-item "><a href="/en-US/365-business-eric/eric-whatis/">What is ERiC?</a></li>
@@ -520,10 +519,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -563,6 +562,7 @@
 											 
 									</ul>
 								
+									 
 									
 									
 									<li class="nav-item "><a href="/en-US/365-business-eric/elster-tax-statements/">ELSTER Tax Statements</a></li>
@@ -570,10 +570,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -621,10 +621,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -671,10 +671,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -721,60 +721,10 @@
 										
 											 
 											 
-											 
-											
-											
-										
 											
 											
 										
 											 
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-									</ul>
-								
-									
-									
-									<li class="nav-item "><a href="/en-US/365-business-eric/company-information/">Company Information</a></li>
-									<ul style="margin-left: 10px;">
-										
-											 
-											 
-											 
-											
-											
-										
 											
 											
 										
@@ -821,10 +771,60 @@
 										
 											 
 											 
+											
+											
+										
 											 
 											
 											
 										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-eric/company-information/">Company Information</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											 
 											
 											
 										
@@ -871,10 +871,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -921,10 +921,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -1256,10 +1256,68 @@
 									
 									 
 									
+									
+									<li class="nav-item "><a href="/en-US/365-business-print-agent/print-agent-whatis/">What is Print Agent?</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+									</ul>
+								
+									
 									 
 									
 									
-									<li class="nav-item "><a href="/en-US/365-business-print-agent/print-agent-whatis/">What is Print Agent?</a></li>
+									<li class="nav-item "><a href="/en-US/365-business-print-agent/get-started/">Get Started</a></li>
 									<ul style="margin-left: 10px;">
 										
 											 
@@ -1332,6 +1390,9 @@
 										
 											
 											
+										
+											
+											
 												<li class="nav-item "><a href="/en-US/365-business-print-agent/print-agent-config-printers/">Printer Management</a></li>
 											
 										
@@ -1348,13 +1409,13 @@
 										
 											
 											
-										
-											
-											
-										
-											
-											
 												<li class="nav-item "><a href="/en-US/365-business-print-agent/print-agent-config-databases/">Databases</a></li>
+											
+										
+											
+											
+										
+											
 											
 										
 											
@@ -1377,72 +1438,13 @@
 											
 											
 										
-											
-											
-										
 											 
 											 
 											 
 									</ul>
 								
 									
-									
-									<li class="nav-item "><a href="/en-US/365-business-print-agent/get-started/">Get Started</a></li>
-									<ul style="margin-left: 10px;">
-										
-											 
-											 
-											 
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											 
-											 
-											 
-									</ul>
-								
+									 
 									
 									
 									<li class="nav-item "><a href="/en-US/365-business-print-agent/setup/">Setup</a></li>
@@ -1502,10 +1504,6 @@
 									</ul>
 								
 									
-									 
-									
-									 
-									
 									
 									<li class="nav-item "><a href="/en-US/365-business-print-agent/printer/">Printer</a></li>
 									<ul style="margin-left: 10px;">
@@ -1563,6 +1561,8 @@
 											 
 									</ul>
 								
+									
+									 
 									
 									
 									<li class="nav-item "><a href="/en-US/365-business-print-agent/printer-configuration/">Printer Configuration</a></li>
@@ -1904,8 +1904,6 @@
 									
 									 
 									
-									 
-									
 									
 									<li class="nav-item "><a href="/en-US/365-business-proxy-application/get-started/">Get Started</a></li>
 									<ul style="margin-left: 10px;">
@@ -1980,6 +1978,8 @@
 									</ul>
 								
 									
+									 
+									
 									
 									<li class="nav-item "><a href="/en-US/365-business-proxy-application/plugins/">Plugins</a></li>
 									<ul style="margin-left: 10px;">
@@ -1990,12 +1990,7 @@
 										
 											
 											
-												<li class="nav-item "><a href="/en-US/365-business-proxy-application/plugins/file">File Plugin</a></li>
-											
-										
-											
-											
-												<li class="nav-item "><a href="/en-US/365-business-proxy-application/plugins/image">Image Plugin</a></li>
+												<li class="nav-item current"><a href="/en-US/365-business-proxy-application/plugins/file/">File Plugin</a></li>
 											
 										
 											
@@ -2003,10 +1998,15 @@
 										
 											
 											
-												<li class="nav-item current"><a href="/en-US/365-business-proxy-application/plugins/print">Print Plugin</a></li>
+												<li class="nav-item "><a href="/en-US/365-business-proxy-application/plugins/image/">Image Plugin</a></li>
 											
 										
 											
+											
+										
+											
+											
+												<li class="nav-item "><a href="/en-US/365-business-proxy-application/plugins/print/">Print Plugin</a></li>
 											
 										
 											
@@ -2137,24 +2137,22 @@
 		<section class="main">
 			<div class="page-header">
 				<h2>365 business Proxy Application</h2>
-				<h3>Print Plugin</h3>
+				<h3>File Plugin</h3>
 			</div>
 			<article class="content">
 				
-<p>The <strong>Print</strong> plugin in 365 business Proxy Application offers the possibility to access images from the local file system, as well as available network drives or UNC paths.</p>
+<p>The <strong>File</strong> plugin in 365 business Proxy Application provides full access to the local file system, as well as available network drives or UNC paths.</p>
 
-<div class="alert alert-notice">
-    <i class="fa-solid fa-notes"></i> <strong>Good to know:</strong> Are you looking for a fully integrated connection to your local printer infrastructure in Microsoft Dynamics 365 Business Central? Do you want to connect regular printers or label printers and control them natively from Microsoft Dynamics 365 Business Central?
-    <br />Then <a href="https://365businessdev.com/produkte-loesungen/365-business-print-agent/" target="_blank">365 business Print Agent</a> is the right solution for you! Find out more and <a href="https://calendly.com/365businessdev" target="_blank">book a free, no-obligation demonstration</a>.
-</div>
-
-<p>The Print Plugin is one of the standard plugins of 365 business Proxy Application and can be installed directly via the <strong>Proxy Application Clients</strong> page.</p>
+<p>The File plugin is one of the standard plugins of 365 business Proxy Application and can be installed directly via the <strong>Proxy Application Clients</strong> page.</p>
 
 <h2 id="functions">Functions</h2>
 
-<h3 id="print-print">Print (<em>Print</em>)</h3>
+<h3 id="call-up-file-list-listfiles">Call up file list (<em>ListFiles</em>)</h3>
 
-<pre><code class="language-al">success: Boolean := Print([clientId: Guid,] printerName: Text, file: Codeunit "Temp Blob")
+<pre><code class="language-al">files: Record "bdev.PRX File Item" temporary := ListFiles([clientId: Guid,] filePath: Text [,fileFilter: Text])
+</code></pre>
+
+<pre><code class="language-al">ListFiles(var files: Record "bdev.PRX File Item" temporary, [clientId: Guid,] filePath: Text [,fileFilter: Text])
 </code></pre>
 
 <p><strong>Parameter</strong></p>
@@ -2162,36 +2160,237 @@
 <ul>
   <li><code class="language-plaintext highlighter-rouge">clientId: Guid</code> (Optional)<br />
 Specifies the ID of the proxy application client on which the operation is to be executed.</li>
-  <li><code class="language-plaintext highlighter-rouge">printerName: Text</code><br />
-Specifies the name of the printer.</li>
-  <li><code class="language-plaintext highlighter-rouge">file: Codeunit "Temp Blob"</code><br />
-Specifies the document to be printed (e.g. PDF file).</li>
+  <li><code class="language-plaintext highlighter-rouge">filePath: Text</code><br />
+Specifies the path or UNC path for which the file list is to be retrieved.</li>
+  <li><code class="language-plaintext highlighter-rouge">fileFilter: Text</code><br />
+Specifies the filter (e.g. <code class="language-plaintext highlighter-rouge">*.txt</code>) to be applied to the listing.</li>
 </ul>
 
 <p><strong>Return</strong></p>
 
-<p>Returns <code class="language-plaintext highlighter-rouge">true</code> if the print job was successfully created.</p>
+<p>Returns the temporary table <code class="language-plaintext highlighter-rouge">bdev.PRX File Item</code>, which represents the file list.</p>
 
-<h3 id="print-loakele-file-print">Print Loakele file (<em>Print</em>)</h3>
+<h3 id="check-if-file-exists-fileexists">Check if file exists (<em>FileExists</em>)</h3>
 
-<pre><code class="language-al">success: Boolean := Print([clientId: Guid,] printerName: Text, filePath: Text)
+<pre><code class="language-al">fileExists: Boolean := FileExists([clientId: Guid,] filePath: Text)
 </code></pre>
-
 <p><strong>Parameter</strong></p>
 
 <ul>
   <li><code class="language-plaintext highlighter-rouge">clientId: Guid</code> (Optional)<br />
 Specifies the ID of the proxy application client on which the operation is to be executed.</li>
-  <li><code class="language-plaintext highlighter-rouge">printerName: Text</code><br />
-Specifies the name of the printer.</li>
   <li><code class="language-plaintext highlighter-rouge">filePath: Text</code><br />
-Specifies the path or UNC path for which the file list is to be retrieved.</li>
+Specifies the path or UNC path of the file.</li>
 </ul>
 
 <p>**Returns</p>
 
-<p>Returns <code class="language-plaintext highlighter-rouge">true</code> if the print job was successfully created.</p>
+<p>Returns <code class="language-plaintext highlighter-rouge">true</code> if the file exists.</p>
 
+<h3 id="read-file-getfile">Read file (<em>GetFile</em>)</h3>
+
+<pre><code class="language-al">file: Codeunit "Temp Blob" := GetFile([clientId: Guid,] filePath: Text)
+</code></pre>
+<p><strong>Parameter</strong></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">clientId: Guid</code> (Optional)<br />
+Specifies the ID of the proxy application client on which the operation is to be executed.</li>
+  <li><code class="language-plaintext highlighter-rouge">filePath: Text</code><br />
+Specifies the path or UNC path of the file.</li>
+</ul>
+
+<p><strong>Return</strong></p>
+
+<p>Returns <code class="language-plaintext highlighter-rouge">Codeunit "Temp Blob"</code> with the content of the file.</p>
+
+<h3 id="write-file-postfile">Write file (<em>PostFile</em>)</h3>
+
+<pre><code class="language-al">success: Boolean := PostFile([clientId: Guid,] filePath: Text, file: Codeunit "Temp Blob")
+</code></pre>
+<p><strong>Parameter</strong></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">clientId: Guid</code> (Optional)<br />
+Specifies the ID of the proxy application client on which the operation is to be executed.</li>
+  <li><code class="language-plaintext highlighter-rouge">filePath: Text</code><br />
+Specifies the path or UNC path of the file.</li>
+  <li><code class="language-plaintext highlighter-rouge">file: Codeunit "Temp Blob"</code><br />
+The file to be written.</li>
+</ul>
+
+<p>**Returns</p>
+
+<p>Returns <code class="language-plaintext highlighter-rouge">true</code> if the file was written successfully.</p>
+
+<h3 id="delete-file-deletefile">Delete file (<em>DeleteFile</em>)</h3>
+
+<pre><code class="language-al">success: Boolean := DeleteFile([clientId: Guid,] filePath: Text)
+</code></pre>
+<p><strong>Parameter</strong></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">clientId: Guid</code> (Optional)<br />
+Specifies the ID of the proxy application client on which the operation is to be executed.</li>
+  <li><code class="language-plaintext highlighter-rouge">filePath: Text</code><br />
+Specifies the path or UNC path of the file.</li>
+</ul>
+
+<p>**Returns</p>
+
+<p>Returns <code class="language-plaintext highlighter-rouge">true</code> if the file was successfully deleted.</p>
+
+<h3 id="move-file-movefile">Move file (<em>MoveFile</em>)</h3>
+
+<pre><code class="language-al">success: Boolean := MoveFile([clientId: Guid,] fromFilePath: Text, toFilePath: Text [, overwrite: Boolean])
+</code></pre>
+<p><strong>Parameter</strong></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">clientId: Guid</code> (Optional)<br />
+Specifies the ID of the proxy application client on which the operation is to be executed.</li>
+  <li><code class="language-plaintext highlighter-rouge">fromFilePath: Text</code><br />
+Specifies the path or UNC path of the file to be moved.</li>
+  <li><code class="language-plaintext highlighter-rouge">toFilePath: Text</code><br />
+Specifies the target path or UNC path to which the file is to be moved.</li>
+  <li><code class="language-plaintext highlighter-rouge">overwrite: Boolean</code><br />
+Specifies whether the file should be overwritten at the destination if it already exists.</li>
+</ul>
+
+<p>**Returns</p>
+
+<p>Returns <code class="language-plaintext highlighter-rouge">true</code> if the file was successfully moved.</p>
+
+<h3 id="copy-file-copyfile">Copy file (<em>CopyFile</em>)</h3>
+
+<pre><code class="language-al">success: Boolean := CopyFile([clientId: Guid,] fromFilePath: Text, toFilePath: Text [, overwrite: Boolean])
+</code></pre>
+<p><strong>Parameter</strong></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">clientId: Guid</code> (Optional)<br />
+Specifies the ID of the proxy application client on which the operation is to be executed.</li>
+  <li><code class="language-plaintext highlighter-rouge">fromFilePath: Text</code><br />
+Specifies the path or UNC path of the file to be copied.</li>
+  <li><code class="language-plaintext highlighter-rouge">toFilePath: Text</code><br />
+Specifies the target path or UNC path to which the file is to be copied.</li>
+  <li><code class="language-plaintext highlighter-rouge">overwrite: Boolean</code><br />
+Specifies whether the file should be overwritten at the destination if it already exists.</li>
+</ul>
+
+<p>**Returns</p>
+
+<p>Returns <code class="language-plaintext highlighter-rouge">true</code> if the file was copied successfully.</p>
+
+<h3 id="rename-file-renamefile">Rename file (<em>RenameFile</em>)</h3>
+
+<pre><code class="language-al">success: Boolean := RenameFile([clientId: Guid,] filePath: Text, newFilePath: Text)
+</code></pre>
+<p><strong>Parameter</strong></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">clientId: Guid</code> (Optional)<br />
+Specifies the ID of the proxy application client on which the operation is to be executed.</li>
+  <li><code class="language-plaintext highlighter-rouge">filePath: Text</code><br />
+Specifies the path or UNC path of the file.</li>
+  <li><code class="language-plaintext highlighter-rouge">newFilePath: Text</code><br />
+Specifies the new name and path of the file.</li>
+</ul>
+
+<p>**Returns</p>
+
+<p>Returns <code class="language-plaintext highlighter-rouge">true</code> if the file has been successfully renamed.</p>
+
+<h3 id="check-if-directory-exists-directoryexists">Check if directory exists (<em>DirectoryExists</em>)</h3>
+
+<pre><code class="language-al">success: Boolean := DirectoryExists([clientId: Guid,] directoryPath: Text)
+</code></pre>
+<p><strong>Parameter</strong></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">clientId: Guid</code> (Optional)<br />
+Specifies the ID of the proxy application client on which the operation is to be executed.</li>
+  <li><code class="language-plaintext highlighter-rouge">directoryPath: Text</code><br />
+Specifies the path or UNC path of the directory.</li>
+</ul>
+
+<p>**Returns</p>
+
+<p>Returns <code class="language-plaintext highlighter-rouge">true</code> if the directory exists.</p>
+
+<h3 id="create-directory-createdirectory">Create directory (<em>CreateDirectory</em>)</h3>
+
+<pre><code class="language-al">success: Boolean := CreateDirectory([clientId: Guid,] directoryPath: Text)
+</code></pre>
+<p><strong>Parameter</strong></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">clientId: Guid</code> (Optional)<br />
+Specifies the ID of the proxy application client on which the operation is to be executed.</li>
+  <li><code class="language-plaintext highlighter-rouge">directoryPath: Text</code><br />
+Specifies the path or UNC path of the directory to be created.</li>
+</ul>
+
+<p>**Returns</p>
+
+<p>Returns <code class="language-plaintext highlighter-rouge">true</code> if the directory has been created.</p>
+
+<h3 id="delete-directory-deletedirectory">Delete directory (<em>DeleteDirectory</em>)</h3>
+
+<pre><code class="language-al">success: Boolean := DeleteDirectory([clientId: Guid,] directoryPath: Text [, recursive: Boolean])
+</code></pre>
+<p><strong>Parameter</strong></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">clientId: Guid</code> (Optional)<br />
+Specifies the ID of the proxy application client on which the operation is to be executed.</li>
+  <li><code class="language-plaintext highlighter-rouge">directoryPath: Text</code><br />
+Specifies the path or UNC path of the directory to be deleted.</li>
+  <li><code class="language-plaintext highlighter-rouge">recursive: Boolean</code><br />
+Specifies whether the directory is to be deleted recursively.</li>
+</ul>
+
+<p>**Returns</p>
+
+<p>Returns <code class="language-plaintext highlighter-rouge">true</code> if the directory has been deleted.</p>
+
+<h3 id="move-directory-movedirectory">Move directory (<em>MoveDirectory</em>)</h3>
+
+<pre><code class="language-al">success: Boolean := MoveDirectory([clientId: Guid,] fromDirectoryPath: Text, toDirectoryPath: Text)
+</code></pre>
+<p><strong>Parameter</strong></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">clientId: Guid</code> (Optional)<br />
+Specifies the ID of the proxy application client on which the operation is to be executed.</li>
+  <li><code class="language-plaintext highlighter-rouge">fromDirectoryPath: Text</code><br />
+Specifies the path or UNC path of the directory to be moved.</li>
+  <li><code class="language-plaintext highlighter-rouge">toDirectoryPath: Text</code><br />
+Specifies the path or UNC path to which the directory is to be moved.</li>
+</ul>
+
+<p>**Returns</p>
+
+<p>Returns <code class="language-plaintext highlighter-rouge">true</code> if the directory has been moved.</p>
+
+<h3 id="copy-directory-copydirectory">Copy directory (<em>CopyDirectory</em>)</h3>
+
+<pre><code class="language-al">success: Boolean := CopyDirectory([clientId: Guid,] fromDirectoryPath: Text, toDirectoryPath: Text)
+</code></pre>
+<p><strong>Parameter</strong></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">clientId: Guid</code> (Optional)<br />
+Specifies the ID of the proxy application client on which the operation is to be executed.</li>
+  <li><code class="language-plaintext highlighter-rouge">fromDirectoryPath: Text</code><br />
+Specifies the path or UNC path of the directory to be copied.</li>
+  <li><code class="language-plaintext highlighter-rouge">toDirectoryPath: Text</code><br />
+Specifies the path or UNC path to which the directory is to be copied.</li>
+</ul>
+
+<p>**Returns</p>
+
+<p>Returns <code class="language-plaintext highlighter-rouge">true</code> if the directory has been copied.</p>
 
 			</article>
 		</section>
