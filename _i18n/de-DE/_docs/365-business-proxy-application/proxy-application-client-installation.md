@@ -34,7 +34,7 @@ Bitte [lesen Sie den Artikel](../proxy-application-whatis) um herauszufinden, wo
  6. *(Optional)* Geben Sie einen Domänenbenutzer und das Kennwort ein, mit dem 365 business Proxy Application Client betrieben werden soll.<br>
     ![Proxy Application Client Installation - Anmeldung](/assets/images/365-business-proxy-application/bd510f87-83cc-471f-a2e8-bb1ef9dc428a.png)
     <div class="alert alert-info">
-    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong> Wenn Sie keinen Benutzer angeben, wird 365 business Proxy Application Client im Kontext **Lokales System** ausgeführt.
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong> Wenn Sie keinen Benutzer angeben, wird 365 business Proxy Application Client im Kontext <strong>Lokales System</strong> ausgeführt.
     </div>
  7. Nach Abschluss der Installation wird der Dienst automatisch gestartet und steht sofort in Microsoft Dynamics 365 Business Central, in der Seite **Proxy Application Clients** zur Verfügung.
 

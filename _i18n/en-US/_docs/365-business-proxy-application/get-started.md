@@ -48,7 +48,7 @@ To set up the 365 business Proxy Application, open the **Proxy Application Setup
  4. enter the **Tenant ID** from the previous step and a **Name** for the client, which will help you to identify the client in Microsoft Dynamics 365 Business Central.
  5. *(Optional)* Enter a domain user and the password with which 365 business Proxy Application Client is to be operated.
     <div class="alert alert-info">
-    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong> If you do not specify a user, 365 business Proxy Application Client will run in the **Local System** context.
+    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong> If you do not specify a user, 365 business Proxy Application Client will run in the <strong>Local System</strong> context.
     </div>
 
 ## Step 2: Set up Proxy Application Client
