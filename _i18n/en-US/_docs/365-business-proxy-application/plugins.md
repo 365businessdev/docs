@@ -1,7 +1,7 @@
 365 business Proxy Application offers numerous standard plugins with which you can easily access your local file system, integrate printers, scales and much more directly from Microsoft Dynamics 365 Business Central.
 
-<div class="alert alert-info">
-    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong> 365 business Proxy Application is designed to enable the integration of local resources into your business processes with as little effort as possible.<br>Do you need an individual connection to a local device or machine? Please do not hesitate to contact us.
+<div class="alert alert-notice">
+    <i class="fa-solid fa-notes"></i> <strong>Good to know:</strong>365 business Proxy Application is designed to enable the integration of local resources into your business processes with as little effort as possible.<br>Do you need an individual connection to a local device or machine? <a href="https://365businessdev.com/kontakt/" target="_blank">Get in touch with us</a>.
 </div>
 
 ## Which plugins are available?
@@ -29,9 +29,7 @@ These include, among others:
  - MES connection
  - and much more.
 
-<div class="alert alert-notice">
-    <i class="fa-solid fa-notes"></i> <strong>Good to know:</strong>365 business Proxy Application is designed to enable the integration of local resources into your business processes with as little effort as possible.<br>Do you need an individual connection to a local device or machine? <a href="https://365businessdev.com/kontakt/" target="_blank">Get in touch with us</a>.
-</div>
+
 
 
 

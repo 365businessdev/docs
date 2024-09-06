@@ -30,7 +30,7 @@ Die Kommunikation zwischen dem Proxy Application Client und dem Service wird üb
 - Betriebssystem
     - Windows 10 oder höher (64-bit)
     - Windows Server 2016 oder höher (64-bit)
-- .NET 6.0
+- .NET 8.0
 - Internetverbindung
 
 ### Siehe auch

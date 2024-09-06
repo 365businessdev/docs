@@ -31,7 +31,7 @@ Communication between the proxy application client and the service is realized v
 - Operating system
     - Windows 10 or higher (64-bit)
     - Windows Server 2016 or higher (64-bit)
-- .NET 6.0
+- .NET 8.0
 - Internet connection
 
 ### See also
