@@ -2,7 +2,7 @@
 title: print-plugin
 category: 365-business-proxy-application
 subcategory: plugins
-permalink: /365-business-proxy-application/plugins/print
+permalink: /365-business-proxy-application/plugins/print/
 order: 3
 
 namespace: 365-business-proxy-application
