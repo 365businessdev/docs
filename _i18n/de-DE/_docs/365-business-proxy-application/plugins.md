@@ -4,6 +4,8 @@
     <i class="fa-solid fa-notes"></i> <strong>Gut zu wissen:</strong>365 business Proxy Application ist darauf konzipiert mit möglichst wenig Aufwand Integrationen von lokalen Ressourcen in Ihre Geschäftsprozesse zu ermöglichen.<br>Sie benötigen eine individuelle Anbindung an ein lokales Gerät oder eine Maschine? <a href="https://365businessdev.com/kontakt/" target="_blank">Sprechen Sie uns gerne an</a>.
 </div>
 
+<br/>
+
 ## Welche Plugins stehen zur Verfügung?
 
 365 business Proxy Application bietet aktuell folgende Standard Plugins:

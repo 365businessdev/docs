@@ -6,6 +6,8 @@ Jeder Proxy Application Client wird anhand einer Client-ID (GUID) identifiziert 
     <i class="fa-solid fa-notes"></i> <strong>Gut zu wissen:</strong>Standardmäßig wird der Proxy Application Client im Kontext <strong>Lokales System</strong> ausgeführt, je nach installiertem Plugin (z.B. File-Plugin) kann die Ausführung im Domänenkontext jedoch notwendig werden.
 </div>
 
+<br/>
+
 ## Die Aufgabe vom Proxy Application Client
 
 Der 365 business Proxy Application Client führt folgende Funktionen aus:

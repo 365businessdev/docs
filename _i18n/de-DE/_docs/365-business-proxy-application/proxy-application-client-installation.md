@@ -3,7 +3,7 @@
 - Betriebssystem
     - Windows 10 oder höher (64-bit)
     - Windows Server 2016 oder höher (64-bit)
-- .NET 6.0
+- .NET 8.0
 - Internetverbindung
 - [365 business Proxy Application Client Installer](https://365businessapi.com/api/SoftwareDownload?AppId=da472ae3-fa8a-406f-bbea-c2aafd5f77d5)
 

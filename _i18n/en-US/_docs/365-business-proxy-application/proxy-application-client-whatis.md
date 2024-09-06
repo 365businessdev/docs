@@ -6,6 +6,8 @@ Each proxy application client is identified by a client ID (GUID) and executes t
     <i class="fa-solid fa-notes"></i> <strong>Good to know:</strong> By default, the proxy application client is executed in the <strong>local system</strong> context, but depending on the installed plugin (e.g. file plugin), execution in the domain context may be necessary.
 </div>
 
+<br/>
+
 ## The task of the Proxy Application Client
 
 The 365 business Proxy Application Client performs the following functions:
