@@ -21,7 +21,7 @@ Please [read the article](../proxy-application-whatis) to find out where to inst
     <br>
     You can find this information in the <strong>Proxy Application Setup</strong>.<br>
     <br>
-    For more information, please visit the page <a href="../get-started/">First steps</a>.
+    For more information, please visit the page <a href="../get-started/">Get Started</a>.
 </div>
 
 ## Installation of the Proxy Application Client
@@ -30,9 +30,9 @@ Please [read the article](../proxy-application-whatis) to find out where to inst
  2. save the downloaded ZIP file on the server or computer you want to use with 365 business Proxy Application.
  3. unzip the ZIP file (e.g. `C:\install`)
  4. start the setup file and follow the instructions
- 5. enter the **Tenant ID** of your Microsoft Dynamics 365 Business Central environment and a **Name** for the client, which will help you to identify the client in Microsoft Dynamics 365 Business Central.
+ 5. enter the **Tenant ID** of your Microsoft Dynamics 365 Business Central environment and a **Name** for the client, which will help you to identify the client in Microsoft Dynamics 365 Business Central.<br>
     ![Proxy Application Client Installation - Data Entry](/assets/images/365-business-proxy-application/c21483cf5f877db2cc391ffa37013ce6d0fca92b9ee7ecc22d7dbbf7d97403f6.png)
- 6. *(Optional)* Enter a domain user and the password with which 365 business Proxy Application Client is to be operated.
+ 6. *(Optional)* Enter a domain user and the password with which 365 business Proxy Application Client is to be operated.<br>
     ![Proxy Application Client Installation - Login](/assets/images/365-business-proxy-application/bd510f87-83cc-471f-a2e8-bb1ef9dc428a.png)
     <div class="alert alert-info">
     <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong> If you do not specify a user, 365 business Proxy Application Client will run in the <strong>Local System</strong> context.
@@ -43,7 +43,7 @@ Please [read the article](../proxy-application-whatis) to find out where to inst
 
 The plugins for 365 business Proxy Application are installed via Microsoft Dynamics 365 Business Central.
 
-![Proxy Application Client Plugin Installation](/assets/images/365-business-proxy-application/proxyapp-installplugin-en-EN.gif)
+![Proxy Application Client Plugin Installation](/assets/images/365-business-proxy-application/proxyapp-installplugin-de-DE.gif)
 
  1. open Microsoft Dynamics 365 Business Central.
  2. open **Proxy Application Clients** page.

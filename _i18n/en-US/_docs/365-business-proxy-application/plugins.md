@@ -6,6 +6,23 @@
 
 <br/>
 
+## Install proxy application plugins
+
+The plugins for 365 business Proxy Application are installed via Microsoft Dynamics 365 Business Central.
+
+![Proxy Application Client Plugin Installation](/assets/images/365-business-proxy-application/proxyapp-installplugin-de-DE.gif)
+
+ 1. open Microsoft Dynamics 365 Business Central.
+ 2. open **Proxy Application Clients** page.
+ 3. select **Refresh** to load the available 365 business Proxy Application Clients.
+ 4. select the desired proxy application client based on the name you assigned in the previous step.
+ 5. select **Install plugins**.
+ 6. click **Next**.
+ 7. select the plugins (e.g. File Plugin) that you want to install.<br>
+    ![Plugin Auswahl](/assets/images/365-business-proxy-application/2fd00b9a-6e91-4db9-9418-05a7cb61c22f.png)
+ 8. click **Next**.
+ 9. after the successful plugin installation click **Close**.
+
 ## Which plugins are available?
 
 365 business Proxy Application currently offers the following standard plugins:

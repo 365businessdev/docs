@@ -74,7 +74,7 @@ Get to know the basic concepts and processes of 365 business Proxy Application i
             <ul class="fa-ul">
                 <li><span class="fa-li"><i class="fa-solid fa-screwdriver-wrench"></i></span><a href="setup/">Setting up in Microsoft Dynamics 365 Business Central</a></li>
                 <li><span class="fa-li"><i class="fa-solid fa-gear"></i></span><a href="proxy-application-client-installation/">Install 365 business Proxy Application Client</a></li>
-                <li><span class="fa-li"><i class="fa-solid fa-arrow-up-right-from-square"></i></span><a href="plugin-installation/">Install the 365 business Proxy Application plugin</a></li>
+                <li><span class="fa-li"><i class="fa-solid fa-arrow-up-right-from-square"></i></span><a href="plugin-application-client-installation/#install-proxy-application-plugins">Install the 365 business Proxy Application plugin</a></li>
             </ul>
         </p>
     </div>
