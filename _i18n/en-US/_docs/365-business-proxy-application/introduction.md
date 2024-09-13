@@ -84,13 +84,13 @@ Get to know the basic concepts and processes of 365 business Proxy Application i
                 Find out more about the plugins & functions:
                 <ul class="fa-ul">
                     <li><span class="fa-li"><i class="fa-solid fa-files"></i></span><a href="plugins/file/">File plugin - file system access</a></li>
+                    <li><span class="fa-li"><i class="fa-solid fa-file-zipper"></i></span><a href="plugins/zip/">Zip plugin - Create and extract ZIP archives</a></li>
                     <li><span class="fa-li"><i class="fa-solid fa-user-plus"></i></span><a href="plugins/print/">Print plugin - Printer access</a></li>
                     <li><span class="fa-li"><i class="fa-solid fa-images"></i></span><a href="plugins/image/">Image Plugin - Read, scale and resize images from the file system</a></li>
                     <li><span class="fa-li"><i class="fa-solid fa-scanner-image"></i></span><a href="plugins/custom/"><strong>Your individual plugin</strong></a></li>
                 </ul>
                 Coming soon...
                 <ul class="fa-ul">
-                    <li><span class="fa-li"><i class="fa-solid fa-file-zipper"></i></span><a href="#">Zip plugin - Create and extract ZIP archives</a></li>
                     <li><span class="fa-li"><i class="fa-solid fa-scanner-image"></i></span><a href="#">KAPTURA plugin - Control KAPTURA 3D scanner</a></li>
                     <li><span class="fa-li"><i class="fa-solid fa-shelves"></i></span><a href="#">Haenel Lift plugin - Control the Haenel warehouse lift</a></li>
                 </ul>

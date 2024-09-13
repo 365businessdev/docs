@@ -23,7 +23,7 @@ Installieren Sie die App von Microsoft AppSource und warten Sie, bis die Install
 <br/>
 ## Schritt 1.1: Print Agent Einrichtung
 
-Um den Print Agent einzurichten, öffnen Sie die Seite **Print Agent Einrichtung** in Microsoft Dynamics 365 Business Central,
+Um den Print Agent einzurichten, öffnen Sie die Seite **Print Agent Einrichtung** in Microsoft Dynamics 365 Business Central.
 
  1. Wählen Sie **Print Agent Cloud** als **Dienstmodus**.<br/>[Mehr erfahren](../print-agent-whatis/#architecture)<br/>![Print Agent Einrichtung - Dienstmodus Auswahl](/assets/images/365-business-print-agent/646d98fab6c688ad444f61f5397dce86873cda4a90db60986a40ba1eb3911ce9.png)
  2. Wählen Sie **Print Agent authentifizieren**.

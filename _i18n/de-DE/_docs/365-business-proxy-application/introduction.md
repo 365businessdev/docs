@@ -83,15 +83,15 @@ Lernen Sie grundlegende Konzepte und Prozesse von 365 business Proxy Application
                 Erfahren Sie mehr über die Plugins & Funktionen:
                 <ul class="fa-ul">
                     <li><span class="fa-li"><i class="fa-solid fa-files"></i></span><a href="plugins/file/">File Plugin - Dateisystem Zugriff</a></li>
+                    <li><span class="fa-li"><i class="fa-solid fa-file-zipper"></i></span><a href="plugins/zip/">Zip Plugin - ZIP Archive packen und entpacken</a></li>
                     <li><span class="fa-li"><i class="fa-solid fa-user-plus"></i></span><a href="plugins/print/">Print Plugin - Drucker Zugriff</a></li>
                     <li><span class="fa-li"><i class="fa-solid fa-images"></i></span><a href="plugins/image/">Image Plugin - Bilder aus dem Dateisystem lesen, skalieren und Größe anpassen</a></li>
                     <li><span class="fa-li"><i class="fa-solid fa-scanner-image"></i></span><a href="plugins/custom/"><strong>Ihr individuelles Plugin</strong></a></li>
                 </ul>
                 In K&uuml;rze verf&uuml;gbar...
                 <ul class="fa-ul">
-                    <li><span class="fa-li"><i class="fa-solid fa-file-zipper"></i></span><a href="plugins/zip/">Zip Plugin - ZIP Archive packen und entpacken</a></li>
-                    <li><span class="fa-li"><i class="fa-solid fa-scanner-image"></i></span><a href="plugins/kaptura/">KAPTURA Plugin - KAPTURA 3D Scanner ansteuern</a></li>
-                    <li><span class="fa-li"><i class="fa-solid fa-shelves"></i></span><a href="plugins/haenel/">Haenel Lift Plugin - Steuerung des Haenel Lagerlift</a></li>
+                    <li><span class="fa-li"><i class="fa-solid fa-scanner-image"></i></span><a href="#">KAPTURA Plugin - KAPTURA 3D Scanner ansteuern</a></li>
+                    <li><span class="fa-li"><i class="fa-solid fa-shelves"></i></span><a href="#">Haenel Lift Plugin - Steuerung des Haenel Lagerlift</a></li>
                 </ul>
             </p>
     </div>
