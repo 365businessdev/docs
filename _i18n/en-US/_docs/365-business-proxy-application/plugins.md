@@ -32,7 +32,7 @@ The plugins for 365 business Proxy Application are installed via Microsoft Dynam
 | File Plugin | Full access to the local file system. | [Documentation](../plugins/file/) |
 | Image Plugin | Read, scale and resize images from the file system. | [Documentation](../plugins/image/) |
 | Print Plugin | Direct control of local printers. | [Documentation](../plugins/print/) |
-| Zip Plugin | Pack and unpack ZIP archives. | *Documentation coming soon* |
+| Zip Plugin | Pack and unpack ZIP archives. | [Documentation](../plugins/zip/) |
 | Kaptura Plugin | Control KAPTURA 3D Scanner. | *Documentation coming soon* |
 | Haenel Lift Plugin | Control the Haenel warehouse lift. | *Documentation coming soon* |
 

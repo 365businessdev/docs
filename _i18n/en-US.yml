@@ -99,6 +99,7 @@ titles:
   proxy-application-client-installation: Install Proxy Application Client on Windows
   plugins: Plugins
   file-plugin: File Plugin
+  zip-plugin: ZIP Plugin
   image-plugin: Image Plugin
   print-plugin: Print Plugin
   your-custom-plugin: Your custom Plugin

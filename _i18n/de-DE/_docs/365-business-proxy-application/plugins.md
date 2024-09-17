@@ -32,7 +32,7 @@ Die Installation der Plugins für 365 business Proxy Application erfolgt über M
 | File Plugin | Vollumfänglicher Zugriff auf das lokale Dateisystem. | [Dokumenation](../plugins/file/) |
 | Image Plugin | Bilder aus dem Dateisystem lesen, skalieren und Größe anpassen. | [Dokumenation](../plugins/image/) |
 | Print Plugin | Direkte Ansteuerung von lokalen Druckern. | [Dokumenation](../plugins/print/) |
-| Zip Plugin | ZIP Archive packen und entpacken. | *Dokumentation folgt in Kürze* |
+| Zip Plugin | ZIP Archive packen und entpacken. | [Dokumenation](../plugins/zip/) |
 | Kaptura Plugin | KAPTURA 3D Scanner ansteuern. | *Dokumentation folgt in Kürze* |
 | Haenel Lift Plugin | Steuerung des Haenel Lagerlift. | *Dokumentation folgt in Kürze* |
 

@@ -3,7 +3,7 @@ title: image-plugin
 category: 365-business-proxy-application
 subcategory: plugins
 permalink: /365-business-proxy-application/plugins/image/
-order: 2
+order: 3
 
 namespace: 365-business-proxy-application
 ---
