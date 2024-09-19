@@ -4,6 +4,13 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-print-agent/
 ---
 
+#### Version 18.8.210.16509
+
+ - Add native support for SATO printers
+ - Side-by-side support for User Groups and Security Groups in Business Central 22 - 24
+ - Fix "Not found" error message, when opening Print Agent Setup page
+ - Add `encoding` parameter for `PrintZPL` procedures.
+
 #### Version 18.8.201.13851
 
  - Fix custom paper kind usage in Assisted Setup

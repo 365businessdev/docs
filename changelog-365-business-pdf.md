@@ -4,9 +4,13 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-pdf/
 ---
 
+#### Version 20.3.58.16613
+
+ - Update ZUGFeRD / Factur-X implementation to version 2.3.0 (ZUGFeRD) / 1.0.07 (Factur-X) 
+
 #### Version 20.2.51.14062
 
- - Feature #57892 - Add ZUGFeRD 2.1 / FacturX 1.0.05 support (additional feature).
+ - Feature #57892 - Add ZUGFeRD 2.1 / Factur-X 1.0.05 support (additional feature).
   - Support for Sales Invoice.
   - Support for Sales Credit Memo.
  - Update to 365 business API model v4

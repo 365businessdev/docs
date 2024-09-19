@@ -4,6 +4,11 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-api/
 ---
 
+#### Version 17.9.57.16385
+
+ - Use new 365 business API by default.
+ - Remove depracated functions.
+
 #### Version 17.8.49.14013
 
  - Added support for new 365 business API.

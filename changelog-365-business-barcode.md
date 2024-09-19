@@ -4,6 +4,14 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-barcode/
 ---
 
+#### Version 18.2.64.16486
+
+ - Switch to new 365 business API Barcode service.
+ - Add additional validations for:
+    - EAN-8
+    - EAN-13
+    - UPC-A
+
 #### Version 18.2.48.11422
 
  - Add support for

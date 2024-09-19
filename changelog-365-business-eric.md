@@ -4,6 +4,10 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-eric/
 ---
 
+#### Version 17.12.243.16386
+
+ - Task 58885 - Implement VAT Date Type in ZMDO calculation
+
 #### Version 17.12.240.15865
 
  - Fix issue 58554 - E50 (Annual VAT Return) schema update

@@ -4,6 +4,15 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-proxy-application/
 ---
 
+#### Version 18.1.31.16587
+ 
+ - Add ZIP plugin
+ - Optimize `GetDefaultClientByPlugin()` implementation to return first supported client, if no default specified
+ - Fix client name validation in Default Plugin clients
+ - Update support urls
+ - Tenant ID editable for on-premises environments
+ - Fix WaitSpinner control, while plugin installation
+
 #### Version 18.1.21.16419
 
  - Add Plugin installation wizard

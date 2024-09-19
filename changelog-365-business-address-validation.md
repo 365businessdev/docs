@@ -4,6 +4,11 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-address-validation/
 ---
 
+#### Version 18.10.130.14542
+
+ - Migrate to new 365 business API Address Validation service
+ - Minor bugfixes for address prediction.
+
 #### Version 18.10.121.13641
 
  - Task #57874 - Add `Address Validation Scope` setting.
