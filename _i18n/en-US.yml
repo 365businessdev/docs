@@ -103,6 +103,7 @@ titles:
   image-plugin: Image Plugin
   print-plugin: Print Plugin
   your-custom-plugin: Your custom Plugin
+  print-agent-config-printprofile: Print Profile
 langs:
   german: German
   english: English
