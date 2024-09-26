@@ -13,3 +13,26 @@ Deinstallieren Sie alle Druckerweiterungen, außer 365 business Print Agent, aus
 <div class="alert alert-warn">
     <i class="fa-solid fa-triangle-exclamation"></i> <strong>Wichtig:</strong>In Microsoft Dynamics 365 Business Central <strong>On-Premise</strong> Umgebungen werden auf dem Microsoft Dynamics 365 Business Central Server installierte Drucker automatisch hinzugefügt.<br>Bitte deinstallieren Sie die Drucker auf dem Microsoft Dynamics 365 Business Central Server.
 </div>
+
+##### Schritt 1: Erweiterungsverwaltung öffnen
+
+Öffnen Sie die **Erweiterungsverwaltung** in Microsoft Dynamics 365 Business Central mit dem **Wie möchten Sie weiter verfahren?** Fenster (Alt+Q).
+
+![Erweiterungsverwaltung suchen](/assets/images/365-business-print-agent/673e2550-12ba-4edd-8ed6-9931c0efab16.png)
+
+##### Schritt 2: Druckererweiterung identifizieren
+
+Finden Sie die Druckererweiterungen, die nicht der 365 business Print Agent sind. Der 365 business Print Agent ist die einzige Druckererweiterung, die in Ihrer Microsoft Dynamics 365 Business Central Umgebung installiert sein sollte. Typische Druckererweiterungen sind:
+
+ - Universal Print Integration
+ - PrintNode Integration
+
+##### Schritt 3: Druckererweiterung(en) deinstallieren
+
+Wählen Sie die Druckererweiterung(en) aus, die nicht der 365 business Print Agent sind, wählen Sie das Drei-Punkte-Symbol und wählen Sie **Deinstallieren**.
+
+![alt text](/assets/images/365-business-print-agent/9b58144b-277d-4b9d-8830-ebceadb5e8e2.png)
+
+##### Schritt 4: Confirm uninstallation
+
+Bestätigen Sie die Deinstallation der Druckererweiterung, indem Sie **Deinstallieren** auswählen.
