@@ -22,13 +22,13 @@
 <meta property="og:title" content="file-plugin" />
 <meta name="author" content="365 business development" />
 <meta property="og:locale" content="de_DE" />
-<meta name="description" content="Das File Plugin in 365 business Proxy Application bietet vollumfänglichen Zugriff auf das lokale Dateisystem, sowie verfügbare Netzlaufwerke oder UNC-Pfade. Das File Plugin gehört zu den Standard Plugins von 365 business Proxy Application und kann direkt über die Seite Proxy Application Clients installiert werden. Funktionen Dateiliste aufrufen (ListFiles) files: Record &quot;bdev.PRX File Item&quot; temporary := ListFiles([clientId: Guid,] filePath: Text [,fileFilter: Text]) ListFiles(var files: Record &quot;bdev.PRX File Item&quot; temporary, [clientId: Guid,] filePath: Text [,fileFilter: Text]) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad an, für den die Dateiliste abgerufen werden soll. fileFilter: Text Gibt den Filter (z.B. *.txt) an, der bei der Auflistung angewandt werden soll. Rückgabe Gibt die temporäre Tabelle bdev.PRX File Item zu, die die Dateiliste darstellt. Prüfen ob Datei existiert (FileExists) fileExists: Boolean := FileExists([clientId: Guid,] filePath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad der Datei an. Rückgabe Gibt true zurück, wenn die Datei existiert. Datei lesen (GetFile) file: Codeunit &quot;Temp Blob&quot; := GetFile([clientId: Guid,] filePath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad der Datei an. Rückgabe Gibt Codeunit &quot;Temp Blob&quot; zurück, mit dem Inhalt der Datei. Datei schreiben (PostFile) success: Boolean := PostFile([clientId: Guid,] filePath: Text, file: Codeunit &quot;Temp Blob&quot;) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad der Datei an. file: Codeunit &quot;Temp Blob&quot; Die Datei die geschrieben werden soll. Rückgabe Gibt true zurück, wenn die Datei erfolgreich geschrieben wurde. Datei löschen (DeleteFile) success: Boolean := DeleteFile([clientId: Guid,] filePath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad der Datei an. Rückgabe Gibt true zurück, wenn die Datei erfolgreich gelöscht wurde. Datei verschieben (MoveFile) success: Boolean := MoveFile([clientId: Guid,] fromFilePath: Text, toFilePath: Text [, overwrite: Boolean]) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. fromFilePath: Text Gibt den Pfad oder UNC-Pfad der Datei an, die verschoben werden soll. toFilePath: Text Gibt den Zielpfad oder UNC-Pfad an, zu dem die Datei verschoben werden soll. overwrite: Boolean Gibt an, ob die Datei am Ziel überschrieben werden soll, falls sie bereits existiert. Rückgabe Gibt true zurück, wenn die Datei erfolgreich verschoben wurde. Datei kopieren (CopyFile) success: Boolean := CopyFile([clientId: Guid,] fromFilePath: Text, toFilePath: Text [, overwrite: Boolean]) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. fromFilePath: Text Gibt den Pfad oder UNC-Pfad der Datei an, die kopiert werden soll. toFilePath: Text Gibt den Zielpfad oder UNC-Pfad an, zu dem die Datei kopiert werden soll. overwrite: Boolean Gibt an, ob die Datei am Ziel überschrieben werden soll, falls sie bereits existiert. Rückgabe Gibt true zurück, wenn die Datei erfolgreich kopiert wurde. Datei umbenennen (RenameFile) success: Boolean := RenameFile([clientId: Guid,] filePath: Text, newFilePath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad der Datei an. newFilePath: Text Gibt den neuen Namen und Pfad der Datei an. Rückgabe Gibt true zurück, wenn die Datei erfolgreich umbenannt wurde. Prüfen ob Verzeichnis existiert (DirectoryExists) success: Boolean := DirectoryExists([clientId: Guid,] directoryPath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. directoryPath: Text Gibt den Pfad oder UNC-Pfad des Verzeichnis an. Rückgabe Gibt true zurück, wenn das Verzeichnis existiert. Verzeichnis erstellen (CreateDirectory) success: Boolean := CreateDirectory([clientId: Guid,] directoryPath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. directoryPath: Text Gibt den Pfad oder UNC-Pfad des Verzeichnis an, das erstellt werden soll. Rückgabe Gibt true zurück, wenn das Verzeichnis erstellt wurde. Verzeichnis löschen (DeleteDirectory) success: Boolean := DeleteDirectory([clientId: Guid,] directoryPath: Text [, recursive: Boolean]) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. directoryPath: Text Gibt den Pfad oder UNC-Pfad des Verzeichnis an, das gelöscht werden soll. recursive: Boolean Gibt an, ob das Verzeichnis rekursiv gelöscht werden soll. Rückgabe Gibt true zurück, wenn das Verzeichnis gelöscht wurde. Verzeichnis verschieben (MoveDirectory) success: Boolean := MoveDirectory([clientId: Guid,] fromDirectoryPath: Text, toDirectoryPath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. fromDirectoryPath: Text Gibt den Pfad oder UNC-Pfad des Verzeichnis an, das verschoben werden soll. toDirectoryPath: Text Gibt den Pfad oder UNC-Pfad an, zu dem das Verzeichnis verschoben werden soll. Rückgabe Gibt true zurück, wenn das Verzeichnis verschoben wurde. Verzeichnis kopieren (CopyDirectory) success: Boolean := CopyDirectory([clientId: Guid,] fromDirectoryPath: Text, toDirectoryPath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. fromDirectoryPath: Text Gibt den Pfad oder UNC-Pfad des Verzeichnis an, das kopiert werden soll. toDirectoryPath: Text Gibt den Pfad oder UNC-Pfad an, zu dem das Verzeichnis kopiert werden soll. Rückgabe Gibt true zurück, wenn das Verzeichnis kopiert wurde." />
-<meta property="og:description" content="Das File Plugin in 365 business Proxy Application bietet vollumfänglichen Zugriff auf das lokale Dateisystem, sowie verfügbare Netzlaufwerke oder UNC-Pfade. Das File Plugin gehört zu den Standard Plugins von 365 business Proxy Application und kann direkt über die Seite Proxy Application Clients installiert werden. Funktionen Dateiliste aufrufen (ListFiles) files: Record &quot;bdev.PRX File Item&quot; temporary := ListFiles([clientId: Guid,] filePath: Text [,fileFilter: Text]) ListFiles(var files: Record &quot;bdev.PRX File Item&quot; temporary, [clientId: Guid,] filePath: Text [,fileFilter: Text]) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad an, für den die Dateiliste abgerufen werden soll. fileFilter: Text Gibt den Filter (z.B. *.txt) an, der bei der Auflistung angewandt werden soll. Rückgabe Gibt die temporäre Tabelle bdev.PRX File Item zu, die die Dateiliste darstellt. Prüfen ob Datei existiert (FileExists) fileExists: Boolean := FileExists([clientId: Guid,] filePath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad der Datei an. Rückgabe Gibt true zurück, wenn die Datei existiert. Datei lesen (GetFile) file: Codeunit &quot;Temp Blob&quot; := GetFile([clientId: Guid,] filePath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad der Datei an. Rückgabe Gibt Codeunit &quot;Temp Blob&quot; zurück, mit dem Inhalt der Datei. Datei schreiben (PostFile) success: Boolean := PostFile([clientId: Guid,] filePath: Text, file: Codeunit &quot;Temp Blob&quot;) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad der Datei an. file: Codeunit &quot;Temp Blob&quot; Die Datei die geschrieben werden soll. Rückgabe Gibt true zurück, wenn die Datei erfolgreich geschrieben wurde. Datei löschen (DeleteFile) success: Boolean := DeleteFile([clientId: Guid,] filePath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad der Datei an. Rückgabe Gibt true zurück, wenn die Datei erfolgreich gelöscht wurde. Datei verschieben (MoveFile) success: Boolean := MoveFile([clientId: Guid,] fromFilePath: Text, toFilePath: Text [, overwrite: Boolean]) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. fromFilePath: Text Gibt den Pfad oder UNC-Pfad der Datei an, die verschoben werden soll. toFilePath: Text Gibt den Zielpfad oder UNC-Pfad an, zu dem die Datei verschoben werden soll. overwrite: Boolean Gibt an, ob die Datei am Ziel überschrieben werden soll, falls sie bereits existiert. Rückgabe Gibt true zurück, wenn die Datei erfolgreich verschoben wurde. Datei kopieren (CopyFile) success: Boolean := CopyFile([clientId: Guid,] fromFilePath: Text, toFilePath: Text [, overwrite: Boolean]) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. fromFilePath: Text Gibt den Pfad oder UNC-Pfad der Datei an, die kopiert werden soll. toFilePath: Text Gibt den Zielpfad oder UNC-Pfad an, zu dem die Datei kopiert werden soll. overwrite: Boolean Gibt an, ob die Datei am Ziel überschrieben werden soll, falls sie bereits existiert. Rückgabe Gibt true zurück, wenn die Datei erfolgreich kopiert wurde. Datei umbenennen (RenameFile) success: Boolean := RenameFile([clientId: Guid,] filePath: Text, newFilePath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad der Datei an. newFilePath: Text Gibt den neuen Namen und Pfad der Datei an. Rückgabe Gibt true zurück, wenn die Datei erfolgreich umbenannt wurde. Prüfen ob Verzeichnis existiert (DirectoryExists) success: Boolean := DirectoryExists([clientId: Guid,] directoryPath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. directoryPath: Text Gibt den Pfad oder UNC-Pfad des Verzeichnis an. Rückgabe Gibt true zurück, wenn das Verzeichnis existiert. Verzeichnis erstellen (CreateDirectory) success: Boolean := CreateDirectory([clientId: Guid,] directoryPath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. directoryPath: Text Gibt den Pfad oder UNC-Pfad des Verzeichnis an, das erstellt werden soll. Rückgabe Gibt true zurück, wenn das Verzeichnis erstellt wurde. Verzeichnis löschen (DeleteDirectory) success: Boolean := DeleteDirectory([clientId: Guid,] directoryPath: Text [, recursive: Boolean]) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. directoryPath: Text Gibt den Pfad oder UNC-Pfad des Verzeichnis an, das gelöscht werden soll. recursive: Boolean Gibt an, ob das Verzeichnis rekursiv gelöscht werden soll. Rückgabe Gibt true zurück, wenn das Verzeichnis gelöscht wurde. Verzeichnis verschieben (MoveDirectory) success: Boolean := MoveDirectory([clientId: Guid,] fromDirectoryPath: Text, toDirectoryPath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. fromDirectoryPath: Text Gibt den Pfad oder UNC-Pfad des Verzeichnis an, das verschoben werden soll. toDirectoryPath: Text Gibt den Pfad oder UNC-Pfad an, zu dem das Verzeichnis verschoben werden soll. Rückgabe Gibt true zurück, wenn das Verzeichnis verschoben wurde. Verzeichnis kopieren (CopyDirectory) success: Boolean := CopyDirectory([clientId: Guid,] fromDirectoryPath: Text, toDirectoryPath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. fromDirectoryPath: Text Gibt den Pfad oder UNC-Pfad des Verzeichnis an, das kopiert werden soll. toDirectoryPath: Text Gibt den Pfad oder UNC-Pfad an, zu dem das Verzeichnis kopiert werden soll. Rückgabe Gibt true zurück, wenn das Verzeichnis kopiert wurde." />
+<meta name="description" content="Das File Plugin in 365 business Proxy Application bietet vollumfänglichen Zugriff auf das lokale Dateisystem, sowie verfügbare Netzlaufwerke oder UNC-Pfade. Das File Plugin gehört zu den Standard Plugins von 365 business Proxy Application und kann direkt über die Seite Proxy Application Clients installiert werden. Objekte Die u.g. Funktionen werden über die Codeunit bdev.PRX Proxy Application (ID 5523630) bereitgestellt. Beispiel Im folgenden Beispiel wird der angegebene Ordner ausgelesen. Anschließend wird geprüft, ob die Datei “hello-world.txt” bereits existiert und ggf. gelöscht. Anschließend wird eine neue Datei “hello-world.txt”, mit dem Inhalt “Hello, World!”, erstellt. procedure ExampleFilePlugin var files: Record &quot;bdev.PRX File Item&quot; temporary; proxyApp: Codeunit &quot;bdev.PRX Proxy Application&quot;; begin // get file list for directory &quot;C:\temp&quot; proxyApp.ListFiles( files, &#39;C:\temp&#39; ); // check whether &quot;hello-world.txt&quot; exists files.Reset(); files.SetRange(&quot;Name&quot;, &#39;hello-world.txt&#39;); files.SetRange(&quot;Is File&quot;, true); if (files.FindFirst()) then // if file exists, delete it proxyApp.DeleteFile(files.&quot;File Path&quot;); // create file &quot;hello-world.txt&quot; proxyApp.PostFile( &#39;C:\temp\hello-world.txt&#39;, GetFileWithContent(&#39;Hello, World!&#39;) ); end; local procedure GetFileWithContent(content: Text) file: Codeunit &quot;Temp Blob&quot; var stream: OutStream; begin file.CreateOutStream(stream, TextEncoding::UTF8); stream.WriteText(content); exit(file); end; Funktionen Dateiliste aufrufen (ListFiles) files: Record &quot;bdev.PRX File Item&quot; temporary := ListFiles([clientId: Guid,] filePath: Text [,fileFilter: Text]) ListFiles(var files: Record &quot;bdev.PRX File Item&quot; temporary, [clientId: Guid,] filePath: Text [,fileFilter: Text]) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad an, für den die Dateiliste abgerufen werden soll. fileFilter: Text Gibt den Filter (z.B. *.txt) an, der bei der Auflistung angewandt werden soll. Rückgabe Gibt die temporäre Tabelle bdev.PRX File Item zu, die die Dateiliste darstellt. Prüfen ob Datei existiert (FileExists) fileExists: Boolean := FileExists([clientId: Guid,] filePath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad der Datei an. Rückgabe Gibt true zurück, wenn die Datei existiert. Datei lesen (GetFile) file: Codeunit &quot;Temp Blob&quot; := GetFile([clientId: Guid,] filePath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad der Datei an. Rückgabe Gibt Codeunit &quot;Temp Blob&quot; zurück, mit dem Inhalt der Datei. Datei schreiben (PostFile) success: Boolean := PostFile([clientId: Guid,] filePath: Text, file: Codeunit &quot;Temp Blob&quot;) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad der Datei an. file: Codeunit &quot;Temp Blob&quot; Die Datei die geschrieben werden soll. Rückgabe Gibt true zurück, wenn die Datei erfolgreich geschrieben wurde. Datei löschen (DeleteFile) success: Boolean := DeleteFile([clientId: Guid,] filePath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad der Datei an. Rückgabe Gibt true zurück, wenn die Datei erfolgreich gelöscht wurde. Datei verschieben (MoveFile) success: Boolean := MoveFile([clientId: Guid,] fromFilePath: Text, toFilePath: Text [, overwrite: Boolean]) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. fromFilePath: Text Gibt den Pfad oder UNC-Pfad der Datei an, die verschoben werden soll. toFilePath: Text Gibt den Zielpfad oder UNC-Pfad an, zu dem die Datei verschoben werden soll. overwrite: Boolean Gibt an, ob die Datei am Ziel überschrieben werden soll, falls sie bereits existiert. Rückgabe Gibt true zurück, wenn die Datei erfolgreich verschoben wurde. Datei kopieren (CopyFile) success: Boolean := CopyFile([clientId: Guid,] fromFilePath: Text, toFilePath: Text [, overwrite: Boolean]) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. fromFilePath: Text Gibt den Pfad oder UNC-Pfad der Datei an, die kopiert werden soll. toFilePath: Text Gibt den Zielpfad oder UNC-Pfad an, zu dem die Datei kopiert werden soll. overwrite: Boolean Gibt an, ob die Datei am Ziel überschrieben werden soll, falls sie bereits existiert. Rückgabe Gibt true zurück, wenn die Datei erfolgreich kopiert wurde. Datei umbenennen (RenameFile) success: Boolean := RenameFile([clientId: Guid,] filePath: Text, newFilePath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad der Datei an. newFilePath: Text Gibt den neuen Namen und Pfad der Datei an. Rückgabe Gibt true zurück, wenn die Datei erfolgreich umbenannt wurde. Prüfen ob Verzeichnis existiert (DirectoryExists) success: Boolean := DirectoryExists([clientId: Guid,] directoryPath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. directoryPath: Text Gibt den Pfad oder UNC-Pfad des Verzeichnis an. Rückgabe Gibt true zurück, wenn das Verzeichnis existiert. Verzeichnis erstellen (CreateDirectory) success: Boolean := CreateDirectory([clientId: Guid,] directoryPath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. directoryPath: Text Gibt den Pfad oder UNC-Pfad des Verzeichnis an, das erstellt werden soll. Rückgabe Gibt true zurück, wenn das Verzeichnis erstellt wurde. Verzeichnis löschen (DeleteDirectory) success: Boolean := DeleteDirectory([clientId: Guid,] directoryPath: Text [, recursive: Boolean]) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. directoryPath: Text Gibt den Pfad oder UNC-Pfad des Verzeichnis an, das gelöscht werden soll. recursive: Boolean Gibt an, ob das Verzeichnis rekursiv gelöscht werden soll. Rückgabe Gibt true zurück, wenn das Verzeichnis gelöscht wurde. Verzeichnis verschieben (MoveDirectory) success: Boolean := MoveDirectory([clientId: Guid,] fromDirectoryPath: Text, toDirectoryPath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. fromDirectoryPath: Text Gibt den Pfad oder UNC-Pfad des Verzeichnis an, das verschoben werden soll. toDirectoryPath: Text Gibt den Pfad oder UNC-Pfad an, zu dem das Verzeichnis verschoben werden soll. Rückgabe Gibt true zurück, wenn das Verzeichnis verschoben wurde. Verzeichnis kopieren (CopyDirectory) success: Boolean := CopyDirectory([clientId: Guid,] fromDirectoryPath: Text, toDirectoryPath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. fromDirectoryPath: Text Gibt den Pfad oder UNC-Pfad des Verzeichnis an, das kopiert werden soll. toDirectoryPath: Text Gibt den Pfad oder UNC-Pfad an, zu dem das Verzeichnis kopiert werden soll. Rückgabe Gibt true zurück, wenn das Verzeichnis kopiert wurde." />
+<meta property="og:description" content="Das File Plugin in 365 business Proxy Application bietet vollumfänglichen Zugriff auf das lokale Dateisystem, sowie verfügbare Netzlaufwerke oder UNC-Pfade. Das File Plugin gehört zu den Standard Plugins von 365 business Proxy Application und kann direkt über die Seite Proxy Application Clients installiert werden. Objekte Die u.g. Funktionen werden über die Codeunit bdev.PRX Proxy Application (ID 5523630) bereitgestellt. Beispiel Im folgenden Beispiel wird der angegebene Ordner ausgelesen. Anschließend wird geprüft, ob die Datei “hello-world.txt” bereits existiert und ggf. gelöscht. Anschließend wird eine neue Datei “hello-world.txt”, mit dem Inhalt “Hello, World!”, erstellt. procedure ExampleFilePlugin var files: Record &quot;bdev.PRX File Item&quot; temporary; proxyApp: Codeunit &quot;bdev.PRX Proxy Application&quot;; begin // get file list for directory &quot;C:\temp&quot; proxyApp.ListFiles( files, &#39;C:\temp&#39; ); // check whether &quot;hello-world.txt&quot; exists files.Reset(); files.SetRange(&quot;Name&quot;, &#39;hello-world.txt&#39;); files.SetRange(&quot;Is File&quot;, true); if (files.FindFirst()) then // if file exists, delete it proxyApp.DeleteFile(files.&quot;File Path&quot;); // create file &quot;hello-world.txt&quot; proxyApp.PostFile( &#39;C:\temp\hello-world.txt&#39;, GetFileWithContent(&#39;Hello, World!&#39;) ); end; local procedure GetFileWithContent(content: Text) file: Codeunit &quot;Temp Blob&quot; var stream: OutStream; begin file.CreateOutStream(stream, TextEncoding::UTF8); stream.WriteText(content); exit(file); end; Funktionen Dateiliste aufrufen (ListFiles) files: Record &quot;bdev.PRX File Item&quot; temporary := ListFiles([clientId: Guid,] filePath: Text [,fileFilter: Text]) ListFiles(var files: Record &quot;bdev.PRX File Item&quot; temporary, [clientId: Guid,] filePath: Text [,fileFilter: Text]) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad an, für den die Dateiliste abgerufen werden soll. fileFilter: Text Gibt den Filter (z.B. *.txt) an, der bei der Auflistung angewandt werden soll. Rückgabe Gibt die temporäre Tabelle bdev.PRX File Item zu, die die Dateiliste darstellt. Prüfen ob Datei existiert (FileExists) fileExists: Boolean := FileExists([clientId: Guid,] filePath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad der Datei an. Rückgabe Gibt true zurück, wenn die Datei existiert. Datei lesen (GetFile) file: Codeunit &quot;Temp Blob&quot; := GetFile([clientId: Guid,] filePath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad der Datei an. Rückgabe Gibt Codeunit &quot;Temp Blob&quot; zurück, mit dem Inhalt der Datei. Datei schreiben (PostFile) success: Boolean := PostFile([clientId: Guid,] filePath: Text, file: Codeunit &quot;Temp Blob&quot;) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad der Datei an. file: Codeunit &quot;Temp Blob&quot; Die Datei die geschrieben werden soll. Rückgabe Gibt true zurück, wenn die Datei erfolgreich geschrieben wurde. Datei löschen (DeleteFile) success: Boolean := DeleteFile([clientId: Guid,] filePath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad der Datei an. Rückgabe Gibt true zurück, wenn die Datei erfolgreich gelöscht wurde. Datei verschieben (MoveFile) success: Boolean := MoveFile([clientId: Guid,] fromFilePath: Text, toFilePath: Text [, overwrite: Boolean]) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. fromFilePath: Text Gibt den Pfad oder UNC-Pfad der Datei an, die verschoben werden soll. toFilePath: Text Gibt den Zielpfad oder UNC-Pfad an, zu dem die Datei verschoben werden soll. overwrite: Boolean Gibt an, ob die Datei am Ziel überschrieben werden soll, falls sie bereits existiert. Rückgabe Gibt true zurück, wenn die Datei erfolgreich verschoben wurde. Datei kopieren (CopyFile) success: Boolean := CopyFile([clientId: Guid,] fromFilePath: Text, toFilePath: Text [, overwrite: Boolean]) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. fromFilePath: Text Gibt den Pfad oder UNC-Pfad der Datei an, die kopiert werden soll. toFilePath: Text Gibt den Zielpfad oder UNC-Pfad an, zu dem die Datei kopiert werden soll. overwrite: Boolean Gibt an, ob die Datei am Ziel überschrieben werden soll, falls sie bereits existiert. Rückgabe Gibt true zurück, wenn die Datei erfolgreich kopiert wurde. Datei umbenennen (RenameFile) success: Boolean := RenameFile([clientId: Guid,] filePath: Text, newFilePath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad der Datei an. newFilePath: Text Gibt den neuen Namen und Pfad der Datei an. Rückgabe Gibt true zurück, wenn die Datei erfolgreich umbenannt wurde. Prüfen ob Verzeichnis existiert (DirectoryExists) success: Boolean := DirectoryExists([clientId: Guid,] directoryPath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. directoryPath: Text Gibt den Pfad oder UNC-Pfad des Verzeichnis an. Rückgabe Gibt true zurück, wenn das Verzeichnis existiert. Verzeichnis erstellen (CreateDirectory) success: Boolean := CreateDirectory([clientId: Guid,] directoryPath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. directoryPath: Text Gibt den Pfad oder UNC-Pfad des Verzeichnis an, das erstellt werden soll. Rückgabe Gibt true zurück, wenn das Verzeichnis erstellt wurde. Verzeichnis löschen (DeleteDirectory) success: Boolean := DeleteDirectory([clientId: Guid,] directoryPath: Text [, recursive: Boolean]) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. directoryPath: Text Gibt den Pfad oder UNC-Pfad des Verzeichnis an, das gelöscht werden soll. recursive: Boolean Gibt an, ob das Verzeichnis rekursiv gelöscht werden soll. Rückgabe Gibt true zurück, wenn das Verzeichnis gelöscht wurde. Verzeichnis verschieben (MoveDirectory) success: Boolean := MoveDirectory([clientId: Guid,] fromDirectoryPath: Text, toDirectoryPath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. fromDirectoryPath: Text Gibt den Pfad oder UNC-Pfad des Verzeichnis an, das verschoben werden soll. toDirectoryPath: Text Gibt den Pfad oder UNC-Pfad an, zu dem das Verzeichnis verschoben werden soll. Rückgabe Gibt true zurück, wenn das Verzeichnis verschoben wurde. Verzeichnis kopieren (CopyDirectory) success: Boolean := CopyDirectory([clientId: Guid,] fromDirectoryPath: Text, toDirectoryPath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. fromDirectoryPath: Text Gibt den Pfad oder UNC-Pfad des Verzeichnis an, das kopiert werden soll. toDirectoryPath: Text Gibt den Pfad oder UNC-Pfad an, zu dem das Verzeichnis kopiert werden soll. Rückgabe Gibt true zurück, wenn das Verzeichnis kopiert wurde." />
 <link rel="canonical" href="https://docs.365businessdev.com/de-DE/365-business-proxy-application/plugins/file/" />
 <meta property="og:url" content="https://docs.365businessdev.com/de-DE/365-business-proxy-application/plugins/file/" />
 <meta property="og:site_name" content="365 business development" />
 <script type="application/ld+json">
-{"author":{"@type":"Person","name":"365 business development"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.365businessdev.com/de-DE/siteicon.png"},"name":"365 business development"},"description":"Das File Plugin in 365 business Proxy Application bietet vollumfänglichen Zugriff auf das lokale Dateisystem, sowie verfügbare Netzlaufwerke oder UNC-Pfade. Das File Plugin gehört zu den Standard Plugins von 365 business Proxy Application und kann direkt über die Seite Proxy Application Clients installiert werden. Funktionen Dateiliste aufrufen (ListFiles) files: Record &quot;bdev.PRX File Item&quot; temporary := ListFiles([clientId: Guid,] filePath: Text [,fileFilter: Text]) ListFiles(var files: Record &quot;bdev.PRX File Item&quot; temporary, [clientId: Guid,] filePath: Text [,fileFilter: Text]) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad an, für den die Dateiliste abgerufen werden soll. fileFilter: Text Gibt den Filter (z.B. *.txt) an, der bei der Auflistung angewandt werden soll. Rückgabe Gibt die temporäre Tabelle bdev.PRX File Item zu, die die Dateiliste darstellt. Prüfen ob Datei existiert (FileExists) fileExists: Boolean := FileExists([clientId: Guid,] filePath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad der Datei an. Rückgabe Gibt true zurück, wenn die Datei existiert. Datei lesen (GetFile) file: Codeunit &quot;Temp Blob&quot; := GetFile([clientId: Guid,] filePath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad der Datei an. Rückgabe Gibt Codeunit &quot;Temp Blob&quot; zurück, mit dem Inhalt der Datei. Datei schreiben (PostFile) success: Boolean := PostFile([clientId: Guid,] filePath: Text, file: Codeunit &quot;Temp Blob&quot;) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad der Datei an. file: Codeunit &quot;Temp Blob&quot; Die Datei die geschrieben werden soll. Rückgabe Gibt true zurück, wenn die Datei erfolgreich geschrieben wurde. Datei löschen (DeleteFile) success: Boolean := DeleteFile([clientId: Guid,] filePath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad der Datei an. Rückgabe Gibt true zurück, wenn die Datei erfolgreich gelöscht wurde. Datei verschieben (MoveFile) success: Boolean := MoveFile([clientId: Guid,] fromFilePath: Text, toFilePath: Text [, overwrite: Boolean]) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. fromFilePath: Text Gibt den Pfad oder UNC-Pfad der Datei an, die verschoben werden soll. toFilePath: Text Gibt den Zielpfad oder UNC-Pfad an, zu dem die Datei verschoben werden soll. overwrite: Boolean Gibt an, ob die Datei am Ziel überschrieben werden soll, falls sie bereits existiert. Rückgabe Gibt true zurück, wenn die Datei erfolgreich verschoben wurde. Datei kopieren (CopyFile) success: Boolean := CopyFile([clientId: Guid,] fromFilePath: Text, toFilePath: Text [, overwrite: Boolean]) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. fromFilePath: Text Gibt den Pfad oder UNC-Pfad der Datei an, die kopiert werden soll. toFilePath: Text Gibt den Zielpfad oder UNC-Pfad an, zu dem die Datei kopiert werden soll. overwrite: Boolean Gibt an, ob die Datei am Ziel überschrieben werden soll, falls sie bereits existiert. Rückgabe Gibt true zurück, wenn die Datei erfolgreich kopiert wurde. Datei umbenennen (RenameFile) success: Boolean := RenameFile([clientId: Guid,] filePath: Text, newFilePath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad der Datei an. newFilePath: Text Gibt den neuen Namen und Pfad der Datei an. Rückgabe Gibt true zurück, wenn die Datei erfolgreich umbenannt wurde. Prüfen ob Verzeichnis existiert (DirectoryExists) success: Boolean := DirectoryExists([clientId: Guid,] directoryPath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. directoryPath: Text Gibt den Pfad oder UNC-Pfad des Verzeichnis an. Rückgabe Gibt true zurück, wenn das Verzeichnis existiert. Verzeichnis erstellen (CreateDirectory) success: Boolean := CreateDirectory([clientId: Guid,] directoryPath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. directoryPath: Text Gibt den Pfad oder UNC-Pfad des Verzeichnis an, das erstellt werden soll. Rückgabe Gibt true zurück, wenn das Verzeichnis erstellt wurde. Verzeichnis löschen (DeleteDirectory) success: Boolean := DeleteDirectory([clientId: Guid,] directoryPath: Text [, recursive: Boolean]) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. directoryPath: Text Gibt den Pfad oder UNC-Pfad des Verzeichnis an, das gelöscht werden soll. recursive: Boolean Gibt an, ob das Verzeichnis rekursiv gelöscht werden soll. Rückgabe Gibt true zurück, wenn das Verzeichnis gelöscht wurde. Verzeichnis verschieben (MoveDirectory) success: Boolean := MoveDirectory([clientId: Guid,] fromDirectoryPath: Text, toDirectoryPath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. fromDirectoryPath: Text Gibt den Pfad oder UNC-Pfad des Verzeichnis an, das verschoben werden soll. toDirectoryPath: Text Gibt den Pfad oder UNC-Pfad an, zu dem das Verzeichnis verschoben werden soll. Rückgabe Gibt true zurück, wenn das Verzeichnis verschoben wurde. Verzeichnis kopieren (CopyDirectory) success: Boolean := CopyDirectory([clientId: Guid,] fromDirectoryPath: Text, toDirectoryPath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. fromDirectoryPath: Text Gibt den Pfad oder UNC-Pfad des Verzeichnis an, das kopiert werden soll. toDirectoryPath: Text Gibt den Pfad oder UNC-Pfad an, zu dem das Verzeichnis kopiert werden soll. Rückgabe Gibt true zurück, wenn das Verzeichnis kopiert wurde.","url":"https://docs.365businessdev.com/de-DE/365-business-proxy-application/plugins/file/","@type":"Article","headline":"file-plugin","@context":"https://schema.org"}</script>
+{"url":"https://docs.365businessdev.com/de-DE/365-business-proxy-application/plugins/file/","author":{"@type":"Person","name":"365 business development"},"@type":"Article","headline":"file-plugin","description":"Das File Plugin in 365 business Proxy Application bietet vollumfänglichen Zugriff auf das lokale Dateisystem, sowie verfügbare Netzlaufwerke oder UNC-Pfade. Das File Plugin gehört zu den Standard Plugins von 365 business Proxy Application und kann direkt über die Seite Proxy Application Clients installiert werden. Objekte Die u.g. Funktionen werden über die Codeunit bdev.PRX Proxy Application (ID 5523630) bereitgestellt. Beispiel Im folgenden Beispiel wird der angegebene Ordner ausgelesen. Anschließend wird geprüft, ob die Datei “hello-world.txt” bereits existiert und ggf. gelöscht. Anschließend wird eine neue Datei “hello-world.txt”, mit dem Inhalt “Hello, World!”, erstellt. procedure ExampleFilePlugin var files: Record &quot;bdev.PRX File Item&quot; temporary; proxyApp: Codeunit &quot;bdev.PRX Proxy Application&quot;; begin // get file list for directory &quot;C:\\temp&quot; proxyApp.ListFiles( files, &#39;C:\\temp&#39; ); // check whether &quot;hello-world.txt&quot; exists files.Reset(); files.SetRange(&quot;Name&quot;, &#39;hello-world.txt&#39;); files.SetRange(&quot;Is File&quot;, true); if (files.FindFirst()) then // if file exists, delete it proxyApp.DeleteFile(files.&quot;File Path&quot;); // create file &quot;hello-world.txt&quot; proxyApp.PostFile( &#39;C:\\temp\\hello-world.txt&#39;, GetFileWithContent(&#39;Hello, World!&#39;) ); end; local procedure GetFileWithContent(content: Text) file: Codeunit &quot;Temp Blob&quot; var stream: OutStream; begin file.CreateOutStream(stream, TextEncoding::UTF8); stream.WriteText(content); exit(file); end; Funktionen Dateiliste aufrufen (ListFiles) files: Record &quot;bdev.PRX File Item&quot; temporary := ListFiles([clientId: Guid,] filePath: Text [,fileFilter: Text]) ListFiles(var files: Record &quot;bdev.PRX File Item&quot; temporary, [clientId: Guid,] filePath: Text [,fileFilter: Text]) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad an, für den die Dateiliste abgerufen werden soll. fileFilter: Text Gibt den Filter (z.B. *.txt) an, der bei der Auflistung angewandt werden soll. Rückgabe Gibt die temporäre Tabelle bdev.PRX File Item zu, die die Dateiliste darstellt. Prüfen ob Datei existiert (FileExists) fileExists: Boolean := FileExists([clientId: Guid,] filePath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad der Datei an. Rückgabe Gibt true zurück, wenn die Datei existiert. Datei lesen (GetFile) file: Codeunit &quot;Temp Blob&quot; := GetFile([clientId: Guid,] filePath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad der Datei an. Rückgabe Gibt Codeunit &quot;Temp Blob&quot; zurück, mit dem Inhalt der Datei. Datei schreiben (PostFile) success: Boolean := PostFile([clientId: Guid,] filePath: Text, file: Codeunit &quot;Temp Blob&quot;) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad der Datei an. file: Codeunit &quot;Temp Blob&quot; Die Datei die geschrieben werden soll. Rückgabe Gibt true zurück, wenn die Datei erfolgreich geschrieben wurde. Datei löschen (DeleteFile) success: Boolean := DeleteFile([clientId: Guid,] filePath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad der Datei an. Rückgabe Gibt true zurück, wenn die Datei erfolgreich gelöscht wurde. Datei verschieben (MoveFile) success: Boolean := MoveFile([clientId: Guid,] fromFilePath: Text, toFilePath: Text [, overwrite: Boolean]) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. fromFilePath: Text Gibt den Pfad oder UNC-Pfad der Datei an, die verschoben werden soll. toFilePath: Text Gibt den Zielpfad oder UNC-Pfad an, zu dem die Datei verschoben werden soll. overwrite: Boolean Gibt an, ob die Datei am Ziel überschrieben werden soll, falls sie bereits existiert. Rückgabe Gibt true zurück, wenn die Datei erfolgreich verschoben wurde. Datei kopieren (CopyFile) success: Boolean := CopyFile([clientId: Guid,] fromFilePath: Text, toFilePath: Text [, overwrite: Boolean]) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. fromFilePath: Text Gibt den Pfad oder UNC-Pfad der Datei an, die kopiert werden soll. toFilePath: Text Gibt den Zielpfad oder UNC-Pfad an, zu dem die Datei kopiert werden soll. overwrite: Boolean Gibt an, ob die Datei am Ziel überschrieben werden soll, falls sie bereits existiert. Rückgabe Gibt true zurück, wenn die Datei erfolgreich kopiert wurde. Datei umbenennen (RenameFile) success: Boolean := RenameFile([clientId: Guid,] filePath: Text, newFilePath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad der Datei an. newFilePath: Text Gibt den neuen Namen und Pfad der Datei an. Rückgabe Gibt true zurück, wenn die Datei erfolgreich umbenannt wurde. Prüfen ob Verzeichnis existiert (DirectoryExists) success: Boolean := DirectoryExists([clientId: Guid,] directoryPath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. directoryPath: Text Gibt den Pfad oder UNC-Pfad des Verzeichnis an. Rückgabe Gibt true zurück, wenn das Verzeichnis existiert. Verzeichnis erstellen (CreateDirectory) success: Boolean := CreateDirectory([clientId: Guid,] directoryPath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. directoryPath: Text Gibt den Pfad oder UNC-Pfad des Verzeichnis an, das erstellt werden soll. Rückgabe Gibt true zurück, wenn das Verzeichnis erstellt wurde. Verzeichnis löschen (DeleteDirectory) success: Boolean := DeleteDirectory([clientId: Guid,] directoryPath: Text [, recursive: Boolean]) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. directoryPath: Text Gibt den Pfad oder UNC-Pfad des Verzeichnis an, das gelöscht werden soll. recursive: Boolean Gibt an, ob das Verzeichnis rekursiv gelöscht werden soll. Rückgabe Gibt true zurück, wenn das Verzeichnis gelöscht wurde. Verzeichnis verschieben (MoveDirectory) success: Boolean := MoveDirectory([clientId: Guid,] fromDirectoryPath: Text, toDirectoryPath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. fromDirectoryPath: Text Gibt den Pfad oder UNC-Pfad des Verzeichnis an, das verschoben werden soll. toDirectoryPath: Text Gibt den Pfad oder UNC-Pfad an, zu dem das Verzeichnis verschoben werden soll. Rückgabe Gibt true zurück, wenn das Verzeichnis verschoben wurde. Verzeichnis kopieren (CopyDirectory) success: Boolean := CopyDirectory([clientId: Guid,] fromDirectoryPath: Text, toDirectoryPath: Text) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. fromDirectoryPath: Text Gibt den Pfad oder UNC-Pfad des Verzeichnis an, das kopiert werden soll. toDirectoryPath: Text Gibt den Pfad oder UNC-Pfad an, zu dem das Verzeichnis kopiert werden soll. Rückgabe Gibt true zurück, wenn das Verzeichnis kopiert wurde.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.365businessdev.com/de-DE/siteicon.png"},"name":"365 business development"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 		<link type="application/atom+xml" rel="alternate" href="https://docs.365businessdev.com/de-DE/feed.xml" title="365 business development" />
@@ -510,6 +510,7 @@
 								
 									 
 									 
+									 
 									
 									
 									<li class="nav-item "><a href="/de-DE/365-business-eric/eric-whatis/">Was ist ERiC?</a></li>
@@ -517,10 +518,10 @@
 										
 											 
 											 
+											 
 											
 											
 										
-											 
 											
 											
 										
@@ -560,7 +561,6 @@
 											 
 									</ul>
 								
-									 
 									
 									
 									<li class="nav-item "><a href="/de-DE/365-business-eric/elster-tax-statements/">ELSTER Steuerdaten</a></li>
@@ -568,10 +568,10 @@
 										
 											 
 											 
+											 
 											
 											
 										
-											 
 											
 											
 										
@@ -619,10 +619,10 @@
 										
 											 
 											 
+											 
 											
 											
 										
-											 
 											
 											
 										
@@ -669,10 +669,10 @@
 										
 											 
 											 
+											 
 											
 											
 										
-											 
 											
 											
 										
@@ -719,60 +719,10 @@
 										
 											 
 											 
-											
-											
-										
 											 
 											
 											
 										
-											 
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-									</ul>
-								
-									
-									
-									<li class="nav-item "><a href="/de-DE/365-business-eric/user-certificates/">Benutzerzertifikate</a></li>
-									<ul style="margin-left: 10px;">
-										
-											 
-											 
-											
-											
-										
-											 
 											
 											
 										
@@ -819,10 +769,60 @@
 										
 											 
 											 
+											 
+											
+											
+										
 											
 											
 										
 											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-eric/user-certificates/">Benutzerzertifikate</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
 											
 											
 										
@@ -869,10 +869,10 @@
 										
 											 
 											 
+											 
 											
 											
 										
-											 
 											
 											
 										
@@ -919,10 +919,10 @@
 										
 											 
 											 
+											 
 											
 											
 										
-											 
 											
 											
 										
@@ -1309,10 +1309,80 @@
 											 
 											 
 											 
+											 
 									</ul>
 								
 									
 									 
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config/">Print Agent Konfiguration</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+												<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config-firststart/">Ersteinrichtung</a></li>
+											
+										
+											
+											
+										
+											
+											
+												<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config-printers/">Verwaltung von Druckern</a></li>
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+												<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config-connections/">Dienstmodus / Verbindungstyp</a></li>
+											
+										
+											
+											
+										
+											
+											
+												<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config-databases/">Datenbanken</a></li>
+											
+										
+											
+											
+										
+											
+											
+												<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config-statistics/">Auswertung und Statistiken</a></li>
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+									</ul>
+								
 									
 									
 									<li class="nav-item "><a href="/de-DE/365-business-print-agent/get-started/">Erste Schritte</a></li>
@@ -1367,75 +1437,6 @@
 											
 										
 											 
-											 
-											 
-									</ul>
-								
-									
-									 
-									
-									
-									<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config/">Print Agent Konfiguration</a></li>
-									<ul style="margin-left: 10px;">
-										
-											 
-											 
-											 
-											
-											
-												<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config-firststart/">Ersteinrichtung</a></li>
-											
-										
-											
-											
-										
-											
-											
-												<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config-printers/">Verwaltung von Druckern</a></li>
-											
-										
-											
-											
-										
-											
-											
-												<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config-connections/">Dienstmodus / Verbindungstyp</a></li>
-											
-										
-											
-											
-										
-											
-											
-												<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config-databases/">Datenbanken</a></li>
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-												<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config-statistics/">Auswertung und Statistiken</a></li>
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
 											 
 											 
 											 
@@ -1499,8 +1500,11 @@
 											 
 											 
 											 
+											 
 									</ul>
 								
+									
+									 
 									
 									
 									<li class="nav-item "><a href="/de-DE/365-business-print-agent/printer/">Drucker</a></li>
@@ -1554,6 +1558,7 @@
 											
 											
 										
+											 
 											 
 											 
 											 
@@ -1617,6 +1622,7 @@
 											 
 											 
 											 
+											 
 									</ul>
 								
 									
@@ -1672,6 +1678,7 @@
 											
 											
 										
+											 
 											 
 											 
 											 
@@ -1733,6 +1740,7 @@
 											 
 											 
 											 
+											 
 									</ul>
 								
 									
@@ -1788,6 +1796,7 @@
 											
 											
 										
+											 
 											 
 											 
 											 
@@ -1849,8 +1858,10 @@
 											 
 											 
 											 
+											 
 									</ul>
 								
+									 
 									 
 									 
 									 
@@ -1896,9 +1907,14 @@
 											
 											
 										
+											
+											
+										
 											 
 									</ul>
 								
+									
+									 
 									
 									 
 									
@@ -1907,6 +1923,9 @@
 									<ul style="margin-left: 10px;">
 										
 											 
+											
+											
+										
 											
 											
 										
@@ -1972,11 +1991,12 @@
 											
 											
 										
+											
+											
+										
 											 
 									</ul>
 								
-									
-									 
 									
 									
 									<li class="nav-item "><a href="/de-DE/365-business-proxy-application/plugins/">Plugins</a></li>
@@ -1993,10 +2013,18 @@
 										
 											
 											
+												<li class="nav-item "><a href="/de-DE/365-business-proxy-application/plugins/zip/">ZIP-Plugin</a></li>
+											
+										
+											
+											
 										
 											
 											
 												<li class="nav-item "><a href="/de-DE/365-business-proxy-application/plugins/image/">Bild-Plugin</a></li>
+											
+										
+											
 											
 										
 											
@@ -2013,18 +2041,20 @@
 											
 											
 										
-											
-											
-										
 											 
 									</ul>
 								
+									
+									 
 									
 									
 									<li class="nav-item "><a href="/de-DE/365-business-proxy-application/proxy-application-client-whatis/">Was ist der Proxy Application Client?</a></li>
 									<ul style="margin-left: 10px;">
 										
 											 
+											
+											
+										
 											
 											
 										
@@ -2061,6 +2091,9 @@
 									<ul style="margin-left: 10px;">
 										
 											 
+											
+											
+										
 											
 											
 										
@@ -2141,6 +2174,53 @@
 				<p>Das <strong>File</strong> Plugin in 365 business Proxy Application bietet vollumfänglichen Zugriff auf das lokale Dateisystem, sowie verfügbare Netzlaufwerke oder UNC-Pfade.</p>
 
 <p>Das File Plugin gehört zu den Standard Plugins von 365 business Proxy Application und kann direkt über die Seite <strong>Proxy Application Clients</strong> installiert werden.</p>
+
+<h2 id="objekte">Objekte</h2>
+
+<p>Die u.g. Funktionen werden über die Codeunit <code class="language-plaintext highlighter-rouge">bdev.PRX Proxy Application</code> (ID 5523630) bereitgestellt.</p>
+
+<h3 id="beispiel">Beispiel</h3>
+
+<p>Im folgenden Beispiel wird der angegebene Ordner ausgelesen. Anschließend wird geprüft, ob die Datei “hello-world.txt” bereits existiert und ggf. gelöscht. Anschließend wird eine neue Datei “hello-world.txt”, mit dem Inhalt “Hello, World!”, erstellt.</p>
+
+<pre><code class="language-al">
+procedure ExampleFilePlugin
+var
+  files: Record "bdev.PRX File Item" temporary;
+  proxyApp: Codeunit "bdev.PRX Proxy Application";
+begin
+  // get file list for directory "C:\temp"
+  proxyApp.ListFiles(
+    files,
+    'C:\temp'
+  );
+
+  // check whether "hello-world.txt" exists
+  files.Reset();
+  files.SetRange("Name", 'hello-world.txt');
+  files.SetRange("Is File", true);
+  if (files.FindFirst()) then
+    // if file exists, delete it
+    proxyApp.DeleteFile(files."File Path");
+
+  // create file "hello-world.txt"
+  proxyApp.PostFile(
+    'C:\temp\hello-world.txt',
+    GetFileWithContent('Hello, World!')
+  );  
+end;
+
+local procedure GetFileWithContent(content: Text) file: Codeunit "Temp Blob"
+var
+  stream: OutStream;
+begin
+  file.CreateOutStream(stream, TextEncoding::UTF8);
+  stream.WriteText(content);
+
+  exit(file);
+end;
+
+</code></pre>
 
 <h2 id="funktionen">Funktionen</h2>
 
