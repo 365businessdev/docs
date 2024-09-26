@@ -7,6 +7,10 @@ Das **Print** Plugin in 365 business Proxy Application bietet die Möglichkeit a
 
 Das Print Plugin gehört zu den Standard Plugins von 365 business Proxy Application und kann direkt über die Seite **Proxy Application Clients** installiert werden.
 
+## Objekte
+
+Die u.g. Funktionen werden über die Codeunit `bdev.PRX Proxy Application` (ID 5523630) bereitgestellt.
+
 ## Funktionen
 
 ### Drucken (*Print*)

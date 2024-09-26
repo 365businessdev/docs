@@ -2,6 +2,54 @@ Das **File** Plugin in 365 business Proxy Application bietet vollumfänglichen Z
 
 Das File Plugin gehört zu den Standard Plugins von 365 business Proxy Application und kann direkt über die Seite **Proxy Application Clients** installiert werden.
 
+## Objekte
+
+Die u.g. Funktionen werden über die Codeunit `bdev.PRX Proxy Application` (ID 5523630) bereitgestellt.
+
+### Beispiel
+
+Im folgenden Beispiel wird der angegebene Ordner ausgelesen. Anschließend wird geprüft, ob die Datei "hello-world.txt" bereits existiert und ggf. gelöscht. Anschließend wird eine neue Datei "hello-world.txt", mit dem Inhalt "Hello, World!", erstellt.
+
+```al
+
+procedure ExampleFilePlugin
+var
+  files: Record "bdev.PRX File Item" temporary;
+  proxyApp: Codeunit "bdev.PRX Proxy Application";
+begin
+  // get file list for directory "C:\temp"
+  proxyApp.ListFiles(
+    files,
+    'C:\temp'
+  );
+
+  // check whether "hello-world.txt" exists
+  files.Reset();
+  files.SetRange("Name", 'hello-world.txt');
+  files.SetRange("Is File", true);
+  if (files.FindFirst()) then
+    // if file exists, delete it
+    proxyApp.DeleteFile(files."File Path");
+
+  // create file "hello-world.txt"
+  proxyApp.PostFile(
+    'C:\temp\hello-world.txt',
+    GetFileWithContent('Hello, World!')
+  );  
+end;
+
+local procedure GetFileWithContent(content: Text) file: Codeunit "Temp Blob"
+var
+  stream: OutStream;
+begin
+  file.CreateOutStream(stream, TextEncoding::UTF8);
+  stream.WriteText(content);
+
+  exit(file);
+end;
+
+```
+
 ## Funktionen
 
 ### Dateiliste aufrufen (*ListFiles*)

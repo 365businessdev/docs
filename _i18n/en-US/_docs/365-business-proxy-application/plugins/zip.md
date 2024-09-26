@@ -2,6 +2,10 @@ The **ZIP** plugin in 365 business Proxy Application offers the option of creati
 
 The ZIP plugin is one of the standard plugins of 365 business Proxy Application and can be installed directly from the **Proxy Application Clients** page.
 
+## Objects
+
+The following procedures are available through `bdev.PRX Proxy Application` codeunit (ID 5523630).
+
 ## Functions
 
 ### Create ZIP compressed archive (*ZipArchive*)
