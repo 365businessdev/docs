@@ -97,6 +97,7 @@ titles:
   proxy-application-client-whatis: What is the Proxy Application Client?
   proxy-application-clients: Proxy Application Client
   proxy-application-client-installation: Install Proxy Application Client on Windows
+  multiple-printer-extensions: Multiple printer extensions installed
   plugins: Plugins
   file-plugin: File Plugin
   zip-plugin: ZIP Plugin
