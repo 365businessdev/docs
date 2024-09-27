@@ -9,7 +9,7 @@ Erweiterte Funktionalitäten sind z.B.:
 * Finishing-Optionen wie Klammern, Lochen und Binden,
 * Druckoptionen für Label-Drucker, wie Versatz, Temperatur und Druckgeschwindigkeit.
 
-## Erstellung eines Druckprofils:
+## Erstellung eines Druckprofils
 
 #### Schritt 1: Auswahl des Druckers
 

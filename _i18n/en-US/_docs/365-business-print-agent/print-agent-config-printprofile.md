@@ -9,7 +9,7 @@ Advanced functionalities include:
 * Finishing options such as stapling, punching, and binding,
 * Printing options for label printers, such as offset, temperature, and print speed.
 
-## Creating a Print Profile:
+## Creating a Print Profile
 
 #### Step 1: Select the Printer
 
@@ -57,5 +57,5 @@ Nach erfolgreicher Einrichtung können Sie den Assistenten beenden.
 Click "Save" to create the print profile and make it available in the 365 business Print Agent App.
 
 <div class="alert alert-info">
-    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong>To use the print profiles, you must refresh the printers in the 365 business Print Agent App. <a href="../print-agent-config-printers/">Learn more.</a>
+    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong>To use the print profiles, you must refresh the printers in the 365 business Print Agent App. <a href="../printer/">Learn more.</a>
 </div><br/>
