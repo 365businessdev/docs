@@ -4,6 +4,10 @@ A print profile represents a specific configuration of your printer that control
     <i class="fa-solid fa-notes"></i> <strong>Important:</strong>For basic print jobs (duplex, copies, output color, paper type, tray), print profiles are not required. However, if you want to use the printer's advanced features, you need to create a print profile.
 </div>
 
+<div class="alert alert-notice">
+    <i class="fa-solid fa-notes"></i> <strong>Important:</strong>Print profiles are only available for printers that are configured with the standard emulation type "PDF".
+</div>
+
 Advanced functionalities include:
 
 * Finishing options such as stapling, punching, and binding,
@@ -57,5 +61,5 @@ Nach erfolgreicher Einrichtung können Sie den Assistenten beenden.
 Click "Save" to create the print profile and make it available in the 365 business Print Agent App.
 
 <div class="alert alert-info">
-    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong>To use the print profiles, you must refresh the printers in the 365 business Print Agent App. <a href="../print-agent-config-printers/">Learn more.</a>
+    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong>To use the print profiles, you must refresh the printers in the 365 business Print Agent App. <a href="../printer-configuration/">Learn more.</a>
 </div><br/>

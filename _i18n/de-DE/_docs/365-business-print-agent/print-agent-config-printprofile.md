@@ -4,6 +4,10 @@ Ein Druckprofil stellt eine spezielle Konfiguration Ihres Druckers dar, die erwe
     <i class="fa-solid fa-notes"></i> <strong>Wichtig:</strong>Für die Verarbeitung von einfachen Druckaufträgen (Duplex, Kopien, Ausgabefarbe, Papierart, -fach) werden keine Druckprofile benötigt. Wenn jedoch erweiterte Funktionalitäten des Druckers genutzt werden sollen, ist dies über die Erstellung von Druckprofilen möglich.
 </div>
 
+<div class="alert alert-notice">
+    <i class="fa-solid fa-notes"></i> <strong>Wichtig:</strong>Druckprofile stehen nur bei Druckern zur Verfügung, welche mit dem Standard-Emulationstyp "PDF" konfiguriert sind.
+</div>
+
 Erweiterte Funktionalitäten sind z.B.:
 
 * Finishing-Optionen wie Klammern, Lochen und Binden,
@@ -58,5 +62,5 @@ Wählen Sie "Speichern", um das Druckprofil anzulegen und es in der 365 business
 
 
 <div class="alert alert-info">
-    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong>Um die Druckprofile zu nutzen, müssen die Drucker in der 365 business Print Agent App erneut abgerufen werden. <a href="../print-agent-config-printers/">Hier</a> erfahren Sie mehr.
+    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong>Um die Druckprofile zu nutzen, müssen die Drucker in der 365 business Print Agent App erneut abgerufen werden. <a href="../printer-configuration/">Hier</a> erfahren Sie mehr.
 </div><br/>
