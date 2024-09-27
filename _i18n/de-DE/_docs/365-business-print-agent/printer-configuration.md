@@ -1,12 +1,37 @@
 Druckereinstellungen werden als _Drucker_ in Microsoft Dynamics 365 Business Central verwendet. Für jeden Drucker wird automatisch eine Standarddruckerkonfiguration erstellt. Diese Konfiguration wird mit den verfügbaren Funktionen Ihres Druckers erstellt.
+Zusätzlich werden die festgelegten [Druckprofile](../print-agent-config-printprofile/) ebenfalls als Druckereinstellungen angelegt.
 
-Außerdem können Sie weitere Konfigurationen für verschiedene Szenarien wie Farb- und/oder Duplexdruck erstellen.
+Zusätzlich können Sie weitere Konfigurationen für verschiedene Szenarien wie Farb- und/oder Duplexdruck erstellen.
 
 <div class="alert alert-info">
     <i class="fa-solid fa-lightbulb"></i> <strong>Wichtig:</strong> Das <b>Code</b> Feld einer Druckereinstellung wird dem Benutzer über die <b>Druckerauswahl</b> und an verschiedenen anderen Stellen in Microsoft Dynamics 365 Business Central angezeigt.<br>Achten Sie darauf, dass Sie einen benutzerfreundlichen Namen für die Druckereinstellung wählen.
 </div>
 
+## Was sind Druckereinstellungen?
+
+Es gibt zwei Arten Druckereinstellungen in 365 business Print Agent:
+
+#### Druckereinstellungen
+
+Druckereinstellungen können direkt in Microsoft Dynamics 365 Business Central, basierend auf den verfügbaren Funktionalitäten, Ihres Druckers angelegt werden. Diese Einstellungen sind für einfache Druckaufträge wie Duplex, Kopien, Farbdruck, Papierart und -fach gedacht.
+
 ![Druckereinstellung](/assets/images/365-business-print-agent/1b3143accd75d67305341ac9a314b681aa754fe966df87c434e0d240752862a8.png)  
+
+#### Druckprofile
+
+Ein Druckprofil stellt eine spezielle Konfiguration Ihres Druckers dar, die erweiterte Funktionalitäten steuert.
+
+![Druckprofil](/assets/images/365-business-print-agent/73601980-d650-4193-8c9e-26e8fe823e1b.png)
+
+Erweiterte Funktionalitäten sind z.B.:
+
+* Finishing-Optionen wie Klammern, Lochen und Binden,
+* Druckoptionen für Label-Drucker, wie Versatz, Temperatur und Druckgeschwindigkeit.
+
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Gut zu wissen:</strong> Die Verwaltung von Druckprofilen wird in der 365 business Print Agent App durchgeführt.<br>
+    Erfahren Sie mehr in der  <a href="../print-agent-config-printprofile/">Dokumentation</a>.
+</div>
 
 ## Wie erstelle ich eine Druckereinstellung?
 

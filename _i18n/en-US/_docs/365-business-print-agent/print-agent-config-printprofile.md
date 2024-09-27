@@ -13,7 +13,7 @@ Advanced functionalities include:
 * Finishing options such as stapling, punching, and binding,
 * Printing options for label printers, such as offset, temperature, and print speed.
 
-## Creating a Print Profile:
+## Creating a Print Profile
 
 #### Step 1: Select the Printer
 

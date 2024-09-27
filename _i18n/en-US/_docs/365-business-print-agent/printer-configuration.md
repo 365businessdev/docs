@@ -6,7 +6,32 @@ Additionally, you can create multiple other configurations for different scenari
     <i class="fa-solid fa-lightbulb"></i> <strong>Important:</strong> The <b>Code</b> field of a Printer Configuration is displayed to the user through the <b>Printer Selection</b> and in various other locations inside Microsoft Dynamics 365 Business Central.<br>Keep in mind to choose a user-friendly Name for the Printer Configuration.
 </div>
 
+## What are Printer Configurations?
+
+There are two types of printer configurations in 365 business Print Agent:
+
+#### Printer Configuration
+
+Printer configration can be created directly in Microsoft Dynamics 365 Business Central, based on the available functionalities of your printer. These settings are intended for simple print jobs like duplex, copies, color output, paper type and tray.
+
 ![Printer Configuration](/assets/images/365-business-print-agent/1b3143accd75d67305341ac9a314b681aa754fe966df87c434e0d240752862a8.png)  
+
+#### Print Profile
+
+A print profile represents a specific configuration of your printer that controls advanced functionalities.
+
+![Print Profile](/assets/images/365-business-print-agent/73601980-d650-4193-8c9e-26e8fe823e1b.png)
+
+Advanced functionalities include:
+
+* Finishing options such as stapling, punching, and binding,
+* Printing options for label printers, such as offset, temperature, and print speed.
+
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Good to know:</strong> 
+    To manage print profiles, use the 365 business Print Agent Config tool.<br>
+    Learn more at our <a href="../print-agent-config-printprofile/">documentation</a>.
+</div>
 
 ## How do I create a Printer Configuration?
 
