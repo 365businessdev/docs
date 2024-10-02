@@ -16,6 +16,7 @@ category:
   find-and-replace: 365 business development - Suchen & Ersetzen
   365-business-address-completion: 365 business Address Completion
   365-business-proxy-application: 365 business Proxy Application
+  365-business-e-invoice: 365 business E-Invoice
 titles:
   al-developer: AL Implementation Guide
   search: Suche
@@ -104,6 +105,7 @@ titles:
   image-plugin: Bild-Plugin
   print-plugin: Druck-Plugin
   your-custom-plugin: Ihr eigenes Plugin
+  zugferd-whatis: Was ist ZUGFeRD?
 langs:
   german: Deutsch
   english: English
