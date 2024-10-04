@@ -4,6 +4,18 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-print-agent/
 ---
 
+#### Version 18.9.215.16815
+
+ - Task #59056 - Add print profile support for printer configurations.
+ - Support for LDP (Line Display Protocol) print jobs.
+ - Identify and warn for multiple printer extensions installed.
+
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Important:</strong> To enable print profile support, update the 365 business Print Agent service to version 1.5.13.16761 or later.<br><br>
+    <a href="https://365businessapi.com/api/SoftwareDownload?AppId=c2e7d99c-d3c6-4ecc-9c6b-7be4048b41a9">Get latest version</a>.
+</div>
+
+
 #### Version 18.8.210.16509
 
  - Add native support for SATO printers
