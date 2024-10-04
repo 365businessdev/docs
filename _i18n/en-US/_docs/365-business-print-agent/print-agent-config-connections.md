@@ -10,7 +10,7 @@ The advantage is that it minimizes setup and is ready to use.
 The following steps are required to print using the 365 business Print Agent Cloud:
 
 #### Microsoft Dynamics 365 Business Central
-1. Install the "365 Business Print Agent" app from the Microsoft AppSource in your Microsoft Dynamics 365 Business Central tenant.
+1. Install the "365 business Print Agent" app from the Microsoft AppSource in your Microsoft Dynamics 365 Business Central tenant.
 2. After installation, select the "Print Agent Cloud" mode of operation in the 365 business Print Agent app.
 3. Select "Authenticate Print Agent" and copy the value "Tenant ID" from the field.
 
@@ -35,14 +35,14 @@ The following dialog shows the setup process. When this dialog is closed and the
 <br>
 ### 365 business Print Agent Server
 
-Selecting the 365 Business Print Agent Server will establish a direct connection between Microsoft Dynamics 365 Business Central and the current system.
+Selecting the 365 business Print Agent Server will establish a direct connection between Microsoft Dynamics 365 Business Central and the current system.
 Due to the complexity of configuring firewalling, network routing, etc., this connection is only recommended for use with your own on-premises environment, not for use with Microsoft Dynamics 365 Business Central SaaS environments!
 
 
-The following steps are required to print using the 365 Business Print Agent Server:
+The following steps are required to print using the 365 business Print Agent Server:
 
 #### Microsoft Dynamics 365 Business Central
-1. Install the "365 Business Print Agent" app from the Microsoft AppSource in your Microsoft Dynamics 365 Business Central tenant.
+1. Install the "365 business Print Agent" app from the Microsoft AppSource in your Microsoft Dynamics 365 Business Central tenant.
 2. Select the "Direct Connection" option, afert installation of the 365 business Print Agent app.
 3. Enter a name, the service address and the service port. These correspond to the IP or http(s) address of your internal 365 business Print Agent Server instance.
 

@@ -104,6 +104,8 @@ titles:
   image-plugin: Image Plugin
   print-plugin: Print Plugin
   your-custom-plugin: Your custom Plugin
+  print-agent-config-printprofile: Print Profile
+  print-agent-lpd: LPD Support (Line Printer Daemon Protocol)
 langs:
   german: German
   english: English
