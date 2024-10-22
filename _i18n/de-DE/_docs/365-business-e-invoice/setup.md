@@ -1,5 +1,5 @@
 
-Für den Empfang einer elektronischen Rechnung reicht derzeit ein E-Mail-Postfach aus. Neben dem Versand per E-Mail kommen auch die Bereitstellung der Daten mittels elektronischer Schnittstelle oder ein Download in Betracht.
+Für den Empfang einer elektronischen Rechnung reicht derzeit ein E-Mail-Postfach aus. Neben dem Versand per E-Mail kommen auch die Bereitstellung der Daten mittels elektronischer Schnittstelle oder ein Download in Betracht.<br/>
 Wir empfehlen die Integration eines/mehrerer E-Mail-Postfächer für die automatische Verarbeitung der E-Rechnungen in Microsoft Business Central.
 
 #### E-Mail Postfächer einrichten
@@ -41,7 +41,7 @@ Durch das Aktivieren des automatischen Imports, werden Rechnungen im ZUGFeRD-For
 <br/>
 #### Erstellung einer E-Rechnung 
 
-Nach der Installation von 365 business E-Invoice ist die App grundsätzlich dafür bereit, E-Rechnungen (PDF-Rechnungen inkl. ZUGFeRD Daten) zu erzeugen.
+Nach der Installation von 365 business E-Invoice ist die App grundsätzlich dafür bereit, E-Rechnungen (PDF-Rechnungen inkl. ZUGFeRD Daten) zu erzeugen.<br/>
 Alle erzeugten Rechnungen (ausser der PDF-Dateien, die über den Button "Drucken" erzeugt werden) sind somit automatisch ZUGFeRD-konform.
 
 Wenn Sie die automatische Integration von ZUGFeRD-Daten deaktivieren möchten, gehen Sie wie folgt vor.

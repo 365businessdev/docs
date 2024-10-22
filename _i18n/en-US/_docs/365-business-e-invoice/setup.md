@@ -1,5 +1,5 @@
-After installing 365 business E-Invoice, the app is ready to generate electronic invoices.  
-For receiving an electronic invoice, an email mailbox is currently sufficient. In addition to sending via email, providing the data through an electronic interface or downloading it are also possible options.  
+
+For receiving an electronic invoice, an email mailbox is currently sufficient. In addition to sending via email, providing the data through an electronic interface or downloading it are also possible options.<br/>
 We recommend integrating one or more email mailboxes for the automatic processing of e-invoices in Microsoft Business Central.
 
 #### Setting up email mailboxes
@@ -36,3 +36,16 @@ By enabling automatic import, invoices in ZUGFeRD format from PDF files in email
 <div class="alert alert-info">
     <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong> Since processing emails is very resource-intensive, it is recommended to schedule processing during the night! Additionally, it is advisable not to set the execution interval too short.
 </div>
+
+<br/>
+#### Creating an E-Invoice
+
+After installing 365 business E-Invoice, the app is generally ready to generate e-invoices (PDF invoices including ZUGFeRD data).<br/>
+All generated invoices (except for PDF files created via the "Print" button) are automatically ZUGFeRD-compliant.
+
+If you wish to disable the automatic integration of ZUGFeRD data, follow these steps:
+Wenn Sie die automatische Integration von ZUGFeRD-Daten deaktivieren möchten, gehen Sie wie folgt vor.
+
+1. Open 2E-Document Services" using the Business Central search.
+2. Select "365 ZUGFERD", then in the following dialog, choose "Setup Service Integration".
+3. In the "365 business E-Invoice Setup" dialog, disable "Export E-Invoice".
