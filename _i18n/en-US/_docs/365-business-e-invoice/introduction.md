@@ -1,4 +1,7 @@
-From January 1, 2025, a new legal regulation will come into force in Germany that will make the receipt of electronic invoices mandatory for companies. This measure aims to reduce the administrative burden, digitize accounting and combat tax evasion. From this date, companies must receive and process their invoices in a standardized electronic format (e.g. ZUGFeRD). This applies to both the public and private sectors.
+
+From January 1, 2025, a new legal regulation will come into force in Germany that will make the receipt of electronic invoices mandatory for companies. This measure aims to reduce the administrative burden, digitize accounting and combat tax evasion. From this date, companies must receive and process their invoices in a standardized electronic format (e.g. ZUGFeRD).
+
+![365 business E-Invoice](/assets/images/365-business-e-invoice/logo.png)  
 
 Our 365 business E-Invoice app helps companies to easily meet these requirements. It enables electronic invoices to be imported directly from Outlook mailboxes or via drag & drop. The integration of Microsoft Copilot AI further automates invoice import. The system attempts to automatically assign the invoices to the existing orders in the system. If this is not possible, a new invoice is created without an order assignment and the wizard helps with the manual correction and assignment of the invoice lines.
 
@@ -29,7 +32,7 @@ With 365 business E-Invoice, companies are ideally prepared to meet the upcoming
            <div>
                <div><i class="fa-duotone fa-ballot-check"></i></div>
                <div>Step-by-step guide</div>
-               <div>Create E-Invoice</div>
+               <div>Create E-Document</div>
            </div>
        </a>
    </div>

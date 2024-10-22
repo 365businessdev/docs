@@ -106,6 +106,9 @@ titles:
   print-plugin: Druck-Plugin
   your-custom-plugin: Ihr eigenes Plugin
   zugferd-whatis: Was ist ZUGFeRD?
+  create-from-file: Aus PDF-Datei erstellen
+  import-assistent: Import Assistent
+  send-e-invoice: Erstellung & Versand von ZUGFeRD PDF Dateien
 langs:
   german: Deutsch
   english: English
