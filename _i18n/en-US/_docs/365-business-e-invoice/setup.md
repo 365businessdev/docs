@@ -1,23 +1,24 @@
 
-For receiving an electronic invoice, an email mailbox is currently sufficient. In addition to sending via email, providing the data through an electronic interface or downloading it are also possible options.<br/>
-We recommend integrating one or more email mailboxes for the automatic processing of e-invoices in Microsoft Business Central.
+Receiving an electronic invoice is currently possible via an email inbox. Alternatively, invoices can also be provided through an electronic interface or made available for download.
+<br/>
+We recommend integrating one or more email inboxes in Microsoft Business Central to streamline the automated processing of e-invoices.
+
+### E-Document Import
 
 #### Setting up email mailboxes
 
-In order to process e-invoices from email mailboxes, they need to be configured.
+To process e-invoices from email inboxes, it is necessary to configure these inboxes accordingly.
 
 <div class="alert alert-info">
     <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong> 365 business E-Invoice currently only supports email mailboxes of the "Microsoft 365" account type!
 </div>
 
-1. Open "E-Document Service" through the Business Central search.  
-2. Select "365 ZUGFERD" and, in the following dialog, click "Setup Service Integration."  
-3. In the "E-Invoice Mailbox Setup" dialog, click "New" and enter a name for the email mailbox (e.g., InvoiceMailbox).  
-4. Then, click on the value in the "Email Address" column; a new window will open where you can define your email mailbox.  
-5. Click the three dots, then select "New" and "Add email account."  
-6. In the "Set up Email" window, follow the instructions for setting up the email mailbox with the "Microsoft 365" account type.
+1. Open 365 business E-Invoice Setup" through the Business Central search.  
+2. Click on "New Line" and then on the three dots in the "Name" field.
+3. In the "Email Accounts" window, select an existing email account or click on the three dots, then choose "New" and "Add Email Account."
+4. In the "Set Up Email" window, please follow the dialog instructions for the "Microsoft 365" account type to configure the email mailbox.
 
-![365 business E-Invoice Mailbox](/assets/images/365-business-e-invoice/mailbox_en.png)
+![365 business E-Invoice Mailbox](/assets/images/365-business-e-invoice/setup_en.png)
 
 ##### Optional: Enable automatic import
 
@@ -38,7 +39,8 @@ By enabling automatic import, invoices in ZUGFeRD format from PDF files in email
 </div>
 
 <br/>
-#### Creating an E-Invoice
+
+#### E-Document Export
 
 After installing 365 business E-Invoice, the app is generally ready to generate e-invoices (PDF invoices including ZUGFeRD data).<br/>
 All generated invoices (except for PDF files created via the "Print" button) are automatically ZUGFeRD-compliant.
@@ -46,6 +48,5 @@ All generated invoices (except for PDF files created via the "Print" button) are
 If you wish to disable the automatic integration of ZUGFeRD data, follow these steps:
 Wenn Sie die automatische Integration von ZUGFeRD-Daten deaktivieren möchten, gehen Sie wie folgt vor.
 
-1. Open 2E-Document Services" using the Business Central search.
-2. Select "365 ZUGFERD", then in the following dialog, choose "Setup Service Integration".
-3. In the "365 business E-Invoice Setup" dialog, disable "Export E-Invoice".
+1. Open "365 business E-Invoice Setup" using the Business Central search.
+2. Disable "Enable ZUGFeRD E-Invoice Export" under "E-Document Export".
