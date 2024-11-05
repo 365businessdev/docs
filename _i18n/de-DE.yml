@@ -105,6 +105,8 @@ titles:
   image-plugin: Bild-Plugin
   print-plugin: Druck-Plugin
   your-custom-plugin: Ihr eigenes Plugin
+  print-agent-config-printprofile: Druckprofil
+  print-agent-lpd: Unterstützung LPD (Line Printer Daemon Protocol)
   zugferd-whatis: Was ist ZUGFeRD?
   create-from-file: Aus PDF-Datei erstellen
   import-assistent: Import Assistent
