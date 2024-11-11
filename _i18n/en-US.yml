@@ -111,6 +111,7 @@ titles:
   create-from-file: Create from PDF-File
   import-assistent: Import Assistant
   send-e-invoice: Create & send ZUGFeRD PDF files
+  zugferd-xrechnung: ZUGFeRD vs. XRechnung
 langs:
   german: German
   english: English

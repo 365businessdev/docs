@@ -2,7 +2,7 @@
 title: import-assistent
 category: 365-business-e-invoice
 permalink: /365-business-e-invoice/import-assistent/
-order: 3
+order: 4
 
 namespace: 365-business-e-invoice
 ---
