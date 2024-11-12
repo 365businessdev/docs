@@ -1,8 +1,8 @@
 ZUGFeRD Support
 ZUGFeRD (Central User Guide of the Forum for Electronic Invoices in Germany) is a standardized format for the exchange of electronic invoices, primarily designed to make electronic invoicing accessible to small and medium-sized businesses. ZUGFeRD invoices combine human-readable PDFs with machine-readable XML data, enabling both manual and automated processing of invoices.
 
-## What is ZUGFeRD 2.0?
-ZUGFeRD 2.0 is the latest version of the standard, designed to align with international formats such as the European EN16931 standard for electronic invoices in the public sector. By adhering to this standard, ZUGFeRD 2.0 ensures seamless interoperability across different countries and systems.
+## What is ZUGFeRD?
+ZUGFeRD is the latest version of the standard, designed to align with international formats such as the European EN16931 standard for electronic invoices in the public sector. By adhering to this standard, ZUGFeRD 2.0 ensures seamless interoperability across different countries and systems.
 
 ### Benefits of ZUGFeRD 2.0:
 * Interoperability: ZUGFeRD 2.0 is fully compliant with the European EN16931 standard, allowing invoices to be exchanged across borders.

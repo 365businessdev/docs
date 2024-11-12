@@ -36,7 +36,7 @@ Dort erkennen Sie Problemfälle an einem "Fehler"-Status in der "Status des elek
 
 #### Schritt-für-Schritt Problemlösung
 
-Rufen Sie den "Import Assistent" über die 3 Punkte neben der "Belegpostnr." auf.
+Starten Sie den "Import Assistent" über die entsprechende Schaltfläche in der Ansicht des ausgewählten E-Belegs.
 
 Der Import Assistent unterstützt Sie bei der schrittweisen Behebung der Probleme. Gleich zu Beginn werden Sie darüber informiert, wie viele Probleme zu lösen sind, damit die E-Rechnung erstellt werden kann. 
 Die betroffene PDF-Datei wird dabei visuell auf der rechten Seite dargestellt, um Ihnen die Bearbeitung zu erleichtern.
@@ -89,9 +89,6 @@ Wählen Sie die entsprechende Einheit aus.
 
 ![365 business E-Invoice](/assets/images/365-business-e-invoice/assistent4.png) 
 
-<div class="alert alert-info">
-    <i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong>Sobald eine Einheit einmal zugeordnet wurde, wird diese Information für zukünftige Rechnungen desselben Kreditors automatisch übernommen, um den Prozess zu beschleunigen.
-</div>
 <br/>
 ##### Abschluss der Problembehebung
 

@@ -35,7 +35,7 @@ You can recognize problem cases by the "Error" status in the "Electronic Documen
 
 #### Step-by-Step Problem Resolution
 
-Launch the "Import Assistant" by clicking the 3 dots next to the "Document No." field.
+Launch the "Import Assistant" using the corresponding button in the view of the selected E-Document.
 
 The Import Assistant will guide you through resolving the issues step by step. At the start, you will be informed about how many issues need to be resolved for the e-invoice to be created.
 The affected PDF file will be displayed visually on the right side to assist with the process.
@@ -90,9 +90,6 @@ Select the appropriate unit of measure.
 
 ![365 business E-Invoice](/assets/images/365-business-e-invoice/assistent4_en.png)
 
-<div class="alert alert-info">
-    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong> Once a unit of measure has been assigned, this information will be automatically applied to future invoices from the same vendor to speed up the process.
-</div>
 
 <br/>
 ##### Completion of Issue Resolution
