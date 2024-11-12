@@ -2,7 +2,7 @@
 title: create-from-file
 category: 365-business-e-invoice
 permalink: /365-business-e-invoice/create-from-file/
-order: 5
+order: 7
 
 namespace: 365-business-e-invoice
 ---

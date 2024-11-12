@@ -2,7 +2,7 @@
 title: setup
 category: 365-business-e-invoice
 permalink: /365-business-e-invoice/setup/
-order: 3
+order: 4
 
 namespace: 365-business-e-invoice
 ---

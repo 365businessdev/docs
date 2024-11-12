@@ -2,7 +2,7 @@
 title: supported-document-types
 category: 365-business-e-invoice
 permalink: /365-business-e-invoice/supported-document-types/
-order: 4
+order: 5
 
 namespace: 365-business-e-invoice
 ---
