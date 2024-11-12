@@ -112,6 +112,7 @@ titles:
   import-assistant: Import Assistent
   send-e-invoice: Erstellung & Versand von ZUGFeRD PDF Dateien
   zugferd-xrechnung: ZUGFeRD vs. XRechnung
+  supported-document-types: Unterstützte Belegarten
 langs:
   german: Deutsch
   english: English
