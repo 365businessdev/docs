@@ -109,7 +109,7 @@ titles:
   print-agent-lpd: LPD Support (Line Printer Daemon Protocol)
   zugferd-whatis: What is ZUGFeRD?
   create-from-file: Create from PDF-File
-  import-assistent: Import Assistant
+  import-assistant: Import Assistant
   send-e-invoice: Create & send ZUGFeRD PDF files
   zugferd-xrechnung: ZUGFeRD vs. XRechnung
 langs:
