@@ -543,6 +543,38 @@
 											
 											
 										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-e-invoice/zugferd-xrechnung/">ZUGFeRD vs. XRechnung</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
 									</ul>
 								
 									
@@ -563,14 +595,52 @@
 											
 											
 										
+											
+											
+										
+											
+											
+										
 									</ul>
 								
 									
 									
-									<li class="nav-item "><a href="/en-US/365-business-e-invoice/import-assistent/">Import Assistant</a></li>
+									<li class="nav-item "><a href="/en-US/365-business-e-invoice/supported-document-types/">Supported Document Types</a></li>
 									<ul style="margin-left: 10px;">
 										
 											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-e-invoice/import-assistant/">Import Assistant</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
 											
 											
 										
@@ -591,6 +661,12 @@
 									<ul style="margin-left: 10px;">
 										
 											 
+											
+											
+										
+											
+											
+										
 											
 											
 										
@@ -2740,11 +2816,11 @@
 					,
 					
 
-					"365-business-e-invoice-import-assistent": {
-						"id": "365-business-e-invoice-import-assistent",
+					"365-business-e-invoice-import-assistant": {
+						"id": "365-business-e-invoice-import-assistant",
 						"title": "365 business E-Invoice  - Import Assistant",
 						"category": "",
-						"url": " /365-business-e-invoice/import-assistent/",
+						"url": " /365-business-e-invoice/import-assistant/",
 						"content": "The 365 business E-Invoice Import Assistant is the central module that helps you resolve issues during the processing of ZUGFeRD PDF files or the creation of e-invoices.\n\nIf a problem occurs during the creation of an e-invoice (either automated via a linked email account or manually through uploading a ZUGFeRD PDF file), the creation process will pause and require your input to proceed.\n\nPossible causes for issues include:\n\n  Unknown vendors\n  Missing links between your items and vendor items\n  Incorrect assignment of units of measure to items.\n\n\n\n\t Important:The assignment of items and G/L accounts is done individually for each vendor to prevent incorrect automatic linking of similar item or G/L account numbers.\n\tUnits of measure, on the other hand, are stored in \"E-Document Services\" under \"365 ZUGFERD\" and \"Import Mapping\".\n\n\n\n\t Note:Once an item, G/L account, or unit of measure is assigned, it will be automatically recognized and applied by 365 business E-Invoice for recurring items, G/L accounts, and units.\n\n\n\n\t Note:Existing item assignments can be removed via the \"Item References\", and G/L account assignments via \"Text-to-Account Mapping\" for each vendor.\n\tThe removal of unit of measure assignments, however, is done in \"E-Document Services\" under \"365 ZUGFERD\" and \"Import Mapping\".\n\n\n\nResolving Issues with the Import Assistant\n\nTo identify problematic e-invoices, use the Business Central search and go to the “E-Documents” section.\nYou can recognize problem cases by the “Error” status in the “Electronic Document Status” column.\n\n\n  Open “E-Documents” using the Business Central search.\n  Identify the faulty document and open it.\n  In the “E-Document” view, you can expand the “Error Messages” section to view details about the issues.\n\n\n\n\nStep-by-Step Problem Resolution\n\nLaunch the “Import Assistant” by clicking the 3 dots next to the “Document No.” field.\n\nThe Import Assistant will guide you through resolving the issues step by step. At the start, you will be informed about how many issues need to be resolved for the e-invoice to be created.\nThe affected PDF file will be displayed visually on the right side to assist with the process.\nClick “Next” to begin resolving the issues one by one.\n\n\n     Note: You can cancel and restart the 365 business E-Invoice Import Assistant at any time.\n\n\n\n\n\nVendor\n\nIf the vendor from the ZUGFeRD PDF file is not automatically recognized, the Import Assistant will start with this assignment.\n\nSelect the appropriate vendor or create a new vendor.\n\n\n\n\nInvoice Lines (Items and G/L Accounts)\n\nNext, all invoice lines will be displayed for which no automatic link to one of your items or G/L accounts was found.\n\nSelect the corresponding item or G/L account to create the link.\n\n\n\n\n     Note: For each invoice line, you can choose whether it is an item or a G/L account.\n    Depending on your selection, the available data you can assign will change.\n\n\n\n     Note: The current invoice line will be highlighted in the PDF view on the right side to help you keep track.\n\n\n\n     Note: If an item is not available, you can ignore it for now and link it to a purchase line in a later step.\n    Once an item has been successfully assigned, it will be automatically recognized in the future.\n\n\n\nUnits of Measure\n\nIn cases where the units of measure for the invoice lines are not correctly recognized or assigned, the Import Assistant helps you manually assign the appropriate units (e.g., pieces, kilograms, liters).\n\nThis is particularly important to ensure that the invoice is calculated correctly, as different vendors may use different units for the same item.\n\nSelect the appropriate unit of measure.\n\n\n\n\n     Note: Once a unit of measure has been assigned, this information will be automatically applied to future invoices from the same vendor to speed up the process.\n\n\n\nCompletion of Issue Resolution\n\nAfter all issues have been resolved, the e-invoice is created by clicking “Finish”, and the Import Assistant closes.\n\nThe status of the document will change from “Error” to “In Progress”."
 					}
 
@@ -2762,7 +2838,7 @@
 						"title": "365 business E-Invoice  - Introduction",
 						"category": "",
 						"url": " /365-business-e-invoice/",
-						"content": "From January 1, 2025, a new legal regulation will come into force in Germany that will make the receipt of electronic invoices mandatory for companies. This measure aims to reduce the administrative burden, digitize accounting and combat tax evasion. From this date, companies must receive and process their invoices in a standardized electronic format (e.g. ZUGFeRD).\n\n\n\nOur 365 business E-Invoice app helps companies to easily meet these requirements. It enables electronic invoices to be imported directly from Outlook mailboxes or via drag &amp; drop. The integration of Microsoft Copilot AI further automates invoice import. The system attempts to automatically assign the invoices to the existing orders in the system. If this is not possible, a new invoice is created without an order assignment and the wizard helps with the manual correction and assignment of the invoice lines.\n\nIn addition to the obligation in Germany, electronic invoices are also gradually becoming mandatory in other European countries. Poland, for example, will introduce a national e-invoice system for B2B transactions from July 1, 2024, and Romania will start transmitting e-invoices in real time from January 2024.\n\nThanks to the support of the ZUGFeRD 2.0 standard (profile EN16931), our product can also convert conventional invoices into the required electronic format and optionally send them automatically to recipients.\n\nAdvantages of 365 business E-Invoice:\n\n  Automated invoice import: from Outlook mailboxes or via drag &amp; drop.\n  AI-supported assignment: Automatic recognition and assignment of invoices to orders and line items with the support of Microsoft Copilot.\n  ZUGFeRD standard: Support for the ZUGFeRD 2.0 profile EN16931 for creating and processing electronic invoices.\n  Automatic error correction: If the automatic assignment fails, our wizard helps to assign invoice details correctly manually.\n\n\nWith 365 business E-Invoice, companies are ideally prepared to meet the upcoming regulatory requirements and make their processes efficient and future-proof.\n\n\n   \n       \n           \n               \n               Overview\n               What is ZUGFeRD?\n           \n       \n   \n   \n       \n           \n               \n               Step-by-step guide\n               Create E-Document\n           \n       \n   \n   \n       \n           \n               \n               Setup\n               Setup E-Invoice\n           \n       \n   \n\n\n\n    \n        Grundlagen\n        \n            Erfahren Sie mehr über 365 business ERiC:\n            \n                Was ist 365 business ERiC?\n                Welche Steuerdatenarten werden unterstützt?\n            \n        \n    \n    \n         Erste Schritte\n             \n                Erfahren Sie wie mit 365 business ERiC Steuerdaten an ELSTER übermittelt werden:\n                \n                    ELSTER Steuerdaten erstellen\n                    Umsatzsteuervoranmeldung erstellen\n                    Umsatzsteuererklärung erstellen\n                    Dauerfristverlängerung erstellen\n                    Zusammenfassende Meldung erstellen\n                    One-Stop-Shop (OSS) erstellen\n                \n            \n    \n    \n         Einrichtung\n             \n                Erfahren Sie mehr über die Einrichtung:\n                \n                    ELSTER Einrichtung vornehmen\n                    Einrichtung in Firmendaten ergänzen\n                    MwSt.-Abrechnung einrichten"
+						"content": "From January 1, 2025, a new legal regulation will come into force in Germany that will make the receipt of electronic invoices mandatory for companies. This measure aims to reduce the administrative burden, digitize accounting and combat tax evasion. From this date, companies must receive and process their invoices in a standardized electronic format (e.g. ZUGFeRD).\n\n\n\nOur 365 business E-Invoice app helps companies to easily meet these requirements. It enables electronic invoices to be imported directly from Outlook mailboxes or via drag &amp; drop. The integration of Microsoft Copilot AI further automates invoice import. The system attempts to automatically assign the invoices to the existing orders in the system. If this is not possible, a new invoice is created without an order assignment and the wizard helps with the manual correction and assignment of the invoice lines.\n\nIn addition to the obligation in Germany, electronic invoices are also gradually becoming mandatory in other European countries. Poland, for example, will introduce a national e-invoice system for B2B transactions from July 1, 2024, and Romania will start transmitting e-invoices in real time from January 2024.\n\nThanks to the support of the ZUGFeRD 2.0 standard (profile EN16931), our product can also convert conventional invoices into the required electronic format and optionally send them automatically to recipients.\n\nAdvantages of 365 business E-Invoice:\n\n\n  Automated Import: Import and process purchase invoices and credit notes directly from Microsoft 365 mailboxes or via drag &amp; drop.\n  Automated Export: Create ZUGFeRD-compliant sales invoices and credit notes and send them via email.\n  AI-supported Assignment: Automatic recognition and assignment of invoices to orders and line items with the support of Microsoft Copilot.\n  ZUGFeRD Standard: Support for the ZUGFeRD 2.3 - EXTENDED profile (EN16931 compliant) for creating and processing electronic documents.\n  Assisted Error Correction: If the automatic assignment fails, our wizard helps to manually assign details correctly.\n\n\nWith 365 business E-Invoice, companies are ideally prepared to meet the upcoming regulatory requirements and make their processes efficient and future-proof.\n\n\n   \n       \n           \n               \n               Overview\n               What is ZUGFeRD?\n           \n       \n   \n   \n       \n           \n               \n               Step-by-step guide\n               Import Assistant\n           \n       \n   \n   \n       \n           \n               \n               Setup\n               Setup E-Invoice\n           \n       \n   \n\n\n\n   \n        Basics\n        \n            Learn more about 365 business E-Invoice:\n            \n                What is ZUGFeRD?\n                ZUGFeRD vs. XRechnung\n                Which document types are supported?\n            \n        \n    \n    \n         Guide\n             \n                Learn more about using 365 business E-Invoice:\n                \n                    Create e-document from ZUGFeRD PDF file\n                    Generate and send ZUGFeRD in PDF file\n                \n            \n    \n    \n         Setup\n             \n                Learn more about the setup:\n                \n                    Set up E-Invoice\n                    Set up E-Invoice import\n                    Set up E-Invoice export\n                    E-Document documentation (Microsoft Learn)"
 					}
 
 					
@@ -2779,7 +2855,24 @@
 						"title": "365 business E-Invoice  - Setup",
 						"category": "",
 						"url": " /365-business-e-invoice/setup/",
-						"content": "Receiving an electronic invoice is currently possible via an email inbox. Alternatively, invoices can also be provided through an electronic interface or made available for download.\n\nWe recommend integrating one or more email inboxes in Microsoft Business Central to streamline the automated processing of e-invoices.\n\nE-Document Import\n\nSetting up email mailboxes\n\nTo process e-invoices from email inboxes, it is necessary to configure these inboxes accordingly.\n\n\n     Note: 365 business E-Invoice currently only supports email mailboxes of the \"Microsoft 365\" account type!\n\n\n\n  Open 365 business E-Invoice Setup” through the Business Central search.\n  Click on “New Line” and then on the three dots in the “Name” field.\n  In the “Email Accounts” window, select an existing email account or click on the three dots, then choose “New” and “Add Email Account.”\n  In the “Set Up Email” window, please follow the dialog instructions for the “Microsoft 365” account type to configure the email mailbox.\n\n\n\n\nOptional: Enable automatic import\n\nBy enabling automatic import, invoices in ZUGFeRD format from PDF files in emails will be processed automatically.\n\n\n     Important: The user who enables automatic import must have access to this mailbox, otherwise, emails cannot be retrieved due to missing permissions.\n\n\n\n  Open “E-Document Services” through the Business Central search.\n  Select “365 ZUGFERD.”\n  Enable “Automatic Import”\n  Set the “Batch Start Time” if desired (the time when the import should occur).\n  Set “Minutes between runs” (how often emails should be retrieved, 1440min = 24h).\n\n\n\n     Note: Since processing emails is very resource-intensive, it is recommended to schedule processing during the night! Additionally, it is advisable not to set the execution interval too short.\n\n\n\n\nE-Document Export\n\nAfter installing 365 business E-Invoice, the app is generally ready to generate e-invoices (PDF invoices including ZUGFeRD data).\nAll generated invoices (except for PDF files created via the “Print” button) are automatically ZUGFeRD-compliant.\n\nIf you wish to disable the automatic integration of ZUGFeRD data, follow these steps:\nWenn Sie die automatische Integration von ZUGFeRD-Daten deaktivieren möchten, gehen Sie wie folgt vor.\n\n\n  Open “365 business E-Invoice Setup” using the Business Central search.\n  Disable “Enable ZUGFeRD E-Invoice Export” under “E-Document Export”."
+						"content": "Receiving an electronic invoice is currently already possible via email inboxes. Alternatively, invoices can also be provided via an electronic interface or offered for download.\n\n\n     Good to know:We recommend integrating one or more Microsoft 365 mailboxes into Microsoft Dynamics 365 Business Central to efficiently automate the processing of e-invoices and start with low entry barriers.\n\n\nBefore you start\n\nPlease note that the creation and processing of e-invoices may require the setup and completion of some master data in Microsoft Dynamics 365 Business Central. These include, among others:\n\n\n  Company Information (e.g., Name, Address, Registration No., VAT Registration No.)\n  Payment Methods (ZUGFeRD Payment Method)\n  Unit of Measure (International Standard Code)\n\n\n\n     Contact us!We support you in reviewing your setup in Microsoft Dynamics 365 Business Central.\n    \n    Feel free to contact us.\n\n\nE-Invoice Service\n\n\n\nThe E-Invoice Services page allows the definition of supported document formats and service integrations, as well as the setup of parameters for import logic and validation. The following extensions are made by 365 business E-Invoice:\n\n\n  Document format: Factur-X 1.0.07 - ZUGFeRD 2.3.0 - EXTENDED (EN 16931)\n  Service integration: Microsoft 365 Mailbox\n\n\nWhat is the E-Invoice Service document format?\n\nThe document format defines the structure and content of electronic documents. 365 business E-Invoice supports the import and export of electronic documents in the Factur-X 1.0.07 - ZUGFeRD 2.3.0 - EXTENDED (EN 16931) format.\n\nWhat is the E-Invoice Service service integration?\n\nThe service integration defines the interface through which electronic documents are received and sent. 365 business E-Invoice supports the service integration “Microsoft 365 Mailbox”.\n\nAre different service integrations supported?\n\nYes, other service integrations are also supported for processing with the Factur-X 1.0.07 - ZUGFeRD 2.3.0 - EXTENDED (EN 16931) document format. \nHowever, please check in advance in which data format or document format the data is provided via the service integration.\n\nE-Invoice Setup\n\nIn the 365 business E-Invoice setup, additional parameters can be specified to optimize the processing of e-invoices. These include, among others, the configuration of the email inboxes to be monitored, attaching the Factur-X - ZUGFeRD XML metadata file (XML) and the PDF document.\n\n\n\n\n  \n    \n      Field\n      Description\n    \n  \n  \n    \n      Attach ZUGFeRD XML to document\n      Specifies whether the ZUGFeRD XML metadata file is attached to the created document.\n    \n    \n      Attach ZUGFeRD PDF to document\n      Specifies whether the ZUGFeRD PDF is attached to the created document.\n    \n    \n      Enable ZUGFeRD E-Invoice export\n      Specifies whether sales invoices and credit memos are created in the Factur-X - ZUGFeRD format when the user calls the print action.\n    \n  \n\n\nE-Document Import\n\nThe receipt of electronic documents (import) is supported by 365 business E-Invoice in the Factur-X / ZUGFeRD format. This enables companies to directly process incoming e-invoices in Microsoft Dynamics 365 Business Central. Immediately after the installation of 365 business E-Invoice, the app is basically ready to process e-invoices (e.g., PDF invoices with embedded Factur-X / ZUGFeRD data).\n\n\n     Good to know:During the installation of 365 business E-Invoice, an e-invoice service with the code 365 ZUGFERD is created and fully configured.\n\n\n\n\n\n  Open E-Invoice Services via the Microsoft Dynamics 365 Business Central search.\n  Select the e-invoice service (e.g., 365 ZUGFERD).\n  Select Factur-X 1.0.07 - ZUGFeRD 2.3.0 - EXTENDED (EN 16931) in the Document Format field.\n  If desired, select Microsoft 365 Mailbox in the Service Integration field.\n  Check the parameters in the Imported Parameters section according to your company’s requirements.\n\n\nService Integration: Set up Microsoft 365 Mailbox\n\nTo retrieve and process incoming e-invoices from Microsoft 365 mailboxes, it is necessary to configure these mailboxes accordingly. This uses the Email Accounts functionality of Microsoft Dynamics 365 Business Central.\n\n\n     Note:365 business E-Invoice currently only supports email inboxes of the account type \"Microsoft 365\".\n\n\n\n\n\n  Open 365 business E-Invoice Setup via the Microsoft Dynamics 365 Business Central search.\n  Click on New Line and then on the Assist Edit (…) in the Name field to open the email account selection.\n  Select the email account or click on More Actions (…) and then select New and Add Email Account.\n    \n      In the Set up Email window, please follow the instructions of the dialog for the Microsoft 365 account type to set up the email inbox.\n    \n  \n  Click OK to close the email account selection.\n\n\n\n     Good to know:For sending e-invoices, the configured email accounts according to the email scenarios are used, regardless of the setup in the e-invoice setup.\n\n\nOptional: Enable automatic import\n\nBy enabling automatic import, purchase invoices and credit memos in the Factur-X / ZUGFeRD format from incoming emails are automatically processed.\n\n\n     Important:The user who enables automatic import must have access to this mailbox, otherwise the emails cannot be retrieved due to missing permissions.\n\n\n\n  Open E-Invoice Services via the Business Central search.\n  Select the e-invoice service (e.g., 365 ZUGFERD).\n  Select Microsoft 365 Mailbox in the Service Integration field.\n  Enable the Automatic Import option.\n  Set the Batch Start Time field, if desired, to the time when the import should occur.\n  Set the interval at which the emails should be retrieved in the Minutes between executions field (e.g., 1440min = 24h), if desired.\n\n\n\n     Note:Since the processing of emails is very resource-intensive, it is recommended to perform the processing at night. It is also recommended that the time between executions is not too short.\n\n\nE-Document Export\n\nThe sending of electronic documents (export) is supported by 365 business E-Invoice in the Factur-X / ZUGFeRD format. This enables companies to send outgoing e-invoices directly from Microsoft Dynamics 365 Business Central. Immediately after the installation of 365 business E-Invoice, the app is basically ready to send e-invoices (e.g., PDF invoices with embedded Factur-X / ZUGFeRD data).\n\nThere are two types of e-invoice export:\n\n\n  Extended E-Invoice Service Flow: The extended e-invoice service flow allows e-invoices to be sent automatically upon posting, directly from Microsoft Dynamics 365 Business Central. The e-invoice is generated when the sales document (e.g., sales invoice) is posted and sent via the integrated Microsoft Dynamics 365 Business Central workflow according to the configured e-invoice service.\n  Post and send: The e-invoice can also be generated and sent manually via the Post and send action. If the option is enabled, the electronic invoice or credit memo is sent directly from the sales document (e.g., sales invoice).\n\n\nExtended E-Invoice Service Flow\n\nThe extended e-invoice service flow is configured via the Document Sending Profiles in Microsoft Dynamics 365 Business Central. The document sending profiles can then be assigned to customers or sales documents. For the use of e-invoice services, such as 365 business E-Invoice, it is necessary that the document sending profiles are configured accordingly.\n\n\n  \n    \n      Sending Option\n      Description\n      Value\n    \n  \n  \n    \n      Electronic Document\n      Specifies whether the document is sent as an electronic document that the customer can import into their system when you choose the “Post and send” button. To use this option, you must also fill in the “Electronic Format” field. Alternatively, the file can be saved on the hard drive.\n      Extended E-Invoice Service Flow\n    \n    \n      Electronic Document Service Flow Code\n      Specifies the electronic service flow used to send documents.\n      MS-EDOCTOS-01\n    \n  \n\n\n\n\nThe Electronic Document Service Flow Code field refers to the workflow used to send the electronic document. The MS-EDOCTOS-01 workflow is provided by Microsoft, but other workflows with different conditions can also be created.\n\n\n     Learn more:Learn more about Workflows in Microsoft Dynamics 365 Business Central.\n\n\n\n\nSet up E-Invoice Service in E-Invoice Service Flow\n\nBy default, the extended e-invoice service flow uses the e-invoice service E-INVOICES, which is automatically provided by Microsoft. To configure the e-invoice service, proceed as follows:\n\n\n  Open Workflows via the Business Central search.\n  Select the workflow Send to a Service (Code MS-EDOCTOS-01).\n  In the Workflow Steps section, in the Then Response column, select the row Send E-Document using setup: ….\n\n  In the Workflow Response, select the E-Invoice Service (e.g., 365 ZUGFERD).\n  Click OK to confirm the selection.\n\n\nPost and send\n\nThe e-invoice can also be generated and sent manually via the Post and send action, or from the posted document via Send by Email. In this case, no outgoing e-invoices are generated, but the electronic invoice or credit memo is sent directly from the document via the Microsoft Dynamics 365 Business Central standard.\n\n\n     Note:The option Enable ZUGFeRD E-Invoice Export in the E-Invoice Setup must be enabled so that sales invoices and credit memos are automatically converted into electronic Factur-X - ZUGFeRD files.\n\n\nSiehe auch\n\n\n  Set up email\n  Workflows in Microsoft Dynamics 365 Business Central"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"365-business-e-invoice-supported-document-types": {
+						"id": "365-business-e-invoice-supported-document-types",
+						"title": "365 business E-Invoice  - Supported Document Types",
+						"category": "",
+						"url": " /365-business-e-invoice/supported-document-types/",
+						"content": "365 business E-Invoice supports the import of e-documents for purchase invoices and credit memos. This enables companies to efficiently process incoming invoices and credit memos and integrate them into Microsoft Dynamics 365 Business Central.\n\nFor export, sales invoices and credit memos are supported. This makes it easier for companies to send and manage outgoing invoices and credit memos directly from Microsoft Dynamics 365 Business Central.\n\nImported Document Types\n\n  Purchase Invoices\n  Purchase Credit Memos\n\n\nExported Document Types\n\n  Sales Invoices\n  Sales Credit Memos\n\n\nThrough integration with Microsoft Dynamics 365 Business Central, companies can optimize their accounting processes and ensure data accuracy. The seamless connection between 365 business E-Invoice and Dynamics 365 Business Central enables efficient management of e-documents and contributes to improved operational efficiency."
 					}
 
 					
@@ -2797,6 +2890,23 @@
 						"category": "",
 						"url": " /365-business-e-invoice/zugferd-whatis/",
 						"content": "ZUGFeRD Support\nZUGFeRD (Central User Guide of the Forum for Electronic Invoices in Germany) is a standardized format for the exchange of electronic invoices, primarily designed to make electronic invoicing accessible to small and medium-sized businesses. ZUGFeRD invoices combine human-readable PDFs with machine-readable XML data, enabling both manual and automated processing of invoices.\n\nWhat is ZUGFeRD 2.0?\nZUGFeRD 2.0 is the latest version of the standard, designed to align with international formats such as the European EN16931 standard for electronic invoices in the public sector. By adhering to this standard, ZUGFeRD 2.0 ensures seamless interoperability across different countries and systems.\n\nBenefits of ZUGFeRD 2.0:\n\n  Interoperability: ZUGFeRD 2.0 is fully compliant with the European EN16931 standard, allowing invoices to be exchanged across borders.\n  Dual Format: The format combines a PDF for human use and XML data for automated processing in one file.\n  Automated Processing: Incoming invoices can be automatically read and processed, reducing manual effort and errors.\n  Flexibility: ZUGFeRD is suitable for businesses of all sizes and can be integrated into existing IT systems with ease.\n\n\nZUGFeRD in 365 business E-Invoice\nOur app, 365 business E-Invoice, offers complete support for ZUGFeRD 2.0 EN16931. This allows companies to both receive invoices in the ZUGFeRD format and convert their Business Central invoices into ZUGFeRD format for outgoing invoices. The automated conversion and optional automatic dispatch of ZUGFeRD invoices make it easier for businesses to comply with legal requirements efficiently.\n\nBy supporting the ZUGFeRD standard, our solution streamlines the invoicing process, enabling businesses to take full advantage of automated invoice generation and processing. This automation saves time and resources while ensuring that all invoices comply with current legal standards."
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"365-business-e-invoice-zugferd-xrechnung": {
+						"id": "365-business-e-invoice-zugferd-xrechnung",
+						"title": "365 business E-Invoice  - ZUGFeRD vs. XRechnung",
+						"category": "",
+						"url": " /365-business-e-invoice/zugferd-xrechnung/",
+						"content": "ZUGFeRD and XRechnung are two key standards for electronic invoices, differing in structure, application, and target audience. Both comply with the EN-16931 standard, but they offer distinct approaches for processing and exchanging invoice data. While ZUGFeRD, as a hybrid format, combines visual and machine-readability, XRechnung focuses solely on structured, machine-readable data transmission.\n\nThe following table highlights the key differences and use cases of these two formats:\n\n\n  \n    \n      Feature\n      ZUGFeRD\n      XRechnung\n    \n  \n  \n    \n      Format\n      Hybrid (PDF + XML)\n      Pure XML\n    \n    \n      Primary Use Case\n      Invoices in B2B and B2G sectors\n      Primarily in B2G sector in Germany\n    \n    \n      Readability\n      PDF for humans, XML for machines\n      Machine-readable only (XML)\n    \n    \n      Standard\n      EN-16931, supports multiple profiles\n      EN-16931, based on German specification\n    \n    \n      Profiles\n      Basic, Comfort, Extended (depending on detail level)\n      No profiles, single standard format\n    \n    \n      Adoption\n      Widely used across Europe\n      Primarily in Germany, growing in Europe\n    \n    \n      Compatibility\n      Can be viewed as a standard PDF\n      Requires special software to read XML\n    \n    \n      Recommended Use\n      B2B, where visual review is needed\n      B2G, where structured data is required\n    \n    \n      Strength\n      Combines visual and machine-readability\n      High data consistency and standardization"
 					}
 
 					

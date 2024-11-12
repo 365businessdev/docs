@@ -380,8 +380,7 @@ body::before { content: ""; background-color: #fff; position: fixed; top: 0; rig
   body #search-input, body::after { box-shadow: inset -10px 0 10px -10px rgba(0, 0, 0, 0.1); }
   body::before { left: 310px; right: 0; background-color: #fff; } }
 
-.main { margin-top: 232.8px; }
-@media (min-width: 700px) { .main { margin-top: 0; } }
+.main { margin-top: 32px; }
 
 #page-scroll-title { padding-left: 10px; padding-top: 5px; display: none; }
 
@@ -484,7 +483,7 @@ article > p > img, article > .settings-panel-example > img { margin-left: auto; 
 
 .alert-warn { color: #600c13; background-color: #f1d1d1; border-color: #f1d1d1; }
 
-.alert { position: relative; padding: 0.75rem 1.25rem; margin-bottom: 1rem; border: 1px solid transparent; border-radius: 0.25rem; }
+.alert { position: relative; padding: 0.75rem 1.25rem; margin-bottom: 20px; border: 1px solid transparent; border-radius: 0.25rem; }
 
 .alert > strong:first-of-type::after { content: "\A"; white-space: pre; }
 
