@@ -1,5 +1,5 @@
 
-Ab dem 1. Januar 2025 tritt in Deutschland eine neue gesetzliche Regelung in Kraft, die Unternehmen verpflichtet, elektronische Rechnungen zu empfangen. Ziel dieser Maßnahme ist es, den administrativen Aufwand zu senken, die Buchhaltung zu digitalisieren und Steuerhinterziehung wirksamer zu bekämpfen. Unternehmen müssen ab diesem Datum Rechnungen in einem standardisierten elektronischen Format (z. B. ZUGFeRD) empfangen und verarbeiten. 
+Ab dem 1. Januar 2025 tritt in Deutschland eine neue gesetzliche Regelung in Kraft, die Unternehmen verpflichtet, elektronische Rechnungen zu empfangen. Ziel dieser Maßnahme ist es, den administrativen Aufwand zu senken, die Buchhaltung zu digitalisieren und Steuerhinterziehung wirksamer zu bekämpfen. Unternehmen müssen ab diesem Datum Rechnungen in einem standardisierten elektronischen Format (z.B. ZUGFeRD) empfangen und verarbeiten. 
 
 ![365 business E-Invoice](/assets/images/365-business-e-invoice/logo.png)  
 
@@ -7,15 +7,17 @@ Unsere Lösung, 365 business E-Invoice, unterstützt Unternehmen dabei, diese An
 
 Neben der Pflicht in Deutschland wird auch in anderen europäischen Ländern schrittweise die Verpflichtung zur elektronischen Rechnungsstellung eingeführt. Polen beispielsweise implementiert ab dem 1. Juli 2024 ein nationales E-Rechnungssystem für B2B-Transaktionen, und Rumänien startet ab Januar 2024 die Echtzeitübermittlung von E-Rechnungen.
 
-Dank der Unterstützung des ZUGFeRD 2.0-Standards (Profil EN16931) kann unser Produkt auch herkömmliche Rechnungen in das geforderte elektronische Format konvertieren und optional automatisch an die Empfänger versenden.
+Dank der Unterstützung des ZUGFeRD / Factur-X Standards (Profil EXTENDED) kann unser Produkt auch herkömmliche Rechnungen in das geforderte elektronische Format konvertieren und optional automatisch an die Empfänger versenden.
 
-Vorteile von 365 business E-Invoice:
-* Automatisierter Rechnungsimport: Direkt aus Outlook-Postfächern oder per Drag & Drop.
-* KI-gestützte Zuordnung: Automatische Erkennung und Zuordnung von Rechnungen zu Bestellungen und Einzelposten mithilfe von Microsoft Copilot.
-* ZUGFeRD-Standard: Unterstützung des ZUGFeRD 2.0-Profils (EN16931) für die Erstellung und Verarbeitung elektronischer Rechnungen.
-* Assistierte Fehlerbehebung: Falls die automatische Zuordnung fehlschlägt, hilft unser Assistent, Rechnungsdetails manuell korrekt zuzuordnen.
+### Vorteile von 365 business E-Invoice:
 
-Mit 365 business E-Invoice sind Unternehmen optimal auf die kommenden regulatorischen Anforderungen vorbereitet und können ihre Prozesse effizient und zukunftssicher gestalten.
+* **Automatisierter Import:** Direkt aus Microsoft 365-Postfächern oder per Drag & Drop Einkaufsrechnungen und -gutschriften importieren und verarbeiten.
+* **Automatisierter Export:** Erstellung von ZUGFeRD-konformen Verkaufsrechnungen und -gutschriften und Versand per E-Mail.
+* **KI-gestützte Zuordnung:** Automatische Erkennung und Zuordnung von Rechnungen zu Bestellungen und Einzelposten mithilfe von Microsoft Copilot.
+* **ZUGFeRD-Standard:** Unterstützung des ZUGFeRD 2.3 - EXTENDED Profils (EN16931 konform) für die Erstellung und Verarbeitung elektronischer Belege.
+* **Assistierte Fehlerbehebung:** Falls die automatische Zuordnung fehlschlägt, hilft unser Assistent, Details manuell korrekt zuzuordnen.
+
+Mit 365 business E-Invoice sind Unternehmen optimal auf die regulatorischen Anforderungen vorbereitet und können ihre Prozesse effizient und zukunftssicher gestalten.
 
 <div class="columns">
    <div>
@@ -28,7 +30,7 @@ Mit 365 business E-Invoice sind Unternehmen optimal auf die kommenden regulatori
        </a>
    </div>
    <div>
-       <a href="import-assistent/">
+       <a href="import-assistant/">
            <div>
                <div><i class="fa-duotone fa-ballot-check"></i></div>
                <div>Schrittanleitung</div>
@@ -49,14 +51,15 @@ Mit 365 business E-Invoice sind Unternehmen optimal auf die kommenden regulatori
 
 <div class="columns" style="margin-top: 30px;">
    <div>
- <!--       <span class="columns-title">Grundlagen</span>
+        <span class="columns-title">Grundlagen</span>
         <p>
-            Erfahren Sie mehr über 365 business ERiC:
+            Erfahren Sie mehr über 365 business E-Invoice:
             <ul class="fa-ul">
-                <li><span class="fa-li"><i class="fa-solid fa-pen-ruler"></i></span><a href="eric-whatis">Was ist 365 business ERiC?</a></li>
-                <li><span class="fa-li"><i class="fa-solid fa-folders"></i></span><a href="elster-tax-data-type">Welche Steuerdatenarten werden unterstützt?</a></li>
+                <li><span class="fa-li"><i class="fa-solid fa-pen-ruler"></i></span><a href="zugferd-whatis/">Was ist ZUGFeRD?</a></li>
+                <li><span class="fa-li"><i class="fa-solid fa-pen-ruler"></i></span><a href="zugferd-xrechnung/">ZUGFeRD vs. XRechnung</a></li>
+                <li><span class="fa-li"><i class="fa-solid fa-folders"></i></span><a href="supported-document-types/">Welche Belegarten werden unterstützt?</a></li>
             </ul>
-        </p>-->
+        </p>
     </div>
     <div>
          <span class="columns-title">Anleitung</span>
@@ -68,19 +71,16 @@ Mit 365 business E-Invoice sind Unternehmen optimal auf die kommenden regulatori
                 </ul>
             </p>
     </div>
-
     <div>
-	<!--	
          <span class="columns-title">Einrichtung</span>
              <p>
                 Erfahren Sie mehr über die Einrichtung:
                 <ul class="fa-ul">
-                    <li><span class="fa-li"><i class="fa-solid fa-pen-ruler"></i></span><a href="setup/">ELSTER Einrichtung vornehmen</a></li>
-                    <li><span class="fa-li"><i class="fa-solid fa-buildings"></i></span><a href="company-information/">Einrichtung in Firmendaten ergänzen</a></li>
-                    <li><span class="fa-li"><i class="fa-solid fa-calculator-simple"></i></span><a href="vat-statement-setup/">MwSt.-Abrechnung einrichten</a></li>
+                    <li><span class="fa-li"><i class="fa-solid fa-pen-ruler"></i></span><a href="setup/">E-Invoice Einrichtung vornehmen</a></li>
+                    <li><span class="fa-li"><i class="fa-solid fa-file-import"></i></span><a href="setup/#e-beleg-import">E-Invoice Import einrichten</a></li>
+                    <li><span class="fa-li"><i class="fa-solid fa-file-export"></i></span><a href="setup/#e-beleg-export">E-Invoice Export einrichten</a></li>
+                    <li><span class="fa-li"><i class="fa-solid fa-book"></i></span><a href="https://learn.microsoft.com/de-de/dynamics365/business-central/finance-edocuments-overview" target="_blank">E-Beleg Dokumentation (Microsoft Learn)<i class="fa-solid fa-up-right-from-square" style="font-size: x-small; vertical-align: super; margin-left: 5px;"></i></a></li>
                 </ul>
             </p>
-			-->	
     </div>
-
 </div>
