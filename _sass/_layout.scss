@@ -303,11 +303,11 @@ body {
 }
 
 .main {
-	margin-top: 232.8px;
+	margin-top: 32px;
 
-	@media (min-width: $mobile-break) {
-		margin-top: 0;
-	}
+	// @media (min-width: $mobile-break) {
+	// 	margin-top: 0;
+	// }
 }
 
 #page-scroll-title {
@@ -763,7 +763,7 @@ article > p > img {
 .alert {
     position: relative;
     padding: 0.75rem 1.25rem;
-    margin-bottom: 1rem;
+    margin-bottom: 20px;
     border: 1px solid transparent;
     border-radius: 0.25rem;
 }
