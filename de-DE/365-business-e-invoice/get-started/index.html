@@ -1,0 +1,2611 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<!-- Matomo Tag Manager -->
+		<script>
+			var _mtm = window._mtm = window._mtm || [];
+			_mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.async=true; g.src='https://cdn.matomo.cloud/businessdev.matomo.cloud/container_v7xJrAFg.js'; s.parentNode.insertBefore(g,s);
+		</script>
+		<!-- End Matomo Tag Manager -->
+		<script src="/de-DE/scripts/anchor.min.js"></script>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title> Erste Schritte | 365 business development</title>
+
+		<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>get-started | 365 business development</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="get-started" />
+<meta name="author" content="365 business development" />
+<meta property="og:locale" content="de_DE" />
+<meta name="description" content="In dieser Kurzanleitung wird erklärt, wie Sie 365 business E-Invoice aktivieren und einrichten. Voraussetzungen Microsoft Dynamics 365 Business Central 2024 release wave 1 (24.0) oder neuer. Microsoft 365 Postfach (optional, für Empfang von E-Rechnungen per E-Mail) Wichtiger Hinweis:Diese Kurzanleitung konzentriert sich auf den Empfang von E-Rechnungen im Factur-X - ZUGFeRD Format über die Microsoft 365 Postfach Integration.Für weitere Informationen zur Einrichtung besuchen Sie bitte die Dokumentation. Schritt 1: Installation von 365 business E-Invoice Öffnen Sie den Marketplace für Erweiterungen in Microsoft Dynamics 365 Business Central und suchen Sie nach 365 business E-Invoice. Installieren Sie die App von Microsoft AppSource und warten Sie, bis die Installation abgeschlossen ist. Schritt 1.1: Microsoft 365 Postfach Integration einrichten Um eingehende E-Belege aus Microsoft 365 Postfächern abrufen und verarbeiten zu können, ist es erforderlich, diese Postfächer entsprechend zu konfigurieren. Hierzu wird auf die E-Mail Konten Funktionalität von Microsoft Dynamics 365 Business Central zurückgegriffen. Öffnen Sie 365 business E-Invoice Einrichtung über die Microsoft Dynamics 365 Business Central Suche. Klicken Sie auf Neue Zeile und im Anschluss auf den Assit Edit (…) im Feld Name, um die Auswahl der E-Mail Konten zu öffnen. Wählen Sie das E-Mail-Konto, dass Sie für den Rechnungsempfang nutzen möchten. Klicken Sie auf OK um die E-Mail-Konto Auswahl zu schließen. Schritt 1.2: Abruf von E-Belegen über E-Belegdienst automatisieren Durch das Aktivieren des automatischen Imports, werden Einkaufsrechnungen und -gutschriften im Factur-X / ZUGFeRD-Format aus den eingehenden E-Mails automatisch verarbeitet. Öffnen Sie E-Belegdienste über die Business Central Suche. Wählen Sie den E-Belegdienst aus (z.B. 365 ZUGFERD). Prüfen Sie, dass Microsoft 365 Postfach im Feld Dienstintegration ausgewählt ist. Aktivieren Sie die Option Automatischer Import. Setzen Sie im Feld Stapel-Startzeit, falls gewünscht, die Uhrzeit, wann der Import erfolgen soll. Setzen Sie, falls gewünscht, das Intervall in dem die E-Mails abgerufen werden sollen im Feld Minuten zwischen Ausführungen (z.B. 1440min = 24h). Gut zu wissen:Sie können den Abruf der E-Belege aus den konfigurierten Microsoft 365 Postfächern auch manuell auslösen. Hierzu können Sie die Aktion Empfangen im E-Belegdienst aufrufen. Schritt 2: E-Belege verarbeiten Die Verarbeitung der E-Belege erfolgt automatisch durch den E-Belegdienst. Die E-Belege werden in Microsoft Dynamics 365 Business Central als Bestellungen, Einkaufsrechnungen oder -gutschriften angelegt. Der grundsätzliche Verarbeitungsprozess für Bestellungen, Einkaufsrechnungen oder -gutschriften ist wie folgt: Öffnen Sie E-Belege über die Business Central Suche. Öffnen Sie den E-Beleg, um die Details der Rechnung einzusehen. Überprüfen Sie die E-Belege auf Vollständigkeit und korrigieren Sie ggf. fehlende Informationen. Klicken Sie auf den Drilldown-Link Beleg um die Bestellung, Einkaufsrechnung oder -gutschrift zu öffnen. Buchen Sie den Beleg. Während der Verarbeitung von E-Belegen können Fehler auftreten, die die automatische Verarbeitung verhindern. Um problembehaftete E-Rechnungen zu identifizieren, verwenden Sie die Business Central Suche und rufen den Bereich E-Belege auf. Dort erkennen Sie Problemfälle an einem Fehler-Status in der Status des elektronischen Belegs-Spalte. Öffnen Sie E-Belege über die Business Central Suche. Identifizieren Sie einen fehlerhaften Beleg und öffnen Sie diesen. In der Ansicht E-Beleg können Sie den Bereich Fehlermeldungen erweitern, um Details zu den vorliegenden Problemen zu sehen. Mögliche Ursachen für Probleme sind vielfältig, wie beispielsweise: Unbekannte Kreditoren Fehlende Verknüpfung zwischen Ihren Artikeln und den Kreditorenartikeln Fehlerhafte Zuordnung von Einheiten (Maßeinheiten) zu Artikeln. Schritt 2.1: E-Belege verarbeiten - Fehler bearbeiten Um problembehaftete E-Belege zu bearbeiten wird über 365 business E-Invoice der Importassistent bereitgestellt. Dieser unterstützt Sie bei der schrittweisen Behebung der Probleme in Ihrem E-Beleg und ermöglicht Ihnen die manuelle Korrektur. Rufen Sie die Aktion Importassistent in dem E-Beleg auf. Der Importassistent unterstützt Sie bei der schrittweisen Behebung der Probleme (siehe Import Assistent). Siehe auch Einrichtung Import Assistent" />
+<meta property="og:description" content="In dieser Kurzanleitung wird erklärt, wie Sie 365 business E-Invoice aktivieren und einrichten. Voraussetzungen Microsoft Dynamics 365 Business Central 2024 release wave 1 (24.0) oder neuer. Microsoft 365 Postfach (optional, für Empfang von E-Rechnungen per E-Mail) Wichtiger Hinweis:Diese Kurzanleitung konzentriert sich auf den Empfang von E-Rechnungen im Factur-X - ZUGFeRD Format über die Microsoft 365 Postfach Integration.Für weitere Informationen zur Einrichtung besuchen Sie bitte die Dokumentation. Schritt 1: Installation von 365 business E-Invoice Öffnen Sie den Marketplace für Erweiterungen in Microsoft Dynamics 365 Business Central und suchen Sie nach 365 business E-Invoice. Installieren Sie die App von Microsoft AppSource und warten Sie, bis die Installation abgeschlossen ist. Schritt 1.1: Microsoft 365 Postfach Integration einrichten Um eingehende E-Belege aus Microsoft 365 Postfächern abrufen und verarbeiten zu können, ist es erforderlich, diese Postfächer entsprechend zu konfigurieren. Hierzu wird auf die E-Mail Konten Funktionalität von Microsoft Dynamics 365 Business Central zurückgegriffen. Öffnen Sie 365 business E-Invoice Einrichtung über die Microsoft Dynamics 365 Business Central Suche. Klicken Sie auf Neue Zeile und im Anschluss auf den Assit Edit (…) im Feld Name, um die Auswahl der E-Mail Konten zu öffnen. Wählen Sie das E-Mail-Konto, dass Sie für den Rechnungsempfang nutzen möchten. Klicken Sie auf OK um die E-Mail-Konto Auswahl zu schließen. Schritt 1.2: Abruf von E-Belegen über E-Belegdienst automatisieren Durch das Aktivieren des automatischen Imports, werden Einkaufsrechnungen und -gutschriften im Factur-X / ZUGFeRD-Format aus den eingehenden E-Mails automatisch verarbeitet. Öffnen Sie E-Belegdienste über die Business Central Suche. Wählen Sie den E-Belegdienst aus (z.B. 365 ZUGFERD). Prüfen Sie, dass Microsoft 365 Postfach im Feld Dienstintegration ausgewählt ist. Aktivieren Sie die Option Automatischer Import. Setzen Sie im Feld Stapel-Startzeit, falls gewünscht, die Uhrzeit, wann der Import erfolgen soll. Setzen Sie, falls gewünscht, das Intervall in dem die E-Mails abgerufen werden sollen im Feld Minuten zwischen Ausführungen (z.B. 1440min = 24h). Gut zu wissen:Sie können den Abruf der E-Belege aus den konfigurierten Microsoft 365 Postfächern auch manuell auslösen. Hierzu können Sie die Aktion Empfangen im E-Belegdienst aufrufen. Schritt 2: E-Belege verarbeiten Die Verarbeitung der E-Belege erfolgt automatisch durch den E-Belegdienst. Die E-Belege werden in Microsoft Dynamics 365 Business Central als Bestellungen, Einkaufsrechnungen oder -gutschriften angelegt. Der grundsätzliche Verarbeitungsprozess für Bestellungen, Einkaufsrechnungen oder -gutschriften ist wie folgt: Öffnen Sie E-Belege über die Business Central Suche. Öffnen Sie den E-Beleg, um die Details der Rechnung einzusehen. Überprüfen Sie die E-Belege auf Vollständigkeit und korrigieren Sie ggf. fehlende Informationen. Klicken Sie auf den Drilldown-Link Beleg um die Bestellung, Einkaufsrechnung oder -gutschrift zu öffnen. Buchen Sie den Beleg. Während der Verarbeitung von E-Belegen können Fehler auftreten, die die automatische Verarbeitung verhindern. Um problembehaftete E-Rechnungen zu identifizieren, verwenden Sie die Business Central Suche und rufen den Bereich E-Belege auf. Dort erkennen Sie Problemfälle an einem Fehler-Status in der Status des elektronischen Belegs-Spalte. Öffnen Sie E-Belege über die Business Central Suche. Identifizieren Sie einen fehlerhaften Beleg und öffnen Sie diesen. In der Ansicht E-Beleg können Sie den Bereich Fehlermeldungen erweitern, um Details zu den vorliegenden Problemen zu sehen. Mögliche Ursachen für Probleme sind vielfältig, wie beispielsweise: Unbekannte Kreditoren Fehlende Verknüpfung zwischen Ihren Artikeln und den Kreditorenartikeln Fehlerhafte Zuordnung von Einheiten (Maßeinheiten) zu Artikeln. Schritt 2.1: E-Belege verarbeiten - Fehler bearbeiten Um problembehaftete E-Belege zu bearbeiten wird über 365 business E-Invoice der Importassistent bereitgestellt. Dieser unterstützt Sie bei der schrittweisen Behebung der Probleme in Ihrem E-Beleg und ermöglicht Ihnen die manuelle Korrektur. Rufen Sie die Aktion Importassistent in dem E-Beleg auf. Der Importassistent unterstützt Sie bei der schrittweisen Behebung der Probleme (siehe Import Assistent). Siehe auch Einrichtung Import Assistent" />
+<link rel="canonical" href="https://docs.365businessdev.com/de-DE/365-business-e-invoice/get-started/" />
+<meta property="og:url" content="https://docs.365businessdev.com/de-DE/365-business-e-invoice/get-started/" />
+<meta property="og:site_name" content="365 business development" />
+<script type="application/ld+json">
+{"url":"https://docs.365businessdev.com/de-DE/365-business-e-invoice/get-started/","author":{"@type":"Person","name":"365 business development"},"@type":"Article","headline":"get-started","description":"In dieser Kurzanleitung wird erklärt, wie Sie 365 business E-Invoice aktivieren und einrichten. Voraussetzungen Microsoft Dynamics 365 Business Central 2024 release wave 1 (24.0) oder neuer. Microsoft 365 Postfach (optional, für Empfang von E-Rechnungen per E-Mail) Wichtiger Hinweis:Diese Kurzanleitung konzentriert sich auf den Empfang von E-Rechnungen im Factur-X - ZUGFeRD Format über die Microsoft 365 Postfach Integration.Für weitere Informationen zur Einrichtung besuchen Sie bitte die Dokumentation. Schritt 1: Installation von 365 business E-Invoice Öffnen Sie den Marketplace für Erweiterungen in Microsoft Dynamics 365 Business Central und suchen Sie nach 365 business E-Invoice. Installieren Sie die App von Microsoft AppSource und warten Sie, bis die Installation abgeschlossen ist. Schritt 1.1: Microsoft 365 Postfach Integration einrichten Um eingehende E-Belege aus Microsoft 365 Postfächern abrufen und verarbeiten zu können, ist es erforderlich, diese Postfächer entsprechend zu konfigurieren. Hierzu wird auf die E-Mail Konten Funktionalität von Microsoft Dynamics 365 Business Central zurückgegriffen. Öffnen Sie 365 business E-Invoice Einrichtung über die Microsoft Dynamics 365 Business Central Suche. Klicken Sie auf Neue Zeile und im Anschluss auf den Assit Edit (…) im Feld Name, um die Auswahl der E-Mail Konten zu öffnen. Wählen Sie das E-Mail-Konto, dass Sie für den Rechnungsempfang nutzen möchten. Klicken Sie auf OK um die E-Mail-Konto Auswahl zu schließen. Schritt 1.2: Abruf von E-Belegen über E-Belegdienst automatisieren Durch das Aktivieren des automatischen Imports, werden Einkaufsrechnungen und -gutschriften im Factur-X / ZUGFeRD-Format aus den eingehenden E-Mails automatisch verarbeitet. Öffnen Sie E-Belegdienste über die Business Central Suche. Wählen Sie den E-Belegdienst aus (z.B. 365 ZUGFERD). Prüfen Sie, dass Microsoft 365 Postfach im Feld Dienstintegration ausgewählt ist. Aktivieren Sie die Option Automatischer Import. Setzen Sie im Feld Stapel-Startzeit, falls gewünscht, die Uhrzeit, wann der Import erfolgen soll. Setzen Sie, falls gewünscht, das Intervall in dem die E-Mails abgerufen werden sollen im Feld Minuten zwischen Ausführungen (z.B. 1440min = 24h). Gut zu wissen:Sie können den Abruf der E-Belege aus den konfigurierten Microsoft 365 Postfächern auch manuell auslösen. Hierzu können Sie die Aktion Empfangen im E-Belegdienst aufrufen. Schritt 2: E-Belege verarbeiten Die Verarbeitung der E-Belege erfolgt automatisch durch den E-Belegdienst. Die E-Belege werden in Microsoft Dynamics 365 Business Central als Bestellungen, Einkaufsrechnungen oder -gutschriften angelegt. Der grundsätzliche Verarbeitungsprozess für Bestellungen, Einkaufsrechnungen oder -gutschriften ist wie folgt: Öffnen Sie E-Belege über die Business Central Suche. Öffnen Sie den E-Beleg, um die Details der Rechnung einzusehen. Überprüfen Sie die E-Belege auf Vollständigkeit und korrigieren Sie ggf. fehlende Informationen. Klicken Sie auf den Drilldown-Link Beleg um die Bestellung, Einkaufsrechnung oder -gutschrift zu öffnen. Buchen Sie den Beleg. Während der Verarbeitung von E-Belegen können Fehler auftreten, die die automatische Verarbeitung verhindern. Um problembehaftete E-Rechnungen zu identifizieren, verwenden Sie die Business Central Suche und rufen den Bereich E-Belege auf. Dort erkennen Sie Problemfälle an einem Fehler-Status in der Status des elektronischen Belegs-Spalte. Öffnen Sie E-Belege über die Business Central Suche. Identifizieren Sie einen fehlerhaften Beleg und öffnen Sie diesen. In der Ansicht E-Beleg können Sie den Bereich Fehlermeldungen erweitern, um Details zu den vorliegenden Problemen zu sehen. Mögliche Ursachen für Probleme sind vielfältig, wie beispielsweise: Unbekannte Kreditoren Fehlende Verknüpfung zwischen Ihren Artikeln und den Kreditorenartikeln Fehlerhafte Zuordnung von Einheiten (Maßeinheiten) zu Artikeln. Schritt 2.1: E-Belege verarbeiten - Fehler bearbeiten Um problembehaftete E-Belege zu bearbeiten wird über 365 business E-Invoice der Importassistent bereitgestellt. Dieser unterstützt Sie bei der schrittweisen Behebung der Probleme in Ihrem E-Beleg und ermöglicht Ihnen die manuelle Korrektur. Rufen Sie die Aktion Importassistent in dem E-Beleg auf. Der Importassistent unterstützt Sie bei der schrittweisen Behebung der Probleme (siehe Import Assistent). Siehe auch Einrichtung Import Assistent","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.365businessdev.com/de-DE/siteicon.png"},"name":"365 business development"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+		<link type="application/atom+xml" rel="alternate" href="https://docs.365businessdev.com/de-DE/feed.xml" title="365 business development" />
+
+		<link rel="stylesheet" href="/de-DE/css/main.css">		
+		<link href="/assets/fontawesome-pro/css/fontawesome.css" rel="stylesheet">
+		<link href="/assets/fontawesome-pro/css/light.css" rel="stylesheet">
+		<link href="/assets/fontawesome-pro/css/thin.css" rel="stylesheet">
+		<link href="/assets/fontawesome-pro/css/solid.css" rel="stylesheet">
+		<link href="/assets/fontawesome-pro/css/regular.css" rel="stylesheet">
+		<link href="/assets/fontawesome-pro/css/duotone.css" rel="stylesheet">
+		<link rel="icon" type="image/png" href="/assets/images/favicon.png">
+		<style>
+			/* add company color to fa-solid style */
+			.columns .fa-solid {
+				/*color: #60c5ce !important;*/
+				color: #00b7c3 !important;
+			}
+			/* change color for all links in divs on introduction pages */
+			.fa-ul a {
+				color: #00b7c3 !important;
+			}
+
+			/* optional: change color for hovered or focused links in divs on introduction pages */
+			.fa-ul a:hover, a:focus {
+				color: #0099a3 !important; /* slightly darker color for hover or focus */
+			}			
+		</style>
+	</head>
+
+	<body>
+		<div style="position: fixed; height: 32px; top: 0; left: 0; background-color: #23282d; width: 100%; font-size: 13px; z-index: 9999;">
+			<div style="float: left; width: 70%; box-sizing: border-box; color: rgb(209, 209, 209); font-weight: 600; height: 100%;">
+				<div id="page-scroll-title">
+				</div>
+			</div>
+			<div style="float: left; width: 30%; margin-right: 0px; box-sizing: border-box; direction: rtl;">
+				
+								
+				<a style="color: whitesmoke; padding-right: 10px;" href="/de-DE/365-business-e-invoice/get-started/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGzSURBVHjaYvTxcWb4+53h3z8GZpZff/79+v3n/7/fDAz/GHAAgABi+f37e3FxOZD1Dwz+/v3z9y+E/AMFv3//+Qumfv9et241QACxMDExAVWfOHkJJAEW/gUEP0EQDn78+AHE/gFOQJUAAcQiy8Ag8O+fLFj1n1+/QDp+/gQioK7fP378+vkDqOH39x9A/RJ/gE5lAAhAYhzcAACCQBDkgRXRjP034R0IaDTZTFZn0DItot37S94KLOINerEcI7aKHAHE8v/3r/9//zIA1f36/R+o4tevf1ANYNVA9P07RD9IJQMDQACxADHD3z8Ig4GMHz+AqqHagKp//fwLVA0U//v7LwMDQACx/LZiYFD7/5/53/+///79BqK/EMZ/UPACSYa/v/8DyX9A0oTxx2EGgABi+a/H8F/m339BoCoQ+g8kgRaCQvgPJJiBYmAuw39hxn+uDAABxMLwi+E/0PusRkwMvxhBGoDkH4b/v/+D2EDyz///QB1/QLb8+sP0lQEggFh+vGXYM2/SP6A2Zoaf30Ex/J+PgekHwz9gQDAz/P0FYrAyMfz7wcDAzPDtFwNAgAEAd3SIyRitX1gAAAAASUVORK5CYII=" width="16" height="11" style="width: 16px; height: 11px; margin-top: 10px;"></a>
+				
+				
+								
+				<a style="color: whitesmoke; padding-right: 10px;" href="/en-US/365-business-e-invoice/get-started/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHzSURBVHjaYkxOP8IAB//+Mfz7w8Dwi4HhP5CcJb/n/7evb16/APL/gRFQDiAAw3JuAgAIBEDQ/iswEERjGzBQLEru97ll0g0+3HvqMn1SpqlqGsZMsZsIe0SICA5gt5a/AGIEarCPtFh+6N/ffwxA9OvP/7//QYwff/6fZahmePeB4dNHhi+fGb59Y4zyvHHmCEAAAW3YDzQYaJJ93a+vX79aVf58//69fvEPlpIfnz59+vDhw7t37968efP3b/SXL59OnjwIEEAsDP+YgY53b2b89++/awvLn98MDi2cVxl+/vl6mituCtBghi9f/v/48e/XL86krj9XzwEEEENy8g6gu22rfn78+NGs5Ofr16+ZC58+fvyYwX8rxOxXr169fPny+fPn1//93bJlBUAAsQADZMEBxj9/GBxb2P/9+S/R8u3vzxuyaX8ZHv3j8/YGms3w8ycQARmi2eE37t4ACCDGR4/uSkrKAS35B3TT////wADOgLOBIaXIyjBlwxKAAGKRXjCB0SOEaeu+/y9fMnz4AHQxCP348R/o+l+//sMZQBNLEvif3AcIIMZbty7Ly6t9ZmXl+fXj/38GoHH/UcGfP79//BBiYHjy9+8/oUkNAAHEwt1V/vI/KBY/QSISFqM/GBg+MzB8A6PfYC5EFiDAABqgW776MP0rAAAAAElFTkSuQmCC" width="16" height="11" style="width: 16px; height: 11px; margin-top: 10px;"></a>
+				
+				
+			</div>
+		</div>
+		<header>			
+			<div style="background-color: #ffffff; box-sizing: border-box; border: 0; border-bottom: 1px solid rgba(0, 0, 0, 0.075); border-left: 5px solid transparent; box-shadow: inset -10px 0 10px -10px rgba(0, 0, 0, 0.1); padding-top: 40px;">
+				<a href="/de-DE/"><img src="/assets/images/emblem.png" width="300" alt="365 business development logo"></a>
+			</div>
+			<button type="button" class="open-nav" id="open-nav"></button>			
+			<!-- 
+			<h1>	365 business development
+			</h1>
+			 -->
+			<form action="/de-DE/search/" method="get">
+				<input type="text" name="q" id="search-input" placeholder="Search" autofocus>
+				<input type="submit" value="Search" style="display: none;">
+			</form>
+
+			<nav >
+				<ul>
+					<li class="nav-item top-level ">
+						
+						<a href="/de-DE/">Willkommen</a>
+					</li>
+				</ul>
+
+				<ul>
+					
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/de-DE/365-business-address-validation/">365 business Address Validation</a>
+							<ul>
+								
+									 
+									 
+									 
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-address-validation/get-started/">Erste Schritte</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-address-validation/address-validation/">Adressvalidierung</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-address-validation/address-validation-status/">Status der Adressvalidierung</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-address-validation/address-prediction/">Adressvorhersage</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-address-validation/setup/">Einrichtung</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-address-validation/user-settings/">Benutzer Einstellungen</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/de-DE/365-business-al-extension-manager/">365 business AL Extension Manager</a>
+							<ul>
+								
+									 
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-al-extension-manager/get-started/">Erste Schritte</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+									</ul>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/de-DE/365-business-api/">365 business API</a>
+							<ul>
+								
+									 
+									 
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-api/get-started/">Erste Schritte</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-api/365-business-api-setup/">Einrichtung</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-api/registration/">Registrierung</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-api/feedback/">Feedback</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/de-DE/365-business-barcode/">365 business Barcode</a>
+							<ul>
+								
+									 
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-barcode/get-started/">Erste Schritte</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-barcode/barcode-whatis/">Was ist 365 business Barcode?</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-barcode/barcode-settings/">Barcode Einstellungen</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-barcode/supported-barcodes/">Unterstützte Barcodearten</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-barcode/barcode-howto/">365 business Barcode einbinden</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level current">
+							
+							<a href="/de-DE/365-business-e-invoice/">365 business E-Invoice</a>
+							<ul>
+								
+									 
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-e-invoice/zugferd-whatis/">Was ist ZUGFeRD?</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-e-invoice/zugferd-xrechnung/">ZUGFeRD vs. XRechnung</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item current"><a href="/de-DE/365-business-e-invoice/get-started/">Erste Schritte</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-e-invoice/setup/">Einrichtung</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-e-invoice/supported-document-types/">Unterstützte Belegarten</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-e-invoice/import-assistant/">Import Assistent</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-e-invoice/create-from-file/">Aus PDF-Datei erstellen</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/de-DE/365-business-eric/">365 business ERiC</a>
+							<ul>
+								
+									 
+									 
+									 
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-eric/eric-whatis/">Was ist ERiC?</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-eric/elster-tax-statements/">ELSTER Steuerdaten</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									 
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-eric/elster-tax-data-type/">ELSTER Steuerdatenarten</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-eric/elster-validation-message/">ELSTER Validierungsmeldungen</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-eric/setup/">Einrichtung</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-eric/company-information/">Firmendaten</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-eric/user-certificates/">Benutzerzertifikate</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-eric/vat-statement-setup/">MwSt.-Abrechnung Einrichtung</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-eric/365-business-api-setup/">365 business API Einrichtung</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									 
+									 
+									 
+									 
+									 
+									 
+									 
+									 
+									 
+									 
+									 
+									 
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/de-DE/365-business-mailchimp-integration/">365 business Mailchimp Integration</a>
+							<ul>
+								
+									 
+									 
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-mailchimp-integration/audience-lists/">Abonnentenlisten</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-mailchimp-integration/audience/">Abonnenten</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-mailchimp-integration/synchronization/">Synchronisation</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-mailchimp-integration/setup/">Einrichtung</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/de-DE/365-business-pdf/">365 business PDF</a>
+							<ul>
+								
+									 
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-pdf/get-started/">Erste Schritte</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-pdf/pdf-files/">PDF-Dateien</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-pdf/stationery/">Elektronisches Briefpapier</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-pdf/signing/">Dokumentsignierung</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-pdf/document-attachments/">Beleganhänge</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-pdf/concatenate/">Dokumentverkettung</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+									</ul>
+								
+									 
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/de-DE/365-business-print-agent/">365 business Print Agent</a>
+							<ul>
+								
+									 
+									 
+									 
+									
+									 
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-whatis/">Was ist Print Agent?</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									 
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config/">Print Agent Konfiguration</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+												<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config-firststart/">Ersteinrichtung</a></li>
+											
+										
+											
+											
+										
+											
+											
+												<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config-printers/">Verwaltung von Druckern</a></li>
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+												<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config-printprofile/">Druckprofil</a></li>
+											
+										
+											
+											
+												<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config-connections/">Dienstmodus / Verbindungstyp</a></li>
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+												<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config-databases/">Datenbanken</a></li>
+											
+										
+											
+											
+												<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config-statistics/">Auswertung und Statistiken</a></li>
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-print-agent/get-started/">Erste Schritte</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									 
+									
+									 
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-print-agent/setup/">Einrichtung</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-print-agent/printer/">Drucker</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									 
+									
+									 
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-print-agent/printer-configuration/">Druckereinstellung</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-print-agent/printer-access-permission/">Drucker-Zugriffsberechtigungen</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-client-whatis/">Was ist der Print Agent Dienst?</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-service-installation/">Print Agent Dienst auf Windows installieren</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-clients/">Print Agent Dienst</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									 
+									 
+									 
+									 
+									 
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/de-DE/365-business-proxy-application/">365 business Proxy Application</a>
+							<ul>
+								
+									 
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-proxy-application/proxy-application-whatis/">Was ist Proxy Application?</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+									</ul>
+								
+									
+									 
+									
+									 
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-proxy-application/get-started/">Erste Schritte</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+									</ul>
+								
+									
+									 
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-proxy-application/setup/">Einrichtung</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-proxy-application/plugins/">Plugins</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+												<li class="nav-item "><a href="/de-DE/365-business-proxy-application/plugins/file/">Datei-Plugin</a></li>
+											
+										
+											
+											
+												<li class="nav-item "><a href="/de-DE/365-business-proxy-application/plugins/zip/">ZIP-Plugin</a></li>
+											
+										
+											
+											
+										
+											
+											
+												<li class="nav-item "><a href="/de-DE/365-business-proxy-application/plugins/image/">Bild-Plugin</a></li>
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+												<li class="nav-item "><a href="/de-DE/365-business-proxy-application/plugins/print/">Druck-Plugin</a></li>
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+									</ul>
+								
+									
+									 
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-proxy-application/proxy-application-client-whatis/">Was ist der Proxy Application Client?</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-proxy-application/proxy-application-client-installation/">Proxy Application Client auf Windows installieren</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+									</ul>
+								
+									 
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/de-DE/find-and-replace/">365 business development - Suchen & Ersetzen</a>
+							<ul>
+								
+									 
+									
+									
+									<li class="nav-item "><a href="/de-DE/find-and-replace/find-and-replace/">Suchen & Ersetzen</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+									</ul>
+								
+							</ul>
+						</li>
+					
+				</ul>
+				<ul>
+					<li class="nav-item top-level">
+						<a href="https://downloads.365businessdev.com">Downloads</a>
+					</li>
+					<li class="nav-item top-level ">
+						
+						<a href="/de-DE/al-developer/">AL Developer</a>
+					</li>
+					<li class="nav-item top-level ">
+						
+						<a href="/de-DE/new-and-planned/">New and Planned</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<section class="main">
+			<div class="page-header">
+				<h2>365 business E-Invoice</h2>
+				<h3>Erste Schritte</h3>
+			</div>
+			<article class="content">
+				<p>In dieser Kurzanleitung wird erklärt, wie Sie 365 business E-Invoice aktivieren und einrichten.</p>
+
+<h2 id="voraussetzungen">Voraussetzungen</h2>
+
+<ul>
+  <li>Microsoft Dynamics 365 Business Central 2024 release wave 1 (24.0) oder neuer.</li>
+  <li>Microsoft 365 Postfach <em>(optional, für Empfang von E-Rechnungen per E-Mail)</em></li>
+</ul>
+
+<div class="alert alert-notice">
+    <i class="fa-solid fa-notes"></i> <strong>Wichtiger Hinweis:</strong>Diese Kurzanleitung konzentriert sich auf den Empfang von E-Rechnungen im Factur-X - ZUGFeRD Format über die Microsoft 365 Postfach Integration.<br />Für weitere Informationen zur Einrichtung besuchen Sie bitte die <a href="../setup/">Dokumentation</a>.
+</div>
+
+<h2 id="schritt-1-installation-von-365-business-e-invoice">Schritt 1: Installation von 365 business E-Invoice</h2>
+
+<p>Öffnen Sie den <strong>Marketplace für Erweiterungen</strong> in Microsoft Dynamics 365 Business Central und suchen Sie nach <strong>365 business E-Invoice</strong>.
+Installieren Sie die App von Microsoft AppSource und warten Sie, bis die Installation abgeschlossen ist.</p>
+
+<h2 id="schritt-11-microsoft-365-postfach-integration-einrichten">Schritt 1.1: Microsoft 365 Postfach Integration einrichten</h2>
+
+<p>Um eingehende E-Belege aus Microsoft 365 Postfächern abrufen und verarbeiten zu können, ist es erforderlich, diese Postfächer entsprechend zu konfigurieren. Hierzu wird auf die <a href="https://learn.microsoft.com/de-de/dynamics365/business-central/admin-how-setup-email" target="_blank"><strong>E-Mail Konten</strong><i class="fa-solid fa-up-right-from-square" style="font-size: x-small; vertical-align: super; margin-left: 5px;"></i></a> Funktionalität von Microsoft Dynamics 365 Business Central zurückgegriffen.</p>
+
+<ol>
+  <li>Öffnen Sie <strong>365 business E-Invoice Einrichtung</strong> über die Microsoft Dynamics 365 Business Central Suche.</li>
+  <li>Klicken Sie auf <strong>Neue Zeile</strong> und im Anschluss auf den Assit Edit (…) im Feld <strong>Name</strong>, um die Auswahl der E-Mail Konten zu öffnen.</li>
+  <li>Wählen Sie das E-Mail-Konto, dass Sie für den Rechnungsempfang nutzen möchten.</li>
+  <li>Klicken Sie auf <strong>OK</strong> um die E-Mail-Konto Auswahl zu schließen.</li>
+</ol>
+
+<h2 id="schritt-12-abruf-von-e-belegen-über-e-belegdienst-automatisieren">Schritt 1.2: Abruf von E-Belegen über E-Belegdienst automatisieren</h2>
+
+<p>Durch das Aktivieren des automatischen Imports, werden Einkaufsrechnungen und -gutschriften im Factur-X / ZUGFeRD-Format aus den eingehenden E-Mails automatisch verarbeitet.</p>
+
+<ol>
+  <li>Öffnen Sie <strong>E-Belegdienste</strong> über die Business Central Suche.</li>
+  <li>Wählen Sie den E-Belegdienst aus (z.B. <strong>365 ZUGFERD</strong>).</li>
+  <li>Prüfen Sie, dass <strong>Microsoft 365 Postfach</strong> im Feld <strong>Dienstintegration</strong> ausgewählt ist.</li>
+  <li>Aktivieren Sie die Option <strong>Automatischer Import</strong>.</li>
+  <li>Setzen Sie im Feld <strong>Stapel-Startzeit</strong>, falls gewünscht, die Uhrzeit, wann der Import erfolgen soll.</li>
+  <li>Setzen Sie, falls gewünscht, das Intervall in dem die E-Mails abgerufen werden sollen im Feld <strong>Minuten zwischen Ausführungen</strong> (z.B. 1440min = 24h).</li>
+</ol>
+
+<div class="alert alert-notice">
+    <i class="fa-solid fa-notes"></i> <strong>Gut zu wissen:</strong>Sie können den Abruf der E-Belege aus den konfigurierten Microsoft 365 Postfächern auch manuell auslösen. Hierzu können Sie die Aktion <strong>Empfangen</strong> im E-Belegdienst aufrufen.
+</div>
+
+<h2 id="schritt-2-e-belege-verarbeiten">Schritt 2: E-Belege verarbeiten</h2>
+
+<p>Die Verarbeitung der E-Belege erfolgt automatisch durch den E-Belegdienst. Die E-Belege werden in Microsoft Dynamics 365 Business Central als Bestellungen, Einkaufsrechnungen oder -gutschriften angelegt.</p>
+
+<p>Der grundsätzliche Verarbeitungsprozess für Bestellungen, Einkaufsrechnungen oder -gutschriften ist wie folgt:</p>
+
+<ol>
+  <li>Öffnen Sie <strong>E-Belege</strong> über die Business Central Suche.</li>
+  <li>Öffnen Sie den E-Beleg, um die Details der Rechnung einzusehen.
+<img src="/assets/images/365-business-e-invoice/65046632-540f-43f0-9ab0-23a809f0002d.png" alt="E-Beleg" /></li>
+  <li>Überprüfen Sie die E-Belege auf Vollständigkeit und korrigieren Sie ggf. fehlende Informationen.</li>
+  <li>Klicken Sie auf den Drilldown-Link <strong>Beleg</strong> um die Bestellung, Einkaufsrechnung oder -gutschrift zu öffnen.</li>
+  <li>Buchen Sie den Beleg.</li>
+</ol>
+
+<p><img src="/assets/images/365-business-e-invoice/e-document-overview.png" alt="365 business E-Invoice" /></p>
+
+<p>Während der Verarbeitung von E-Belegen können Fehler auftreten, die die automatische Verarbeitung verhindern. Um problembehaftete E-Rechnungen zu identifizieren, verwenden Sie die Business Central Suche und rufen den Bereich <strong>E-Belege</strong> auf. Dort erkennen Sie Problemfälle an einem <strong>Fehler</strong>-Status in der <strong>Status des elektronischen Belegs</strong>-Spalte.</p>
+
+<ol>
+  <li>Öffnen Sie <strong>E-Belege</strong> über die Business Central Suche.</li>
+  <li>Identifizieren Sie einen fehlerhaften Beleg und öffnen Sie diesen.</li>
+  <li>In der Ansicht <strong>E-Beleg</strong> können Sie den Bereich <strong>Fehlermeldungen</strong> erweitern, um Details zu den vorliegenden Problemen zu sehen.</li>
+</ol>
+
+<p>Mögliche Ursachen für Probleme sind vielfältig, wie beispielsweise:</p>
+
+<ul>
+  <li>Unbekannte Kreditoren</li>
+  <li>Fehlende Verknüpfung zwischen Ihren Artikeln und den Kreditorenartikeln</li>
+  <li>Fehlerhafte Zuordnung von Einheiten (Maßeinheiten) zu Artikeln.</li>
+</ul>
+
+<h2 id="schritt-21-e-belege-verarbeiten---fehler-bearbeiten">Schritt 2.1: E-Belege verarbeiten - Fehler bearbeiten</h2>
+
+<p>Um problembehaftete E-Belege zu bearbeiten wird über 365 business E-Invoice der <strong>Importassistent</strong> bereitgestellt. Dieser unterstützt Sie bei der schrittweisen Behebung der Probleme in Ihrem E-Beleg und ermöglicht Ihnen die manuelle Korrektur.</p>
+
+<ol>
+  <li>Rufen Sie die Aktion <strong>Importassistent</strong> in dem E-Beleg auf.</li>
+  <li>Der Importassistent unterstützt Sie bei der schrittweisen Behebung der Probleme (siehe <a href="../import-assistant/">Import Assistent</a>).</li>
+</ol>
+
+<h3 id="siehe-auch">Siehe auch</h3>
+
+<ul>
+  <li><a href="../setup/">Einrichtung</a></li>
+  <li><a href="../import-assistant/">Import Assistent</a></li>
+</ul>
+
+			</article>
+		</section>
+
+		<script>
+			document.getElementById("open-nav").addEventListener("click", function () {
+				document.body.classList.toggle("nav-open");
+			});
+
+			// show notification for language redirection
+			function findGetParameter(parameterName) {
+				var result = null,
+					tmp = [];
+				var items = location.search.substr(1).split("&");
+				for (var index = 0; index < items.length; index++) {
+					tmp = items[index].split("=");
+					if (tmp[0] === parameterName) result = decodeURIComponent(tmp[1]);
+				}
+				return result;
+			}
+			if (findGetParameter('errorCode') == '404') {
+				let notification = `<blockquote><p><strong>Page not found.</strong><br>This is not the web page you are looking for. We are sorry, we could not find the page you requested.</p></blockquote>`;
+
+				let content = document.getElementsByClassName('content')[0].innerHTML;
+				document.getElementsByClassName('content')[0].innerHTML = notification + content;
+			}
+			if (findGetParameter('unsupportedLocale') !== null) {
+				let notification = `<blockquote><p>This page is currently not available in the selected language '<strong>${findGetParameter('unsupportedLocale')}</strong>'. You have been automatically redirected to a supported language version matching your browser language.</p></blockquote>`;
+
+				let content = document.getElementsByClassName('content')[0].innerHTML;
+				document.getElementsByClassName('content')[0].innerHTML = notification + content;
+			}
+
+			// anchor.js implementation
+			document.addEventListener("DOMContentLoaded", function(event) {
+				anchors.add('article section h1, h2, h3, h4, h5, h6');
+				anchors.options.placement = 'left';
+			});
+
+			document.body.onscroll = function() {
+				let pageScrollTitle = document.getElementById('page-scroll-title');
+				if (pageScrollTitle === null) {
+					return;
+				}
+				
+				let headerElements = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+				pageScrollTitle.innerText = headerElements[0].innerText;
+				let lastHeaderTitle = '';
+
+				// console.log(`document.documentElement.scrollTop: ${document.documentElement.scrollTop}`);
+				if (document.documentElement.scrollTop >= 100) {
+					pageScrollTitle.style.display = 'block';
+
+					for (let i = 1; i < headerElements.length; i++) {
+						const headerElement = headerElements[i];
+						if (headerElement.offsetTop < document.documentElement.scrollTop) {
+							lastHeaderTitle = headerElement.innerText;
+						}
+					}
+
+					if (lastHeaderTitle !== '') {
+						pageScrollTitle.innerText = pageScrollTitle.innerText + ' - ' + lastHeaderTitle;
+					}
+
+				} else {
+					pageScrollTitle.style.display = 'none';
+				}
+			}
+		</script>
+	</body>
+</html>

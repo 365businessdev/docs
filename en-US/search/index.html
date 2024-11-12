@@ -549,6 +549,9 @@
 											
 											
 										
+											
+											
+										
 									</ul>
 								
 									
@@ -557,6 +560,38 @@
 									<ul style="margin-left: 10px;">
 										
 											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-e-invoice/get-started/">Get Started</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
 											
 											
 										
@@ -601,6 +636,9 @@
 											
 											
 										
+											
+											
+										
 									</ul>
 								
 									
@@ -609,6 +647,9 @@
 									<ul style="margin-left: 10px;">
 										
 											 
+											
+											
+										
 											
 											
 										
@@ -653,6 +694,9 @@
 											
 											
 										
+											
+											
+										
 									</ul>
 								
 									
@@ -661,6 +705,9 @@
 									<ul style="margin-left: 10px;">
 										
 											 
+											
+											
+										
 											
 											
 										
@@ -2805,6 +2852,23 @@
 						"category": "",
 						"url": " /365-business-e-invoice/create-from-file/",
 						"content": "Since, in addition to sending via email, the provision of data via electronic interface or a download through a customer portal is also possible, 365 business E-Invoice allows the creation of electronic invoices from ZUGFeRD PDF files.\n\nProcess for creating electronic invoices from ZUGFeRD PDF files.\n\n\n  Open “E-Documents” through the Business Central search.\n  Click “New From File” and in the “E-Document Services” window, select “365 ZUGFERD”.\n  Click on the “Upload” area and select the ZUGFeRD PDF file to be imported or drag &amp; drop the file into the “Upload” area.\n\n\n\n\nSee also\n\n  Solving problems with the Import Assistant"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"365-business-e-invoice-get-started": {
+						"id": "365-business-e-invoice-get-started",
+						"title": "365 business E-Invoice  - Get Started",
+						"category": "",
+						"url": " /365-business-e-invoice/get-started/",
+						"content": "This quick guide explains how to activate and set up 365 business E-Invoice.\n\nPrerequisites\n\n\n  Microsoft Dynamics 365 Business Central 2024 release wave 1 (24.0) or newer.\n  Microsoft 365 Mailbox (optional, for receiving e-documents via email)\n\n\n\n     Important Note:This quick guide focuses on receiving e-invoices in Factur-X - ZUGFeRD format via Microsoft 365 mailbox integration.For more information on setup, please visit the documentation.\n\n\nStep 1: Install 365 business E-Invoice\n\nOpen the Extension Marketplace in Microsoft Dynamics 365 Business Central and search for 365 business E-Invoice.\nInstall the app from Microsoft AppSource and wait for the installation to complete.\n\nStep 1.1: Set up Microsoft 365 mailbox integration\n\nTo retrieve and process incoming e-documents from Microsoft 365 mailboxes, it is necessary to configure these mailboxes accordingly. This uses the Email Accounts functionality of Microsoft Dynamics 365 Business Central.\n\n\n  Open 365 business E-Invoice Setup via the Microsoft Dynamics 365 Business Central search.\n  Click on New Line and then on the Assist Edit (…) in the Name field to open the email account selection.\n  Select the email account you want to use for receiving invoices.\n  Click OK to close the email account selection.\n\n\nStep 1.2: Automate retrieval of e-documents via e-document service\n\nBy enabling automatic import, purchase invoices and credit memos in Factur-X / ZUGFeRD format from incoming emails are automatically processed.\n\n\n  Open E-Document Services via the Business Central search.\n  Select the e-document service (e.g., 365 ZUGFERD).\n  Ensure that Microsoft 365 Mailbox is selected in the Service Integration field.\n  Enable the Automatic Import option.\n  Set the Batch Start Time field, if desired, to specify when the import should occur.\n  Set the interval for retrieving emails in the Minutes Between Runs field, if desired (e.g., 1440min = 24h).\n\n\n\n     Good to know:You can also manually trigger the retrieval of e-documents from the configured Microsoft 365 mailboxes. To do this, you can call the Receive action in the e-document service.\n\n\nStep 2: Process e-documents\n\nThe processing of e-documents is done automatically by the e-document service. The e-documents are created in Microsoft Dynamics 365 Business Central as orders, purchase invoices, or credit memos.\n\nThe basic processing procedure for orders, purchase invoices, or credit memos is as follows:\n\n\n  Open E-Documents via the Business Central search.\n  Open the e-document to view the invoice details.\n\n  Check the e-documents for completeness and correct any missing information if necessary.\n  Click on the drilldown link Document to open the order, purchase invoice, or credit memo.\n  Post the document.\n\n\n\n\nErrors may occur during the processing of e-documents that prevent automatic processing. To identify problematic e-invoices, use the Business Central search and open the E-Documents area. There you can identify problem cases by an Error status in the Electronic Document Status column.\n\n\n  Open E-Documents via the Business Central search.\n  Identify a faulty document and open it.\n  In the E-Document view, you can expand the Error Messages area to see details of the issues.\n\n\nPossible causes of problems are varied, such as:\n\n\n  Unknown vendors\n  Missing link between your items and vendor items\n  Incorrect assignment of units (units of measure) to items.\n\n\nStep 2.1: Process e-documents - Handle errors\n\nTo handle problematic e-documents, 365 business E-Invoice provides the Import Wizard. This assists you in step-by-step troubleshooting of issues in your e-document and allows you to manually correct them.\n\n\n  Call the Import Wizard action in the e-document.\n  The Import Wizard assists you in step-by-step troubleshooting (see Import Wizard).\n\n\nSee also\n\n\n  Setup\n  Import Wizard"
 					}
 
 					
