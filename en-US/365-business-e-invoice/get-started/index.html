@@ -22,15 +22,15 @@
 <meta property="og:title" content="get-started" />
 <meta name="author" content="365 business development" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="This quick guide explains how to activate and set up 365 business E-Invoice. Prerequisites Microsoft Dynamics 365 Business Central 2024 release wave 1 (24.0) or newer. Microsoft 365 Mailbox (optional, for receiving e-documents via email) Important Note:This quick guide focuses on receiving e-invoices in Factur-X - ZUGFeRD format via Microsoft 365 mailbox integration.For more information on setup, please visit the documentation. Step 1: Install 365 business E-Invoice Open the Extension Marketplace in Microsoft Dynamics 365 Business Central and search for 365 business E-Invoice. Install the app from Microsoft AppSource and wait for the installation to complete. Step 1.1: Set up Microsoft 365 mailbox integration To retrieve and process incoming e-documents from Microsoft 365 mailboxes, it is necessary to configure these mailboxes accordingly. This uses the Email Accounts functionality of Microsoft Dynamics 365 Business Central. Open 365 business E-Invoice Setup via the Microsoft Dynamics 365 Business Central search. Click on New Line and then on the Assist Edit (…) in the Name field to open the email account selection. Select the email account you want to use for receiving invoices. Click OK to close the email account selection. Step 1.2: Automate retrieval of e-documents via e-document service By enabling automatic import, purchase invoices and credit memos in Factur-X / ZUGFeRD format from incoming emails are automatically processed. Open E-Document Services via the Business Central search. Select the e-document service (e.g., 365 ZUGFERD). Ensure that Microsoft 365 Mailbox is selected in the Service Integration field. Enable the Automatic Import option. Set the Batch Start Time field, if desired, to specify when the import should occur. Set the interval for retrieving emails in the Minutes Between Runs field, if desired (e.g., 1440min = 24h). Good to know:You can also manually trigger the retrieval of e-documents from the configured Microsoft 365 mailboxes. To do this, you can call the Receive action in the e-document service. Step 2: Process e-documents The processing of e-documents is done automatically by the e-document service. The e-documents are created in Microsoft Dynamics 365 Business Central as orders, purchase invoices, or credit memos. The basic processing procedure for orders, purchase invoices, or credit memos is as follows: Open E-Documents via the Business Central search. Open the e-document to view the invoice details. Check the e-documents for completeness and correct any missing information if necessary. Click on the drilldown link Document to open the order, purchase invoice, or credit memo. Post the document. Errors may occur during the processing of e-documents that prevent automatic processing. To identify problematic e-invoices, use the Business Central search and open the E-Documents area. There you can identify problem cases by an Error status in the Electronic Document Status column. Open E-Documents via the Business Central search. Identify a faulty document and open it. In the E-Document view, you can expand the Error Messages area to see details of the issues. Possible causes of problems are varied, such as: Unknown vendors Missing link between your items and vendor items Incorrect assignment of units (units of measure) to items. Step 2.1: Process e-documents - Handle errors To handle problematic e-documents, 365 business E-Invoice provides the Import Wizard. This assists you in step-by-step troubleshooting of issues in your e-document and allows you to manually correct them. Call the Import Wizard action in the e-document. The Import Wizard assists you in step-by-step troubleshooting (see Import Wizard). See also Setup Import Wizard" />
-<meta property="og:description" content="This quick guide explains how to activate and set up 365 business E-Invoice. Prerequisites Microsoft Dynamics 365 Business Central 2024 release wave 1 (24.0) or newer. Microsoft 365 Mailbox (optional, for receiving e-documents via email) Important Note:This quick guide focuses on receiving e-invoices in Factur-X - ZUGFeRD format via Microsoft 365 mailbox integration.For more information on setup, please visit the documentation. Step 1: Install 365 business E-Invoice Open the Extension Marketplace in Microsoft Dynamics 365 Business Central and search for 365 business E-Invoice. Install the app from Microsoft AppSource and wait for the installation to complete. Step 1.1: Set up Microsoft 365 mailbox integration To retrieve and process incoming e-documents from Microsoft 365 mailboxes, it is necessary to configure these mailboxes accordingly. This uses the Email Accounts functionality of Microsoft Dynamics 365 Business Central. Open 365 business E-Invoice Setup via the Microsoft Dynamics 365 Business Central search. Click on New Line and then on the Assist Edit (…) in the Name field to open the email account selection. Select the email account you want to use for receiving invoices. Click OK to close the email account selection. Step 1.2: Automate retrieval of e-documents via e-document service By enabling automatic import, purchase invoices and credit memos in Factur-X / ZUGFeRD format from incoming emails are automatically processed. Open E-Document Services via the Business Central search. Select the e-document service (e.g., 365 ZUGFERD). Ensure that Microsoft 365 Mailbox is selected in the Service Integration field. Enable the Automatic Import option. Set the Batch Start Time field, if desired, to specify when the import should occur. Set the interval for retrieving emails in the Minutes Between Runs field, if desired (e.g., 1440min = 24h). Good to know:You can also manually trigger the retrieval of e-documents from the configured Microsoft 365 mailboxes. To do this, you can call the Receive action in the e-document service. Step 2: Process e-documents The processing of e-documents is done automatically by the e-document service. The e-documents are created in Microsoft Dynamics 365 Business Central as orders, purchase invoices, or credit memos. The basic processing procedure for orders, purchase invoices, or credit memos is as follows: Open E-Documents via the Business Central search. Open the e-document to view the invoice details. Check the e-documents for completeness and correct any missing information if necessary. Click on the drilldown link Document to open the order, purchase invoice, or credit memo. Post the document. Errors may occur during the processing of e-documents that prevent automatic processing. To identify problematic e-invoices, use the Business Central search and open the E-Documents area. There you can identify problem cases by an Error status in the Electronic Document Status column. Open E-Documents via the Business Central search. Identify a faulty document and open it. In the E-Document view, you can expand the Error Messages area to see details of the issues. Possible causes of problems are varied, such as: Unknown vendors Missing link between your items and vendor items Incorrect assignment of units (units of measure) to items. Step 2.1: Process e-documents - Handle errors To handle problematic e-documents, 365 business E-Invoice provides the Import Wizard. This assists you in step-by-step troubleshooting of issues in your e-document and allows you to manually correct them. Call the Import Wizard action in the e-document. The Import Wizard assists you in step-by-step troubleshooting (see Import Wizard). See also Setup Import Wizard" />
+<meta name="description" content="This quick guide explains how to activate and set up 365 business E-Invoice. Prerequisites Microsoft Dynamics 365 Business Central 2024 release wave 1 (24.0) or newer. Microsoft 365 Mailbox (optional, for receiving E-Documents via email) Important Note:This quick guide focuses on receiving e-invoices in Factur-X - ZUGFeRD format via Microsoft 365 mailbox integration.For more information on setup, please visit the documentation. Step 1: Install 365 business E-Invoice Open the Extension Marketplace in Microsoft Dynamics 365 Business Central and search for 365 business E-Invoice. Install the app from Microsoft AppSource and wait for the installation to complete. Step 1.1: Set up Microsoft 365 mailbox integration To retrieve and process incoming E-Documents from Microsoft 365 mailboxes, it is necessary to configure these mailboxes accordingly. This uses the Email Accounts functionality of Microsoft Dynamics 365 Business Central. Open 365 business E-Invoice Setup via the Microsoft Dynamics 365 Business Central search. Click on New Line and then on the Assist Edit (…) in the Name field to open the email account selection. Select the email account you want to use for receiving invoices. Click OK to close the email account selection. Step 1.2: Automate retrieval of E-Documents via E-Document service By enabling automatic import, purchase invoices and credit memos in Factur-X / ZUGFeRD format from incoming emails are automatically processed. Open E-Document Services via the Business Central search. Select the E-Document service (e.g., 365 ZUGFERD). Ensure that Microsoft 365 Mailbox is selected in the Service Integration field. Enable the Automatic Import option. Set the Batch Start Time field, if desired, to specify when the import should occur. Set the interval for retrieving emails in the Minutes Between Runs field, if desired (e.g., 1440min = 24h). Good to know:You can also manually trigger the retrieval of E-Documents from the configured Microsoft 365 mailboxes. To do this, you can call the Receive action in the E-Document service. Step 2: Process E-Documents The processing of E-Documents is done automatically by the E-Document service. The E-Documents are created in Microsoft Dynamics 365 Business Central as orders, purchase invoices, or credit memos. The basic processing procedure for orders, purchase invoices, or credit memos is as follows: Open E-Documents via the Business Central search. Open the E-Document to view the invoice details. Check the E-Documents for completeness and correct any missing information if necessary. Click on the drilldown link Document to open the order, purchase invoice, or credit memo. Post the document. Errors may occur during the processing of E-Documents that prevent automatic processing. To identify problematic e-invoices, use the Business Central search and open the E-Documents area. There you can identify problem cases by an Error status in the Electronic Document Status column. Open E-Documents via the Business Central search. Identify a faulty document and open it. In the E-Document view, you can expand the Error Messages area to see details of the issues. Possible causes of problems are varied, such as: Unknown vendors Missing link between your items and vendor items Incorrect assignment of units (units of measure) to items. Step 2.1: Process E-Documents - Handle errors To handle problematic E-Documents, 365 business E-Invoice provides the Import Wizard. This assists you in step-by-step troubleshooting of issues in your E-Document and allows you to manually correct them. Call the Import Wizard action in the E-Document. The Import Wizard assists you in step-by-step troubleshooting (see Import Wizard). See also Setup Import Wizard" />
+<meta property="og:description" content="This quick guide explains how to activate and set up 365 business E-Invoice. Prerequisites Microsoft Dynamics 365 Business Central 2024 release wave 1 (24.0) or newer. Microsoft 365 Mailbox (optional, for receiving E-Documents via email) Important Note:This quick guide focuses on receiving e-invoices in Factur-X - ZUGFeRD format via Microsoft 365 mailbox integration.For more information on setup, please visit the documentation. Step 1: Install 365 business E-Invoice Open the Extension Marketplace in Microsoft Dynamics 365 Business Central and search for 365 business E-Invoice. Install the app from Microsoft AppSource and wait for the installation to complete. Step 1.1: Set up Microsoft 365 mailbox integration To retrieve and process incoming E-Documents from Microsoft 365 mailboxes, it is necessary to configure these mailboxes accordingly. This uses the Email Accounts functionality of Microsoft Dynamics 365 Business Central. Open 365 business E-Invoice Setup via the Microsoft Dynamics 365 Business Central search. Click on New Line and then on the Assist Edit (…) in the Name field to open the email account selection. Select the email account you want to use for receiving invoices. Click OK to close the email account selection. Step 1.2: Automate retrieval of E-Documents via E-Document service By enabling automatic import, purchase invoices and credit memos in Factur-X / ZUGFeRD format from incoming emails are automatically processed. Open E-Document Services via the Business Central search. Select the E-Document service (e.g., 365 ZUGFERD). Ensure that Microsoft 365 Mailbox is selected in the Service Integration field. Enable the Automatic Import option. Set the Batch Start Time field, if desired, to specify when the import should occur. Set the interval for retrieving emails in the Minutes Between Runs field, if desired (e.g., 1440min = 24h). Good to know:You can also manually trigger the retrieval of E-Documents from the configured Microsoft 365 mailboxes. To do this, you can call the Receive action in the E-Document service. Step 2: Process E-Documents The processing of E-Documents is done automatically by the E-Document service. The E-Documents are created in Microsoft Dynamics 365 Business Central as orders, purchase invoices, or credit memos. The basic processing procedure for orders, purchase invoices, or credit memos is as follows: Open E-Documents via the Business Central search. Open the E-Document to view the invoice details. Check the E-Documents for completeness and correct any missing information if necessary. Click on the drilldown link Document to open the order, purchase invoice, or credit memo. Post the document. Errors may occur during the processing of E-Documents that prevent automatic processing. To identify problematic e-invoices, use the Business Central search and open the E-Documents area. There you can identify problem cases by an Error status in the Electronic Document Status column. Open E-Documents via the Business Central search. Identify a faulty document and open it. In the E-Document view, you can expand the Error Messages area to see details of the issues. Possible causes of problems are varied, such as: Unknown vendors Missing link between your items and vendor items Incorrect assignment of units (units of measure) to items. Step 2.1: Process E-Documents - Handle errors To handle problematic E-Documents, 365 business E-Invoice provides the Import Wizard. This assists you in step-by-step troubleshooting of issues in your E-Document and allows you to manually correct them. Call the Import Wizard action in the E-Document. The Import Wizard assists you in step-by-step troubleshooting (see Import Wizard). See also Setup Import Wizard" />
 <link rel="canonical" href="https://docs.365businessdev.com/en-US/365-business-e-invoice/get-started/" />
 <meta property="og:url" content="https://docs.365businessdev.com/en-US/365-business-e-invoice/get-started/" />
 <meta property="og:site_name" content="365 business development" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-11-12T14:27:44+00:00" />
+<meta property="article:published_time" content="2024-11-22T10:51:10+00:00" />
 <script type="application/ld+json">
-{"url":"https://docs.365businessdev.com/en-US/365-business-e-invoice/get-started/","author":{"@type":"Person","name":"365 business development"},"@type":"Article","headline":"get-started","dateModified":"2024-11-12T14:27:44+00:00","datePublished":"2024-11-12T14:27:44+00:00","description":"This quick guide explains how to activate and set up 365 business E-Invoice. Prerequisites Microsoft Dynamics 365 Business Central 2024 release wave 1 (24.0) or newer. Microsoft 365 Mailbox (optional, for receiving e-documents via email) Important Note:This quick guide focuses on receiving e-invoices in Factur-X - ZUGFeRD format via Microsoft 365 mailbox integration.For more information on setup, please visit the documentation. Step 1: Install 365 business E-Invoice Open the Extension Marketplace in Microsoft Dynamics 365 Business Central and search for 365 business E-Invoice. Install the app from Microsoft AppSource and wait for the installation to complete. Step 1.1: Set up Microsoft 365 mailbox integration To retrieve and process incoming e-documents from Microsoft 365 mailboxes, it is necessary to configure these mailboxes accordingly. This uses the Email Accounts functionality of Microsoft Dynamics 365 Business Central. Open 365 business E-Invoice Setup via the Microsoft Dynamics 365 Business Central search. Click on New Line and then on the Assist Edit (…) in the Name field to open the email account selection. Select the email account you want to use for receiving invoices. Click OK to close the email account selection. Step 1.2: Automate retrieval of e-documents via e-document service By enabling automatic import, purchase invoices and credit memos in Factur-X / ZUGFeRD format from incoming emails are automatically processed. Open E-Document Services via the Business Central search. Select the e-document service (e.g., 365 ZUGFERD). Ensure that Microsoft 365 Mailbox is selected in the Service Integration field. Enable the Automatic Import option. Set the Batch Start Time field, if desired, to specify when the import should occur. Set the interval for retrieving emails in the Minutes Between Runs field, if desired (e.g., 1440min = 24h). Good to know:You can also manually trigger the retrieval of e-documents from the configured Microsoft 365 mailboxes. To do this, you can call the Receive action in the e-document service. Step 2: Process e-documents The processing of e-documents is done automatically by the e-document service. The e-documents are created in Microsoft Dynamics 365 Business Central as orders, purchase invoices, or credit memos. The basic processing procedure for orders, purchase invoices, or credit memos is as follows: Open E-Documents via the Business Central search. Open the e-document to view the invoice details. Check the e-documents for completeness and correct any missing information if necessary. Click on the drilldown link Document to open the order, purchase invoice, or credit memo. Post the document. Errors may occur during the processing of e-documents that prevent automatic processing. To identify problematic e-invoices, use the Business Central search and open the E-Documents area. There you can identify problem cases by an Error status in the Electronic Document Status column. Open E-Documents via the Business Central search. Identify a faulty document and open it. In the E-Document view, you can expand the Error Messages area to see details of the issues. Possible causes of problems are varied, such as: Unknown vendors Missing link between your items and vendor items Incorrect assignment of units (units of measure) to items. Step 2.1: Process e-documents - Handle errors To handle problematic e-documents, 365 business E-Invoice provides the Import Wizard. This assists you in step-by-step troubleshooting of issues in your e-document and allows you to manually correct them. Call the Import Wizard action in the e-document. The Import Wizard assists you in step-by-step troubleshooting (see Import Wizard). See also Setup Import Wizard","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.365businessdev.com/en-US/siteicon.png"},"name":"365 business development"},"@context":"https://schema.org"}</script>
+{"url":"https://docs.365businessdev.com/en-US/365-business-e-invoice/get-started/","author":{"@type":"Person","name":"365 business development"},"@type":"Article","headline":"get-started","dateModified":"2024-11-22T10:51:10+00:00","datePublished":"2024-11-22T10:51:10+00:00","description":"This quick guide explains how to activate and set up 365 business E-Invoice. Prerequisites Microsoft Dynamics 365 Business Central 2024 release wave 1 (24.0) or newer. Microsoft 365 Mailbox (optional, for receiving E-Documents via email) Important Note:This quick guide focuses on receiving e-invoices in Factur-X - ZUGFeRD format via Microsoft 365 mailbox integration.For more information on setup, please visit the documentation. Step 1: Install 365 business E-Invoice Open the Extension Marketplace in Microsoft Dynamics 365 Business Central and search for 365 business E-Invoice. Install the app from Microsoft AppSource and wait for the installation to complete. Step 1.1: Set up Microsoft 365 mailbox integration To retrieve and process incoming E-Documents from Microsoft 365 mailboxes, it is necessary to configure these mailboxes accordingly. This uses the Email Accounts functionality of Microsoft Dynamics 365 Business Central. Open 365 business E-Invoice Setup via the Microsoft Dynamics 365 Business Central search. Click on New Line and then on the Assist Edit (…) in the Name field to open the email account selection. Select the email account you want to use for receiving invoices. Click OK to close the email account selection. Step 1.2: Automate retrieval of E-Documents via E-Document service By enabling automatic import, purchase invoices and credit memos in Factur-X / ZUGFeRD format from incoming emails are automatically processed. Open E-Document Services via the Business Central search. Select the E-Document service (e.g., 365 ZUGFERD). Ensure that Microsoft 365 Mailbox is selected in the Service Integration field. Enable the Automatic Import option. Set the Batch Start Time field, if desired, to specify when the import should occur. Set the interval for retrieving emails in the Minutes Between Runs field, if desired (e.g., 1440min = 24h). Good to know:You can also manually trigger the retrieval of E-Documents from the configured Microsoft 365 mailboxes. To do this, you can call the Receive action in the E-Document service. Step 2: Process E-Documents The processing of E-Documents is done automatically by the E-Document service. The E-Documents are created in Microsoft Dynamics 365 Business Central as orders, purchase invoices, or credit memos. The basic processing procedure for orders, purchase invoices, or credit memos is as follows: Open E-Documents via the Business Central search. Open the E-Document to view the invoice details. Check the E-Documents for completeness and correct any missing information if necessary. Click on the drilldown link Document to open the order, purchase invoice, or credit memo. Post the document. Errors may occur during the processing of E-Documents that prevent automatic processing. To identify problematic e-invoices, use the Business Central search and open the E-Documents area. There you can identify problem cases by an Error status in the Electronic Document Status column. Open E-Documents via the Business Central search. Identify a faulty document and open it. In the E-Document view, you can expand the Error Messages area to see details of the issues. Possible causes of problems are varied, such as: Unknown vendors Missing link between your items and vendor items Incorrect assignment of units (units of measure) to items. Step 2.1: Process E-Documents - Handle errors To handle problematic E-Documents, 365 business E-Invoice provides the Import Wizard. This assists you in step-by-step troubleshooting of issues in your E-Document and allows you to manually correct them. Call the Import Wizard action in the E-Document. The Import Wizard assists you in step-by-step troubleshooting (see Import Wizard). See also Setup Import Wizard","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.365businessdev.com/en-US/siteicon.png"},"name":"365 business development"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 		<link type="application/atom+xml" rel="alternate" href="https://docs.365businessdev.com/en-US/feed.xml" title="365 business development" />
@@ -2405,6 +2405,171 @@
 					
 						<li class="nav-item top-level ">
 							
+							<a href="/en-US/365-business-sanction-screen/">365 business Sanction Screen</a>
+							<ul>
+								
+									 
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-sanction-screen/sanction-screen-whatis/">What is Sanction Screening?</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-sanction-screen/get-started/">Get Started</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-sanction-screen/setup/">Setup</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-sanction-screen/data-sources/">Data Catalogs</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-sanction-screen/sanction-screening/">Sanction Screening</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-sanction-screen/automated-screening/">Automated Screening (Job Queue)</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
 							<a href="/en-US/find-and-replace/">365 business development - Find & Replace</a>
 							<ul>
 								
@@ -2452,7 +2617,7 @@
 
 <ul>
   <li>Microsoft Dynamics 365 Business Central 2024 release wave 1 (24.0) or newer.</li>
-  <li>Microsoft 365 Mailbox <em>(optional, for receiving e-documents via email)</em></li>
+  <li>Microsoft 365 Mailbox <em>(optional, for receiving E-Documents via email)</em></li>
 </ul>
 
 <div class="alert alert-notice">
@@ -2466,7 +2631,7 @@ Install the app from Microsoft AppSource and wait for the installation to comple
 
 <h2 id="step-11-set-up-microsoft-365-mailbox-integration">Step 1.1: Set up Microsoft 365 mailbox integration</h2>
 
-<p>To retrieve and process incoming e-documents from Microsoft 365 mailboxes, it is necessary to configure these mailboxes accordingly. This uses the <a href="https://learn.microsoft.com/en-us/dynamics365/business-central/admin-how-setup-email" target="_blank"><strong>Email Accounts</strong><i class="fa-solid fa-up-right-from-square" style="font-size: x-small; vertical-align: super; margin-left: 5px;"></i></a> functionality of Microsoft Dynamics 365 Business Central.</p>
+<p>To retrieve and process incoming E-Documents from Microsoft 365 mailboxes, it is necessary to configure these mailboxes accordingly. This uses the <a href="https://learn.microsoft.com/en-us/dynamics365/business-central/admin-how-setup-email" target="_blank"><strong>Email Accounts</strong><i class="fa-solid fa-up-right-from-square" style="font-size: x-small; vertical-align: super; margin-left: 5px;"></i></a> functionality of Microsoft Dynamics 365 Business Central.</p>
 
 <ol>
   <li>Open <strong>365 business E-Invoice Setup</strong> via the Microsoft Dynamics 365 Business Central search.</li>
@@ -2475,13 +2640,13 @@ Install the app from Microsoft AppSource and wait for the installation to comple
   <li>Click <strong>OK</strong> to close the email account selection.</li>
 </ol>
 
-<h2 id="step-12-automate-retrieval-of-e-documents-via-e-document-service">Step 1.2: Automate retrieval of e-documents via e-document service</h2>
+<h2 id="step-12-automate-retrieval-of-e-documents-via-e-document-service">Step 1.2: Automate retrieval of E-Documents via E-Document service</h2>
 
 <p>By enabling automatic import, purchase invoices and credit memos in Factur-X / ZUGFeRD format from incoming emails are automatically processed.</p>
 
 <ol>
   <li>Open <strong>E-Document Services</strong> via the Business Central search.</li>
-  <li>Select the e-document service (e.g., <strong>365 ZUGFERD</strong>).</li>
+  <li>Select the E-Document service (e.g., <strong>365 ZUGFERD</strong>).</li>
   <li>Ensure that <strong>Microsoft 365 Mailbox</strong> is selected in the <strong>Service Integration</strong> field.</li>
   <li>Enable the <strong>Automatic Import</strong> option.</li>
   <li>Set the <strong>Batch Start Time</strong> field, if desired, to specify when the import should occur.</li>
@@ -2489,27 +2654,27 @@ Install the app from Microsoft AppSource and wait for the installation to comple
 </ol>
 
 <div class="alert alert-notice">
-    <i class="fa-solid fa-notes"></i> <strong>Good to know:</strong>You can also manually trigger the retrieval of e-documents from the configured Microsoft 365 mailboxes. To do this, you can call the <strong>Receive</strong> action in the e-document service.
+    <i class="fa-solid fa-notes"></i> <strong>Good to know:</strong>You can also manually trigger the retrieval of E-Documents from the configured Microsoft 365 mailboxes. To do this, you can call the <strong>Receive</strong> action in the E-Document service.
 </div>
 
-<h2 id="step-2-process-e-documents">Step 2: Process e-documents</h2>
+<h2 id="step-2-process-e-documents">Step 2: Process E-Documents</h2>
 
-<p>The processing of e-documents is done automatically by the e-document service. The e-documents are created in Microsoft Dynamics 365 Business Central as orders, purchase invoices, or credit memos.</p>
+<p>The processing of E-Documents is done automatically by the E-Document service. The E-Documents are created in Microsoft Dynamics 365 Business Central as orders, purchase invoices, or credit memos.</p>
 
 <p>The basic processing procedure for orders, purchase invoices, or credit memos is as follows:</p>
 
 <ol>
   <li>Open <strong>E-Documents</strong> via the Business Central search.</li>
-  <li>Open the e-document to view the invoice details.
+  <li>Open the E-Document to view the invoice details.
 <img src="/assets/images/365-business-e-invoice/65046632-540f-43f0-9ab0-23a809f0002d.png" alt="E-Document" /></li>
-  <li>Check the e-documents for completeness and correct any missing information if necessary.</li>
+  <li>Check the E-Documents for completeness and correct any missing information if necessary.</li>
   <li>Click on the drilldown link <strong>Document</strong> to open the order, purchase invoice, or credit memo.</li>
   <li>Post the document.</li>
 </ol>
 
 <p><img src="/assets/images/365-business-e-invoice/e-document-overview.png" alt="365 business E-Invoice" /></p>
 
-<p>Errors may occur during the processing of e-documents that prevent automatic processing. To identify problematic e-invoices, use the Business Central search and open the <strong>E-Documents</strong> area. There you can identify problem cases by an <strong>Error</strong> status in the <strong>Electronic Document Status</strong> column.</p>
+<p>Errors may occur during the processing of E-Documents that prevent automatic processing. To identify problematic e-invoices, use the Business Central search and open the <strong>E-Documents</strong> area. There you can identify problem cases by an <strong>Error</strong> status in the <strong>Electronic Document Status</strong> column.</p>
 
 <ol>
   <li>Open <strong>E-Documents</strong> via the Business Central search.</li>
@@ -2525,12 +2690,12 @@ Install the app from Microsoft AppSource and wait for the installation to comple
   <li>Incorrect assignment of units (units of measure) to items.</li>
 </ul>
 
-<h2 id="step-21-process-e-documents---handle-errors">Step 2.1: Process e-documents - Handle errors</h2>
+<h2 id="step-21-process-e-documents---handle-errors">Step 2.1: Process E-Documents - Handle errors</h2>
 
-<p>To handle problematic e-documents, 365 business E-Invoice provides the <strong>Import Wizard</strong>. This assists you in step-by-step troubleshooting of issues in your e-document and allows you to manually correct them.</p>
+<p>To handle problematic E-Documents, 365 business E-Invoice provides the <strong>Import Wizard</strong>. This assists you in step-by-step troubleshooting of issues in your E-Document and allows you to manually correct them.</p>
 
 <ol>
-  <li>Call the <strong>Import Wizard</strong> action in the e-document.</li>
+  <li>Call the <strong>Import Wizard</strong> action in the E-Document.</li>
   <li>The Import Wizard assists you in step-by-step troubleshooting (see <a href="../import-assistant/">Import Wizard</a>).</li>
 </ol>
 

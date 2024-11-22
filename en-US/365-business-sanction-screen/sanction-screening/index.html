@@ -1,0 +1,2770 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<!-- Matomo Tag Manager -->
+		<script>
+			var _mtm = window._mtm = window._mtm || [];
+			_mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.async=true; g.src='https://cdn.matomo.cloud/businessdev.matomo.cloud/container_v7xJrAFg.js'; s.parentNode.insertBefore(g,s);
+		</script>
+		<!-- End Matomo Tag Manager -->
+		<script src="/en-US/scripts/anchor.min.js"></script>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title> Sanction Screening | 365 business development</title>
+
+		<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>sanction-screening | 365 business development</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="sanction-screening" />
+<meta name="author" content="365 business development" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Sanction screenings can be performed with 365 business Sanction Screen in Microsoft Dynamics 365 Business Central for various entities. The results of the screenings are displayed in the respective card view and can be further processed. Types of Sanction Screenings 365 business Sanction Screen provides two types of sanction screenings: Manual sanction screening Automated sanction screening Note:To ensure optimal sanction list screening, we recommend configuring the screening intervals of individual entities (e.g., customer) in the Sanction Screen Setup and using the automated screening. Supported Entities The following Microsoft Dynamics 365 Business Central entities are supported by 365 business Sanction Screen: Customer Vendor Contact Bank Account Employee Good to know:365 business Sanction Screen is continuously being developed and expanded to include additional entities. Please check regularly for updates and new features. Additionally, you can extend the sanction screening individually for custom entities. For more information, see here. Performing a Sanction Screening Follow these steps to perform a sanction screening: Open the page (e.g., customers) in Microsoft Dynamics 365 Business Central. Select the desired record. Select the action Sanction Screening… to start the sanction screening. Note:If the sanction list screening was successful and no potential matches were found, the following message appears: In this case, no further action is necessary. Reviewing Sanction List Matches If potential matches were found, the following message appears: To review the potential matches, follow these steps: In the Sanction Match Entries page, the potential matches are displayed. Select the Sanction Match to get more information. Good to know:In the detail view of the sanction match entry, you can retrieve additional information, such as the reason for the sanction, the sanctioning authority, and more, by selecting the action Retrieve Additional Information.... Processing Sanction List Matches If the sanction match is a false positive, follow these steps: Select the action Add Match to Whitelist…. In the Add Match to Whitelist page, you can add the sanction match entry to the whitelist to avoid future matches. You must provide a reason and confirm the action with OK. Good to know:The permission set Sanction Screening - Whitelist is required to add a sanction match entry to the whitelist. See Also Setup Data Catalogs for Sanction Screening Automated Sanction List Screening" />
+<meta property="og:description" content="Sanction screenings can be performed with 365 business Sanction Screen in Microsoft Dynamics 365 Business Central for various entities. The results of the screenings are displayed in the respective card view and can be further processed. Types of Sanction Screenings 365 business Sanction Screen provides two types of sanction screenings: Manual sanction screening Automated sanction screening Note:To ensure optimal sanction list screening, we recommend configuring the screening intervals of individual entities (e.g., customer) in the Sanction Screen Setup and using the automated screening. Supported Entities The following Microsoft Dynamics 365 Business Central entities are supported by 365 business Sanction Screen: Customer Vendor Contact Bank Account Employee Good to know:365 business Sanction Screen is continuously being developed and expanded to include additional entities. Please check regularly for updates and new features. Additionally, you can extend the sanction screening individually for custom entities. For more information, see here. Performing a Sanction Screening Follow these steps to perform a sanction screening: Open the page (e.g., customers) in Microsoft Dynamics 365 Business Central. Select the desired record. Select the action Sanction Screening… to start the sanction screening. Note:If the sanction list screening was successful and no potential matches were found, the following message appears: In this case, no further action is necessary. Reviewing Sanction List Matches If potential matches were found, the following message appears: To review the potential matches, follow these steps: In the Sanction Match Entries page, the potential matches are displayed. Select the Sanction Match to get more information. Good to know:In the detail view of the sanction match entry, you can retrieve additional information, such as the reason for the sanction, the sanctioning authority, and more, by selecting the action Retrieve Additional Information.... Processing Sanction List Matches If the sanction match is a false positive, follow these steps: Select the action Add Match to Whitelist…. In the Add Match to Whitelist page, you can add the sanction match entry to the whitelist to avoid future matches. You must provide a reason and confirm the action with OK. Good to know:The permission set Sanction Screening - Whitelist is required to add a sanction match entry to the whitelist. See Also Setup Data Catalogs for Sanction Screening Automated Sanction List Screening" />
+<link rel="canonical" href="https://docs.365businessdev.com/en-US/365-business-sanction-screen/sanction-screening/" />
+<meta property="og:url" content="https://docs.365businessdev.com/en-US/365-business-sanction-screen/sanction-screening/" />
+<meta property="og:site_name" content="365 business development" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-11-22T10:51:10+00:00" />
+<script type="application/ld+json">
+{"url":"https://docs.365businessdev.com/en-US/365-business-sanction-screen/sanction-screening/","author":{"@type":"Person","name":"365 business development"},"@type":"Article","headline":"sanction-screening","dateModified":"2024-11-22T10:51:10+00:00","datePublished":"2024-11-22T10:51:10+00:00","description":"Sanction screenings can be performed with 365 business Sanction Screen in Microsoft Dynamics 365 Business Central for various entities. The results of the screenings are displayed in the respective card view and can be further processed. Types of Sanction Screenings 365 business Sanction Screen provides two types of sanction screenings: Manual sanction screening Automated sanction screening Note:To ensure optimal sanction list screening, we recommend configuring the screening intervals of individual entities (e.g., customer) in the Sanction Screen Setup and using the automated screening. Supported Entities The following Microsoft Dynamics 365 Business Central entities are supported by 365 business Sanction Screen: Customer Vendor Contact Bank Account Employee Good to know:365 business Sanction Screen is continuously being developed and expanded to include additional entities. Please check regularly for updates and new features. Additionally, you can extend the sanction screening individually for custom entities. For more information, see here. Performing a Sanction Screening Follow these steps to perform a sanction screening: Open the page (e.g., customers) in Microsoft Dynamics 365 Business Central. Select the desired record. Select the action Sanction Screening… to start the sanction screening. Note:If the sanction list screening was successful and no potential matches were found, the following message appears: In this case, no further action is necessary. Reviewing Sanction List Matches If potential matches were found, the following message appears: To review the potential matches, follow these steps: In the Sanction Match Entries page, the potential matches are displayed. Select the Sanction Match to get more information. Good to know:In the detail view of the sanction match entry, you can retrieve additional information, such as the reason for the sanction, the sanctioning authority, and more, by selecting the action Retrieve Additional Information.... Processing Sanction List Matches If the sanction match is a false positive, follow these steps: Select the action Add Match to Whitelist…. In the Add Match to Whitelist page, you can add the sanction match entry to the whitelist to avoid future matches. You must provide a reason and confirm the action with OK. Good to know:The permission set Sanction Screening - Whitelist is required to add a sanction match entry to the whitelist. See Also Setup Data Catalogs for Sanction Screening Automated Sanction List Screening","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.365businessdev.com/en-US/siteicon.png"},"name":"365 business development"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+		<link type="application/atom+xml" rel="alternate" href="https://docs.365businessdev.com/en-US/feed.xml" title="365 business development" />
+
+		<link rel="stylesheet" href="/en-US/css/main.css">		
+		<link href="/assets/fontawesome-pro/css/fontawesome.css" rel="stylesheet">
+		<link href="/assets/fontawesome-pro/css/light.css" rel="stylesheet">
+		<link href="/assets/fontawesome-pro/css/thin.css" rel="stylesheet">
+		<link href="/assets/fontawesome-pro/css/solid.css" rel="stylesheet">
+		<link href="/assets/fontawesome-pro/css/regular.css" rel="stylesheet">
+		<link href="/assets/fontawesome-pro/css/duotone.css" rel="stylesheet">
+		<link rel="icon" type="image/png" href="/assets/images/favicon.png">
+		<style>
+			/* add company color to fa-solid style */
+			.columns .fa-solid {
+				/*color: #60c5ce !important;*/
+				color: #00b7c3 !important;
+			}
+			/* change color for all links in divs on introduction pages */
+			.fa-ul a {
+				color: #00b7c3 !important;
+			}
+
+			/* optional: change color for hovered or focused links in divs on introduction pages */
+			.fa-ul a:hover, a:focus {
+				color: #0099a3 !important; /* slightly darker color for hover or focus */
+			}			
+		</style>
+	</head>
+
+	<body>
+		<div style="position: fixed; height: 32px; top: 0; left: 0; background-color: #23282d; width: 100%; font-size: 13px; z-index: 9999;">
+			<div style="float: left; width: 70%; box-sizing: border-box; color: rgb(209, 209, 209); font-weight: 600; height: 100%;">
+				<div id="page-scroll-title">
+				</div>
+			</div>
+			<div style="float: left; width: 30%; margin-right: 0px; box-sizing: border-box; direction: rtl;">
+				
+								
+				<a style="color: whitesmoke; padding-right: 10px;" href="/de-DE/365-business-sanction-screen/sanction-screening/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGzSURBVHjaYvTxcWb4+53h3z8GZpZff/79+v3n/7/fDAz/GHAAgABi+f37e3FxOZD1Dwz+/v3z9y+E/AMFv3//+Qumfv9et241QACxMDExAVWfOHkJJAEW/gUEP0EQDn78+AHE/gFOQJUAAcQiy8Ag8O+fLFj1n1+/QDp+/gQioK7fP378+vkDqOH39x9A/RJ/gE5lAAhAYhzcAACCQBDkgRXRjP034R0IaDTZTFZn0DItot37S94KLOINerEcI7aKHAHE8v/3r/9//zIA1f36/R+o4tevf1ANYNVA9P07RD9IJQMDQACxADHD3z8Ig4GMHz+AqqHagKp//fwLVA0U//v7LwMDQACx/LZiYFD7/5/53/+///79BqK/EMZ/UPACSYa/v/8DyX9A0oTxx2EGgABi+a/H8F/m339BoCoQ+g8kgRaCQvgPJJiBYmAuw39hxn+uDAABxMLwi+E/0PusRkwMvxhBGoDkH4b/v/+D2EDyz///QB1/QLb8+sP0lQEggFh+vGXYM2/SP6A2Zoaf30Ex/J+PgekHwz9gQDAz/P0FYrAyMfz7wcDAzPDtFwNAgAEAd3SIyRitX1gAAAAASUVORK5CYII=" width="16" height="11" style="width: 16px; height: 11px; margin-top: 10px;"></a>
+				
+				
+								
+				<a style="color: whitesmoke; padding-right: 10px;" href="/en-US/365-business-sanction-screen/sanction-screening/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHzSURBVHjaYkxOP8IAB//+Mfz7w8Dwi4HhP5CcJb/n/7evb16/APL/gRFQDiAAw3JuAgAIBEDQ/iswEERjGzBQLEru97ll0g0+3HvqMn1SpqlqGsZMsZsIe0SICA5gt5a/AGIEarCPtFh+6N/ffwxA9OvP/7//QYwff/6fZahmePeB4dNHhi+fGb59Y4zyvHHmCEAAAW3YDzQYaJJ93a+vX79aVf58//69fvEPlpIfnz59+vDhw7t37968efP3b/SXL59OnjwIEEAsDP+YgY53b2b89++/awvLn98MDi2cVxl+/vl6mituCtBghi9f/v/48e/XL86krj9XzwEEEENy8g6gu22rfn78+NGs5Ofr16+ZC58+fvyYwX8rxOxXr169fPny+fPn1//93bJlBUAAsQADZMEBxj9/GBxb2P/9+S/R8u3vzxuyaX8ZHv3j8/YGms3w8ycQARmi2eE37t4ACCDGR4/uSkrKAS35B3TT////wADOgLOBIaXIyjBlwxKAAGKRXjCB0SOEaeu+/y9fMnz4AHQxCP348R/o+l+//sMZQBNLEvif3AcIIMZbty7Ly6t9ZmXl+fXj/38GoHH/UcGfP79//BBiYHjy9+8/oUkNAAHEwt1V/vI/KBY/QSISFqM/GBg+MzB8A6PfYC5EFiDAABqgW776MP0rAAAAAElFTkSuQmCC" width="16" height="11" style="width: 16px; height: 11px; margin-top: 10px;"></a>
+				
+				
+			</div>
+		</div>
+		<header>			
+			<div style="background-color: #ffffff; box-sizing: border-box; border: 0; border-bottom: 1px solid rgba(0, 0, 0, 0.075); border-left: 5px solid transparent; box-shadow: inset -10px 0 10px -10px rgba(0, 0, 0, 0.1); padding-top: 40px;">
+				<a href="/en-US/"><img src="/assets/images/emblem.png" width="300" alt="365 business development logo"></a>
+			</div>
+			<button type="button" class="open-nav" id="open-nav"></button>			
+			<!-- 
+			<h1>	365 business development
+			</h1>
+			 -->
+			<form action="/en-US/search/" method="get">
+				<input type="text" name="q" id="search-input" placeholder="Search" autofocus>
+				<input type="submit" value="Search" style="display: none;">
+			</form>
+
+			<nav >
+				<ul>
+					<li class="nav-item top-level ">
+						
+						<a href="/en-US/">Welcome</a>
+					</li>
+				</ul>
+
+				<ul>
+					
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/en-US/365-business-address-validation/">365 business Address Validation</a>
+							<ul>
+								
+									 
+									 
+									 
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-address-validation/get-started/">Get Started</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-address-validation/address-validation/">Address Validation</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-address-validation/address-validation-status/">Address Validation Status</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-address-validation/address-prediction/">Address Prediction</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-address-validation/setup/">Setup</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-address-validation/user-settings/">User Settings</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/en-US/365-business-al-extension-manager/">365 business AL Extension Manager</a>
+							<ul>
+								
+									 
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-al-extension-manager/get-started/">Get Started</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+									</ul>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/en-US/365-business-api/">365 business API</a>
+							<ul>
+								
+									 
+									 
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-api/get-started/">Get Started</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-api/365-business-api-setup/">Setup</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-api/registration/">Registration</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-api/feedback/">Feedback</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/en-US/365-business-barcode/">365 business Barcode</a>
+							<ul>
+								
+									 
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-barcode/get-started/">Get Started</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-barcode/barcode-whatis/">What is 365 business Barcode?</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-barcode/barcode-settings/">Barcode Settings</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-barcode/supported-barcodes/">Supported Barcode Symbologies</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-barcode/barcode-howto/">Implement 365 business Barcode</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/en-US/365-business-e-invoice/">365 business E-Invoice</a>
+							<ul>
+								
+									 
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-e-invoice/zugferd-whatis/">What is ZUGFeRD?</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-e-invoice/zugferd-xrechnung/">ZUGFeRD vs. XRechnung</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-e-invoice/get-started/">Get Started</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-e-invoice/setup/">Setup</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-e-invoice/supported-document-types/">Supported Document Types</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-e-invoice/import-assistant/">Import Assistant</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-e-invoice/create-from-file/">Create from PDF-File</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/en-US/365-business-eric/">365 business ERiC</a>
+							<ul>
+								
+									 
+									 
+									 
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-eric/eric-whatis/">What is ERiC?</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-eric/elster-tax-statements/">ELSTER Tax Statements</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									 
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-eric/elster-tax-data-type/">ELSTER Tax Data Type</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-eric/elster-validation-message/">ELSTER Validation Message</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-eric/setup/">Setup</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-eric/company-information/">Company Information</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-eric/user-certificates/">User Certificates</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-eric/vat-statement-setup/">VAT Statement Setup</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-eric/365-business-api-setup/">365 business API Setup</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									 
+									 
+									 
+									 
+									 
+									 
+									 
+									 
+									 
+									 
+									 
+									 
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/en-US/365-business-mailchimp-integration/">365 business Mailchimp Integration</a>
+							<ul>
+								
+									 
+									 
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-mailchimp-integration/audience-lists/">Audience Lists</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-mailchimp-integration/audience/">Audience</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-mailchimp-integration/synchronization/">Synchronization</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-mailchimp-integration/setup/">Setup</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/en-US/365-business-pdf/">365 business PDF</a>
+							<ul>
+								
+									 
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-pdf/get-started/">Get Started</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-pdf/pdf-files/">PDF-Files</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-pdf/stationery/">Stationery</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-pdf/signing/">Sign Documents</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-pdf/document-attachments/">Document Attachments</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-pdf/concatenate/">Concatenate Documents</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+									</ul>
+								
+									 
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/en-US/365-business-print-agent/">365 business Print Agent</a>
+							<ul>
+								
+									 
+									 
+									 
+									
+									 
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-print-agent/print-agent-whatis/">What is Print Agent?</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									 
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-print-agent/print-agent-config/">Print Agent Configuration</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+												<li class="nav-item "><a href="/en-US/365-business-print-agent/print-agent-config-firststart/">Quick Start</a></li>
+											
+										
+											
+											
+										
+											
+											
+												<li class="nav-item "><a href="/en-US/365-business-print-agent/print-agent-config-printers/">Printer Management</a></li>
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+												<li class="nav-item "><a href="/en-US/365-business-print-agent/print-agent-config-printprofile/">Print Profile</a></li>
+											
+										
+											
+											
+												<li class="nav-item "><a href="/en-US/365-business-print-agent/print-agent-config-connections/">Serice Mode / Connection Type</a></li>
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+												<li class="nav-item "><a href="/en-US/365-business-print-agent/print-agent-config-databases/">Databases</a></li>
+											
+										
+											
+											
+												<li class="nav-item "><a href="/en-US/365-business-print-agent/print-agent-config-statistics/">Reporting and statistics</a></li>
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-print-agent/get-started/">Get Started</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									 
+									
+									 
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-print-agent/setup/">Setup</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-print-agent/printer/">Printer</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									 
+									
+									 
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-print-agent/printer-configuration/">Printer Configuration</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-print-agent/printer-access-permission/">Printer Access Permission</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-print-agent/print-agent-client-whatis/">What is the Print Agent Service?</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-print-agent/print-agent-service-installation/">Install Print Agent Service on Windows</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-print-agent/print-agent-clients/">Print Agent Service</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									 
+									 
+									 
+									 
+									 
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/en-US/365-business-proxy-application/">365 business Proxy Application</a>
+							<ul>
+								
+									 
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-proxy-application/proxy-application-whatis/">What is Proxy Application?</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+									</ul>
+								
+									
+									 
+									
+									 
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-proxy-application/get-started/">Get Started</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+									</ul>
+								
+									
+									 
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-proxy-application/setup/">Setup</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-proxy-application/plugins/">Plugins</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+												<li class="nav-item "><a href="/en-US/365-business-proxy-application/plugins/file/">File Plugin</a></li>
+											
+										
+											
+											
+												<li class="nav-item "><a href="/en-US/365-business-proxy-application/plugins/zip/">ZIP Plugin</a></li>
+											
+										
+											
+											
+										
+											
+											
+												<li class="nav-item "><a href="/en-US/365-business-proxy-application/plugins/image/">Image Plugin</a></li>
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+												<li class="nav-item "><a href="/en-US/365-business-proxy-application/plugins/print/">Print Plugin</a></li>
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+									</ul>
+								
+									
+									 
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-proxy-application/proxy-application-client-whatis/">What is the Proxy Application Client?</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-proxy-application/proxy-application-client-installation/">Install Proxy Application Client on Windows</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+									</ul>
+								
+									 
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level current">
+							
+							<a href="/en-US/365-business-sanction-screen/">365 business Sanction Screen</a>
+							<ul>
+								
+									 
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-sanction-screen/sanction-screen-whatis/">What is Sanction Screening?</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-sanction-screen/get-started/">Get Started</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-sanction-screen/setup/">Setup</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-sanction-screen/data-sources/">Data Catalogs</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item current"><a href="/en-US/365-business-sanction-screen/sanction-screening/">Sanction Screening</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-sanction-screen/automated-screening/">Automated Screening (Job Queue)</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/en-US/find-and-replace/">365 business development - Find & Replace</a>
+							<ul>
+								
+									 
+									
+									
+									<li class="nav-item "><a href="/en-US/find-and-replace/find-and-replace/">Find & Replace</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+									</ul>
+								
+							</ul>
+						</li>
+					
+				</ul>
+				<ul>
+					<li class="nav-item top-level">
+						<a href="https://downloads.365businessdev.com">Downloads</a>
+					</li>
+					<li class="nav-item top-level ">
+						
+						<a href="/en-US/al-developer/">AL Developer</a>
+					</li>
+					<li class="nav-item top-level ">
+						
+						<a href="/en-US/new-and-planned/">New and Planned</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<section class="main">
+			<div class="page-header">
+				<h2>365 business Sanction Screen</h2>
+				<h3>Sanction Screening</h3>
+			</div>
+			<article class="content">
+				<p>Sanction screenings can be performed with 365 business Sanction Screen in Microsoft Dynamics 365 Business Central for various entities. The results of the screenings are displayed in the respective card view and can be further processed.</p>
+
+<h3 id="types-of-sanction-screenings">Types of Sanction Screenings</h3>
+
+<p>365 business Sanction Screen provides two types of sanction screenings:</p>
+
+<ul>
+  <li>Manual sanction screening</li>
+  <li>Automated sanction screening</li>
+</ul>
+
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong>To ensure optimal sanction list screening, we recommend configuring the screening intervals of individual entities (e.g., customer) in the <strong>Sanction Screen Setup</strong> and using the <a href="../automated-screening/">automated screening</a>.
+</div>
+
+<h3 id="supported-entities">Supported Entities</h3>
+
+<p>The following Microsoft Dynamics 365 Business Central entities are supported by 365 business Sanction Screen:</p>
+
+<ul>
+  <li>Customer</li>
+  <li>Vendor</li>
+  <li>Contact</li>
+  <li>Bank Account</li>
+  <li>Employee</li>
+</ul>
+
+<div class="alert alert-notice">
+    <i class="fa-solid fa-notes"></i> <strong>Good to know:</strong>365 business Sanction Screen is continuously being developed and expanded to include additional entities. Please check regularly for updates and new features.<br />
+    Additionally, you can extend the sanction screening individually for custom entities. For more information, see <a href="../../al-developer/">here</a>.
+</div>
+
+<h3 id="performing-a-sanction-screening">Performing a Sanction Screening</h3>
+
+<p>Follow these steps to perform a sanction screening:</p>
+
+<ol>
+  <li>Open the page (e.g., customers) in Microsoft Dynamics 365 Business Central.</li>
+  <li>Select the desired record.</li>
+  <li>Select the action <strong>Sanction Screening…</strong> to start the sanction screening.</li>
+</ol>
+
+<div class="alert alert-info">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong>If the sanction list screening was successful and no potential matches were found, the following message appears:<br />
+    <img src="/assets/images/365-business-sanction-screen/sanctionscreen-no-matches-message.en-US.png" /><br />
+    In this case, no further action is necessary.
+</div>
+
+<h4 id="reviewing-sanction-list-matches">Reviewing Sanction List Matches</h4>
+
+<p>If potential matches were found, the following message appears:</p>
+
+<p><img src="/assets/images/365-business-sanction-screen/sanctionscreen-matches-found-message.en-US.png" alt="Sanction Screening Results - Potential Matches Found" /></p>
+
+<p>To review the potential matches, follow these steps:</p>
+
+<ol>
+  <li>In the <strong>Sanction Match Entries</strong> page, the potential matches are displayed.</li>
+  <li>Select the <strong>Sanction Match</strong> to get more information.</li>
+</ol>
+
+<div class="alert alert-notice">
+    <i class="fa-solid fa-notes"></i> <strong>Good to know:</strong>In the detail view of the sanction match entry, you can retrieve additional information, such as the reason for the sanction, the sanctioning authority, and more, by selecting the action <strong>Retrieve Additional Information...</strong>.
+</div>
+
+<h4 id="processing-sanction-list-matches">Processing Sanction List Matches</h4>
+
+<p>If the sanction match is a <strong>false positive</strong>, follow these steps:</p>
+
+<ol>
+  <li>Select the action <strong>Add Match to Whitelist…</strong>.</li>
+  <li>In the <strong>Add Match to Whitelist</strong> page, you can add the sanction match entry to the whitelist to avoid future matches. You must provide a reason and confirm the action with <strong>OK</strong>.<br />
+<img src="/assets/images/365-business-sanction-screen/sanctionscreen-whitelist-entry.en-US.png" alt="Add Match to Whitelist" /></li>
+</ol>
+
+<div class="alert alert-notice">
+    <i class="fa-solid fa-notes"></i> <strong>Good to know:</strong>The permission set <strong>Sanction Screening - Whitelist</strong> is required to add a sanction match entry to the whitelist.
+</div>
+
+<h3 id="see-also">See Also</h3>
+
+<ul>
+  <li><a href="../setup/">Setup</a></li>
+  <li><a href="../data-sources/">Data Catalogs for Sanction Screening</a></li>
+  <li><a href="../automated-screening/">Automated Sanction List Screening</a></li>
+</ul>
+
+			</article>
+		</section>
+
+		<script>
+			document.getElementById("open-nav").addEventListener("click", function () {
+				document.body.classList.toggle("nav-open");
+			});
+
+			// show notification for language redirection
+			function findGetParameter(parameterName) {
+				var result = null,
+					tmp = [];
+				var items = location.search.substr(1).split("&");
+				for (var index = 0; index < items.length; index++) {
+					tmp = items[index].split("=");
+					if (tmp[0] === parameterName) result = decodeURIComponent(tmp[1]);
+				}
+				return result;
+			}
+			if (findGetParameter('errorCode') == '404') {
+				let notification = `<blockquote><p><strong>Page not found.</strong><br>This is not the web page you are looking for. We are sorry, we could not find the page you requested.</p></blockquote>`;
+
+				let content = document.getElementsByClassName('content')[0].innerHTML;
+				document.getElementsByClassName('content')[0].innerHTML = notification + content;
+			}
+			if (findGetParameter('unsupportedLocale') !== null) {
+				let notification = `<blockquote><p>This page is currently not available in the selected language '<strong>${findGetParameter('unsupportedLocale')}</strong>'. You have been automatically redirected to a supported language version matching your browser language.</p></blockquote>`;
+
+				let content = document.getElementsByClassName('content')[0].innerHTML;
+				document.getElementsByClassName('content')[0].innerHTML = notification + content;
+			}
+
+			// anchor.js implementation
+			document.addEventListener("DOMContentLoaded", function(event) {
+				anchors.add('article section h1, h2, h3, h4, h5, h6');
+				anchors.options.placement = 'left';
+			});
+
+			document.body.onscroll = function() {
+				let pageScrollTitle = document.getElementById('page-scroll-title');
+				if (pageScrollTitle === null) {
+					return;
+				}
+				
+				let headerElements = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+				pageScrollTitle.innerText = headerElements[0].innerText;
+				let lastHeaderTitle = '';
+
+				// console.log(`document.documentElement.scrollTop: ${document.documentElement.scrollTop}`);
+				if (document.documentElement.scrollTop >= 100) {
+					pageScrollTitle.style.display = 'block';
+
+					for (let i = 1; i < headerElements.length; i++) {
+						const headerElement = headerElements[i];
+						if (headerElement.offsetTop < document.documentElement.scrollTop) {
+							lastHeaderTitle = headerElement.innerText;
+						}
+					}
+
+					if (lastHeaderTitle !== '') {
+						pageScrollTitle.innerText = pageScrollTitle.innerText + ' - ' + lastHeaderTitle;
+					}
+
+				} else {
+					pageScrollTitle.style.display = 'none';
+				}
+			}
+		</script>
+	</body>
+</html>

@@ -2403,6 +2403,171 @@
 					
 						<li class="nav-item top-level ">
 							
+							<a href="/en-US/365-business-sanction-screen/">365 business Sanction Screen</a>
+							<ul>
+								
+									 
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-sanction-screen/sanction-screen-whatis/">What is Sanction Screening?</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-sanction-screen/get-started/">Get Started</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-sanction-screen/setup/">Setup</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-sanction-screen/data-sources/">Data Catalogs</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-sanction-screen/sanction-screening/">Sanction Screening</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/en-US/365-business-sanction-screen/automated-screening/">Automated Screening (Job Queue)</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+									</ul>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
 							<a href="/en-US/find-and-replace/">365 business development - Find & Replace</a>
 							<ul>
 								
@@ -2868,7 +3033,7 @@
 						"title": "365 business E-Invoice  - Get Started",
 						"category": "",
 						"url": " /365-business-e-invoice/get-started/",
-						"content": "This quick guide explains how to activate and set up 365 business E-Invoice.\n\nPrerequisites\n\n\n  Microsoft Dynamics 365 Business Central 2024 release wave 1 (24.0) or newer.\n  Microsoft 365 Mailbox (optional, for receiving e-documents via email)\n\n\n\n     Important Note:This quick guide focuses on receiving e-invoices in Factur-X - ZUGFeRD format via Microsoft 365 mailbox integration.For more information on setup, please visit the documentation.\n\n\nStep 1: Install 365 business E-Invoice\n\nOpen the Extension Marketplace in Microsoft Dynamics 365 Business Central and search for 365 business E-Invoice.\nInstall the app from Microsoft AppSource and wait for the installation to complete.\n\nStep 1.1: Set up Microsoft 365 mailbox integration\n\nTo retrieve and process incoming e-documents from Microsoft 365 mailboxes, it is necessary to configure these mailboxes accordingly. This uses the Email Accounts functionality of Microsoft Dynamics 365 Business Central.\n\n\n  Open 365 business E-Invoice Setup via the Microsoft Dynamics 365 Business Central search.\n  Click on New Line and then on the Assist Edit (…) in the Name field to open the email account selection.\n  Select the email account you want to use for receiving invoices.\n  Click OK to close the email account selection.\n\n\nStep 1.2: Automate retrieval of e-documents via e-document service\n\nBy enabling automatic import, purchase invoices and credit memos in Factur-X / ZUGFeRD format from incoming emails are automatically processed.\n\n\n  Open E-Document Services via the Business Central search.\n  Select the e-document service (e.g., 365 ZUGFERD).\n  Ensure that Microsoft 365 Mailbox is selected in the Service Integration field.\n  Enable the Automatic Import option.\n  Set the Batch Start Time field, if desired, to specify when the import should occur.\n  Set the interval for retrieving emails in the Minutes Between Runs field, if desired (e.g., 1440min = 24h).\n\n\n\n     Good to know:You can also manually trigger the retrieval of e-documents from the configured Microsoft 365 mailboxes. To do this, you can call the Receive action in the e-document service.\n\n\nStep 2: Process e-documents\n\nThe processing of e-documents is done automatically by the e-document service. The e-documents are created in Microsoft Dynamics 365 Business Central as orders, purchase invoices, or credit memos.\n\nThe basic processing procedure for orders, purchase invoices, or credit memos is as follows:\n\n\n  Open E-Documents via the Business Central search.\n  Open the e-document to view the invoice details.\n\n  Check the e-documents for completeness and correct any missing information if necessary.\n  Click on the drilldown link Document to open the order, purchase invoice, or credit memo.\n  Post the document.\n\n\n\n\nErrors may occur during the processing of e-documents that prevent automatic processing. To identify problematic e-invoices, use the Business Central search and open the E-Documents area. There you can identify problem cases by an Error status in the Electronic Document Status column.\n\n\n  Open E-Documents via the Business Central search.\n  Identify a faulty document and open it.\n  In the E-Document view, you can expand the Error Messages area to see details of the issues.\n\n\nPossible causes of problems are varied, such as:\n\n\n  Unknown vendors\n  Missing link between your items and vendor items\n  Incorrect assignment of units (units of measure) to items.\n\n\nStep 2.1: Process e-documents - Handle errors\n\nTo handle problematic e-documents, 365 business E-Invoice provides the Import Wizard. This assists you in step-by-step troubleshooting of issues in your e-document and allows you to manually correct them.\n\n\n  Call the Import Wizard action in the e-document.\n  The Import Wizard assists you in step-by-step troubleshooting (see Import Wizard).\n\n\nSee also\n\n\n  Setup\n  Import Wizard"
+						"content": "This quick guide explains how to activate and set up 365 business E-Invoice.\n\nPrerequisites\n\n\n  Microsoft Dynamics 365 Business Central 2024 release wave 1 (24.0) or newer.\n  Microsoft 365 Mailbox (optional, for receiving E-Documents via email)\n\n\n\n     Important Note:This quick guide focuses on receiving e-invoices in Factur-X - ZUGFeRD format via Microsoft 365 mailbox integration.For more information on setup, please visit the documentation.\n\n\nStep 1: Install 365 business E-Invoice\n\nOpen the Extension Marketplace in Microsoft Dynamics 365 Business Central and search for 365 business E-Invoice.\nInstall the app from Microsoft AppSource and wait for the installation to complete.\n\nStep 1.1: Set up Microsoft 365 mailbox integration\n\nTo retrieve and process incoming E-Documents from Microsoft 365 mailboxes, it is necessary to configure these mailboxes accordingly. This uses the Email Accounts functionality of Microsoft Dynamics 365 Business Central.\n\n\n  Open 365 business E-Invoice Setup via the Microsoft Dynamics 365 Business Central search.\n  Click on New Line and then on the Assist Edit (…) in the Name field to open the email account selection.\n  Select the email account you want to use for receiving invoices.\n  Click OK to close the email account selection.\n\n\nStep 1.2: Automate retrieval of E-Documents via E-Document service\n\nBy enabling automatic import, purchase invoices and credit memos in Factur-X / ZUGFeRD format from incoming emails are automatically processed.\n\n\n  Open E-Document Services via the Business Central search.\n  Select the E-Document service (e.g., 365 ZUGFERD).\n  Ensure that Microsoft 365 Mailbox is selected in the Service Integration field.\n  Enable the Automatic Import option.\n  Set the Batch Start Time field, if desired, to specify when the import should occur.\n  Set the interval for retrieving emails in the Minutes Between Runs field, if desired (e.g., 1440min = 24h).\n\n\n\n     Good to know:You can also manually trigger the retrieval of E-Documents from the configured Microsoft 365 mailboxes. To do this, you can call the Receive action in the E-Document service.\n\n\nStep 2: Process E-Documents\n\nThe processing of E-Documents is done automatically by the E-Document service. The E-Documents are created in Microsoft Dynamics 365 Business Central as orders, purchase invoices, or credit memos.\n\nThe basic processing procedure for orders, purchase invoices, or credit memos is as follows:\n\n\n  Open E-Documents via the Business Central search.\n  Open the E-Document to view the invoice details.\n\n  Check the E-Documents for completeness and correct any missing information if necessary.\n  Click on the drilldown link Document to open the order, purchase invoice, or credit memo.\n  Post the document.\n\n\n\n\nErrors may occur during the processing of E-Documents that prevent automatic processing. To identify problematic e-invoices, use the Business Central search and open the E-Documents area. There you can identify problem cases by an Error status in the Electronic Document Status column.\n\n\n  Open E-Documents via the Business Central search.\n  Identify a faulty document and open it.\n  In the E-Document view, you can expand the Error Messages area to see details of the issues.\n\n\nPossible causes of problems are varied, such as:\n\n\n  Unknown vendors\n  Missing link between your items and vendor items\n  Incorrect assignment of units (units of measure) to items.\n\n\nStep 2.1: Process E-Documents - Handle errors\n\nTo handle problematic E-Documents, 365 business E-Invoice provides the Import Wizard. This assists you in step-by-step troubleshooting of issues in your E-Document and allows you to manually correct them.\n\n\n  Call the Import Wizard action in the E-Document.\n  The Import Wizard assists you in step-by-step troubleshooting (see Import Wizard).\n\n\nSee also\n\n\n  Setup\n  Import Wizard"
 					}
 
 					
@@ -2885,7 +3050,7 @@
 						"title": "365 business E-Invoice  - Import Assistant",
 						"category": "",
 						"url": " /365-business-e-invoice/import-assistant/",
-						"content": "The 365 business E-Invoice Import Assistant is the central module that helps you resolve issues during the processing of ZUGFeRD PDF files or the creation of e-invoices.\n\nIf a problem occurs during the creation of an e-invoice (either automated via a linked email account or manually through uploading a ZUGFeRD PDF file), the creation process will pause and require your input to proceed.\n\nPossible causes for issues include:\n\n  Unknown vendors\n  Missing links between your items and vendor items\n  Incorrect assignment of units of measure to items.\n\n\n\n\t Important:The assignment of items and G/L accounts is done individually for each vendor to prevent incorrect automatic linking of similar item or G/L account numbers.\n\tUnits of measure, on the other hand, are stored in \"E-Document Services\" under \"365 ZUGFERD\" and \"Import Mapping\".\n\n\n\n\t Note:Once an item, G/L account, or unit of measure is assigned, it will be automatically recognized and applied by 365 business E-Invoice for recurring items, G/L accounts, and units.\n\n\n\n\t Note:Existing item assignments can be removed via the \"Item References\", and G/L account assignments via \"Text-to-Account Mapping\" for each vendor.\n\tThe removal of unit of measure assignments, however, is done in \"E-Document Services\" under \"365 ZUGFERD\" and \"Import Mapping\".\n\n\n\nResolving Issues with the Import Assistant\n\nTo identify problematic e-invoices, use the Business Central search and go to the “E-Documents” section.\nYou can recognize problem cases by the “Error” status in the “Electronic Document Status” column.\n\n\n  Open “E-Documents” using the Business Central search.\n  Identify the faulty document and open it.\n  In the “E-Document” view, you can expand the “Error Messages” section to view details about the issues.\n\n\n\n\nStep-by-Step Problem Resolution\n\nLaunch the “Import Assistant” by clicking the 3 dots next to the “Document No.” field.\n\nThe Import Assistant will guide you through resolving the issues step by step. At the start, you will be informed about how many issues need to be resolved for the e-invoice to be created.\nThe affected PDF file will be displayed visually on the right side to assist with the process.\nClick “Next” to begin resolving the issues one by one.\n\n\n     Note: You can cancel and restart the 365 business E-Invoice Import Assistant at any time.\n\n\n\n\n\nVendor\n\nIf the vendor from the ZUGFeRD PDF file is not automatically recognized, the Import Assistant will start with this assignment.\n\nSelect the appropriate vendor or create a new vendor.\n\n\n\n\nInvoice Lines (Items and G/L Accounts)\n\nNext, all invoice lines will be displayed for which no automatic link to one of your items or G/L accounts was found.\n\nSelect the corresponding item or G/L account to create the link.\n\n\n\n\n     Note: For each invoice line, you can choose whether it is an item or a G/L account.\n    Depending on your selection, the available data you can assign will change.\n\n\n\n     Note: The current invoice line will be highlighted in the PDF view on the right side to help you keep track.\n\n\n\n     Note: If an item is not available, you can ignore it for now and link it to a purchase line in a later step.\n    Once an item has been successfully assigned, it will be automatically recognized in the future.\n\n\n\nUnits of Measure\n\nIn cases where the units of measure for the invoice lines are not correctly recognized or assigned, the Import Assistant helps you manually assign the appropriate units (e.g., pieces, kilograms, liters).\n\nThis is particularly important to ensure that the invoice is calculated correctly, as different vendors may use different units for the same item.\n\nSelect the appropriate unit of measure.\n\n\n\n\n     Note: Once a unit of measure has been assigned, this information will be automatically applied to future invoices from the same vendor to speed up the process.\n\n\n\nCompletion of Issue Resolution\n\nAfter all issues have been resolved, the e-invoice is created by clicking “Finish”, and the Import Assistant closes.\n\nThe status of the document will change from “Error” to “In Progress”."
+						"content": "The 365 business E-Invoice Import Assistant is the central module that helps you resolve issues during the processing of ZUGFeRD PDF files or the creation of e-invoices.\n\nIf a problem occurs during the creation of an e-invoice (either automated via a linked email account or manually through uploading a ZUGFeRD PDF file), the creation process will pause and require your input to proceed.\n\nPossible causes for issues include:\n\n  Unknown vendors\n  Missing links between your items and vendor items\n  Incorrect assignment of units of measure to items.\n\n\n\n\t Important:The assignment of items and G/L accounts is done individually for each vendor to prevent incorrect automatic linking of similar item or G/L account numbers.\n\tUnits of measure, on the other hand, are stored in \"E-Document Services\" under \"365 ZUGFERD\" and \"Import Mapping\".\n\n\n\n\t Note:Once an item, G/L account, or unit of measure is assigned, it will be automatically recognized and applied by 365 business E-Invoice for recurring items, G/L accounts, and units.\n\n\n\n\t Note:Existing item assignments can be removed via the \"Item References\", and G/L account assignments via \"Text-to-Account Mapping\" for each vendor.\n\tThe removal of unit of measure assignments, however, is done in \"E-Document Services\" under \"365 ZUGFERD\" and \"Import Mapping\".\n\n\n\nResolving Issues with the Import Assistant\n\nTo identify problematic e-invoices, use the Business Central search and go to the “E-Documents” section.\nYou can recognize problem cases by the “Error” status in the “Electronic Document Status” column.\n\n\n  Open “E-Documents” using the Business Central search.\n  Identify the faulty document and open it.\n  In the “E-Document” view, you can expand the “Error Messages” section to view details about the issues.\n\n\n\n\nStep-by-Step Problem Resolution\n\nLaunch the “Import Assistant” using the corresponding button in the view of the selected E-Document.\n\nThe Import Assistant will guide you through resolving the issues step by step. At the start, you will be informed about how many issues need to be resolved for the e-invoice to be created.\nThe affected PDF file will be displayed visually on the right side to assist with the process.\nClick “Next” to begin resolving the issues one by one.\n\n\n     Note: You can cancel and restart the 365 business E-Invoice Import Assistant at any time.\n\n\n\n\n\nVendor\n\nIf the vendor from the ZUGFeRD PDF file is not automatically recognized, the Import Assistant will start with this assignment.\n\nSelect the appropriate vendor or create a new vendor.\n\n\n\n\nInvoice Lines (Items and G/L Accounts)\n\nNext, all invoice lines will be displayed for which no automatic link to one of your items or G/L accounts was found.\n\nSelect the corresponding item or G/L account to create the link.\n\n\n\n\n     Note: For each invoice line, you can choose whether it is an item or a G/L account.\n    Depending on your selection, the available data you can assign will change.\n\n\n\n     Note: The current invoice line will be highlighted in the PDF view on the right side to help you keep track.\n\n\n\n     Note: If an item is not available, you can ignore it for now and link it to a purchase line in a later step.\n    Once an item has been successfully assigned, it will be automatically recognized in the future.\n\n\n\nUnits of Measure\n\nIn cases where the units of measure for the invoice lines are not correctly recognized or assigned, the Import Assistant helps you manually assign the appropriate units (e.g., pieces, kilograms, liters).\n\nThis is particularly important to ensure that the invoice is calculated correctly, as different vendors may use different units for the same item.\n\nSelect the appropriate unit of measure.\n\n\n\n\nCompletion of Issue Resolution\n\nAfter all issues have been resolved, the e-invoice is created by clicking “Finish”, and the Import Assistant closes.\n\nThe status of the document will change from “Error” to “In Progress”."
 					}
 
 					
@@ -2936,7 +3101,7 @@
 						"title": "365 business E-Invoice  - Supported Document Types",
 						"category": "",
 						"url": " /365-business-e-invoice/supported-document-types/",
-						"content": "365 business E-Invoice supports the import of e-documents for purchase invoices and credit memos. This enables companies to efficiently process incoming invoices and credit memos and integrate them into Microsoft Dynamics 365 Business Central.\n\nFor export, sales invoices and credit memos are supported. This makes it easier for companies to send and manage outgoing invoices and credit memos directly from Microsoft Dynamics 365 Business Central.\n\nImported Document Types\n\n  Purchase Invoices\n  Purchase Credit Memos\n\n\nExported Document Types\n\n  Sales Invoices\n  Sales Credit Memos\n\n\nThrough integration with Microsoft Dynamics 365 Business Central, companies can optimize their accounting processes and ensure data accuracy. The seamless connection between 365 business E-Invoice and Dynamics 365 Business Central enables efficient management of e-documents and contributes to improved operational efficiency."
+						"content": "365 business E-Invoice supports the import of E-Documents for purchase invoices and credit memos. This enables companies to efficiently process incoming invoices and credit memos and integrate them into Microsoft Dynamics 365 Business Central.\n\nFor export, sales invoices and credit memos are supported. This makes it easier for companies to send and manage outgoing invoices and credit memos directly from Microsoft Dynamics 365 Business Central.\n\nImported Document Types\n\n  Purchase Invoices\n  Purchase Credit Memos\n\n\nExported Document Types\n\n  Sales Invoices\n  Sales Credit Memos\n\n\nThrough integration with Microsoft Dynamics 365 Business Central, companies can optimize their accounting processes and ensure data accuracy. The seamless connection between 365 business E-Invoice and Dynamics 365 Business Central enables efficient management of E-Documents and contributes to improved operational efficiency."
 					}
 
 					
@@ -2953,7 +3118,7 @@
 						"title": "365 business E-Invoice  - What is ZUGFeRD?",
 						"category": "",
 						"url": " /365-business-e-invoice/zugferd-whatis/",
-						"content": "ZUGFeRD Support\nZUGFeRD (Central User Guide of the Forum for Electronic Invoices in Germany) is a standardized format for the exchange of electronic invoices, primarily designed to make electronic invoicing accessible to small and medium-sized businesses. ZUGFeRD invoices combine human-readable PDFs with machine-readable XML data, enabling both manual and automated processing of invoices.\n\nWhat is ZUGFeRD 2.0?\nZUGFeRD 2.0 is the latest version of the standard, designed to align with international formats such as the European EN16931 standard for electronic invoices in the public sector. By adhering to this standard, ZUGFeRD 2.0 ensures seamless interoperability across different countries and systems.\n\nBenefits of ZUGFeRD 2.0:\n\n  Interoperability: ZUGFeRD 2.0 is fully compliant with the European EN16931 standard, allowing invoices to be exchanged across borders.\n  Dual Format: The format combines a PDF for human use and XML data for automated processing in one file.\n  Automated Processing: Incoming invoices can be automatically read and processed, reducing manual effort and errors.\n  Flexibility: ZUGFeRD is suitable for businesses of all sizes and can be integrated into existing IT systems with ease.\n\n\nZUGFeRD in 365 business E-Invoice\nOur app, 365 business E-Invoice, offers complete support for ZUGFeRD 2.0 EN16931. This allows companies to both receive invoices in the ZUGFeRD format and convert their Business Central invoices into ZUGFeRD format for outgoing invoices. The automated conversion and optional automatic dispatch of ZUGFeRD invoices make it easier for businesses to comply with legal requirements efficiently.\n\nBy supporting the ZUGFeRD standard, our solution streamlines the invoicing process, enabling businesses to take full advantage of automated invoice generation and processing. This automation saves time and resources while ensuring that all invoices comply with current legal standards."
+						"content": "ZUGFeRD Support\nZUGFeRD (Central User Guide of the Forum for Electronic Invoices in Germany) is a standardized format for the exchange of electronic invoices, primarily designed to make electronic invoicing accessible to small and medium-sized businesses. ZUGFeRD invoices combine human-readable PDFs with machine-readable XML data, enabling both manual and automated processing of invoices.\n\nWhat is ZUGFeRD?\nZUGFeRD is the latest version of the standard, designed to align with international formats such as the European EN16931 standard for electronic invoices in the public sector. By adhering to this standard, ZUGFeRD 2.0 ensures seamless interoperability across different countries and systems.\n\nBenefits of ZUGFeRD 2.0:\n\n  Interoperability: ZUGFeRD 2.0 is fully compliant with the European EN16931 standard, allowing invoices to be exchanged across borders.\n  Dual Format: The format combines a PDF for human use and XML data for automated processing in one file.\n  Automated Processing: Incoming invoices can be automatically read and processed, reducing manual effort and errors.\n  Flexibility: ZUGFeRD is suitable for businesses of all sizes and can be integrated into existing IT systems with ease.\n\n\nZUGFeRD in 365 business E-Invoice\nOur app, 365 business E-Invoice, offers complete support for ZUGFeRD 2.0 EN16931. This allows companies to both receive invoices in the ZUGFeRD format and convert their Business Central invoices into ZUGFeRD format for outgoing invoices. The automated conversion and optional automatic dispatch of ZUGFeRD invoices make it easier for businesses to comply with legal requirements efficiently.\n\nBy supporting the ZUGFeRD standard, our solution streamlines the invoicing process, enabling businesses to take full advantage of automated invoice generation and processing. This automation saves time and resources while ensuring that all invoices comply with current legal standards."
 					}
 
 					
@@ -4246,6 +4411,125 @@
 						"category": "",
 						"url": " /365-business-proxy-application/setup/",
 						"content": "The Proxy Application Setup contains the basic configuration for the communication between Microsoft Dynamics 365 Business Central and the 365 business Proxy Application Clients.\n\n\n\nSetup parameters\n\n\n  \n    \n      Field name\n      Group\n      Description\n    \n  \n  \n    \n      Tenant ID\n      General\n      Specifies the tenant ID used to secure communication between the Proxy Application service and Microsoft Dynamics 365 Business Central.\n    \n    \n      Automatically activate new clients\n      General\n      Specifies whether new proxy application clients should be automatically activated for use with Microsoft Dynamics 365 Business Central.\n    \n  \n\n\nLogs\n\nThe Logs action is available in Microsoft Dynamics 365 Business Central for better monitoring and easier analysis of problems and errors.\n\nThis action retrieves and displays the current application log of the selected 365 business Proxy Application Client.\n\n\n\n\n     Note: The logs do not contain any sensitive data and are used to provide you with faster support in the event of an error.\n    \n    Please always send the log files with support requests so that our support team has all the necessary information."
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"365-business-sanction-screen-automated-screening": {
+						"id": "365-business-sanction-screen-automated-screening",
+						"title": "365 business Sanction Screen  - Automated Screening (Job Queue)",
+						"category": "",
+						"url": " /365-business-sanction-screen/automated-screening/",
+						"content": "365 business Sanction Screen supports automated sanction list screening in Microsoft Dynamics 365 Business Central. The automated sanction list screening allows you to automatically perform sanction list screening for all supported entities.\n\nBefore you start\n\nOn the Sanction Screen Setup page, you can set the screening intervals for each entity, select the data catalogs to be screened, and configure notifications. Additionally, you will find useful information about the current configuration and the screenings performed.\n\n\n\nBefore setting up automated sanction list screening, check that the Sanction Screen Setup is configured correctly. This is the only way to ensure that the automated sanction list screening is performed correctly.\n\nSetting up automated sanction list screening\n\nFollow these steps to set up automated sanction list screening in Microsoft Dynamics 365 Business Central:\n\n\n  Open the Job Queue Entries page via the Microsoft Dynamics 365 Business Central search.\n  Select the Sanction Screening line.\n  Select the Job Queue action group and then Request Page.\n  Make the desired settings for the automated sanction list screening.\n\n  Select OK to save the settings.\n  Make the desired settings for the repetition of the automated sanction list screening.\n  Select the Set Status to ‘Ready’ action to activate the job queue entry.\n\n\n\n     Note: To ensure optimal sanction list screening, we recommend configuring the screening intervals for each entity (e.g., customer) in the Sanction Screen Setup.\n\n\nSee also\n\n\n  Setup\n  Data catalogs for sanction screening"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"365-business-sanction-screen-data-sources": {
+						"id": "365-business-sanction-screen-data-sources",
+						"title": "365 business Sanction Screen  - Data Catalogs",
+						"category": "",
+						"url": " /365-business-sanction-screen/data-sources/",
+						"content": "Selecting the data catalogs for the sanctions list check is an important step in setting up 365 business Sanction Screen in Microsoft Dynamics 365 Business Central. The data catalogs reference the corresponding sanctions lists that should be used for the check.\n\n\n\nBy default, all available data catalogs for the sanctions list check are enabled. However, you can customize the selection of data catalogs to check only the relevant lists. This can be particularly useful if your company operates only in certain regions or industries and wants to limit the check to these specific lists.\n\nThe data catalogs to be used can be configured on the Sanctions Data Catalog page. Here you can enable or disable individual data catalogs to tailor the sanctions list check to your requirements. Additionally, each catalog has a link to the official source for more information.\n\nSee also\n\n\n  Step-by-step guide\n  Setup"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"365-business-sanction-screen-get-started": {
+						"id": "365-business-sanction-screen-get-started",
+						"title": "365 business Sanction Screen  - Get Started",
+						"category": "",
+						"url": " /365-business-sanction-screen/get-started/",
+						"content": "This quick guide explains how to perform a sanctions list check for a customer in Microsoft Dynamics 365 Business Central. The structure is fundamentally identical for all supported entities (e.g., vendor, contact, employee) and can be applied according to this quick guide.\n\n\n     Note:To ensure optimal sanctions list checking, we recommend configuring the check intervals for each entity (e.g., customer) in the Sanction Screen Setup and using the automated screening.\n\n\nPrerequisites\n\n\n  Microsoft Dynamics 365 Business Central 2021 release wave 1 (18.0) or newer.\n\n\nStep 1: Install 365 business Sanction Screen\n\nOpen the Extension Marketplace in Microsoft Dynamics 365 Business Central and search for 365 business Sanction Screen.\nInstall the app from Microsoft AppSource and wait for the installation to complete.\n\nStep 2: Sanctions Check Results\n\nAfter installing 365 business Sanction Screen in Microsoft Dynamics 365 Business Central, you can perform the sanctions list check for customers, vendors, etc. The entity is checked for possible matches with the sanctions lists and the results are displayed.\n\nAdditionally, you will find the Sanctions Check view in the info area of the card views, which gives you an overview of the checks performed and possible hits.\n\nSanctions Check Results - Possible Hits Found\n\nIf possible hits were found during the sanctions check, the following will be displayed in the info box:\n\n\n\nSanctions Check Results - No Hits Found\n\nIf no hits were found during the sanctions check, the following will be displayed in the info box:\n\n\n\n\n     Note:If the record has not yet been checked, this will also be displayed accordingly in the info box. In this case, perform the sanctions list check for the record, or wait until the automated screening has been performed.\n\n\nStep 3: Perform Sanctions List Check for a Customer\n\n\n  Open the Customers page in Microsoft Dynamics 365 Business Central.\n  Select the desired Customer.\n  Select the action Sanctions Check….\n\n\n\n     Note:If the sanctions list check was successful and no possible matches were found, the following message will appear:\n    \n    In this case, no further action is necessary.\n\n\nStep 2.1: Review Sanctions List Hits\n\n\n  If possible matches were found, the following message will appear:\n \n \n Select OK to review the possible matches.\n  On the Sanction Hit Entries page, the possible matches will be displayed.\n  Select the Sanction Hit to get more information.\n\n\n\n     Good to know:In the detail view of the sanction hit entry, you can retrieve additional information, such as the reason for the sanction, the sanctioning authority, and more via the action Retrieve Additional Information....\n\n\nStep 2.2: Process Sanctions List Hits\n\n\n  If the sanction hit is a false match, select the action Add Hit to Whitelist….\n  On the Add Hit to Whitelist page, you can add the sanction hit entry to the whitelist to avoid future matches. You must provide a reason and confirm the action with OK.\n\n\n\n\n     Good to know:The permission set Sanctions Check - Whitelist is required to add a sanction hit entry to the whitelist.\n\n\nSee Also\n\n\n  Setup\n  Data Catalogs for Sanctions Check\n  Automated Sanctions List Check"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"365-business-sanction-screen": {
+						"id": "365-business-sanction-screen",
+						"title": "365 business Sanction Screen  - Introduction",
+						"category": "",
+						"url": " /365-business-sanction-screen/",
+						"content": "Companies are legally required to regularly check their business partners against sanction lists to ensure that they do not conduct business with sanctioned individuals, groups, or organizations. This obligation arises from various EU regulations and the Foreign Trade and Payments Act (AWG).\n\nThe most important legal bases include:\n\n\n  EU Regulations: In particular, Regulation (EC) 881/2002 and Regulation (EC) No 2580/2001, which establish restrictive measures against certain individuals and organizations.\n  UN Sanction Lists: These serve as the basis for European and national sanction lists. All UN member states are required to avoid the listed individuals.\n\n\nCompanies must ensure that they regularly conduct sanction list checks. This includes matching data about business partners or employees with the entries in the relevant sanction lists.\n\n\n\nWith 365 business Sanction Screen, companies can automate their sanction list checks and ensure that they meet legal requirements. The solution enables the integration of sanction list checks into daily business processes and helps companies minimize risks and avoid compliance violations.\n\nThanks to the integration into Microsoft Dynamics 365 Business Central, companies can perform their sanction list checks directly in their ERP system. The solution offers seamless integration into the user interface of Microsoft Dynamics 365 Business Central and allows users to perform sanction list checks directly from the system.\n\nBenefits of 365 business Sanction Screen:\n\n\n  Comprehensive Coverage: Conduct sanction checks with over 240 data sources, including:\n    \n      EU CFSP - Consolidated List of Persons\n      EU RUSK - Russia Capital Market Embargo\n      EU RUSD - Russia Dual-Use Goods Embargo\n      EU Financial Sanctions Files (FSF)\n      US SDN - Specially Designated Nationals and Blocked Persons List\n      US OFAC Specially Designated Nationals (SDN) List\n    \n  \n  Automation: Fully automated sanction checks with configurable intervals for each entity.\n  User-Friendly: User-friendly visualization of possible matches and configurable notifications in purchase and sales documents.\n\n\n\n   \n       \n           \n               \n               Overview\n               What is Sanction Screening?\n           \n       \n   \n   \n       \n           \n               \n               Step-by-Step Guide\n               Getting Started\n           \n       \n   \n   \n       \n           \n               \n               Setup\n               Set up Sanction Screening\n           \n       \n   \n\n\n\n   \n        Basics\n        \n            Learn more about 365 business Sanction Screen:\n            \n                What is Sanction Screening?\n                Data Catalogs\n            \n        \n    \n    \n         Guide\n             \n                Learn more about using 365 business Sanction Screen:\n                \n                    Conduct Sanction Screening\n                    Automated Sanction Screening\n                \n            \n    \n    \n         Setup\n             \n                Learn more about the setup:\n                \n                    Perform Sanction Screen Setup\n                    Screening Intervals\n                    Set up Automated Sanction Screening"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"365-business-sanction-screen-sanction-screen-whatis": {
+						"id": "365-business-sanction-screen-sanction-screen-whatis",
+						"title": "365 business Sanction Screen  - What is Sanction Screening?",
+						"category": "",
+						"url": " /365-business-sanction-screen/sanction-screen-whatis/",
+						"content": "Sanction screening is a process in which companies check their business partners, debtors, employees, and transactions against national and international sanction lists. These lists contain individuals, organizations, and countries that have been sanctioned due to illegal activities, terrorism, or other threats.\n\nMonitored Risks\n\nSanction screening monitors various risks, including:\n\n  Terrorism Financing: Preventing the financing of terrorist activities.\n  Money Laundering: Detecting and preventing money laundering activities.\n  Trade Restrictions: Ensuring compliance with trade restrictions and embargoes.\n  Reputational Risks: Protecting the company from negative impacts on its reputation due to connections with sanctioned parties.\n\n\nImportance for Companies\n\nSanction screening is important for companies for several reasons:\n\n  Legal Requirements: Compliance with legal regulations and avoidance of penalties.\n  Risk Management: Minimizing financial and legal risks.\n  Business Integrity: Ensuring ethical business practices and protecting the company’s image.\n  Avoiding Business Interruptions: Avoiding sanctions that could disrupt business operations.\n\n\nBy implementing effective sanction screening, companies can ensure that they act in compliance with the law and that their business relationships are safe and trustworthy.\n\nSanction Screening with 365 business Sanction Screen\n\n365 business Sanction Screen is a solution that helps companies conduct their sanction screenings efficiently and automatically. The solution offers comprehensive coverage of over 240 data sources and enables fully automated sanction screening with configurable intervals for each entity. User-friendly visualizations and configurable notifications facilitate the monitoring and management of sanction list checks in real-time.\n\n\n\n\n     Good to know: 365 business Sanction Screen allows the control of the sanction lists or data catalogs to be checked, depending on the individual requirements of the company.\n    For more information, see here.\n\n\nSee Also\n\n\n  Step-by-Step Guide\n  Setup\n  Data Catalogs for Sanction Screening"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"365-business-sanction-screen-sanction-screening": {
+						"id": "365-business-sanction-screen-sanction-screening",
+						"title": "365 business Sanction Screen  - Sanction Screening",
+						"category": "",
+						"url": " /365-business-sanction-screen/sanction-screening/",
+						"content": "Sanction screenings can be performed with 365 business Sanction Screen in Microsoft Dynamics 365 Business Central for various entities. The results of the screenings are displayed in the respective card view and can be further processed.\n\nTypes of Sanction Screenings\n\n365 business Sanction Screen provides two types of sanction screenings:\n\n\n  Manual sanction screening\n  Automated sanction screening\n\n\n\n     Note:To ensure optimal sanction list screening, we recommend configuring the screening intervals of individual entities (e.g., customer) in the Sanction Screen Setup and using the automated screening.\n\n\nSupported Entities\n\nThe following Microsoft Dynamics 365 Business Central entities are supported by 365 business Sanction Screen:\n\n\n  Customer\n  Vendor\n  Contact\n  Bank Account\n  Employee\n\n\n\n     Good to know:365 business Sanction Screen is continuously being developed and expanded to include additional entities. Please check regularly for updates and new features.\n    Additionally, you can extend the sanction screening individually for custom entities. For more information, see here.\n\n\nPerforming a Sanction Screening\n\nFollow these steps to perform a sanction screening:\n\n\n  Open the page (e.g., customers) in Microsoft Dynamics 365 Business Central.\n  Select the desired record.\n  Select the action Sanction Screening… to start the sanction screening.\n\n\n\n     Note:If the sanction list screening was successful and no potential matches were found, the following message appears:\n    \n    In this case, no further action is necessary.\n\n\nReviewing Sanction List Matches\n\nIf potential matches were found, the following message appears:\n\n\n\nTo review the potential matches, follow these steps:\n\n\n  In the Sanction Match Entries page, the potential matches are displayed.\n  Select the Sanction Match to get more information.\n\n\n\n     Good to know:In the detail view of the sanction match entry, you can retrieve additional information, such as the reason for the sanction, the sanctioning authority, and more, by selecting the action Retrieve Additional Information....\n\n\nProcessing Sanction List Matches\n\nIf the sanction match is a false positive, follow these steps:\n\n\n  Select the action Add Match to Whitelist….\n  In the Add Match to Whitelist page, you can add the sanction match entry to the whitelist to avoid future matches. You must provide a reason and confirm the action with OK.\n\n\n\n\n     Good to know:The permission set Sanction Screening - Whitelist is required to add a sanction match entry to the whitelist.\n\n\nSee Also\n\n\n  Setup\n  Data Catalogs for Sanction Screening\n  Automated Sanction List Screening"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"365-business-sanction-screen-setup": {
+						"id": "365-business-sanction-screen-setup",
+						"title": "365 business Sanction Screen  - Setup",
+						"category": "",
+						"url": " /365-business-sanction-screen/setup/",
+						"content": "By installing 365 business Sanction Screen, the basic setup is already completed, and you are ready to perform the sanctions list check in Microsoft Dynamics 365 Business Central.\nHowever, this is a standard setup that should be customized according to the individual requirements of your company.\n\nBefore you start\n\nBefore you begin with the sanctions list check, you should review the following points:\n\n\n  Data Catalogs: Review the data catalogs to be used for the sanctions list check. 365 business Sanction Screen offers comprehensive coverage of over 240 data sources that can be used for the sanctions list check. For more information, click here.\n  Intervals: Review the intervals at which the sanctions list check should be performed. 365 business Sanction Screen enables fully automated sanctions checks with configurable intervals for each entity.\n\n\nCheck Intervals\n\nThe check intervals determine how often the sanctions list check is performed. You can configure the check intervals for each entity individually, with the following recommendations:\n\n\n  Small businesses: Annually. Small businesses with low risk and few business partners can perform an annual review.\n  Medium-sized businesses: Semi-annually. Medium-sized businesses should review their trading partners and employees every six months to ensure they are not doing business with sanctioned individuals or organizations.\n  Large businesses: Quarterly. Large businesses with extensive international business relationships should perform a sanctions list check at least every three months.\n  High-risk businesses: Monthly. Businesses operating in high-risk industries or conducting many international transactions should consider monthly reviews.\n  Businesses with critical business areas: Weekly. Businesses operating in particularly sensitive or regulated areas, such as financial services or the defense industry, should perform weekly checks.\n\n\nSetup\n\nThe Sanction Screen Setup can be used as a central point for configuring the sanctions list check in Microsoft Dynamics 365 Business Central. Here you can set the check intervals for each entity, select the data catalogs to be checked, and configure notifications.\nAdditionally, you will find useful information about the current configuration and the checks performed.\n\n\n\nSales &amp; Receivables\n\nIn the Sales &amp; Receivables group, you can specify how Microsoft Dynamics 365 Business Central should handle potential matches and hits in the sanctions list check within sales documents and customers.\n\n\n  \n    \n      Field\n      Description\n      Default\n    \n  \n  \n    \n      Hit Behavior\n      Specifies how Microsoft Dynamics 365 Business Central should handle potential matches in the sanctions list check.\n      Notify\n    \n  \n\n\n\n     Note: In the current version, the options Notify and None are available.\n    \n    In future versions of 365 business Sanction Screen, additional options will be available to further differentiate the handling of hits in the sanctions list check.\n    \n    Please check regularly for updates and new features.\n\n\nPurchase &amp; Payables\n\nIn the Purchase &amp; Payables group, you can specify how Microsoft Dynamics 365 Business Central should handle potential matches and hits in the sanctions list check within purchase documents and vendors.\n\n\n  \n    \n      Field\n      Description\n      Default\n    \n  \n  \n    \n      Hit Behavior\n      Specifies how Microsoft Dynamics 365 Business Central should handle potential matches in the sanctions list check.\n      Notify\n    \n  \n\n\nScreening Interval\n\nThe Screening Interval determines how often the sanctions list check is performed. You can set the interval for each entity individually.\n\n\n  \n    \n      Interval\n      Description\n    \n  \n  \n    \n      Annually\n      The check is performed within a year after the last check.\n    \n    \n      Semi-annually\n      The check is performed within six months after the last check.\n    \n    \n      Quarterly\n      The check is performed within three months after the last check.\n    \n    \n      Monthly\n      The check is performed within a month after the last check.\n    \n    \n      Weekly\n      The check is performed within a week after the last check.\n    \n    \n      Manually\n      The check is performed manually by the user only.\n    \n  \n\n\n\n     Good to know: In the automated task queue entry Sanctions Check, the setting can be overridden to perform special checks deviating from the standard.\n\n\nPermissions\n\n365 business Sanction Screen provides two permission sets required for the sanctions list check:\n\n\n  \n    \n      Permission Set\n      Name\n      Description\n    \n  \n  \n    \n      BDEV.OS.BASIC\n      Sanctions Check - BASIC\n      Provides the basic permissions to work with 365 business Sanction Screen. This permission set should be assigned to all users.\n    \n    \n      BDEV.OS.WHITELIST\n      Sanctions Check - Whitelist\n      Authorizes the user to add sanction hit entries to the whitelist.\n    \n  \n\n\nSee also\n\n\n  Step-by-step guide\n  Data catalogs for sanctions check"
 					}
 
 					
