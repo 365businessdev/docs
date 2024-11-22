@@ -17,6 +17,7 @@ category:
   365-business-address-completion: 365 business Address Completion
   365-business-proxy-application: 365 business Proxy Application
   365-business-e-invoice: 365 business E-Invoice
+  365-business-sanction-screen: 365 business Sanction Screen
 titles:
   al-developer: AL Implementation Guide
   search: Suche
@@ -113,6 +114,10 @@ titles:
   send-e-invoice: Erstellung & Versand von ZUGFeRD PDF Dateien
   zugferd-xrechnung: ZUGFeRD vs. XRechnung
   supported-document-types: Unterstützte Belegarten
+  sanction-screen-whatis: Was ist Sanktionsprüfung?
+  sanction-screening: Sanktionsprüfung
+  automated-screening: Automatisierte Prüfung (Aufgabenwarteschlange)
+  data-sources: Datenkataloge 
 langs:
   german: Deutsch
   english: English
