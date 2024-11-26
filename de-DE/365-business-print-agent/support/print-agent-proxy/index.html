@@ -28,7 +28,7 @@
 <meta property="og:url" content="https://docs.365businessdev.com/de-DE/365-business-print-agent/support/print-agent-proxy/" />
 <meta property="og:site_name" content="365 business development" />
 <script type="application/ld+json">
-{"url":"https://docs.365businessdev.com/de-DE/365-business-print-agent/support/print-agent-proxy/","author":{"@type":"Person","name":"365 business development"},"@type":"Article","headline":"print-agent-proxy","description":"Problem Der 365 business Print Agent Cloud Service und der 365 business Print Agent Server sind für sichere Netzwerkumgebungen optimiert, indem sie über HTTPS eine Verbindung zu unseren Cloud-Servern herstellen. Auf diese Weise lassen die meisten Firewalls unseren Datenverkehr bereits ohne zusätzliche Konfiguration passieren. Wenn jedoch die Netzwerksicherheitsrichtlinien Ihrer Organisation erfordern, dass der gesamte ausgehende Internetverkehr über einen Proxyserver geleitet wird, müssen Sie den 365 business Print Agent Cloud Service und/oder den 365 business Print Agent Server Service so konfigurieren, dass sie diesen Proxyserver explizit verwendet. Lösung 365 business Print Agent Cloud Um dem Service mitzuteilen, welcher Proxyserver verwendet werden soll, müssen Sie die Proxy-Konfigurationsdatei des 365 business Print Agent Cloud Service im Verzeichnis C:\\ProgramData\\365 business development GmbH\\365 business Print Agent\\CloudClient erstellen. Erstellen Sie mit einem Texteditor (z.B. Notepad) im Administrator Modus die Datei proxy.json und fügen Sie den folgenden Inhalt ein. 1.1. Konfiguration eines Proxy mit Benutzeranmeldedaten: { &quot;Proxy&quot;: { &quot;Enabled&quot;: true, &quot;Url&quot;: &quot;http://hostname:port&quot;, &quot;BypassProxyOnLocal&quot;: false, &quot;UserCredentials&quot;: { &quot;Username&quot;: &quot;user.name&quot;, &quot;Password&quot;: &quot;p@ssword&quot; } } } 1.2. Konfiguration eines Proxy ohne Benutzeranmeldedaten: { &quot;Proxy&quot;: { &quot;Enabled&quot;: true, &quot;Url&quot;: &quot;http://hostname:port&quot;, &quot;BypassProxyOnLocal&quot;: false, &quot;UserCredentials&quot;: null } } Ersetzen Sie den Wert im Feld Url mit dem Proxyserver Ihrer Organisation. Im Fall, dass der Proxyserver eine Benutzeranmeldung benötigt, ersetzen Sie die Werte in den Feldern Username und Password mit den entsprechenden Werten. Speichern Sie die Datei und starten Sie den 365 business Print Agent Cloud Service neu, um die Einstellungen anzuwenden. 365 business Print Agent Server Um dem Service mitzuteilen, welcher Proxyserver verwendet werden soll, müssen Sie die Proxy-Konfigurationsdatei des 365 business Print Agent Server Service im Verzeichnis C:\\ProgramData\\365 business development GmbH\\365 business Print Agent\\Server erstellen. Erstellen Sie mit einem Texteditor (z.B. Notepad) im Administrator Modus die Datei proxy.json und fügen Sie den folgenden Inhalt ein: 1.1. Konfiguration eines Proxy mit Benutzeranmeldedaten: { &quot;Proxy&quot;: { &quot;Enabled&quot;: true, &quot;Url&quot;: &quot;http://hostname:port&quot;, &quot;BypassProxyOnLocal&quot;: false, &quot;UserCredentials&quot;: { &quot;Username&quot;: &quot;user.name&quot;, &quot;Password&quot;: &quot;p@ssword&quot; } } } 1.2. Konfiguration eines Proxy ohne Benutzeranmeldedaten: { &quot;Proxy&quot;: { &quot;Enabled&quot;: true, &quot;Url&quot;: &quot;http://hostname:port&quot;, &quot;BypassProxyOnLocal&quot;: false, &quot;UserCredentials&quot;: null } } Ersetzen Sie den Wert im Feld Url mit dem Proxyserver Ihrer Organisation. Im Fall, dass der Proxyserver eine Benutzeranmeldung benötigt, ersetzen Sie die Werte in den Feldern Username und Password mit den entsprechenden Werten. Speichern Sie die Datei und starten Sie den 365 business Print Agent Server Service neu, um die Einstellungen anzuwenden.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.365businessdev.com/de-DE/siteicon.png"},"name":"365 business development"},"@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"365 business development"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.365businessdev.com/de-DE/siteicon.png"},"name":"365 business development"},"description":"Problem Der 365 business Print Agent Cloud Service und der 365 business Print Agent Server sind für sichere Netzwerkumgebungen optimiert, indem sie über HTTPS eine Verbindung zu unseren Cloud-Servern herstellen. Auf diese Weise lassen die meisten Firewalls unseren Datenverkehr bereits ohne zusätzliche Konfiguration passieren. Wenn jedoch die Netzwerksicherheitsrichtlinien Ihrer Organisation erfordern, dass der gesamte ausgehende Internetverkehr über einen Proxyserver geleitet wird, müssen Sie den 365 business Print Agent Cloud Service und/oder den 365 business Print Agent Server Service so konfigurieren, dass sie diesen Proxyserver explizit verwendet. Lösung 365 business Print Agent Cloud Um dem Service mitzuteilen, welcher Proxyserver verwendet werden soll, müssen Sie die Proxy-Konfigurationsdatei des 365 business Print Agent Cloud Service im Verzeichnis C:\\ProgramData\\365 business development GmbH\\365 business Print Agent\\CloudClient erstellen. Erstellen Sie mit einem Texteditor (z.B. Notepad) im Administrator Modus die Datei proxy.json und fügen Sie den folgenden Inhalt ein. 1.1. Konfiguration eines Proxy mit Benutzeranmeldedaten: { &quot;Proxy&quot;: { &quot;Enabled&quot;: true, &quot;Url&quot;: &quot;http://hostname:port&quot;, &quot;BypassProxyOnLocal&quot;: false, &quot;UserCredentials&quot;: { &quot;Username&quot;: &quot;user.name&quot;, &quot;Password&quot;: &quot;p@ssword&quot; } } } 1.2. Konfiguration eines Proxy ohne Benutzeranmeldedaten: { &quot;Proxy&quot;: { &quot;Enabled&quot;: true, &quot;Url&quot;: &quot;http://hostname:port&quot;, &quot;BypassProxyOnLocal&quot;: false, &quot;UserCredentials&quot;: null } } Ersetzen Sie den Wert im Feld Url mit dem Proxyserver Ihrer Organisation. Im Fall, dass der Proxyserver eine Benutzeranmeldung benötigt, ersetzen Sie die Werte in den Feldern Username und Password mit den entsprechenden Werten. Speichern Sie die Datei und starten Sie den 365 business Print Agent Cloud Service neu, um die Einstellungen anzuwenden. 365 business Print Agent Server Um dem Service mitzuteilen, welcher Proxyserver verwendet werden soll, müssen Sie die Proxy-Konfigurationsdatei des 365 business Print Agent Server Service im Verzeichnis C:\\ProgramData\\365 business development GmbH\\365 business Print Agent\\Server erstellen. Erstellen Sie mit einem Texteditor (z.B. Notepad) im Administrator Modus die Datei proxy.json und fügen Sie den folgenden Inhalt ein: 1.1. Konfiguration eines Proxy mit Benutzeranmeldedaten: { &quot;Proxy&quot;: { &quot;Enabled&quot;: true, &quot;Url&quot;: &quot;http://hostname:port&quot;, &quot;BypassProxyOnLocal&quot;: false, &quot;UserCredentials&quot;: { &quot;Username&quot;: &quot;user.name&quot;, &quot;Password&quot;: &quot;p@ssword&quot; } } } 1.2. Konfiguration eines Proxy ohne Benutzeranmeldedaten: { &quot;Proxy&quot;: { &quot;Enabled&quot;: true, &quot;Url&quot;: &quot;http://hostname:port&quot;, &quot;BypassProxyOnLocal&quot;: false, &quot;UserCredentials&quot;: null } } Ersetzen Sie den Wert im Feld Url mit dem Proxyserver Ihrer Organisation. Im Fall, dass der Proxyserver eine Benutzeranmeldung benötigt, ersetzen Sie die Werte in den Feldern Username und Password mit den entsprechenden Werten. Speichern Sie die Datei und starten Sie den 365 business Print Agent Server Service neu, um die Einstellungen anzuwenden.","url":"https://docs.365businessdev.com/de-DE/365-business-print-agent/support/print-agent-proxy/","@type":"Article","headline":"print-agent-proxy","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 		<link type="application/atom+xml" rel="alternate" href="https://docs.365businessdev.com/de-DE/feed.xml" title="365 business development" />
@@ -738,7 +738,6 @@
 								
 									 
 									 
-									 
 									
 									
 									<li class="nav-item "><a href="/de-DE/365-business-eric/eric-whatis/">Was ist ERiC?</a></li>
@@ -746,10 +745,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -789,6 +788,7 @@
 											 
 									</ul>
 								
+									 
 									
 									
 									<li class="nav-item "><a href="/de-DE/365-business-eric/elster-tax-statements/">ELSTER Steuerdaten</a></li>
@@ -796,10 +796,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -847,10 +847,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -897,10 +897,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -947,60 +947,10 @@
 										
 											 
 											 
-											 
-											
-											
-										
 											
 											
 										
 											 
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-									</ul>
-								
-									
-									
-									<li class="nav-item "><a href="/de-DE/365-business-eric/company-information/">Firmendaten</a></li>
-									<ul style="margin-left: 10px;">
-										
-											 
-											 
-											 
-											
-											
-										
 											
 											
 										
@@ -1047,10 +997,60 @@
 										
 											 
 											 
+											
+											
+										
 											 
 											
 											
 										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-eric/company-information/">Firmendaten</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											 
 											
 											
 										
@@ -1097,10 +1097,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -1147,10 +1147,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -1548,6 +1548,69 @@
 									 
 									
 									
+									<li class="nav-item "><a href="/de-DE/365-business-print-agent/get-started/">Erste Schritte</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
 									<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config/">Print Agent Konfiguration</a></li>
 									<ul style="margin-left: 10px;">
 										
@@ -1588,78 +1651,15 @@
 										
 											
 											
-										
-											
-											
 												<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config-databases/">Datenbanken</a></li>
 											
 										
 											
 											
+										
+											
+											
 												<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config-statistics/">Auswertung und Statistiken</a></li>
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											 
-											 
-											 
-											 
-											 
-									</ul>
-								
-									
-									
-									<li class="nav-item "><a href="/de-DE/365-business-print-agent/get-started/">Erste Schritte</a></li>
-									<ul style="margin-left: 10px;">
-										
-											 
-											 
-											 
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
 											
 										
 											
@@ -1752,6 +1752,8 @@
 									</ul>
 								
 									
+									 
+									
 									
 									<li class="nav-item "><a href="/de-DE/365-business-print-agent/printer/">Drucker</a></li>
 									<ul style="margin-left: 10px;">
@@ -1814,8 +1816,6 @@
 											 
 									</ul>
 								
-									
-									 
 									
 									 
 									
@@ -2189,8 +2189,6 @@
 									
 									 
 									
-									 
-									
 									
 									<li class="nav-item "><a href="/de-DE/365-business-proxy-application/get-started/">Erste Schritte</a></li>
 									<ul style="margin-left: 10px;">
@@ -2271,6 +2269,10 @@
 									</ul>
 								
 									
+									 
+									
+									 
+									
 									
 									<li class="nav-item "><a href="/de-DE/365-business-proxy-application/plugins/">Plugins</a></li>
 									<ul style="margin-left: 10px;">
@@ -2282,6 +2284,9 @@
 											
 											
 												<li class="nav-item "><a href="/de-DE/365-business-proxy-application/plugins/file/">Datei-Plugin</a></li>
+											
+										
+											
 											
 										
 											
@@ -2299,13 +2304,10 @@
 										
 											
 											
-										
-											
-											
-										
-											
-											
 												<li class="nav-item "><a href="/de-DE/365-business-proxy-application/plugins/print/">Druck-Plugin</a></li>
+											
+										
+											
 											
 										
 											
@@ -2317,8 +2319,6 @@
 											 
 									</ul>
 								
-									
-									 
 									
 									
 									<li class="nav-item "><a href="/de-DE/365-business-proxy-application/proxy-application-client-whatis/">Was ist der Proxy Application Client?</a></li>

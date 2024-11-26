@@ -28,7 +28,7 @@
 <meta property="og:url" content="https://docs.365businessdev.com/de-DE/365-business-e-invoice/get-started/" />
 <meta property="og:site_name" content="365 business development" />
 <script type="application/ld+json">
-{"url":"https://docs.365businessdev.com/de-DE/365-business-e-invoice/get-started/","author":{"@type":"Person","name":"365 business development"},"@type":"Article","headline":"get-started","description":"In dieser Kurzanleitung wird erklärt, wie Sie 365 business E-Invoice aktivieren und einrichten. Voraussetzungen Microsoft Dynamics 365 Business Central 2024 release wave 1 (24.0) oder neuer. Microsoft 365 Postfach (optional, für Empfang von E-Rechnungen per E-Mail) Wichtiger Hinweis:Diese Kurzanleitung konzentriert sich auf den Empfang von E-Rechnungen im Factur-X - ZUGFeRD Format über die Microsoft 365 Postfach Integration.Für weitere Informationen zur Einrichtung besuchen Sie bitte die Dokumentation. Schritt 1: Installation von 365 business E-Invoice Öffnen Sie den Marketplace für Erweiterungen in Microsoft Dynamics 365 Business Central und suchen Sie nach 365 business E-Invoice. Installieren Sie die App von Microsoft AppSource und warten Sie, bis die Installation abgeschlossen ist. Schritt 1.1: Microsoft 365 Postfach Integration einrichten Um eingehende E-Belege aus Microsoft 365 Postfächern abrufen und verarbeiten zu können, ist es erforderlich, diese Postfächer entsprechend zu konfigurieren. Hierzu wird auf die E-Mail Konten Funktionalität von Microsoft Dynamics 365 Business Central zurückgegriffen. Öffnen Sie 365 business E-Invoice Einrichtung über die Microsoft Dynamics 365 Business Central Suche. Klicken Sie auf Neue Zeile und im Anschluss auf den Assit Edit (…) im Feld Name, um die Auswahl der E-Mail Konten zu öffnen. Wählen Sie das E-Mail-Konto, dass Sie für den Rechnungsempfang nutzen möchten. Klicken Sie auf OK um die E-Mail-Konto Auswahl zu schließen. Schritt 1.2: Abruf von E-Belegen über E-Belegdienst automatisieren Durch das Aktivieren des automatischen Imports, werden Einkaufsrechnungen und -gutschriften im Factur-X / ZUGFeRD-Format aus den eingehenden E-Mails automatisch verarbeitet. Öffnen Sie E-Belegdienste über die Business Central Suche. Wählen Sie den E-Belegdienst aus (z.B. 365 ZUGFERD). Prüfen Sie, dass Microsoft 365 Postfach im Feld Dienstintegration ausgewählt ist. Aktivieren Sie die Option Automatischer Import. Setzen Sie im Feld Stapel-Startzeit, falls gewünscht, die Uhrzeit, wann der Import erfolgen soll. Setzen Sie, falls gewünscht, das Intervall in dem die E-Mails abgerufen werden sollen im Feld Minuten zwischen Ausführungen (z.B. 1440min = 24h). Gut zu wissen:Sie können den Abruf der E-Belege aus den konfigurierten Microsoft 365 Postfächern auch manuell auslösen. Hierzu können Sie die Aktion Empfangen im E-Belegdienst aufrufen. Schritt 2: E-Belege verarbeiten Die Verarbeitung der E-Belege erfolgt automatisch durch den E-Belegdienst. Die E-Belege werden in Microsoft Dynamics 365 Business Central als Bestellungen, Einkaufsrechnungen oder -gutschriften angelegt. Der grundsätzliche Verarbeitungsprozess für Bestellungen, Einkaufsrechnungen oder -gutschriften ist wie folgt: Öffnen Sie E-Belege über die Business Central Suche. Öffnen Sie den E-Beleg, um die Details der Rechnung einzusehen. Überprüfen Sie die E-Belege auf Vollständigkeit und korrigieren Sie ggf. fehlende Informationen. Klicken Sie auf den Drilldown-Link Beleg um die Bestellung, Einkaufsrechnung oder -gutschrift zu öffnen. Buchen Sie den Beleg. Während der Verarbeitung von E-Belegen können Fehler auftreten, die die automatische Verarbeitung verhindern. Um problembehaftete E-Rechnungen zu identifizieren, verwenden Sie die Business Central Suche und rufen den Bereich E-Belege auf. Dort erkennen Sie Problemfälle an einem Fehler-Status in der Status des elektronischen Belegs-Spalte. Öffnen Sie E-Belege über die Business Central Suche. Identifizieren Sie einen fehlerhaften Beleg und öffnen Sie diesen. In der Ansicht E-Beleg können Sie den Bereich Fehlermeldungen erweitern, um Details zu den vorliegenden Problemen zu sehen. Mögliche Ursachen für Probleme sind vielfältig, wie beispielsweise: Unbekannte Kreditoren Fehlende Verknüpfung zwischen Ihren Artikeln und den Kreditorenartikeln Fehlerhafte Zuordnung von Einheiten (Maßeinheiten) zu Artikeln. Schritt 2.1: E-Belege verarbeiten - Fehler bearbeiten Um problembehaftete E-Belege zu bearbeiten wird über 365 business E-Invoice der Importassistent bereitgestellt. Dieser unterstützt Sie bei der schrittweisen Behebung der Probleme in Ihrem E-Beleg und ermöglicht Ihnen die manuelle Korrektur. Rufen Sie die Aktion Importassistent in dem E-Beleg auf. Der Importassistent unterstützt Sie bei der schrittweisen Behebung der Probleme (siehe Import Assistent). Siehe auch Einrichtung Import Assistent","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.365businessdev.com/de-DE/siteicon.png"},"name":"365 business development"},"@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"365 business development"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.365businessdev.com/de-DE/siteicon.png"},"name":"365 business development"},"description":"In dieser Kurzanleitung wird erklärt, wie Sie 365 business E-Invoice aktivieren und einrichten. Voraussetzungen Microsoft Dynamics 365 Business Central 2024 release wave 1 (24.0) oder neuer. Microsoft 365 Postfach (optional, für Empfang von E-Rechnungen per E-Mail) Wichtiger Hinweis:Diese Kurzanleitung konzentriert sich auf den Empfang von E-Rechnungen im Factur-X - ZUGFeRD Format über die Microsoft 365 Postfach Integration.Für weitere Informationen zur Einrichtung besuchen Sie bitte die Dokumentation. Schritt 1: Installation von 365 business E-Invoice Öffnen Sie den Marketplace für Erweiterungen in Microsoft Dynamics 365 Business Central und suchen Sie nach 365 business E-Invoice. Installieren Sie die App von Microsoft AppSource und warten Sie, bis die Installation abgeschlossen ist. Schritt 1.1: Microsoft 365 Postfach Integration einrichten Um eingehende E-Belege aus Microsoft 365 Postfächern abrufen und verarbeiten zu können, ist es erforderlich, diese Postfächer entsprechend zu konfigurieren. Hierzu wird auf die E-Mail Konten Funktionalität von Microsoft Dynamics 365 Business Central zurückgegriffen. Öffnen Sie 365 business E-Invoice Einrichtung über die Microsoft Dynamics 365 Business Central Suche. Klicken Sie auf Neue Zeile und im Anschluss auf den Assit Edit (…) im Feld Name, um die Auswahl der E-Mail Konten zu öffnen. Wählen Sie das E-Mail-Konto, dass Sie für den Rechnungsempfang nutzen möchten. Klicken Sie auf OK um die E-Mail-Konto Auswahl zu schließen. Schritt 1.2: Abruf von E-Belegen über E-Belegdienst automatisieren Durch das Aktivieren des automatischen Imports, werden Einkaufsrechnungen und -gutschriften im Factur-X / ZUGFeRD-Format aus den eingehenden E-Mails automatisch verarbeitet. Öffnen Sie E-Belegdienste über die Business Central Suche. Wählen Sie den E-Belegdienst aus (z.B. 365 ZUGFERD). Prüfen Sie, dass Microsoft 365 Postfach im Feld Dienstintegration ausgewählt ist. Aktivieren Sie die Option Automatischer Import. Setzen Sie im Feld Stapel-Startzeit, falls gewünscht, die Uhrzeit, wann der Import erfolgen soll. Setzen Sie, falls gewünscht, das Intervall in dem die E-Mails abgerufen werden sollen im Feld Minuten zwischen Ausführungen (z.B. 1440min = 24h). Gut zu wissen:Sie können den Abruf der E-Belege aus den konfigurierten Microsoft 365 Postfächern auch manuell auslösen. Hierzu können Sie die Aktion Empfangen im E-Belegdienst aufrufen. Schritt 2: E-Belege verarbeiten Die Verarbeitung der E-Belege erfolgt automatisch durch den E-Belegdienst. Die E-Belege werden in Microsoft Dynamics 365 Business Central als Bestellungen, Einkaufsrechnungen oder -gutschriften angelegt. Der grundsätzliche Verarbeitungsprozess für Bestellungen, Einkaufsrechnungen oder -gutschriften ist wie folgt: Öffnen Sie E-Belege über die Business Central Suche. Öffnen Sie den E-Beleg, um die Details der Rechnung einzusehen. Überprüfen Sie die E-Belege auf Vollständigkeit und korrigieren Sie ggf. fehlende Informationen. Klicken Sie auf den Drilldown-Link Beleg um die Bestellung, Einkaufsrechnung oder -gutschrift zu öffnen. Buchen Sie den Beleg. Während der Verarbeitung von E-Belegen können Fehler auftreten, die die automatische Verarbeitung verhindern. Um problembehaftete E-Rechnungen zu identifizieren, verwenden Sie die Business Central Suche und rufen den Bereich E-Belege auf. Dort erkennen Sie Problemfälle an einem Fehler-Status in der Status des elektronischen Belegs-Spalte. Öffnen Sie E-Belege über die Business Central Suche. Identifizieren Sie einen fehlerhaften Beleg und öffnen Sie diesen. In der Ansicht E-Beleg können Sie den Bereich Fehlermeldungen erweitern, um Details zu den vorliegenden Problemen zu sehen. Mögliche Ursachen für Probleme sind vielfältig, wie beispielsweise: Unbekannte Kreditoren Fehlende Verknüpfung zwischen Ihren Artikeln und den Kreditorenartikeln Fehlerhafte Zuordnung von Einheiten (Maßeinheiten) zu Artikeln. Schritt 2.1: E-Belege verarbeiten - Fehler bearbeiten Um problembehaftete E-Belege zu bearbeiten wird über 365 business E-Invoice der Importassistent bereitgestellt. Dieser unterstützt Sie bei der schrittweisen Behebung der Probleme in Ihrem E-Beleg und ermöglicht Ihnen die manuelle Korrektur. Rufen Sie die Aktion Importassistent in dem E-Beleg auf. Der Importassistent unterstützt Sie bei der schrittweisen Behebung der Probleme (siehe Import Assistent). Siehe auch Einrichtung Import Assistent","url":"https://docs.365businessdev.com/de-DE/365-business-e-invoice/get-started/","@type":"Article","headline":"get-started","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 		<link type="application/atom+xml" rel="alternate" href="https://docs.365businessdev.com/de-DE/feed.xml" title="365 business development" />
@@ -738,7 +738,6 @@
 								
 									 
 									 
-									 
 									
 									
 									<li class="nav-item "><a href="/de-DE/365-business-eric/eric-whatis/">Was ist ERiC?</a></li>
@@ -746,10 +745,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -789,6 +788,7 @@
 											 
 									</ul>
 								
+									 
 									
 									
 									<li class="nav-item "><a href="/de-DE/365-business-eric/elster-tax-statements/">ELSTER Steuerdaten</a></li>
@@ -796,10 +796,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -847,10 +847,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -897,10 +897,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -947,60 +947,10 @@
 										
 											 
 											 
-											 
-											
-											
-										
 											
 											
 										
 											 
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-									</ul>
-								
-									
-									
-									<li class="nav-item "><a href="/de-DE/365-business-eric/company-information/">Firmendaten</a></li>
-									<ul style="margin-left: 10px;">
-										
-											 
-											 
-											 
-											
-											
-										
 											
 											
 										
@@ -1047,10 +997,60 @@
 										
 											 
 											 
+											
+											
+										
 											 
 											
 											
 										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-eric/company-information/">Firmendaten</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											 
 											
 											
 										
@@ -1097,10 +1097,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -1147,10 +1147,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -1548,6 +1548,69 @@
 									 
 									
 									
+									<li class="nav-item "><a href="/de-DE/365-business-print-agent/get-started/">Erste Schritte</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
 									<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config/">Print Agent Konfiguration</a></li>
 									<ul style="margin-left: 10px;">
 										
@@ -1588,78 +1651,15 @@
 										
 											
 											
-										
-											
-											
 												<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config-databases/">Datenbanken</a></li>
 											
 										
 											
 											
+										
+											
+											
 												<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config-statistics/">Auswertung und Statistiken</a></li>
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											 
-											 
-											 
-											 
-											 
-									</ul>
-								
-									
-									
-									<li class="nav-item "><a href="/de-DE/365-business-print-agent/get-started/">Erste Schritte</a></li>
-									<ul style="margin-left: 10px;">
-										
-											 
-											 
-											 
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
 											
 										
 											
@@ -1752,6 +1752,8 @@
 									</ul>
 								
 									
+									 
+									
 									
 									<li class="nav-item "><a href="/de-DE/365-business-print-agent/printer/">Drucker</a></li>
 									<ul style="margin-left: 10px;">
@@ -1814,8 +1816,6 @@
 											 
 									</ul>
 								
-									
-									 
 									
 									 
 									
@@ -2189,8 +2189,6 @@
 									
 									 
 									
-									 
-									
 									
 									<li class="nav-item "><a href="/de-DE/365-business-proxy-application/get-started/">Erste Schritte</a></li>
 									<ul style="margin-left: 10px;">
@@ -2271,6 +2269,10 @@
 									</ul>
 								
 									
+									 
+									
+									 
+									
 									
 									<li class="nav-item "><a href="/de-DE/365-business-proxy-application/plugins/">Plugins</a></li>
 									<ul style="margin-left: 10px;">
@@ -2282,6 +2284,9 @@
 											
 											
 												<li class="nav-item "><a href="/de-DE/365-business-proxy-application/plugins/file/">Datei-Plugin</a></li>
+											
+										
+											
 											
 										
 											
@@ -2299,13 +2304,10 @@
 										
 											
 											
-										
-											
-											
-										
-											
-											
 												<li class="nav-item "><a href="/de-DE/365-business-proxy-application/plugins/print/">Druck-Plugin</a></li>
+											
+										
+											
 											
 										
 											
@@ -2317,8 +2319,6 @@
 											 
 									</ul>
 								
-									
-									 
 									
 									
 									<li class="nav-item "><a href="/de-DE/365-business-proxy-application/proxy-application-client-whatis/">Was ist der Proxy Application Client?</a></li>

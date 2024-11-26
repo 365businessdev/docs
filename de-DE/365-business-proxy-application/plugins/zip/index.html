@@ -28,7 +28,7 @@
 <meta property="og:url" content="https://docs.365businessdev.com/de-DE/365-business-proxy-application/plugins/zip/" />
 <meta property="og:site_name" content="365 business development" />
 <script type="application/ld+json">
-{"url":"https://docs.365businessdev.com/de-DE/365-business-proxy-application/plugins/zip/","author":{"@type":"Person","name":"365 business development"},"@type":"Article","headline":"zip-plugin","description":"Das ZIP Plugin in 365 business Proxy Application bietet die Möglichkeit ZIP Archive im lokalen Dateisystem, sowie verfügbare Netzlaufwerke oder UNC-Pfade, zu erstellen, darauf zuzugreifen oder diese zu entpacken. Das ZIP Plugin gehört zu den Standard Plugins von 365 business Proxy Application und kann direkt über die Seite Proxy Application Clients installiert werden. Objekte Die u.g. Funktionen werden über die Codeunit bdev.PRX Proxy Application (ID 5523630) bereitgestellt. Funktionen ZIP komprimiertes Archiv erstellen (ZipArchive) success: Boolean := ZipArchive([clientId: Guid;] filePath: Text; archivePath: Text[; password: Text][; compressionLevel: Integer][; overwrite: Boolean]) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad an der Datei oder des Verzeichnis an, das komprimiert werden soll. archivePath: Text Gibt den Pfad oder UNC-Pfad der ZIP-Datei an. password: Text (Optional) Gibt das Passwort an, mit dem das ZIP Archiv geschützt wird. compressionLevel: Integer (Optional) Gibt die Kompressionsstufe von 0-9 an. Der Standardwert ist 5 (Normal). overwrite: Boolean (Optional) Gibt an, ob die Zieldatei überschrieben werden soll. Rückgabe Gibt true zurück, wenn das ZIP Archiv erfolgreich erstellt wurde. ZIP komprimiertes Archiv entpacken (UnzipArchive) success: Boolean := UnzipArchive([clientId: Guid;] archivePath: Text; extractPath: Text[; password: Text][; overwrite: Boolean]) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. archivePath: Text Gibt den Pfad oder UNC-Pfad der ZIP-Datei an. password: Text (Optional) Gibt das Passwort an, mit dem das ZIP Archiv geschützt ist. overwrite: Boolean (Optional) Gibt an, ob die Zieldatei überschrieben werden soll. Rückgabe Gibt true zurück, wenn das ZIP Archiv erfolgreich extrahiert wurde. ZIP komprimiertes Archiv entpacken (ZipArchiveList) [files: Record &quot;bdev.PRX File Item&quot; temporary :=] ZipArchiveList(var files: Record &quot;bdev.PRX File Item&quot; temporary[; clientId: Guid]; archivePath: Text[; password: Text]) Parameter files: Record &quot;bdev.PRX File Item&quot; temporary (Optional) Out-Variable, die den Inhalt des ZIP Archiv enthält. clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. archivePath: Text Gibt den Pfad oder UNC-Pfad der ZIP-Datei an. password: Text (Optional) Gibt das Passwort an, mit dem das ZIP Archiv geschützt ist. Rückgabe Gibt files: Record &quot;bdev.PRX File Item&quot; temporary, mit dem Inhalt des ZIP Archive, zurück.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.365businessdev.com/de-DE/siteicon.png"},"name":"365 business development"},"@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"365 business development"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.365businessdev.com/de-DE/siteicon.png"},"name":"365 business development"},"description":"Das ZIP Plugin in 365 business Proxy Application bietet die Möglichkeit ZIP Archive im lokalen Dateisystem, sowie verfügbare Netzlaufwerke oder UNC-Pfade, zu erstellen, darauf zuzugreifen oder diese zu entpacken. Das ZIP Plugin gehört zu den Standard Plugins von 365 business Proxy Application und kann direkt über die Seite Proxy Application Clients installiert werden. Objekte Die u.g. Funktionen werden über die Codeunit bdev.PRX Proxy Application (ID 5523630) bereitgestellt. Funktionen ZIP komprimiertes Archiv erstellen (ZipArchive) success: Boolean := ZipArchive([clientId: Guid;] filePath: Text; archivePath: Text[; password: Text][; compressionLevel: Integer][; overwrite: Boolean]) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. filePath: Text Gibt den Pfad oder UNC-Pfad an der Datei oder des Verzeichnis an, das komprimiert werden soll. archivePath: Text Gibt den Pfad oder UNC-Pfad der ZIP-Datei an. password: Text (Optional) Gibt das Passwort an, mit dem das ZIP Archiv geschützt wird. compressionLevel: Integer (Optional) Gibt die Kompressionsstufe von 0-9 an. Der Standardwert ist 5 (Normal). overwrite: Boolean (Optional) Gibt an, ob die Zieldatei überschrieben werden soll. Rückgabe Gibt true zurück, wenn das ZIP Archiv erfolgreich erstellt wurde. ZIP komprimiertes Archiv entpacken (UnzipArchive) success: Boolean := UnzipArchive([clientId: Guid;] archivePath: Text; extractPath: Text[; password: Text][; overwrite: Boolean]) Parameter clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. archivePath: Text Gibt den Pfad oder UNC-Pfad der ZIP-Datei an. password: Text (Optional) Gibt das Passwort an, mit dem das ZIP Archiv geschützt ist. overwrite: Boolean (Optional) Gibt an, ob die Zieldatei überschrieben werden soll. Rückgabe Gibt true zurück, wenn das ZIP Archiv erfolgreich extrahiert wurde. ZIP komprimiertes Archiv entpacken (ZipArchiveList) [files: Record &quot;bdev.PRX File Item&quot; temporary :=] ZipArchiveList(var files: Record &quot;bdev.PRX File Item&quot; temporary[; clientId: Guid]; archivePath: Text[; password: Text]) Parameter files: Record &quot;bdev.PRX File Item&quot; temporary (Optional) Out-Variable, die den Inhalt des ZIP Archiv enthält. clientId: Guid (Optional) Gibt die ID des Proxy Application Client an, auf dem die Operation ausgeführt werden soll. archivePath: Text Gibt den Pfad oder UNC-Pfad der ZIP-Datei an. password: Text (Optional) Gibt das Passwort an, mit dem das ZIP Archiv geschützt ist. Rückgabe Gibt files: Record &quot;bdev.PRX File Item&quot; temporary, mit dem Inhalt des ZIP Archive, zurück.","url":"https://docs.365businessdev.com/de-DE/365-business-proxy-application/plugins/zip/","@type":"Article","headline":"zip-plugin","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 		<link type="application/atom+xml" rel="alternate" href="https://docs.365businessdev.com/de-DE/feed.xml" title="365 business development" />
@@ -738,7 +738,6 @@
 								
 									 
 									 
-									 
 									
 									
 									<li class="nav-item "><a href="/de-DE/365-business-eric/eric-whatis/">Was ist ERiC?</a></li>
@@ -746,10 +745,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -789,6 +788,7 @@
 											 
 									</ul>
 								
+									 
 									
 									
 									<li class="nav-item "><a href="/de-DE/365-business-eric/elster-tax-statements/">ELSTER Steuerdaten</a></li>
@@ -796,10 +796,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -847,10 +847,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -897,10 +897,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -947,60 +947,10 @@
 										
 											 
 											 
-											 
-											
-											
-										
 											
 											
 										
 											 
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-									</ul>
-								
-									
-									
-									<li class="nav-item "><a href="/de-DE/365-business-eric/company-information/">Firmendaten</a></li>
-									<ul style="margin-left: 10px;">
-										
-											 
-											 
-											 
-											
-											
-										
 											
 											
 										
@@ -1047,10 +997,60 @@
 										
 											 
 											 
+											
+											
+										
 											 
 											
 											
 										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-eric/company-information/">Firmendaten</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											 
 											
 											
 										
@@ -1097,10 +1097,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -1147,10 +1147,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -1548,6 +1548,69 @@
 									 
 									
 									
+									<li class="nav-item "><a href="/de-DE/365-business-print-agent/get-started/">Erste Schritte</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
 									<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config/">Print Agent Konfiguration</a></li>
 									<ul style="margin-left: 10px;">
 										
@@ -1588,78 +1651,15 @@
 										
 											
 											
-										
-											
-											
 												<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config-databases/">Datenbanken</a></li>
 											
 										
 											
 											
+										
+											
+											
 												<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config-statistics/">Auswertung und Statistiken</a></li>
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											 
-											 
-											 
-											 
-											 
-									</ul>
-								
-									
-									
-									<li class="nav-item "><a href="/de-DE/365-business-print-agent/get-started/">Erste Schritte</a></li>
-									<ul style="margin-left: 10px;">
-										
-											 
-											 
-											 
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
 											
 										
 											
@@ -1752,6 +1752,8 @@
 									</ul>
 								
 									
+									 
+									
 									
 									<li class="nav-item "><a href="/de-DE/365-business-print-agent/printer/">Drucker</a></li>
 									<ul style="margin-left: 10px;">
@@ -1814,8 +1816,6 @@
 											 
 									</ul>
 								
-									
-									 
 									
 									 
 									
@@ -2189,8 +2189,6 @@
 									
 									 
 									
-									 
-									
 									
 									<li class="nav-item "><a href="/de-DE/365-business-proxy-application/get-started/">Erste Schritte</a></li>
 									<ul style="margin-left: 10px;">
@@ -2271,6 +2269,10 @@
 									</ul>
 								
 									
+									 
+									
+									 
+									
 									
 									<li class="nav-item "><a href="/de-DE/365-business-proxy-application/plugins/">Plugins</a></li>
 									<ul style="margin-left: 10px;">
@@ -2282,6 +2284,9 @@
 											
 											
 												<li class="nav-item "><a href="/de-DE/365-business-proxy-application/plugins/file/">Datei-Plugin</a></li>
+											
+										
+											
 											
 										
 											
@@ -2299,13 +2304,10 @@
 										
 											
 											
-										
-											
-											
-										
-											
-											
 												<li class="nav-item "><a href="/de-DE/365-business-proxy-application/plugins/print/">Druck-Plugin</a></li>
+											
+										
+											
 											
 										
 											
@@ -2317,8 +2319,6 @@
 											 
 									</ul>
 								
-									
-									 
 									
 									
 									<li class="nav-item "><a href="/de-DE/365-business-proxy-application/proxy-application-client-whatis/">Was ist der Proxy Application Client?</a></li>

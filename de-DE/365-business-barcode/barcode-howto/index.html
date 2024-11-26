@@ -28,7 +28,7 @@
 <meta property="og:url" content="https://docs.365businessdev.com/de-DE/365-business-barcode/barcode-howto/" />
 <meta property="og:site_name" content="365 business development" />
 <script type="application/ld+json">
-{"url":"https://docs.365businessdev.com/de-DE/365-business-barcode/barcode-howto/","author":{"@type":"Person","name":"365 business development"},"@type":"Article","headline":"barcode-howto","description":"Um 365 business Barcode in die eigenen, individuellen, Geschäftsprozesse zu implementieren ist es notwendig die 365 business Barcode App als Abhängigkeit zur eigenen Erweiterung hinzuzufügen. Hierdurch erhalten Sie Zugriff auf die bereitgestellten Schnittstellen und Objekte. Ein detaillierte Dokumentation finden Sie in unserer AL Developer Documentation (en-US). Nachfolgend wird an einem Code-Beispiel erklärt, wie Sie 365 business Barcode nutzen können. Schritt 1: Abhängigkeit hinzufügen Öffnen Sie die app.json Datei in Ihrem AL-Projekt. Fügen Sie folgenden Code in den dependency-Token ein: { &quot;id&quot;: &quot;9aca19d9-d261-4fa0-88fd-121ad0daa0f7&quot;, &quot;name&quot;: &quot;365 business Barcode&quot;, &quot;version&quot;: &quot;18.2.0.0&quot;, &quot;publisher&quot;: &quot;365 business development&quot; } Führen Sie den Befehl AL: Download symbols aus. Schritt 2: Implementierung Im nachfolgenden werden zwei Szenarien dargestellt: Schritt 2.1: QR Code in Report Objekt Fügen Sie ein neues Data Item mit Referenz zu bdev.Barcode hinzu. Setzen Sie das Property UseTemporary auf true. Setzen Sie das Property DataItemTableView auf sorting(&quot;Primary Key&quot;). Fügen Sie eine neue Column für das Feld Barcode hinzu. Fügen Sie einen OnPreDataItem() Trigger mit folgendem Code hinzu: Reset(); DeleteAll(false); &quot;Barcode Symbology&quot; := Enum::&quot;bdev.Barcode Symbology&quot;::&quot;QR Code&quot;; Height := 70; &quot;Barcode Value&quot; := &lt;BARCODE VALUE&gt;; if (Encode()) then Insert(); Kompilieren Sie Ihre Erweiterung über den Befehl AL: Package. Öffnen Sie Ihr Layout und fügen Sie ein Bild mit der Referenz auf Ihre neue Barcode Column hinzu. Kompletter Quellcode dataitem(BarcodeBuffer; &quot;bdev.Barcode&quot;) { UseTemporary = true; DataItemTableView = sorting(&quot;Primary Key&quot;); column(Barcode; Barcode) { } trigger OnPreDataItem() begin Reset(); DeleteAll(false); &quot;Barcode Symbology&quot; := Enum::&quot;bdev.Barcode Symbology&quot;::&quot;QR Code&quot;; Height := 80; &quot;Barcode Value&quot; := &lt;BARCODE VALUE&gt;; if (Encode()) then Insert(); end; } Schritt 2.2: Barcode in Artikelbarcode hinzufügen Erstellen Sie eine Page Extension für die Page Item Identifiers. Fügen Sie eine Action hinzu. action(&quot;PTE CreateBarcode&quot;) { ApplicationArea = All; Caption = &#39;Create Barcode&#39;; ToolTip = &#39;Encode the item identifier to create a barcode in selected barcode defintion.&#39;; Image = BarCode; Promoted = true; PromotedIsBig = true; PromotedCategory = Process; trigger OnAction() begin EncodeBarcodeItemIdentifier(Rec); CurrPage.Update(false); end; } Fügen Sie eine neue Funktion mit dem Namen EncodeBarcodeItemIdentifier hinzu. procedure EncodeBarcodeItemIdentifier(var itemIdentifier: Record &quot;Item Identifier&quot;) var barcodeSettings: Record &quot;bdev.Barcode Settings&quot;; tempBlob: Codeunit &quot;Temp Blob&quot;; encodeBarcode: Codeunit &quot;bdev.Barcode&quot;; stream: InStream; begin itemIdentifier.TestField(&quot;bdev.Barcode Settings Code&quot;); barcodeSettings.Get(itemIdentifier.&quot;bdev.Barcode Settings Code&quot;); tempBlob := encodeBarcode.Encode(barcodeSettings, itemIdentifier.&quot;Code&quot;); if (tempBlob.HasValue()) then begin tempBlob.CreateInStream(stream); itemIdentifier.&quot;bdev.Barcode&quot;.ImportStream(stream, &#39;Barcode&#39;, &#39;image/png&#39;); itemIdentifier.Modify(true); end else Error(UnableToEncodeBarcodeErr); end; Siehe auch AL Developer Documentation (en-US)","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.365businessdev.com/de-DE/siteicon.png"},"name":"365 business development"},"@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"365 business development"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.365businessdev.com/de-DE/siteicon.png"},"name":"365 business development"},"description":"Um 365 business Barcode in die eigenen, individuellen, Geschäftsprozesse zu implementieren ist es notwendig die 365 business Barcode App als Abhängigkeit zur eigenen Erweiterung hinzuzufügen. Hierdurch erhalten Sie Zugriff auf die bereitgestellten Schnittstellen und Objekte. Ein detaillierte Dokumentation finden Sie in unserer AL Developer Documentation (en-US). Nachfolgend wird an einem Code-Beispiel erklärt, wie Sie 365 business Barcode nutzen können. Schritt 1: Abhängigkeit hinzufügen Öffnen Sie die app.json Datei in Ihrem AL-Projekt. Fügen Sie folgenden Code in den dependency-Token ein: { &quot;id&quot;: &quot;9aca19d9-d261-4fa0-88fd-121ad0daa0f7&quot;, &quot;name&quot;: &quot;365 business Barcode&quot;, &quot;version&quot;: &quot;18.2.0.0&quot;, &quot;publisher&quot;: &quot;365 business development&quot; } Führen Sie den Befehl AL: Download symbols aus. Schritt 2: Implementierung Im nachfolgenden werden zwei Szenarien dargestellt: Schritt 2.1: QR Code in Report Objekt Fügen Sie ein neues Data Item mit Referenz zu bdev.Barcode hinzu. Setzen Sie das Property UseTemporary auf true. Setzen Sie das Property DataItemTableView auf sorting(&quot;Primary Key&quot;). Fügen Sie eine neue Column für das Feld Barcode hinzu. Fügen Sie einen OnPreDataItem() Trigger mit folgendem Code hinzu: Reset(); DeleteAll(false); &quot;Barcode Symbology&quot; := Enum::&quot;bdev.Barcode Symbology&quot;::&quot;QR Code&quot;; Height := 70; &quot;Barcode Value&quot; := &lt;BARCODE VALUE&gt;; if (Encode()) then Insert(); Kompilieren Sie Ihre Erweiterung über den Befehl AL: Package. Öffnen Sie Ihr Layout und fügen Sie ein Bild mit der Referenz auf Ihre neue Barcode Column hinzu. Kompletter Quellcode dataitem(BarcodeBuffer; &quot;bdev.Barcode&quot;) { UseTemporary = true; DataItemTableView = sorting(&quot;Primary Key&quot;); column(Barcode; Barcode) { } trigger OnPreDataItem() begin Reset(); DeleteAll(false); &quot;Barcode Symbology&quot; := Enum::&quot;bdev.Barcode Symbology&quot;::&quot;QR Code&quot;; Height := 80; &quot;Barcode Value&quot; := &lt;BARCODE VALUE&gt;; if (Encode()) then Insert(); end; } Schritt 2.2: Barcode in Artikelbarcode hinzufügen Erstellen Sie eine Page Extension für die Page Item Identifiers. Fügen Sie eine Action hinzu. action(&quot;PTE CreateBarcode&quot;) { ApplicationArea = All; Caption = &#39;Create Barcode&#39;; ToolTip = &#39;Encode the item identifier to create a barcode in selected barcode defintion.&#39;; Image = BarCode; Promoted = true; PromotedIsBig = true; PromotedCategory = Process; trigger OnAction() begin EncodeBarcodeItemIdentifier(Rec); CurrPage.Update(false); end; } Fügen Sie eine neue Funktion mit dem Namen EncodeBarcodeItemIdentifier hinzu. procedure EncodeBarcodeItemIdentifier(var itemIdentifier: Record &quot;Item Identifier&quot;) var barcodeSettings: Record &quot;bdev.Barcode Settings&quot;; tempBlob: Codeunit &quot;Temp Blob&quot;; encodeBarcode: Codeunit &quot;bdev.Barcode&quot;; stream: InStream; begin itemIdentifier.TestField(&quot;bdev.Barcode Settings Code&quot;); barcodeSettings.Get(itemIdentifier.&quot;bdev.Barcode Settings Code&quot;); tempBlob := encodeBarcode.Encode(barcodeSettings, itemIdentifier.&quot;Code&quot;); if (tempBlob.HasValue()) then begin tempBlob.CreateInStream(stream); itemIdentifier.&quot;bdev.Barcode&quot;.ImportStream(stream, &#39;Barcode&#39;, &#39;image/png&#39;); itemIdentifier.Modify(true); end else Error(UnableToEncodeBarcodeErr); end; Siehe auch AL Developer Documentation (en-US)","url":"https://docs.365businessdev.com/de-DE/365-business-barcode/barcode-howto/","@type":"Article","headline":"barcode-howto","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 		<link type="application/atom+xml" rel="alternate" href="https://docs.365businessdev.com/de-DE/feed.xml" title="365 business development" />
@@ -738,7 +738,6 @@
 								
 									 
 									 
-									 
 									
 									
 									<li class="nav-item "><a href="/de-DE/365-business-eric/eric-whatis/">Was ist ERiC?</a></li>
@@ -746,10 +745,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -789,6 +788,7 @@
 											 
 									</ul>
 								
+									 
 									
 									
 									<li class="nav-item "><a href="/de-DE/365-business-eric/elster-tax-statements/">ELSTER Steuerdaten</a></li>
@@ -796,10 +796,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -847,10 +847,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -897,10 +897,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -947,60 +947,10 @@
 										
 											 
 											 
-											 
-											
-											
-										
 											
 											
 										
 											 
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-											 
-									</ul>
-								
-									
-									
-									<li class="nav-item "><a href="/de-DE/365-business-eric/company-information/">Firmendaten</a></li>
-									<ul style="margin-left: 10px;">
-										
-											 
-											 
-											 
-											
-											
-										
 											
 											
 										
@@ -1047,10 +997,60 @@
 										
 											 
 											 
+											
+											
+										
 											 
 											
 											
 										
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
+									<li class="nav-item "><a href="/de-DE/365-business-eric/company-information/">Firmendaten</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											
+											
+										
+											 
 											
 											
 										
@@ -1097,10 +1097,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -1147,10 +1147,10 @@
 										
 											 
 											 
-											 
 											
 											
 										
+											 
 											
 											
 										
@@ -1548,6 +1548,69 @@
 									 
 									
 									
+									<li class="nav-item "><a href="/de-DE/365-business-print-agent/get-started/">Erste Schritte</a></li>
+									<ul style="margin-left: 10px;">
+										
+											 
+											 
+											 
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											
+											
+										
+											 
+											 
+											 
+											 
+											 
+									</ul>
+								
+									
+									
 									<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config/">Print Agent Konfiguration</a></li>
 									<ul style="margin-left: 10px;">
 										
@@ -1588,78 +1651,15 @@
 										
 											
 											
-										
-											
-											
 												<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config-databases/">Datenbanken</a></li>
 											
 										
 											
 											
+										
+											
+											
 												<li class="nav-item "><a href="/de-DE/365-business-print-agent/print-agent-config-statistics/">Auswertung und Statistiken</a></li>
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											 
-											 
-											 
-											 
-											 
-									</ul>
-								
-									
-									
-									<li class="nav-item "><a href="/de-DE/365-business-print-agent/get-started/">Erste Schritte</a></li>
-									<ul style="margin-left: 10px;">
-										
-											 
-											 
-											 
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
-											
-										
-											
 											
 										
 											
@@ -1752,6 +1752,8 @@
 									</ul>
 								
 									
+									 
+									
 									
 									<li class="nav-item "><a href="/de-DE/365-business-print-agent/printer/">Drucker</a></li>
 									<ul style="margin-left: 10px;">
@@ -1814,8 +1816,6 @@
 											 
 									</ul>
 								
-									
-									 
 									
 									 
 									
@@ -2189,8 +2189,6 @@
 									
 									 
 									
-									 
-									
 									
 									<li class="nav-item "><a href="/de-DE/365-business-proxy-application/get-started/">Erste Schritte</a></li>
 									<ul style="margin-left: 10px;">
@@ -2271,6 +2269,10 @@
 									</ul>
 								
 									
+									 
+									
+									 
+									
 									
 									<li class="nav-item "><a href="/de-DE/365-business-proxy-application/plugins/">Plugins</a></li>
 									<ul style="margin-left: 10px;">
@@ -2282,6 +2284,9 @@
 											
 											
 												<li class="nav-item "><a href="/de-DE/365-business-proxy-application/plugins/file/">Datei-Plugin</a></li>
+											
+										
+											
 											
 										
 											
@@ -2299,13 +2304,10 @@
 										
 											
 											
-										
-											
-											
-										
-											
-											
 												<li class="nav-item "><a href="/de-DE/365-business-proxy-application/plugins/print/">Druck-Plugin</a></li>
+											
+										
+											
 											
 										
 											
@@ -2317,8 +2319,6 @@
 											 
 									</ul>
 								
-									
-									 
 									
 									
 									<li class="nav-item "><a href="/de-DE/365-business-proxy-application/proxy-application-client-whatis/">Was ist der Proxy Application Client?</a></li>
