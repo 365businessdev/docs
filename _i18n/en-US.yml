@@ -118,6 +118,7 @@ titles:
   sanction-screening: Sanction Screening
   automated-screening: Automated Screening (Job Queue)
   data-sources: Data Catalogs
+  sanction-screen-quick-check: Sanction Screen Quick Check
 langs:
   german: German
   english: English

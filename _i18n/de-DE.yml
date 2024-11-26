@@ -117,7 +117,8 @@ titles:
   sanction-screen-whatis: Was ist Sanktionsprüfung?
   sanction-screening: Sanktionsprüfung
   automated-screening: Automatisierte Prüfung (Aufgabenwarteschlange)
-  data-sources: Datenkataloge 
+  data-sources: Datenkataloge
+  sanction-screen-quick-check: Sanction Screen Quick Check
 langs:
   german: Deutsch
   english: English
