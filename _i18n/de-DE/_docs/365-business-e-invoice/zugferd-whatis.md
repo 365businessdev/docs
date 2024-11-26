@@ -11,10 +11,24 @@ ZUGFeRD (Zentraler User Guide des Forums elektronische Rechnung Deutschland) ist
 	Diese Version basiert auf der europäischen Norm EN 16931, die die Grundlage für den grenzüberschreitenden elektronischen Rechnungsaustausch bildet. 
 	Diese Norm ist nicht nur für den europäischen Markt von Bedeutung, sondern auch für die Anforderungen an die E-Rechnung in Deutschland und Frankreich ab 2025.
 </div>
-<br/>
+
 ## ZUGFeRD in 365 business E-Invoice
+
 Unsere App 365 business E-Invoice unterstützt das ZUGFeRD 2.3 Profil-EN16931 EXTENDED vollständig. 
 Dies bedeutet, dass Unternehmen sowohl Rechnungen im ZUGFeRD-Format empfangen als auch ihre eigenen Business Central-Rechnungen in dieses Format umwandeln und versenden können. 
 Die automatische Umwandlung und der optionale automatische Versand von ZUGFeRD-Rechnungen macht die Einhaltung der gesetzlichen Vorgaben einfach und effizient.
 
 Durch die Unterstützung des ZUGFeRD-Standards wird der Rechnungsprozess digitalisiert und Unternehmen können die Vorteile der automatisierten Rechnungsstellung und -verarbeitung voll ausschöpfen. Diese Automatisierung spart Zeit und Kosten und stellt gleichzeitig sicher, dass Rechnungen gemäß den aktuellen Vorschriften korrekt ausgestellt und empfangen werden.
+
+### Wie 365 business E-Invoice arbeitet
+
+365 business E-Invoice ermöglicht es Unternehmen, elektronische Rechnungen direkt aus Microsoft Dynamics 365 Business Central zu erstellen, zu versenden, zu empfangen und zu verarbeiten. Dabei setzt sich 365 business E-Invoice aus zwei Hauptkomponenten zusammen:
+
+ - **Belegformat:** Factur-X 1.0.07 - ZUGFeRD 2.3.0 - EXTENDED (EN 16931)
+ - **Dienstintegration:** Microsoft 365 Postfach
+
+![365 business E-Invoice Überlick](/assets/images/365-business-e-invoice/e-invoice-overview_de-DE.png)
+
+<div class="alert alert-notice">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Gut zu wissen:</strong>Neben der Integration über Microsoft 365 Postfächer können auch andere Dienstintegrationen, über andere Dienstanbieter verwendet werden. Sprechen Sie uns gerne an.
+</div>

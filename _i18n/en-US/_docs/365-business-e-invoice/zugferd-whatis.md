@@ -14,3 +14,16 @@ ZUGFeRD is the latest version of the standard, designed to align with internatio
 Our app, 365 business E-Invoice, offers complete support for ZUGFeRD 2.0 EN16931. This allows companies to both receive invoices in the ZUGFeRD format and convert their Business Central invoices into ZUGFeRD format for outgoing invoices. The automated conversion and optional automatic dispatch of ZUGFeRD invoices make it easier for businesses to comply with legal requirements efficiently.
 
 By supporting the ZUGFeRD standard, our solution streamlines the invoicing process, enabling businesses to take full advantage of automated invoice generation and processing. This automation saves time and resources while ensuring that all invoices comply with current legal standards.
+
+### How 365 business E-Invoice works
+
+365 business E-Invoice enables companies to create, send, receive, and process electronic invoices directly from Microsoft Dynamics 365 Business Central. 365 business E-Invoice consists of two main components:
+
+ - **Document Format:** Factur-X 1.0.07 - ZUGFeRD 2.3.0 - EXTENDED (EN 16931)
+ - **Service Integration:** Microsoft 365 Mailbox
+
+![365 business E-Invoice Overview](/assets/images/365-business-e-invoice/e-invoice-overview_en-US.png)
+
+<div class="alert alert-notice">
+    <i class="fa-solid fa-lightbulb"></i> <strong>Good to know:</strong> In addition to integration via Microsoft 365 mailboxes, other service integrations through other service providers can also be used. Feel free to contact us.
+</div>
