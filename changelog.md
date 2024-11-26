@@ -22,20 +22,6 @@ All 365 business development apps are versioned based on the following scheme:
 | Revision | Specifies the updated release version for the product. | 
 | Build | A unique build identifier. | 
 
-#### Upcoming Features
-
-##### 365 business Risk Management
-
-Get legal and company information of your trading partners and check against sanctions lists, directly within Dynamics 365 Business Central
-
-> **Planned Release**: Q2/2024
-
-##### 365 business Post & Print
-
-Post & print functionality for Microsoft Dynamics 365 Business Central.
-
-> **Planned Release**: Q2/2024
-
 ### Change Log
 
 - [365 business API Change Log](changelog/365-business-api/)
@@ -44,3 +30,6 @@ Post & print functionality for Microsoft Dynamics 365 Business Central.
 - [365 business Address Validation Change Log](changelog/365-business-address-validation/)
 - [365 business ERiC Change Log](changelog/365-business-eric/)
 - [365 business Print Agent Change Log](changelog/365-business-print-agent/)
+- [365 business Proxy Application Change Log](changelog/365-business-proxy-application/)
+- [365 business E-Invoice Change Log](changelog/365-business-e-invoice/)- 
+- [365 business Sanction Screen Change Log](changelog/365-business-sanction-screen/)
