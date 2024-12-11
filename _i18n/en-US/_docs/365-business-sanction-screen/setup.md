@@ -31,15 +31,9 @@ In the **Sales & Receivables** group, you can specify how Microsoft Dynamics 365
 
 | Field | Description | Default |
 | --- | --- | --- |
-| **Hit Behavior** | Specifies how Microsoft Dynamics 365 Business Central should handle potential matches in the sanctions list check. | **Notify** |
+| **Match Behavior** | Specifies how Microsoft Dynamics 365 Business Central should handle potential matches in the sanctions list check. | **Notify** |
 
-<div class="alert alert-info">
-    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong> In the current version, the options <i>Notify</i> and <i>None</i> are available.<br>
-    <br>
-    In future versions of 365 business Sanction Screen, additional options will be available to further differentiate the handling of hits in the sanctions list check.<br>
-    <br>
-    Please check regularly for updates and new features.
-</div>
+For more options, see [Match Behavior](../setup/#match-behavior).
 
 #### Purchase & Payables
 
@@ -47,7 +41,24 @@ In the **Purchase & Payables** group, you can specify how Microsoft Dynamics 365
 
 | Field | Description | Default |
 | --- | --- | --- |
-| **Hit Behavior** | Specifies how Microsoft Dynamics 365 Business Central should handle potential matches in the sanctions list check. | **Notify** |
+| **Match Behavior** | Specifies how Microsoft Dynamics 365 Business Central should handle potential matches in the sanctions list check. | **Notify** |
+
+For more options, see [Match Behavior](../setup/#match-behavior).
+
+#### Match Behavior
+
+The **Match Behavior** determines how Microsoft Dynamics 365 Business Central should handle potential matches in the sanctions list check. You can set the behavior individually for the areas of Customers & Sales and Vendors & Purchasing.
+
+Notifications are displayed in the documents of the respective areas (e.g., sales quote, sales order, purchase order) and inform the user about possible matches.
+
+| Behavior | Description |
+| --- | --- |
+| **None** | The user does not receive any additional notifications or warnings. |
+| **Notify** | The user is informed about possible matches but can continue to work with the entity. |
+| **Warn** | The user is informed about possible matches and receives a confirmation prompt but can continue to work with the entity. |
+| **Block** | The user is informed about possible matches and cannot continue to work with the entity. The match must be reviewed and possibly added to the whitelist to continue working. |
+
+Additionally, it is checked whether the entity has already been checked (e.g., new customer). If a notification option has been selected, the user is informed that the entity has not yet been checked and must confirm this.
 
 #### Screening Interval
 

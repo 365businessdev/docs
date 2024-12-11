@@ -33,13 +33,7 @@ In der Gruppe **Debitoren & Verkauf** können Sie festlegen, wie Microsoft Dynam
 | --- | --- | --- |
 | **Trefferverhalten** | Gibt an, wie Microsoft Dynamics 365 Business Central mit möglichen Übereinstimmungen bei der Sanktionslistenprüfung umgehen soll. | **Benachrichten** |
 
-<div class="alert alert-info">
-	<i class="fa-solid fa-lightbulb"></i> <strong>Hinweis:</strong>In der aktuellen Version stehen die Optionen <i>Benachrichtigen</i> und <i>Keine</i> zur Verfügung.<br>
-    <br>
-    In zukünftigen Versionen von 365 business Sanction Screen werden weitere Optionen zur Verfügung stehen, um die Behandlung von Treffern bei der Sanktionslistenprüfung weiter zu differenzieren.<br>
-    <br>
-    Bitte prüfen Sie regelmäßig auf Updates und neue Funktionen.
-</div>
+Weitere Optionen finden Sie unter [Trefferverhalten](../setup/#trefferverhalten).
 
 #### Kreditoren & Einkauf
 
@@ -48,6 +42,23 @@ In der Gruppe **Kreditoren & Einkauf** können Sie festlegen, wie Microsoft Dyna
 | Feld | Beschreibung | Standard |
 | --- | --- | --- |
 | **Trefferverhalten** | Gibt an, wie Microsoft Dynamics 365 Business Central mit möglichen Übereinstimmungen bei der Sanktionslistenprüfung umgehen soll. | **Benachrichtigen** |
+
+Weitere Optionen finden Sie unter [Trefferverhalten](../setup/#trefferverhalten).
+
+#### Trefferverhalten
+
+Das **Trefferverhalten** bestimmt, wie Microsoft Dynamics 365 Business Central mit möglichen Übereinstimmungen bei der Sanktionslistenprüfung umgehen soll. Sie können das Verhalten für die Bereiche Debitoren & Verkauf und Kreditoren & Einkauf individuell festlegen.
+
+Die Benachrichtigungen werden dabei in den Belegen der jeweiligen Bereiche (z.B. Verkaufsangebot, Verkaufsauftrag, Einkaufsbestellung) angezeigt und informieren den Anwender über mögliche Treffer.
+
+| Verhalten | Beschreibung |
+| --- | --- |
+| **Keine** | Der Anwender erhält keine zusätzlichen Benachrichtigungen oder Warnungen. |
+| **Benachrichtigen** | Der Anwender wird über mögliche Treffer informiert, kann jedoch weiterhin mit der Entität arbeiten. |
+| **Warnen** | Der Anwender wird über mögliche Treffer informiert und erhält eine Bestätigungsabfrage, kann jedoch weiterhin mit der Entität arbeiten. |
+| **Blockieren** | Der Anwender wird über mögliche Treffer informiert und kann nicht mit der Entität weiterarbeiten. Der Treffer muss geprüft werden und ggf. auf die Whitelist gesetzt werden, um weiterzuarbeiten. |
+
+Darüber hinaus wird zusätzlich geprüft, ob die Entität bereits geprüft wurde (z.B. neuer Debitor). Sofern eine Benachrichtigungsoption ausgewählt wurde, wird der Anwender darüber informiert, dass die Entität noch nicht geprüft wurde und muss dies bestätigen.
 
 #### Screening-Intervall
 
