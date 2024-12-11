@@ -11,13 +11,13 @@ Welcome to the documentation for 365 business Proxy Application! This comprehens
 
 ## Functions and options
 
--  Numerous standard plugins**: With the standard plugins from 365 business Proxy Application, you can easily access your local file system, integrate printers, scales and much more directly from Microsoft Dynamics 365 Business Central.
+-  **Numerous standard plugins**: With the standard plugins from 365 business Proxy Application, you can easily access your local file system, integrate printers, scales and much more directly from Microsoft Dynamics 365 Business Central.
 
--  Secure and reliable data communication**: 365 business Proxy Application communicates fully transport-encrypted, so your data is always secure. By using the latest technologies, such as SignalR to establish and provide a permanent data connection, your systems communicate reliably and without complex network or firewall adjustments.
+-  **Secure and reliable data communication**: 365 business Proxy Application communicates fully transport-encrypted, so your data is always secure. By using the latest technologies, such as SignalR to establish and provide a permanent data connection, your systems communicate reliably and without complex network or firewall adjustments.
 
 - **Open documentation for integration**: 365 business Proxy Application is designed to be integrated into your business processes with as little effort as possible. Thanks to the open documentation and the flexibly expandable plug-in system, individual connections to your local resources are possible in the shortest possible time and with little effort.
 
--  Simple setup**: Getting started with 365 business Proxy Application is quick and straightforward. This documentation will guide you through the installation process and help you configure the app for optimal performance.
+-  **Simple setup**: Getting started with 365 business Proxy Application is quick and straightforward. This documentation will guide you through the installation process and help you configure the app for optimal performance.
 
 ## Let's get started
 
@@ -74,7 +74,7 @@ Get to know the basic concepts and processes of 365 business Proxy Application i
             <ul class="fa-ul">
                 <li><span class="fa-li"><i class="fa-solid fa-screwdriver-wrench"></i></span><a href="setup/">Setting up in Microsoft Dynamics 365 Business Central</a></li>
                 <li><span class="fa-li"><i class="fa-solid fa-gear"></i></span><a href="proxy-application-client-installation/">Install 365 business Proxy Application Client</a></li>
-                <li><span class="fa-li"><i class="fa-solid fa-arrow-up-right-from-square"></i></span><a href="plugin-application-client-installation/#install-proxy-application-plugins">Install the 365 business Proxy Application plugin</a></li>
+                <li><span class="fa-li"><i class="fa-solid fa-arrow-up-right-from-square"></i></span><a href="proxy-application-client-installation/#install-proxy-application-plugins">Install the 365 business Proxy Application plugin</a></li>
             </ul>
         </p>
     </div>
