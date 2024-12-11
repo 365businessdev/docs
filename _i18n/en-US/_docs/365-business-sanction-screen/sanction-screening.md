@@ -16,14 +16,34 @@ Sanction screenings can be performed with 365 business Sanction Screen in Micros
 The following Microsoft Dynamics 365 Business Central entities are supported by 365 business Sanction Screen:
 
 - Customer
+  - Bank Account
+  - Ship-to Address
 - Vendor
+  - Bank Account
+  - Remit Address
+  - Order Address
 - Contact
 - Bank Account
 - Employee
 
+<div class="alert alert-info">
+    <i class="fa-solid fa-notes"></i> <strong>Notice:</strong>Sanction screening with 365 business Sanction Screen is open for custom entities.<br>For more information, see <a href="../../al-developer/">here</a>.
+</div>
+
+Additionally, the following documents are supported:
+
+- Sales Documents
+  - Sales Quote
+  - Sales Order
+  - Sales Invoice
+  - Sales Credit Memo
+- Purchase Documents
+  - Purchase Quote
+  - Purchase Order
+  
 <div class="alert alert-notice">
-    <i class="fa-solid fa-notes"></i> <strong>Good to know:</strong>365 business Sanction Screen is continuously being developed and expanded to include additional entities. Please check regularly for updates and new features.<br>
-    Additionally, you can extend the sanction screening individually for custom entities. For more information, see <a href="../../al-developer/">here</a>.
+    <i class="fa-solid fa-notes"></i> <strong>Good to know:</strong>When screening documents, the different addresses (e.g. ship-to address) are checked individually if they differ. Additionally, it is checked whether the address has already been checked (e.g. customer address), and the corresponding source is displayed:<br>
+    <img src="/assets/images/365-business-sanction-screen/sanction-screen-with-sources.en-US.png" alt="Sanction Screening with Source Indication">
 </div>
 
 ### Performing a Sanction Screening
@@ -32,7 +52,9 @@ Follow these steps to perform a sanction screening:
 
 1. Open the page (e.g., customers) in Microsoft Dynamics 365 Business Central.
 2. Select the desired record.
-3. Select the action **Sanction Screening...** to start the sanction screening.
+3. Hover over the sanction screening indicator and select the action **Invoke Sanction Screening**.
+
+![Invoke Sanction Screening](/assets/images/365-business-sanction-screen/sanction-screen-check.en-US.gif)
 
 <div class="alert alert-info">
     <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong>If the sanction list screening was successful and no potential matches were found, the following message appears:<br>
