@@ -30,7 +30,7 @@ Get to know the basic concepts and processes of 365 business Proxy Application i
         <a href="proxy-application-whatis/">
             <div>
                 <div><i class="fa-duotone fa-map"></i></div>
-                <div>&overview</div>
+                <div>Overview</div>
                 <div>What is a proxy application?</div>
             </div>
         </a>
