@@ -31,5 +31,5 @@ All 365 business development apps are versioned based on the following scheme:
 - [365 business ERiC Change Log](changelog/365-business-eric/)
 - [365 business Print Agent Change Log](changelog/365-business-print-agent/)
 - [365 business Proxy Application Change Log](changelog/365-business-proxy-application/)
-- [365 business E-Invoice Change Log](changelog/365-business-e-invoice/)- 
+- [365 business E-Invoice Change Log](changelog/365-business-e-invoice/)
 - [365 business Sanction Screen Change Log](changelog/365-business-sanction-screen/)
