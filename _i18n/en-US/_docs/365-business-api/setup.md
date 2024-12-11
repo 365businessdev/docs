@@ -1,38 +1,26 @@
-On the **365 business API Setup** page, all relevant information for setting up and using the 365 business API is stored.
+On the **365 business API Setup** page, all relevant information for setting up and using the 365 business API is provided.
 
-The page includes the following areas:
+The page includes the following sections:
 
 #### General
+
 The General section contains two pieces of information:
-##### API Address (URL).
-Specifies the URL to connect to the 365 business API services. The value is set automatically during installation and does not need to be changed.
-The default value is: `https://365businessapi.azurewebsites.net`
+
+##### API Address (URL)
+
+Specifies the URL for connecting to the 365 business API services. The value is set automatically during installation and does not need to be changed.
+The default value is: `https://api.365businessapi.com`
 
 <div class="alert alert-info">
-    <i class="fa-solid fa-lightbulb"></i> <strong>Info:</strong>Customers who have Development access can store the URL to the Development System in this field. Transactions with the Development System will not be charged. However, please note that the data sent to the Development System is not encrypted and can be further processed by our team.
+    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong> Customers with a development access can enter the URL to the development system in this field. Transactions with the development system are not charged. However, please note that the data sent to the development system is not encrypted and can be further processed by our team.
 </div>
 
-##### API Authentication Key
-Specifies the API authentication key (API key for short) for the 365 business API. This API key authenticates you to the 365 business API and is used for billing purposes.
-Communication without a valid API key is not possible.
+##### Transmission of Telemetry Data
+Allows the sending of anonymized telemetry data for the use of 365 business API services. The telemetry data helps us to further improve our services and functions and to identify problems and errors.
 
 <div class="alert alert-info">
-    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong>You will receive an API key after successful registration. For more information, see <a href="../get-started">Get Started</a>.
+    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong> For more information about which data is collected, please see <a href="../telemetry-data">Telemetry</a>.
 </div>
 
-##### Allow Telemetry Data
-Allows the sending of anonymized telemetry data for the use of 365 business API services. The telemetry data is used to help us further improve our services and features and to identify issues and bugs.
-
-<div class="alert alert-info">
-    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong>For more information about what data is collected, see <a href="../telemetry-data">Telemetry Data</a>.
-</div>
-
-#### Version
-This section displays information about currently used API version. In addition, you have the possibility to select specific API service versions here, if corresponding API modules have been installed.
-
-#### API modules
-In this area you can see the other 365 business API modules from the Microsoft AppSource. You can install them via the *Get it from Microsoft AppSource* link.
-
-### See also
- - [{% t titles.get-started %}](../get-started)
- - [{% t titles.registration %}](../registration)
+#### API Modules
+In this section, the other 365 business API modules from Microsoft AppSource are displayed. You can install them via the *Get it from Microsoft AppSource* link.

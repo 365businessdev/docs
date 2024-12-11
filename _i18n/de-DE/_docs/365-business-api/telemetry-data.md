@@ -6,7 +6,7 @@ Mit 365 business API Version 17.0 und später werden verschiedene Telemetriedate
 | Bereich | Name | Beschreibung | 
 | --- | --- | --- |
 | Kommunikation | [`BDEV-API-00040`]<br>API-Anforderung erstellt | Eine API-Anforderung wurde für einen bestimmten Dienst erstellt. |
-| Kommunikation | [`BDEV-API-00041`]<br>API-Anfrage gesendet | Eine API-Anfrage wurde an den 365 Business API Cloud Service gesendet. |
+| Kommunikation | [`BDEV-API-00041`]<br>API-Anfrage gesendet | Eine API-Anfrage wurde an den 365 business API Cloud Service gesendet. |
 | Kommunikation | [`BDEV-API-00042`]<br>API-Anfrage fehlgeschlagen | Eine API-Anfrage ist fehlgeschlagen. |
 | Kommunikation | [`BDEV-API-00043`]<br>API-Anfrage erfolgreich | Eine API-Anfrage wurde erfolgreich verarbeitet. | 
 | Allgemein | [`BDEV-API-00050`]<br>Fehler | Es ist ein Verarbeitungsfehler aufgetreten. | 

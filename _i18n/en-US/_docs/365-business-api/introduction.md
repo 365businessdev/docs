@@ -1,25 +1,27 @@
-#### Connect 365 business API services to your Microsoft Dynamics 365 Business Central. ####
-The 365 business API App for Microsoft Dynamics 365 Business Central is providing powerful services of the 365 business API services to you and your business.
+With the 365 business API App for Microsoft Dynamics 365 Business Central, you can connect your Microsoft Dynamics 365 Business Central to the 365 business API Cloud Service, opening up access to powerful and valuable services & features for you and your company.
 
-#### World class services for Microsoft Dynamics 365 Business Central. ####
-The 365 business API app is the base connection interfaces to interact with all 365 business API services, like Elster ERiC interface, Address validation and completion, PDF manipulation or Barcode creation and decoding.
+The 365 business API Cloud Service is operated by 365 business development and offers a variety of services specifically designed for Microsoft Dynamics 365 Business Central. The services are multi-tenant and can be used by all tenants in your Microsoft Dynamics 365 Business Central.
 
-This app is the base component you need to use other 365 business development apps, like:
+To ensure consistent use of the 365 business API services in Microsoft Dynamics 365 Business Central, the 365 business API App is provided. The app offers an easy way to use and configure the 365 business API services in Microsoft Dynamics 365 Business Central.
 
-| App | Description |
-| --- | --- |
-| [365 business PDF](../365-business-pdf) | Digitally sign your reports from Business Central.<br>Merge your reports from Business Central with PDF documents.<br>Apply stationery paper to PDF documents created from Business Central. |
-| [365 business ERiC](../365-business-eric) | Transmit the ELSTER Tax Data directly from Business Central to german tax authorities.|
-| [365 business Barcode](../365-business-barcode) | Encode 1D- and 2D-Barcodes for usage in reports and many more.<br>Decode received 1D- and 2D-Barcode images and extract information from it. |
-| [365 business Address Validation](../365-business-pdf) | Validate and complete your address data in Business Central. |
+### What services does 365 business API offer?
 
-<div class="alert alert-info">
-    <i class="fa-solid fa-lightbulb"></i> <strong>Tip:</strong>You find additional information to other 365 business development apps at the navigation pane to the left or at our website <a href="https://365businessdev.com">365businessdev.com</a>.
-</div>
+365 business API is used in the various 365 business apps and serves as the basis for providing advanced features and services in Microsoft Dynamics 365 Business Central.
+Currently, the following features and services are provided via the 365 business API:
 
-Additionally this app is guiding you through the registration process to gather an evaluation license for free of charge usage of 365 business API services and providing the ability to upgrade your license to a unrestricted pay-as-you-go subscription.
+| Service | Description | 365 business App |
+| --- | --- | --- |
+| ERiC | Transmit various ELSTER tax data types directly from Business Central to the tax office. | [365 business ERiC](../365-business-eric) |
+| PDF | Digitally sign your reports & documents in Business Central.<br>Merge reports & documents from Business Central with existing PDF documents, such as general terms and conditions.<br>Automatically attach digital letterhead to reports and documents created from Business Central. | [365 business PDF](../365-business-pdf) |
+| Barcode | Encode 1D and 2D barcodes for use in reports, etc.<br>Decode received 1D and 2D barcode images and extract information from them. | [365 business Barcode](../365-business-barcode) |
+| Address Validation | Validate and complete your address data in Business Central. | [365 business Address Validation](../365-business-address-validation) |
+| Sanction Screen | Automate your sanctions list checks and minimize risks and violations. | [365 business Sanction Screen](../365-business-sanction-screen) |
+| E-Invoice | Create and process electronic invoices in the Factur-X / ZUGFeRD standard in Business Central. | [365 business E-Invoice](../365-business-e-invoice) |
 
-#### Open and well documented API. ####
-The official 365 business API documentation at [api-doc.365businessdev.com](api-doc.365businessdev.com) give the capability to you to develop your own business processes based on the 365 business API services.
+#### API Documentation
+The official 365 business API Cloud Service documentation at [api-doc.365businessdev.com<i class="fa-solid fa-up-right-from-square" style="font-size: x-small; vertical-align: super; margin-left: 5px;"></i>](https://api-doc.365businessdev.com) gives you the opportunity to develop your own business processes based on the 365 business API services.
 
-Just create a dependency from your per-tenant extension to use 365 business API app and use the internal API to consume 365 business API services.
+Simply create a dependency on your multi-tenant extension to use the 365 business API App and use the internal API to consume 365 business API services.
+
+### See also
+- [365 business API Cloud Service Documentation<i class="fa-solid fa-up-right-from-square" style="font-size: x-small; vertical-align: super; margin-left: 5px;"></i>](https://api-doc.365businessdev.com)
