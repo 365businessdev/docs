@@ -26,7 +26,7 @@ By implementing effective sanction screening, companies can ensure that they act
 
 <div class="alert alert-notice">
     <i class="fa-solid fa-notes"></i> <strong>Good to know:</strong> 365 business Sanction Screen allows the control of the sanction lists or data catalogs to be checked, depending on the individual requirements of the company.<br>
-    For more information, see <a href="data-sources/">here</a>.
+    For more information, see <a href="../data-sources/">here</a>.
 </div>
 
 ### See Also
