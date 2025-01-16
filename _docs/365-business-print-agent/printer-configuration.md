@@ -2,7 +2,7 @@
 title: printer-configuration
 category: 365-business-print-agent
 permalink: /365-business-print-agent/printer-configuration/
-order: 5
+order: 6
 
 namespace: 365-business-print-agent
 ---
