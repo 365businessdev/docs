@@ -4,6 +4,15 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-pdf/
 ---
 
+#### Version 20.4.62.18112
+
+  - Do not export G/L Account Nos.
+  - Deactivate ZUGFeRD Feature if E-Invoice app is installed
+    - Skip processing for sales invoice / credit memo if E-Invoice app is installed
+    - Add E-Invoice integration _(used with 365 business E-Invoice 25.1 or later)_
+  - Add `ConcatenateDocument(List of [Text])` implementation in public API
+  - Fix typos
+
 #### Version 20.3.58.16613
 
  - Update ZUGFeRD / Factur-X implementation to version 2.3.0 (ZUGFeRD) / 1.0.07 (Factur-X) 

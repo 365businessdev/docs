@@ -2,7 +2,7 @@
 title: print-agent-service-installation
 category: 365-business-print-agent
 permalink: /365-business-print-agent/print-agent-service-installation/
-order: 8
+order: 9
 
 namespace: 365-business-print-agent
 ---
