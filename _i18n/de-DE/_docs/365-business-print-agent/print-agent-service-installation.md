@@ -3,7 +3,7 @@
  - Betriebssystem
    - Windows 10 oder neuer (64-bit)
    - Windows Server 2016 oder neuer (64-bit)
- - .NET 6.0
+ - .NET 8.0
  - Internetverbindung.
  - [365 business Print Agent Service Installer](https://365businessapi.com/api/SoftwareDownload?AppId=c2e7d99c-d3c6-4ecc-9c6b-7be4048b41a9)
 

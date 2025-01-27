@@ -65,7 +65,7 @@ Hinweis * - Es ist eine zusätzliche Konfiguration erforderlich, um die Verbindu
  - Betriebssystem
    - Windows 10 oder höher (64-Bit)
    - Windows Server 2016 oder höher (64-Bit)
- - .NET 6.0
+ - .NET 8.0
 
 ### Siehe auch
 
