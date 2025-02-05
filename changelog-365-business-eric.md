@@ -4,6 +4,14 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-eric/
 ---
 
+#### Version 17.12.252.18376
+
+- Fix issue #60024 Copy VAT Statement to new Company
+- Fix issue #60027 Fix tests, according to new CRONUS demo data
+- Fix Show Entries for OSS tax data
+- Update icons
+- Enhancements for API communication
+
 #### Version 17.12.243.16386
 
  - Task 58885 - Implement VAT Date Type in ZMDO calculation
