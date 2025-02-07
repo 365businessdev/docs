@@ -18,6 +18,7 @@ category:
   365-business-proxy-application: 365 business Proxy Application
   365-business-e-invoice: 365 business E-Invoice
   365-business-sanction-screen: 365 business Sanction Screen
+  licensing: Licensing
 titles:
   al-developer: AL Implementation Guide
   search: Search
@@ -121,6 +122,19 @@ titles:
   data-sources: Data Catalogs
   sanction-screen-quick-check: Sanction Screen Quick Check
   secure-print: Secure Print
+  licensing: Licensing
+  license-management: License Management
+  license-methods: License Methods
+  invoicing: Invoicing
+  activate-license: Activate License
+  assign-license: Assign License
+  spending-limit: Spending Limits
+  terminate-license: Terminate License
+  invoices: Invoices
+  payment: Payment
+  user-license: User License
+  company-license: Company License
+  tenant-license: Tenant License
 langs:
   german: German
   english: English
