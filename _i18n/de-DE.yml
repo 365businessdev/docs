@@ -132,9 +132,9 @@ titles:
   terminate-license: Lizenz kündigen
   invoices: Rechnungen
   payment: Zahlung
-  user-license: Benutzer Lizenz
-  company-license: Mandanten Lizenz
-  tenant-license: Tenant Lizenz
+  user-license: Benutzerlizenz
+  company-license: Mandantenlizenz
+  tenant-license: Tenantlizenz
 langs:
   german: Deutsch
   english: English
