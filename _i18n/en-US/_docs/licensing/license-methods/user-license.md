@@ -1,11 +1,11 @@
-User licenses are restricted to individual users within a tenant. Each user requires their own license to access the apps and extensions of 365 business development.
+User licenses are restricted to individual users within a tenant. Each user requires their own license to access the apps and features of 365 business development.
 
-## What are the benefits of the user license?
+## What are the benefits of a user license?
 
-User licensing allows for flexible assignment of licenses to individual users. Each user receives their own license tailored to them. This enables individual licensing and use of the apps and extensions of 365 business development.
+User licensing allows for flexible assignment of licenses to individual users. Each user receives their own license, granting them permission to use the app or feature.
 
 <div class="alert alert-warn">
-    <i class="fa-solid fa-lightbulb"></i> <strong>Important Note:</strong> Please note that depending on the app or extension, licensing of all active users may be mandatory, otherwise functionality within Microsoft Dynamics 365 Business Central may be limited.
+    <i class="fa-solid fa-lightbulb"></i> <strong>Important Note:</strong> Please note that depending on the app or feature, licensing all active users may be mandatory, otherwise functionality within Microsoft Dynamics 365 Business Central may be limited.
 </div>
 
 ## Which users need to be licensed?
@@ -20,8 +20,13 @@ The number of users to be licensed is determined differently depending on the en
 
 ### Microsoft Dynamics 365 Business Central - Online (SaaS)
 
-When identifying the users to be licensed, all active users (`Status` = `Enabled`) in the Business Central environment are checked. This check may be performed regardless of whether the user actually accesses the apps and extensions of 365 business development. The users are then checked for the assigned Microsoft Dynamics 365 Business Central licenses (plan).
-Users with the following plans are subject to licensing:
+When identifying users to be licensed, all active users (`Status` = `Enabled`) in the Business Central environment are checked. This check may occur regardless of whether the user actually accesses the apps and features of 365 business development. Users are then checked against the assigned Microsoft Dynamics 365 Business Central licenses (Plan).
+
+<div class="alert alert-notice">
+    <i class="fa-solid fa-notes"></i> <strong>Good to know:</strong> User licensing for the apps and features of 365 business development is based on the actual number of users in the Microsoft Dynamics 365 Business Central environment. Shared Microsoft Dynamics 365 Business Central licenses (e.g., Device plan) are not considered. Only the actually licensed users are counted, regardless of whether a shared or exclusive license is present.
+</div>
+
+Users with the following plans are required to be licensed:
 
  - Dynamics 365 Business Central Basic Financials plan (including Embedded plan)
  - Dynamics 365 Business Central Team Member plan (including Embedded plan)
@@ -32,21 +37,20 @@ Users with the following plans are subject to licensing:
  - Dynamics 365 Business Central for IWs plan
 
 <div class="alert alert-notice">
-    <i class="fa-solid fa-notes"></i> <strong>Good to know:</strong> User licensing for the apps and extensions of 365 business development is based on the actual number of users in the Microsoft Dynamics 365 Business Central environment. Shared Microsoft Dynamics 365 Business Central licenses (e.g., Device plan) are not considered. Only the actually licensed users are counted, regardless of whether a shared or exclusive license is present.
+    <i class="fa-solid fa-notes"></i> <strong>Good to know:</strong> Users with the following plans are not required to be licensed:
+    <ul>
+        <li>Delegated Admin agent - Partner plan</li>
+        <li>Delegated Helpdesk agent - Partner plan</li>
+        <li>Dynamics 365 Business Central External Accountant plan</li>
+    </ul>
 </div>
-
-Users with the following plans are not subject to licensing:
-
- - Delegated Admin agent - Partner plan
- - Delegated Helpdesk agent - Partner plan
- - Dynamics 365 Business Central External Accountant plan
 
 ### Microsoft Dynamics 365 Business Central - On-Premise (Local)
 
-When identifying the users to be licensed, all active users (`Status` = `Enabled`) in the Business Central environment are checked. This check may be performed regardless of whether the user actually accesses the apps and extensions of 365 business development.
+When identifying users to be licensed, all active users (`Status` = `Enabled`) in the Business Central environment are checked. This check may occur regardless of whether the user actually accesses the apps and features of 365 business development.
 
 ## What data is collected for license verification?
 
-The verification of user licenses is carried out exclusively within your Microsoft Dynamics 365 Business Central environment. No data is transmitted to or stored by 365 business development. The license verification is based on the user data and licenses stored in your Business Central environment.
+The verification of user licenses is performed exclusively within your Microsoft Dynamics 365 Business Central environment. No data is transmitted to or stored by 365 business development. The license verification is based on the user data and licenses stored in your Business Central environment.
 
-Only the determined number of users subject to licensing or licensed users is transmitted to 365 business development.
+Only the determined number of users required to be licensed or already licensed is transmitted to 365 business development.

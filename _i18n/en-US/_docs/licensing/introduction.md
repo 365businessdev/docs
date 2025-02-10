@@ -1,7 +1,7 @@
-On this page, you will find information about the different types of licenses we offer. You will also learn how to perform licensing for our products.
+On this page, you will find information about the different types of licenses we offer. You will also learn how to manage the licensing for our products.
 
 <div class="alert alert-info">
-    <i class="fa-solid fa-lightbulb"></i> If you have any questions, do not hesitate to <a href="https://365businessdev.com/kontakt/" target="_blank">contact</a> us.
+    <i class="fa-solid fa-lightbulb"></i> If you have any questions, do not hesitate to <a href="https://365businessdev.com/contact/" target="_blank">contact</a> us.
 </div>
 
 <div class="columns">
@@ -10,7 +10,7 @@ On this page, you will find information about the different types of licenses we
            <div>
                <div><i class="fa-duotone fa-map"></i></div>
                <div>Overview</div>
-               <div>Licensing Methods</div>
+               <div>License Methods</div>
            </div>
        </a>
    </div>
@@ -38,9 +38,9 @@ On this page, you will find information about the different types of licenses we
    <div>
         <span class="columns-title">Basics</span>
         <p>
-            Learn more about the licensing of 365 business development apps and extensions:
+            Learn more about the licensing of 365 business development apps and features:
             <ul class="fa-ul">
-                <li><span class="fa-li"><i class="fa-solid fa-book"></i></span><a href="license-methods/">What licensing methods are there?</a></li>
+                <li><span class="fa-li"><i class="fa-solid fa-book"></i></span><a href="license-methods/">What licensing methods are available?</a></li>
                 <li><span class="fa-li"><i class="fa-solid fa-user"></i></span><a href="license-methods/user-license/">User License</a></li>
                 <li><span class="fa-li"><i class="fa-solid fa-building"></i></span><a href="license-methods/company-license/">Company License</a></li>
                 <li><span class="fa-li"><i class="fa-solid fa-server"></i></span><a href="license-methods/tenant-license/">Tenant License</a></li>
@@ -54,7 +54,7 @@ On this page, you will find information about the different types of licenses we
                 <ul class="fa-ul">
                     <li><span class="fa-li"><i class="fa-solid fa-list-check"></i></span><a href="license-management/">Manage Licenses</a></li>
                     <li><span class="fa-li"><i class="fa-solid fa-file-signature"></i></span><a href="license-management/activate-license/">Activate License</a></li>
-                    <li><span class="fa-li"><i class="fa-solid fa-users"></i></span><a href="license-management/assign-licenses/">Assign Licenses</a></li>
+                    <li><span class="fa-li"><i class="fa-solid fa-users"></i></span><a href="license-management/assign-license/">Assign Licenses</a></li>
                     <li><span class="fa-li"><i class="fa-solid fa-sliders"></i></span><a href="license-management/spending-limit/">Spending Limits</a></li>
                     <li><span class="fa-li"><i class="fa-solid fa-file-xmark"></i></span><a href="license-management/terminate-license/">Terminate License</a></li>
                 </ul>

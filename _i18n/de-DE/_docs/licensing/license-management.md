@@ -1,6 +1,6 @@
 Die Verwaltung der Lizenzen findet komplett innerhalb von Microsoft Dynamics 365 Business Central statt. Dabei können alle wesentlichen Verwaltungsaufgaben direkt durch Sie durchgeführt werden. In diesem Abschnitt erfahren Sie, wie Sie Ihre Lizenzen verwalten können.
 
-Für die Verwaltung der Lizenzen wird im Rahmen der Installation von Microsoft Dynamics 365 Business Central Apps und Erweiterungen die Erweiterung **365 business development License** automatisch installiert. Diese Erweiterung fügt die Lizenzverwaltung und -prüfung in Microsoft Dynamics 365 Business Central hinzu.
+Für die Verwaltung der Lizenzen wird im Rahmen der Installation von Microsoft Dynamics 365 Business Central Apps die Erweiterung **365 business development License** automatisch installiert. Diese Erweiterung fügt die Lizenzverwaltung und -prüfung in Microsoft Dynamics 365 Business Central hinzu.
 
 Die Lizenzverwaltung lässt sich über die Seite **Erweiterungslizenzverwaltung (365 business development)** aufrufen:
 
@@ -8,16 +8,16 @@ Die Lizenzverwaltung lässt sich über die Seite **Erweiterungslizenzverwaltung 
 
 ## Erweiterungslizenzverwaltung
 
-Die Erweiterungslizenzverwaltung gibt Auskunft über die installierten 365 business development Apps und Erweiterungen und zeigt die nachfolgenden Informationen an:
+Die Erweiterungslizenzverwaltung gibt Auskunft über die installierten 365 business development Apps und Features und zeigt die nachfolgenden Informationen an:
 
 | Spalte | Beschreibung |
 | --- | --- |
-| **App Name** | Gibt den Namen der App oder Erweiterung an. |
-| **Feature Name** | Gibt den Namen des Features der App oder Erweiterung an. |
+| **App Name** | Gibt den Namen der App an. |
+| **Feature Name** | Gibt den Namen des Features der App an. |
 | **Beschreibung** | Gibt eine kurze Beschreibung des Features an. |
 | **Lizenzierung** | Gibt die aktuelle Lizenzmethode des Features an. |
-| **Dokumentation-URL** | Link zur Dokumentation des Features an. |
-| **Support-URL** | Link zur Supportseite des Features an. |
+| **Dokumentation-URL** | Link zur Dokumentation des Features. |
+| **Support-URL** | Link zur Supportseite des Features. |
 
 Weiterhin werden die wesentlichen Informationen zur Lizenzierung im unteren Bereich der Seite angezeigt:
 
@@ -30,13 +30,13 @@ Zusätzlich bietet die Erweiterungslizenzverwaltung Ihnen folgende Funktionen:
 
 | Funktion | Beschreibung | Weitere Informationen |
 | --- | --- | --- |
-| **Lizenzinformationen** | Zeigt die aktuelle Lizenzinformationen an. | [Lizenzinformationen anzeigen](#lizenzinformationen-anzeigen) |
+| **Lizenzinformationen** | Zeigt die aktuellen Lizenzinformationen an. | [Lizenzinformationen anzeigen](#lizenzinformationen-anzeigen) |
 | **Lizenzinformationen aktualisieren** | Aktualisiert die Lizenzinformationen. | [Lizenzinformationen aktualisieren](#lizenzinformationen-aktualisieren) |
 | **Benutzerlizenzierungsübersicht** | Öffnet die Übersicht der zu lizenzierenden Benutzer. | [Benutzerlizenzierungsübersicht](../license-methods/user-license/) |
 | **Mandantenlizenzierungsübersicht** | Öffnet die Übersicht der zu lizenzierenden Mandanten. | [Mandantenlizenzierungsübersicht](../license-methods/company-license/) |
-| **Website** | Öffnet die Website der Erweiterung bzw. des Features auf. |  |
-| **Dokumentation** | Öffnet die Dokumentation der Erweiterung bzw. des Features. |  |
-| **Support** | Öffnet die Supportseite der Erweiterung bzw. des Features. |  |
+| **Website** | Öffnet die Website der App bzw. des Features. |  |
+| **Dokumentation** | Öffnet die Dokumentation der App bzw. des Features. |  |
+| **Support** | Öffnet die Supportseite der App bzw. des Features. |  |
 
 Während der Testphase stehen folgende Funktionen zur Verfügung:
 
@@ -68,7 +68,7 @@ Mit der Aktion **Lizenzinformationen aktualisieren** können Sie eine Aktualisie
 ### Testphase verlängern
 
 <div class="alert alert-notice">
-    <i class="fa-solid fa-notes"></i> <strong>Gut zu wissen:</strong> Jede 365 business development App und Erweiterung wird mit einer Testphase von 30 Tagen bereitgestellt. Während dieser Testphase können Sie die App oder Erweiterung ohne Einschränkungen testen. Nach Ablauf der Testphase kann die Testphase einmalig um weitere 10 Tage verlängert werden.<br>
+    <i class="fa-solid fa-notes"></i> <strong>Gut zu wissen:</strong> Jede 365 business development App wird mit einer Testphase von 30 Tagen bereitgestellt. Während dieser Testphase können Sie die App oder das Feature ohne Einschränkungen testen.<br>
     <br>
     Sie benötigen mehr Zeit?<br>
     Kein Problem! <a href="https://365businessdev.com/kontakt/" target="_blank">Kontaktieren</a> Sie uns gerne, bzgl. einer Verlängerung Ihrer Testphase.
@@ -78,6 +78,6 @@ Mit der Aktion **Testphase verlängern** können Sie die Testphase um weitere 10
 
 ### Microsoft Partner zuweisen
 
-In der Regel werden 365 business development Apps und Erweiterungen über einen Microsoft Partner bereitgestellt. Mit der Aktion **Microsoft Partner zuweisen** können Sie den Microsoft Partner zuweisen, der die Lizenz bereitgestellt hat.
+In der Regel werden 365 business development Apps und Features über einen Microsoft Partner bereitgestellt. Mit der Aktion **Microsoft Partner zuweisen** können Sie den Microsoft Partner zuweisen, der die Lizenz bereitgestellt hat.
 
-Diese Funktion steht Ihnen nur nach der Lizenzaktivierung zur Verfügung und wird dazu verwendet bei Partnerwechseln die Lizenzierung zu übertragen.
+Diese Funktion steht Ihnen nur nach der Lizenzaktivierung zur Verfügung und wird dazu verwendet, bei Partnerwechseln die Lizenzierung zu übertragen.

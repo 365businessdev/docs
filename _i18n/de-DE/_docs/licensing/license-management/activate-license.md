@@ -1,6 +1,6 @@
-Auf dieser Seite wird beschrieben, wie Sie eine Lizenz für eine App oder Erweiterung aktivieren können. Die Aktivierung einer Lizenz ist notwendig, um die App oder Erweiterung, nach Ablauf der Testphase, in Microsoft Dynamics 365 Business Central nutzen zu können.
+Auf dieser Seite wird beschrieben, wie Sie eine Lizenz für eine App oder ein Feature aktivieren können. Die Aktivierung einer Lizenz ist notwendig, um die App oder das Feature nach Ablauf der Testphase in Microsoft Dynamics 365 Business Central nutzen zu können.
 
-Die Lizenzaktivierung wird über die Seite **Erweiterungslizenzverwaltung (365 business development)** aufgerufen. Im Rahmen der Lizenzaktivierung kann die [Lizenzmethode](../license-methods/), die Abonnementlaufzeit und die gewünschte Zahlungsmethode ausgewählt werden. Weiterhin können Microsoft Partner die Lizenz für den Endkunden aktivieren.
+Die Lizenzaktivierung wird über die Seite **Erweiterungslizenzverwaltung (365 business development)** aufgerufen. Im Rahmen der Lizenzaktivierung kann die [Lizenzmethode](../../license-methods/), die Abonnementlaufzeit und die gewünschte Zahlungsmethode ausgewählt werden. Weiterhin können Microsoft Partner die Lizenz für den Endkunden aktivieren.
 
 ## Auf einen Blick
 
@@ -20,18 +20,18 @@ Die Lizenzaktivierung wird über die Seite **Erweiterungslizenzverwaltung (365 b
 3. Wählen Sie **Weiter** um fortzufahren.
 
 <div class="alert alert-notice">
-    <i class="fa-solid fa-notes"></i> <strong>Gut zu wissen:</strong>Die Partnerlizenzierung ist nur für Microsoft Partner mit einem gültigen Partnervertrag verfügbar.
+    <i class="fa-solid fa-notes"></i> <strong>Gut zu wissen:</strong> Die Partnerlizenzierung ist nur für Microsoft Partner mit einem gültigen Partnervertrag verfügbar.
 </div>
 
 ## Schritt 3: Lizenzierung wählen
 
 1. Wählen Sie die gewünschte **Lizenzmethode**.
-   [Mehr erfahren](../license-methods/)
+   [Mehr erfahren](../../license-methods/)
 2. Wählen Sie in der Spalte **Abonnementlaufzeit** die gewünschte Laufzeit.
 3. Wählen Sie **Weiter** um fortzufahren.
 
 <div class="alert alert-notice">
-    <i class="fa-solid fa-notes"></i> <strong>Gut zu wissen:</strong>Die Preise werden, basierend auf Ihrer Auswahl in Echtzeit berechnet. Die Preise können je nach Lizenzmethode und Abonnementlaufzeit variieren.
+    <i class="fa-solid fa-notes"></i> <strong>Gut zu wissen:</strong> Die Preise werden, basierend auf Ihrer Auswahl, in Echtzeit berechnet. Die Preise können je nach Lizenzmethode und Abonnementlaufzeit variieren.
 </div>
 
 ## Schritt 4: Registrierungsinformationen
@@ -40,8 +40,12 @@ Abhängig von der Partner- oder Endkundenlizenzierung unterscheidet sich der Pro
 
 ### Schritt 4.1: Partnerlizenzierung
 
-1. Geben Sie Ihre **Microsoft Partner ID** an, die Sie bei Abschluss des Partnervertrags mit 365 business development angegeben haben.
+1. Geben Sie Ihre **Microsoft Partner ID** an.
 2. Wählen Sie **Weiter** um fortzufahren.
+
+<div class="alert alert-notice">
+    <i class="fa-solid fa-notes"></i> <strong>Gut zu wissen:</strong> Bitte verwenden Sie die Microsoft Partner ID, die Sie bei Abschluss des Partnervertrags mit 365 business development angegeben haben.
+</div>
 
 ### Schritt 4.2: Endkundenlizenzierung
 
@@ -54,7 +58,7 @@ Abhängig von der Partner- oder Endkundenlizenzierung unterscheidet sich der Pro
 ## Schritt 5: Zahlungsmethode wählen
 
 1. Wählen Sie die gewünschte **Zahlungsmethode**.
-   [Mehr erfahren](../invoicing/payment/)
+   [Mehr erfahren](../../invoicing/payment/)
 2. Wählen Sie **Weiter** um fortzufahren.
 
 ### Schritt 5.1: Zahlungsautorisierung _(nur bei Zahlungsmethode **Kreditkarte**)_
@@ -73,7 +77,7 @@ Dieser Schritt ist nur bei vorheriger Auswahl der Zahlungsmethode **Kreditkarte*
 6. Warten Sie auf die Bestätigung der Zahlungsautorisierung.
 
 <div class="alert alert-notice">
-    <i class="fa-solid fa-notes"></i> <strong>Gut zu wissen:</strong>Unter Umständen verhindern die Einstellungen Ihres Browsers, dass das Fenster zur Zahlungsautorisierung automatisch geöffnet wird.<br>
+    <i class="fa-solid fa-notes"></i> <strong>Gut zu wissen:</strong> Unter Umständen verhindern die Einstellungen Ihres Browsers, dass das Fenster zur Zahlungsautorisierung automatisch geöffnet wird.<br>
     Bitte wählen Sie in diesem Fall den Link <strong>Falls Ihre Browsereinstellungen das Öffnen eines neuen Fensters für die Zahlung...</strong>, um die Zahlungsautorisierung in einem neuen Tab zu öffnen.
 </div>
 

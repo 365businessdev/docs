@@ -1,12 +1,12 @@
-Company licenses are restricted to a single company within Microsoft Dynamics 365 Business Central. Each company requires its own license to access the apps and extensions of 365 business development. With the company license, all users within the company can access the apps and extensions.
+Company licenses are restricted to a single company within Microsoft Dynamics 365 Business Central. Each company requires its own license to access the apps and features of 365 business development. With the company license, all users within the company can access the apps and features.
 
-## What are the benefits of the company license?
+## What are the benefits of a company license?
 
-Company licensing includes all users within the company. Each user can access the apps and extensions of 365 business development without requiring a separate license. This enables simple and cost-effective licensing for companies that includes all users.
+Company licensing includes all users within the company. Each user can access the apps and features of 365 business development without requiring a separate license. This allows for simple and cost-effective licensing for companies that include all users.
 
 ## Which companies need to be licensed?
 
-All companies that are not test companies must be licensed. Test companies are exempt from licensing and can be used without licensing.
+All companies that are not test companies must be licensed. Test companies are exempt from licensing and can be used without a license.
 
 ### Company Licensing Overview
 
@@ -20,6 +20,6 @@ The number of companies to be licensed can be viewed on the **Company Licensing 
 
 ## What data is collected for license verification?
 
-The verification of company licenses is carried out exclusively within your Microsoft Dynamics 365 Business Central environment. No data is transmitted to or stored by 365 business development. The license verification is based on the data stored in your Business Central environment.
+The verification of company licenses is performed exclusively within your Microsoft Dynamics 365 Business Central environment. No data is transmitted to or stored by 365 business development. The license verification is based on the data stored in your Business Central environment.
 
-Only the determined number of companies subject to licensing or licensed companies is transmitted to 365 business development.
+Only the determined number of companies required to be licensed or already licensed is transmitted to 365 business development.

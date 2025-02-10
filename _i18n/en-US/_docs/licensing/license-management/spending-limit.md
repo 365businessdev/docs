@@ -1,12 +1,12 @@
-Some apps or extensions include a certain number of uses (e.g., number of barcodes per billing period) and may incur additional costs if exceeded. To avoid unexpected costs, you can set a spending limit. The spending limit defines the maximum number of uses that can be performed within a billing period. When the spending limit is reached, the use of the app or extension is blocked until the billing period ends or the spending limit is increased.
+Some apps or features include a certain number of uses (e.g., number of barcodes per billing period) and may incur additional costs if exceeded. To avoid unexpected costs, you can set a spending limit. The spending limit defines the maximum number of uses that can be performed within a billing period. Once the spending limit is reached, the use of the app or feature is blocked until the billing period ends or the spending limit is increased.
 
-## At a Glance
+## Overview
 
 ![Spending Limit](/assets/images/licensing/8fc5d3d4-b367-41bb-a33a-3339262b9fc4.png)
 
 ## Step 1: View Spending Limit
 
-1. Open the **Extension License Management (365 business development)** through the search function in Microsoft Dynamics 365 Business Central.
+1. Open the **Extension License Management (365 business development)** via the search function in Microsoft Dynamics 365 Business Central.
 2. Select the action group **Self Service**.
 3. Select the action **Spending Limit**.
 

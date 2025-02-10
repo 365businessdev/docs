@@ -38,23 +38,23 @@ Auf dieser Seite finden Sie Informationen zu den verschiedenen Arten von Lizenze
    <div>
         <span class="columns-title">Grundlagen</span>
         <p>
-            Erfahren Sie mehr über die Lizenzierung von 365 business development Apps und Erweiterungen:
+            Erfahren Sie mehr über die Lizenzierung von 365 business development Apps und Features:
             <ul class="fa-ul">
                 <li><span class="fa-li"><i class="fa-solid fa-book"></i></span><a href="license-methods/">Welche Lizenzmethoden gibt es?</a></li>
-                <li><span class="fa-li"><i class="fa-solid fa-user"></i></span><a href="license-methods/user-license/">Benutzer Lizenz</a></li>
-                <li><span class="fa-li"><i class="fa-solid fa-building"></i></span><a href="license-methods/company-license/">Mandanten Lizenz</a></li>
-                <li><span class="fa-li"><i class="fa-solid fa-server"></i></span><a href="license-methods/tenant-license/">Tenant Lizenz</a></li>
+                <li><span class="fa-li"><i class="fa-solid fa-user"></i></span><a href="license-methods/user-license/">Benutzerlizenz</a></li>
+                <li><span class="fa-li"><i class="fa-solid fa-building"></i></span><a href="license-methods/company-license/">Mandantenlizenz</a></li>
+                <li><span class="fa-li"><i class="fa-solid fa-server"></i></span><a href="license-methods/tenant-license/">Tenantlizenz</a></li>
             </ul>
         </p>
     </div>
     <div>
          <span class="columns-title">Anleitung</span>
              <p>
-                Erfahren Sie mehr darüber wie Sie Ihre Lizenzen verwalten:
+                Erfahren Sie mehr darüber, wie Sie Ihre Lizenzen verwalten:
                 <ul class="fa-ul">
                     <li><span class="fa-li"><i class="fa-solid fa-list-check"></i></span><a href="license-management/">Lizenzen verwalten</a></li>
                     <li><span class="fa-li"><i class="fa-solid fa-file-signature"></i></span><a href="license-management/activate-license/">Lizenz aktivieren</a></li>
-                    <li><span class="fa-li"><i class="fa-solid fa-users"></i></span><a href="license-management/assign-licenses/">Lizenzen zuweisen</a></li>
+                    <li><span class="fa-li"><i class="fa-solid fa-users"></i></span><a href="license-management/assign-license/">Lizenzen zuweisen</a></li>
                     <li><span class="fa-li"><i class="fa-solid fa-sliders"></i></span><a href="license-management/spending-limit/">Ausgabengrenzen</a></li>
                     <li><span class="fa-li"><i class="fa-solid fa-file-xmark"></i></span><a href="license-management/terminate-license/">Lizenz kündigen</a></li>
                 </ul>

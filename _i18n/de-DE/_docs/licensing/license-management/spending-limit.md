@@ -1,4 +1,4 @@
-Einige Apps oder Erweiterungen verfügen über eine inkludierte Anzahl an Nutzungen (z.B. Anzahl Barcodes pro Abrechnungszeitraum) und können bei Überschreitung möglicherweise zusätzliche Kosten verursachen. Um unerwartete Kosten zu vermeiden, können Sie eine Ausgabengrenze festlegen. Die Ausgabengrenze definiert die maximale Anzahl an Nutzungen, die innerhalb eines Abrechnungszeitraums durchgeführt werden können. Wenn die Ausgabengrenze erreicht ist, wird die Nutzung der App oder Erweiterung blockiert, bis der Abrechnungszeitraum endet oder die Ausgabengrenze erhöht wird.
+Einige Apps oder Features verfügen über eine inkludierte Anzahl an Nutzungen (z.B. Anzahl Barcodes pro Abrechnungszeitraum) und können bei Überschreitung möglicherweise zusätzliche Kosten verursachen. Um unerwartete Kosten zu vermeiden, können Sie eine Ausgabengrenze festlegen. Die Ausgabengrenze definiert die maximale Anzahl an Nutzungen, die innerhalb eines Abrechnungszeitraums durchgeführt werden können. Wenn die Ausgabengrenze erreicht ist, wird die Nutzung der App oder des Features blockiert, bis der Abrechnungszeitraum endet oder die Ausgabengrenze erhöht wird.
 
 ## Auf einen Blick
 
@@ -17,5 +17,5 @@ Einige Apps oder Erweiterungen verfügen über eine inkludierte Anzahl an Nutzun
 3. Wählen Sie **OK** um die Ausgabengrenze zu aktualisieren.
 
 <div class="alert alert-notice">
-    <i class="fa-solid fa-notes"></i> <strong>Gut zu wissen:</strong>Um die Ausgabengrenze aufzuheben, geben Sie den Wert <strong>0,00</strong> ein.
+    <i class="fa-solid fa-notes"></i> <strong>Gut zu wissen:</strong> Um die Ausgabengrenze aufzuheben, geben Sie den Wert <strong>0,00</strong> ein.
 </div>

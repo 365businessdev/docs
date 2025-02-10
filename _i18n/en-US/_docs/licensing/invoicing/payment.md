@@ -1,16 +1,17 @@
-On this page, you will find all the information about the different payment methods we offer.
+On this page, you will find all the information about the various payment methods we offer.
 
 ### Payment by Invoice
 
-Payments by invoice are usually made in advance for the respective billing period. Invoices are sent electronically by email, as an e-invoice (ZUGFeRD/Factur-X format). The invoice contains all relevant payment information, such as invoice number, invoice date, due date, payment method, bank details, and tax number.
+Payments by invoice are generally made in advance for the respective billing period. Invoices are sent electronically by email, as an e-invoice in the ZUGFeRD/Factur-X format. The invoice contains all relevant payment information, such as invoice number, invoice date, due date, payment method, bank details, and tax number.
 
 Invoices can be paid by bank transfer and have a payment term of 14 days.
 
 ### Payment by Credit Card
 
-Credit card payments are processed through our payment service provider Stripe. Stripe is an international payment service provider that enables the processing of credit card payments. Payment is made via a secure connection directly to Stripe. Billing is usually done in advance for the respective billing period.
+Credit card payments are processed through our payment service provider Stripe. Stripe is an international payment service provider that enables the processing of credit card payments. Payment is made via a secure connection directly to Stripe. Billing is generally done in advance for the respective billing period.
+An invoice is created for each charge and sent electronically by email, as an e-invoice in the ZUGFeRD/Factur-X format.
 
-Through our payment service provider Stripe, you can use the following credit cards, among others:
+Through our payment service provider Stripe, you can use the following credit cards:
 
 - Visa
 - Mastercard
@@ -18,7 +19,7 @@ Through our payment service provider Stripe, you can use the following credit ca
 - Discover
 - Diners Club
 
-In addition, Stripe supports the following other payment methods:
+Additionally, Stripe supports the following payment methods:
 
 - Apple Pay
 - Google Pay
@@ -26,13 +27,13 @@ In addition, Stripe supports the following other payment methods:
 - PayPal
 - SEPA Direct Debit
 
-The authorization of the respective payment method takes place during [license activation](../license-management/activate-license/) and the charge is made in advance for the respective billing period, at the time of invoicing.
+The authorization of the respective payment method takes place during [license activation](../../license-management/activate-license/), and the charge is made in advance for the respective billing period, upon invoicing.
 
 <div class="alert alert-info">
-    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong> If the stored payment method cannot be charged, the license will be automatically deactivated.<br>The deactivation takes place after prior information, with a grace period of 7 days.
+    <i class="fa-solid fa-lightbulb"></i> <strong>Note:</strong> If the stored payment method cannot be charged, the license will be automatically deactivated.<br>The deactivation will occur after prior notification, with a grace period of 7 days.
 </div>
 
-#### Learn more
+#### Learn More
 
 - [Stripe](https://stripe.com)
-- [Stripe: Security and Compliance](https://stripe.com/de/security)
+- [Stripe: Security and Compliance](https://stripe.com/security)

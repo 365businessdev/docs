@@ -18,7 +18,7 @@ Abhängig von der gewählten Lizenzmethode und der Aktivierung bzw. Deaktivierun
 
 ## Schritt 2: Lizenzzuweisung durchführen
 
-Sofern Sie die automatische Lizenzzuweisung deaktiviert haben, müssen Sie die Lizenzen für **Benutzer** oder **Mandanten** manuell zuweisen, damit diese die Apps und Erweiterungen nutzen können.
+Sofern Sie die automatische Lizenzzuweisung deaktiviert haben, müssen Sie die Lizenzen für **Benutzer** oder **Mandanten** manuell zuweisen, damit diese die Apps und Features nutzen können.
 
 1. Öffnen Sie die **Erweiterungslizenzverwaltung (365 business development)** über die Suchfunktion in Microsoft Dynamics 365 Business Central.
 2. Wählen Sie die Aktionsgruppe **Lizenzzuweisung**.
@@ -27,11 +27,11 @@ Sofern Sie die automatische Lizenzzuweisung deaktiviert haben, müssen Sie die L
 
 1. Wählen Sie die Aktion **Benutzerlizenz zuweisen**.
 2. Wählen Sie den **Benutzer** aus, dem Sie die Lizenz zuweisen möchten.
-3. Schließen Sie das Fenster um die Zuweisung zu bestätigen.
+3. Schließen Sie das Fenster, um die Zuweisung zu bestätigen.
 
 ### Schritt 2.2: Mandantenlizenz zuweisen
 
 1. Wählen Sie die Aktion **Mandantenlizenz zuweisen**.
 2. Wählen Sie den **Mandanten** aus, dem Sie die Lizenz zuweisen möchten.
-3. Schließen Sie das Fenster um die Zuweisung zu bestätigen.
+3. Schließen Sie das Fenster, um die Zuweisung zu bestätigen.
 
