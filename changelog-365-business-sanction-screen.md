@@ -4,6 +4,11 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-sanction-screen/
 ---
 
+#### Version 18.1.129.18464
+
+- #60196 Show checklist items in control add-in, only if they are more than one item
+- #60197 Normalize query values in match request body properties for better matching
+
 #### Version 18.1.100.17658
 
 - #59259 Add additional implementations
