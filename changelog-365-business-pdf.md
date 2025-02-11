@@ -4,6 +4,14 @@ title: changelog
 permalink: /new-and-planned/changelog/365-business-pdf/
 ---
 
+#### Version 20.5.67.18390
+
+- Add feature PDF file translation
+- Add PDF file viewer
+- Migrate to new API authentication
+- Update icons
+- UI enhancements
+
 #### Version 20.4.62.18112
 
   - Do not export G/L Account Nos.
