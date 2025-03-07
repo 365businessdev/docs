@@ -135,6 +135,7 @@ titles:
   user-license: User License
   company-license: Company License
   tenant-license: Tenant License
+  enable-print-job-event-log: Enable print jobs in the event log
 langs:
   german: German
   english: English

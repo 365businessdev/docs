@@ -135,6 +135,7 @@ titles:
   user-license: Benutzerlizenz
   company-license: Mandantenlizenz
   tenant-license: Tenantlizenz
+  enable-print-job-event-log: Druckaufträge im Ereignisprotokoll aktivieren
 langs:
   german: Deutsch
   english: English
