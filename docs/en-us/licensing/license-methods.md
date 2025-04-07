@@ -15,16 +15,16 @@ User licenses are restricted to individual users within a company. Each user nee
     <i class="fa-light fa-triangle-exclamation fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Important Note:</strong> Please note that depending on the app or feature, licensing of all active users may be mandatory, otherwise the functionality within Microsoft Dynamics 365 Business Central may be limited.
 </div>
 
-[▶️ Learn more about user licenses](/license-methods/user-license.md)
+[▶️ Learn more about user licenses](user-license.md)
 
 ## Company License
 
 Company licenses are restricted to one company within Microsoft Dynamics 365 Business Central. Each company needs its own license to access the apps and features of 365 business development. With the company license, all users within the licensed company can access the apps and features.
 
-[▶️ Learn more about company licenses](/license-methods/company-license.md)
+[▶️ Learn more about company licenses](company-license.md)
 
 ## Tenant License
 
 Tenant licenses are restricted to one Microsoft Entra ID tenant. With the tenant license, all environments, including all companies and users within the tenant, are licensed.
 
-[▶️ Learn more about tenant licenses](/license-methods/tenant-license.md)
+[▶️ Learn more about tenant licenses](tenant-license.md)
