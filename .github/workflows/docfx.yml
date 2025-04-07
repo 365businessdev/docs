@@ -26,7 +26,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
         name: Checkout code
-      - uses: nunit/docfx-action@v2.4.0
+      - uses: nunit/docfx-action@v4.0.0
         name: Build Documentation
         with:
           args: docfx.json -o _site   
