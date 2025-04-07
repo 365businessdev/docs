@@ -1,0 +1,63 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
+  "build": {
+    "content": [
+      {
+        "files": ["**/*.md", "**/*.yml"],
+        "src": "docs",
+      },
+	  {
+		"files": ["index.md"]
+	  },
+    ],
+	"sitemap": {
+      "baseUrl": "http://localhost:8080/",
+      "priority": 0.1,
+      "changefreq": "monthly"
+    },
+    "resource": [
+      {
+        "files": [
+          "images/**",
+		  "assets/**",
+		  "webfonts/**"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "default",
+      "modern",
+	  "365businessdev"
+    ],
+    "globalMetadata": {
+      "_appName": "365 business development Docs",
+      "_appTitle": "365 business development Docs",
+	  "_appFooter": "© 365 business development GmbH",
+	  "_appFaviconPath": "assets/images/favicon.png",
+	  "_appLogoPath": "assets/images/logo2.png",
+	  "_enableHighlight": true,
+      "_enableSearch": true,
+	  "_enableNewTab": true,
+      "pdf": false, // NodeJs notwendig
+    },
+	"xref": []
+  },
+  "language": "en-US",
+  "locales": {
+    "en-US": {
+      "build": {
+        "content": [
+          { "src": "docs/en-US", "dest": "en-US" }
+        ]
+      }
+    },
+    "de-DE": {
+      "build": {
+        "content": [
+          { "src": "docs/de-DE", "dest": "de-DE" }
+        ]
+      }
+    }
+  }
+}

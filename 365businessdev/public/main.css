@@ -1,0 +1,228 @@
+@import "all.min.css";
+@import "brands.min.css";
+@import "duotone-thin.min.css";
+@import "fontawesome.min.css";
+@import "sharp-duotone-thin.min.css";
+@import "sharp-thin.min.css";
+@import "thin.min.css";
+
+.toc .expand-stub::before {
+  display: inline-block;
+  font-family: "Font Awesome 6 Pro";
+  font-weight: 400; /* oder 900 für solid */
+  content: "\f061"; /* Unicode für fa-arrow-right */
+  width: 0.85rem;
+  font-size: .8em;
+  position: absolute;
+  margin-top: .0em; /*.2em;*/
+  margin-left: -.85rem;
+  transition: transform .35s ease;
+  transform-origin: .5em 50%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+	//font-size: 1.5em;
+	line-height: 1.75em;
+	font-weight: 400;
+	color: light-dark(#3A4145, #fff);
+	//letter-spacing: 0.01rem;
+}
+
+.bi-german {
+	display: inline-block;
+    width: 16px; /* Größe anpassen */
+    height: 16px;
+    background: url("../../assets/images/german.png") no-repeat center center;
+    background-size: cover;
+}
+
+.bi-english {
+	display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../../assets/images/usa.png") no-repeat center center;
+    background-size: cover;
+}
+
+
+a {
+    color: light-dark(#4A4A4A, #a6acaf);
+    transition: color 0.2s ease;
+	/*text-decoration: none !important;*/
+}
+
+a:hover {
+	color: light-dark(#111, #efefef);
+}
+
+/* add company color to fa-solid style */
+.columns .fa-solid {
+	/*color: #60c5ce !important;*/
+	color: #00b7c3 !important;
+}
+/* change color for all links in divs on introduction pages */
+.fa-ul a {
+	color: #00b7c3 !important;
+}
+
+/* optional: change color for hovered or focused links in divs on introduction pages */
+.fa-ul a:hover, a:focus {
+	color: #0099a3 !important; /* slightly darker color for hover or focus */
+}			
+
+			
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb
+}
+
+.alert-info {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb
+}
+
+.alert-notice {
+    color: #3B2E58;
+    background-color: #efd9fd;
+    border-color: #efd9fd
+}
+
+.alert-warn {
+    color: #600c13;
+    background-color: #f1d1d1;
+    border-color: #f1d1d1
+}
+
+.alert {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 0.25rem
+}
+
+.alert>strong:first-of-type::after {
+    content: "\A";
+    white-space: pre
+}
+			
+			
+@media (min-width: 700px) {
+    .columns {
+        display:flex;
+        margin-bottom: 40px
+    }
+
+    .columns>div {
+        width: 33%;
+        margin: 5px
+    }
+}
+
+.columns>div {
+    padding: 16px;
+    box-shadow: 0 1.6px 3.6px 0 #00000021,0 0.3px 0.9px 0 #00000021;
+    -webkit-box-shadow: 0 1.6px 3.6px 0 #00000021,0 0.3px 0.9px 0 #00000021;
+    border-radius: 0.125rem;
+    border: 1px solid #fff0;
+    outline-color: light-dark(#171717, #efefef);
+}
+/* Box im dark mode Rahmen */
+html[data-bs-theme="dark"] .columns > div {
+    box-shadow: 0 1.6px 3.6px 0 rgba(255, 255, 255, 0.1),
+                0 0.3px 0.9px 0 rgba(255, 255, 255, 0.08);
+    -webkit-box-shadow: 0 1.6px 3.6px 0 rgba(255, 255, 255, 0.1),
+                        0 0.3px 0.9px 0 rgba(255, 255, 255, 0.08);
+    border-color: #444;
+    background-color: #1c1c1c;
+    color: #efefef;
+}
+
+.columns>div a {
+    text-decoration: none
+}
+
+.columns>div a>div {
+    display: grid;
+    grid-template-columns: 64px 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px
+}
+
+.columns>div a>div div:nth-of-type(1) {
+    grid-area: 1 / 1 / 3 / 2;
+    margin: auto
+}
+
+.columns>div a>div div:nth-of-type(1) i {
+    font-size: 40px;
+    color: #8a9595
+}
+
+.columns>div a>div div:nth-of-type(2) {
+    grid-area: 1 / 2 / 2 / 3;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+    word-break: break-word;
+    text-rendering: optimizeLegibility
+}
+
+.columns>div a>div div:nth-of-type(3) {
+    grid-area: 2 / 2 / 3 / 3;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-rendering: optimizeLegibility
+}
+
+.columns>div span.columns-title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.5px;
+    text-size-adjust: 100%;
+    color: light-dark(#171717, #efefef);
+    outline-color: light-dark(#171717, #efefef);
+}
+
+.columns>div p,.columns>div .settings-panel-example {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    word-break: break-word;
+    text-rendering: optimizeLegibility
+}
+
+ul.fa-ul>li {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 18.2px;
+    word-break: break-word;
+    text-rendering: optimizeLegibility;
+	margin : 0.5em;
+}
+
+ul.fa-ul>li a {
+    color: #00b7c3 !important;
+}
+
+ul.fa-ul>li a:hover {
+    text-decoration: underline
+}
+
+/* "In this article" Links */
+.link-secondary {
+	color: light-dark(#4A4A4A, #a6acaf) !important;
+}
+
+.link-body-emphasis {
+	color: light-dark(#4A4A4A, #a6acaf) !important;
+}
+.link-secondary:hover,.link-secondary:focus {
+	color: light-dark(#111, #efefef) !important;
+}

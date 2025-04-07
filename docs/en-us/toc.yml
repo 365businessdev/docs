@@ -1,0 +1,281 @@
+- name: Welcome
+  href: index.md
+
+- name: 365 business Address Validation
+  href: 365-business-address-validation/introduction.md
+  items:
+    - name: Get Started
+      href: 365-business-address-validation/get-started.md  
+    - name: Address Validation Status
+      href: 365-business-address-validation/address-validation-status.md       
+    - name: Address Validation
+      href: 365-business-address-validation/address-validation.md  
+    - name: Address Prediction
+      href: 365-business-address-validation/address-prediction.md        
+    - name: Setup
+      href: 365-business-address-validation/setup.md
+    - name: User Settings
+      href: 365-business-address-validation/user-settings.md              
+      
+- name: 365 business AL Extension Manager
+  href: 365-business-al-extension-manager/introduction.md
+  items:
+    - name: Get Started
+      href: 365-business-al-extension-manager/get-started.md  
+      
+- name: 365 business API
+  href: 365-business-api/introduction.md
+  items:
+    - name: Setup
+      href: 365-business-api/setup.md  
+    - name: Requirements
+      href: 365-business-api/requirements.md  
+      
+- name: 365 business Barcode
+  href: 365-business-barcode/introduction.md
+  items:
+    - name: Get Started
+      href: 365-business-barcode/get-started.md  
+    - name: What is 365 business Barcode?
+      href: 365-business-barcode/barcode-whatis.md  
+    - name: Barcode Settings
+      href: 365-business-barcode/barcode-settings.md  
+    - name: Supported Barcode Symbologies
+      href: 365-business-barcode/supported-barcodes.md 
+    - name: Implement 365 business Barcode
+      href: 365-business-barcode/barcode-howto.md  
+      
+- name: 365 business E-Invoice
+  href: 365-business-e-invoice/introduction.md
+  items:
+    - name: What is ZUGFeRD?
+      href: 365-business-e-invoice/zugferd-whatis.md  
+    - name: ZUGFeRD vs. XRechnung
+      href: 365-business-e-invoice/zugferd-xrechnung.md  
+    - name: Get Started
+      href: 365-business-e-invoice/get-started.md  
+    - name: Setup
+      href: 365-business-e-invoice/setup.md 
+    - name: Supported Document Types
+      href: 365-business-e-invoice/supported-document-types.md  
+    - name: Import Assistant
+      href: 365-business-e-invoice/import-assistant.md  
+    - name: Create from PDF-File
+      href: 365-business-e-invoice/create-from-file.md
+      
+- name: 365 business ERiC
+  href: 365-business-eric/introduction.md
+  items:
+    - name: What is ERiC?
+      href: 365-business-eric/eric-whatis.md  
+    - name: ELSTER Tax Statements
+      href: 365-business-eric/elster-tax-statements.md  
+    - name: ELSTER Tax Data Type
+      href: 365-business-eric/elster-tax-data-type.md  
+    - name: ELSTER Validation Message
+      href: 365-business-eric/elster-validation-message.md 
+    - name: Setup
+      href: 365-business-eric/setup.md  
+    - name: Company Information
+      href: 365-business-eric/company-information.md  
+    - name: User Certificates
+      href: 365-business-eric/user-certificates.md
+    - name: VAT Statement Setup
+      href: 365-business-eric/vat-statement-setup/vat-statement-setup.md
+    - name: 365 business API Setup
+      href: 365-business-eric/365-business-api-setup.md      
+      
+- name: 365 business Mailchimp Integration
+  href: 365-business-mailchimp-integration/introduction.md
+  items:
+    - name: Audience Lists
+      href: 365-business-mailchimp-integration/audience-lists.md  
+    - name: Audience
+      href: 365-business-mailchimp-integration/audience.md  
+    - name: Synchronization
+      href: 365-business-mailchimp-integration/synchronization.md  
+    - name: Setup
+      href: 365-business-mailchimp-integration/setup.md  
+      
+- name: 365 business PDF
+  href: 365-business-pdf/introduction.md
+  items:
+    - name: Get Started
+      href: 365-business-pdf/get-started.md  
+    - name: PDF-Files
+      href: 365-business-pdf/pdf-files.md  
+    - name: Stationery
+      href: 365-business-pdf/stationery.md  
+    - name: Sign Documents
+      href: 365-business-pdf/signing.md  
+    - name: Concatenate Documents
+      href: 365-business-pdf/concatenate.md  
+    - name: Document Attachments
+      href: 365-business-pdf/document-attachments.md  
+      
+- name: 365 business Print Agent
+  href: 365-business-print-agent/introduction.md
+  items:
+    - name: What is Print Agent?
+      href: 365-business-print-agent/print-agent-whatis.md
+    - name: Get Started
+      href: 365-business-print-agent/get-started.md
+    - name: Print Agent Configuration
+      href: 365-business-print-agent/print-agent-config.md
+      items:
+        - name: Quick Start
+          href: 365-business-print-agent/print-agent-config-firststart.md
+        - name: Printer Management
+          href: 365-business-print-agent/print-agent-config-printers.md
+        - name: Print Profile
+          href: 365-business-print-agent/print-agent-config-printprofile.md
+        - name: Service Mode / Connection Type
+          href: 365-business-print-agent/print-agent-config-connections.md
+        - name: Databases
+          href: 365-business-print-agent/print-agent-config-databases.md
+        - name: Reporting and statistics
+          href: 365-business-print-agent/print-agent-config-statistics.md
+    - name: Setup
+      href: 365-business-print-agent/setup.md
+    - name: Secure Print
+      href: 365-business-print-agent/secure-print.md
+    - name: Printer
+      href: 365-business-print-agent/printer.md
+    - name: Printer Configuration
+      href: 365-business-print-agent/printer-configuration.md      
+    - name: Printer Access Permission
+      href: 365-business-print-agent/printer-access-permission.md
+    - name: What is the Print Agent Service?
+      href: 365-business-print-agent/print-agent-client-whatis.md      
+    - name: Install Print Agent Service on Windows
+      href: 365-business-print-agent/print-agent-service-installation.md
+    - name: Print Agent Service
+      href: 365-business-print-agent/print-agent-clients.md       
+      
+- name: 365 business Proxy Application
+  href: 365-business-proxy-application/introduction.md
+  items:
+    - name: What is Proxy Application?
+      href: 365-business-proxy-application/proxy-application-whatis.md
+    - name: Get Started
+      href: 365-business-proxy-application/get-started.md
+    - name: Setup
+      href: 365-business-proxy-application/setup.md
+    - name: Plugins
+      href: 365-business-proxy-application/plugins.md
+      items:
+        - name: File Plugin
+          href: 365-business-proxy-application/plugins/file.md
+        - name: ZIP Plugin
+          href: 365-business-proxy-application/plugins/zip.md          
+        - name: Image Plugin
+          href: 365-business-proxy-application/plugins/image.md   
+        - name: Print Plugin
+          href: 365-business-proxy-application/plugins/print.md   
+    - name: What is the Proxy Application Client?
+      href: 365-business-proxy-application/proxy-application-client-whatis.md
+    - name: Install Proxy Application Client on Windows
+      href: 365-business-proxy-application/proxy-application-client-installation.md
+
+- name: 365 business Sanction Screen
+  href: 365-business-sanction-screen/introduction.md
+  items:
+    - name: What is Sanction Screening?
+      href: 365-business-sanction-screen/sanction-screen-whatis.md
+    - name: Get Started
+      href: 365-business-sanction-screen/get-started.md
+    - name: Setup
+      href: 365-business-sanction-screen/setup.md
+    - name: Data Catalogs
+      href: 365-business-sanction-screen/data-sources.md
+    - name: Sanction Screen Quick Check
+      href: 365-business-sanction-screen/quick-check.md
+    - name: Sanction Screening
+      href: 365-business-sanction-screen/sanction-screening.md
+    - name: Automated Screening (Job Queue)
+      href: 365-business-sanction-screen/automated-screening.md
+
+- name: 365 business development - Find & Replace
+  href: find-and-replace/introduction.md
+  items:
+    - name: Find & Replace
+      href: find-and-replace/find-and-replace.md
+      
+- name: Licensing
+  href: licensing/introduction.md
+  items:
+    - name: License Management
+      href: licensing/license-management.md
+      items:
+        - name: Activate License
+          href: licensing/license-management/activate-license.md      
+        - name: Assign License
+          href: licensing/license-management/assign-license.md  
+        - name: Spending Limits
+          href: licensing/license-management/spending-limit.md
+        - name: Terminate License
+          href: licensing/license-management/terminate-license.md          
+    - name: License Methods
+      href: licensing/license-methods.md
+      items:
+        - name: User License
+          href: licensing/license-methods/user-license.md  
+        - name: Company License
+          href: licensing/license-methods/company-license.md  
+        - name: Tenant License
+          href: licensing/license-methods/tenant-license.md
+    - name: Invoicing
+      href: licensing/invoicing.md
+      items:
+        - name: Invoices
+          href: licensing/invoicing/invoices.md  
+        - name: Payment
+          href: licensing/invoicing/payment.md            
+
+          
+- name: Downloads
+  href: https://downloads.365businessdev.com
+
+- name: AL Developer
+  href: ../al-developer/al-developer.md
+  items:
+    - name: Get Started
+      href: ../al-developer/get-started.md
+    - name: 365 business API
+      href: ../al-developer/365businessapi/readme.md
+    - name: 365 business Barcode
+      href: ../al-developer/365businessbarcode/readme.md
+    - name: 365 business PDF
+      href: ../al-developer/365businesspdf/readme.md      
+    - name: 365 business Address Validation
+      href: ../al-developer/365businessaddressvalidation/readme.md      
+    - name: 365 business Mailchimp Integration
+      href: ../al-developer/365businessmailchimpintegration/readme.md     
+    - name: Find & Replace
+      href: ../al-developer/find-and-replace/readme.md     
+    - name: 365 business Print Agent
+      href: ../al-developer/365businessprintagent/readme.md    
+    - name: 365 business E-Invoice
+      href: ../al-developer/365businesseinvoice/readme.md  
+  
+- name: New and Planned
+  href: ../changelog/changelog.md
+  items:
+    - name: 365 business API
+      href: ../changelog/changelog-365-business-api.md
+    - name: 365 business Barcode
+      href: ../changelog/changelog-365-business-barcode.md
+    - name: 365 business PDF 
+      href: ../changelog/changelog-365-business-pdf.md  
+    - name: 365 business Address Validation
+      href: ../changelog/changelog-365-business-address-validation.md  
+    - name: 365 business ERiC 
+      href: ../changelog/changelog-365-business-eric.md  
+    - name: 365 business Print Agent 
+      href: ../changelog/changelog-365-business-print-agent.md  
+    - name: 365 business Proxy Application 
+      href: ../changelog/changelog-365-business-proxy-application.md  
+    - name: 365 business E-Invoice 
+      href: ../changelog/changelog-365-business-e-invoice.md    
+    - name: 365 business Sanction Screen
+      href: ../changelog/changelog-365-business-sanction-screen.md  
