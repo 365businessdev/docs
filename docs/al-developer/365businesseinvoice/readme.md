@@ -93,7 +93,7 @@ The following example demonstrates how to add a description to the buyer trade p
 The following example demonstrates how to merge an additional PDF document, for example Terms & Conditions, to the PDF document, before the electronic document is created.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Notice:</strong>This example is utilizing <a href="../365businesspdf/README.md">365 business PDF</a> to merge the additional PDF document. If you are not using 365 business PDF, you can use any other PDF library to merge the additional PDF document.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Notice:</strong>This example is utilizing <a href="../365businesspdf/readme.md">365 business PDF</a> to merge the additional PDF document. If you are not using 365 business PDF, you can use any other PDF library to merge the additional PDF document.
 </div>
 
 ```al
