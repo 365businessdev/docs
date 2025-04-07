@@ -24,12 +24,14 @@ jobs:
     runs-on: ubuntu-latest
     name: Generate and publish the docs
     steps:
-      - uses: actions/checkout@v1
-        name: Checkout code
-      - uses: nunit/docfx-action@v4.0.0
-        name: Build Documentation
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Dotnet Setup
+        uses: actions/setup-dotnet@v3
         with:
-          args: docfx.json -o _site   
+          dotnet-version: 8.x
+      - run: dotnet tool update -g docfx
+      - run: docfx docfx.json -o _site  
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
