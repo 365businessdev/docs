@@ -35,6 +35,8 @@
       "_enableHighlight": true,
       "_enableSearch": true,
       "_enableNewTab": true,
+      "_enableEdit": false,
+	    "_disableContribution": false,
       "pdf": false
     },
     "xref": []
