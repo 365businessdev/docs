@@ -29,11 +29,11 @@ jobs:
       - uses: nunit/docfx-action@v2.4.0
         name: Build Documentation
         with:
-          args: docfx.json        
+          args: docfx.json -o _site   
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
-        
+
   # Deployment job
   deploy:
     environment:
