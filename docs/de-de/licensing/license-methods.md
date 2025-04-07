@@ -16,16 +16,16 @@ Benutzerlizenzen sind auf einzelne Benutzer innerhalb eines Mandanten beschränk
     <i class="fa-light fa-triangle-exclamation fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Wichtiger Hinweis:</strong> Bitte beachten Sie, dass abhängig von der App oder dem Feature eine Lizenzierung aller aktiven Benutzer unter Umständen obligatorisch ist, da andernfalls die Funktionalität innerhalb von Microsoft Dynamics 365 Business Central eingeschränkt sein kann.
 </div>
 
-[▶️ Erfahren Sie mehr über Benutzerlizenzen](/license-methods/user-license.md)
+[▶️ Erfahren Sie mehr über Benutzerlizenzen](license-methods/user-license.md)
 
 ## Mandantenlizenz
 
 Mandantenlizenzen sind auf einen Mandanten innerhalb von Microsoft Dynamics 365 Business Central beschränkt. Jeder Mandant benötigt eine eigene Lizenz, um auf die Apps und Features von 365 business development zugreifen zu können. Mit der Mandantenlizenz können alle Benutzer innerhalb des lizenzierten Mandanten auf die Apps und Features zugreifen.
 
-[▶️ Erfahren Sie mehr über Mandantenlizenzen](/license-methods/company-license.md)
+[▶️ Erfahren Sie mehr über Mandantenlizenzen](license-methods/company-license.md)
 
 ## Tenantlizenz
 
 Tenantlizenzen sind auf einen Microsoft Entra ID Tenant beschränkt. Mit der Tenantlizenz sind alle Umgebungen, inklusive aller Mandanten und Benutzer, innerhalb des Tenants lizenziert. 
 
-[▶️ Erfahren Sie mehr über Tenantlizenzen](/license-methods/tenant-license.md)
+[▶️ Erfahren Sie mehr über Tenantlizenzen](license-methods/tenant-license.md)
