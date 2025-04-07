@@ -36,7 +36,7 @@
       "_enableSearch": true,
       "_enableNewTab": true,
       "_enableEdit": false,
-	    "_disableContribution": false,
+      "_disableContribution": true,
       "pdf": false
     },
     "xref": []
