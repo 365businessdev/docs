@@ -15,4 +15,4 @@ Status as a string to be assigned to the 'status' exception property.
 ### *None*
 
 ## See Also
-[Status()](./Status1.md)<br />
+[Status()](./status1.md)<br />

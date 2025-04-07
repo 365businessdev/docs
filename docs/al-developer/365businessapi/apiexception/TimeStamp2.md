@@ -15,5 +15,5 @@ Timestamp as a string to be assigned to the 'timestamp' exception property.
 ### *None*
 
 ## See Also
-[TimeStamp()](./TimeStamp1.md)<br />
-[TimeStamp(DateTime)](./TimeStamp3.md)<br />
+[TimeStamp()](./timestamp1.md)<br />
+[TimeStamp(DateTime)](./timestamp3.md)<br />

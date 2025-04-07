@@ -12,12 +12,12 @@ The following methods are available:
 
 | Method name | Description | 
 | --- | ---| 
-| [Encode(Codeunit, Text, Enum)](barcodeapi/Encode1.md) | Encodes the barcode value using just a barcode format. |
-| [Encode(Codeunit, Text, Code)](barcodeapi/Encode2.md) | Encodes the barcode value using the barcode definition code. |
-| [Encode(Codeunit, Text, Record)](barcodeapi/Encode3.md) | Encodes the barcode value using the barcode definition. |
-| [Encode(Codeunit, Text, Enum, Decimal)](barcodeapi/Encode4.md) | Encodes the barcode value using barcode format and height. |
-| [Encode(Codeunit, Text, Enum, Decimal, Decimal)](barcodeapi/Encode5.md) | Encodes the barcode value using barcode format and dimensions (height & weight). |
-| [Encode(Codeunit, Text, Enum, Decimal, Decimal, Decimal)](barcodeapi/Encode6.md) | Encodes the barcode value using barcode format, dimensions (height & weight) and margin. |
-| [Encode(Codeunit, Text, Enum, Decimal, Decimal, Decimal, Boolean)](barcodeapi/Encode7.md) | Encodes the barcode value using barcode format, dimensions (height & weight), margin and Include Text property. |
-| [Decode(Codeunit, Text)](barcodeapi/Decode.md) | Decodes the barcode. |
-| [HideValidationDialog(Boolean)](barcodeapi/HideValidationDialog.md) | Specifies validation dialogs (e.g. confirmations) will be shown or not. |
+| [Encode(Codeunit, Text, Enum)](barcodeapi/encode1.md) | Encodes the barcode value using just a barcode format. |
+| [Encode(Codeunit, Text, Code)](barcodeapi/encode2.md) | Encodes the barcode value using the barcode definition code. |
+| [Encode(Codeunit, Text, Record)](barcodeapi/encode3.md) | Encodes the barcode value using the barcode definition. |
+| [Encode(Codeunit, Text, Enum, Decimal)](barcodeapi/encode4.md) | Encodes the barcode value using barcode format and height. |
+| [Encode(Codeunit, Text, Enum, Decimal, Decimal)](barcodeapi/encode5.md) | Encodes the barcode value using barcode format and dimensions (height & weight). |
+| [Encode(Codeunit, Text, Enum, Decimal, Decimal, Decimal)](barcodeapi/encode6.md) | Encodes the barcode value using barcode format, dimensions (height & weight) and margin. |
+| [Encode(Codeunit, Text, Enum, Decimal, Decimal, Decimal, Boolean)](barcodeapi/encode7.md) | Encodes the barcode value using barcode format, dimensions (height & weight), margin and Include Text property. |
+| [Decode(Codeunit, Text)](barcodeapi/decode.md) | Decodes the barcode. |
+| [HideValidationDialog(Boolean)](barcodeapi/hidevalidationdialog.md) | Specifies validation dialogs (e.g. confirmations) will be shown or not. |

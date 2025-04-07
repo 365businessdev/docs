@@ -10,14 +10,14 @@ Following the in this documentation covered apps are listed:
 
 | Name | Description |
 | --- | --- |
-| [365 business API](365businessapi/README.md) | Base library app, to consume 365 business API services. |
-| [365 business Barcode](365businessbarcode/README.md) | Encode and decode 1D- and 2D-barcodes. |
-| [365 business PDF](365businesspdf/README.md) | Digitally sign, apply stationery and concatenate PDF documents. |
-| [365 business Address Validation](365businessaddressvalidation/README.md) | Validate and complete address data. |
-| [365 business Mailchimp Integration](365businessmailchimpintegration/README.md) | Interface between Mailchimp and Business Central. |
-| [Find & Replace](find-and-replace/README.md) | Find & Replace functionality for Microsoft Dynamics 365 Business Central. |
-| [365 business Print Agent](365businessprintagent/README.md) | Print documents directly from Microsoft Dynamics 365 Business Central. |
-| [365 business E-Invoice](365businesseinvoice/README.md) | Send and receive electronic invoices directly from Microsoft Dynamics 365 Business Central. |
+| [365 business API](365businessapi/readme.md) | Base library app, to consume 365 business API services. |
+| [365 business Barcode](365businessbarcode/readme.md) | Encode and decode 1D- and 2D-barcodes. |
+| [365 business PDF](365businesspdf/readme.md) | Digitally sign, apply stationery and concatenate PDF documents. |
+| [365 business Address Validation](365businessaddressvalidation/readme.md) | Validate and complete address data. |
+| [365 business Mailchimp Integration](365businessmailchimpintegration/readme.md) | Interface between Mailchimp and Business Central. |
+| [Find & Replace](find-and-replace/readme.md) | Find & Replace functionality for Microsoft Dynamics 365 Business Central. |
+| [365 business Print Agent](365businessprintagent/readme.md) | Print documents directly from Microsoft Dynamics 365 Business Central. |
+| [365 business E-Invoice](365businesseinvoice/readme.md) | Send and receive electronic invoices directly from Microsoft Dynamics 365 Business Central. |
 
 #### Frequently Asked Questions
 

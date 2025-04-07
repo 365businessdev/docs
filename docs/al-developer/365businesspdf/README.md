@@ -12,10 +12,10 @@ The following methods are available:
 
 | Method name | Description | 
 | --- | ---| 
-| [ApplyStationeryToDocument(Codeunit, Codeunit)](pdfapi/ApplyStationeryToDocument.md) | Apply stationery document to PDF stream. |
-| [ApplyStationeryToDocument(Codeunit, Record)](pdfapi/ApplyStationeryToDocument2.md) | Apply stationery page settings, configured in PDF Stationery Configuration, to PDF stream. |
-| [ConcatenateDocument(Codeunit, Codeunit)](pdfapi/ConcatenateDocument.md) | Concatenate PDF document to PDF stream. |
-| [SignDocument(Codeunit, Codeunit)](pdfapi/SignDocument.md) | Digitally sign PDF stream. |
+| [ApplyStationeryToDocument(Codeunit, Codeunit)](pdfapi/applystationerytodocument.md) | Apply stationery document to PDF stream. |
+| [ApplyStationeryToDocument(Codeunit, Record)](pdfapi/applystationerytodocument2.md) | Apply stationery page settings, configured in PDF Stationery Configuration, to PDF stream. |
+| [ConcatenateDocument(Codeunit, Codeunit)](pdfapi/concatenatedocument.md) | Concatenate PDF document to PDF stream. |
+| [SignDocument(Codeunit, Codeunit)](pdfapi/signdocument.md) | Digitally sign PDF stream. |
 
 #### Business Central API
 
@@ -24,4 +24,4 @@ The following Endpoints are available:
 
 | Endpoint | Description | 
 | --- | ---| 
-| [AddDocumentAttachment](pdfapi/AddDocumentAttachment.md) | Add a document to be added after a specific document |
+| [AddDocumentAttachment](pdfapi/adddocumentattachment.md) | Add a document to be added after a specific document |

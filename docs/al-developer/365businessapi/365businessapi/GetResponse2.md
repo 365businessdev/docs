@@ -18,4 +18,4 @@ JSON object containing the received API response.
 Only API version `v2` or above returns JSON object as response.
 
 ## See Also
-[GetResponse(Record)](./GetResponse1.md)
+[GetResponse(Record)](./getresponse1.md)

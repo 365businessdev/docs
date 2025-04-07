@@ -18,5 +18,5 @@ Error code as a string to be assigned to the 'errorcode' exception property.
 **Obsolete.**API Exception does not support Error Codes anymore. This feature will be removed in future versions.
 
 ## See Also
-[ErrorCode()](./ErrorCode1.md)<br />
-[ErrorCode(Integer)](./ErrorCode3.md)<br />
+[ErrorCode()](./errorcode1.md)<br />
+[ErrorCode(Integer)](./errorcode3.md)<br />

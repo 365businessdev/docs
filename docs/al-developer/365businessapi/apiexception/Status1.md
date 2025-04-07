@@ -14,4 +14,4 @@ Returns the Message from ExceptionResponse object.
 Status of the exception response as string.
 
 ## See Also
-[Status(Code[10])](./Status2.md)<br />
+[Status(Code[10])](./status2.md)<br />

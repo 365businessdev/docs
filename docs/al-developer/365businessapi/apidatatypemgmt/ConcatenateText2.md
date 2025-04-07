@@ -21,4 +21,4 @@ Text used as merge text in between text parts.
 ### *None*
 
 ## See Also
-[ConcatenateText(Text, Text)](./ConcatenateText1.md)<br />
+[ConcatenateText(Text, Text)](./concatenatetext1.md)<br />

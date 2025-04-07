@@ -22,6 +22,6 @@ Name of the API service (e.g. `Version`) to consume.
 This call will send a `GET` request. No request body is supported.
 
 ## See Also
-[CallApi(Text, Text)](./CallApi2.md)<br />
-[CallApi(Enum, Text, Text)](./CallApi3.md)<br />
-[CallApi(Enum, Text, Text[10], Text)](./CallApi4.md)
+[CallApi(Text, Text)](./callapi2.md)<br />
+[CallApi(Enum, Text, Text)](./callapi3.md)<br />
+[CallApi(Enum, Text, Text[10], Text)](./callapi4.md)

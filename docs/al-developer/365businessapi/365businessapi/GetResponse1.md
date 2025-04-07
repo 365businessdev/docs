@@ -18,4 +18,4 @@ Temporary record variable to store the received API response.
 `apiContentBuffer` is expected to be temporary to prevent from accidental written data.
 
 ## See Also
-[GetResponse(JsonObject)](./GetResponse2.md)
+[GetResponse(JsonObject)](./getresponse2.md)

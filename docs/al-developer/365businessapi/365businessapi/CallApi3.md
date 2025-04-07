@@ -25,6 +25,6 @@ Request message to be sent to the API service.
 ### *None*
 
 ## See Also
-[CallApi(Text)](./CallApi1.md)<br />
-[CallApi(Text, Text)](./CallApi2.md)<br />
-[CallApi(Enum, Text, Text[10], Text)](./CallApi4.md)
+[CallApi(Text)](./callapi1.md)<br />
+[CallApi(Text, Text)](./callapi2.md)<br />
+[CallApi(Enum, Text, Text[10], Text)](./callapi4.md)

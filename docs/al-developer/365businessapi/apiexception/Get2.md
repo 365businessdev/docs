@@ -16,4 +16,4 @@ Note: VAR parameter.
 ### *None*
 
 ## See Also
-[Get(Text)](./Get1.md)<br />
+[Get(Text)](./get1.md)<br />

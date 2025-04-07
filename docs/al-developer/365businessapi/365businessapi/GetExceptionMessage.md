@@ -18,10 +18,10 @@ Exception message caused by previous API call.
 The return value will be a empty if no previous API call has been operated.
 
 ## See Also
-[GetException(Dictionary of [Text, Text])](./GetException.md)<br />
-[GetExceptionStatus()](./GetExceptionStatus.md)<br />
-[GetExceptionErrorCode()](./GetExceptionErrorCode.md)<br />
-[CallApi(Text)](./CallApi1.md)<br />
-[CallApi(Text, Text)](./CallApi2.md)<br />
-[CallApi(Enum, Text, Text)](./CallApi3.md)<br />
-[CallApi(Enum, Text, Text[10], Text)](./CallApi4.md)
+[GetException(Dictionary of [Text, Text])](./getexception.md)<br />
+[GetExceptionStatus()](./getexceptionstatus.md)<br />
+[GetExceptionErrorCode()](./getexceptionerrorcode.md)<br />
+[CallApi(Text)](./callapi1.md)<br />
+[CallApi(Text, Text)](./callapi2.md)<br />
+[CallApi(Enum, Text, Text)](./callapi3.md)<br />
+[CallApi(Enum, Text, Text[10], Text)](./callapi4.md)

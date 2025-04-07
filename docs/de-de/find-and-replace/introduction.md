@@ -18,4 +18,4 @@ Aktuell ist `Suchen & Ersetzen` in folgende Bereiche in Microsoft Dynamics 365 B
  - Serviceartikel
 
 365 business development - Find & Replace kann zudem in jede beliebige zusätzliche Ansicht integriert werden.
-Erfahren Sie hierzu mehr in unserer [Entwicklerdokumentation](https://docs.365businessdev.com/de-DE/al-developer/find-and-replace.md).
+Erfahren Sie hierzu mehr in unserer [Entwicklerdokumentation](https://docs.365businessdev.com/de-de/al-developer/find-and-replace.md).

@@ -19,4 +19,4 @@ Second part of a text as string.
 Concatenated text.
 
 ## See Also
-[ConcatenateText(Text, Text, Text)](./ConcatenateText2.md)<br />
+[ConcatenateText(Text, Text, Text)](./concatenatetext2.md)<br />

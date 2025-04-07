@@ -15,4 +15,4 @@ Error message as a string to be assigned to the 'message' exception property.
 ### *None*
 
 ## See Also
-[Message()](./Message1.md)<br />
+[Message()](./message1.md)<br />

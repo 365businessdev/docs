@@ -27,4 +27,4 @@ Requested key name as string.
 **Obsolete.**Use MIME-Type from "bdev.API MIME Type" enum, instead of textual.
 
 ## See Also
-[GetBase64Content(JsonObject, Text, Enum, Text)](./GetBase64Content2.md)<br />
+[GetBase64Content(JsonObject, Text, Enum, Text)](./getbase64content2.md)<br />

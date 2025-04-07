@@ -16,4 +16,4 @@ Key name of the exception property.
 Value of the exception property as string.
 
 ## See Also
-[Get(Dictionary)](./Get2.md)<br />
+[Get(Dictionary)](./get2.md)<br />

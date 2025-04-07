@@ -18,5 +18,5 @@ Error code as a integer to be assigned to the 'errorcode' exception property.
 **Obsolete.**API Exception does not support Error Codes anymore. This feature will be removed in future versions.
 
 ## See Also
-[ErrorCode()](./ErrorCode1.md)<br />
-[ErrorCode(Text)](./ErrorCode2.md)<br />
+[ErrorCode()](./errorcode1.md)<br />
+[ErrorCode(Text)](./errorcode2.md)<br />

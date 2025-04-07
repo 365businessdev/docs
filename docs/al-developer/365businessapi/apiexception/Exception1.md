@@ -15,5 +15,5 @@ HttpResponseMessage object containing the API response of the HttpClient.
 ### *None*
 
 ## See Also
-[Exception(Text)](./Exception2.md)<br />
-[Exception(JsonObject)](./Exception3.md)<br />
+[Exception(Text)](./exception2.md)<br />
+[Exception(JsonObject)](./exception3.md)<br />

@@ -14,5 +14,5 @@ Returns the Timestamp from ExceptionResponse object.
 Timestamp of the exception response as string.
 
 ## See Also
-[TimeStamp(Text)](./TimeStamp2.md)<br />
-[TimeStamp(DateTime)](./TimeStamp3.md)<br />
+[TimeStamp(Text)](./timestamp2.md)<br />
+[TimeStamp(DateTime)](./timestamp3.md)<br />

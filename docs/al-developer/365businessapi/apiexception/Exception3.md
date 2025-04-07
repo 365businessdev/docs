@@ -15,5 +15,5 @@ JSON object containing the API response.
 ### *None*
 
 ## See Also
-[Exception(HttpResponseMessage)](./Exception1.md)<br />
-[Exception(Text)](./Exception2.md)<br />
+[Exception(HttpResponseMessage)](./exception1.md)<br />
+[Exception(Text)](./exception2.md)<br />

@@ -14,4 +14,4 @@ Returns the Message from ExceptionResponse object.
 Error message of the exception response as string.
 
 ## See Also
-[Message(Text)](./Message2.md)<br />
+[Message(Text)](./message2.md)<br />

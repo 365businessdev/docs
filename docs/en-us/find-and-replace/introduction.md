@@ -17,4 +17,4 @@ Currently, `Find & Replace` is integrated into the following areas in Microsoft 
  - Service items
 
 365 business development - Find & Replace can also be integrated with any additional view.
-Learn more about this in our [developer documentation](https://docs.365businessdev.com/en-US/al-developer/find-and-replace.md).
+Learn more about this in our [developer documentation](https://docs.365businessdev.com/en-us/al-developer/find-and-replace.md).

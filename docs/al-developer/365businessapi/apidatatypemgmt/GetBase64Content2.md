@@ -24,4 +24,4 @@ Requested key name as string.
 ### *None*
 
 ## See Also
-[GetBase64Content(JsonObject, Text, Text, Text)](./GetBase64Content1.md)<br />
+[GetBase64Content(JsonObject, Text, Text, Text)](./getbase64content1.md)<br />

@@ -27,9 +27,9 @@ Width for the encoded barcode.
 ### *None*
 
 ## See Also
-[Encode(Codeunit, Text, enum)](./Encode1.md)<br />
-[Encode(Codeunit, Text, Code[20])](./Encode2.md)<br />
-[Encode(Codeunit, Text, Record)](./Encode3.md)<br />
-[Encode(Codeunit, Text, enum, Decimal)](./Encode4.md)<br />
-[Encode(Codeunit, Text, enum, Decimal, Decimal, Decimal)](./Encode6.md)<br />
-[Encode(Codeunit, Text, enum, Decimal, Decimal, Decimal, Boolean)](./Encode7.md)<br />
+[Encode(Codeunit, Text, enum)](./encode1.md)<br />
+[Encode(Codeunit, Text, Code[20])](./encode2.md)<br />
+[Encode(Codeunit, Text, Record)](./encode3.md)<br />
+[Encode(Codeunit, Text, enum, Decimal)](./encode4.md)<br />
+[Encode(Codeunit, Text, enum, Decimal, Decimal, Decimal)](./encode6.md)<br />
+[Encode(Codeunit, Text, enum, Decimal, Decimal, Decimal, Boolean)](./encode7.md)<br />
