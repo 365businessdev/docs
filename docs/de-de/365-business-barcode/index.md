@@ -6,7 +6,7 @@ title: Startseite
 
 ![365 business Barcode](/assets/images/365-business-barcode/c2d1994e3928121cbe3688812536565148167627fcfc18fd6fa635219e78eb4f.png)  
 
-365 business Barcode verwendet den Barcode Dienst der [365 business API](../365-business-api/introduction.md) und setzt, nach Ablauf der kostenlosen und unverbindlichen Testphase, eine aktive Subscription voraus. Die 365 business API ist mit Microsoft Dynamics 365 Business Central über die 365 business API-App verbunden.
+365 business Barcode verwendet den Barcode Dienst der [365 business API](../365-business-api/) und setzt, nach Ablauf der kostenlosen und unverbindlichen Testphase, eine aktive Subscription voraus. Die 365 business API ist mit Microsoft Dynamics 365 Business Central über die 365 business API-App verbunden.
 
 <div class="columns">
    <div>
