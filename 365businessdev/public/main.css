@@ -246,3 +246,7 @@ ul.fa-ul>li a:hover {
 .link-secondary:hover,.link-secondary:focus {
 	color: light-dark(#111, #efefef) !important;
 }
+
+code {
+    font-size: 14px;
+}
