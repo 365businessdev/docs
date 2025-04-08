@@ -18,8 +18,8 @@ Extensions and apps for Microsoft Dynamics 365 Business Central are provided eit
        <a href="install-cloud.md">
            <div>
                <div><i class="fa-duotone fa-thin fa-cloud" style="--fa-secondary-color: #00b7c3"></i></div>
-               <div>Business Central Online (SaaS)</div>
-               <div>Activate License</div>
+               <div>Online (SaaS)</div>
+               <div>Installation</div>
            </div>
        </a>
    </div>
