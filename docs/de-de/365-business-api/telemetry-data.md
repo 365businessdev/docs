@@ -1,10 +1,8 @@
----
-title: Telemetriedaten
----
+# Telemetriedaten
 
 365 business API gibt Telemetriedaten für verschiedene Aktivitäten und Vorgänge aus. Die Telemetrie gibt uns einen Einblick in die Aktivitäten und den allgemeinen Zustand unserer Dienste und Funktionen. Sie helfen uns, Probleme zu diagnostizieren und Vorgänge zu analysieren, die die Leistung oder Funktionsfähigkeit beeinträchtigen.
 
-#### Verfügbare Telemetrie
+## Verfügbare Telemetrie
 Mit 365 business API Version 17.0 und später werden verschiedene Telemetriedaten an 365 business development gesendet:
 
 | Bereich | Name | Beschreibung | 
@@ -16,10 +14,10 @@ Mit 365 business API Version 17.0 und später werden verschiedene Telemetriedate
 | Allgemein | [`BDEV-API-00050`]<br>Fehler | Es ist ein Verarbeitungsfehler aufgetreten. | 
 | Allgemein | [`BDEV-API-00051`]<br>Warnung | Eine Warnung ist aufgetreten, aber die Verarbeitung wurde durchgeführt. |
 
-#### Telemetriedaten
+## Telemetriedaten
 Die Telemetrie sammelt folgende Daten:
 
-##### Allgemeine Dimensionen
+### Allgemeine Dimensionen
 
 | Dimension | Beschreibung oder Wert | 
 | --- | --- |
@@ -32,7 +30,7 @@ Die Telemetrie sammelt folgende Daten:
     <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong>Zusätzliche Dimensionen können automatisch von Microsoft Dynamics 365 Business Central gesendet werden.
 </div>
 
-##### Zusätzliche Dimensionen
+### Zusätzliche Dimensionen
 Zusätzlich werden einige Dimensionen, abhängig vom Schweregrad, gesendet:
 
 | Dimension | Beschreibung oder Wert | Schweregrad |
@@ -41,16 +39,16 @@ Zusätzlich werden einige Dimensionen, abhängig vom Schweregrad, gesendet:
 | request | Enthält die gesendete Anfrage zur weiteren Untersuchung. | Critical, Error |
 | response | Enthält, falls vorhanden, die empfangene Antwort zur weiteren Untersuchung. | Critical, Error |
 
-#### Verwendung
+## Verwendung
 Telemetriedaten, die von der 365 business API App gesendet werden, werden verwendet um einen Einblick in die Aktivitäten und den allgemeinen Zustand unserer Dienste und Funktionen zu erhalten. Sie helfen uns, Probleme zu diagnostizieren und Vorgänge zu analysieren, die die Leistung oder Funktionsfähigkeit beeinträchtigen.
 
 Wir behandeln Telemetriedaten mit Sorgfalt und handeln in Übereinstimmung mit unserer [Datenschutzerklärung](https://365businessdev.com/datenschutzerklaerung/). 
 
 Alle kundenspezifischen oder identifizierbaren Informationen, die wir über Telemetrie erhalten, werden nur anonymisiert gespeichert.
 
-##### Wie lange werden die Daten gespeichert?
+## Wie lange werden die Daten gespeichert?
 In der Regel werden Telemetriedaten 30 Tage lang gespeichert. In Einzelfällen können Telemetriedaten zur Erstellung von Workitems in unserem Product Backlog verwendet werden und werden in diesen Fällen auf unbestimmte Zeit aufbewahrt.
 
-### Siehe auch
+# Siehe auch
  - [{% t titles.setup %}](setup.md)
  - [Datenschutzerklärung](https://365businessdev.com/datenschutzerklaerung/)

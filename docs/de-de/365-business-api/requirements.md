@@ -1,6 +1,4 @@
----
-title: Voraussetzungen
----
+# Voraussetzungen
 
 Um die 365 business API Cloud Dienste nutzen zu können ist die Kommunikation von Microsoft Dynamics 365 Business Central mit der 365 business API erforderlich. Zur Sicherstellung der Kommunikation kann es erforderlich sein, dass Firewall-Einstellungen vorgenommen werden müssen.
 
@@ -9,7 +7,7 @@ Um die 365 business API Cloud Dienste nutzen zu können ist die Kommunikation vo
     In Microsoft Dynamics 365 Business Central <strong>Cloud</strong> Umgebungen sind keine Firewall-Einstellungen oder sonstige Anpassungen erforderlich.
 </div>
 
-### Ressourcen
+## Ressourcen
 
 Im Rahmen der Kommunikation zwischen Microsoft Dynamics 365 Business Central und der 365 business API werden die folgenden DNS-Namen, Ports und Protokolle verwendet:
 
@@ -18,7 +16,7 @@ Im Rahmen der Kommunikation zwischen Microsoft Dynamics 365 Business Central und
 | `api.365businessapi.com` | `443` | `HTTPS` | API-Endpunkt, für den Zugriff auf die 365 business API. |
 | `license.365businessapi.com` | `443` | `HTTPS` | API-Endpunkt, zur Lizenzüberprüfung und -verwaltung. |
 
-#### Veraltete Ressourcen
+### Veraltete Ressourcen
 
 <div class="alert alert-notice">
     <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Gut zu wissen:</strong>Bitte aktualisieren Sie Ihre 365 business Apps regelmäßig, um sicherzustellen, dass Sie die neuesten Funktionen und Verbesserungen nutzen können.
