@@ -95,6 +95,11 @@
       href: 365-business-eric/user-certificates.md
     - name: VAT Statement Setup
       href: 365-business-eric/vat-statement-setup/vat-statement-setup.md
+      items:
+        - name: Sales VAT Advanced Notification
+          href: 365-business-eric/vat-statement-setup/sales-vat-adv-notification.md
+        - name: Annual VAT Return
+          href: 365-business-eric/vat-statement-setup/annual-vat-return.md
     - name: 365 business API Setup
       href: 365-business-eric/365-business-api-setup.md      
       

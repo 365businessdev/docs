@@ -95,6 +95,11 @@
       href: 365-business-eric/user-certificates.md
     - name: MwSt.-Abrechnung Einrichtung
       href: 365-business-eric/vat-statement-setup/vat-statement-setup.md
+      items:
+        - name: Umsatzsteuervoranmeldung
+          href: 365-business-eric/vat-statement-setup/sales-vat-adv-notification.md
+        - name: Umsaztsteuererklärung
+          href: 365-business-eric/vat-statement-setup/annual-vat-return.md
     - name: 365 business API Einrichtung
       href: 365-business-eric/365-business-api-setup.md      
       
