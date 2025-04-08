@@ -108,6 +108,14 @@ a:hover {
     color: #000000;
 }
 
+.alert-warn > .external {
+    color: #600c13;
+}
+
+.alert-warn > .external:hover {
+    color: #000000;
+}
+
 .alert {
     position: relative;
     padding: 0.75rem 1.25rem;
