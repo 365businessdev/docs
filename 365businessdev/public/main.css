@@ -100,6 +100,14 @@ a:hover {
     border-color: #f1d1d1
 }
 
+.alert-warn > a {
+    color: #600c13;
+}
+
+.alert-warn > a:hover {
+    color: #000000;
+}
+
 .alert {
     position: relative;
     padding: 0.75rem 1.25rem;
