@@ -1,6 +1,4 @@
----
-title: Was ist 365 business Barcode?
----
+# Was ist 365 business Barcode?
 
 ## Was ist ein Barcode?
 

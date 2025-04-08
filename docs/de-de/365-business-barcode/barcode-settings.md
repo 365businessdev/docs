@@ -1,12 +1,10 @@
----
-title:  Barcode Einstellungen
----
+# Barcode Einstellungen
 
 Barcode Einstellungen dienen dazu wiederverwendbare Vorlagen zu erstellen, welche in der Implementierung in Ihren Geschäftsprozessen verwendet werden können. Statt alle Einstellungen im AL Code vorzunehmen können diese in einer intuitiven und benutzerfreundlichen Oberfläche vorgenommen werden und im AL Code für ausschließlich über den **Code** auf die entsprechende Barcode Einstellung referenziert.
 
 ![Barcode Einstellungen](/assets/images/365-business-barcode/barcode-settings.en-US.gif)
 
-#### Wie erstelle ich eine Barcode Einstellung?
+## Wie erstelle ich eine Barcode Einstellung?
 
  1. Öffnen Sie die Seite **Barcode Einstellungen** in Microsoft Dynamics 365 Business Central.
  2. Klicken Sie **Neu** um eine neue Barcode Einstellung zu erstellen.

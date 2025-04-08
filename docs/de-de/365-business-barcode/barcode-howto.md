@@ -1,6 +1,4 @@
----
-title: 365 business Barcode einbinden
----
+# 365 business Barcode einbinden
 
 Um 365 business Barcode in die eigenen, individuellen, Geschäftsprozesse zu implementieren ist es notwendig die 365 business Barcode App als Abhängigkeit zur eigenen Erweiterung hinzuzufügen.
 
@@ -46,7 +44,7 @@ Im nachfolgenden werden zwei Szenarien dargestellt:
  6. Kompilieren Sie Ihre Erweiterung über den Befehl **AL: Package**.
  7. Öffnen Sie Ihr Layout und fügen Sie ein Bild mit der Referenz auf Ihre neue `Barcode` Column hinzu.
 
-#### Kompletter Quellcode
+### Kompletter Quellcode
 
 ```al
 dataitem(BarcodeBuffer; "bdev.Barcode")
@@ -114,6 +112,6 @@ dataitem(BarcodeBuffer; "bdev.Barcode")
      end;
      ```
 
-### Siehe auch
+# Siehe auch
 
  - [AL Developer Documentation (en-US)](../../al-developer/al-developer.md)

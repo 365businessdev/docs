@@ -1,12 +1,10 @@
----
-title: Unterstützte Barcodearten
----
+# Barcodearten
 
 365 business Barcode unterstützt 15 gängige Barcodearten, darunter Code 39 (1D), Code 128 (1D), EAN-8 (1D), EAN-13 (1D), QR-Code (2D), Data Matrix (2D) und PDF417 (2D), sowie weitere Optionen wie das GS1 Format für ausgewählte Barcodearten.
 
 ![Barcode Einstellungen](/assets/images/365-business-barcode/49d8183b4bc6dd23593ffeca2c392a8f85cf40902c7342129d3cf37a3244c169.png)  
 
-#### Unterstützte Barcodearten
+## Unterstützte Barcodearten
 
 Folgende Barcodearten werden aktuell unterstützt:
 

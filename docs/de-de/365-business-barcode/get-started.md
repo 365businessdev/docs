@@ -1,6 +1,4 @@
----
-title: Erste Schritte
----
+# Erste Schritte
 
 365 business Barcode ist eine Erweiterung für Microsoft Dynamics 365 Business Central, die Ihnen die Möglichkeit zum kodieren und dekodieren von Barcodes, innerhalb von Microsoft Dynamics 365 Business Central gibt.
 
