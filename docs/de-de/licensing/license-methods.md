@@ -1,6 +1,4 @@
----
-title: Lizenzmethoden
----
+# Lizenzmethoden
 
 Die Apps von 365 business development werden auf Basis von Lizenzen bereitgestellt. Es gibt verschiedene Lizenzmethoden, die Sie für Ihre Anforderungen nutzen können. Die Lizenzierung erfolgt auf Basis von Benutzer-, Mandanten- oder Tenantlizenzen. In diesem Abschnitt erfahren Sie mehr über die verschiedenen Lizenzmethoden.
 

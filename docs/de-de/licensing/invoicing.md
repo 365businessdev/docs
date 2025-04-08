@@ -1,6 +1,4 @@
----
-title: Abrechnung
----
+# Abrechnung
 
 Für die 365 business development Apps und Features werden Abonnementlizenzen verwendet. Die Abrechnung erfolgt, je nach gewählter [Lizenzmethode](license-methods.md), auf Basis der jeweiligen Metrik (z.B. Anzahl Benutzer, bei Benutzerlizenz). Die Abrechnung erfolgt jeweils im Voraus für den jeweiligen Abrechnungszeitraum.
 

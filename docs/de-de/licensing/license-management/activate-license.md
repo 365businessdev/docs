@@ -1,6 +1,4 @@
----
-title: Lizenz aktivieren
----
+# Lizenz aktivieren
 
 Auf dieser Seite wird beschrieben, wie Sie eine Lizenz für eine App oder ein Feature aktivieren können. Die Aktivierung einer Lizenz ist notwendig, um die App oder das Feature nach Ablauf der Testphase in Microsoft Dynamics 365 Business Central nutzen zu können.
 

@@ -1,6 +1,4 @@
----
-title: Mandantenlizenzen
----
+# Mandantenlizenzen
 
 Mandantenlizenzen sind auf einen Mandanten, innerhalb von Microsoft Dynamics 365 Business Central, beschränkt. Jeder Mandant benötigt eine eigene Lizenz, um auf die Apps und Features von 365 business development zugreifen zu können. Mit der Mandantenlizenz können alle Benutzer innerhalb des Mandanten auf die Apps und Features zugreifen.
 

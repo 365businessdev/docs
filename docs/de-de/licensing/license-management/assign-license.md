@@ -1,6 +1,4 @@
----
-title: Lizenz zuweisen
----
+# Lizenz zuweisen
 
 Abhängig von der gewählten Lizenzmethode und der Aktivierung bzw. Deaktivierung der automatischen Lizenzzuweisung kann es notwendig sein, Lizenzen manuell zuzuweisen. In diesem Fall können Sie die Lizenzen über die Aktion **Mandantenlizenz zuweisen** bzw. **Benutzerlizenz zuweisen** in der **Erweiterungslizenzverwaltung (365 business development)** zuweisen.
 

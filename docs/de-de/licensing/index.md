@@ -1,6 +1,4 @@
----
-title: Startseite
----
+# Lizenzierung
 
 Auf dieser Seite finden Sie Informationen zu den verschiedenen Arten von Lizenzen, die wir anbieten. Weiterhin erfahren Sie, wie Sie die Lizenzierung für unsere Produkte durchführen können.
 

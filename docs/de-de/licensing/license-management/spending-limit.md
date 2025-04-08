@@ -1,6 +1,4 @@
----
-title: Ausgabengrenzen
----
+# Ausgabengrenzen
 
 Einige Apps oder Features verfügen über eine inkludierte Anzahl an Nutzungen (z.B. Anzahl Barcodes pro Abrechnungszeitraum) und können bei Überschreitung möglicherweise zusätzliche Kosten verursachen. Um unerwartete Kosten zu vermeiden, können Sie eine Ausgabengrenze festlegen. Die Ausgabengrenze definiert die maximale Anzahl an Nutzungen, die innerhalb eines Abrechnungszeitraums durchgeführt werden können. Wenn die Ausgabengrenze erreicht ist, wird die Nutzung der App oder des Features blockiert, bis der Abrechnungszeitraum endet oder die Ausgabengrenze erhöht wird.
 

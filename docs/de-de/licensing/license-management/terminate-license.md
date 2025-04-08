@@ -1,6 +1,4 @@
----
-title: Lizenz kündigen
----
+# Lizenz kündigen
 
 Möchten Sie ein Abonnement kündigen, können Sie dies über die **Erweiterungslizenzverwaltung (365 business development)** in Microsoft Dynamics 365 Business Central tun. Die Kündigung erfolgt in der Regel zum Ende des Abrechnungszeitraums.
 

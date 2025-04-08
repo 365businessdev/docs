@@ -1,6 +1,4 @@
----
-title: Benutzerlizenzen
----
+# Benutzerlizenzen
 
 Benutzerlizenzen sind auf einzelne Benutzer innerhalb eines Mandanten beschränkt. Jeder Benutzer benötigt eine eigene Lizenz, um auf die Apps und Features von 365 business development zugreifen zu können.
 

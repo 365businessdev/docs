@@ -1,6 +1,4 @@
----
-title: Tenantlizenzen
----
+# Tenantlizenzen
 
 Tenantlizenzen sind auf einen Microsoft Entra ID Tenant beschränkt. Mit der Tenantlizenz sind alle Umgebungen, inklusive aller Mandanten und Benutzer, innerhalb des Tenants lizenziert.
 

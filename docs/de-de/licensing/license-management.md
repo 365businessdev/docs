@@ -1,6 +1,4 @@
----
-title: Lizenzverwaltung
----
+# Lizenzverwaltung
 
 Die Verwaltung der Lizenzen findet komplett innerhalb von Microsoft Dynamics 365 Business Central statt. Dabei können alle wesentlichen Verwaltungsaufgaben direkt durch Sie durchgeführt werden. In diesem Abschnitt erfahren Sie, wie Sie Ihre Lizenzen verwalten können.
 
