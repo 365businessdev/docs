@@ -69,7 +69,20 @@
     - name: What is ERiC?
       href: 365-business-eric/eric-whatis.md  
     - name: ELSTER Tax Statements
-      href: 365-business-eric/elster-tax-statements.md  
+      href: 365-business-eric/elster-tax-statements.md
+      items:
+        - name: Sales VAT Advanced Notification
+          href: 365-business-eric/elster-sales-vat-adv-notification.md
+        - name: Annual VAT Return
+          href: 365-business-eric/elster-annual-vat-return.md
+        - name: Recapulative Statement
+          href: 365-business-eric/elster-recapulative-statement.md
+        - name: Permanent Time Limit Extension
+          href: 365-business-eric/elster-permanent-time-limit-extension.md
+        - name: One-Stop-Shop (OSS)
+          href: 365-business-eric/bop-one-stop-shop.md
+        - name: Request for Time Extension
+          href: 365-business-eric/elster-request-for-time-extension.md
     - name: ELSTER Tax Data Type
       href: 365-business-eric/elster-tax-data-type.md  
     - name: ELSTER Validation Message

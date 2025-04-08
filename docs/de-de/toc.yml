@@ -71,7 +71,20 @@
     - name: ELSTER Steuerdaten
       href: 365-business-eric/elster-tax-statements.md  
     - name: ELSTER Steuerdatenarten
-      href: 365-business-eric/elster-tax-data-type.md  
+      href: 365-business-eric/elster-tax-data-type.md
+      items:
+        - name: Umsatzsteuervoranmeldung
+          href: 365-business-eric/elster-sales-vat-adv-notification.md
+        - name: Umsatzsteuererklärung
+          href: 365-business-eric/elster-annual-vat-return.md
+        - name: Zusammenfassende Meldung
+          href: 365-business-eric/elster-recapulative-statement.md
+        - name: Dauerfristverlängerung
+          href: 365-business-eric/elster-permanent-time-limit-extension.md
+        - name: One-Stop-Shop (OSS)
+          href: 365-business-eric/bop-one-stop-shop.md
+        - name: Fristverlängerung
+          href: 365-business-eric/elster-request-for-time-extension.md
     - name: ELSTER Validierungsmeldungen
       href: 365-business-eric/elster-validation-message.md 
     - name: Einrichtung
