@@ -1,4 +1,4 @@
-# Kennzeichen in der Umsatzsteuererklärung
+# Umsatzsteuererklärung
 
 ![MwSt.-Abrechnung USt](/assets/images/365-business-eric/vat-statement-annual-vat-return-de.png)
 

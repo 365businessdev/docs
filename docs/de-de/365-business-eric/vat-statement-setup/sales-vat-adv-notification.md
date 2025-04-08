@@ -1,4 +1,4 @@
-# Kennzeichen
+# Umsatzsteuervoranmeldung
 
 ![MwSt.-Abrechnung UStVA](/assets/images/365-business-eric/vat-statement-sales-vat-adv-notif-de.png)
 
