@@ -82,6 +82,27 @@ export default {
 		  if (noResults) {
 			noResults.textContent = isGerman ? 'Keine Ergebnisse gefunden.' : 'No results found.';
 		  }
+		  
+		  // 🔄 "Next"/"Previous" Buttons lokalisieren
+		  const nextArticle = document.querySelector('#nextArticle');
+		  if (nextArticle && isGerman) {
+		    const prev = nextArticle.querySelector('.prev span');
+				
+			if (prev && prev.textContent.includes('Previous')) {
+				prev.innerHTML = '<i class="bi bi-chevron-left"></i> Zurück';
+			}
+
+			const next = nextArticle.querySelector('.next span');
+			if (next && next.textContent.includes('Next')) {
+				next.innerHTML = 'Weiter <i class="bi bi-chevron-right"></i>';
+			}
+		  }
+		  
+		  const inThisArticle = document.querySelector('#affix h5');
+		  if (inThisArticle && isGerman && inThisArticle.textContent.trim() === 'In this article') {
+				inThisArticle.textContent = 'In diesem Artikel';
+		  }
+		  
 	}, 1000);
 
 
