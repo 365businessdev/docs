@@ -2,7 +2,7 @@
   href: index.md
 
 - name: 365 business Address Validation
-  href: 365-business-address-validation/introduction.md
+  href: 365-business-address-validation/index.md
   items:
     - name: Get Started
       href: 365-business-address-validation/get-started.md  
@@ -18,13 +18,13 @@
       href: 365-business-address-validation/user-settings.md              
       
 - name: 365 business AL Extension Manager
-  href: 365-business-al-extension-manager/introduction.md
+  href: 365-business-al-extension-manager/index.md
   items:
     - name: Get Started
       href: 365-business-al-extension-manager/get-started.md  
       
 - name: 365 business API
-  href: 365-business-api/introduction.md
+  href: 365-business-api/index.md
   items:
     - name: Setup
       href: 365-business-api/setup.md  
@@ -32,7 +32,7 @@
       href: 365-business-api/requirements.md  
       
 - name: 365 business Barcode
-  href: 365-business-barcode/introduction.md
+  href: 365-business-barcode/index.md
   items:
     - name: Get Started
       href: 365-business-barcode/get-started.md  
@@ -46,7 +46,7 @@
       href: 365-business-barcode/barcode-howto.md  
       
 - name: 365 business E-Invoice
-  href: 365-business-e-invoice/introduction.md
+  href: 365-business-e-invoice/index.md
   items:
     - name: What is ZUGFeRD?
       href: 365-business-e-invoice/zugferd-whatis.md  
@@ -64,7 +64,7 @@
       href: 365-business-e-invoice/create-from-file.md
       
 - name: 365 business ERiC
-  href: 365-business-eric/introduction.md
+  href: 365-business-eric/index.md
   items:
     - name: What is ERiC?
       href: 365-business-eric/eric-whatis.md  
@@ -86,7 +86,7 @@
       href: 365-business-eric/365-business-api-setup.md      
       
 - name: 365 business Mailchimp Integration
-  href: 365-business-mailchimp-integration/introduction.md
+  href: 365-business-mailchimp-integration/index.md
   items:
     - name: Audience Lists
       href: 365-business-mailchimp-integration/audience-lists.md  
@@ -98,7 +98,7 @@
       href: 365-business-mailchimp-integration/setup.md  
       
 - name: 365 business PDF
-  href: 365-business-pdf/introduction.md
+  href: 365-business-pdf/index.md
   items:
     - name: Get Started
       href: 365-business-pdf/get-started.md  
@@ -114,7 +114,7 @@
       href: 365-business-pdf/document-attachments.md  
       
 - name: 365 business Print Agent
-  href: 365-business-print-agent/introduction.md
+  href: 365-business-print-agent/index.md
   items:
     - name: What is Print Agent?
       href: 365-business-print-agent/print-agent-whatis.md
@@ -153,7 +153,7 @@
       href: 365-business-print-agent/print-agent-clients.md       
       
 - name: 365 business Proxy Application
-  href: 365-business-proxy-application/introduction.md
+  href: 365-business-proxy-application/index.md
   items:
     - name: What is Proxy Application?
       href: 365-business-proxy-application/proxy-application-whatis.md
@@ -178,7 +178,7 @@
       href: 365-business-proxy-application/proxy-application-client-installation.md
 
 - name: 365 business Sanction Screen
-  href: 365-business-sanction-screen/introduction.md
+  href: 365-business-sanction-screen/index.md
   items:
     - name: What is Sanction Screening?
       href: 365-business-sanction-screen/sanction-screen-whatis.md
@@ -196,13 +196,13 @@
       href: 365-business-sanction-screen/automated-screening.md
 
 - name: 365 business development - Find & Replace
-  href: find-and-replace/introduction.md
+  href: find-and-replace/index.md
   items:
     - name: Find & Replace
       href: find-and-replace/find-and-replace.md
   
 - name: Installation
-  href: installation/introduction.md
+  href: installation/index.md
   items:
     - name: Dynamics 365 Business Central On-Premise
       href: installation/install-onprem.md
@@ -210,7 +210,7 @@
       href: installation/install-cloud.md  
       
 - name: Licensing
-  href: licensing/introduction.md
+  href: licensing/index.md
   items:
     - name: License Management
       href: licensing/license-management.md
