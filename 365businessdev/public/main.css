@@ -195,19 +195,19 @@ html[data-bs-theme="dark"] .columns > div {
 
 .columns>div a>div div:nth-of-type(3) {
     grid-area: 2 / 2 / 3 / 3;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     line-height: 20px;
     text-rendering: optimizeLegibility
 }
 
 .columns>div span.columns-title {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 22.5px;
     text-size-adjust: 100%;
-    color: light-dark(#171717, #efefef);
-    outline-color: light-dark(#171717, #efefef);
+    color: light-dark(#4A4A4A, #a6acaf);
+    outline-color: light-dark(#4A4A4A, #a6acaf);
 }
 
 .columns>div p,.columns>div .settings-panel-example {
