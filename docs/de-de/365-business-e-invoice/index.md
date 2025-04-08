@@ -1,6 +1,4 @@
----
-title: Startseite
----
+# 365 business E-Invoice
 
 Ab dem 1. Januar 2025 tritt in Deutschland eine neue gesetzliche Regelung in Kraft, die Unternehmen verpflichtet, elektronische Rechnungen zu empfangen. Ziel dieser Maßnahme ist es, den administrativen Aufwand zu senken, die Buchhaltung zu digitalisieren und Steuerhinterziehung wirksamer zu bekämpfen. Unternehmen müssen ab diesem Datum Rechnungen in einem standardisierten elektronischen Format (z.B. ZUGFeRD) empfangen und verarbeiten. 
 
@@ -12,7 +10,7 @@ Neben der Pflicht in Deutschland wird auch in anderen europäischen Ländern sch
 
 Dank der Unterstützung des ZUGFeRD / Factur-X Standards (Profil EXTENDED) kann unser Produkt auch herkömmliche Rechnungen in das geforderte elektronische Format konvertieren und optional automatisch an die Empfänger versenden.
 
-### Vorteile von 365 business E-Invoice:
+## Vorteile von 365 business E-Invoice:
 
 * **Automatisierter Import:** Direkt aus Microsoft 365-Postfächern oder per Drag & Drop Einkaufsrechnungen und -gutschriften importieren und verarbeiten.
 * **Automatisierter Export:** Erstellung von ZUGFeRD-konformen Verkaufsrechnungen und -gutschriften und Versand per E-Mail.

@@ -1,6 +1,4 @@
----
-title: Import Assistent
----
+# Import Assistent
 
 Der 365 business E-Invoice Import Assistent ist das zentrale Modul, das Ihnen dabei hilft, auftretende Probleme während der Verarbeitung von ZUGFeRD PDF-Dateien bzw. bei der Erstellung von E-Rechnungen zu beheben.
 
@@ -28,7 +26,7 @@ Mögliche Ursachen für Probleme sind vielfältig, wie beispielsweise:
 
 <br/>
 
-### Lösen von Problemen beim Import mit dem Import Assistent
+## Lösen von Problemen beim Import mit dem Import Assistent
 
 Um problembehaftete E-Rechnungen zu identifizieren, verwenden Sie die Business Central Suche und rufen den Bereich "E-Belege" auf. 
 Dort erkennen Sie Problemfälle an einem "Fehler"-Status in der "Status des elektronischen Belegs"-Spalte.
@@ -39,7 +37,7 @@ Dort erkennen Sie Problemfälle an einem "Fehler"-Status in der "Status des elek
 
 ![365 business E-Invoice](/assets/images/365-business-e-invoice/e-document-overview.png) 
 
-#### Schritt-für-Schritt Problemlösung
+### Schritt-für-Schritt Problemlösung
 
 Starten Sie den "Import Assistent" über die entsprechende Schaltfläche in der Ansicht des ausgewählten E-Belegs.
 
@@ -55,7 +53,7 @@ Durch einen Klick auf "Weiter" startet die Behebung der Probleme in einzelnen Sc
 
 <br/>
 
-##### Kreditor
+#### Kreditor
 
 Falls der Kreditor der ZUGFeRD PDF-Datei nicht automatisch erkannt wird, beginnt der Import Assistent mit dieser Zuordnung.
 <br/>
@@ -64,7 +62,7 @@ Wählen Sie den entsprechenden Kreditor aus oder erstellen Sie einen neuen Kredi
 ![365 business E-Invoice](/assets/images/365-business-e-invoice/assistent2.png) 
 <br/>
 
-##### Rechungspositionen (Artikel und Sachkonten)
+#### Rechungspositionen (Artikel und Sachkonten)
 
 Anschließend werden alle Rechnungspositionen angezeigt, für die keine automatische Verknüpfung mit einem Ihrer Artikel oder Sachkonto gefunden wurde.
 <br/>
@@ -87,7 +85,7 @@ Wählen Sie den entsprechenden Artikel oder das Sachkonto aus um die Verknüpfun
 </div>
 <br/>
 
-##### Einheiten
+#### Einheiten
 
 In Fällen, in denen die Einheiten der Rechnungspositionen nicht korrekt erkannt oder zugeordnet werden können, unterstützt der Import Assistent Sie bei der manuellen Zuordnung von Maßeinheiten (z. B. Stück, Kilogramm, Liter).
 <br/>
@@ -99,7 +97,7 @@ Wählen Sie die entsprechende Einheit aus.
 
 <br/>
 
-##### Abschluss der Problembehebung
+#### Abschluss der Problembehebung
 
 Nachdem alle Probleme gelöst wurden, wird die E-Rechnung durch einen Klick auf "Fertigstellen" erzeugt und der Import Assistent geschlossen.
 <br/>

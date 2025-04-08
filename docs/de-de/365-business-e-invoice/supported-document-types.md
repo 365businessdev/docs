@@ -1,6 +1,4 @@
----
-title: Unterstützte Belegarten
----
+# Unterstützte Belegarten
 
 365 business E-Invoice unterstützt den Import von E-Belegen für Einkaufsrechnungen und -gutschriften. Dies ermöglicht es Unternehmen, eingehende Rechnungen und Gutschriften effizient zu verarbeiten und in Microsoft Dynamics 365 Business Central zu integrieren.
 

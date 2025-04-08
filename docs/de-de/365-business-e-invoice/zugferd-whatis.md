@@ -1,10 +1,8 @@
----
-title: Was ist ZUGFeRD?
----
+# Was ist ZUGFeRD?
 
 ZUGFeRD (Zentraler User Guide des Forums elektronische Rechnung Deutschland) ist ein standardisiertes Format für den elektronischen Rechnungsaustausch, das in Deutschland entwickelt wurde. Es ist besonders für kleine und mittelständische Unternehmen gedacht, um ihnen den Einstieg in die elektronische Rechnungsverarbeitung zu erleichtern. ZUGFeRD-Rechnungen kombinieren maschinenlesbare Daten im XML-Format mit einer PDF-Darstellung, wodurch die Rechnung sowohl von Menschen gelesen als auch von Software verarbeitet werden kann.
 
-### Vorteile von ZUGFeRD:
+## Vorteile von ZUGFeRD:
 * Interoperabilität: ZUGFeRD gewährleistet die Einhaltung der europäischen Norm EN16931, wodurch Rechnungen auch international genutzt werden können.
 * Dualität: Das Format bietet sowohl eine menschenlesbare PDF als auch maschinenlesbare XML-Daten in einer Datei.
 * Automatisierte Verarbeitung: Unternehmen können eingehende Rechnungen direkt in ihre Systeme einlesen und verarbeiten, was den manuellen Aufwand und das Fehlerpotenzial minimiert.
@@ -16,7 +14,7 @@ ZUGFeRD (Zentraler User Guide des Forums elektronische Rechnung Deutschland) ist
 	Diese Norm ist nicht nur für den europäischen Markt von Bedeutung, sondern auch für die Anforderungen an die E-Rechnung in Deutschland und Frankreich ab 2025.
 </div>
 
-## ZUGFeRD in 365 business E-Invoice
+# ZUGFeRD in 365 business E-Invoice
 
 Unsere App 365 business E-Invoice unterstützt das ZUGFeRD 2.3 Profil-EN16931 EXTENDED vollständig. 
 Dies bedeutet, dass Unternehmen sowohl Rechnungen im ZUGFeRD-Format empfangen als auch ihre eigenen Business Central-Rechnungen in dieses Format umwandeln und versenden können. 
@@ -24,7 +22,7 @@ Die automatische Umwandlung und der optionale automatische Versand von ZUGFeRD-R
 
 Durch die Unterstützung des ZUGFeRD-Standards wird der Rechnungsprozess digitalisiert und Unternehmen können die Vorteile der automatisierten Rechnungsstellung und -verarbeitung voll ausschöpfen. Diese Automatisierung spart Zeit und Kosten und stellt gleichzeitig sicher, dass Rechnungen gemäß den aktuellen Vorschriften korrekt ausgestellt und empfangen werden.
 
-### Wie 365 business E-Invoice arbeitet
+## Wie 365 business E-Invoice arbeitet
 
 365 business E-Invoice ermöglicht es Unternehmen, elektronische Rechnungen direkt aus Microsoft Dynamics 365 Business Central zu erstellen, zu versenden, zu empfangen und zu verarbeiten. Dabei setzt sich 365 business E-Invoice aus zwei Hauptkomponenten zusammen:
 

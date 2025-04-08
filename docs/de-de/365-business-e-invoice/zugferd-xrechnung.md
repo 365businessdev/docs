@@ -1,6 +1,4 @@
----
-title: ZUGFeRD vs. XRechnung
----
+# ZUGFeRD vs. XRechnung
 
 ZUGFeRD und XRechnung sind zwei zentrale Standards für elektronische Rechnungen, die sich in ihrer Struktur, Anwendung und Zielgruppe unterscheiden. Beide erfüllen die Anforderungen der Norm EN-16931, doch sie bieten unterschiedliche Ansätze für die Verarbeitung und den Austausch von Rechnungsdaten. Während ZUGFeRD als hybrides Format sowohl die visuelle als auch die maschinelle Lesbarkeit vereint, fokussiert sich XRechnung ausschließlich auf eine strukturierte, maschinenlesbare Datenübertragung.
 
@@ -25,15 +23,15 @@ ZUGFeRD enthält sowohl eine XML-Datei als auch eine PDF-Datei, während XRechnu
 
 Darüber hinaus enthält die XRechnung-Datei deutschlandspezifische Inhalte (vor allem steuerlicher Art), die in früheren Versionen der XML-Datei von ZUGFeRD nicht enthalten waren.
 
-## Ist ZUGFeRD mit XRechnung kompatibel?
+# Ist ZUGFeRD mit XRechnung kompatibel?
 
-Seit der Einführung von ZUGFeRD 2.1.1 im Juli 2020 sind ZUGFeRD und XRechnung nun aber vollständig kompatibel.
+Seit der Einführung von ZUGFeRD 2.1.1 im Juli 2020 sind ZUGFeRD und XRechnung vollständig kompatibel.
 
 <div class="alert alert-notice">
     <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Gut zu wissen:</strong>365 business E-Invoice erstellt ZUGFeRD 2.3.0 Dateien im EXTENDED Profil und ist damit vollständig kompatibel mit XRechnung. Für die Verarbeitung von eingehenden XRechnung-Dateien ist daher keine zusätzliche Konfiguration erforderlich.
 </div>
 
-## Was ist Factur-X?
+# Was ist Factur-X?
 
 ZUGFeRD und Factur-X sind eng miteinander verbunden und im Wesentlichen identisch. Beide Formate wurden entwickelt, um die elektronische Rechnungsstellung zu standardisieren und zu vereinfachen. Der Hauptunterschied liegt in der regionalen Bezeichnung: Während ZUGFeRD hauptsächlich in Deutschland verwendet wird, ist Factur-X die internationale Bezeichnung, die insbesondere in Frankreich und anderen europäischen Ländern genutzt wird.
 
