@@ -13,7 +13,7 @@ Bei der Anlage eines Druckers, über die Aktion **Freigegebene Drucker holen**, 
 
 ## Welche Drucker werden unterstützt?
 
-Print Agent unterstützt als Windows kompatiblen Drucker. Zusätzlich unterstüzt Print Agent, durch die `Zebra (ZPL)` Emulation, die native Kommunikation mit [Zebra Druckern](https://www.zebra.com.md) über die Zebra Programming Language (ZPL). Dabei werden PDF Dateien, vor der Übermittlung an den Drucker, in native ZPL Steuerzeichen übersetzt.
+Print Agent unterstützt als Windows kompatiblen Drucker. Zusätzlich unterstüzt Print Agent, durch die `Zebra (ZPL)` Emulation, die native Kommunikation mit [Zebra Druckern](https://www.zebra.com) über die Zebra Programming Language (ZPL). Dabei werden PDF Dateien, vor der Übermittlung an den Drucker, in native ZPL Steuerzeichen übersetzt.
 
 <div class="alert alert-notice">
     <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Bemerkung:</strong> Die Freigabe von Netzwerkdruckern in 365 business Print Agent kann zu Zeitüberschreitungen führen, da die Antwort des tatsächlichen Druckers länger dauern kann. Dies ist ein häufiges Problem bei der Windows-Druckerverwaltung und kann unter Umständen nicht durch 365 business Print Agent gelöst werden.<br><br>Wir empfehlen dringend, 365 business Print Agent direkt auf Druckservern zu installieren, um lokal installierte Drucker freizugeben, anstatt Drucker von einem entfernten Druckserver freizugeben.
