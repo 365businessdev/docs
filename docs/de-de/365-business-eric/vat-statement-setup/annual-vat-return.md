@@ -1,6 +1,5 @@
----
-title: Kennzeichen in der Umsatzsteuererklärung
----
+# Kennzeichen in der Umsatzsteuererklärung
+
 ![MwSt.-Abrechnung USt](/assets/images/365-business-eric/vat-statement-annual-vat-return-de.png)
 
 Für die Umsatzsteuererklärung werden folgende Kennzeichen unterstützt und können direkt in der MwSt.-Abrechnung, als Berechnungsgrundlage, angegeben werden:

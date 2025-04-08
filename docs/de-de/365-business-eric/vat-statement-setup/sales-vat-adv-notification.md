@@ -1,6 +1,5 @@
----
-title: Kennzeichen
----
+# Kennzeichen
+
 ![MwSt.-Abrechnung UStVA](/assets/images/365-business-eric/vat-statement-sales-vat-adv-notif-de.png)
 
 Für die USt.-Voranmeldung werden folgende Kennzeichen unterstützt und können direkt in der MwSt.-Abrechnung, als Berechnungsgrundlage, angegeben werden:
