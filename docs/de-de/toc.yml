@@ -200,6 +200,14 @@
   items:
     - name: Suchen & Ersetzen
       href: find-and-replace/find-and-replace.md
+  
+- name: Installation
+  href: installation/introduction.md
+  items:
+    - name: Dynamics 365 Business Central On-Premise
+      href: installation/install-onprem.md
+    - name: Dynamics 365 Business Central Online (SaaS)
+      href: installation/install-cloud.md  
       
 - name: Lizenzierung
   href: licensing/introduction.md
