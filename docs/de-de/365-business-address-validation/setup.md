@@ -1,6 +1,4 @@
----
-title: Einrichtung
----
+# Einrichtung
 
 Die Einrichtung für Adressvalidierung enthält die Konfiguration zur Integration der Adressvalidierung und -vorhersage in Microsoft Dynamics 365 Business Central.
 
@@ -8,7 +6,7 @@ Nach erfolgter Installation sind bereits, im Rahmen der Installationsroutinen, d
 
 ![Einrichtung für Adressvalidierung](/assets/images/365-business-address-validation/setup.de-DE.png)
 
-#### Einrichtungsparameter
+## Einrichtungsparameter
 
 | Feldname | Gruppe | Beschreibung | Standardwert |
 | --- | --- | --- | --- |
@@ -33,7 +31,7 @@ Nach erfolgter Installation sind bereits, im Rahmen der Installationsroutinen, d
 | Mitarbeiter | Adressvorhersage | Aktiviert oder deaktiviert die Adressvorhersage für Mitarbeiter. | Aktiviert |
 | Ressource | Adressvorhersage | Aktiviert oder deaktiviert die Adressvorhersage für Ressourcen. | Aktiviert |
 
-#### Berechtigungen
+## Berechtigungen
 
 Im Lieferumfang von 365 business Address Validation befinden sich zwei Berechtigungssätze:
 

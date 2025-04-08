@@ -1,12 +1,10 @@
----
-title: Adressvorhersage
----
+# Adressvorhersage
 
 Bei der Adressvorhersage handelt es sich um eine, in Microsoft Dynamics 365 Business Central, implementierte *Auto-Complete* Funktionalität, die den Anwender dabei unterstützen soll Postadressen und Organisations- und Unternehmensinformationen fehlerfrei zu erfassen.
 
 ![Adressvorhersage](/assets/images/365-business-address-validation/addressprediction.de-DE.gif)
 
-#### In welchen Tabellen steht die Adressvorhersage zur Verfügung?
+## In welchen Tabellen steht die Adressvorhersage zur Verfügung?
 
 Die Adressvorhersage ist in den Stammdatentabellen Kontakt, Debitor, Kreditor, Ressource und Mitarbeiter implementiert. Dabei sind folgende Felder für die Adressvorhersage implementiert:
 
@@ -21,14 +19,14 @@ Die Adressvorhersage ist in den Stammdatentabellen Kontakt, Debitor, Kreditor, R
 | Ressource | Adresse | Postadressen. | |
 | Mitarbeiter | Adresse | Postadressen. | |
 
-#### Welche zusätzlichen Informationen werden bei Organisationen und Unternehmen ermittelt?
+## Welche zusätzlichen Informationen werden bei Organisationen und Unternehmen ermittelt?
 
 Die zusätzlichen Informationen sind abhängig von den tatsächlich zur Verfügung stehenden Daten in unseren Datenquellen. Üblicherweise werden allerdings, neben der Postadresse und dem Firmennamen, folgende Informationen ermittelt:
  
  - Homepage
  - Telefonnr.
 
-#### Warum werden nur maximal vier Ergebnisse angezeigt?
+## Warum werden nur maximal vier Ergebnisse angezeigt?
 
 In der [Einrichtung für Adressvalidierung](setup.md) kann die **Max. Anzahl der Vorhersagen** konfiguriert werden. Der Standardwert liegt bei vier, kann aber beliebig angepasst werden.
 
@@ -36,6 +34,6 @@ In der [Einrichtung für Adressvalidierung](setup.md) kann die **Max. Anzahl der
     <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Tipp:</strong> Über die Aktion <i>Mehr laden...</i> können alle weiteren Vorhersagen angezeigt werden.
 </div>
 
-### Siehe auch 
+# Siehe auch 
  - [Einrichtung für Adressvalidierung](setup.md)
  - [Adressvalidierung](address-validation.md)
