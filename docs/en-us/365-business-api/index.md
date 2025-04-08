@@ -18,7 +18,7 @@ The 365 business API is used in various 365 business apps and serves as the foun
         </p>
         <p>
             <ul class="fa-ul">
-                <li><span class="fa-li"><i class="fa-duotone fa-thin fa-book" fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="../365-business-eric/">About 365 business ERiC</a></li>
+                <li><span class="fa-li"><i class="fa-duotone fa-thin fa-book" fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="../365-business-eric/index.md">About 365 business ERiC</a></li>
             </ul>
         </p>
     </div>
@@ -29,7 +29,7 @@ The 365 business API is used in various 365 business apps and serves as the foun
         </p>
         <p>
             <ul class="fa-ul">
-                <li><span class="fa-li"><i class="fa-duotone fa-thin fa-book" fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="../365-business-pdf/">About 365 business PDF</a></li>
+                <li><span class="fa-li"><i class="fa-duotone fa-thin fa-book" fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="../365-business-pdf/index.md">About 365 business PDF</a></li>
             </ul>
         </p>
     </div>
@@ -40,7 +40,7 @@ The 365 business API is used in various 365 business apps and serves as the foun
         </p>
         <p>
             <ul class="fa-ul">
-                <li><span class="fa-li"><i class="fa-duotone fa-thin fa-book" fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="../365-business-barcode/">About 365 business Barcode</a></li>
+                <li><span class="fa-li"><i class="fa-duotone fa-thin fa-book" fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="../365-business-barcode/index.md">About 365 business Barcode</a></li>
             </ul>
         </p>
     </div>
@@ -53,7 +53,7 @@ The 365 business API is used in various 365 business apps and serves as the foun
         </p>
         <p>
             <ul class="fa-ul">
-                <li><span class="fa-li"><i class="fa-duotone fa-thin fa-book" fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="../365-business-address-validation/">About 365 business Address Validation</a></li>
+                <li><span class="fa-li"><i class="fa-duotone fa-thin fa-book" fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="../365-business-address-validation/index.md">About 365 business Address Validation</a></li>
             </ul>
         </p>
     </div>
@@ -64,7 +64,7 @@ The 365 business API is used in various 365 business apps and serves as the foun
         </p>
         <p>
             <ul class="fa-ul">
-                <li><span class="fa-li"><i class="fa-duotone fa-thin fa-book" fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="../365-business-sanction-screen/">About 365 business Sanction Screen</a></li>
+                <li><span class="fa-li"><i class="fa-duotone fa-thin fa-book" fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="../365-business-sanction-screen/index.md">About 365 business Sanction Screen</a></li>
             </ul>
         </p>
     </div>
@@ -75,7 +75,7 @@ The 365 business API is used in various 365 business apps and serves as the foun
         </p>
         <p>
             <ul class="fa-ul">
-                <li><span class="fa-li"><i class="fa-duotone fa-thin fa-book" fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="../365-business-e-invoice/">About 365 business E-Invoice</a></li>
+                <li><span class="fa-li"><i class="fa-duotone fa-thin fa-book" fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="../365-business-e-invoice/index.md">About 365 business E-Invoice</a></li>
             </ul>
         </p>
     </div>

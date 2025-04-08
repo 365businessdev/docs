@@ -26,7 +26,7 @@ Für jede unterstützte Aktion, wie Signierung, Verkettung und Briefpapier, gibt
 
 #### Was benötige ich um 365 business PDF zu nutzen?
 
-365 business PDF basiert auf dem PDF-Dienst der [365 business API](../365-business-api/). Zur Verwendung wird eine Registrierung bei der 365 business API benötigt. Um 365 business PDF und andere auf der 365 business API basierende Dienste zu testen können Sie sich kostenlos und unverbindlich für eine 30-tägige Testphase registrieren.
+365 business PDF basiert auf dem PDF-Dienst der [365 business API](../365-business-api/index.md). Zur Verwendung wird eine Registrierung bei der 365 business API benötigt. Um 365 business PDF und andere auf der 365 business API basierende Dienste zu testen können Sie sich kostenlos und unverbindlich für eine 30-tägige Testphase registrieren.
 Es entstehen Ihnen keinerlei Kosten und die Testphase endet automatisch.
 
 <div class="alert alert-info">

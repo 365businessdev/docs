@@ -25,7 +25,7 @@ For each supported action, such as signing, chaining and stationery, there is a 
 
 #### What do I need to use 365 business PDF?
 
-365 business PDF is based on the PDF service of the [365 business API](../365-business-api/). To use it a [registration with the 365 business API is required. To test 365 business PDF and other services based on the 365 business API you can register for a 30-day trial period free of charge and without obligation.
+365 business PDF is based on the PDF service of the [365 business API](../365-business-api/index.md). To use it a [registration with the 365 business API is required. To test 365 business PDF and other services based on the 365 business API you can register for a 30-day trial period free of charge and without obligation.
 There are no costs for you and the trial period ends automatically.
 
 <div class="alert alert-info">
