@@ -1,6 +1,4 @@
----
-title: Umsatzsteuererklärung
----
+# Umsatzsteuererklärung
 
 <div class="alert alert-info">
     <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong> Die Berechnung und Übermittlung von Umsatzsteuererklärungen wurden mit der 365 business ERiC Version 17.6 eingeführt.<br>Bitte prüfen Sie, ob Sie über die aktuellste Version von 365 business ERiC verfügen.
@@ -8,7 +6,7 @@ title: Umsatzsteuererklärung
 
 Die Umsatzsteuererklärung hat jedes Unternehmen bzw. jeder umsatzsteuerpflichtige und selbständig Tätige einmal im Jahr zu erstellen. Bei der Umsatzsteuererklärung werden alle Formen des entgeltlichen Tätigwerdens eines Unternehmens erfasst. Umsatzsteuern fallen sowohl auf Verkäufe als auch auf Dienstleistungen an. Die Abgabefrist ist der 31. Mai des Folgejahres.
 
-#### So erstellen Sie eine Umsatzsteuererklärung
+## So erstellen Sie eine Umsatzsteuererklärung
 1. Wählen Sie **ELSTER Steuerdaten** in der Suche von Business Central.
 2. Klicken Sie auf **Neu**.
 3. Wählen Sie die Datenart **USt - Umsatzsteuererklärung**.
@@ -22,7 +20,7 @@ Die Umsatzsteuererklärung hat jedes Unternehmen bzw. jeder umsatzsteuerpflichti
 11. Prüfen und korrigieren Sie bei Bedarf die ermittelten Werte der Steuerkennzahlen oder erfassen Sie weitere Steuerkennzahlen.
 12. Klicken Sie auf **XML-Datei übertragen**, um die Steuerdatei einzureichen und elektronisch an die deutschen Steuerbehörden zu übermitteln.
 
-#### Weitere Optionen
+## Weitere Optionen
 Zusätzlich zu den oben genannten Einstellungen können Sie folgende Optionen setzen:
 
 | Name | Beschreibung |
@@ -31,7 +29,7 @@ Zusätzlich zu den oben genannten Einstellungen können Sie folgende Optionen se
 | Berichtigte Anmeldung | Gibt an, dass es sich bei dieser Steuermeldung um eine korrigierte Mitteilung handelt. Nachdem Sie eine Steuermeldung für einen bestimmten Zeitraum erfolgreich übertragen haben, müssen Sie diese Option einstellen, damit Sie eine aktualisierte Steuermeldung übertragen können. |
 | Erstattungsbetrag verrechnen | Gibt an, ob ein möglicher Erstattungsbetrag mit der Zahlungsgebühr auf dieser Umsatzsteuervoranmeldung verrechnet werden soll. |
 
-#### Einschränkungen
+## Einschränkungen
 In der aktuellen Version der USt.-Erklärung für 365 business ERiC gibt es funktionale Einschränkungen, die die Abgabe gewisser Steuervorfälle nicht erlauben. Diese Einschränkungen werden in kommenden Version von 365 business ERiC aufgehoben. Für weitere Informationen prüfen Sie bitte die Seite [New and Planned](../../changelog/changelog.md).
 
 | Funktion | Beschreibung |
@@ -40,7 +38,7 @@ In der aktuellen Version der USt.-Erklärung für 365 business ERiC gibt es funk
 | 2. Zeitraum | Die Angabe vom "2. Zeitraum" (Vordruckzeile 21) wird aktuell nicht unterstützt. |
 | Ergänzende Angaben | Die Angabe von ergänzenden Informationen in einem separaten Dokument mit der Überschrift "Ergänzende Angaben zur Steuererklärung" (Vordruckzeile 27) wird aktuell nicht unterstützt. |
 
-### Siehe auch
+# Siehe auch
 - [ELSTER Steuerdaten](elster-tax-statements.md)
 - [Datenart - Umsatzsteuervoranmeldung - Dokumentation](elster-sales-vat-adv-notification.md)
 - [Datenart - Zusammenfassende Meldung - Dokumentation](elster-recapulative-statement.md)

@@ -1,9 +1,4 @@
----
-title: One-Stop-Shop (OSS)
----
----
-title: One-Stop-Shop (OSS) 
----
+# One-Stop-Shop (OSS) 
 
 <div class="alert alert-info">
     <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong> Mit der 365 business ERiC Version 17.10 wurde die Unterstützung für One-Stop-Shop (OSS) hinzugefügt.<br>Bitte prüfen Sie, ob Sie über die aktuellste Version von 365 business ERiC verfügen um diese Funktion zu verwenden.
@@ -15,7 +10,7 @@ Der One-Stop-Shop (OSS) und die Fernverkäufe ab dem 01.07.2021 sind die größt
     <i class="fa-light fa-triangle-exclamation fa-lg"></i> <strong>Wichtig:</strong>Aktuell wird die elektronische Übermittlung, mit Hilfe der ELSTER Rich Client (ERiC) Bibliothek, nicht unterstützt. Das BZSt hat zum Zweck der elektronischen Meldung im Onlineportal "Mein BOP" einen CSV-Import zur Verfügung gestellt.
 </div>
 
-#### Wie erfolgt die Übermittlung der One-Stop-Shop (OSS) Meldung?
+## Wie erfolgt die Übermittlung der One-Stop-Shop (OSS) Meldung?
 
 Die Meldung für One-Stop-Shop (OSS) erfolgt über das [**Mein BOP**](https://www.elster.de/bportal/login/softpse) Onlineportal des Bundeszentralamt für Steuern (BZSt). Die elektronische Meldung erfolgt dabei über eine OSS CSV-Datei, die die relevanten Informationen enthält.
 
@@ -26,11 +21,11 @@ Die Meldung für One-Stop-Shop (OSS) erfolgt über das [**Mein BOP**](https://ww
 Da es zum aktuellen Zeitpunkt keine Unterstützung der elektronischen Übermittlung durch die ELSTER Rich Client (ERiC) Bibliothek gibt, ist es leider nicht möglich die Daten **direkt** aus Microsoft Dynamics 365 Business Central zu übermitteln.
 Stattdessen muss die CSV-Datei manuell im Mein BOP Onlineportal hochgeladen werden.
 
-#### Wie erhalte ich die OSS CSV-Datei?
+## Wie erhalte ich die OSS CSV-Datei?
 
 Mit der Version 17.10 von 365 business ERiC wird die Steuerdatenart One-Stop-Shop (OSS) unterstützt. Dabei wird, auf Basis einer speziellen MwSt.-Abrechnung, die CSV-Datei in Microsoft Dynamics 365 Business Central erstellt und kann anschließend exportiert werden.
 
-#### Welche Einrichtung ist für die Berechnung der One-Stop-Shop (OSS) Werte erforderlich?
+## Welche Einrichtung ist für die Berechnung der One-Stop-Shop (OSS) Werte erforderlich?
 
 Die Berechnung der One-Stop-Shop (OSS) Werte erfolgt auf Basis der in der [ELSTER Einrichtung](setup.md) festgelegten MwSt.-Abrechnung.
 
@@ -42,14 +37,14 @@ Die Berechnung der One-Stop-Shop (OSS) Werte erfolgt auf Basis der in der [ELSTE
 
 Für die Berechnung werden alle MwSt.-Abrechnungszeilen mit der Art **MwSt.-Posten-Summe**, unabhängig von Ihrer Rubrikennr. analysiert. Die zu Grunde liegenden MwSt.-Posten werden anschließend, abhängig von Ihrem Steuersatz, der USt. ID-Nr. und dem Länder ISO-Code, gruppiert und als ELSTER Steuerdatenzeile berechnet.
 
-##### MwSt.-Buchungsmatrix Einrichtung
+### MwSt.-Buchungsmatrix Einrichtung
 
 In der MwSt.-Buchungsmatrix Einrichtung wurde das Feld `MwSt.-Art` hinzugefügt, in der festgelegt wird ob es sich um einen ermäßigten oder normalen Mehrwertsteuersatz handelt.
 Diese Angabe ist für die OSS Meldung erforderlich
 
 ![MwSt.-Buchungsmatrix Einrichtung](/assets/images/365-business-eric/87595300685965a54d95ac2fa299bed22aec81fed15d8ab7791c80edd2b81aed.png)  
 
-#### Welche OSS-Satzarten werden unterstützt?
+## Welche OSS-Satzarten werden unterstützt?
 
 One-Stop-Shop (OSS) sieht vier sogenannte Satzarten vor, die die unterschiedlichen Transaktionsarten darstellen:
 
@@ -60,13 +55,13 @@ One-Stop-Shop (OSS) sieht vier sogenannte Satzarten vor, die die unterschiedlich
 | Umsätze für aus anderen Mitgliedstaaten durchgeführte Warenlieferungen | In dieser Satzart werden grenzüberschreitende B2C-Verkäufe, die bspw. aus Lagern im EU-Ausland bedient wurden, gemeldet. |
 | Umsätze einer festen Niederlassung - Dienstleistungen | In dieser Satzart werden Dienstleistungen gemeldet, die von einer festen Niederlassung im EU-Ausland erbracht wurde. |
 
-#### Wie ermittelt 365 business ERiC die OSS-Satzart?
+## Wie ermittelt 365 business ERiC die OSS-Satzart?
 
 Grundsätzlich werden an Hand der eingerichteten MwSt.-Abrechnung die MwSt.-Posten ermittelt, die für die Berechnung herangezogen werden. Über das Kennzeichen **EU Service** wird in der Folge nach der Satzart "Umsätze für vom Inland aus durchgeführte Warenlieferungen" oder "Dienstleistungen" differenziert.
 
 Darüber hinaus wird über den Lagerort in der Verk.-Rechnung oder Verk.-Gutschrift ermittelt, ob es sich um eine inländische Niederlassung oder eine Niederlassung in einem anderen EU-Mitgliedsland handelt.
 
-#### So erstellen Sie eine One-Stop-Shop (OSS) CSV-Datei
+# So erstellen Sie eine One-Stop-Shop (OSS) CSV-Datei
 
 ![One-Stop-Shop (OSS) in der ELSTER Steuerdaten Karte](/assets/images/365-business-eric/e50b77efbd5c68e9cc9a6509adb5d4118f4ec9337b4cf769988c6860b2ee15fb.png)
 

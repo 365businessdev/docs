@@ -1,6 +1,4 @@
----
-title: Was ist ERiC?
----
+# Was ist ERiC?
 
 ERiC stellt eine C-Bibliothek mit Schnittstellenspezifikation zur Verfügung. ERiC wird von der Steuerverwaltung kostenlos zur Integration in die eigenen Steuer-, Finanz- und Lohnbuchhaltungsprogramme zur Verfügung gestellt.
 

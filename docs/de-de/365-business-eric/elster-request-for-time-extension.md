@@ -1,6 +1,4 @@
----
-title: Fristverlängerung
----
+# Fristverlängerung
 
 Mit dem Antrag auf Fristverlängerung möchte ein Unternehmer erreichen, dass sein Finanzamt ihm eine Verlängerung der Frist zur Abgabe einer Steuererklärung gewährt. Dabei kann der Antrag auf Fristverlängerung für folgende Steuerarten beantragt werden:
 - Einkommensteuererklärung
@@ -21,7 +19,7 @@ Beim Antrag auf Fristverlängerung muss eine Begründung, sowie ein Datum für d
     <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong> Elektronisch abgegebene Anträge auf Fristverlängerung werden standardmäßig maschinell geprüft.
 </div>
 
-#### So erstellen Sie einen Antrag auf Fristverlängerung
+## So erstellen Sie einen Antrag auf Fristverlängerung
 1. Wählen Sie **ELSTER Steuerdaten** in der Suche von Business Central.
 2. Klicken Sie auf **Neu**.
 3. Wählen Sie die Datenart **FRISTV - Antrag auf Fristverlängerung**.
@@ -37,14 +35,14 @@ Beim Antrag auf Fristverlängerung muss eine Begründung, sowie ein Datum für d
     <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Wichtig:</strong> Für die Steuerdatenart <b>Antrag auf Fristverlängerung</b> findet keine automatisierte Berechnung statt. Stattdessen müssen individuelle Begründungen im Bereich <b>Zeile</b> angegeben werden.
 </div>
 
-#### Weitere Optionen
+## Weitere Optionen
 Zusätzlich zu den oben genannten Einstellungen können Sie folgende Optionen setzen:
 
 | Name | Beschreibung |
 | --- | --- |
 | Testübertragung | Gibt an, dass diese Steuermeldung nur zu Testzwecken dient. Diese Steuerübertragung wird nach der Übermittlung von ELSTER gelöscht und nicht verarbeitet. |
 
-### Siehe auch
+# Siehe auch
 - [ELSTER Steuerdaten](elster-tax-statements.md)
 - [Datenart - USt.-Voranmeldung - Dokumentation](elster-sales-vat-adv-notification.md)
 - [Datenart - Zusammenfassende Meldung - Dokumentation](elster-recapulative-statement.md)

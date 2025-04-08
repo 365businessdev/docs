@@ -1,6 +1,4 @@
----
-title: ELSTER Steuerdaten
----
+# ELSTER Steuerdaten
 
 Unter **ELSTER Steuerdaten** werden alle Anträge und Einreichungen zu [ELSTER Steuerdatenarten](elster-tax-data-type.md) zusammengefasst. 
 
@@ -8,7 +6,7 @@ Unter **ELSTER Steuerdaten** werden alle Anträge und Einreichungen zu [ELSTER S
 
 Die Liste erlaubt die Filterung nach [Datenarten](elster-tax-data-type.md), sowie über die Microsoft Dynamics 365 Business Central Standard Filter.
 
-#### Arbeiten mit ELSTER Steuerdaten
+## Arbeiten mit ELSTER Steuerdaten
 Sie erstellen ELSTER Steuerdaten um diese an die deutschen Steuerbehörden elektronisch zu übermitteln und Ihre jeweiligen Meldepflichten gegenüber Ihrem Finanzamt bzw. dem Bundeszentralamt für Steuern zu erfüllen.
 
 Sie können für alle auf der Seite [ELSTER Steuerdatenarten](elster-tax-data-type.md) beschriebenen Datenarten elektronische Übermittlungen vornehmen.
@@ -16,7 +14,7 @@ Sie können für alle auf der Seite [ELSTER Steuerdatenarten](elster-tax-data-ty
 Die **ELSTER Steuerdaten** erlauben die Erfassung von Steuerdaten für verschiedene [Datenarten](elster-tax-data-type.md) und stellen Ihnen zudem eine historische Übersicht der übermittelten bzw. eingereichten Steuerdaten zur Verfügung.<br>
 Die Berechnung der Bemessungsgrundlagen und MwSt.-Beträge werden dabei von der 365 business ERiC Extension unterstützt und die entsprechenden Steuerkennzahlen mit Ihren Werten vor der Versendung an die deutschen Steuerbehörden dargestellt.
 
-#### So erstellen Sie eine ELSTER Steuerdatei
+## So erstellen Sie eine ELSTER Steuerdatei
 1. Wählen Sie **ELSTER Steuerdaten** in der Suche von Business Central.
 2. Klicken Sie auf **Neu**.
 3. Es erscheint nun die Auswahl der unterstützten [Datenarten](elster-tax-data-type.md).<br><br>Wählen Sie die Datenart für die Sie eine ELSTER Steuerdatei erstellen möchten.
@@ -38,7 +36,7 @@ Die Datenartspezifische Dokumentation finden Sie hier:
 | **Umsatzsteuererklärung** | [Dokumentation](elster-annual-vat-return.md) |
 | **One-Stop-Shop (OSS)** | [Dokumentation](bop-one-stop-shop.md) |
 
-#### Dateien
+### Dateien
 Auf Basis der erfassten Daten wird ein sogenanntes **XML Übertragungsdokument** (*kurz XML-Datei*) erstellt. Diese Datei wird im rechten Bereich der ELSTER Steuerdaten Karte im Bereich **Dateien** angezeigt und kann heruntergeladen werde.
 
 Darüber hinaus werden auch die Rückmeldungen der ELSTER Server, nach erfolgter Übertragung, an die ELSTER Steuerdaten angehangen. Üblicherweise sind dies folgende Dateien:
@@ -49,7 +47,7 @@ Darüber hinaus werden auch die Rückmeldungen der ELSTER Server, nach erfolgter
     <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong> Abweichend zu den sonstigen Steuerdatenarten wird bei der Steuerdatenart <b>One-Stop-Shop (OSS)</b> keine XML-Datei erstellt und es steht aktuell keine elektronische Übermittlung zur Verfügung.<br>Stattdessen wird für die Steuerdatenart <b>One-Stop-Shop (OSS)</b> eine CSV-Datei erstellt, welche im Onlineportal "Mein BOP" importiert werden kann.
 </div>
 
-### Siehe auch
+# Siehe auch
  - [ELSTER Steuerdatenarten](elster-tax-data-type.md)
  - [Datenart - USt.-Voranmeldung - Dokumentation](elster-sales-vat-adv-notification.md)
  - [Datenart - Zusammenfassende Meldung - Dokumentation](elster-recapulative-statement.md)

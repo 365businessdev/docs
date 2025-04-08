@@ -1,10 +1,8 @@
----
-title: Einrichtung
----
+# Einrichtung
 
 Bevor Sie [ELSTER Steuerdatenarten](elster-tax-data-type.md) verwalten und elektronisch übermitteln können, müssen die Regeln und Werte konfiguriert werden, die die Berechnung und Übermittlung an die deutschen Steuerbehörden für den Mandanten definieren.
 
-#### Grundeinrichtung
+## Grundeinrichtung
 Die 365 business ERiC App unterstützt Sie bei der Einrichtung und nimmt einige Einrichtungen automatisch vor. Bspw. werden automatisch Nummernserien, für die Nummerierung der einzelnen Steuerdatenarten, und ELSTER Datenarten Konfigurationen vorgenommen. Darüber hinaus prüft die Installation, ob bereits eine MwSt.-Abrechnung für die Berechnung von Umsatzsteuerdaten zur Verfügung steht und wählt diese automatisiert aus.
 
 Folgende Informationen dienen als Grundeinrichtung:
@@ -35,7 +33,7 @@ Folgende Informationen dienen als Grundeinrichtung:
 | One-Stop-Shop (OSS) MwSt.-Abrechnung Name | One-Stop-Shop (OSS) | Legt den Namen der MwSt.-Abrechnung fest, der für die Berechnung der Steuerzahlen und -werte verwendet werden soll. |  |
 
 
-#### Zertifikat
+## Zertifikat
 Ab dem 01.01.2013 kann die Umsatzsteuervoranmeldung, der Antrag auf Dauerfristverlängerung, die Anmeldung auf Sondervorauszahlung und die Lohnsteueranmeldung nur noch mit elektronischem Zertifikat übermittelt werden.
 Unabhängig von der für die Übermittlung ausgewählten Software ist hierfür die Registrierung in [Mein ELSTER](https://www.elster.de/eportal/start) zwingend notwendig.
 
@@ -43,7 +41,7 @@ Das ELSTER-Zertifikat (PFX-Datei) erhalten Sie nach Abschluss der Registrierung 
 
 Das ELSTER-Zertifikat, üblicherweise das Organisationszertifikat, muss in Business Central gespeichert werden, damit die Steuerdatenmeldungen digital signiert werden können und Sie gegenüber den Steuerbehörden authentifiziert werden.
 
-#### Wie speichere ich mein ELSTER-Zertifikat in Business Central?
+### Wie speichere ich mein ELSTER-Zertifikat in Business Central?
 1. Öffnen Sie die ELSTER Einrichtung über die Business Central Suche.
 2. Klicken Sie auf **Zertifikat-Datei hochladen (PFX)**.
 3. Wählen Sie die ELSTER-Zertifikat Datei auf Ihrem lokalen Computer aus.
@@ -57,7 +55,7 @@ Neben dem ELSTER-Zertifikat muss auch die Zertifikat PIN in Business Central ges
 4. Bestätigen Sie das Zertifikatspasswort, indem Sie es erneut eingeben.
 5. Klicken Sie **OK**.
 
-#### Benutzerzertifikate
+### Benutzerzertifikate
 
 <div class="alert alert-info">
     <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong> Mit der 365 business ERiC Version 17.8 wurden zusätzlich zum Organisationszertifikat, das in der ELSTER Einrichtung hinterlegt werden kann, sogenannte <a href="user-certificates.md">Benutzerzertifikate</a> eingeführt.<br>Bitte prüfen Sie, ob Sie über die aktuellste Version von 365 business ERiC verfügen.
@@ -65,6 +63,6 @@ Neben dem ELSTER-Zertifikat muss auch die Zertifikat PIN in Business Central ges
 
 Wenn verschiedene Anwender die Steuerdatenmeldungen an das Finanzamt vornehmen und die Anwender über persönliche Zertifikate verfügen, so kann das Zertifikat als [Benutzerzertifikat](user-certificates.md) hinterlegt werden.
 
-### Siehe auch
+# Siehe auch
  - [Benutzerzertifikate](user-certificates.md)
  - [Umsatzsteuerliche Organschaft](opp-affiliation.md)

@@ -1,6 +1,4 @@
----
-title: Startseite
----
+# 365 business ERiC
 
 Willkommen in der Dokumentation für 365 business ERiC! Dieser umfassende Leitfaden bietet Ihnen alle notwendigen Informationen, um 365 business ERiC effektiv zu nutzen.
 

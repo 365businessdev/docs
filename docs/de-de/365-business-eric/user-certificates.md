@@ -1,6 +1,4 @@
----
-title: Benutzerzertifikate
----
+# Benutzerzertifikate
 
 <div class="alert alert-info">
     <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong> Mit der 365 business ERiC Version 17.8 wurden zusätzlich zum Organisationszertifikat, das in der ELSTER Einrichtung hinterlegt werden kann, sogenannte Benutzerzertifikate eingeführt.<br>Bitte prüfen Sie, ob Sie über die aktuellste Version von 365 business ERiC verfügen.
@@ -24,7 +22,7 @@ In der Ansicht **ELSTER Benutzerzertifikate** finden Sie die Liste alle hinterle
 | Zertifikat (PFX) vorhanden | Zeigt an, dass die Zertifikatsdatei (PFX) in Microsoft Dynamics 365 Business Central hochgeladen wurde. |
 | Zertifikat PIN vorhanden | Zeigt an, dass die Zertifikats-PIN in Microsoft Dynamics 365 Business Central angegeben ist. |
 
-#### Wie speichere ich ein Benutzerzertifikat in Business Central?
+## Wie speichere ich ein Benutzerzertifikat in Business Central?
 1. Öffnen Sie die ELSTER Einrichtung über die Business Central Suche.
 2. Klicken Sie auf die Gruppe **Zertifikat**.
 3. Klicken Sie auf **Benutzerzertifikate** um die Liste der Benutzerzertifikate zu öffnen.

@@ -1,10 +1,8 @@
----
-title: Firmendaten
----
+# Firmendaten
 
 Auf der Seite **Firmendaten** werden alle für den aktuellen Mandanten relevanten Unternehmensdaten hinterlegt. 
 
-#### Welche 365 business ERiC Konfigurationsparameter gibt es?
+## Welche 365 business ERiC Konfigurationsparameter gibt es?
 Bei der elektronischen Übertragung von Steuerdaten verlangen die deutschen Steuerbehörden eine Angabe von Kontaktpersonen in Ihrem Unternehmen.<br>
 In der Regel handelt es sich hierbei immer um denselben Kontakt. Aus diesem Grund wurde die Seite der Firmendaten um die folgenden Felder erweitert:
 

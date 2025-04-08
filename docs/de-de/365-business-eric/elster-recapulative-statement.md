@@ -1,12 +1,10 @@
----
-title: ZMDO - Zusammenfassende Meldung
----
+# ZMDO - Zusammenfassende Meldung
 
 Der Unternehmer hat bis zum 25. Tag nach Ablauf jedes Kalendermonats bzw. Kalendervierteljahres (Meldezeitraum), in dem er innergemeinschaftliche Warenlieferungen oder ab 1. Januar 2010 sonstige Leistungen (Dienstleistungen) an Unternehmer in einem anderen EU-Mitgliedsstaat ausgeführt hat, an das Bundeszentralamt für Steuern eine Meldung elektronisch zu übermitteln (§ 18a UStG). Gemeldet werden müssen innergemeinschaftliche Lieferungen, innergemeinschaftliche Dreiecksgeschäfte und nicht im Inland steuerbare sonstige Leistungen.
 
 In dieser Meldung werden die Bemessungsgrundlagen aller betroffenen Leistungen, zusammengefasst nach den Umsatzsteueridentifikationsnummern der Leistungsempfänger, angegeben. Zusätzlich sind gegebenenfalls Hinweise auf innergemeinschaftliche Dreiecksgeschäfte aufzunehmen (§ 18a UStG).
 
-#### So erstellen Sie eine zusammenfassende Meldung
+## So erstellen Sie eine zusammenfassende Meldung
 1. Wählen Sie **ELSTER Steuerdaten** in der Suche von Business Central.
 2. Klicken Sie auf **Neu**.
 3. Wählen Sie die Datenart **ZMDO - Zusammenfassende Meldung**.
@@ -20,14 +18,14 @@ In dieser Meldung werden die Bemessungsgrundlagen aller betroffenen Leistungen, 
 11. Prüfen und korrigieren Sie bei Bedarf die ermittelten Werte der Steuerkennzahlen oder erfassen Sie weitere Steuerkennzahlen.
 12. Klicken Sie auf **XML-Datei übertragen**, um die Steuerdatei einzureichen und elektronisch an die deutschen Steuerbehörden zu übermitteln.
 
-#### Weitere Optionen
+## Weitere Optionen
 Zusätzlich zu den oben genannten Einstellungen können Sie folgende Optionen setzen:
 
 | Name | Beschreibung |
 | --- | --- |
 | Testübertragung | Gibt an, dass diese Steuermeldung nur zu Testzwecken dient. Diese Steuerübertragung wird nach der Übermittlung von ELSTER gelöscht und nicht verarbeitet. |
 
-### Siehe auch
+# Siehe auch
 - [ELSTER Steuerdaten](elster-tax-statements.md)
 - [Datenart - USt.-Voranmeldung - Dokumentation](elster-sales-vat-adv-notification.md)
 - [Datenart - Dauerfristverlängerung - Dokumentation](elster-permanent-time-limit-extension.md)
