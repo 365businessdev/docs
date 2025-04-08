@@ -1,8 +1,6 @@
----
-title: Erste Schritte
----
+# Erste Schritte
 
-#### Wie verbinde ich mich zu meiner Microsoft Dynamics 365 Business Central Instanz?
+## Wie verbinde ich mich zu meiner Microsoft Dynamics 365 Business Central Instanz?
 
 Nach dem Start der Anwendung erscheint der Connection Manager, indem die Verbindungsdaten zur Microsoft Dynamics 365 Business Central Server Instanz eingegeben werden.
 
@@ -16,23 +14,23 @@ Die Einstellungen können anschließend gespeichert werden.
 
 Mit `Verbinden` wird eine Verbindung zur Serverinstanz aufgebaut und die installierten Erweiterungen werden heruntergeladen und angezeigt.
 
-##### Wie verbinde ich mit mit einer Business Central Instanz hinter einem Reverse Proxy?
+### Wie verbinde ich mit mit einer Business Central Instanz hinter einem Reverse Proxy?
 
 Wählen Sie im Verbindungsmanager die Option `Traefik benutzen` um sich mit einer Microsoft Dynamics 365 Business Central Server Instanz zu verbinden, die hinter einem Traefik Reverse Proxy betrieben wird.
 
 Verwenden Sie als Instanzname ausschließlich den tatsächlichen Instanznamen. Zusätze, die im Rahmen der Reverse Proxy Regeln festgelegt werden, werden automatisch angewandt.
 
-##### Wie verbinde ich mich mit einer Microsoft SaaS Sandbox?
+### Wie verbinde ich mich mit einer Microsoft SaaS Sandbox?
 
 Aktuell wird die Verbindung mit einer Microsoft SaaS Sandbox für Microsoft Dynamics 365 Business Central nicht unterstützt.
 
-#### Was ist die 365 business Automation API App?
+## Was ist die 365 business Automation API App?
 
 Bei der Verbindung mit einer Microsoft Dynamics 365 Business Central Service Instanz wird geprüft, ob die Erweiterung `365 business Automation API` App installiert ist. Diese App stellt zusätzliche Funktionalitäten bereit für die Installation, Deinstallation und Abhängigkeitsdiagramme.
 
 Die Erweiterung kann über Aufruf `App Automation API installieren` direkt installiert werden. Dies wird empfohlen, da andernfalls zum Beispiel Server Runtime Informationen vom Service nicht gelesen werden können.
 
-#### Wie installiere ich Erweiterungen über den AL Extension Manager?
+## Wie installiere ich Erweiterungen über den AL Extension Manager?
 
 Zur Installation einer oder mehrerer Erweiterungen oder Partner Apps, gehen Sie bitte wie folgt vor:
 
@@ -47,7 +45,7 @@ Zur Installation einer oder mehrerer Erweiterungen oder Partner Apps, gehen Sie 
 
  4. Klicken Sie auf `Upload` um die ausgewählten Erweiterungen oder Partner Apps zu installieren.
 
-#### Wie deinstalliere ich Erweiterungen über den AL Extension Manager?
+## Wie deinstalliere ich Erweiterungen über den AL Extension Manager?
 
 Über den Button `Extension entfernen` im Hauptfenster des AL-Extension Managers wird die ausgewählte Erweiterung in Microsoft Dynamics 365 Business Central deinstalliert und die Veröffentlichung aufgehoben (Unpublish)*, dabei wird geprüft ob ggf. abhängige Erweiterungen ebenfalls deinstalliert werden.
 

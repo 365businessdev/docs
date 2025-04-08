@@ -1,10 +1,8 @@
----
-title: Startseite
----
+# 365 business AL Extension Manager
 
 Mit dem 365 business AL Extension Manager können Sie einfach und unkompliziert Erweiterungen und Partner Apps für Microsoft Dynamics 365 Business Central installieren, aktualisieren und deinstallieren. All dies in einer intuitiven Benutzeroberfläche.
 
-#### Wozu dient der AL Extension Manager?
+## Wozu dient der AL Extension Manager?
 
 Mit Einführung der Microsoft Dynamics 365 Business Central Erweiterungen (*.app) und der Umstellung von C/SIDE auf Visual Studio Code hat sich der Prozess zur Implementierung von Anpassungen und Erweiterungen grundlegend verändert.
 
@@ -19,7 +17,7 @@ Zusätzlich erschwert wird der Prozess durch sogenannte Runtime Packages, die vo
 
 Aus diesem Grund ist der 365 business AL Extension Manager entwickelt wurden. Mit dem AL- Extension Manager soll es ermöglicht werden AL-Erweiterungen, egal ob klassische Erweiterungen oder Runtime Packages, über eine benutzerfreundliche und intuitive Oberfläche installieren und deinstallieren zu können. Die Unterscheidung nach Publish, Unpublish, Install, Uninstall, Sync, etc. ist dabei nicht notwendig und wird vom AL-Installer übernommen.
 
-#### Welche Funktionen unterstützt der AL Extension Manager?
+## Welche Funktionen unterstützt der AL Extension Manager?
 
 Der 365 business AL Extension Manager verfügt über folgende Funktionen:
  - Analyse von Runtime Packages und klassischen AL-Erweiterungen
