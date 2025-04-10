@@ -39,6 +39,11 @@
       "_disableContribution": true,
       "pdf": false
     },
+    "markdownEngineProperties": {
+      "markdigExtensions": [
+        "attributes" // https://github.com/dotnet/docfx/issues/8877 Allowing image with size markdown
+      ]
+    },
     "xref": []
   },
   "language": "en-US",

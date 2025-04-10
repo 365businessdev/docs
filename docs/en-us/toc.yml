@@ -157,6 +157,9 @@
       href: 365-business-print-agent/setup.md
     - name: Secure Print
       href: 365-business-print-agent/secure-print.md
+      items:
+        - name: 365 business Print Agent App (iOS / Android)
+          href: 365-business-print-agent/print-agent-app.md        
     - name: Printer
       href: 365-business-print-agent/printer.md
     - name: Printer Configuration
