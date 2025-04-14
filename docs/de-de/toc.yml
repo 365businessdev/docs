@@ -69,7 +69,10 @@
     - name: Was ist ERiC?
       href: 365-business-eric/eric-whatis.md  
     - name: ELSTER Steuerdaten
-      href: 365-business-eric/elster-tax-statements.md  
+      href: 365-business-eric/elster-tax-statements.md
+      items:
+        - name: Automatisierung
+          href: 365-business-eric/elster-tax-data-automation.md 
     - name: ELSTER Steuerdatenarten
       href: 365-business-eric/elster-tax-data-type.md
       items:

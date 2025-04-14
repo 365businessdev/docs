@@ -71,6 +71,11 @@
     - name: ELSTER Tax Statements
       href: 365-business-eric/elster-tax-statements.md
       items:
+        - name: Automation
+          href: 365-business-eric/elster-tax-data-automation.md
+    - name: ELSTER Tax Data Type
+      href: 365-business-eric/elster-tax-data-type.md  
+      items:
         - name: Sales VAT Advanced Notification
           href: 365-business-eric/elster-sales-vat-adv-notification.md
         - name: Annual VAT Return
@@ -83,8 +88,6 @@
           href: 365-business-eric/bop-one-stop-shop.md
         - name: Request for Time Extension
           href: 365-business-eric/elster-request-for-time-extension.md
-    - name: ELSTER Tax Data Type
-      href: 365-business-eric/elster-tax-data-type.md  
     - name: ELSTER Validation Message
       href: 365-business-eric/elster-validation-message.md 
     - name: Setup
