@@ -1,8 +1,20 @@
----
-title: 365 business ERiC Changelog
----
+# 365 business ERiC Changelog
 
-#### Version 17.12.252.18376
+## Version 17.13.262.19279
+
+- Fix issue 60024 TestCopyVATStatementToNewCompany Failed in 17.12.249.18353
+- Migrate to new API auth. mechanism
+- Fix issue 60027 ERiC tests in 17.12.249.18353 failing with BC 25
+- Update icons
+- Fix Show Entries for OSS
+- Fix typos
+- Add feature 60558 Automate ELSTER tax data
+- Fix issue 60579 Use "Rcvd.-from Count./Region Code" instead of "Ship-to Country/Region Code" in Sales Credit Memo, if set
+- Initialize setup w/ defaults, if no ELSTER Setup exists
+- Fix issue 60903 ERIC-28 - Schemafehler UStVA bei Verwendung von Kz21 + 29
+- Add feature 60776 One-Stop-Shop Version 2.0
+
+## Version 17.12.252.18376
 
 - Fix issue #60024 Copy VAT Statement to new Company
 - Fix issue #60027 Fix tests, according to new CRONUS demo data
@@ -10,11 +22,11 @@ title: 365 business ERiC Changelog
 - Update icons
 - Enhancements for API communication
 
-#### Version 17.12.243.16386
+## Version 17.12.243.16386
 
  - Task 58885 - Implement VAT Date Type in ZMDO calculation
 
-#### Version 17.12.240.15865
+## Version 17.12.240.15865
 
  - Fix issue 58554 - E50 (Annual VAT Return) schema update
  - Task 58428 - G/L Entry & VAT Entry Relation
@@ -35,12 +47,12 @@ title: 365 business ERiC Changelog
  - Fix issue 58648 Record ID return value is not supported in BC17
  - Fix issue 58650 Enum 'bdev.ERiC Response Type' is marked for removal
 
-#### Version 17.11.207.14513
+## Version 17.11.207.14513
 
  - Maintenance release
  - Fix issue 58122 - Add VAT context for Annual VAT Return (Fiscal year 2024)
 
-#### Version 17.11.176.11184
+## Version 17.11.176.11184
 
  - Fix rounding on zmdo verification.
  - Ignore VAT Entries w/o VAT Registration No.
@@ -50,7 +62,7 @@ title: 365 business ERiC Changelog
 
 > **Important**<br>With this release licensing is changed from pay-as-you-go to new licensing models.
 
-#### Version 17.10.151.6871
+## Version 17.10.151.6871
 
  - Add One-Stop-Shop (OSS) support (CSV-Export)
  - Update to ERiC 37.2 (2023 Update)
@@ -59,7 +71,7 @@ title: 365 business ERiC Changelog
  - Fix infinite loop in Password dialog for PFX certificate.
  - Update `FRISTVERLAENGERUNG` schema to version 21.
 
-#### Version 17.9.132.5631
+## Version 17.9.132.5631
 
  - Fix CR/LF in Company Information
  - Add Recapitulative Stmt. Total Group in ELSTER Tax Data Card
@@ -67,7 +79,7 @@ title: 365 business ERiC Changelog
  - Fix translation
  - Fix Validation Message handling prior submission
 
-#### Version 17.9.125.5182
+## Version 17.9.125.5182
 
  - Fiscal Year 2022 update (ELSTER schema change) for USt 2022.
  - Update manufacturer id in ELSTER XML file.
@@ -75,16 +87,16 @@ title: 365 business ERiC Changelog
  - Add visibility control for Calculate action.
  - Remove legacy code
 
-#### Version 17.8.102.4714
+## Version 17.8.102.4714
 
  - Fix error message "Analysis Setup is empty" if OPplus is installed but Trial Balance and VAT module is not licensed.
 
-#### Version 17.8.98.4682
+## Version 17.8.98.4682
 
  - Add OPplus Affiliation (Organschaft) support
  - Add additional VAT Business Posting Group Filter for Recapulative Statement calculation
 
-#### Version 17.8.92.4457
+## Version 17.8.92.4457
 
  - Add ELSTER User Certificates feature
  - Add Copy VAT Statement to Company feature
@@ -93,11 +105,11 @@ title: 365 business ERiC Changelog
  - Fix issue #1913 - Annual VAT Return (USt) Period Length display (month instead of year)
  - Fix issue #1911 - Notification title length exceeded (translation issue)
 
-#### Version 17.7.82.4330
+## Version 17.7.82.4330
 
  - Fix automated tests (false-positive test)
 
-#### Version 17.7.78.4114
+## Version 17.7.78.4114
 
  > **Important**<br>To be able to submit Tax Data for fiscal year 2022 you need to update to this version or later.
 
@@ -109,24 +121,24 @@ title: 365 business ERiC Changelog
  - Fix set ERiC Figure Code for Tax Data Type if not properly set while installation
  - Fix TableRelation in ELSTER Setup
 
-#### Version 17.6.67.3691
+## Version 17.6.67.3691
  - Add support for Annual VAT Return (USt)
  - Add additional validation error handling procedures to support customer in solving issues
 
-#### Version 17.5.53.2489
+## Version 17.5.53.2489
  - Add ELSTER Validation Error to Tax Data Card
  - Retrieve Validation Errors from ELSTER
  - Fix overflow issues in Data Supplier and Company Information
 
-#### Version 17.4.46.2218
+## Version 17.4.46.2218
  - Add support for undefined VAT Statement Line Amount Type.\
    *(see CRONUS Demo Company Setup.)*
 
-#### Version 17.3.45.2186
+## Version 17.3.45.2186
  - Minor bugfix Recapulative Statement (ZMDO)
  - Added Tax Figure `50` and `37` for Sales VAT Adv. Notification (UStVA) Submission 2021
 
-#### Version 17.3.42.2083
+## Version 17.3.42.2083
  - *ELSTER Tax Data*
    - New User Interface.
    - Added Tax Figure Calculation.
@@ -139,9 +151,9 @@ title: 365 business ERiC Changelog
  >**Important**<br>
  With this release we announce that we will discontinue support for the ELSTER VAT Localization for Germany Extension and VAT reports.<br>It is planned to remove the support completely with the 2022 release.
 
-#### Version 15.1.71.0
+## Version 15.1.71.0
  - Added support for Recapulative Statement (VAT Report / ZMDO).
 
-#### Version 15.0.32.0
+## Version 15.0.32.0
  - Initial release for Microsoft Dynamics 365 Business Central.
  - Support for Sales VAT Adv. Notification Submission.
