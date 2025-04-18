@@ -2,6 +2,12 @@
 title: 365 business E-Invoice Changelog
 ---
 
+#### Version 25.2.378.19409
+
+- Feature #61093 Implement E-Document Service Integration V2 _(applies to Business Central 2025 Release Wave 1 or newer)_
+- Feature #59942 Add common ZUGFeRD / Factur-X structured header and line model for import and export
+  - Add extensibility events (see [AL Developer - E-Invoice](https://docs.365businessdev.com/al-developer/365businesseinvoice/readme.md) for more information)
+
 #### Version 25.1.306.18251
 
 - Added support for vendor creation from E-Invoice document.
