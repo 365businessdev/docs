@@ -1,22 +1,31 @@
 # Verwaltung von Druckern
 
-Unter dem Menüpunkt "Drucker" werden alle auf dem aktuellen Windows System installierten Drucker angezeigt. Durch die Checkbox in der ersten Spalte der Tabelle können Sie einen Drucker für die Benutzung in Microsoft Business Central freigeben oder die Freigabe widerrufen.
-In der Spalte "Emulation" können Sie für jeden Drucker zwischen "Standard" und "Zebra (ZPL)" wählen.
+Im Menüpunkt **Drucker** werden alle auf dem aktuellen Windows-System installierten Drucker aufgelistet. 
+Über die **Checkbox in der ersten Spalte** können Sie einen Drucker für die Verwendung in **Microsoft Dynamics 365 Business Central** freigeben oder die Freigabe aufheben.
+
+In der Spalte **Emulation** wählen Sie zwischen:
+- **Standard**
+- **Zebra (ZPL)**
+- **SATO (SBPL)**
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong> Wählen Sie "Zebra (ZPL)", wenn es sich um einen Drucker der Firma Zebra handelt und die erzeugte PDF Datei in das ZPL Format konvertiert werden soll. Dies kann den Druckvorgang beschleunigen, weil in diesem Fall nicht der Drucker, sondern der 365 business Print Agent die Umwandlung in das ZPL kompatible Format übernimmt.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong>
+	Wählen Sie <b>Zebra (ZPL) / SATO (SBPL)</b> als Emulation, wenn es sich um einen Drucker der Marke Zebra bzw. SATO handelt und und Sie <b>Performance Probleme</b> beim Drucken haben. 
+	Durch die Umstellung wird der Druckvorgang meist beschleunigt, da die Umwandlung nicht vom Drucker, sondern vom <b>365 business Print Agent</b> übernommen wird.
 </div>
 
-Neben dem Namen des Druckers werden Ihnen weitere Information zum ausgewählten Gerät angezeigt. Wird ein Drucker ausgewählt, werden weitere Information im unteren Bereich angezeigt. Dazu zählen unter anderem alle unterstützten Papierformate und -quellen, welche später ebenfalls im Microsoft Business Central zur Verfügung stehen.
+Beim Auswählen eines Druckers sehen Sie weitere Informationen im unteren Bereich. Dazu gehören u. a. alle unterstützten Papierformate und -quellen, die später auch in Microsoft Dynamics Business Central verfügbar sind.
 
 ![Druckerverwaltung](/assets/images/365-business-print-agent/config-tool/Printer.PNG)  
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong> Die "Status" Spalte zeigt den aktuellen Drucker Status an.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong>
+	Die Spalte <b>Status</b> zeigt den aktuellen Status des jeweiligen Druckers an.
 </div>
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Wichtig</strong>Es existieren Drucker Status, welche eine Auswahl des Druckers verhindern. Dabei handelt es sich um:
+    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Wichtig:</strong>
+	Bestimmte <b>Status</b> verhindern die Auswahl eines Druckers:
 <style>
 
 table tr:nth-child(odd) td{
@@ -44,16 +53,18 @@ table tr:nth-child(even) td{
     </tr>
     <tr>
       <td>Nicht nutzbar</td>
-      <td>Der Drucker erfüllt nicht die notwendigen Eigenschaften. Es fehlen z.B. die Angabe von Papierfächern oder Papierformaten.</td>
+      <td>Der Drucker erfüllt nicht die Mindestanforderungen, z. B. fehlen Angaben zu Papierformaten oder Papierquellen.</td>
     </tr>
   </tbody>
 </table>
 </div>
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong>Beachten Sie, dass für Zebra Drucker die Einstellungen für alle Benutzer konfiguriert werden muss. Hilfe bei der Einrichtung von Zebra Druckern erhalten Sie <a href="support/setup-zebra-default-settings.md">hier</a>.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong>
+	Bei <b>Zebra-Druckern</b> müssen die Einstellungen für alle Benutzer vorgenommen werden. Eine Anleitung zur Einrichtung finden Sie <a href="support/setup-zebra-default-settings.md">hier</a>.
 </div>
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong> Ein Sonderfall stellen Drucker der "Microsoft XPS" Serie dar. Da es sich bei diesen Druckern, nicht um physische Drucker handelt, benötigt die Benutzung zusätzliche Konfiguration. Nähere Informationen dazu finden Sie <a href="support/setup-xps-printer.md">hier</a>.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong>
+	Drucker der Serie <b>"Microsoft XPS"</b> benötigen zusätzliche Konfiguration, da es sich nicht um physische Geräte handelt. Weitere Informationen dazu finden Sie <a href="support/setup-xps-printer.md">hier</a>.
 </div>

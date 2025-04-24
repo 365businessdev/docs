@@ -110,4 +110,4 @@ In the profile section, users can adjust their settings, provide feedback, or co
 ## Help & Support
 
 👉 For more information on setting up Secure Print, visit the [documentation](secure-print.md).  
-📞 For questions, our [Customer Portal](https://365businessdev.atlassian.net/servicedesk/customer/portal/7) is happy to assist.
+📞 For questions, our [Support Team](https://365businessdev.atlassian.net/servicedesk/customer/portal/7) is happy to assist.

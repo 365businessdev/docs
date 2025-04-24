@@ -1,71 +1,90 @@
-# Service Mode / Connection Type
+# Connection Type
 
-As explained in the section **[What is Print Agent?](print-agent-whatis.md)**, the 365 business Print Agent can be run in two different service modes.
+As described in the section **[What is 365 business Print Agent?](print-agent-whatis.md)**, the 365 business Print Agent can be operated in two different connection or service modes.
 
-The service mode can be changed at any time under the **Settings** menu.
+The mode can be switched at any time via the **Settings** menu.
 
-## 365 business Print Agent Cloud (recommended)
+---
 
-Using the 365 business Print Agent Cloud is the recommended method.
-The advantage is that it minimizes setup and is ready to use.
+## 365 business Print Agent Cloud (Recommended)
 
-The following steps are required to print using the 365 business Print Agent Cloud:
+Using the **365 business Print Agent Cloud** is the recommended option.  
+It requires minimal setup and is ready to use immediately.
 
-### Microsoft Dynamics 365 Business Central
-1. Install the "365 business Print Agent" app from the Microsoft AppSource in your Microsoft Dynamics 365 Business Central tenant.
-2. After installation, select the "Print Agent Cloud" mode of operation in the 365 business Print Agent app.
-3. Select "Authenticate Print Agent" and copy the value "Tenant ID" from the field.
+### Setup Steps:
 
-### 365 business Print Agent Config 
-4. In 365 business Print Agent Config, open the "Settings" menu.
-5. Select "365 business Print Agent Cloud" option.
-6. Paste the "Tenant ID" you copied in step 3 into the appropriate field.
-7. Give your Cloud Client a name.
-8. Click "Save" to start the setup process.
+#### In Microsoft Dynamics 365 Business Central
+1. Install the **365 business Print Agent** app from [Microsoft AppSource](https://appsource.microsoft.com).
+2. In the App, select the service mode **Print Agent Cloud**.
+3. Click **Authenticate Print Agent** and copy the **Tenant-ID** from the displayed field.
 
-The following dialog shows the setup process. When this dialog is closed and the "Service Status" displays a green check mark, the setup is complete.
+#### In the 365 business Print Agent Config
+
+1. Open the **Configuration** menu.
+2. Select the mode **365 business Print Agent Cloud**.
+3. Paste the **Tenant-ID** copied in step 3.
+4. Assign a **Name** to the Cloud Client.
+5. Click **Save** to start the setup.
+
+A dialog will appear, showing the progress visually.  
+Once it closes and the **Service Status** shows a green checkmark, the setup is complete.
 
 ![Settings-Cloud](/assets/images/365-business-print-agent/config-tool/Settings_Cloud_en.PNG)
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Important</strong>If the configuration fails, check that you have followed the steps in the correct order.<br/>Before you can configure in "365 business Print Agent Config", you must first install and set up the 365 business Print Agent app in your Microsoft Dynamics 365 Business Central tenant.
+    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Important:</strong>
+	Please make sure the steps are followed in the correct order.<br/>
+    The installation and setup of the 365 business Print Agent App in Microsoft Dynamics 365 Business Central <strong>must be completed before</strong> configuring it in the 365 business Print Agent Config Tool.
 </div>
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note</strong>If your organization’s network security policies require all outbound Internet traffic to go through a proxy server, please read this <a href="support/print-agent-proxy.md">support article</a>.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Note:</strong>
+	If your organization requires a <b>Proxy</b> for outbound internet traffic, please refer to this <a href="support/print-agent-proxy.md">support article</a>.
 </div>
-<br>
 
 ## 365 business Print Agent Server
 
-Selecting the 365 business Print Agent Server will establish a direct connection between Microsoft Dynamics 365 Business Central and the current system.
-Due to the complexity of configuring firewalling, network routing, etc., this connection is only recommended for use with your own on-premises environment, not for use with Microsoft Dynamics 365 Business Central SaaS environments!
+This mode creates a **Direct Connection** between Microsoft Dynamics 365 Business Central and your local system.  
+Due to the required network configuration (firewalls, routing, etc.), this mode is **only recommended for On-Premises environments**.  
+It is **not suitable for SaaS Tenants**!
 
-The following steps are required to print using the 365 business Print Agent Server:
+### Setup Steps:
 
-### Microsoft Dynamics 365 Business Central
-1. Install the "365 business Print Agent" app from the Microsoft AppSource in your Microsoft Dynamics 365 Business Central tenant.
-2. Select the "Direct Connection" option, afert installation of the 365 business Print Agent app.
-3. Enter a name, the service address and the service port. These correspond to the IP or http(s) address of your internal 365 business Print Agent Server instance.
+#### In Microsoft Dynamics 365 Business Central
+1. Install the **365 business Print Agent** app from [Microsoft AppSource](https://appsource.microsoft.com).
+2. In the app, select the service mode **Direct Connection**.
+3. Enter a name as well as the **Service Address** (e.g. IP or HTTPS address) and **Port** of your 365 business Print Agent Server.
 
-### 365 business Print Agent Config 
-4. In 365 business Print Agent Config, open the "Settings" menu.
-5. Select "365 business Print Agent Server" option.
-6. Enter your hostname and port in the "Remote Address" field, on which the 365 business Print Agent Server instance should bind.
-7. Click "Save" to start the setup process.
+#### In the 365 business Print Agent Config
+1. Open the **Configuration** menu.
+2. Select the mode **365 business Print Agent Server**.
+3. Under **Remote Address**, enter the hostname and port the server should bind to.
+4. Click **Save** to start the setup.
 
-The following dialog shows the setup process. When this dialog is closed and the "Service Status" displays a green check mark, the setup is complete.
+A visual dialog will appear to illustrate the setup progress.  
+Once closed and the **Service Status** shows a green checkmark, the configuration is complete.
 
 ![Settings-Server](/assets/images/365-business-print-agent/config-tool/Settings_Server_en.PNG)
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Important</strong>The 365 business Print Agent Server is now configured. However, in order to make it available from outside your network, further steps are necessary (configuration of firewalls, network routes, etc.). Please contact your network/system administrator or service provider for more information.
+    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Important:</strong>
+	The 365 business Print Agent Server is now completed!<br>
+	However, to make the server accessible outside your network, additional steps are required (e.g., firewall and routing configuration). Please contact your IT department or system administrator.
 </div>
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note</strong>It is also possible to operate the server using the <strong>HTTPS</strong> protocol. To do this, press the "HTTPS Configuration" button. In the following dialog, you can select between 3 different ways to include the required certificate. You can use a PFX file, a PEM and key file or the Microsoft Windows certificate store.<br/>After applying the settings and clicking "Save", the HTTPS configuration will be set up.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Note:</strong>
+	The server can optionally run using the <strong>HTTPS</strong> protocol.<br/>
+	Click <b>HTTPS Configuration</b> and choose from three certificate options:
+	* PFX file
+    * PEM + Key file
+    * Windows certificate store
+	
+	
+	After saving, the HTTPS configuration will be applied automatically.
 </div>
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note</strong>If your organization’s network security policies require all outbound Internet traffic to go through a proxy server, please read this <a href="support/print-agent-proxy.md">support article</a>.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Note:</strong>
+	If your organization requires a <b>Proxy</b> for outbound internet traffic, please refer to this <a href="support/print-agent-proxy.md">support article</a>.
 </div>

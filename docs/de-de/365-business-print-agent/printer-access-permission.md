@@ -1,34 +1,40 @@
 # Drucker-Zugriffsberechtigungen
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong> Diese Funktion wurde mit der 365 business Print Agent Version 18.1 hinzugefügt.<br>Bitte prüfen Sie, ob Sie über die aktuellste Version von 365 business Print Agent verfügen um diese Funktion zu verwenden.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong>
+	Diese Funktion ist ab Version <b>18.1</b> des 365 business Print Agent verfügbar.<br>
+	Bitte stellen Sie sicher, dass Sie die aktuelle Version verwenden.
 </div>
 
-In einigen Umgebungen, bspw. bei örtlich getrennten Niederlassungen, kann es sinnvoll sein Drucker nur für bestimmte Benutzer zugänglich zu machen. Dies kann über die **Drucker-Zugriffsberechtigungen** erreicht werden, indem einem Drucker eine oder mehrere [Benutzergruppen](https://learn.microsoft.com/de-DE/dynamics365/business-central/ui-define-granular-permissions) zugeordnet werden.
+In bestimmten Szenarien – etwa bei räumlich getrennten Niederlassungen – kann es sinnvoll sein, den Zugriff auf Drucker auf bestimmte Benutzer zu beschränken.  
+Dies geschieht über **Drucker-Zugriffsberechtigungen**, indem einem Drucker eine oder mehrere [Benutzergruppen](https://learn.microsoft.com/de-DE/dynamics365/business-central/ui-define-granular-permissions) zugewiesen werden.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Gut zu wissen</strong>Sofern keine Benutzergruppen zu einem Drucker zugewiesen sind, ist dieser Drucker und die zugehörigen Druckereinstellungen, für alle Benutzer in Microsoft Dynamics 365 Business Central zugänglich.<br>
+    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Gut zu wissen:</strong>
+	Werden <b>keine</b> Benutzergruppen zugewiesen, ist der Drucker samt zugehöriger Druckereinstellungen für <b>alle Benutzer</b> in Microsoft Dynamics 365 Business Central sichtbar und nutzbar.<br>
     <br>
-    Benutzer die, den Berechtigungssatz "365 business Print Agent - Full Access" (<code>bdev.PRINTAGENTSETUP</code>) verwenden gelten als administrative Benutzer und werden von der Einschränkung der Auswahl von Druckern, über die Drucker-Zugriffsberechtigungen, ausgenommen.<br>
-    Dies soll Administratoren ermöglichen Drucker, auf die Sie generell keinen Zugriff haben, anderen Benutzern zuzuweisen.
+	Benutzer mit dem Berechtigungssatz <b>365 business Print Agent – Full Access</b> (<code>bdev.PRINTAGENTSETUP</code>) gelten als administrative Benutzer und sind von den Zugriffsbeschränkungen ausgenommen.<br>
+    So können Administratoren auch Drucker verwalten, auf die sie selbst keinen Zugriff haben.
 </div>
 
 ## Was sind Drucker-Zugriffsberechtigungen?
 
-Drucker-Zugriffsberechtigungen schränken die Sichtbarkeit von Druckern und Druckereinstellungen innerhalb von Microsoft Dynamics 365 Business Central ein. Ist ein Drucker mit dem aktuellen Benutzer nicht zugriffsberechtigt, so wir der jeweilige Drucker in Druckerauswahlen nicht angezeigt.
+Drucker-Zugriffsberechtigungen beschränken die **Sichtbarkeit** von Druckern und deren Konfigurationen in Microsoft Dynamics 365 Business Central.
+Ist ein Benutzer **nicht berechtigt**, wird der Drucker in den **Druckerauswahlen** nicht angezeigt.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Wichtig</strong> Unabhängig von der Druckerauswahl kann auch ohne zugewiesene Drucker-Zugriffsberechtigung, bspw. über Hintergrundprozesse, auf einem Drucker gedruckt werden.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Wichtig:</strong>
+	Auch wenn ein Benutzer keinen Zugriff auf einen Drucker hat, kann dieser Drucker dennoch über <b>Hintergrundprozesse</b> angesteuert werden.
 </div>
 
 ## Wie weise ich einem Drucker Benutzergruppen zu?
 
  1. Öffnen Sie die Seite **Drucker**.
  2. Klicken Sie auf **Weitere Optionen**.
- 3. Klicken Sie auf **Zugehörig** und **Drucker-Zugriffsberechtigungen...**.
- 4. Wählen Sie den **Benutzergruppen Code** aus.
+ 3. Wählen Sie **Zugehörig** und **Drucker-Zugriffsberechtigungen...**.
+ 4. Fügen Sie einen oder mehrere **Benutzergruppen Code** aus.
  5. Schließen Sie die Seite.
 
-# Siehe auch
+### Siehe auch
 
  - [Zuweisen von Berechtigungen zu Benutzern und Gruppen (Microsoft Learn)](https://learn.microsoft.com/de-DE/dynamics365/business-central/ui-define-granular-permissions)

@@ -1,67 +1,73 @@
 # Print Profile
 
-A print profile represents a specific configuration of your printer that controls advanced functionalities.
+A Print Profile is a **Custom Printer Configuration** that enables **advanced features** for your printer.
+
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Important</strong>For basic print jobs (duplex, copies, output color, paper type, tray), print profiles are not required. However, if you want to use the printer's advanced features, you need to create a print profile.
+    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Important:</strong>
+	Basic printing tasks like duplex printing, number of copies, color output, or paper selection do not require a Print Profile. However, if you want to use special printing functions, a Print Profile is required.
 </div>
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Important</strong>Print profiles are only available for printers that are configured with the standard emulation type "PDF".
+    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Important:</strong>
+	Print Profiles are only available for printers that are configured with the <b>Standard</b> emulation type.
 </div>
 
-Advanced functionalities include:
+Advanced features include, for example:
+* Finishing options such as stapling, punching, or binding
+* Special settings for label printers (offset, temperature, speed)
 
-* Finishing options such as stapling, punching, and binding,
-* Printing options for label printers, such as offset, temperature, and print speed.
 
 ## Creating a Print Profile
 
-### Step 1: Select the Printer
+### Step 1: Select a Printer
 
-In the 365 business Print Agent Config, select “Printers” and mark the printer for which you want to create a print profile. Then select the "Print Profiles" menu.
+In the **365 business Print Agent Config Tool**, go to the **Printer** section, select your printer, and click **Print Profiles**.
 
-![Druckerverwaltung](/assets/images/365-business-print-agent/config-tool/Printer_en.PNG) 
+![Print Profile Management](/assets/images/365-business-print-agent/config-tool/Printer_en.PNG) 
 
-### Step 2: Managing Print Profiles
+### Step 2: Manage Print Profiles
 
-In the next dialog, all existing print profiles for the selected printer will be displayed. You have the option to create, edit, and delete print profiles. By clicking the "Save" button, your changes will be stored in the database.
+The dialog shows all existing Print Profiles. You can create new ones, edit existing profiles, or delete them. Click **Save** to apply your changes.
 
-![Druckprofilverwaltung](/assets/images/365-business-print-agent/config-tool/PrintProfileOverview_en.PNG) 
+![Print Profile Overview](/assets/images/365-business-print-agent/config-tool/PrintProfileOverview_en.PNG) 
 
-### Step 3: Creating a Print Profile
+### Step 3: Create a New Print Profile
 
-Click "New" to create a new print profile. A wizard will open to guide you through the process. 
-After an introduction, you will be asked to select a PDF file for a test print. After selecting the PDF, click "Next."
+Click **New** to launch the setup wizard.  
+After a short introduction, select a PDF file for test printing and click **Next**.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note</strong> Keep in mind that the selected PDF will be printed.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Note:</strong>
+	The selected PDF will actually be printed!
 </div>
 
 ![Wizard-1](/assets/images/365-business-print-agent/config-tool/PrintProfileWizard2_en.PNG)
 
-On the next page, you can click the "Configure" button to open the print settings dialog. 
-Make the necessary adjustments and confirm by clicking "OK." The PDF will then be printed.<br/>
-Please check the print result. If it meets your requirements, click "Next" to proceed. 
-If the result is unsatisfactory, you can refine the settings by clicking "Configure" again.
+On the next screen, click **Configure** to open the print settings dialog.  
+Make your adjustments and confirm with **OK** – the PDF will be printed. If the result meets your expectations, click **Next**.<br>
+If not, you can adjust the settings further using the **Configure** button.
 
 ![Wizard-2](/assets/images/365-business-print-agent/config-tool/PrintProfileWizard3_en.PNG) 
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note</strong> The print settings dialog may look different depending on the printer used.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Note:</strong>
+	The appearance of the print settings dialog may vary depending on the printer model.
 </div>
+
 ![Druckeinstellungen-SATO](/assets/images/365-business-print-agent/config-tool/sato_Druckeinstellungen.PNG) 
 
-In the final step, you will give the print profile a name. Under this name, the print profile will be available in the 365 business Print Agent App in Microsoft Dynamics Business Central.
+Finally, assign a name to your Print Profile. This name will later appear in the **365 business Print Agent App** in Microsoft Dynamics 365 Business Central.
 
 ![Wizard-3](/assets/images/365-business-print-agent/config-tool/PrintProfileWizard4_en.PNG) 
 
-Nach erfolgreicher Einrichtung können Sie den Assistenten beenden.
+After successful configuration, you can complete the wizard.
 
-### Step 4: Saving the Print Profile
+### Step 4: Save the Print Profile
 
-Click "Save" to create the print profile and make it available in the 365 business Print Agent App.
+Click **Save** to store the profile and make it available in Microsoft Dynamics 365 Business Central.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note</strong>To use the print profiles, you must refresh the printers in the 365 business Print Agent App. <a href="printer-configuration.md">Learn more.</a>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Note:</strong>
+	To use the new Print Profile in Microsoft Dynamics 365 Business Central, the printer list must be refreshed. Learn more <a href="printer-configuration.md">here</a>.
 </div><br/>

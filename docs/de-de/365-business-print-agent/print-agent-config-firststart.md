@@ -1,52 +1,67 @@
 # Ersteinrichtung
 
-Beim ersten Start nach der erfolgreichen Installation von 365 business Print Config werden Sie durch einen Assistenten durch die Ersteinrichtung begleitet.
-Während der Einrichtung definieren Sie die zu nutzende Datenbank und den zu verwendenden Dienstmodus.
+Nach der erfolgreichen Installation von **365 business Print Config** werden Sie beim ersten Start automatisch durch einen Assistenten geführt.
 
-Sind alle notwendigen Einstellungen vollzogen, wird die Datenbank und der entsprechende Dienst für die Kommunikation mit Microsoft Dynamics 365 Business Central erstellt und konfiguriert.
+Während dieses Prozesses legen Sie fest:
+- welche Datenbank verwendet werden soll
+- welche Verbindungsart (Direct Connection / Print Agent Cloud) der Print Agent nutzen soll
+
+Sobald alle notwendigen Einstellungen abgeschlossen sind, wird die Datenbank erstellt und der zugehörige Dienst für die Kommunikation mit **Microsoft Dynamics 365 Business Central** konfiguriert.
+
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Wichtig</strong>Bitte beachten Sie, dass Sie <strong>vor</strong> der Ersteinrichtung im 365 business Print Config, die Installation und Einrichtung der "365 business Print Agent" App über den Microsoft AppSource in Ihrem Microsoft Dynamics 365 Business Central Tenant abgeschlossen haben müssen.<br/>
-    Dies ist notwendig, um die Kommunikation zwischen Ihrem Microsoft Dynamics 365 Business Central Tenant und dem lokal installierten Service zu gewährleisten. 
+    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Wichtig:</strong>
+	Bitte stellen Sie sicher, dass Sie <strong>vor</strong> der Ersteinrichtung im 365 business Print Config die App "365 business Print Agent" aus dem Microsoft AppSource in Ihrem Microsoft Dynamics 365 Business Central Tenant installiert und eingerichtet haben.<br/>
+    Nur so kann die Kommunikation zwischen dem lokal installierten Dienst und Ihrem Microsoft Dynamics 365 Business Central Tenant sichergestellt werden.
 </div>
 <br/>
 
+## Beispiel für die Einrichtung der "365 business Print Agent Cloud"
 
-## Beispiel für die Einrichtung von "365 business Print Agent Cloud"
 <br/>
 
-1. Der Assistent startet und informiert über die kommenden Aufgaben.<br/>
-![Intro](/assets/images/365-business-print-agent/config-tool/wizard/wizard1.PNG) 
+1. Der Assistent startet mit einer Einführung.<br/>
+   ![Intro](/assets/images/365-business-print-agent/config-tool/wizard/wizard1.PNG) 
 
-2. Im Folgenden erfolgt die Auswahl der Datenbank.<br/>Es stehen 2 Datenbanken zur Auswahl: SQLite und Microsoft SQL Server. Da die Datenbank unter anderem für das Speichern der Druckaufträge genutzt wird, empfehlen wir die Benutzung des Microsoft SQL Server ab ca. 2000 Druckaufträge / Tag. <br/>
-![Datenbank](/assets/images/365-business-print-agent/config-tool/wizard/wizard2.PNG) 
+2. Auswahl der Datenbank:<br/>
+   Es stehen **SQLite** und **Microsoft SQL Server** zur Auswahl. Bei mehr als 2000 Druckaufträgen pro Tag wird die Verwendung von Microsoft SQL Server empfohlen.<br/>
+   ![Datenbank](/assets/images/365-business-print-agent/config-tool/wizard/wizard2.PNG) 
 
    <div class="alert alert-notice">
-       <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Wichtig</strong>Die Benutzung eines Microsoft SQL Server kann Lizenzkosten verursachen! 
+       <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Wichtig:</strong>
+	   Die Nutzung von Microsoft SQL Server kann zusätzliche Lizenzkosten verursachen.
    </div>
    
    <div class="alert alert-info">
-       <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong>Ein späteres Ändern der Datenbank ist möglich. <a href="print-agent-config-databases.md">Hier</a> erfahren Sie mehr.
-   </div><br/>
+       <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong>
+	   Die Datenbank kann auch nachträglich geändert werden. <a href="print-agent-config-databases.md">Mehr erfahren</a>.
+   </div>
+   <br/>
 
-3. Anschließend erfolgt die Auswahl des Dienstmodus / Verbindungsart.<br/>Empfohlen wird die Benutzung der 365 business Print Agent Cloud, da in diesem Modus die Einrichtung/Konfiguration auf ein Minimum reduziert wird und sofort einsatzbereit ist.<br/>
-![CloudClient](/assets/images/365-business-print-agent/config-tool/wizard/wizard3.PNG) 
+3. Auswahl des Verbindungsart<br/>
+   Empfohlen wird die Nutzung der **365 business Print Agent Cloud**, da diese Variante schnell einsatzbereit ist und minimalen Konfigurationsaufwand erfordert.<br/>
+   ![CloudClient](/assets/images/365-business-print-agent/config-tool/wizard/wizard3.PNG) 
+   
    <div class="alert alert-info">
-       <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong>Ein späteres Ändern des Dienstmodus ist möglich. <a href="print-agent-config-connections.md">Hier</a> erfahren Sie mehr.
+       <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong>
+	    Ein späteres Ändern der Verbindungsart ist möglich. <a href="print-agent-config-connections.md">Hier</a> erfahren Sie mehr.
    </div><br/>
 
-4. Nach der Auswahl "365 business Print Agent Cloud" müssen Sie im nächsten Schritt Ihre "Tenant ID", sowie einen Namen zur Identifikation Ihres 365 business Print Agent Cloud Clients eingeben.<br/>
-![CloudClient](/assets/images/365-business-print-agent/config-tool/wizard/wizard4-cloud.PNG) 
+4. Eingabe Ihrer **Tenant-ID** und eines eindeutigen Namens für Ihren 365 business Print Agent Cloud Client.<br/>
+   ![CloudClient](/assets/images/365-business-print-agent/config-tool/wizard/wizard4-cloud.PNG) 
+   
    <div class="alert alert-info">
-       <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong>Die Tenant ID können Sie der "365 business Print Agent" App in Ihrem Microsoft Dynamics 365 Business Central Tenant entnehmen.
+       <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong>
+	   Die <b>Tenant-ID</b> finden Sie in der "365 business Print Agent" App innerhalb von Microsoft Dynamics 365 Business Central.
    </div><br/>
 
-5. Durch das Bestätigen der Einstellungen für den 365 business Print Agent Cloud Service, wird die Datenbank und der Service für die Kommunikation zu Ihrem Microsoft Dynamics 365 Business Central Tenant erstellt und eingerichtet.<br/>
-![CloudClient](/assets/images/365-business-print-agent/config-tool/wizard/wizard5-cloud.PNG) 
+5. Abschluss der Einrichtung: Der Dienst wird erstellt, konfiguriert und gestartet.<br/>
+   ![CloudClient](/assets/images/365-business-print-agent/config-tool/wizard/wizard5-cloud.PNG) 
 
-6. Nach der erfolgreichen Einrichtung kann der Assistent beendet werden.<br/>
+6. Der Assistent kann nun beendet werden.<br/>
 ![CloudClient](/assets/images/365-business-print-agent/config-tool/wizard/wizard6-cloud.PNG) 
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong>Es wird empfohlen nach dem Beenden des Assistenten mit der Freigabe der Drucker fortzufahren. <a href="print-agent-config-printers.md">Hier</a> erfahren Sie mehr.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong>
+	Nach Abschluss des Assistenten wird empfohlen, mit der Freigabe von Druckern fortzufahren. <a href="print-agent-config-printers.md">Mehr erfahren</a>.
 </div><br/>

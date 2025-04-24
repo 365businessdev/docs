@@ -1,10 +1,13 @@
 # Print Agent Configuration
 
-365 business Print Agent Config is designed to help you set up and configure the 365 business Print Agent environment in your network.
+To set up and manage your network environment, the **365 business Print Agent Config** application is available.
 
-This application helps you to:
-* Initially set up the Print Agent on your network.
-* Manage shared printers.
-* Change the service mode / connection type.
-* Change the database.
-* Report and monitor print jobs.
+This tool allows you to:
+
+- perform the initial setup of the Print Agent in your network  
+- manage shared printers  
+- change the service mode or connection type  
+- switch or modify the database used  
+- analyze and monitor print jobs  
+
+These features help you tailor the Print Agent environment to your IT infrastructure and ensure reliable operation.

@@ -114,4 +114,4 @@ Im Profilbereich können Benutzer ihre Einstellungen anpassen und bequem Feedbac
 ## Hilfe & Support
 
 👉 Weitere Informationen zur Einrichtung von Secure Print finden Sie in der [Dokumentation](secure-print.md).  
-📞 Bei Fragen hilft unser [Customer Portal](https://365businessdev.atlassian.net/servicedesk/customer/portal/7) gerne weiter.
+📞 Bei Fragen hilft unser [Support Team](https://365businessdev.atlassian.net/servicedesk/customer/portal/7) gerne weiter.

@@ -1,21 +1,47 @@
+# Zebra Treiber Standardwerte 
+
+## Problem
+
+Die manuell über Ihren Zebra-Drucker gedruckten Etiketten sehen einwandfrei aus – doch Etiketten, die über den **365 business Print Agent** gedruckt werden, erscheinen:
+
+- verschoben  
+- leer  
+- seitenverkehrt  
+- gedreht  
+- oder schwer lesbar
+
 ---
-title: Zebra Treiber Standardwerte 
+
+## Ursache
+
+Wenn Sie einen Computer als **Druckserver** verwenden, müssen die **Druckereinstellungen systemweit** gelten – also für **alle Benutzer**, die den Drucker verwenden.  
+Dazu zählen beispielsweise:
+
+- Druckgeschwindigkeit  
+- Druckdichte / Helligkeit  
+- Verwendung eines Farbbandes  
+- Etikettenversatz
+
 ---
 
-#### Problem
-Ihre manuell auf dem Zebra Drucker ausgedruckten Etiketten sehen perfekt aus. Hingegen sind die Etiketten, die über den 365 business Print Agent gedruckt werden, schlecht zu lesen, verschoben, leer, gedreht oder seitenverkehrt.
+## Lösung
 
-#### Grund
-Wenn Sie Computer als Druckserver verwenden, müssen Sie dafür sorgen, dass für alle Benutzer des Druckservers die gleichen Druckereinstellungen gelten (z. B. Geschwindigkeit, Helligkeit, Farbbandverwendung usw.).
+Der Zebra-Druckertreiber bietet zwei Konfigurationsbereiche:
 
-#### Lösung
-Bei einem Zebra Druckertreiber existieren zwei Stellen, die die Möglichkeit der Änderung von Druckereinstellungen ermöglichen. An der einen Stelle werden benutzerspezifische Einstellungen gespeichert, die andere, hier beschriebene Konfigurationsstelle gilt für *alle* Benutzer.
-Wenn Sie die Druckereinstellungen für alle Benutzer konfigurieren wollen, gehen Sie wie folgt vor:
+1. Benutzerbezogene Einstellungen (wirken nur für den aktuell angemeldeten Benutzer)
+2. **Systemweite Standardwerte** – *diese müssen angepasst werden, damit alle Benutzer dieselben Druckparameter verwenden*
 
-1. Öffnen Sie **Start > Einstellungen > Drucker und Scanner**
-2. Wählen Sie den zu konfigurierenden Zebra Drucker aus und klicken Sie **Verwalten**
+### So ändern Sie die Standardwerte für alle Benutzer:
+
+1. Öffnen Sie **Start > Einstellungen > Drucker & Scanner**
+2. Wählen Sie den Zebra-Drucker aus und klicken Sie auf **Verwalten**
 3. Klicken Sie auf **Druckereigenschaften**
-4. Wählen Sie den **Erweitert** Reiter
+4. Wechseln Sie zum Reiter **Erweitert**
 5. Klicken Sie auf **Standardwerte**
-6. Passen Sie die Einstellungen für alle Benutzer an.
+6. Passen Sie hier die gewünschten Einstellungen an (z. B. Geschwindigkeit, Helligkeit etc.)
 
+
+<div class="alert alert-notice">
+    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Gut zu wissen</strong>
+	Diese Konfiguration gilt nun für <b>alle Benutzer</b> – einschließlich des Dienstes <b>365 business Print Agent</b>.	
+</div>

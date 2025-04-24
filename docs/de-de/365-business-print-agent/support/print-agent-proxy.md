@@ -1,71 +1,90 @@
+# Proxy Konfiguration
+
+## Problem
+
+Der **365 business Print Agent Cloud Service** sowie der **365 business Print Agent Server** sind für den Einsatz in sicheren Netzwerkumgebungen ausgelegt. Sie kommunizieren standardmäßig über **HTTPS** mit unseren Cloud-Servern, wodurch in den meisten Fällen **keine zusätzliche Firewall-Konfiguration** notwendig ist.
+
+Falls Ihre Organisation jedoch vorschreibt, dass **sämtlicher ausgehender Internetverkehr über einen Proxyserver** geleitet werden muss, müssen Sie die Proxy-Einstellungen für die jeweiligen Dienste manuell hinterlegen.
+
 ---
-title: Proxy Konfiguration
----
 
-#### Problem
-Der 365 business Print Agent Cloud Service und der 365 business Print Agent Server sind für sichere Netzwerkumgebungen optimiert, indem sie über HTTPS eine Verbindung zu unseren Cloud-Servern herstellen.
-Auf diese Weise lassen die meisten Firewalls unseren Datenverkehr bereits ohne zusätzliche Konfiguration passieren.
+## Lösung
 
-Wenn jedoch die Netzwerksicherheitsrichtlinien Ihrer Organisation erfordern, dass der gesamte ausgehende Internetverkehr über einen Proxyserver geleitet wird, müssen Sie den 365 business Print Agent Cloud Service und/oder den 365 business Print Agent Server Service so konfigurieren, dass sie diesen Proxyserver explizit verwendet.
+### Proxy-Konfiguration für den 365 business Print Agent Cloud Service
 
-#### Lösung
+1. Öffnen Sie einen Texteditor (z. B. Notepad) im **Administratormodus**.
+2. Erstellen Sie die Datei `proxy.json` im folgenden Verzeichnis: `%ProgramData%\365 business development GmbH\365 business Print Agent\CloudClient`
+3. Fügen Sie je nach Szenario einen der folgenden Inhalte ein.
+	<br>
+   **Proxy mit Benutzeranmeldung:**
+	```json
+	{
+	  "Proxy": {
+		"Enabled": true,
+		"Url": "http://hostname:port",
+		"BypassProxyOnLocal": false,
+		"UserCredentials": {
+		  "Username": "user.name",
+		  "Password": "p@ssword"
+		}
+	  }
+	}
+	```
+	---
+	**Proxy ohne Benutzeranmeldung:**
+	```json
+	{
+	  "Proxy": {
+		"Enabled": true,
+		"Url": "http://hostname:port",
+		"BypassProxyOnLocal": false,
+		"UserCredentials": null
+	  }
+	}
+	```
+
+4. Ersetzen Sie:
+	- `Url` mit der Adresse Ihres Proxyservers,
+	-  ggf. `Username` und `Password` mit den Zugangsdaten.
+
+5. **Speichern Sie die Datei** und starten Sie den **365 business Print Agent Cloud Service** neu, um die Konfiguration zu übernehmen.
+
+<div class="alert alert-notice">
+	<i class="fa-light fa-thin fa-hand-point-up fa-lg"></i> <strong>Gut zu wissen</strong>
+	Änderungen an der Proxy-Konfiguration werden erst nach dem Neustart des jeweiligen Dienstes wirksam. 
+</div>
+
 <br>
-##### 365 business Print Agent Cloud
-Um dem Service mitzuteilen, welcher Proxyserver verwendet werden soll, müssen Sie die Proxy-Konfigurationsdatei des 365 business Print Agent Cloud Service im Verzeichnis ```C:\ProgramData\365 business development GmbH\365 business Print Agent\CloudClient``` erstellen.
 
 
-1. Erstellen Sie mit einem Texteditor (z.B. Notepad) im Administrator Modus die Datei ```proxy.json``` und fügen Sie den folgenden Inhalt ein.
-    
-    1.1. Konfiguration eines Proxy mit Benutzeranmeldedaten:
-    ```json
-    {
-      "Proxy": {
-        "Enabled": true,
-        "Url": "http://hostname:port",
-        "BypassProxyOnLocal": false,
-        "UserCredentials": {
-    		"Username": "user.name",
-    		"Password": "p@ssword"
-    	}
-      }
-    }
-    ```
-    1.2. Konfiguration eines Proxy ohne Benutzeranmeldedaten:
-    ```json
-    {
-      "Proxy": {
-        "Enabled": true,
-        "Url": "http://hostname:port",
-        "BypassProxyOnLocal": false,
-        "UserCredentials": null
-      }
-    }
-    ```
-2. Ersetzen Sie den Wert im Feld ```Url``` mit dem Proxyserver Ihrer Organisation.
-3. Im Fall, dass der Proxyserver eine Benutzeranmeldung benötigt, ersetzen Sie die Werte in den Feldern ```Username``` und ```Password``` mit den entsprechenden Werten.
-4. Speichern Sie die Datei und starten Sie den 365 business Print Agent Cloud Service neu, um die Einstellungen anzuwenden.
+---
 
-##### 365 business Print Agent Server
-Um dem Service mitzuteilen, welcher Proxyserver verwendet werden soll, müssen Sie die Proxy-Konfigurationsdatei des 365 business Print Agent Server Service im Verzeichnis ```C:\ProgramData\365 business development GmbH\365 business Print Agent\Server``` erstellen.
+<br>
 
-1. Erstellen Sie mit einem Texteditor (z.B. Notepad) im Administrator Modus die Datei ```proxy.json``` und fügen Sie den folgenden Inhalt ein:
-    
-    1.1. Konfiguration eines Proxy mit Benutzeranmeldedaten:
-    ```json
-    {
-      "Proxy": {
-        "Enabled": true,
-        "Url": "http://hostname:port",
-        "BypassProxyOnLocal": false,
-        "UserCredentials": {
-    		"Username": "user.name",
-    		"Password": "p@ssword"
-    	}
-      }
-    }
-    ```
-    1.2. Konfiguration eines Proxy ohne Benutzeranmeldedaten:
-    ```json
+
+### Proxy-Konfiguration für den 365 business Print Agent Server Service
+
+1. Öffnen Sie einen Texteditor im Administratormodus.
+2. Erstellen Sie die Datei proxy.json im folgenden Verzeichnis: `%ProgramData%\365 business development GmbH\365 business Print Agent\Server`
+3. Fügen Sie je nach Szenario den passenden Inhalt ein.
+	<br>
+   **Proxy mit Benutzeranmeldung:**
+	```json
+	{
+	  "Proxy": {
+		"Enabled": true,
+		"Url": "http://hostname:port",
+		"BypassProxyOnLocal": false,
+		"UserCredentials": {
+			"Username": "user.name",
+			"Password": "p@ssword"
+		}
+	  }
+	}
+	```
+	---
+	**Proxy ohne Benutzeranmeldung:**
+	```json
     {
       "Proxy": {
         "Enabled": true,
@@ -74,7 +93,16 @@ Um dem Service mitzuteilen, welcher Proxyserver verwendet werden soll, müssen S
         "UserCredentials": null
       }
     }
-    ```
-2. Ersetzen Sie den Wert im Feld ```Url``` mit dem Proxyserver Ihrer Organisation.
-3. Im Fall, dass der Proxyserver eine Benutzeranmeldung benötigt, ersetzen Sie die Werte in den Feldern ```Username``` und ```Password``` mit den entsprechenden Werten.
-4. Speichern Sie die Datei und starten Sie den 365 business Print Agent Server Service neu, um die Einstellungen anzuwenden.
+	```
+4. Ersetzen Sie:
+	- `Url` mit der Adresse Ihres Proxyservers,
+	-  ggf. `Username` und `Password` mit den Zugangsdaten.
+
+5. **Speichern Sie die Datei** und starten Sie den **365 business Print Agent Server Service** neu, um die Konfiguration zu übernehmen.
+
+---
+
+<div class="alert alert-notice">
+	<i class="fa-light fa-thin fa-hand-point-up fa-lg"></i> <strong>Gut zu wissen</strong>
+	Änderungen an der Proxy-Konfiguration werden erst nach dem Neustart des jeweiligen Dienstes wirksam. 
+</div>

@@ -22,7 +22,7 @@ This action retrieves and displays the current application log of the selected 3
 <div class="alert alert-info">
     <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note</strong> The logs do not contain any sensitive data and are used to provide you with faster support in the event of an error.<br>
     <br>
-    Please always send the log files with support requests so that our <a href="https://365businessdev.atlassian.net/servicedesk" target="_blank">support team</a> has all the necessary information.
+    Please always send the log files with support requests so that our <a href="https://365businessdev.atlassian.net/servicedesk" target="_blank">Support Team</a> has all the necessary information.
 </div>
 
 

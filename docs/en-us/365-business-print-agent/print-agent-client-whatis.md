@@ -1,30 +1,41 @@
 # What is the Print Agent Service?
 
-The Print Agent Service handles the communication between Microsoft Dynamics 365 Business Central (Direct Mode) or 365 business Print Agent Cloud (Cloud Mode). Additionally the Print Agent Service is executing the received print jobs from Microsoft Dynamics 365 Business Central.
+The **Print Agent Service** handles the communication between:
 
-Each Print Agent Service is identified using a Client ID (GUID) and monitors the Online status of your shared printers. 
-The agent should be running on a Windows system on which your printers are installed.
+- Microsoft Dynamics 365 Business Central (Direct Connection Service Mode) 
+- and the 365 business Print Agent Cloud (Print Agent Cloud Service Mode).
+
+It receives print jobs from Business Central and executes them on the local system.
+
+Each Print Agent Service is identified by a unique **Client ID (GUID)** and monitors the online status of the shared printers.  
+The Print Agent should be installed on the **Windows system** on which the corresponding printers are set up.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Good to know</strong>Print Agent Service is able to work with every printer installed on the client device (e.g. print server).<br>Sharing network printers in 365 business Print Agent may cause timeouts as the actual printer takes longer to respond. This is a common problem with Windows printer management and cannot be solved by 365 business Print Agent.<br><br>We strongly recommend installing 365 business Print Agent directly on print servers to share locally installed printers instead of sharing printers from a remote print server.
+    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Good to know:</strong>
+	The Print Agent Service can work with all printers that are installed locally on the system.<br>
+	Enabling <b>network printers</b> can lead to <b>timeouts</b>, as the response times over the network are longer. <br>
+	This behavior is a limitation of Windows printer management and cannot be completely circumvented by the 365 business Print Agent.<br><br>
+	<b>Recommendation:</b> Install the Print Agent <b>directly on the print server</b> and share locally installed printers there - instead of accessing shared printers from a remote server.
 </div>
 
-## Connect printers to Print Agent
+## Connect Printers to Print Agent
 
-All installed printers on the client device are automatically available in the **Printer** view of the 365 business Print Agent application.
+All printers installed on the system automatically appear in the **Printer** view of the 365 business Print Agent application:
 
-![Shared Printer](/assets/images/365-business-print-agent/ad01eb85658694c75716cb5dbce514bd3763fb94b48e505c0288c2bcf8638737.png)  
+![Shared Printer](/assets/images/365-business-print-agent/ad01eb85658694c75716cb5dbce514bd3763fb94b48e505c0288c2bcf8638737.png) 
 
-Select all printers which you want to make available for printing from Microsoft Dynamics 365 Business Central.
+Select the printers you want to make available for Microsoft Dynamics 365 Business Central.
 
 <div class="alert alert-warn">
-    <i class="fa-light fa-triangle-exclamation fa-lg"></i> <strong>Important</strong>Once a printer is shared please keep in mind, that revoke sharing or delete the printer may result in failing print jobs inside Microsoft Dynamics 365 Business Central.<br>Please be careful managing your shared printers.
+    <i class="fa-light fa-triangle-exclamation fa-lg"></i> <strong>Important:</strong>
+	Once a printer is shared, removing the share or deleting the printer can lead to <b>failed print jobs</b>.  
+	Therefore, manage shared printers with special care.
 </div>
 
-## The role of Print Agent Service
+## Tasks of the Print Agent Service
 
-The Print Agent Service performs following functions:
+The Print Agent Service performs the following tasks:
 
- 1. Handles communication between your client and Microsoft Dynamics 365 Business Central or 365 business Print Agent Cloud.
- 2. Initiates print jobs.
- 3. Manage shared printers.
+ 1. Management of communication with Dynamics 365 Business Central (Direct Connection / Print Agent Cloud).
+ 2. Executing incoming print jobs.
+ 3. Management and monitoring of approved printers.

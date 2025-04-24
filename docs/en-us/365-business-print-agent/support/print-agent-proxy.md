@@ -1,78 +1,103 @@
 # Proxy Configuration
 
 ## Problem
-365 business Print Agent Cloud Service and 365 business Print Agent Server are optimized for secure network environments by connecting outward through HTTPS connections to our cloud servers.
-This way, most firewalls already allow our traffic to pass without any additional configuration.
 
-However, if your organization’s network security policies require all outbound Internet traffic to go through a proxy server, you will need to configure the services to explicitly use this proxy server.
+The **365 business Print Agent Cloud Service** and the **365 business Print Agent Server** are designed for secure network environments. By default, they communicate with our cloud servers over **HTTPS**, which usually means that **no additional firewall configuration** is required.
+
+However, if your organization mandates that **all outbound internet traffic must be routed through a proxy server**, you will need to manually configure the proxy settings for each respective service.
+
+---
 
 ## Solution
-<br>
 
-### 365 business Print Agent Cloud
-In order to tell the service which proxy server to use, you need to create a proxy configuration file in the directory ```C:\ProgramData\365 business development GmbH\365 business Print Agent\CloudClient```.
+### Proxy Configuration for the 365 business Print Agent Cloud Service
 
-1. Using a text editor (e.g. Notepad) in Administration Mode to create a file named ```proxy.json```, and paste the following content.
-    
-    1.1. Configuration of a proxy with user credentials:
-    ```json
-    {
-      "Proxy": {
-        "Enabled": true,
-        "Url": "http://hostname:port",
-        "BypassProxyOnLocal": false,
-        "UserCredentials": {
-    		"Username": "user.name",
-    		"Password": "p@ssword"
-    	}
-      }
-    }
-    ```
-    1.2. Configuration of a proxy without user credentials:
-    ```json
-    {
-      "Proxy": {
-        "Enabled": true,
-        "Url": "http://hostname:port",
-        "BypassProxyOnLocal": false,
-        "UserCredentials": null
-      }
-    }
-    ```
-2. Replace the value in the ```Url``` field with your organization's proxy server.
-3. In case the proxy server requires a user login, replace the values in the ```Username``` and ```Password``` fields with the appropriate values.
-4. Save the file and restart the 365 business Print Agent Cloud service to apply the settings.
+1. Open a text editor (e.g., Notepad) in **Administrator mode**.
+2. Create a file named `proxy.json` in the following directory: `%ProgramData%\365 business development GmbH\365 business Print Agent\CloudClient`
+3. Depending on your scenario, paste one of the following JSON configurations into the file:
+	<br>
+   **Proxy with authentication:**
+	```json
+	{
+	  "Proxy": {
+		"Enabled": true,
+		"Url": "http://hostname:port",
+		"BypassProxyOnLocal": false,
+		"UserCredentials": {
+		  "Username": "user.name",
+		  "Password": "p@ssword"
+		}
+	  }
+	}
+	```
+	---
+	**Proxy without authentication:**
+	```json
+	{
+	  "Proxy": {
+		"Enabled": true,
+		"Url": "http://hostname:port",
+		"BypassProxyOnLocal": false,
+		"UserCredentials": null
+	  }
+	}
+	```
 
-### 365 business Print Agent Server
-In order to tell the service which proxy server to use, you need to create a proxy configuration file in the directory ```C:\ProgramData\365 business development GmbH\365 business Print Agent\Server```.
+4. Replace the placeholders:
+	- `Url` with the address of your organization's proxy server,
+	- `Username` and `Password` (if required) with valid credentials.
 
-1. Using a text editor (e.g. Notepad) in Administration Mode to create a file named ```proxy.json```, and paste the following content.
-    
-    1.1. Configuration of a proxy with user credentials:
-    ```json
-    {
-      "Proxy": {
-        "Enabled": true,
-        "Url": "http://hostname:port",
-        "BypassProxyOnLocal": false,
-        "UserCredentials": {
-    		"Username": "user.name",
-    		"Password": "p@ssword"
-    	}
-      }
-    }
-    ```
-    1.2. Configuration of a proxy without user credentials:
-    ```json
-    {
-      "Proxy": {
-        "Enabled": true,
-        "Url": "http://hostname:port",
-        "BypassProxyOnLocal": false,
-        "UserCredentials": null
-      }
-    }
-    ```
-2. Replace the value in the ```Url``` field with your organization's proxy server.
-3. In case the proxy server requires a user login, replace the values in the ```Username``` and ```Password``` fields with the appropriate values.
-4. Save the file and restart the 365 business Print Agent Server service to apply the settings.
+5. **Save the file** and restart the **365 business Print Agent Cloud Service** to apply the configuration.
+
+<div class="alert alert-notice">
+	<i class="fa-light fa-thin fa-hand-point-up fa-lg"></i> <strong>Good to know:</strong>
+	Changes to the proxy configuration only take effect after the respective service is restarted.
+</div>
+
+---
+
+### Proxy Configuration for the 365 business Print Agent Server Service
+
+1. Open a text editor in Administrator mode.
+2. Create a file named `proxy.json` in the following directory: `%ProgramData%\365 business development GmbH\365 business Print Agent\Server`
+3. Depending on your scenario, paste one of the following JSON configurations:
+	<br>
+   **Proxy with authentication:**
+	```json
+	{
+	  "Proxy": {
+		"Enabled": true,
+		"Url": "http://hostname:port",
+		"BypassProxyOnLocal": false,
+		"UserCredentials": {
+		  "Username": "user.name",
+		  "Password": "p@ssword"
+		}
+	  }
+	}
+	```
+	---
+	**Proxy without authentication:**
+	```json
+	{
+	  "Proxy": {
+		"Enabled": true,
+		"Url": "http://hostname:port",
+		"BypassProxyOnLocal": false,
+		"UserCredentials": null
+	  }
+	}
+	```
+
+4. Replace the placeholders:
+	- `Url` with the proxy server address,
+	- `Username` and `Password` with valid credentials (if required).
+
+5. **Save the file** and restart the **365 business Print Agent Server Service** to apply the settings.
+
+---
+
+<div class="alert alert-notice">
+	<i class="fa-light fa-thin fa-hand-point-up fa-lg"></i> <strong>Good to know:</strong>
+	Changes to the proxy configuration only take effect after the respective service is restarted.
+</div>
