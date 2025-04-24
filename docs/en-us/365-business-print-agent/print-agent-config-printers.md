@@ -1,6 +1,7 @@
 # Printer Management
 
-Under the **Printer** menu, all printers installed on the current Windows system are listed. Use the **checkbox in the first column** to enable or disable a printer for use with **Microsoft Dynamics 365 Business Central**.
+Under the **Printer** menu, all printers installed on the current Windows system are listed. 
+Use the **checkbox in the first column** to enable or disable a printer for use with **Microsoft Dynamics 365 Business Central**.
 
 In the **Emulation** column, you can choose from:
 - **Standard**
@@ -8,7 +9,7 @@ In the **Emulation** column, you can choose from:
 - **SATO (SBPL)**
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-lightbulb fa-lg"></i> <strong>Note:</strong>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note:</strong>
 	Select <b>Zebra (ZPL) / SATO (SBPL)</b> if you are using a Zebra or SATO printer and are experiencing <b>performance issues</b> during printing. This often improves printing speed, as the conversion is handled by the <b>365 business Print Agent</b> instead of the printer itself.
 </div>
 
