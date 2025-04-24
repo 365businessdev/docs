@@ -20,7 +20,8 @@ Diese Aktion ruft das aktuelle Anwendungsprotokoll des gewählten 365 business P
 ![365 business Proxy Application Client Protokoll](/assets/images/365-business-proxy-application/366d4823-9bd2-47f0-96bf-b672d18eb033.png)
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong> Die Protokolle enthalten keinen sensiblen Daten und dienen dazu ihnen im Fehlerfall im Fehlerfall schneller Unterstützung bereitstellen zu können.<br>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Hinweis</strong> Die Protokolle enthalten keinen sensiblen Daten und dienen dazu ihnen im Fehlerfall im Fehlerfall schneller Unterstützung bereitstellen zu können.<br>
     <br>
     Bitte senden Sie die Protokolldateien grundsätzlich mit Support Anfragen mit, so dass unser <a href="https://365businessdev.atlassian.net/servicedesk" target="_blank">Support Team</a> alle notwendigen Informationen vorliegen hat.
 </div>

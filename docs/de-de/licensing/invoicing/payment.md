@@ -32,7 +32,8 @@ Zudem unterstützt Stripe folgende weitere Zahlungsarten:
 Die Autorisierung des jeweiligen Zahlungsmittel erfolgt bei der [Lizenzaktivierung](../license-management/activate-license.md) und die Belastung jeweils im Voraus für den jeweiligen Abrechnungszeitraum, bei Rechnungsstellung.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong> Sollte das hinterlegte Zahlungsmittel nicht belastbar sein, wird die Lizenz automatisch deaktiviert.<br>Die Deaktivierung erfolgt nach vorheriger Information, mit einer Karenzzeit von 7 Tagen.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Hinweis</strong> Sollte das hinterlegte Zahlungsmittel nicht belastbar sein, wird die Lizenz automatisch deaktiviert.<br>Die Deaktivierung erfolgt nach vorheriger Information, mit einer Karenzzeit von 7 Tagen.
 </div>
 
 # Mehr erfahren

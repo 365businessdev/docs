@@ -15,7 +15,8 @@ Bei der Anlage eines Druckers über die Aktion **Freigegebene Drucker holen** wi
 Zusätzlich unterstützt 365 business Print Agent, durch die **Zebra (ZPL)**- und **SATO (SBPL)-Emulation**, die native Kommunikation. Dabei werden PDF-Dateien vor der Übermittlung an den Drucker in native Steuerzeichen übersetzt, was die Verarbeitung beschleunigen kann.
 
 <div class="alert alert-notice">
-	<i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Wichtiger Hinweis:</strong>
+	<i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Gut zu wissen</strong>
 	Bei der Freigabe von Netzwerkdruckern in 365 business Print Agent kann zu Zeitüberschreitungen führen, da die Antwort des tatsächlichen Druckers länger dauern kann.<br>
 	Dies ist ein bekanntes Problem bei der Windows-Druckerverwaltung und kann unter Umständen nicht durch 365 business Print Agent gelöst werden.<br><br>
 	<strong>Empfehlung:</strong> Installieren Sie 365 business Print Agent direkt auf Druckservern und geben Sie lokal installierte Drucker frei, anstatt Drucker von einem entfernten Druckserver zu verwenden.
@@ -29,7 +30,8 @@ In der **365 business Print Agent** Anwendung finden Sie die Liste der aktuell i
 In der Spalte **Emulation** können Sie – abweichend vom **Standard** – die Option **Zebra (ZPL)** oder **SATO (SBPL)** aktivieren, um die Emulation (PDF-Konvertierung) und die direkte Kommunikation über ZPL-/SBPL-Steuerzeichen zu nutzen.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Gut zu wissen:</strong>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Hinweis</strong>
 	Der Druck über ZPL- / SBPL-Emulation ist in der Regel deutlich schneller als der PDF-Druck und liefert bessere Druckergebnisse.<br><br>
 	<strong>Empfehlung:</strong> Aktivieren Sie bei Einsatz von Zebra oder SATO Drucker die entsprechende Emulation.
 </div>

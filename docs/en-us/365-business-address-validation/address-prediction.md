@@ -31,7 +31,8 @@ The additional information depends on the actual data available in our data sour
 In [Address Validation Setup](setup.md) you can specify the max. number of predictions shown initially. The default value is four, but can modified according to the business needs.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Tip</strong> By clicking the <i>Load more...</i> action in the address prediction list, all additional predictions will be shown.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong> By clicking the <i>Load more...</i> action in the address prediction list, all additional predictions will be shown.
 </div>
 
 # See also 

@@ -3,7 +3,8 @@
 This quick guide explains how to install and set up 365 business Proxy Application in your Microsoft Dynamics 365 Business Central environment.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note</strong> Test the 365 business Proxy Application, including all standard plugins, at no cost in sandbox environments of Microsoft Dynamics 365 Business Central. In addition, there is a free 30-day trial period without functional restrictions for real and on-premises environments.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong> Test the 365 business Proxy Application, including all standard plugins, at no cost in sandbox environments of Microsoft Dynamics 365 Business Central. In addition, there is a free 30-day trial period without functional restrictions for real and on-premises environments.
 </div>
 
 ## Prerequisites
@@ -13,7 +14,8 @@ This quick guide explains how to install and set up 365 business Proxy Applicati
  - An internet connection.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Important note</strong>This quick guide describes the setup and commissioning of 365 business Proxy Application with the file plugin.<br/>For more information on setting up other plugins, please visit the <a href="plugins.md">documentation</a>.
+    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Good to know</strong>This quick guide describes the setup and commissioning of 365 business Proxy Application with the file plugin.<br/>For more information on setting up other plugins, please visit the <a href="plugins.md">documentation</a>.
 </div>
 
 <br/>
@@ -24,7 +26,8 @@ Open the **Marketplace for Extensions** in Microsoft Dynamics 365 Business Centr
 Install the app from Microsoft AppSource and wait until the installation is complete.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note</strong>The app packages for your Microsoft Dynamics 365 Business Central <strong>On-Premise</strong> environment can be found in our <a href="https://downloads.365businessdev.com/de-DE/365-business-proxy-application/" target="_blank">Downloads</a>.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong>The app packages for your Microsoft Dynamics 365 Business Central <strong>On-Premise</strong> environment can be found in our <a href="https://downloads.365businessdev.com/de-DE/365-business-proxy-application/" target="_blank">Downloads</a>.
 </div>
 
 <br/>
@@ -36,7 +39,8 @@ To set up the 365 business Proxy Application, open the **Proxy Application Setup
  1. select **Authenticate** to connect your Microsoft Dynamics 365 Business Central environment to 365 business Proxy Application Service.
  2. copy the **Tenant ID** value by clicking on the field value.
     <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note</strong> Specifies the Tenant ID used to secure the communication between the Proxy Application Service and Microsoft Dynamics 365 Business Central.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong> Specifies the Tenant ID used to secure the communication between the Proxy Application Service and Microsoft Dynamics 365 Business Central.
     </div>
  4. select **Download client...** to download [365 business Proxy Application Client](proxy-application-client-whatis.md).
 
@@ -50,7 +54,8 @@ To set up the 365 business Proxy Application, open the **Proxy Application Setup
  4. enter the **Tenant ID** from the previous step and a **Name** for the client, which will help you to identify the client in Microsoft Dynamics 365 Business Central.
  5. *(Optional)* Enter a domain user and the password with which 365 business Proxy Application Client is to be operated.
     <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note</strong> If you do not specify a user, 365 business Proxy Application Client will run in the <strong>Local System</strong> context.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong> If you do not specify a user, 365 business Proxy Application Client will run in the <strong>Local System</strong> context.
     </div>
 
 ## Step 2: Set up Proxy Application Client
@@ -64,7 +69,8 @@ To be able to access the Proxy Application Clients directly in Microsoft Dynamic
  4. click on the **Name** of the Proxy Application Client to open the map.
  5. in the Proxy Application Client card you will find the **Client ID** field.
     <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note</strong> The Client ID is used to address the Proxy Application service. 365 business Proxy Application provides additional functions to return the clients that support a specific plugin. In this quick guide, however, it is assumed that the specific client ID is used.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong> The Client ID is used to address the Proxy Application service. 365 business Proxy Application provides additional functions to return the clients that support a specific plugin. In this quick guide, however, it is assumed that the specific client ID is used.
     </div>
 
 ### Step 2.1: Install Proxy Application Client Plugins
@@ -96,7 +102,8 @@ To simplify the control of clients, it is possible to define a standard client f
 ![Proxy Application Setup - Default Client for Plugin](/assets/images/365-business-proxy-application/3fafd304-0799-4d9a-a079-a6a13e1a27ff.png)
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note</strong>The selection of clients is only possible if the selected plugin is already installed on the client.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong>The selection of clients is only possible if the selected plugin is already installed on the client.
 </div>
 
 ## Step 3: Implementing the file plugin

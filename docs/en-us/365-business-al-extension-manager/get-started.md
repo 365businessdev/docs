@@ -9,7 +9,8 @@ After launching the application, the Connection Manager appears by entering the 
 The settings can then be saved.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note</strong> For the communication an activated OData-/API-Service and Development Service at the Microsoft Dynamics 365 Business Central Server instance is required.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong> For the communication an activated OData-/API-Service and Development Service at the Microsoft Dynamics 365 Business Central Server instance is required.
 </div>
 
 Pressing `Connect` will connect to the server instance and download and display the installed extensions.
@@ -40,7 +41,8 @@ To install one or more extensions or partner apps, please proceed as follows:
 
 3. The application analyzes the extensions and reads out the dependencies and conditions, such as server runtime version.<br>![Upload Extensions](/assets/images/365-business-al-extension-manager/upload-extension-view.de-DE.png)<br>
    <div class="alert alert-info">
-       <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note</strong>This will show you warnings and errors directly. So you see for example before the actual installation whether all dependencies are fulfilled or the server runtime version is compatible with the runtime version of the extension. 
+       <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong>This will show you warnings and errors directly. So you see for example before the actual installation whether all dependencies are fulfilled or the server runtime version is compatible with the runtime version of the extension. 
    </div>
 
 4. Click on `Upload` to install the selected extensions or partner apps.
@@ -52,7 +54,8 @@ Clicking on the button `Remove Extension` in the main window of the AL Extension
 ![Uninstall dependencies](/assets/images/365-business-al-extension-manager/unpublish-extension.de-DE.png)
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Important</strong>In order to unpublish an extension, the <code>365 business App Automation API</code> extension (included) is required.
+    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Good to know</strong>In order to unpublish an extension, the <code>365 business App Automation API</code> extension (included) is required.
 </div>
 
 Here, all dependencies are taken into account and resolved accordingly. If it is necessary to uninstall other AL extensions, the user will be informed accordingly and the uninstallation will be performed automatically.

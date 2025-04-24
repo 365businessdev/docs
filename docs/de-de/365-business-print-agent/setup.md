@@ -30,7 +30,8 @@ Die **Print Agent Einrichtung** enthält die Konfiguration für die Kommunikatio
 ## Einrichtung der Direktverbindung als Dienstmodus
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis:</strong>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Hinweis</strong>
 	Die Unterstützung für mehrere Print Agent-Dienstinstanzen wurde mit Version 18.2 des 365 business Print Agent eingeführt.<br>
 	Bitte stellen Sie sicher, dass Sie die aktuelle Version verwenden, um diese Funktion nutzen zu können.
 </div>

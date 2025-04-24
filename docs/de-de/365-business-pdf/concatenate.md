@@ -13,11 +13,13 @@ Die Einrichtung findet in der Seite **PDF Verkettung Konfigurationen** statt. Hi
 5. Erstellen Sie eine neue Konfigurationszeile.
 6. Wählen Sie die **Position** (Vorher/Nachher), an der die zu verkettende PDF-Datei hinzugefügt werden soll.
    <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Tipp</strong> Wenn Sie mehrere Dateien vor oder hinter dem eigentlichen Beleg oder Bericht anfügen wollen, können Sie im Feld <b>Positionsnr.</b> die Reihenfolge bestimmen.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Hinweis</strong> Wenn Sie mehrere Dateien vor oder hinter dem eigentlichen Beleg oder Bericht anfügen wollen, können Sie im Feld <b>Positionsnr.</b> die Reihenfolge bestimmen.
 </div>
 7. Wählen Sie den **PDF-Datei Code** für die PDF-Datei aus, die Sie anfügen möchten.
    <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong> PDF-Dateien müssen vor der Verwendung in der Seite <a href="pdf-files.md">PDF-Dateien</a> angelegt werden.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Hinweis</strong> PDF-Dateien müssen vor der Verwendung in der Seite <a href="pdf-files.md">PDF-Dateien</a> angelegt werden.
 </div>
 
 ![Verkettungskonfiguration](/assets/images/365-business-pdf/concatenate-configuration.png)  

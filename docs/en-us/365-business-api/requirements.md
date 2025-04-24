@@ -3,7 +3,8 @@
 To use the 365 business API Cloud services, communication between Microsoft Dynamics 365 Business Central and the 365 business API is required. To ensure communication, it may be necessary to configure firewall settings.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Good to know</strong> Firewall settings or similar are only required in Microsoft Dynamics 365 Business Central <strong>On-Premise</strong> environments.<br>
+    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Good to know</strong> Firewall settings or similar are only required in Microsoft Dynamics 365 Business Central <strong>On-Premise</strong> environments.<br>
     In Microsoft Dynamics 365 Business Central <strong>Cloud</strong> environments, no firewall settings or other adjustments are required.
 </div>
 
@@ -19,7 +20,8 @@ In the context of communication between Microsoft Dynamics 365 Business Central 
 ### Deprecated Resources
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Good to know</strong> Please update your 365 business apps regularly to ensure you can use the latest features and improvements.
+    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Good to know</strong> Please update your 365 business apps regularly to ensure you can use the latest features and improvements.
 </div>
 
 In older versions of the 365 business API and the 365 business API app for Microsoft Dynamics 365 Business Central, the following DNS names and ports may still be used:

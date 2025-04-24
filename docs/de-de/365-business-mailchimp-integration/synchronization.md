@@ -32,7 +32,8 @@ Bei der Synchronisation von Abonnenten werden folgende Informationen synchronisi
 | Opt-In Zeitpunkt | timestamp opt | Von Mailchimp |
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Gut zu wissen</strong>Die Synchronisation des Status findet indirekt statt, jedoch unter Berücksichtigung der Workflows in Mailchimp. Der Status kann über die Aktionen Abonnieren (Status = Abonniert) und Abonnement beenden (Status = Nicht abonniert) aus Microsoft Dynamics 365 Business Central gesteuert werden. Alle andere Status können nicht direkt aus Microsoft Dynamics 365 Business Central gewählt werden.
+    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Gut zu wissen</strong>Die Synchronisation des Status findet indirekt statt, jedoch unter Berücksichtigung der Workflows in Mailchimp. Der Status kann über die Aktionen Abonnieren (Status = Abonniert) und Abonnement beenden (Status = Nicht abonniert) aus Microsoft Dynamics 365 Business Central gesteuert werden. Alle andere Status können nicht direkt aus Microsoft Dynamics 365 Business Central gewählt werden.
 </div>
 
 ##### Kontakte
@@ -54,7 +55,8 @@ Bei der Synchronisation von Kontakten werden folgende Informationen synchronisie
 Um Dubletten zu verhindern und neue Abonnenten / Kontakte korrekt zuzuordnen wird die Synchronisation auf Basis der E-Mail Adresse durchgeführt. Existiert die registrierte E-Mail Adresse bereits in einem Microsoft Dynamics 365 Business Central Kontakt, so wird der bestehende Kontakt verwendet. Wird kein Kontakt mit der entsprechenden E-Mail Adresse gefunden, so erstellt die Mailchimp Integration App einen neuen Kontakt auf Basis der zur Verfügung stehenden Informationen. Über die Domain der übermittelten E-Mail Adresse (bspw. "@365businessdev.com") wird nach einem Unternehmenskontakt gesucht um den neuen Kontakt korrekt zuzuordnen.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong>Um zu verhindern, dass Kontakte, bei der Verwendung von öffentlichen E-Mail Providern, wie bspw. Google Mail, versehentlich bzw. falsch zugeordnet werden, findet die beschriebene Unternehmenskontaktsuche, an Hand der Domain bei öffentlichen E-Mail Providern nicht statt.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Hinweis</strong>Um zu verhindern, dass Kontakte, bei der Verwendung von öffentlichen E-Mail Providern, wie bspw. Google Mail, versehentlich bzw. falsch zugeordnet werden, findet die beschriebene Unternehmenskontaktsuche, an Hand der Domain bei öffentlichen E-Mail Providern nicht statt.
 </div>
 
 <div class="alert alert-warn">

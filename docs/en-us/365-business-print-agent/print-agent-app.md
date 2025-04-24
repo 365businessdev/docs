@@ -39,7 +39,8 @@ The app allows users to directly manage all **Secure Print jobs** that were crea
 ---
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note</strong> The app only works in combination with the paid <strong>Secure Print</strong> add-on of the 365 business Print Agent solution. Please check in the <strong>Extension License Management (365 business development)</strong> if your environment is licensed accordingly.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong> The app only works in combination with the paid <strong>Secure Print</strong> add-on of the 365 business Print Agent solution. Please check in the <strong>Extension License Management (365 business development)</strong> if your environment is licensed accordingly.
 </div>
 <br/>
 

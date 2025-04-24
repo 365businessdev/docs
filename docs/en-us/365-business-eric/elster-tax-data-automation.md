@@ -1,13 +1,15 @@
 # ELSTER Steuerdaten Automatisierung
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Info</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
 </div>
 
 Mit der **ELSTER Steuerdaten Automatisierung** können Sie wiederkehrende ELSTER Steuerdaten automatisiert erstellen und an die deutschen Steuerbehörden übermitteln. Damit sparen Sie Zeit und reduzieren den Aufwand für die Erstellung und Übermittlung von Steuerdaten.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong> Die Steuerdaten Automatisierung wird für die folgenden Steuerdatenarten unterstützt:<ul><li>Umsatzsteuervoranmeldung</li><li>Zusammenfassende Meldung</li></ul>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong> Die Steuerdaten Automatisierung wird für die folgenden Steuerdatenarten unterstützt:<ul><li>Umsatzsteuervoranmeldung</li><li>Zusammenfassende Meldung</li></ul>
 </div>
 
 ## So richten Sie die ELSTER Steuerdaten Automatisierung ein
@@ -40,7 +42,8 @@ Hiermit können Sie die Steuerdaten für die ELSTER Steuerdaten Automatisierung 
 Hiermit wird, nach erfolgter und erfolgreicher Übermittlung der Steuerdaten, die MwSt. für den aktuellen Monat abgerechnet und gebucht. 
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong> Nach Aktivierung der Option <strong>MwSt. abrechnen und buchen</strong>, wird die Berichtsanfrageseite des Berichts aufgerufen und erlaubt die Festlegung der Optionen.<br>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong> Nach Aktivierung der Option <strong>MwSt. abrechnen und buchen</strong>, wird die Berichtsanfrageseite des Berichts aufgerufen und erlaubt die Festlegung der Optionen.<br>
     <br>
     Bitte beachten Sie, dass einzelne Optionen, wie bspw. das Start-, End-, MwSt.- und Buchungsdatum, sowie die Belegnr. zur tatsächlichen Ausführungszeit aktualisiert werden.
 </div>

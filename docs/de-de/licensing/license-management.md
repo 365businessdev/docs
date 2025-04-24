@@ -70,7 +70,8 @@ Mit der Aktion **Lizenzinformationen aktualisieren** können Sie eine Aktualisie
 ### Testphase verlängern
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Gut zu wissen</strong> Jede 365 business development App wird mit einer Testphase von 30 Tagen bereitgestellt. Während dieser Testphase können Sie die App oder das Feature ohne Einschränkungen testen.<br>
+    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Gut zu wissen</strong> Jede 365 business development App wird mit einer Testphase von 30 Tagen bereitgestellt. Während dieser Testphase können Sie die App oder das Feature ohne Einschränkungen testen.<br>
     <br>
     Sie benötigen mehr Zeit?<br>
     Kein Problem! <a href="https://365businessdev.com/kontakt/" target="_blank">Kontaktieren</a> Sie uns gerne, bzgl. einer Verlängerung Ihrer Testphase.

@@ -20,7 +20,8 @@ In der Einrichtung müssen folgende Einstellungen angegeben werden:
 | **Standard Sprache** | Gibt den Standard Sprache für neue Abonnentenlisten an.|
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong>Nach der Hinterlegung des API Schlüssel wird dieser gegen die Mailchimp API geprüft und Ihre Mailchimp Kontoinformationen werden ermittelt.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Hinweis</strong>Nach der Hinterlegung des API Schlüssel wird dieser gegen die Mailchimp API geprüft und Ihre Mailchimp Kontoinformationen werden ermittelt.
 </div>
 
 ### Siehe auch

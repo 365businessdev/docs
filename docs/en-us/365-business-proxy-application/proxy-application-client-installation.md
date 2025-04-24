@@ -10,7 +10,8 @@
 - [365 business Proxy Application Client Installer](https://365businessapi.com/api/SoftwareDownload?AppId=da472ae3-fa8a-406f-bbea-c2aafd5f77d5)
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note</strong> To update your Proxy Application Client, download the <a href="https://365businessapi.com/api/SoftwareDownload?AppId=da472ae3-fa8a-406f-bbea-c2aafd5f77d5">latest version</a>. Your settings will be restored after the installation. 
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong> To update your Proxy Application Client, download the <a href="https://365businessapi.com/api/SoftwareDownload?AppId=da472ae3-fa8a-406f-bbea-c2aafd5f77d5">latest version</a>. Your settings will be restored after the installation. 
 </div>
 
 ## Before you start
@@ -18,7 +19,8 @@
 Please [read the article](proxy-application-whatis.md) to find out where to install the 365 business Proxy Application Client.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Good to know</strong> Please note that to complete the installation of the 365 business Proxy Application Client, you need to specify the <strong>Tenant ID</strong> of your Microsoft Dynamics 365 Business Central environment.<br>
+    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Good to know</strong> Please note that to complete the installation of the 365 business Proxy Application Client, you need to specify the <strong>Tenant ID</strong> of your Microsoft Dynamics 365 Business Central environment.<br>
     <br>
     You can find this information in the <strong>Proxy Application Setup</strong>.<br>
     <br>
@@ -36,7 +38,8 @@ Please [read the article](proxy-application-whatis.md) to find out where to inst
  6. *(Optional)* Enter a domain user and the password with which 365 business Proxy Application Client is to be operated.<br>
     ![Proxy Application Client Installation - Login](/assets/images/365-business-proxy-application/bd510f87-83cc-471f-a2e8-bb1ef9dc428a.png)
     <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note</strong> If you do not specify a user, 365 business Proxy Application Client will run in the <strong>Local System</strong> context.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong> If you do not specify a user, 365 business Proxy Application Client will run in the <strong>Local System</strong> context.
     </div>
  7. after the installation is complete, the service is started automatically and is immediately available in Microsoft Dynamics 365 Business Central, in the **Proxy Application Clients** page.
 

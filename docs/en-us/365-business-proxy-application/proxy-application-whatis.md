@@ -18,7 +18,8 @@ Communication between the proxy application client and the service is realized v
 ![Proxy Application Architecture](/assets/images/365-business-proxy-application/proxy-application-architecture.png)
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note</strong> The 365 business Proxy Application Cloud Service is hosted in Germany and does not store any data. The service acts as an intermediary and establishes a real-time connection to the Proxy Application Client.<br>Your data is completely secure and is never stored or analyzed for any reason.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong> The 365 business Proxy Application Cloud Service is hosted in Germany and does not store any data. The service acts as an intermediary and establishes a real-time connection to the Proxy Application Client.<br>Your data is completely secure and is never stored or analyzed for any reason.
 </div>
 
 | Component | Description |

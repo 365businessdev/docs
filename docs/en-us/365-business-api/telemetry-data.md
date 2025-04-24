@@ -27,7 +27,8 @@ Telemetry gathers following data:
 | sessionId | Unique session id (`GUID`). |
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note</strong>Additional dimensions may be sent automatically by Microsoft Dynamics 365 Business Central.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong>Additional dimensions may be sent automatically by Microsoft Dynamics 365 Business Central.
 </div>
 
 ### Custom dimensions

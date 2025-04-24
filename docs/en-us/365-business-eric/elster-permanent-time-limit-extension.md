@@ -1,7 +1,8 @@
 # Dauerfristverlängerung
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Info</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
 </div>
 
 Mit dem Antrag auf Dauerfristverlängerung möchte ein Unternehmer erreichen, dass sein Finanzamt ihm eine einmonatige Frist zur Abgabe seiner Umsatzsteuervoranmeldung gewährt. Eine genehmigte Dauerfristverlängerung gilt nicht nur für die dem Antrag folgende Umsatzsteuervoranmeldung, sondern für sämtliche dem Antrag folgenden Umsatzsteuervoranmeldungen. Sie gilt nicht für die Zusammenfassende Meldung. Der Antrag auf Dauerfristverlängerung ist jedoch nicht zulässig für die Umsatzsteuerjahreserklärung.

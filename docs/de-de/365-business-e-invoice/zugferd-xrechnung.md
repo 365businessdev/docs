@@ -28,7 +28,8 @@ Darüber hinaus enthält die XRechnung-Datei deutschlandspezifische Inhalte (vor
 Seit der Einführung von ZUGFeRD 2.1.1 im Juli 2020 sind ZUGFeRD und XRechnung vollständig kompatibel.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Gut zu wissen</strong>365 business E-Invoice erstellt ZUGFeRD 2.3.0 Dateien im EXTENDED Profil und ist damit vollständig kompatibel mit XRechnung. Für die Verarbeitung von eingehenden XRechnung-Dateien ist daher keine zusätzliche Konfiguration erforderlich.
+    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Gut zu wissen</strong>365 business E-Invoice erstellt ZUGFeRD 2.3.0 Dateien im EXTENDED Profil und ist damit vollständig kompatibel mit XRechnung. Für die Verarbeitung von eingehenden XRechnung-Dateien ist daher keine zusätzliche Konfiguration erforderlich.
 </div>
 
 # Was ist Factur-X?

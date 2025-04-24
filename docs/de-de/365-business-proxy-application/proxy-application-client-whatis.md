@@ -5,7 +5,8 @@ Der 365 business Proxy Application Client ist ein Windows Dienst, der die instal
 Jeder Proxy Application Client wird anhand einer Client-ID (GUID) identifiziert und führt die an ihn adressierten Aufträge, über die installierten [Plugins](plugins.md) aus.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Gut zu wissen</strong>Standardmäßig wird der Proxy Application Client im Kontext <strong>Lokales System</strong> ausgeführt, je nach installiertem Plugin (z.B. File-Plugin) kann die Ausführung im Domänenkontext jedoch notwendig werden.
+    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Gut zu wissen</strong>Standardmäßig wird der Proxy Application Client im Kontext <strong>Lokales System</strong> ausgeführt, je nach installiertem Plugin (z.B. File-Plugin) kann die Ausführung im Domänenkontext jedoch notwendig werden.
 </div>
 
 <br/>

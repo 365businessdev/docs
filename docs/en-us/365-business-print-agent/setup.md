@@ -30,7 +30,8 @@ The **Print Agent Setup** contains the configuration for the communication betwe
 ## Set up direct connection as service mode
 
 <div class="alert alert-info">
-	<i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note:</strong>
+	<i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong>
 	Support for multiple Print Agent Service Instances was introduced with version 18.2 of the 365 business Print Agent.<br>
 	Please make sure you are using the latest version to use this feature.
 </div>

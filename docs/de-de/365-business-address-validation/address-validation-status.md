@@ -9,7 +9,8 @@ Als Teil der 365 business Address Validation App wird das Rollencenter *Adressva
 Mit einem Klick auf die jeweiligen Stapel, oder über die Suche  gelangen Sie in Ansicht **Status der Adressvalididerung**, welche die geprüften und ungeprüften Adressdaten anzeigt.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong>Über den Status der Adressvalidierung werden ausschließlich Tabellen überwacht, für die, die Adressvalidierung in der <a href="setup.md">Einrichtung für Adressvalidierung</a> aktiviert ist.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Hinweis</strong>Über den Status der Adressvalidierung werden ausschließlich Tabellen überwacht, für die, die Adressvalidierung in der <a href="setup.md">Einrichtung für Adressvalidierung</a> aktiviert ist.
 </div>
 
 ![Status der Adressvalidierung](/assets/images/365-business-address-validation/address-validation-status.de-DE.png)

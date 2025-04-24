@@ -1,7 +1,8 @@
 # ELSTER Steuerdaten
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Info</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
 </div>
 
 Unter **ELSTER Steuerdaten** werden alle Anträge und Einreichungen zu [ELSTER Steuerdatenarten](elster-tax-data-type.md) zusammengefasst. 
@@ -48,7 +49,8 @@ Darüber hinaus werden auch die Rückmeldungen der ELSTER Server, nach erfolgter
  - **Übertragungsbestätigung**<br>Hierbei handelt es sich um eine PDF-Datei, die das Steuerdatendokument repräsentiert und die übermittelten Werte enthält. Dieses Dokument dient zum Nachweis der erfolgten Übertragung.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong> Abweichend zu den sonstigen Steuerdatenarten wird bei der Steuerdatenart <b>One-Stop-Shop (OSS)</b> keine XML-Datei erstellt und es steht aktuell keine elektronische Übermittlung zur Verfügung.<br>Stattdessen wird für die Steuerdatenart <b>One-Stop-Shop (OSS)</b> eine CSV-Datei erstellt, welche im Onlineportal "Mein BOP" importiert werden kann.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong> Abweichend zu den sonstigen Steuerdatenarten wird bei der Steuerdatenart <b>One-Stop-Shop (OSS)</b> keine XML-Datei erstellt und es steht aktuell keine elektronische Übermittlung zur Verfügung.<br>Stattdessen wird für die Steuerdatenart <b>One-Stop-Shop (OSS)</b> eine CSV-Datei erstellt, welche im Onlineportal "Mein BOP" importiert werden kann.
 </div>
 
 # Siehe auch

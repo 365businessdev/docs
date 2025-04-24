@@ -19,12 +19,14 @@ To do this, follow these steps:
 </div>
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note:</strong>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong>
 	Depending on the number of print jobs being migrated, the migration process can take <b>several hours</b>. You will be informed about the progress throughout.
 </div>
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note:</strong>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong>
     You can change the <b>database type</b> at any time.
 </div>
 

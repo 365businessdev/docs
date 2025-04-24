@@ -3,7 +3,8 @@
 Die Apps von 365 business development werden auf Basis von Lizenzen bereitgestellt. Es gibt verschiedene Lizenzmethoden, die Sie für Ihre Anforderungen nutzen können. Die Lizenzierung erfolgt auf Basis von Benutzer-, Mandanten- oder Tenantlizenzen. In diesem Abschnitt erfahren Sie mehr über die verschiedenen Lizenzmethoden.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Gut zu wissen</strong> Die angebotenen Lizenzmethoden können, abhängig von der App oder dem Feature, variieren.<br>Bitte prüfen Sie das Angebot auf <a href="https://365businessdev.com" target="_blank">unserer Webseite</a> oder <a href="https://365businessdev.com/kontakt/" target="_blank">kontaktieren</a> Sie uns für weitere Informationen.
+    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Gut zu wissen</strong> Die angebotenen Lizenzmethoden können, abhängig von der App oder dem Feature, variieren.<br>Bitte prüfen Sie das Angebot auf <a href="https://365businessdev.com" target="_blank">unserer Webseite</a> oder <a href="https://365businessdev.com/kontakt/" target="_blank">kontaktieren</a> Sie uns für weitere Informationen.
 </div>
 
 ## Benutzerlizenz

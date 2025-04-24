@@ -1,7 +1,8 @@
 # UStVA - Umsatzsteuervoranmeldung
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Info</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
 </div>
 
 Umsatzsteuervoranmeldungen müssen von Unternehmern monatlich oder vierteljährlich abgegeben werden, um eine bereits entstandene Umsatzsteuer an das Finanzamt zu melden und abzuführen bzw. bei einem Vorsteuerüberschuss erstattet zu bekommen.
@@ -46,7 +47,8 @@ Weitere Informationen finden Sie [hier](elster-tax-statements.md#dateien).
 Im Infobox-Bereich **MwSt.-Abrechnungszeilen** werden die für die ausgewählte Steuerdatenzeile verwendeten MwSt.-Abrechnungszeilen, inkl. der Betragsart und dem Betrag, angezeigt.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Wichtiger Hinweis</strong> Der Betrag, entweder der MwSt.-Betrag oder die Bemessungsgrundlage, der Zeile in der MwSt.-Abrechnung. Bitte beachten Sie, dass dieser Betrag zum Zeitpunkt der Berechnung der ELSTER-Steuererklärung berechnet wird und der aktuelle Betrag in der MwSt.-Abrechnung abweichen kann.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong> Der Betrag, entweder der MwSt.-Betrag oder die Bemessungsgrundlage, der Zeile in der MwSt.-Abrechnung. Bitte beachten Sie, dass dieser Betrag zum Zeitpunkt der Berechnung der ELSTER-Steuererklärung berechnet wird und der aktuelle Betrag in der MwSt.-Abrechnung abweichen kann.
 </div>
 
 ### ELSTER Übertragung

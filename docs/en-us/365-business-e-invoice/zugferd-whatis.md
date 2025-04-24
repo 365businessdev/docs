@@ -27,5 +27,6 @@ By supporting the ZUGFeRD standard, our solution streamlines the invoicing proce
 ![365 business E-Invoice Overview](/assets/images/365-business-e-invoice/e-invoice-overview_en-US.png)
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Good to know</strong> In addition to integration via Microsoft 365 mailboxes, other service integrations through other service providers can also be used. Feel free to contact us.
+    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Good to know</strong> In addition to integration via Microsoft 365 mailboxes, other service integrations through other service providers can also be used. Feel free to contact us.
 </div>

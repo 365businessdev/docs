@@ -1,7 +1,8 @@
 # Umsatzsteuererklärung
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong> Die Berechnung und Übermittlung von Umsatzsteuererklärungen wurden mit der 365 business ERiC Version 17.6 eingeführt.<br>Bitte prüfen Sie, ob Sie über die aktuellste Version von 365 business ERiC verfügen.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Hinweis</strong> Die Berechnung und Übermittlung von Umsatzsteuererklärungen wurden mit der 365 business ERiC Version 17.6 eingeführt.<br>Bitte prüfen Sie, ob Sie über die aktuellste Version von 365 business ERiC verfügen.
 </div>
 
 Die Umsatzsteuererklärung hat jedes Unternehmen bzw. jeder umsatzsteuerpflichtige und selbständig Tätige einmal im Jahr zu erstellen. Bei der Umsatzsteuererklärung werden alle Formen des entgeltlichen Tätigwerdens eines Unternehmens erfasst. Umsatzsteuern fallen sowohl auf Verkäufe als auch auf Dienstleistungen an. Die Abgabefrist ist der 31. Mai des Folgejahres.

@@ -13,7 +13,8 @@ Die Adressvalidierung kann dabei über verschiedene Wege ausgeführt werden:
  - Ausführung der Stapelverarbeitung (bspw. *Kontaktadressen prüfen*).
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong> Die automatische Validierung bei Adressänderung / -eingabe wird nur ausgeführt, wenn die <a href="address-prediction.md">Adressvorhersage</a> nicht verwendet wurde.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Hinweis</strong> Die automatische Validierung bei Adressänderung / -eingabe wird nur ausgeführt, wenn die <a href="address-prediction.md">Adressvorhersage</a> nicht verwendet wurde.
 </div>
 
 ## Wie kann ich die Adressdaten prüfen, bevor diese angewandt werden?

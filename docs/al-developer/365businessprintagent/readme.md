@@ -304,7 +304,8 @@ Event raised when a printer goes offline.
 | `status` | Current status of the printer, e.g. 'Not available' of 'Offline'. |
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Good to know</strong>Status can be a comma separated list of status values. Refer to Enum 'bdev.Printer Status' for list of possible status.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong>Status can be a comma separated list of status values. Refer to Enum 'bdev.Printer Status' for list of possible status.
 </div>
 
 #### `PrinterFailureEvent(Text, Text, Text)`
@@ -320,5 +321,6 @@ Event raised when a printer goes into failure mode.
 | `status` | Current status of the printer, e.g. 'Low Toner'. |
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Good to know</strong>Status can be a comma separated list of status values. Refer to Enum 'bdev.Printer Status' for list of possible status.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong>Status can be a comma separated list of status values. Refer to Enum 'bdev.Printer Status' for list of possible status.
 </div>

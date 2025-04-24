@@ -18,7 +18,8 @@ Die Kommunikation zwischen dem Proxy Application Client und dem Service wird üb
 ![Proxy Application Architektur](/assets/images/365-business-proxy-application/proxy-application-architecture.png)
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong> Der 365 business Proxy Application Cloud Service wird in Deutschland gehostet und speichert keinerlei Daten. Der Dienst fungiert wie ein Vermittler und stellt eine Echtzeit-Verbindung zum Proxy Application Client her.<br>Ihre Daten sind absolut sicher und werden niemals gespeichert oder aus irgendeinem Grund analysiert.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Hinweis</strong> Der 365 business Proxy Application Cloud Service wird in Deutschland gehostet und speichert keinerlei Daten. Der Dienst fungiert wie ein Vermittler und stellt eine Echtzeit-Verbindung zum Proxy Application Client her.<br>Ihre Daten sind absolut sicher und werden niemals gespeichert oder aus irgendeinem Grund analysiert.
 </div>
 
 | Komponente | Beschreibung |

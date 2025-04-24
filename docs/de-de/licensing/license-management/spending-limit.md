@@ -19,5 +19,6 @@ Einige Apps oder Features verfügen über eine inkludierte Anzahl an Nutzungen (
 3. Wählen Sie **OK** um die Ausgabengrenze zu aktualisieren.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Gut zu wissen</strong> Um die Ausgabengrenze aufzuheben, geben Sie den Wert <strong>0,00</strong> ein.
+    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Gut zu wissen</strong> Um die Ausgabengrenze aufzuheben, geben Sie den Wert <strong>0,00</strong> ein.
 </div>

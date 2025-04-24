@@ -3,7 +3,8 @@
 In dieser Kurzanleitung wird erklärt, wie Sie eine Sanktionslistenprüfung für einen Debitor in Microsoft Dynamics 365 Business Central durchführen. Grundsätzlich ist dabei der Aufbau in allen unterstützten Entitäten (z.B. Kreditor, Kontakt, Mitarbeiter) identisch und kann entsprechend dieser Kurzanleitung angewandt werden.
 
 <div class="alert alert-info">
-	<i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong>Zur optimalen Gewährleistung der Sanktionslistenprüfung empfehlen wir, die Prüfintervalle der einzelnen Entitäten (z.B. Debitor) in der <strong>Sanction Screen Einrichtung</strong> zu konfigurieren und die <a href="automated-screening.md">automatisierte Prüfung</a> zu verwenden.
+	<i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Hinweis</strong>Zur optimalen Gewährleistung der Sanktionslistenprüfung empfehlen wir, die Prüfintervalle der einzelnen Entitäten (z.B. Debitor) in der <strong>Sanction Screen Einrichtung</strong> zu konfigurieren und die <a href="automated-screening.md">automatisierte Prüfung</a> zu verwenden.
 </div>
 
 ## Voraussetzungen
@@ -34,7 +35,8 @@ Wenn im Rahmen der Sanktionsprüfung keine Treffer gefunden wurden, wird in der 
 ![Sanktionsprüfungsergebnisse - Keine Treffer gefunden](/assets/images/365-business-sanction-screen/sanctionscreen.indicator-good.de-DE.png)
 
 <div class="alert alert-info">
-	<i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong>Sofern der Datensatz bislang noch nicht geprüft wurde, wird dies ebenfalls entsprechend in der Infobox dargestellt. Führen Sie in diesem Fall die Sanktionslistenprüfung für den Datensatz durch, bzw. warten Sie, bis die <a href="automated-screening.md">automatisierte Prüfung</a> durchgeführt wurde.
+	<i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Hinweis</strong>Sofern der Datensatz bislang noch nicht geprüft wurde, wird dies ebenfalls entsprechend in der Infobox dargestellt. Führen Sie in diesem Fall die Sanktionslistenprüfung für den Datensatz durch, bzw. warten Sie, bis die <a href="automated-screening.md">automatisierte Prüfung</a> durchgeführt wurde.
 </div>
 
 ## Schritt 3: Sanktionslistenprüfung für einen Debitor durchführen
@@ -44,7 +46,8 @@ Wenn im Rahmen der Sanktionsprüfung keine Treffer gefunden wurden, wird in der 
 3. Wählen Sie die Aktion **Sanktionsprüfung...** aus.
 
 <div class="alert alert-info">
-	<i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong>War die Sanktionslistenprüfung erfolgreich und es wurden keine möglichen Übereinstimmungen gefunden erscheint folgende Meldung:<br>
+	<i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Hinweis</strong>War die Sanktionslistenprüfung erfolgreich und es wurden keine möglichen Übereinstimmungen gefunden erscheint folgende Meldung:<br>
     <img src="/assets/images/365-business-sanction-screen/sanctionscreen-no-matches-message.de-DE.png"><br>
     In diesem Fall ist keine weitere Bearbeitung notwendig.
 </div>
@@ -59,7 +62,8 @@ Wenn im Rahmen der Sanktionsprüfung keine Treffer gefunden wurden, wird in der 
 3. Wählen Sie den **Sanktionstreffer** aus, um weitere Informationen zu erhalten.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Gut zu wissen</strong>In der Detailansicht des Sanktionstrefferposten können Sie über die Aktion <strong>Zusätzliche Informationen abrufen...</strong> weitere Informationen, wie den Sanktionsgrund, die sanktionierende Behörde und mehr abrufen.
+    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Gut zu wissen</strong>In der Detailansicht des Sanktionstrefferposten können Sie über die Aktion <strong>Zusätzliche Informationen abrufen...</strong> weitere Informationen, wie den Sanktionsgrund, die sanktionierende Behörde und mehr abrufen.
 </div>
 
 ### Schritt 3.2: Sanktionslistentreffer bearbeiten
@@ -69,7 +73,8 @@ Wenn im Rahmen der Sanktionsprüfung keine Treffer gefunden wurden, wird in der 
    ![Treffer auf die Whitelist setzen](/assets/images/365-business-sanction-screen/sanctionscreen-whitelist-entry.de-DE.png)
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Gut zu wissen</strong>Der Berechtigungssatz <strong>Sanktionsprüfung - Whitelist</strong> wird benötigt, um einen Sanktionstrefferposten auf die Whitelist zu setzen.
+    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Gut zu wissen</strong>Der Berechtigungssatz <strong>Sanktionsprüfung - Whitelist</strong> wird benötigt, um einen Sanktionstrefferposten auf die Whitelist zu setzen.
 </div>
 
 # Siehe auch

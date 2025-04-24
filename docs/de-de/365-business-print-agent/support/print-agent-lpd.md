@@ -3,7 +3,8 @@
 Der **365 business Print Agent** unterstützt die Kommunikation über das **Line Printer Daemon Protocol (LPD)** für alle Drucker, die **ZPL (Zebra Programming Language)** emulieren.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis:</strong>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Hinweis</strong>
 	Das <b>Line Printer Daemon Protocol (LPD)</b> ist ein Netzwerkprotokoll, das ursprünglich in den 1980er Jahren von der University of California, Berkeley entwickelt wurde.
 	Es dient zur Verwaltung und Übertragung von Druckaufträgen über ein Netzwerk, insbesondere in UNIX-Umgebungen.
 </div>
@@ -37,6 +38,7 @@ lpr -S 10.1.0.10 -P "ZDesigner ZD420-203dpi ZPL" -o l "c:\Users\Administrator\Do
 ---
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Wichtig:</strong>
+    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Gut zu wissen</strong>
 	Achten Sie darauf, dass der Druckername korrekt angegeben ist.
 </div>

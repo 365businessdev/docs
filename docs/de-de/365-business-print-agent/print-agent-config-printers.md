@@ -9,7 +9,8 @@ In der Spalte **Emulation** wählen Sie zwischen:
 - **SATO (SBPL)**
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis:</strong>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Hinweis</strong>
 	Wählen Sie <b>Zebra (ZPL) / SATO (SBPL)</b> als Emulation, wenn es sich um einen Drucker der Marke Zebra bzw. SATO handelt und und Sie <b>Performance Probleme</b> beim Drucken haben. 
 	Durch die Umstellung wird der Druckvorgang meist beschleunigt, da die Umwandlung nicht vom Drucker, sondern vom <b>365 business Print Agent</b> übernommen wird.
 </div>
@@ -19,12 +20,14 @@ Beim Auswählen eines Druckers sehen Sie weitere Informationen im unteren Bereic
 ![Druckerverwaltung](/assets/images/365-business-print-agent/config-tool/Printer.PNG)  
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis:</strong>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Hinweis</strong>
 	Die Spalte <b>Status</b> zeigt den aktuellen Status des jeweiligen Druckers an.
 </div>
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Wichtig:</strong>
+    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Gut zu wissen</strong>
 	Bestimmte <b>Status</b> verhindern die Auswahl eines Druckers:
 <style>
 
@@ -60,11 +63,13 @@ table tr:nth-child(even) td{
 </div>
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis:</strong>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Hinweis</strong>
 	Bei <b>Zebra-Druckern</b> müssen die Einstellungen für alle Benutzer vorgenommen werden. Eine Anleitung zur Einrichtung finden Sie <a href="support/setup-zebra-default-settings.md">hier</a>.
 </div>
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis:</strong>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Hinweis</strong>
 	Drucker der Serie <b>"Microsoft XPS"</b> benötigen zusätzliche Konfiguration, da es sich nicht um physische Geräte handelt. Weitere Informationen dazu finden Sie <a href="support/setup-xps-printer.md">hier</a>.
 </div>

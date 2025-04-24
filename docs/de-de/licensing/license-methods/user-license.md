@@ -25,7 +25,8 @@ Die Anzahl der zu lizenzierenden Benutzer wird, abhängig vom Umgebungstyp (sieh
 Bei der Identifizierung der zu lizenzierenden Benutzer werden alle aktiven Benutzer (`Status` = `Aktiviert`) in der Business Central Umgebung geprüft. Diese Prüfung erfolgt u.U. unabhängig davon, ob der Benutzer tatsächlich auf die Apps und Features von 365 business development zugreift. Die Benutzer werden im Anschluss auf die zugewiesenen Microsoft Dynamics 365 Business Central Lizenzen (Plan) hin überprüft.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Gut zu wissen</strong> Die Lizenzierung von Benutzern für die Apps und Features von 365 business development richtet sich nach der tatsächlichen Anzahl an Benutzern in der Microsoft Dynamics 365 Business Central Umgebung. Dabei finden geteilte Microsoft Dynamics 365 Business Central Lizenzen (z.B. Device plan) keine Berücksichtigung. Es werden ausschließlich die tatsächlich lizenzierten Benutzer gezählt, unabhängig davon, ob eine geteilte oder exklusive Lizenz vorliegt.
+    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Gut zu wissen</strong> Die Lizenzierung von Benutzern für die Apps und Features von 365 business development richtet sich nach der tatsächlichen Anzahl an Benutzern in der Microsoft Dynamics 365 Business Central Umgebung. Dabei finden geteilte Microsoft Dynamics 365 Business Central Lizenzen (z.B. Device plan) keine Berücksichtigung. Es werden ausschließlich die tatsächlich lizenzierten Benutzer gezählt, unabhängig davon, ob eine geteilte oder exklusive Lizenz vorliegt.
 </div>
 
 Lizenzpflichtig sind Benutzer mit den folgenden Plänen:
@@ -39,7 +40,8 @@ Lizenzpflichtig sind Benutzer mit den folgenden Plänen:
  - Dynamics 365 Business Central for IWs plan
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Gut zu wissen</strong> Benutzer mit den folgenden Plänen sind nicht lizenzpflichtig:
+    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Gut zu wissen</strong> Benutzer mit den folgenden Plänen sind nicht lizenzpflichtig:
     <ul>
         <li>Delegated Admin agent - Partner plan</li>
         <li>Delegated Helpdesk agent - Partner plan</li>

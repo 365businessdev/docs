@@ -8,7 +8,8 @@ Aus diesem Grund verhindert der 365 business Print Agent die Nutzung inkompatibl
 Wenn Sie dennoch Tests mit einem virtuellen Drucker durchführen möchten, empfehlen wir die Einrichtung eines **individuell installierten Microsoft XPS Document Writer (MXDW)**.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Wichtig</strong>
+    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Gut zu wissen</strong>
 	Virtuelle Drucker lösen in der Regel einen <b>Speichern unter</b>-Dialog aus, um einen Dateipfad auszuwählen.<br>
 	Da Druckaufträge durch den 365 business Print Agent im Kontext des <b>lokalen Systemkontos</b> verarbeitet werden, ist die Anzeige solcher Dialoge nicht möglich – was zu Fehlern führt.<br><br>
 	Um das zu umgehen, ist die manuelle Einrichtung eines virtuellen Druckers mit festem Ausgabepfad erforderlich.
@@ -40,7 +41,8 @@ Nachfolgend finden Sie die empfohlene Vorgehensweise zur Einrichtung eines **vir
 ---
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Gut zu wissen:</strong>
+    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Gut zu wissen</strong>
 	Stellen Sie sicher, dass das in Schritt 5 angegebene Verzeichnis <b>Lese- und Schreibrechte</b> für den Benutzer besitzt, unter dem der 365 business Print Agent Dienst ausgeführt wird.<br>  
 	Zum Testen kann es sinnvoll sein, den Dienst temporär mit einem Benutzerkonto auszuführen, das Zugriff auf den Pfad besitzt.
 </div>

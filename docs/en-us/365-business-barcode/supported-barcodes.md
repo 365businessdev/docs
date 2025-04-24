@@ -27,5 +27,6 @@ The following barcode types are currently supported:
 | UPC-E | Yes | Yes | No | Yes | No |
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Good to know</strong> Some barcode types, such as QR codes, can be customized by embedding images, for example.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong> Some barcode types, such as QR codes, can be customized by embedding images, for example.
 </div>

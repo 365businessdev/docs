@@ -20,5 +20,6 @@ Some apps or features include a certain number of uses (e.g., number of barcodes
 3. Select **OK** to update the spending limit.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Good to know</strong> To remove the spending limit, enter the value <strong>0.00</strong>.
+    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Good to know</strong> To remove the spending limit, enter the value <strong>0.00</strong>.
 </div>

@@ -10,13 +10,15 @@
 - [365 business Print Agent Service Installer](https://365businessapi.com/api/SoftwareDownload?AppId=c2e7d99c-d3c6-4ecc-9c6b-7be4048b41a9)
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Important:</strong>
+    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Good to know</strong>
 	If you use the Print Agent in the <b>Direct Connection</b>, make sure that the service port is accessible from your Dynamics 365 Business Central tenant.<br>
 	For SaaS environments, we strongly recommend the use of **Print Agent Cloud**.
 </div>
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note:</strong>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong>
 	To update your Print Agent Service download the <a href="https://365businessapi.com/api/SoftwareDownload?AppId=c2e7d99c-d3c6-4ecc-9c6b-7be4048b41a9">current version</a> and install it - your <b>previous settings will be retained</b>.
 </div>
 
@@ -25,7 +27,8 @@
 Please read the [article](print-agent-whatis.md#architecture) to find out how to choose the right connection type for your scenario.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Remarks:</strong>
+    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Good to know</strong>
 	Enabling <b>network printers</b> can lead to <b>timeouts</b>, as the response times over the network are longer. <br>
 	This behavior is a limitation of Windows printer management and cannot be completely circumvented by the 365 business Print Agent.<br><br>
 	<b>Recommendation:</b> Install the Print Agent <b>directly on the print server</b> and share locally installed printers there - instead of accessing shared printers from a remote server.
@@ -76,7 +79,8 @@ To connect Print Agent Service and your Microsoft Dynamics 365 Business Central 
 ## Setup: Direct Connection
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Important:</strong>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong>
 	Ensure that the service URL and port are reachable from your Dynamics 365 Business Central environment.<br>
 	For SaaS, we recommend using the <b>Print Agent Cloud</b> Mode.
 </div>

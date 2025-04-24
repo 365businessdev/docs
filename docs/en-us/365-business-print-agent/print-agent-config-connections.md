@@ -32,13 +32,15 @@ Once it closes and the **Service Status** shows a green checkmark, the setup is 
 ![Settings-Cloud](/assets/images/365-business-print-agent/config-tool/Settings_Cloud_en.PNG)
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Important:</strong>
+    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Good to know</strong>
 	Please make sure the steps are followed in the correct order.<br/>
     The installation and setup of the 365 business Print Agent App in Microsoft Dynamics 365 Business Central <strong>must be completed before</strong> configuring it in the 365 business Print Agent Config Tool.
 </div>
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note:</strong>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong>
 	If your organization requires a <b>Proxy</b> for outbound internet traffic, please refer to this <a href="support/print-agent-proxy.md">support article</a>.
 </div>
 
@@ -67,13 +69,15 @@ Once closed and the **Service Status** shows a green checkmark, the configuratio
 ![Settings-Server](/assets/images/365-business-print-agent/config-tool/Settings_Server_en.PNG)
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Important:</strong>
+    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Good to know</strong>
 	The 365 business Print Agent Server is now completed!<br>
 	However, to make the server accessible outside your network, additional steps are required (e.g., firewall and routing configuration). Please contact your IT department or system administrator.
 </div>
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note:</strong>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong>
 	The server can optionally run using the <strong>HTTPS</strong> protocol.<br/>
 	Click <b>HTTPS Configuration</b> and choose from three certificate options:
 	* PFX file
@@ -85,6 +89,7 @@ Once closed and the **Service Status** shows a green checkmark, the configuratio
 </div>
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note:</strong>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong>
 	If your organization requires a <b>Proxy</b> for outbound internet traffic, please refer to this <a href="support/print-agent-proxy.md">support article</a>.
 </div>

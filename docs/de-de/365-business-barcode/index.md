@@ -37,7 +37,8 @@
 </div>
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Gut zu wissen</strong> 365 business Barcode kann kostenlos und unverbindlich für 30 Tage getestet werden.<br>Sie brauchen mehr Zeit? Kein Problem, sprechen Sie uns einfach an!
+    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Gut zu wissen</strong> 365 business Barcode kann kostenlos und unverbindlich für 30 Tage getestet werden.<br>Sie brauchen mehr Zeit? Kein Problem, sprechen Sie uns einfach an!
 </div>
 
 ## Funktionen im Überblick

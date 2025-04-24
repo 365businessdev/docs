@@ -1,7 +1,8 @@
 # Sicheres Drucken (Secure Print)
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Gut zu wissen:</strong>
+    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Gut zu wissen</strong>
 	Das <strong>Secure Print</strong>-Feature für den 365 business Print Agent ist ein kostenpflichtiges Add-On.<br>
 	Bitte prüfen Sie in der <strong>Erweiterungslizenzverwaltung (365 business development)</strong>, ob Sie eine gültige Lizenz für dieses Feature besitzen.
 </div>
@@ -31,7 +32,8 @@ Diese Verknüpfung ist notwendig, um Druckaufträge einem Benutzer eindeutig zuz
 
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis:</strong>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Hinweis</strong>
 	Die Entra ID Objekt-ID finden Sie in der Microsoft Entra Verwaltung.<br>
 	Eine Anleitung zur Suche der Objekt-ID finden Sie <a href="https://learn.microsoft.com/de-de/partner-center/account-settings/find-ids-and-domain-names#find-the-user-object-id" target="_blank">hier</a>.
 </div>
@@ -52,7 +54,8 @@ Nach der Benutzerzuordnung können Sie Secure Print für einzelne Drucker aktivi
 Nach der Aktivierung werden alle Druckaufträge für diesen Drucker gespeichert und müssen über die Print Agent App auf einem Mobilgerät freigegeben werden.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Gut zu wissen:</strong>
+    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Gut zu wissen</strong>
 	Nur Benutzer, die für Secure Print eingerichtet wurden, können Druckereinstellungen mit aktivierter Secure Print Funktion verwenden.
 </div>
 

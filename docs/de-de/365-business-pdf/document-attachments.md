@@ -11,7 +11,8 @@ Die Beleganhänge finden Sie über die Aktion **Beleganhänge**. Hier können Si
 3. Klicken Sie auf **Beleganhänge**.
 4. Wählen Sie im Feld **Art** aus ob es sich um einen Anhang oder den eigentlichen Beleg handelt.<br>
    <div class="alert alert-notice">
-       <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Gut zu wissen</strong>Wenn Sie keine Zeile mit der Art **Beleg** erfassen, wird der eigentliche Beleg automatisch an das Ende des Dokuments angehangen.
+       <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Gut zu wissen</strong>Wenn Sie keine Zeile mit der Art **Beleg** erfassen, wird der eigentliche Beleg automatisch an das Ende des Dokuments angehangen.
    </div>
 5. Wählen Sie die PDF-Datei aus, die Sie anhängen möchten.
 

@@ -9,7 +9,8 @@ title: 365 business Print Agent Changelog
  - Identify and warn for multiple printer extensions installed.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Important</strong> To enable print profile support, update the 365 business Print Agent service to version 1.5.13.16761 or later.<br><br>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong> To enable print profile support, update the 365 business Print Agent service to version 1.5.13.16761 or later.<br><br>
     <a href="https://365businessapi.com/api/SoftwareDownload?AppId=c2e7d99c-d3c6-4ecc-9c6b-7be4048b41a9">Get latest version</a>.
 </div>
 
@@ -79,7 +80,8 @@ title: 365 business Print Agent Changelog
  - Task #2762 - Add 90°, 180° and 270° rotation support.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Important</strong> Asynchronous print job executing is implemented with 365 business Print Agent service 1.4.0.0 and later. Please update 365 business Print Agent service instances to enable asynchronous print job execution.<br><br>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong> Asynchronous print job executing is implemented with 365 business Print Agent service 1.4.0.0 and later. Please update 365 business Print Agent service instances to enable asynchronous print job execution.<br><br>
     <a href="https://365businessapi.com/api/SoftwareDownload?AppId=c2e7d99c-d3c6-4ecc-9c6b-7be4048b41a9">Get latest version</a>.
 </div>
 

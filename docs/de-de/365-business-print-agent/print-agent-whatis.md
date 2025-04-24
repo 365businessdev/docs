@@ -12,7 +12,8 @@ Er besteht im Wesentlichen aus mindestens zwei Komponenten:
 - Dem [Print Agent Service (Connector)](print-agent-client-whatis.md), einem Windows-Dienst
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Wichtig:</strong>365 business Print Agent unterstützt jeden Drucker mit Microsoft Windows-kompatiblen Treibern oder Druckersoftware.
+    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Gut zu wissen</strong>365 business Print Agent unterstützt jeden Drucker mit Microsoft Windows-kompatiblen Treibern oder Druckersoftware.
 </div>
 
 ## Architektur
@@ -20,7 +21,8 @@ Er besteht im Wesentlichen aus mindestens zwei Komponenten:
 365 business Print Agent kann in zwei verschiedenen, so genannten Service-Modi betrieben werden, der **365 business Print Agent Cloud** und dem **Direct Connection** Modus.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis:</strong>Der Print Agent Service und die App unterstützen beide Service-Modi. Ein Wechsel des Modus ist jederzeit möglich.<br>Bitte beachten Sie: Vor einem Wechsel müssen bestehende Konfigurationen in Microsoft Dynamics 365 Business Central entfernt werden.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Hinweis</strong>Der Print Agent Service und die App unterstützen beide Service-Modi. Ein Wechsel des Modus ist jederzeit möglich.<br>Bitte beachten Sie: Vor einem Wechsel müssen bestehende Konfigurationen in Microsoft Dynamics 365 Business Central entfernt werden.
 </div>
 
 #### Print Agent Cloud _(empfohlen)_
@@ -33,7 +35,8 @@ Die Kommunikation zwischen dem Print Agent Service und der Cloud wird über mode
 ![365 business Print Agent - Cloud Architektur](/assets/images/365-business-print-agent/595f77629b38af2a850494a4d1c0e75ab37d0bde234e206a427cfe5dc37d3180.png)
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis:</strong>Der 365 business Print Agent Cloud Service wird in Deutschland gehostet.<br>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Hinweis</strong>Der 365 business Print Agent Cloud Service wird in Deutschland gehostet.<br>
 	Es werden </strong>keine Druckaufträge oder Druckerdaten gespeichert</strong>. (Ausnahme bei der Nutzung von <strong>Secure Print</strong>!)<br>
 	Der Service fungiert ausschließlich als Vermittler in Echtzeit.  
 </div>

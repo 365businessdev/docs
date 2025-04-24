@@ -28,7 +28,8 @@ For each supported action, such as signing, chaining and stationery, there is a 
 There are no costs for you and the trial period ends automatically.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>How it's done</strong> Learn more about the for the 365 business API and start your free and non-binding test phase.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong> Learn more about the for the 365 business API and start your free and non-binding test phase.
 </div>
 
 ### What are the costs of use?
@@ -37,5 +38,6 @@ The 365 business API services are charged on a usage base after the free and non
 For example, if you have the stationery applied to 1,000 documents, the cost is 100 euros (as of May 2022).
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note</strong> The current prices can be found on our <a href="https://365businessdev.com/cloud/preise/pdf/">website</a>.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong> The current prices can be found on our <a href="https://365businessdev.com/cloud/preise/pdf/">website</a>.
 </div>

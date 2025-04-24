@@ -14,7 +14,8 @@ Die Einrichtung findet in der Seite **PDF Briefpapier Konfigurationen** statt. H
 6. Wählen Sie im Feld **Briefpapierart**, an welche Stelle das Briefpapier angewandt werden soll.
 7. Wählen Sie den **PDF-Datei Code** für die PDF-Datei aus, die Sie als Briefpapier verwenden möchten.
    <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong> PDF-Dateien müssen vor der Verwendung in der Seite <a href="pdf-files.md">PDF-Dateien</a> angelegt werden.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Hinweis</strong> PDF-Dateien müssen vor der Verwendung in der Seite <a href="pdf-files.md">PDF-Dateien</a> angelegt werden.
     </div>
 
 ![Briefpapierkonfiguration](/assets/images/365-business-pdf/stationery-configuration.png)

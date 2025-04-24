@@ -18,7 +18,8 @@ Sämtliche Änderungen werden direkt an Mailchimp übertragen und es Bedarf kein
 4. Wählen Sie im Feld **Kontakt Nr.** den gewünschten Kontakt aus, oder erstellen Sie einen neuen Kontakt.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong>Neue Abonnenten erhalten, je nach Konfiguration in Mailchimp, ggf. automatisch eine Opt-In Benachrichtung von Mailchimp. Bis diese vom potentiellen Abonnenten bestätigt wurde befindet sich der Abonnementstatus im Status "Ausstehend".
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong>Neue Abonnenten erhalten, je nach Konfiguration in Mailchimp, ggf. automatisch eine Opt-In Benachrichtung von Mailchimp. Bis diese vom potentiellen Abonnenten bestätigt wurde befindet sich der Abonnementstatus im Status "Ausstehend".
 </div>
 
 ## Wie lösche ich einen Abonnenten?
@@ -28,7 +29,8 @@ Sämtliche Änderungen werden direkt an Mailchimp übertragen und es Bedarf kein
 3. Wählen Sie den Abonnenten aus und klicken Sie auf **Löschen**.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong>Bitte beachten Sie, dass Abonnenten in Mailchimp nicht gelöscht, sondern nur bereinigt werden. Dies soll verhindern, dass die Abonnenten, trotz vorheriger Abmeldung, erneut eingetragen und versehentlich kontaktiert werden.<br><br>Wir empfehlen Ihnen stattdessen den <b>Abonnementstatus</b> zu ändern.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong>Bitte beachten Sie, dass Abonnenten in Mailchimp nicht gelöscht, sondern nur bereinigt werden. Dies soll verhindern, dass die Abonnenten, trotz vorheriger Abmeldung, erneut eingetragen und versehentlich kontaktiert werden.<br><br>Wir empfehlen Ihnen stattdessen den <b>Abonnementstatus</b> zu ändern.
 </div>
 
 ## Wie ändere ich den Abonnementstatus eines Abonnenten?
@@ -39,7 +41,8 @@ Sämtliche Änderungen werden direkt an Mailchimp übertragen und es Bedarf kein
     - Klicken Sie auf die Aktion **Abonnenment beenden** um das Abonnement für den Abonnenten zu beenden.<br>
     - Klicken Sie auf die Aktion **Abonnieren** um das Abonnement für Abonnenten zu beginnen.<br>
         <div class="alert alert-notice">
-            <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Wichtig</strong>Bitte beachten Sie, dass in diesem Fall kein nachweisbares Opt-In vorliegt.
+            <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Good to know</strong>Bitte beachten Sie, dass in diesem Fall kein nachweisbares Opt-In vorliegt.
         </div>
 
 ## Wie füge ich Tags (Label) zu einem Abonnenten hinzu?
@@ -52,7 +55,8 @@ Sämtliche Änderungen werden direkt an Mailchimp übertragen und es Bedarf kein
 4. Klicken Sie auf die Aktion **Tags**.
 5. Geben Sie einen neuen Tag im Feld **Tag** aus, oder wählen Sie einen bestehenden Tag aus.
     <div class="alert alert-info">
-        <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong>Neue Tags werden automatisch angelegt und müssen nicht vor der Verwendung manuell erstellt werden.
+        <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong>Neue Tags werden automatisch angelegt und müssen nicht vor der Verwendung manuell erstellt werden.
     </div>
 
 ### Siehe auch

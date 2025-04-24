@@ -3,7 +3,8 @@ title: ELSTER Validierungsmeldung
 ---
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Info</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
 </div>
 
 Dieser Artikel unterstützt Sie bei der Lösung der ELSTER Validierungsmeldung:
@@ -24,7 +25,8 @@ Die Ursachen für abweichende Beträge können unterschiedlich sein. Eine Mögli
 ![MwSt.-Posten](/assets/images/365-business-eric/zmdo-does-not-match-ustva-amount.vat-entries.png)
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong> Bei der Berechnung der Zusammenfassenden Meldung wird explizit auf das Kennzeichen <code>EU-Länder-/Regionscode</code> geprüft. Nur Länder mit einem entsprechenden Wert im Feld <code>EU-Länder-/Regionscode</code> werden als EU-Land angesehen.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong> Bei der Berechnung der Zusammenfassenden Meldung wird explizit auf das Kennzeichen <code>EU-Länder-/Regionscode</code> geprüft. Nur Länder mit einem entsprechenden Wert im Feld <code>EU-Länder-/Regionscode</code> werden als EU-Land angesehen.
 </div>
 
 #### Lösung

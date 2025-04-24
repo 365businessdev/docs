@@ -1,7 +1,8 @@
 # ZMDO - Zusammenfassende Meldung
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Info</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
 </div>
 
 Der Unternehmer hat bis zum 25. Tag nach Ablauf jedes Kalendermonats bzw. Kalendervierteljahres (Meldezeitraum), in dem er innergemeinschaftliche Warenlieferungen oder ab 1. Januar 2010 sonstige Leistungen (Dienstleistungen) an Unternehmer in einem anderen EU-Mitgliedsstaat ausgeführt hat, an das Bundeszentralamt für Steuern eine Meldung elektronisch zu übermitteln (§ 18a UStG). Gemeldet werden müssen innergemeinschaftliche Lieferungen, innergemeinschaftliche Dreiecksgeschäfte und nicht im Inland steuerbare sonstige Leistungen.

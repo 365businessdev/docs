@@ -31,7 +31,8 @@ Bei der Funktion der [Adressvalidierung](address-validation.md) handelt es sich 
 Sie finden die [Preise](https://365businessdev.com/cloud/preise/address-validation/) des Address Validation Dienst auf unserer [Website](https://365businessdev.com/).
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong>Sie möchten mehr über die Lizensierung und die Abrechnung der 365 business API Cloud Dienste erfahren?<br>Sprechen Sie uns gerne an oder schreiben Sie uns unter <a href="mailto:info@365businessdev.com">info@365businessdev.com</a>.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Hinweis</strong>Sie möchten mehr über die Lizensierung und die Abrechnung der 365 business API Cloud Dienste erfahren?<br>Sprechen Sie uns gerne an oder schreiben Sie uns unter <a href="mailto:info@365businessdev.com">info@365businessdev.com</a>.
 </div>
 
 # Siehe auch 

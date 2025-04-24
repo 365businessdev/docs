@@ -2,7 +2,8 @@
 title: Abkündigungsschreiben
 ---
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Info</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
 </div>
 
 >**Wichtiger Hinweis**<br>Mit der im Februar 2021 veröffentlichten Version 17.3 von **365 business ERiC** wird die Abkündigung des Supports und der Weiterentwicklung der *ELSTER VAT Localization for Germany* Extension für die elektronische Übermittlung der USt.-Voranmeldung bekannt gegeben.<br><br>Weitere Informationen finden Sie hier: **https://365businessdev.com/microsoft-dynamics-365-business-central/update-365-business-eric-elster-schnittstelle/** 

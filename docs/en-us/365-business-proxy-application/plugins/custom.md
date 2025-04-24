@@ -17,7 +17,8 @@ These include, among others
  - and much more.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Contact us!</strong>We develop individual plugins for you to connect your local systems and resources. With 365 business Proxy Application there are no limits.<br>
+    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Good to know</strong>We develop individual plugins for you to connect your local systems and resources. With 365 business Proxy Application there are no limits.<br>
     <br>
     <a href="https://365businessdev.com/kontakt/" target="_blank">Get in touch with us</a>.
 </div>

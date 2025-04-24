@@ -8,7 +8,8 @@ This quick guide explains how to activate and set up 365 business E-Invoice.
  - Microsoft 365 Mailbox *(optional, for receiving E-Documents via email)*
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Important Note</strong>This quick guide focuses on receiving e-invoices in Factur-X - ZUGFeRD format via Microsoft 365 mailbox integration.<br/>For more information on setup, please visit the <a href="setup.md">documentation</a>.
+    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Good to know</strong>This quick guide focuses on receiving e-invoices in Factur-X - ZUGFeRD format via Microsoft 365 mailbox integration.<br/>For more information on setup, please visit the <a href="setup.md">documentation</a>.
 </div>
 
 ## Step 1: Install 365 business E-Invoice
@@ -37,7 +38,8 @@ By enabling automatic import, purchase invoices and credit memos in Factur-X / Z
  6. Set the interval for retrieving emails in the **Minutes Between Runs** field, if desired (e.g., 1440min = 24h).
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Good to know</strong>You can also manually trigger the retrieval of E-Documents from the configured Microsoft 365 mailboxes. To do this, you can call the <strong>Receive</strong> action in the E-Document service.
+    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Good to know</strong>You can also manually trigger the retrieval of E-Documents from the configured Microsoft 365 mailboxes. To do this, you can call the <strong>Receive</strong> action in the E-Document service.
 </div>
 
 ## Step 2: Process E-Documents

@@ -26,7 +26,8 @@ The number of users to be licensed is determined differently depending on the en
 When identifying users to be licensed, all active users (`Status` = `Enabled`) in the Business Central environment are checked. This check may occur regardless of whether the user actually accesses the apps and features of 365 business development. Users are then checked against the assigned Microsoft Dynamics 365 Business Central licenses (Plan).
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Good to know</strong> User licensing for the apps and features of 365 business development is based on the actual number of users in the Microsoft Dynamics 365 Business Central environment. Shared Microsoft Dynamics 365 Business Central licenses (e.g., Device plan) are not considered. Only the actually licensed users are counted, regardless of whether a shared or exclusive license is present.
+    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Good to know</strong> User licensing for the apps and features of 365 business development is based on the actual number of users in the Microsoft Dynamics 365 Business Central environment. Shared Microsoft Dynamics 365 Business Central licenses (e.g., Device plan) are not considered. Only the actually licensed users are counted, regardless of whether a shared or exclusive license is present.
 </div>
 
 Users with the following plans are required to be licensed:
@@ -40,7 +41,8 @@ Users with the following plans are required to be licensed:
  - Dynamics 365 Business Central for IWs plan
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Good to know</strong> Users with the following plans are not required to be licensed:
+    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Good to know</strong> Users with the following plans are not required to be licensed:
     <ul>
         <li>Delegated Admin agent - Partner plan</li>
         <li>Delegated Helpdesk agent - Partner plan</li>

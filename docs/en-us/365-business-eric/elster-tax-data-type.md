@@ -1,7 +1,8 @@
 # ELSTER Steuerdatenarten
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Info</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
 </div>
 
 Die 365 business ERiC Extension für Microsoft Dynamics 365 Business Central unterstützt aktuell folgende ELSTER Steuerdatenarten:

@@ -31,7 +31,8 @@ The [address validation](address-validation.md) function is based on the 365 bus
 You can find the [prices](https://365businessdev.com/en/cloud-solution/pricing/address-validation/) of the Address Validation service on our [website](https://365businessdev.com).
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note</strong>Would you like to learn more about licensing and billing for 365 business API cloud services?<br>Please feel free to contact us or write to us at <a href="mailto:info@365businessdev.com"><i>info@365businessdev.com</i></a>.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong>Would you like to learn more about licensing and billing for 365 business API cloud services?<br>Please feel free to contact us or write to us at <a href="mailto:info@365businessdev.com"><i>info@365businessdev.com</i></a>.
 </div>
 
 # See also

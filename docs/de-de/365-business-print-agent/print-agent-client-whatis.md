@@ -11,7 +11,8 @@ Jeder Print Agent Service wird über eine eindeutige **Client-ID (GUID)** identi
 Der Print Agent sollte auf dem **Windows-System** installiert sein, auf dem auch die entsprechenden Drucker eingerichtet sind.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Hinweis:</strong>
+    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Gut zu wissen</strong>
 	Der Print Agent Service kann mit allen Druckern arbeiten, die lokal auf dem System installiert sind.<br>
 	Bei angebundenen <b>Netzwerkdruckern</b> kann es jedoch zu <b>Zeitüberschreitungen</b> kommen, da die Antwortzeiten über das Netzwerk länger sind.<br>
 	Dieses Verhalten ist eine Einschränkung der Windows-Druckerverwaltung und kann vom 365 business Print Agent nicht vollständig umgangen werden.<br><br>

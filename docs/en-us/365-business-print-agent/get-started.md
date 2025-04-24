@@ -3,7 +3,8 @@
 This quick guide explains how to activate 365 business Print Agent and set up a printer.
 
 <div class="alert alert-info">
- <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note:</strong>
+ <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong>
 Test the 365 business Print Agent <strong>free of charge in sandbox environments</strong> of Microsoft Dynamics 365 Business Central. <br>
 In addition, there is a <strong>free 30-day trial period for real and on-premises environments</strong> without functional restrictions.
 </div>
@@ -41,7 +42,8 @@ Open the **Print Agent Setup** page in Microsoft Dynamics 365 Business Central:
  3. Copy the **Tenant ID** value by clicking on the field value.
     
 	<div class="alert alert-info">
-		<i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note:</strong>
+		<i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong>
 		The Tenant ID links the Print Agent Service to your Microsoft Dynamics 365 Business Central environment.<br>
 		You will need the Tenant ID later when setting up the Print Agent Service.
     </div>
@@ -92,7 +94,8 @@ To be able to use printers directly in Microsoft Dynamics 365 Business Central, 
 ## Step 2.2: Enable Printer Configuration
 
 <div class="alert alert-notice">
-	<i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Good to know:</strong>
+	<i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Good to know</strong>
 	Shared printers are not directly available in Microsoft Dynamics 365 Business Central. <br>
 	Instead, you must create <a href="printer-configuration.md">Printer Configurations</a>, which can then be selected in the <strong>Printer Selection</strong> or in the <strong>Report Request Page</strong>.<br><br/>
 	A Printer Configuration is created by the system automatically for each printer, based on the available features of the printer.
@@ -116,7 +119,8 @@ The configuration is done in Microsoft Dynamics 365 Business Central on the stan
  4. Select the **Printer Name**.
  
 <div class="alert alert-info">
-	<i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note:</strong>
+	<i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong>
 	You can see all enabled printers (configurations) on the **Printer Management** page. <br>
 	From here you can open printer configuration or set a printer (configuration) as default.<br>
 	<img src="/assets/images/365-business-print-agent/f66b313410695f3a550f126155fc3b9d6abf9c663c5840e9d2c1887948fbfd41.png">

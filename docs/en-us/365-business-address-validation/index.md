@@ -26,7 +26,8 @@ The following application areas are supported in the current version:
 The existing integration can be enabled or disabled through the [Address Validation Setup](setup.md).<br>Learn more at [Get Started](get-started.md).
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note</strong> Additional integrations can be easily connected via the provided API.<br>Learn more in our <a href="https://docs.365businessdev.com/en-US/al-developer/365businessaddressvalidation/">Developer Documentation</a>.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong> Additional integrations can be easily connected via the provided API.<br>Learn more in our <a href="https://docs.365businessdev.com/en-US/al-developer/365businessaddressvalidation/">Developer Documentation</a>.
 </div>
 
 ## How does the address prediction work?
@@ -37,7 +38,8 @@ Typically, the function is available on the **Name** and **Address** fields.
 ![Address Prediction](/assets/images/365-business-address-validation/addressprediction.en-US.gif)
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note</strong> The address prediction in the <b>Name</b> field searches for companies and organizations for Customers, Vendors and Company Contacts. In addition, further organizational information is determined and supplemented if necessary.<br><br>In the <b>Address</b> field, on the other hand, only a valid postal address is searched for.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong> The address prediction in the <b>Name</b> field searches for companies and organizations for Customers, Vendors and Company Contacts. In addition, further organizational information is determined and supplemented if necessary.<br><br>In the <b>Address</b> field, on the other hand, only a valid postal address is searched for.
 </div>
 
 For more information on [address prediction](address-prediction.md), please refer to the more detailed [documentation](address-prediction.md).
