@@ -1,6 +1,5 @@
----
-title: Data Catalogs
----
+# Data Catalogs
+
 Selecting the data catalogs for the sanctions list check is an important step in setting up 365 business Sanction Screen in Microsoft Dynamics 365 Business Central. The data catalogs reference the corresponding sanctions lists that should be used for the check.
 
 ![365 business Sanction Screen - Data Catalogs](/assets/images/365-business-sanction-screen/sanctionscreen.data-catalog.en-US.png)
@@ -9,7 +8,7 @@ By default, all available data catalogs for the sanctions list check are enabled
 
 The data catalogs to be used can be configured on the **Sanctions Data Catalog** page. Here you can enable or disable individual data catalogs to tailor the sanctions list check to your requirements. Additionally, each catalog has a link to the official source for more information.
 
-### See also
+# See also
 
 - [Step-by-step guide](get-started.md)
 - [Setup](setup.md)

@@ -33,7 +33,7 @@ Additionally, Stripe supports the following payment methods:
 The authorization of the respective payment method takes place during [license activation](../license-management/activate-license.md), and the charge is made in advance for the respective billing period, upon invoicing.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Note:</strong> If the stored payment method cannot be charged, the license will be automatically deactivated.<br>The deactivation will occur after prior notification, with a grace period of 7 days.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note</strong> If the stored payment method cannot be charged, the license will be automatically deactivated.<br>The deactivation will occur after prior notification, with a grace period of 7 days.
 </div>
 
 #### Learn More

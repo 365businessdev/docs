@@ -8,7 +8,7 @@ Der 365 business Print Agent verhindert daher die Nutzung von inkompatiblen virt
 Wenn Sie dennoch die Funktion von 365 business Print Agent mit einem virtuellen Drucker testen möchten, empfehlen wir die Verwendung eines individuell installierten Microsoft XPS Document Writer (MXDW).
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Wichtig</strong> Virtuelle Drucker rufen in der Regel einen "Speichern unter"-Dialog auf, um den Dateipfad anzugeben, unter dem der virtuelle Ausdruck gespeichert werden soll.<br>Da der Ausdruck durch den 365 business Print Agent als Dienst im Kontext des lokalen Systems ausgeführt wird, ist die Anzeige von Dialogen nicht möglich und führt zu Fehlern.<br><br>Daher ist es notwendig, einen eigenen Drucker zu installieren und die Dateiausgabe ohne zusätzliche Dialoge zu konfigurieren.
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Wichtig</strong> Virtuelle Drucker rufen in der Regel einen "Speichern unter"-Dialog auf, um den Dateipfad anzugeben, unter dem der virtuelle Ausdruck gespeichert werden soll.<br>Da der Ausdruck durch den 365 business Print Agent als Dienst im Kontext des lokalen Systems ausgeführt wird, ist die Anzeige von Dialogen nicht möglich und führt zu Fehlern.<br><br>Daher ist es notwendig, einen eigenen Drucker zu installieren und die Dateiausgabe ohne zusätzliche Dialoge zu konfigurieren.
 </div>
 
 Der folgende Artikel beschreibt die Einrichtung eines einzelnen Microsoft XPS Document Writer (MXDW)-basierten Druckers.
@@ -30,7 +30,7 @@ Wenn Sie die Option "In Datei drucken" aus einer Anwendung heraus wählen, wird 
 11. Teilen Sie den Drucker in der 365 business Print Agent Einrichtung mit Dynamics 365 Business Central.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Gut zu wissen:</strong> In bestimmten Fällen kann es notwendig sein, die Lese- und Schreibberechtigungen auf das in Schritt 5 definierte Verzeichnis anzupassen, damit der virtuelle Drucker in der Lage ist, im Kontext des Benutzers des 365 business Print Agent Dienst, in das Verzeichnis zu schreiben.<br>Für Tests kann es daher Sinn machen den Benutzer zur Ausführung des 365 business Print Agent Dienst auf einen anderen Benutzer, mit Lese- und Schreibrechten auf das lokale Dateisystem, umzustellen.
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Gut zu wissen</strong> In bestimmten Fällen kann es notwendig sein, die Lese- und Schreibberechtigungen auf das in Schritt 5 definierte Verzeichnis anzupassen, damit der virtuelle Drucker in der Lage ist, im Kontext des Benutzers des 365 business Print Agent Dienst, in das Verzeichnis zu schreiben.<br>Für Tests kann es daher Sinn machen den Benutzer zur Ausführung des 365 business Print Agent Dienst auf einen anderen Benutzer, mit Lese- und Schreibrechten auf das lokale Dateisystem, umzustellen.
 </div>
 
 Nach diesen Schritten werden alle Druckaufträge, die an diesen Drucker gesendet werden, automatisch an dem als Port angegebenen Ort gespeichert. Außerdem werden Druckaufträge, die über den 365 business Print Agent gesendet werden, an dem angegebenen Speicherort (siehe Schritt 5) gespeichert.

@@ -1,6 +1,5 @@
----
-title: Implement 365 business Barcode
----
+# Implement 365 business Barcode
+
 To implement 365 business Barcode into your own individual business processes it is necessary to add the 365 business Barcode App as a dependency to your own extension.
 
 This gives you access to the provided interfaces and objects. A detailed documentation can be found in our [AL Developer Documentation](../../al-developer/al-developer.md).
@@ -25,7 +24,7 @@ Below is a code example explaining how you can use 365 business Barcode.
 
 Two scenarios are shown below:
 
-## Step 2.1: QR Code in Report Object
+### Step 2.1: QR Code in Report Object
 
  1. Add a new data item with reference to `bdev.Barcode`.
  2. Set the property `UseTemporary` to `true`.
@@ -70,7 +69,7 @@ dataitem(BarcodeBuffer; "bdev.Barcode")
 }
 ```
 
-## Step 2.2: Add barcode to item barcode
+### Step 2.2: Add barcode to item barcode
 
  1. Create a page extension for the 'Item Identifiers' page.
  2. Add an action.
@@ -113,6 +112,6 @@ dataitem(BarcodeBuffer; "bdev.Barcode")
      end;
      ```
 
-### See also
+# See also
 
  - [AL Developer Documentation](../../al-developer/al-developer.md)

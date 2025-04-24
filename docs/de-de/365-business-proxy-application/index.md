@@ -1,6 +1,4 @@
----
-title: Startseite
----
+# 365 business Proxy Applicatiton
 
 Herzlich willkommen in der Dokumentation für 365 business Proxy Application! Diese umfassende Anleitung bietet Ihnen alle Informationen, die Sie benötigen, um 365 business Proxy Application effektiv zu nutzen und die Vorteile der Integration ihrer lokalen Ressourcen optimal zu nutzen.
 
@@ -9,7 +7,7 @@ Herzlich willkommen in der Dokumentation für 365 business Proxy Application! Di
 365 business Proxy Application ist eine leistungsstarke Erweiterung für Microsoft Dynamics 365 Business Cntral, die Ihnen die Möglichkeit bietet sicher und unkompliziert aus der Cloud oder von On-Premise Systemen, unter Wahrung der [*Universal Code Initiative*](https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2022/10/28/the-dynamics-365-business-central-universal-code-initiative-is-live.md), ihre lokalen Ressourcen und Systeme in Microsoft Dynamics 365 Business Central zu integrieren. Vom Dateizugriff, über die Ansteuerung von Druckern, Lagerliften, Waagen oder Kartenlesegeräten. Mit dem flexiblen und individuell erweiterbaren Plugin-System von 365 business Proxy Application sind Ihnen keine Grenzen gesetzt.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong> 365 business Proxy Application ist darauf konzipiert mit möglichst wenig Aufwand Integrationen von lokalen Ressourcen in Ihre Geschäftsprozesse zu ermöglichen.<br>Sie benötigen eine individuelle Anbindung an ein lokales Gerät oder eine Maschine? <a href="https://365businessdev.com/kontakt/" target="_blank">Sprechen Sie uns gerne an</a>.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong> 365 business Proxy Application ist darauf konzipiert mit möglichst wenig Aufwand Integrationen von lokalen Ressourcen in Ihre Geschäftsprozesse zu ermöglichen.<br>Sie benötigen eine individuelle Anbindung an ein lokales Gerät oder eine Maschine? <a href="https://365businessdev.com/kontakt/" target="_blank">Sprechen Sie uns gerne an</a>.
 </div>
 
 ## Funktionen und Möglichkeiten

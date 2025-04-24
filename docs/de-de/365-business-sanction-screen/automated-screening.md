@@ -1,10 +1,8 @@
----
-title: Automatisierte Prüfung (Aufgabenwarteschlange)
----
+# Automatisierte Prüfung (Aufgabenwarteschlange)
 
 365 business Sanction Screen unterstützt die automatiesierte Sanktionslistenprüfung in Microsoft Dynamics 365 Business Central. Die automatisierte Sanktionslistenprüfung ermöglicht es Ihnen, die Sanktionslistenprüfung für alle unterstützten Entitäten automatisch durchzuführen.
 
-### Bevor Sie starten
+## Bevor Sie starten
 
 In der Seite **Sanction Screen Einrichtung** können Sie die Prüfintervalle für jede Entität festlegen, die zu prüfenden Datenkataloge auswählen und Benachrichtigungen konfigurieren. Zusätzlich finden Sie nützliche Informationen zur aktuellen Konfiguration und den durchgeführten Prüfungen.
 
@@ -12,7 +10,7 @@ In der Seite **Sanction Screen Einrichtung** können Sie die Prüfintervalle fü
 
 Prüfen Sie vor der Einrichtung der automatisierten Sanktionslistenprüfung, ob die **Sanction Screen Einrichtung** korrekt konfiguriert ist. Nur so können Sie sicherstellen, dass die automatisierte Sanktionslistenprüfung korrekt durchgeführt wird.
 
-### Automatisierte Sanktionslistenprüfung einrichten
+## Automatisierte Sanktionslistenprüfung einrichten
 
 Gehen Sie wie folgt vor, um die automatisierte Sanktionslistenprüfung in Microsoft Dynamics 365 Business Central einzurichten:
 
@@ -26,10 +24,10 @@ Gehen Sie wie folgt vor, um die automatisierte Sanktionslistenprüfung in Micros
 7. Wählen Sie die Aktion **Status auf 'Bereit' festlegen**, um den Aufgabenwarteschlangenposten zu aktivieren.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong>Zur optimalen Gewährleistung der Sanktionslistenprüfung empfehlen wir, die Prüfintervalle der einzelnen Entitäten (z.B. Debitor) in der <strong>Sanction Screen Einrichtung</strong> zu konfigurieren.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong>Zur optimalen Gewährleistung der Sanktionslistenprüfung empfehlen wir, die Prüfintervalle der einzelnen Entitäten (z.B. Debitor) in der <strong>Sanction Screen Einrichtung</strong> zu konfigurieren.
 </div>
 
-### Siehe auch
+# Siehe auch
 
 - [Einrichtung](setup.md)
 - [Datenkataloge für Sanktionsprüfung](data-sources.md)

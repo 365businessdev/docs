@@ -1,6 +1,4 @@
----
-title: Druckereinstellungen
----
+# Druckereinstellungen
 
 Druckereinstellungen werden als _Drucker_ in Microsoft Dynamics 365 Business Central verwendet. Für jeden Drucker wird automatisch eine Standarddruckerkonfiguration erstellt. Diese Konfiguration wird mit den verfügbaren Funktionen Ihres Druckers erstellt.
 Zusätzlich werden die festgelegten [Druckprofile](print-agent-config-printprofile.md) ebenfalls als Druckereinstellungen angelegt.
@@ -8,20 +6,20 @@ Zusätzlich werden die festgelegten [Druckprofile](print-agent-config-printprofi
 Zusätzlich können Sie weitere Konfigurationen für verschiedene Szenarien wie Farb- und/oder Duplexdruck erstellen.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Wichtig:</strong> Das <b>Code</b> Feld einer Druckereinstellung wird dem Benutzer über die <b>Druckerauswahl</b> und an verschiedenen anderen Stellen in Microsoft Dynamics 365 Business Central angezeigt.<br>Achten Sie darauf, dass Sie einen benutzerfreundlichen Namen für die Druckereinstellung wählen.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Wichtig</strong> Das <b>Code</b> Feld einer Druckereinstellung wird dem Benutzer über die <b>Druckerauswahl</b> und an verschiedenen anderen Stellen in Microsoft Dynamics 365 Business Central angezeigt.<br>Achten Sie darauf, dass Sie einen benutzerfreundlichen Namen für die Druckereinstellung wählen.
 </div>
 
 ## Was sind Druckereinstellungen?
 
 Es gibt zwei Arten Druckereinstellungen in 365 business Print Agent:
 
-#### Druckereinstellungen
+### Druckereinstellungen
 
 Druckereinstellungen können direkt in Microsoft Dynamics 365 Business Central, basierend auf den verfügbaren Funktionalitäten, Ihres Druckers angelegt werden. Diese Einstellungen sind für einfache Druckaufträge wie Duplex, Kopien, Farbdruck, Papierart und -fach gedacht.
 
 ![Druckereinstellung](/assets/images/365-business-print-agent/1b3143accd75d67305341ac9a314b681aa754fe966df87c434e0d240752862a8.png)  
 
-#### Druckprofile
+### Druckprofile
 
 Ein Druckprofil stellt eine spezielle Konfiguration Ihres Druckers dar, die erweiterte Funktionalitäten steuert.
 
@@ -33,7 +31,7 @@ Erweiterte Funktionalitäten sind z.B.:
 * Druckoptionen für Label-Drucker, wie Versatz, Temperatur und Druckgeschwindigkeit.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Gut zu wissen:</strong> Die Verwaltung von Druckprofilen wird in der 365 business Print Agent App durchgeführt.<br>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Gut zu wissen</strong> Die Verwaltung von Druckprofilen wird in der 365 business Print Agent App durchgeführt.<br>
     Erfahren Sie mehr in der  <a href="print-agent-config-printprofile.md">Dokumentation</a>.
 </div>
 
@@ -62,7 +60,7 @@ Die Druckereinstellung kann manuell über die Kartenseite **Druckereinstellung**
     ![Unterstützte Druckereinstellung - Aktivieren der Druckereinstellung](/assets/images/365-business-print-agent/e5a81f4c85fe8f35f56e061524f6e9b021a7b856078c0fe3a49ba1fbc607ce97.png)  
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Gut zu wissen:</strong>In manchen Fällen kann es sinnvoll sein die Druckausgabe während des Drucks zu drehen, um beispielsweise ein Layout, dass im Querformat erstellt wurde im Hochformat auf einem Etikettendrucker auszudrucken.<br>
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Gut zu wissen</strong>In manchen Fällen kann es sinnvoll sein die Druckausgabe während des Drucks zu drehen, um beispielsweise ein Layout, dass im Querformat erstellt wurde im Hochformat auf einem Etikettendrucker auszudrucken.<br>
     Verwenden Sie hierzu das Feld <strong>Drehung</strong> in den Druckereinstellungen um zu definieren, wie die Druckausgabe gedreht werden soll.
 </div>
 
@@ -74,7 +72,7 @@ Jetzt können Sie mit dem 365 business Print Agent drucken, indem Sie die Drucke
 
 Um die Direktdruckfunktion optimal nutzen zu können, sollten Sie nun die Druckereinstellung auf der Seite **Druckerauswahl** festlegen.
 
-#### Wie weise ich Drucker in der Druckerauswahl zu
+### Wie weise ich Drucker in der Druckerauswahl zu
 
  1. **Druckerauswahl** öffnen.
  2. Wählen Sie **Benutzer-ID** oder lassen Sie das Feld leer, um den Drucker (Konfiguration) für jeden Benutzer zuzuweisen.
@@ -82,9 +80,9 @@ Um die Direktdruckfunktion optimal nutzen zu können, sollten Sie nun die Drucke
  4. Wählen Sie **Druckername** aus dem Dropdown-Menü aus.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong> Microsoft Dynamics 365 Business Central bietet eine zusätzliche Übersicht, die <b>Druckerverwaltung</b>. Hier finden Sie alle im Print Agent aktivierten Drucker (Konfigurationen). Von hier aus können Sie die Druckereinstellung einfach öffnen oder den ausgewählten Drucker (Konfiguration) als Standard festlegen.<br><img src="/assets/images/365-business-print-agent/f66b313410695f3a550f126155fc3b9d6abf9c663c5840e9d2c1887948fbfd41.png">
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong> Microsoft Dynamics 365 Business Central bietet eine zusätzliche Übersicht, die <b>Druckerverwaltung</b>. Hier finden Sie alle im Print Agent aktivierten Drucker (Konfigurationen). Von hier aus können Sie die Druckereinstellung einfach öffnen oder den ausgewählten Drucker (Konfiguration) als Standard festlegen.<br><img src="/assets/images/365-business-print-agent/f66b313410695f3a550f126155fc3b9d6abf9c663c5840e9d2c1887948fbfd41.png">
 </div>
 
-### Siehe auch
+# Siehe auch
 
  - [Drucker](printer.md)

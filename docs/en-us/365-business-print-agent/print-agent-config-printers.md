@@ -1,11 +1,10 @@
----
-title: Printer Management
----
+# Printer Management
+
 All printers installed on the current Windows system are displayed under the "Printers" menu. You can enable or disable a printer for use in Microsoft Business Central by clicking the check box in the first column of the table.
 The "Emulation" column allows you to choose between "Standard" and "Zebra (ZPL)" for each print device.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Note:</strong>Choose "Zebra (ZPL)" if the printer is a Zebra printer and the generated PDF file should be converted to ZPL format. This can speed up the printing process, because in this case not the printer, but the 365 business Print Agent takes over the conversion to the ZPL compatible format.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note</strong>Choose "Zebra (ZPL)" if the printer is a Zebra printer and the generated PDF file should be converted to ZPL format. This can speed up the printing process, because in this case not the printer, but the 365 business Print Agent takes over the conversion to the ZPL compatible format.
 </div>
 
 In addition to the name of the printer, further information about the selected device is displayed. If a printer is selected, further information is displayed in the lower area. This includes all supported paper formats and paper sources, which are also available later in Microsoft Business Central.
@@ -13,11 +12,11 @@ In addition to the name of the printer, further information about the selected d
 ![Druckerverwaltung](/assets/images/365-business-print-agent/config-tool/Printer_en.PNG)  
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Note:</strong>The "Status" column shows the current printer status.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note</strong>The "Status" column shows the current printer status.
 </div>
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Important:</strong>There are printer statuses that prevent the printer from being selected. These are:
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Important</strong>There are printer statuses that prevent the printer from being selected. These are:
 <style>
 
 table tr:nth-child(odd) td{
@@ -52,9 +51,9 @@ table tr:nth-child(even) td{
 </div>
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Note:</strong>Remember that for Zebra printers, the settings must be configured for all users. For help with setting up your Zebra printers, click <a href="support/setup-zebra-default-settings.md">here</a>.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note</strong>Remember that for Zebra printers, the settings must be configured for all users. For help with setting up your Zebra printers, click <a href="support/setup-zebra-default-settings.md">here</a>.
 </div>
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Note:</strong>The "Microsoft XPS" series printers are a special case. Since these printers are not physical printers, their use requires additional configuration. <a href="support/setup-xps-printer.md">Learn more</a>.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note</strong>The "Microsoft XPS" series printers are a special case. Since these printers are not physical printers, their use requires additional configuration. <a href="support/setup-xps-printer.md">Learn more</a>.
 </div>

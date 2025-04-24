@@ -1,9 +1,7 @@
----
-title: What is ERiC?
----
+# Was ist ERiC?
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Info:</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Info</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
 </div>
 
 ERiC stellt eine C-Bibliothek mit Schnittstellenspezifikation zur Verfügung. ERiC wird von der Steuerverwaltung kostenlos zur Integration in die eigenen Steuer-, Finanz- und Lohnbuchhaltungsprogramme zur Verfügung gestellt.

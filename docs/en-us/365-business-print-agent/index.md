@@ -1,9 +1,10 @@
----
-title: Introduction
----
+# Introduction
+
 Welcome to the documentation for 365 business Print Agent! This comprehensive guide will provide you with all the information you need to effectively use and maximize the benefits of 365 business Print Agent in your printing workflows.
 
 ## About 365 business Print Agent
+
+![365 business Print Agent](/assets/images/365-business-print-agent/print-agent-logo.png) 
 
 365 business Print Agent is a powerful extension for Microsoft Dynamics 365 Business Central that simplifies and enhances your printing experience. It allows you to print documents directly from Microsoft Dynamics 365 Business Central, eliminating the need for intermediate steps and streamlining your printing workflows.
 

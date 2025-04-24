@@ -1,6 +1,4 @@
----
-title: Dokumentsignierung
----
+# Dokumentsignierung
 
 Mit 365 business PDF können Sie PDF-Dateien, die aus Microsoft Dynamics 365 Business Central erzeugt werden, signieren und diese Signatur in die Datei integrieren. Diese Signatur schützt Ihre PDF-Datei vor Manipulationen und garantiert dem Empfänger zudem die Unversehrtsein der PDF-Datei sowie die Herkunft.
 
@@ -8,7 +6,7 @@ Die digitale Signatur wird dabei an Hand einer [PKCS 12 Zertifikatsdatei (PFX)](
 
 Die Einrichtung findet in der Seite **PDF Signierung Konfigurationen** statt. Hier können mehrere Signierkonfigurationen angelegt werden, die bspw. auf unterschiedlichen Zertifikatsdateien basieren.
 
-#### Wie erstelle ich eine Signierkonfiguration?
+## Wie erstelle ich eine Signierkonfiguration?
 
 1. Öffnen Sie die Seite **PDF Signierung Konfigurationen**.
 2. Klicken Sie **Neu**.

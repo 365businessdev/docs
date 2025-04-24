@@ -1,8 +1,7 @@
----
-title: Secure Print
----
+# Secure Print
+
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Good to know:</strong> The <strong>Secure Print Feature</strong> for the 365 business Print Agent is a paid add-on.<br>
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Good to know</strong> The <strong>Secure Print Feature</strong> for the 365 business Print Agent is a paid add-on.<br>
     Please check under <strong>Extension License Management (365 business development)</strong> if you have purchased the license for the Secure Print Feature.
 </div>
 
@@ -28,7 +27,7 @@ When setting up Secure Print users, the Microsoft Dynamics 365 Business Central 
    ![Secure Print User Setup](/assets/images/365-business-print-agent/secure-print-user-setup.en-US.png)
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Note:</strong> You can find the user's Entra ID object ID in the Microsoft Entra administration.<br>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note</strong> You can find the user's Entra ID object ID in the Microsoft Entra administration.<br>
     For more information on setting up Secure Print users, click <a href="https://learn.microsoft.com/en-US/partner-center/account-settings/find-ids-and-domain-names#find-the-user-object-id" target="_blank">here</a>.
 </div>
 
@@ -48,9 +47,9 @@ After setting up the Secure Print users, you can activate Secure Print in the pr
 After activating Secure Print for a printer setting, all print jobs for this printer will be secured and must be released via the Print Agent app on your mobile device.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Good to know:</strong> Users who are not set up for Secure Print cannot use printer settings with Secure Print.
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Good to know</strong> Users who are not set up for Secure Print cannot use printer settings with Secure Print.
 </div>
 
-### See also
+# See also
 
 - [Find user object ID (Microsoft Learn)](https://learn.microsoft.com/en-US/partner-center/account-settings/find-ids-and-domain-names#find-the-user-object-id)

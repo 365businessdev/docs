@@ -1,6 +1,5 @@
----
-title: Get Started
----
+# Get Started
+
 This quick guide explains how to activate and set up 365 business E-Invoice.
 
 ## Prerequisites
@@ -9,7 +8,7 @@ This quick guide explains how to activate and set up 365 business E-Invoice.
  - Microsoft 365 Mailbox *(optional, for receiving E-Documents via email)*
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Important Note:</strong>This quick guide focuses on receiving e-invoices in Factur-X - ZUGFeRD format via Microsoft 365 mailbox integration.<br/>For more information on setup, please visit the <a href="setup.md">documentation</a>.
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Important Note</strong>This quick guide focuses on receiving e-invoices in Factur-X - ZUGFeRD format via Microsoft 365 mailbox integration.<br/>For more information on setup, please visit the <a href="setup.md">documentation</a>.
 </div>
 
 ## Step 1: Install 365 business E-Invoice
@@ -17,7 +16,7 @@ This quick guide explains how to activate and set up 365 business E-Invoice.
 Open the **Extension Marketplace** in Microsoft Dynamics 365 Business Central and search for **365 business E-Invoice**.
 Install the app from Microsoft AppSource and wait for the installation to complete.
 
-## Step 1.1: Set up Microsoft 365 mailbox integration
+### Step 1.1: Set up Microsoft 365 mailbox integration
 
 To retrieve and process incoming E-Documents from Microsoft 365 mailboxes, it is necessary to configure these mailboxes accordingly. This uses the <a href="https://learn.microsoft.com/en-us/dynamics365/business-central/admin-how-setup-email" target="_blank"><strong>Email Accounts</strong></a> functionality of Microsoft Dynamics 365 Business Central.
 
@@ -26,7 +25,7 @@ To retrieve and process incoming E-Documents from Microsoft 365 mailboxes, it is
  3. Select the email account you want to use for receiving invoices.
  4. Click **OK** to close the email account selection.
 
-## Step 1.2: Automate retrieval of E-Documents via E-Document service
+### Step 1.2: Automate retrieval of E-Documents via E-Document service
 
 By enabling automatic import, purchase invoices and credit memos in Factur-X / ZUGFeRD format from incoming emails are automatically processed.
 
@@ -38,7 +37,7 @@ By enabling automatic import, purchase invoices and credit memos in Factur-X / Z
  6. Set the interval for retrieving emails in the **Minutes Between Runs** field, if desired (e.g., 1440min = 24h).
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Good to know:</strong>You can also manually trigger the retrieval of E-Documents from the configured Microsoft 365 mailboxes. To do this, you can call the <strong>Receive</strong> action in the E-Document service.
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Good to know</strong>You can also manually trigger the retrieval of E-Documents from the configured Microsoft 365 mailboxes. To do this, you can call the <strong>Receive</strong> action in the E-Document service.
 </div>
 
 ## Step 2: Process E-Documents
@@ -68,14 +67,14 @@ Possible causes of problems are varied, such as:
  * Missing link between your items and vendor items
  * Incorrect assignment of units (units of measure) to items.
 
-## Step 2.1: Process E-Documents - Handle errors
+### Step 2.1: Process E-Documents - Handle errors
 
 To handle problematic E-Documents, 365 business E-Invoice provides the **Import Wizard**. This assists you in step-by-step troubleshooting of issues in your E-Document and allows you to manually correct them.
 
  1. Call the **Import Wizard** action in the E-Document.
  2. The Import Wizard assists you in step-by-step troubleshooting (see [Import Wizard](import-assistant.md)).
 
-### See also
+# See also
 
  - [Setup](setup.md)
  - [Import Wizard](import-assistant.md)

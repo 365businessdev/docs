@@ -1,6 +1,4 @@
----
-title:  Auswertungen und Statistiken
----
+# Auswertungen und Statistiken
 
 Eine der wichtigsten Funktionen von 365 business Print Agent Config ist die erweiterte Diagrammerstellung, Statistiken und Protokollierung. 
 Diese finden Sie beim Start der Applikation im Dashboard, unter dem Menüpunkt "Verlauf" oder dem Menüpunkt "Statistiken".

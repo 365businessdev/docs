@@ -1,6 +1,5 @@
----
-title: PDF-Files
----
+# PDF-Files
+
 In the PDF files page the PDF files are created and uploaded, which are used in the different configurations.
  - [PDF Stationery Configuration](stationery.md)
  - [PDF Concatenation Configuration](concatenate.md)
@@ -8,7 +7,7 @@ are used. The page is used for central administration and allows to maintain and
 
 ![PDF Files](/assets/images/365-business-pdf/pdf-files.png)  
 
-#### How do I create a new PDF file?
+## How do I create a new PDF file?
 
 1. Open the page **PDF Files**.
 2. Select **New**.

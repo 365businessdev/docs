@@ -1,6 +1,4 @@
----
-title: Introduction
----
+# Introduction
  
 Welcome to the documentation for 365 business Proxy Application! This comprehensive guide provides you with all the information you need to use 365 business Proxy Application effectively and take full advantage of the integration of your local resources.
 
@@ -9,7 +7,7 @@ Welcome to the documentation for 365 business Proxy Application! This comprehens
 365 business Proxy Application is a powerful extension for Microsoft Dynamics 365 Business Cntral that allows you to securely and easily integrate your local resources and systems into Microsoft Dynamics 365 Business Central from the cloud or on-premise systems, in compliance with the [*Universal Code Initiative*](https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2022/10/28/the-dynamics-365-business-central-universal-code-initiative-is-live.md). From file access to the control of printers, warehouse lifts, scales or card readers. With the flexible and individually expandable plug-in system of 365 business Proxy Application, there are no limits.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Note:</strong> 365 business Proxy Application is designed to enable the integration of local resources into your business processes with as little effort as possible.<br>Do you need an individual connection to a local device or machine? <a href="https://365businessdev.com/kontakt/" target="_blank">Get in touch with us</a>.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note</strong> 365 business Proxy Application is designed to enable the integration of local resources into your business processes with as little effort as possible.<br>Do you need an individual connection to a local device or machine? <a href="https://365businessdev.com/kontakt/" target="_blank">Get in touch with us</a>.
 </div>
 
 ## Functions and options

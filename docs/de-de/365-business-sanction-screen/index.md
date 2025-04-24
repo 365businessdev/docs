@@ -1,6 +1,4 @@
----
-title: Startseite
----
+# 365 business Sanction Screen
 
 Unternehmen sind gesetzlich verpflichtet, ihre Handelspartner regelmäßig gegen Sanktionslisten zu prüfen, um sicherzustellen, dass sie keine Geschäfte mit sanktionierten Personen, Gruppen oder Organisationen tätigen. Diese Verpflichtung ergibt sich aus verschiedenen EU-Verordnungen und dem Außenwirtschaftsgesetz (AWG).
 
@@ -17,7 +15,7 @@ Mit 365 business Sanction Screen können Unternehmen ihre Sanktionslistenprüfun
 
 Dank der Integration in Microsoft Dynamics 365 Business Central können Unternehmen ihre Sanktionslistenprüfungen direkt in ihrem ERP-System durchführen. Die Lösung bietet eine nahtlose Integration in die Benutzeroberfläche von Microsoft Dynamics 365 Business Central und ermöglicht es den Benutzern, Sanktionslistenprüfungen direkt aus dem System.
 
-### Vorteile von 365 business Sanction Screen:
+## Vorteile von 365 business Sanction Screen:
 
 - **Umfassende Abdeckung:** Durchführung von Sanktionsprüfungen mit über 240 Datenquellen, einschließlich:
     - EU CFSP - Konsolidierte Liste von Personen

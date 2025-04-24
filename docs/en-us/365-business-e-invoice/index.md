@@ -1,6 +1,5 @@
----
-title: Introduction
----
+# 365 business E-Invoice
+
 From January 1, 2025, a new legal regulation will come into force in Germany that will make the receipt of electronic invoices mandatory for companies. This measure aims to reduce the administrative burden, digitize accounting and combat tax evasion. From this date, companies must receive and process their invoices in a standardized electronic format (e.g. ZUGFeRD).
 
 ![365 business E-Invoice](/assets/images/365-business-e-invoice/logo.png)  
@@ -11,7 +10,7 @@ In addition to the obligation in Germany, electronic invoices are also gradually
 
 Thanks to the support of the ZUGFeRD 2.0 standard (profile EN16931), our product can also convert conventional invoices into the required electronic format and optionally send them automatically to recipients.
 
-### Advantages of 365 business E-Invoice:
+## Advantages of 365 business E-Invoice:
 
 * **Automated Import:** Import and process purchase invoices and credit notes directly from Microsoft 365 mailboxes or via drag & drop.
 * **Automated Export:** Create ZUGFeRD-compliant sales invoices and credit notes and send them via email.
@@ -20,7 +19,6 @@ Thanks to the support of the ZUGFeRD 2.0 standard (profile EN16931), our product
 * **Assisted Error Correction:** If the automatic assignment fails, our wizard helps to manually assign details correctly.
 
 With 365 business E-Invoice, companies are ideally prepared to meet the upcoming regulatory requirements and make their processes efficient and future-proof.
-
 
 <div class="columns">
    <div>

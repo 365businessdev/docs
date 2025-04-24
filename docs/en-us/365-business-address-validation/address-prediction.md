@@ -1,11 +1,10 @@
----
-title: Address Prediction
----
+# Address Prediction
+
 Address prediction is an *Auto-Complete* functionality implemented in Microsoft Dynamics 365 Business Central to help users capture postal addresses and organizational and company information without errors.
 
 ![Address Prediction](/assets/images/365-business-address-validation/addressprediction.en-US.gif)
 
-#### In which tables is the address prediction available?
+## In which tables is the address prediction available?
 
 Address prediction is implemented in the master data tables Contact, Customer, Vendor, Resource and Employee. The following fields are implemented for address prediction by default:
 
@@ -20,21 +19,21 @@ Address prediction is implemented in the master data tables Contact, Customer, V
 | Resource | Address | Postal addresses. | |
 | Employee | Address | Postal addresses. | |
 
-#### What additional information is obtained from organizations and companies?
+## What additional information is obtained from organizations and companies?
 
 The additional information depends on the actual data available in our data sources. Usually, however, in addition to the postal address and the company name, the following information is determined:
  
  - Homepage
  - Phone No.
 
-#### Why are only a maximum of four results displayed?
+## Why are only a maximum of four results displayed?
 
 In [Address Validation Setup](setup.md) you can specify the max. number of predictions shown initially. The default value is four, but can modified according to the business needs.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Tip:</strong> By clicking the <i>Load more...</i> action in the address prediction list, all additional predictions will be shown.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Tip</strong> By clicking the <i>Load more...</i> action in the address prediction list, all additional predictions will be shown.
 </div>
 
-### See also 
+# See also 
  - [Address Validation Setup](setup.md)
  - [Address Validation](address-validation.md)

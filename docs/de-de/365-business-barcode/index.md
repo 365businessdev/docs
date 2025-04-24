@@ -2,7 +2,7 @@
 
 1D- und 2D-Barcodes direkt aus Microsoft Dynamics 365 Business Central kodieren und dekodieren, über 365 business Barcode. Mit 365 business Barcode können Sie in beliebige Bereiche Ihrer Anwendung Barcodes integrieren, egal ob auf dem Arbeitsschein, dem Kommissionierschein, dem Lieferschein oder der Rechnung! Mit unserer leistungsstarken und flexiblen App können Sie ohne großen Implementierungsaufwand ihre Prozesse durch Barcodes unterstützen.
 
-![365 business Barcode](/assets/images/365-business-barcode/c2d1994e3928121cbe3688812536565148167627fcfc18fd6fa635219e78eb4f.png)  
+![365 business Barcode](/assets/images/365-business-barcode/logo.png)  
 
 365 business Barcode verwendet den Barcode Dienst der [365 business API](../365-business-api/index.md) und setzt, nach Ablauf der kostenlosen und unverbindlichen Testphase, eine aktive Subscription voraus. Die 365 business API ist mit Microsoft Dynamics 365 Business Central über die 365 business API-App verbunden.
 
@@ -37,7 +37,7 @@
 </div>
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Gut zu wissen:</strong> 365 business Barcode kann kostenlos und unverbindlich für 30 Tage getestet werden.<br>Sie brauchen mehr Zeit? Kein Problem, sprechen Sie uns einfach an!
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Gut zu wissen</strong> 365 business Barcode kann kostenlos und unverbindlich für 30 Tage getestet werden.<br>Sie brauchen mehr Zeit? Kein Problem, sprechen Sie uns einfach an!
 </div>
 
 ## Funktionen im Überblick

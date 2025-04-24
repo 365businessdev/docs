@@ -1,18 +1,16 @@
----
-title: Einrichtung
----
+# Einrichtung
 
 Durch die Installation von 365 business Sanction Screen ist die grundsätzliche Einrichtung bereits abgeschlossen und Sie sind bereit um die Sanktionslistenprüfung in Microsoft Dynamics 365 Business Central vorzunehmen.
 Hierbei handelt es sich jedoch um eine Standardeinrichtung, die abhängig von den individuellen Anforderungen Ihres Unternehmens angepasst werden sollte.
 
-### Bevor Sie starten
+## Bevor Sie starten
 
 Bevor Sie mit der Sanktionslistenprüfung beginnen, sollten Sie folgende Punkte überprüfen:
 
 - **Datenkataloge:** Überprüfen Sie die Datenkataloge, die für die Sanktionslistenprüfung verwendet werden sollen. 365 business Sanction Screen bietet eine umfassende Abdeckung von über 240 Datenquellen, die für die Sanktionslistenprüfung genutzt werden können. Weitere Informationen finden Sie [hier](data-sources.md).
 - **Intervalle:** Überprüfen Sie die Intervalle, in denen die Sanktionslistenprüfung durchgeführt werden soll. 365 business Sanction Screen ermöglicht die vollständig automatisierte Sanktionsprüfung mit konfigurierbaren Intervallen für jede Entität.
 
-#### Prüfintervalle
+## Prüfintervalle
 
 Die Prüfintervalle bestimmen, wie oft die Sanktionslistenprüfung durchgeführt wird. Sie können die Prüfintervalle für jede Entität individuell konfigurieren, wobei folgende Empfehlungen gelten:
 
@@ -22,14 +20,14 @@ Die Prüfintervalle bestimmen, wie oft die Sanktionslistenprüfung durchgeführt
 - **Unternehmen mit hohem Risiko:** Monatlich. Unternehmen, die in Branchen mit hohem Risiko tätig sind oder viele internationale Transaktionen durchführen, sollten monatliche Überprüfungen in Betracht ziehen.
 - **Unternehmen mit kritischen Geschäftsbereichen:** Wöchentlich. Unternehmen, die in besonders sensiblen oder regulierten Bereichen tätig sind, wie z.B. Finanzdienstleistungen oder Rüstungsindustrie, sollten wöchentliche Prüfungen durchführen.
 
-### Einrichtung
+## Einrichtung
 
 Die **Sanction Screen Einrichtung** kann als zentraler Anlaufpunkt für die Konfiguration der Sanktionslistenprüfung in Microsoft Dynamics 365 Business Central genutzt werden. Hier können Sie die Prüfintervalle für jede Entität festlegen, die zu prüfenden Datenkataloge auswählen und Benachrichtigungen konfigurieren.
 Zusätzlich finden Sie nützliche Informationen zur aktuellen Konfiguration und den durchgeführten Prüfungen.
 
 ![365 business Sanction Screen - Einrichtung](/assets/images/365-business-sanction-screen/sanctionscreen.setup.de-DE.png)
 
-#### Debitoren & Verkauf
+### Debitoren & Verkauf
 
 In der Gruppe **Debitoren & Verkauf** können Sie festlegen, wie Microsoft Dynamics 365 Business Central mit möglichen Übereinstimmungen und Treffern bei der Sanktionslistenprüfung, innerhalb von Verkaufsbelegen und Debitoren umgehen soll.
 
@@ -39,7 +37,7 @@ In der Gruppe **Debitoren & Verkauf** können Sie festlegen, wie Microsoft Dynam
 
 Weitere Optionen finden Sie unter [Trefferverhalten](setup.md#trefferverhalten).
 
-#### Kreditoren & Einkauf
+### Kreditoren & Einkauf
 
 In der Gruppe **Kreditoren & Einkauf** können Sie festlegen, wie Microsoft Dynamics 365 Business Central mit möglichen Übereinstimmungen und Treffern bei der Sanktionslistenprüfung, innerhalb von Einkaufsbelegen und Kreditoren umgehen soll.
 
@@ -49,7 +47,7 @@ In der Gruppe **Kreditoren & Einkauf** können Sie festlegen, wie Microsoft Dyna
 
 Weitere Optionen finden Sie unter [Trefferverhalten](setup.md#trefferverhalten).
 
-#### Trefferverhalten
+### Trefferverhalten
 
 Das **Trefferverhalten** bestimmt, wie Microsoft Dynamics 365 Business Central mit möglichen Übereinstimmungen bei der Sanktionslistenprüfung umgehen soll. Sie können das Verhalten für die Bereiche Debitoren & Verkauf und Kreditoren & Einkauf individuell festlegen.
 
@@ -64,7 +62,7 @@ Die Benachrichtigungen werden dabei in den Belegen der jeweiligen Bereiche (z.B.
 
 Darüber hinaus wird zusätzlich geprüft, ob die Entität bereits geprüft wurde (z.B. neuer Debitor). Sofern eine Benachrichtigungsoption ausgewählt wurde, wird der Anwender darüber informiert, dass die Entität noch nicht geprüft wurde und muss dies bestätigen.
 
-#### Screening-Intervall
+### Screening-Intervall
 
 Das **Screening-Intervall** bestimmt, wie oft die Sanktionslistenprüfung durchgeführt wird. Sie können das Intervall für jede Entität individuell festlegen.
 
@@ -78,10 +76,10 @@ Das **Screening-Intervall** bestimmt, wie oft die Sanktionslistenprüfung durchg
 | **Manuell** | Die Prüfung erfolgt ausschließlich manuell durch den Anwender. |
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Gut zu wissen:</strong>Im automatisierten Aufgabenwarteschlangenposten <strong>Sanktionsprüfung</strong> kann die Einstellung übersteuert werden, um abweichend vom Standard individuell Sonderprüfungen durchzuführen.
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Gut zu wissen</strong>Im automatisierten Aufgabenwarteschlangenposten <strong>Sanktionsprüfung</strong> kann die Einstellung übersteuert werden, um abweichend vom Standard individuell Sonderprüfungen durchzuführen.
 </div>
 
-### Berechtigungen
+## Berechtigungen
 
 Mit 365 business Sanction Screen werden zwei Berechtigungssätze bereitgestellt, die für die Sanktionslistenprüfung benötigt werden:
 
@@ -90,7 +88,7 @@ Mit 365 business Sanction Screen werden zwei Berechtigungssätze bereitgestellt,
 | `BDEV.OS.BASIC` | Sanktionsprüfung - BASIS | Stellt die grundsätzlichen Berechtigungen zum Arbeiten mit 365 business Sanction Screen zur Verfügung. Dieser Berechtigungssatz sollte an **alle Benutzer** vergeben werden. |
 | `BDEV.OS.WHITELIST` | Sanktionsprüfung - Whitelist | Berechtigt den Anwender dazu Sanktionstrefferposten auf die Whitelist zu setzen. |
 
-### Siehe auch
+# Siehe auch
 
 - [Schrittanleitung](get-started.md)
 - [Datenkataloge für Sanktionsprüfung](data-sources.md)

@@ -1,9 +1,8 @@
----
-title: Automated Screening (Job Queue)
----
+# Automated Screening (Job Queue)
+
 365 business Sanction Screen supports automated sanction list screening in Microsoft Dynamics 365 Business Central. The automated sanction list screening allows you to automatically perform sanction list screening for all supported entities.
 
-### Before you start
+## Before you start
 
 On the **Sanction Screen Setup** page, you can set the screening intervals for each entity, select the data catalogs to be screened, and configure notifications. Additionally, you will find useful information about the current configuration and the screenings performed.
 
@@ -11,7 +10,7 @@ On the **Sanction Screen Setup** page, you can set the screening intervals for e
 
 Before setting up automated sanction list screening, check that the **Sanction Screen Setup** is configured correctly. This is the only way to ensure that the automated sanction list screening is performed correctly.
 
-### Setting up automated sanction list screening
+## Setting up automated sanction list screening
 
 Follow these steps to set up automated sanction list screening in Microsoft Dynamics 365 Business Central:
 
@@ -25,10 +24,10 @@ Follow these steps to set up automated sanction list screening in Microsoft Dyna
 7. Select the **Set Status to 'Ready'** action to activate the job queue entry.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Note:</strong> To ensure optimal sanction list screening, we recommend configuring the screening intervals for each entity (e.g., customer) in the <strong>Sanction Screen Setup</strong>.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note</strong> To ensure optimal sanction list screening, we recommend configuring the screening intervals for each entity (e.g., customer) in the <strong>Sanction Screen Setup</strong>.
 </div>
 
-### See also
+# See also
 
 - [Setup](setup.md)
 - [Data catalogs for sanction screening](data-sources.md)

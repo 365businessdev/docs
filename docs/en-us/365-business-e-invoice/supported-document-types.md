@@ -1,6 +1,5 @@
----
-title: Supported Document Types
----
+# Supported Document Types
+
 365 business E-Invoice supports the import of E-Documents for purchase invoices and credit memos. This enables companies to efficiently process incoming invoices and credit memos and integrate them into Microsoft Dynamics 365 Business Central.
 
 For export, sales invoices and credit memos are supported. This makes it easier for companies to send and manage outgoing invoices and credit memos directly from Microsoft Dynamics 365 Business Central.

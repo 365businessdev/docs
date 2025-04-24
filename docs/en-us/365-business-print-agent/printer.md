@@ -1,6 +1,5 @@
----
-title: Printer
----
+# Printer
+
 In **Printers** page in Microsoft Dynamics 365 Business Central you'll find all shared printers from 365 business Print Agent services. 
 
 ![Printers](/assets/images/365-business-print-agent/87afe451377b606dffb0d548cac691fcc4c6bdbf02744a21204a1ee825389a30.png)  
@@ -16,10 +15,10 @@ Print Agent is supporting every printer with Microsoft Windows compatible driver
 Additionally Print Agent is supporting native `Zebra (ZPL)` emulation to communicate with [Zebra printers](https://www.zebra.com) using native ZPL commands, instead of PDF printing.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Remarks:</strong>Sharing network printers in 365 business Print Agent may cause timeouts as the actual printer takes longer to respond. This is a common problem with Windows printer management and cannot be solved by 365 business Print Agent.<br><br>We strongly recommend installing 365 business Print Agent directly on print servers to share locally installed printers instead of sharing printers from a remote print server.
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Remarks</strong>Sharing network printers in 365 business Print Agent may cause timeouts as the actual printer takes longer to respond. This is a common problem with Windows printer management and cannot be solved by 365 business Print Agent.<br><br>We strongly recommend installing 365 business Print Agent directly on print servers to share locally installed printers instead of sharing printers from a remote print server.
 </div>
 
-#### How do I enable ZPL emulation for printers?
+### How do I enable ZPL emulation for printers?
 
 In Print Agent service application, installed on your printer server, you find a list of all currently installed printers. In column `Emulation` you can specify `Zebra (ZPL)` instead of `Default` to use PDF to ZPL conversion and communicate with the Zebra printer using native ZPL commands.
 
@@ -33,6 +32,6 @@ Due to maintenance, software updates or incidents shared printers may not be ava
 
 Additionally the [Print Agents](print-agent-clients.md) page in Microsoft Dynamics 365 Business Central shows a list of all registered Print Agent Services and there online status.
 
-### See also 
+# See also 
 
  - [Print Agents](print-agent-clients.md)

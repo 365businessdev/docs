@@ -17,7 +17,7 @@ Hierzu zählen unter anderem:
  - uvm.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Sprechen Sie uns an!</strong>Wir entwickeln für Sie individuelle Plugins zur Anbindung Ihrer lokalen Systeme und Ressourcen. Mit 365 business Proxy Application sind keine Grenzen gesetzt.<br>
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Sprechen Sie uns an!</strong>Wir entwickeln für Sie individuelle Plugins zur Anbindung Ihrer lokalen Systeme und Ressourcen. Mit 365 business Proxy Application sind keine Grenzen gesetzt.<br>
     <br>
     <a href="https://365businessdev.com/kontakt/" target="_blank">Sprechen Sie uns gerne an</a>.
 </div>

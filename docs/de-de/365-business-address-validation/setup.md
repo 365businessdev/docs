@@ -42,5 +42,5 @@ Mit dem Berechtigungssatz **ADDRESSVALIDATION** erhalten die Anwender vollen Zug
 Mit dem Berechtigungssatz **ADDRVALIDATION-BASIC** erhalten die Anwender Zugriff auf die notwendigen Objekte zur Ausführung der Adressvalidierung und -vorhersage. Einrichtungsdaten können jedoch nicht verändert werden.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong>Bitte beachten Sie, dass die Berechtigungssätze keine Berechtigungen für Standard-Tabellen, wie Debitor, Kreditor und Kontakt, enthalten.<br>Diese Berechtigungen sollten, sofern notwendig, separat über individuelle oder Standardberechtigungsätze vergeben werden.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong>Bitte beachten Sie, dass die Berechtigungssätze keine Berechtigungen für Standard-Tabellen, wie Debitor, Kreditor und Kontakt, enthalten.<br>Diese Berechtigungen sollten, sofern notwendig, separat über individuelle oder Standardberechtigungsätze vergeben werden.
 </div>

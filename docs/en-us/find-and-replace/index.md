@@ -1,6 +1,5 @@
----
-title: Introduction
----
+# Introduction
+
 With the extension 365 business development - Find & Replace you get the action `Find & Replace` in various areas of Microsoft Dynamics 365 Business Central and can easily and uncomplicatedly, execute mass data changes directly within Microsoft Dynamics 365 Business Central.
 
 You can get 365 business development - Find & Replace free of charge in the Microsoft AppSource.

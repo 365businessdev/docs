@@ -1,16 +1,14 @@
----
-title: Dauerfristverlängerung
----
+# Dauerfristverlängerung
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Info:</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Info</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
 </div>
 
 Mit dem Antrag auf Dauerfristverlängerung möchte ein Unternehmer erreichen, dass sein Finanzamt ihm eine einmonatige Frist zur Abgabe seiner Umsatzsteuervoranmeldung gewährt. Eine genehmigte Dauerfristverlängerung gilt nicht nur für die dem Antrag folgende Umsatzsteuervoranmeldung, sondern für sämtliche dem Antrag folgenden Umsatzsteuervoranmeldungen. Sie gilt nicht für die Zusammenfassende Meldung. Der Antrag auf Dauerfristverlängerung ist jedoch nicht zulässig für die Umsatzsteuerjahreserklärung.
 
 Bei Unternehmern mit der Verpflichtung zur monatlichen Abgabe von Umsatzsteuervoranmeldungen ergeht die Dauerfristverlängerung nur unter der Auflage der Anmeldung einer Sondervorauszahlung. Die Sondervorauszahlung beträgt jährlich 1/11 der Summe der Umsatzsteuervorauszahlungen für das vorangegangene Kalenderjahr (§ 47 Abs. 1 und § 48 Abs. 2 UStDV). Wurden im Vorjahr bereits Sondervorauszahlungen geleistet, sind diese für die Berechnung der Sondervorauszahlungen des laufenden Jahres aus der Summe der Umsatzsteuervorauszahlungen des Vorjahres herauszurechnen. Die Sondervorauszahlung wird auf dem gleichen Vordruck wie die Dauerfristverlängerung angemeldet. In der Umsatzsteuervoranmeldung für Dezember rechnet sich der Unternehmer dann die Sondervorauszahlung wieder als Erstattung an. Dieses Verfahren soll einen möglichen Zinsvorteil abschöpfen, welchen sich der Unternehmer durch spätere Zahlung der Umsatzsteuervorauszahlungen verschafft. Die Sondervorauszahlung ist zum 10.02. jährlich anzumelden und zu entrichten.
 
-#### So erstellen Sie eine Dauerfristverlängerung
+## So erstellen Sie eine Dauerfristverlängerung
 1. Wählen Sie **ELSTER Steuerdaten** in der Suche von Business Central.
 2. Klicken Sie auf **Neu**.
 3. Wählen Sie die Datenart **UStDV - Dauerfristverlängerung**.
@@ -19,7 +17,7 @@ Bei Unternehmern mit der Verpflichtung zur monatlichen Abgabe von Umsatzsteuervo
 6. Wenn Sie zusätzliche Informationen für die Bearbeitung an das Finanzamt senden möchten, können Sie diese im Feld **Zusätzliche Informationen** erfassen.
 7. Klicken Sie auf **XML-Datei übertragen** um die Steuerdatei einzureichen und elektronisch an die deutschen Steuerbehörden zu übermitteln.
 
-#### So erstellen Sie eine Dauerfristverlängerung mit Anmeldung der Sondervorauszahlung
+## So erstellen Sie eine Dauerfristverlängerung mit Anmeldung der Sondervorauszahlung
 1. Wählen Sie **ELSTER Steuerdaten** in der Suche von Business Central.
 2. Klicken Sie auf **Neu**.
 3. Wählen Sie die Datenart **UStDV - Dauerfristverlängerung**.
@@ -32,7 +30,7 @@ Bei Unternehmern mit der Verpflichtung zur monatlichen Abgabe von Umsatzsteuervo
 11. Prüfen und korrigieren Sie bei Bedarf die ermittelten Werte.
 12. Klicken Sie auf **XML-Datei übertragen**, um die Steuerdatei einzureichen und elektronisch an die deutschen Steuerbehörden zu übermitteln.
 
-#### Weitere Optionen
+## Weitere Optionen
 Zusätzlich zu den oben genannten Einstellungen können Sie folgende Optionen setzen:
 
 | Name | Beschreibung |
@@ -40,7 +38,7 @@ Zusätzlich zu den oben genannten Einstellungen können Sie folgende Optionen se
 | Testübertragung | Gibt an, dass diese Steuermeldung nur zu Testzwecken dient. Diese Steuerübertragung wird nach der Übermittlung von ELSTER gelöscht und nicht verarbeitet. |
 | Berichtigte Anmeldung | Gibt an, dass es sich bei dieser Steuermeldung um eine korrigierte Mitteilung handelt. Nachdem Sie eine Steuermeldung für einen bestimmten Zeitraum erfolgreich übertragen haben, müssen Sie diese Option einstellen, damit Sie eine aktualisierte Steuermeldung übertragen können. |
 
-### Siehe auch
+# Siehe auch
 - [ELSTER Steuerdaten](elster-tax-statements.md)
 - [MwSt.-Abrechnung Einrichtung](vat-statement-setup/vat-statement-setup.md)
 - [Datenart - USt.-Voranmeldung - Dokumentation](elster-sales-vat-adv-notification.md)

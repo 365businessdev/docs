@@ -3,7 +3,7 @@
 Für Microsoft Dynamics 365 Business Central On-Premise Umgebungen werden sogenannte Runtime Packages zur Verfügung gestellt. Hierbei handelt es sich um vorkompilierte Erweiterungen, die Sie direkt in Ihrer Microsoft Dynamics 365 Business Central Umgebung installieren können.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Gut zu wissen:</strong>Es ist wichtig die korrekte Version, für die bei Ihnen eingesetzte Plattform Version von Microsoft Dynamics 365 Business Central, zu verwenden. Runtime Packages sind nur für die Version für die Sie kompiliert wurden kompatibel.<br>Der Einsatz in einer anderen Version kann zu Fehlern führen.
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Gut zu wissen</strong>Es ist wichtig die korrekte Version, für die bei Ihnen eingesetzte Plattform Version von Microsoft Dynamics 365 Business Central, zu verwenden. Runtime Packages sind nur für die Version für die Sie kompiliert wurden kompatibel.<br>Der Einsatz in einer anderen Version kann zu Fehlern führen.
 </div>
 
 ## Installation
@@ -21,7 +21,7 @@ Den **365 business development App Installer** stellen wir auf unserer GitHub Se
 In diesem Abschnitt erfahren Sie, wie Sie den **365 business development App Installer** verwenden können, um unsere Erweiterungen in Microsoft Dynamics 365 Business Central On-Premise Umgebungen zu installieren.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong> Bitte beachten Sie, dass der 365 business development App Installer in einer PowerShell Sitzung mit erhöhten Rechten (Administrator) ausgeführt werden muss.<br>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong> Bitte beachten Sie, dass der 365 business development App Installer in einer PowerShell Sitzung mit erhöhten Rechten (Administrator) ausgeführt werden muss.<br>
     <br>
     Die Ausführung muss auf dem Microsoft Dynamics 365 Business Central Server erfolgen, da die Microsoft Dynamics 365 Business Central PowerShell Module für die Installation benötigt werden.
 </div>
@@ -39,7 +39,7 @@ In diesem Abschnitt erfahren Sie, wie Sie den **365 business development App Ins
  5. Wählen Sie die Microsoft Dynamics 365 Business Central-Dienstinstanz aus (_nur wenn mehr als eine Instanz installiert ist_).
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong> Sie finden die Application ID, sowie den vollständigen Aufruf des 365 business development App Installer auf der jeweiligen Downloadseite des Produkts.<br>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong> Sie finden die Application ID, sowie den vollständigen Aufruf des 365 business development App Installer auf der jeweiligen Downloadseite des Produkts.<br>
     <br>
     Zu den <a href="https://downloads.365businessdev.com/" target="_blank">365 business development Downloads</a>.
 </div>

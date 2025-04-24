@@ -1,10 +1,7 @@
----
-title: Sicheres Drucken (Secure Print)
----
-
+# Sicheres Drucken (Secure Print)
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Gut zu wissen:</strong>Das <strong>Secure Print Feature</strong> für den 365 business Print Agent ist ein kostenpflichtiges Add-On.<br>
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Gut zu wissen</strong>Das <strong>Secure Print Feature</strong> für den 365 business Print Agent ist ein kostenpflichtiges Add-On.<br>
     Bitte prüfen Sie unter <strong>Erweiterungslizenzverwaltung (365 business development)</strong> ob Sie die Lizenz für das Secure Print Feature erworben haben.
 </div>
 
@@ -30,7 +27,7 @@ Bei der Einrichtung der Secure Print Benutzer werden die Microsoft Dynamics 365 
    ![Secure Print User Setup](/assets/images/365-business-print-agent/secure-print-user-setup.de-DE.png)
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong> Die Entra ID Objekt ID des Benutzers finden Sie in der Microsoft Entra Verwaltung.<br>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong> Die Entra ID Objekt ID des Benutzers finden Sie in der Microsoft Entra Verwaltung.<br>
     Weitere Informationen zur Einrichtung von Secure Print Benutzern finden Sie <a href="https://learn.microsoft.com/de-de/partner-center/account-settings/find-ids-and-domain-names#find-the-user-object-id" target="_blank">hier</a>.
 </div>
 
@@ -50,10 +47,10 @@ Nachdem die Secure Print Benutzer eingerichtet wurden, können Sie Secure Print 
 Nach der Aktivierung von Secure Print für eine Druckereinstellung, werden alle Druckaufträge für diesen Drucker gesichert und müssen über die Print Agent App auf Ihrem Mobilgerät freigegeben werden.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Gut zu wissen:</strong>Benutzer, die nicht für Secure Print eingerichtet sind können keine Druckereinstellungen mit Secure Print verwenden.
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Gut zu wissen</strong>Benutzer, die nicht für Secure Print eingerichtet sind können keine Druckereinstellungen mit Secure Print verwenden.
 </div>
 
 
-### Siehe auch
+# Siehe auch
 
 - [Benutzerobjekt-ID suchen (Microsoft Learn)](https://learn.microsoft.com/de-de/partner-center/account-settings/find-ids-and-domain-names#find-the-user-object-id)

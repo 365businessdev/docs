@@ -20,7 +20,7 @@ Dieser Fehler tritt auf, wenn Sonderzeichen in Feldern enthalten sind. Prüfen S
 Der hinterlegte Zertifikat PIN ist nicht korrekt (siehe [Einrichtung](setup.md)).
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong> Die Liste der häufigen Validierungsmeldungen wird regelmäßig aktualisiert um Ihnen direkt Lösungsvorschläge zu bieten. Sollte Ihre Meldung hier nicht aufgelistet sein und Sie benötigen Unterstützung, wenden Sie sich bitte an <a href="mailto:support@365businessdev.de">support@365businessdev.de</a>.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong> Die Liste der häufigen Validierungsmeldungen wird regelmäßig aktualisiert um Ihnen direkt Lösungsvorschläge zu bieten. Sollte Ihre Meldung hier nicht aufgelistet sein und Sie benötigen Unterstützung, wenden Sie sich bitte an <a href="mailto:support@365businessdev.de">support@365businessdev.de</a>.
 </div>
 
 # Siehe auch

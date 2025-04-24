@@ -1,9 +1,7 @@
----
-title: ELSTER Tax Data Type
----
+# ELSTER Steuerdatenarten
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Info:</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Info</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
 </div>
 
 Die 365 business ERiC Extension für Microsoft Dynamics 365 Business Central unterstützt aktuell folgende ELSTER Steuerdatenarten:
@@ -18,7 +16,7 @@ Die 365 business ERiC Extension für Microsoft Dynamics 365 Business Central unt
 | [**Umsatzsteuererklärung**](elster-annual-vat-return.md) | USt | Die Umsatzsteuererklärung hat jedes Unternehmen bzw. jeder umsatzsteuerpflichtige und selbständig Tätige einmal im Jahr zu erstellen. Bei der Umsatzsteuererklärung werden alle Formen des entgeltlichen Tätigwerdens eines Unternehmens erfasst. Umsatzsteuern fallen sowohl auf Verkäufe als auch auf Dienstleistungen an. Die Abgabefrist ist der 31. Mai des Folgejahres. |
 | [**One-Stop-Shop (OSS)**](bop-one-stop-shop.md) | OSS | Der One-Stop-Shop (OSS) und die Fernverkäufe ab dem 01.07.2021 sind die größte Reform der Umsatzsteuer für den EU-Onlinehandel und sollen den innergemeinschaftlichen Handel endlich vereinfachen. Die Besteuerung erfolgt ab einem Gesamtwert von 10.000 € im Bestimmungsland, die bisherigen Lieferschwellen entfallen. Die Mehrwertsteuer muss nur noch bei einer zentralen Registrierungsstelle pro Land angemeldet werden, Umsatzsteueranmeldungen in einzelnen Ländern werden damit überflüssig.<br><br>_**Hinweis:** Aktuell wird die elektronische Übermittlung, mit Hilfe der ELSTER Rich Client (ERiC) Bibliothek, nicht unterstützt. Das BZSt hat zum Zweck der elektronischen Meldung im Onlineportal "Mein BOP" einen CSV-Import zur Verfügung gestellt._|
 
-### Siehe auch
+# Siehe auch
 - [ELSTER Steuerdaten](elster-tax-statements.md)
 - [Datenart - USt.-Voranmeldung - Dokumentation](elster-sales-vat-adv-notification.md)
 - [Datenart - Zusammenfassende Meldung - Dokumentation](elster-recapulative-statement.md)

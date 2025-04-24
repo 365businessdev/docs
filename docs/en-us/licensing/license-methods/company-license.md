@@ -18,7 +18,7 @@ The number of companies to be licensed can be viewed on the **Company Licensing 
 ![Company Licensing Overview](/assets/images/licensing/1074090a-522a-48a7-ae00-6dfd7ac604f1.png)
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Good to know:</strong> Companies marked as <strong>Test Company</strong> are automatically hidden in this view and are exempt from licensing.
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Good to know</strong> Companies marked as <strong>Test Company</strong> are automatically hidden in this view and are exempt from licensing.
 </div>
 
 ## What data is collected for license verification?

@@ -23,7 +23,7 @@ License activation is accessed via the **Extension License Management (365 busin
 3. Select **Next** to continue.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Good to know:</strong> Partner licensing is only available for Microsoft partners with a valid partner agreement.
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Good to know</strong> Partner licensing is only available for Microsoft partners with a valid partner agreement.
 </div>
 
 ## Step 3: Choose Licensing
@@ -34,7 +34,7 @@ License activation is accessed via the **Extension License Management (365 busin
 3. Select **Next** to continue.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Good to know:</strong> Prices are calculated in real-time based on your selection. Prices may vary depending on the licensing method and subscription period.
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Good to know</strong> Prices are calculated in real-time based on your selection. Prices may vary depending on the licensing method and subscription period.
 </div>
 
 ## Step 4: Registration Information
@@ -47,7 +47,7 @@ Depending on whether it is partner or end customer licensing, the process differ
 2. Select **Next** to continue.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Good to know:</strong> Please use the Microsoft Partner ID you provided when signing the partner agreement with 365 business development.
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Good to know</strong> Please use the Microsoft Partner ID you provided when signing the partner agreement with 365 business development.
 </div>
 
 ### Step 4.2: End Customer Licensing
@@ -69,7 +69,7 @@ Depending on whether it is partner or end customer licensing, the process differ
 This step is only necessary if you previously selected the **Credit Card** payment method.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> The payment authorization step is only necessary once and may be skipped if a valid payment method is already stored.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> The payment authorization step is only necessary once and may be skipped if a valid payment method is already stored.
 </div>
 
 1. A new browser window for payment authorization will open.
@@ -80,7 +80,7 @@ This step is only necessary if you previously selected the **Credit Card** payme
 6. Wait for the payment authorization confirmation.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Good to know:</strong> Your browser settings may prevent the payment authorization window from opening automatically.<br>
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Good to know</strong> Your browser settings may prevent the payment authorization window from opening automatically.<br>
     In this case, please select the link <strong>If your browser settings prevent the opening of a new window for payment...</strong> to open the payment authorization in a new tab.
 </div>
 

@@ -1,11 +1,8 @@
----
-title: Introduction
----
-
+# 365 business Barcode
 
 Encode and decode 1D and 2D barcodes directly from Microsoft Dynamics 365 Business Central, via 365 business Barcode. With 365 business Barcode, you can integrate barcodes into any part of your application, whether it's on the work ticket, the picking slip, the delivery bill or the invoice! With our powerful and flexible app, you can support your processes with barcodes without much implementation effort.
 
-![365 business Barcode](/assets/images/365-business-barcode/c2d1994e3928121cbe3688812536565148167627fcfc18fd6fa635219e78eb4f.png)  
+![365 business Barcode](/assets/images/365-business-barcode/logo.png)
 
 365 business Barcode uses the barcode service of the [365 business API](../365-business-api/index.md) and requires an active subscription after the free and non-binding trial period. The 365 business API is connected to Microsoft Dynamics 365 Business Central via the 365 business API app.
 
@@ -40,10 +37,10 @@ Encode and decode 1D and 2D barcodes directly from Microsoft Dynamics 365 Busine
 </div>
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Good to know:</strong> 365 business Barcode can be tested free of charge and without obligation for 30 days.<br>You need more time? No problem, just contact us.
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Good to know</strong> 365 business Barcode can be tested free of charge and without obligation for 30 days.<br>You need more time? No problem, just contact us.
 </div>
 
-#### Functions at a glance
+## Functions at a glance
 
 ![Barcode Settings](/assets/images/365-business-barcode/barcode-settings.en-US.gif)
 

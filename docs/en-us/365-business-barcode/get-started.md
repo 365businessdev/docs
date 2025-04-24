@@ -1,6 +1,5 @@
----
-title: Get Started
----
+# Get Started
+
 365 business Barcode is an extension for Microsoft Dynamics 365 Business Central that gives you the ability to encode and decode barcodes, within Microsoft Dynamics 365 Business Central.
 
 This quick guide explains how you can make various [barcode settings](barcode-settings.md) in 365 business Barcode, which you can then integrate into your application.
@@ -16,13 +15,13 @@ After installation, if the 365 business API was not already installed, the Welco
 After the registration is complete, you will receive your personal API authentication key, which is required to communicate with the 365 business API.<br>
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Note:</strong> No further setup of 365 business Barcode is necessary.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note</strong> No further setup of 365 business Barcode is necessary.
 </div>
 
 ## Step 2: Set up barcode settings
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Good to know:</strong> During the installation of 365 business Barcode some standard barcode types are added automatically. You can use, modify or delete them directly.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Good to know</strong> During the installation of 365 business Barcode some standard barcode types are added automatically. You can use, modify or delete them directly.
 </div>
 
 To set up barcode settings, open the **Barcode Settings** page in Microsoft Dynamics 365 Business Central.
@@ -35,11 +34,11 @@ To set up barcode settings, open the **Barcode Settings** page in Microsoft Dyna
  6. Click in the **Color** and/or **Background color** field to define colors different from the default. _(optional)_<br>![Color Picker](/assets/images/365-business-barcode/5c299f7b1b93a3b1b6c71d46c162491a9264e72fb4d66f9e435a182684624243.png)
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Note:</strong>While setting up the barcode settings, the preview of the barcode with a sample value is continuously displayed.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note</strong>While setting up the barcode settings, the preview of the barcode with a sample value is continuously displayed.
 </div>
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Good to know:</strong>Depending on the selected <b>barcode symbology</b> further options are available.
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Good to know</strong>Depending on the selected <b>barcode symbology</b> further options are available.
 </div>
 
 ## Step 2.1: Enable GS1-Format _(optional)_

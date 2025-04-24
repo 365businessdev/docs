@@ -1,6 +1,4 @@
----
-title: Was ist Sanktionsprüfung?
----
+# Was ist Sanktionsprüfung?
 
 Die Sanktionsprüfung ist ein Prozess, bei dem Unternehmen ihre Geschäftspartner, Debitoren, Mitarbeiter und Transaktionen gegen nationale und internationale Sanktionslisten überprüfen. Diese Listen enthalten Personen, Organisationen und Länder, die aufgrund von illegalen Aktivitäten, Terrorismus oder anderen Bedrohungen sanktioniert wurden.
 
@@ -29,11 +27,11 @@ Durch die Implementierung einer effektiven Sanktionsprüfung können Unternehmen
 ![365 business Sanction Screen - Data Catalogs](/assets/images/365-business-sanction-screen/sanctionscreen.data-catalog.en-US.png)
 
 <div class="alert alert-notice">
-	<i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Gut zu wissen:</strong>365 business Sanction Screen erlaubt die Steuerung der zu prüfenden Sanktionslisten bzw. Datenkataloge, abhängig von den individuellen Anforderungen des Unternehmens.<br>
+	<i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Gut zu wissen</strong>365 business Sanction Screen erlaubt die Steuerung der zu prüfenden Sanktionslisten bzw. Datenkataloge, abhängig von den individuellen Anforderungen des Unternehmens.<br>
     Weitere Informationen finden Sie <a href="data-sources.md">hier</a>.
 </div>
 
-### Siehe auch
+# Siehe auch
 
 - [Schrittanleitung](get-started.md)
 - [Einrichtung](setup.md)

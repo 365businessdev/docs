@@ -1,6 +1,4 @@
----
-title: Startseite
----
+# Installation
 
 Erweiterungen und Apps für Microsoft Dynamics 365 Business Central werden, abhängig von der Bereitstellungsmethode, entweder über Microsoft AppSource oder über die Installation von einer .app-Datei bereitgestellt. In diesem Abschnitt erfahren Sie mehr über die Installation und Bereitstellung von 365 business development Apps für Microsoft Dynamics 365 Business Central.
 

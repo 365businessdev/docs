@@ -16,7 +16,7 @@ Mehrere Druckererweiterungen können dazu führen, dass der Name eines Druckers 
 Deinstallieren Sie alle Druckerweiterungen, außer 365 business Print Agent, aus Ihrer Microsoft Dynamics 365 Business Central Umgebung.  
 
 <div class="alert alert-warn">
-    <i class="fa-light fa-triangle-exclamation fa-lg"></i> <strong>Wichtig:</strong>In Microsoft Dynamics 365 Business Central <strong>On-Premise</strong> Umgebungen werden auf dem Microsoft Dynamics 365 Business Central Server installierte Drucker automatisch hinzugefügt.<br>Bitte deinstallieren Sie die Drucker auf dem Microsoft Dynamics 365 Business Central Server.
+    <i class="fa-light fa-triangle-exclamation fa-lg"></i> <strong>Wichtig</strong>In Microsoft Dynamics 365 Business Central <strong>On-Premise</strong> Umgebungen werden auf dem Microsoft Dynamics 365 Business Central Server installierte Drucker automatisch hinzugefügt.<br>Bitte deinstallieren Sie die Drucker auf dem Microsoft Dynamics 365 Business Central Server.
 </div>
 
 ##### Schritt 1: Erweiterungsverwaltung öffnen

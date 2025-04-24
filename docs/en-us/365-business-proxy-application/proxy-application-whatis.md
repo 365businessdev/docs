@@ -1,7 +1,5 @@
----
-title: What is Proxy Application?
----
- 
+# What is Proxy Application?
+
 365 business Proxy Application is a powerful extension for Microsoft Dynamics 365 Business Cntral that allows you to securely and easily integrate your local resources and systems into Microsoft Dynamics 365 Business Central from the cloud or from on-premise systems, in compliance with the [*Universal Code Initiative*](https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2022/10/28/the-dynamics-365-business-central-universal-code-initiative-is-live.md). From file access to the control of printers, warehouse lifts, scales or card readers. With the flexible and individually expandable [plugin system of 365 business Proxy Application](plugins.md) there are no limits.
 
 ![365 business Proxy Application](/assets/images/365-business-proxy-application/proxy-application-logo.png)
@@ -20,7 +18,7 @@ Communication between the proxy application client and the service is realized v
 ![Proxy Application Architecture](/assets/images/365-business-proxy-application/proxy-application-architecture.png)
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Note:</strong> The 365 business Proxy Application Cloud Service is hosted in Germany and does not store any data. The service acts as an intermediary and establishes a real-time connection to the Proxy Application Client.<br>Your data is completely secure and is never stored or analyzed for any reason.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note</strong> The 365 business Proxy Application Cloud Service is hosted in Germany and does not store any data. The service acts as an intermediary and establishes a real-time connection to the Proxy Application Client.<br>Your data is completely secure and is never stored or analyzed for any reason.
 </div>
 
 | Component | Description |
@@ -37,7 +35,7 @@ Communication between the proxy application client and the service is realized v
 - .NET 8.0
 - Internet connection
 
-### See also
+# See also
 
 - [What is 365 business Proxy Application Client?](proxy-application-client-whatis.md)
 - [What are 365 business Proxy Application plugins?](plugins.md)

@@ -18,7 +18,7 @@ Microsoft liefert im Rahmen seiner Demonstrationsdatenbank mit dem CRONUS-Mandan
 Die Berechnung der Steuerdaten erfolgt in den meisten Fällen über die MwSt.-Abrechnung. Dabei dient das Feld **Rubrikennr.** dazu die **Steuerkennzeichen** (kurz Kennzeichen) zu definieren und das Feld **Betragsart** definiert welcher Wert verwendet werden soll. Die Berechnung erfolgt dabei identisch zu den von Microsoft bereitgestellten Aktionen, wie beispielsweise die Aktion **Vorschau**. Das bedeutet, dass Sie jederzeit über die MwSt.-Abrechnung die kalkulierten Werte einsehen und prüfen können.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong> Bitte beachten Sie, dass nur Kennzeichen (im Feld Rubrikennr.) verwendet werden, die in der jeweiligen Steuerdatenart zulässig sind.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong> Bitte beachten Sie, dass nur Kennzeichen (im Feld Rubrikennr.) verwendet werden, die in der jeweiligen Steuerdatenart zulässig sind.
 </div>
 
 ## So richten Sie die MwSt.-Abrechnung ein
@@ -26,7 +26,7 @@ Die Berechnung der Steuerdaten erfolgt in den meisten Fällen über die MwSt.-Ab
 Die verschiedenen Datenarten verwenden, da unterschiedliche Informationen und Kennzeichen verwendet werden müssen, unterschiedliche MwSt.-Abrechnungen. In der [**ELSTER Einrichtung**](../elster-tax-data-type.md) können Sie für die verschiedenen Steuerdatenarten jeweils die MwSt.-Abrechnungsvorlage und den Namen definieren, welche für die Kalkulation verwendet werden.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong> Wir empfehlen für die Steuerdatenart <a href="../elster-permanent-time-limit-extension.md"><b>Antrag auf Dauerfristverlängerung</b></a> dieselbe MwSt.-Abrechnung, wie für die <a href="../elster-sales-vat-adv-notification.md"><b>Umsatzsteuervoranmeldung</b></a> zu verwenden. Die wesentlichen Werte sind unter denselben Kennzeichen in beiden Abrechnungen vorhanden bzw. können basierend auf den Kennzeichen berechnet werden.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong> Wir empfehlen für die Steuerdatenart <a href="../elster-permanent-time-limit-extension.md"><b>Antrag auf Dauerfristverlängerung</b></a> dieselbe MwSt.-Abrechnung, wie für die <a href="../elster-sales-vat-adv-notification.md"><b>Umsatzsteuervoranmeldung</b></a> zu verwenden. Die wesentlichen Werte sind unter denselben Kennzeichen in beiden Abrechnungen vorhanden bzw. können basierend auf den Kennzeichen berechnet werden.
 </div>
 
 ### Hier finden Sie die Dokumentation der unterstützten Kennzeichen für die MwSt.-Abrechnung 

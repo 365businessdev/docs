@@ -1,6 +1,5 @@
----
-title: Print jobs in the event log
----
+# Print jobs in the event log
+
 By default, print jobs are not recorded in the event log by Windows or Windows Server. However, in some cases, it may be helpful to log print jobs in the event log. This can be useful for troubleshooting or monitoring the status of print jobs. This article describes how to enable logging of print jobs in the event log.
 
 ## Step 1: Open the Event Viewer

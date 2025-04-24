@@ -1,13 +1,12 @@
----
-title: Support for virtual printers
----
+# Support for virtual printers
+
 The use of virtual printers, such as Microsoft Print to PDF or Microsoft XPS Document Writer, is only possible to a limited extent in combination with 365 business Print Agent, as essential information, such as paper trays, does not exist for virtual printers.
 365 business Print Agent therefore prevents incompatible virtual printers and displays them as "Not usable".
 
 If you still want to test the function of 365 business Print Agent with a virtual printer, we recommend using an individually installed Microsoft XPS Document Writer (MXDW).
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Important</strong> Virtual printers usually call a "Save As" dialog to specify the file path where the virtual printout should be saved.<br>Since the printout is executed by the 365 business Print Agent as a service, in the context of the local system, the display of dialogs is not possible and leads to errors.<br><br>Therefore it is necessary to install an individual printer and configure the file output without additional dialogs.
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Important</strong> Virtual printers usually call a "Save As" dialog to specify the file path where the virtual printout should be saved.<br>Since the printout is executed by the 365 business Print Agent as a service, in the context of the local system, the display of dialogs is not possible and leads to errors.<br><br>Therefore it is necessary to install an individual printer and configure the file output without additional dialogs.
 </div>
 
 The following article describes the setup for an individual Microsoft XPS Document Writer (MXDW) based printer.
@@ -29,7 +28,7 @@ When choosing the option to Print to File from an application, the user is promp
 11. Share the Printer in 365 business Print Agent configuration tool.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Good to know:</strong> In certain cases, it may be necessary to adjust the read and write permissions to the directory defined in step 5, so that the virtual printer is able to write to the directory in the context of the 365 business Print Agent service user.<br>For tests, it may therefore make sense to switch the user for running the 365 business Print Agent service to another user with read and write permissions to the local file system.
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Good to know</strong> In certain cases, it may be necessary to adjust the read and write permissions to the directory defined in step 5, so that the virtual printer is able to write to the directory in the context of the 365 business Print Agent service user.<br>For tests, it may therefore make sense to switch the user for running the 365 business Print Agent service to another user with read and write permissions to the local file system.
 </div>
 
 After these steps, any print jobs sent to this printer will automatically be saved to the location specified as the port. Additionally print jobs sent using 365 business Print Agent will work ans save the print out at the specified (see step 5) location.

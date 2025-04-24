@@ -1,6 +1,4 @@
----
-title: Startseite
----
+# Find & Replace
 
 Mit der Erweiterung 365 business development - Find & Replace erhalten Sie die Aktion `Suchen & Ersetzen` in diversen Bereichen von Microsoft Dynamics 365 Business Central und können Massendatenänderungen einfach und unkompliziert, direkt innerhalb von Microsoft Dynamics 365 Business Central ausführen.
 

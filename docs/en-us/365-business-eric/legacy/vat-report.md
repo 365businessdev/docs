@@ -1,9 +1,10 @@
+
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Info:</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Info</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
 </div>
 
 <div class="alert alert-warn">
-    <i class="fa-light fa-triangle-exclamation fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Wichtiger Hinweis:</strong> Die Seite <b>MwSt.-Berichte</b> ist für die elektronische Übermittlung der Zusammenfassenden Meldung veraltet. Bitte verwenden Sie stattdessen die <a href="../elster-tax-statements.md"><b>ELSTER Steuerdaten</b></a>.<br><br>Weitere Informationen finden Sie hier: <b><a href="https://365businessdev.com/microsoft-dynamics-365-business-central/update-365-business-eric-elster-schnittstelle/" target="_blank"><b>https://365businessdev.com/microsoft-dynamics-365-business-central/update-365-business-eric-elster-schnittstelle/</b></a>.<br>
+    <i class="fa-light fa-triangle-exclamation fa-lg"></i> <strong>Wichtiger Hinweis</strong> Die Seite <b>MwSt.-Berichte</b> ist für die elektronische Übermittlung der Zusammenfassenden Meldung veraltet. Bitte verwenden Sie stattdessen die <a href="../elster-tax-statements.md"><b>ELSTER Steuerdaten</b></a>.<br><br>Weitere Informationen finden Sie hier: <b><a href="https://365businessdev.com/microsoft-dynamics-365-business-central/update-365-business-eric-elster-schnittstelle/" target="_blank"><b>https://365businessdev.com/microsoft-dynamics-365-business-central/update-365-business-eric-elster-schnittstelle/</b></a>.<br>
 </div>
 
 In der Seite MwSt.-Berichte werden die notwendigen Informationen für die Erstellung einer zusammenfassenden Meldung erfasst.

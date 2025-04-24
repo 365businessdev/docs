@@ -1,6 +1,4 @@
----
-title: Print Agent Konfiguration
----
+# Print Agent Konfiguration
 
 Für die Einrichtung und Konfiguration in Ihrem Netzwerk steht Ihnen die 365 business Print Agent Config zur Verfügung.
 

@@ -1,13 +1,12 @@
----
-title: Setup
----
+# Setup
+
 The address validation setup contains the configuration for the integration of address validation and prediction in Microsoft Dynamics 365 Business Central.
 
 After installation, the basic setup and some setup parameters are already set automatically according to the most common wishes and requirements as part of the installation routines.
 
 ![Address Validation Setup](/assets/images/365-business-address-validation/setup.en-US.png)
 
-#### Setup parameters
+## Setup parameters
 
 | Field Name | Group | Description | Default Value |
 | --- | --- | --- | --- |
@@ -32,7 +31,7 @@ After installation, the basic setup and some setup parameters are already set au
 | Purchase Documents | Address Prediction | Enables or disables address prediction for purchasing documents, such as purchase orders, requests, and invoices. | Enabled |
 | Employee | Address Prediction | Enables the address prediction for Employees. | Enabled |
 
-#### Permissions
+## Permissions
 
 There are two permission sets included with 365 business Address Validation:
 
@@ -43,5 +42,5 @@ With the **ADDRESSVALIDATION** permission set, users are given full access to ad
 With the **ADDRVALIDATION-BASIC** permission set, users get access to the objects necessary to run address validation and prediction. However, setup data cannot be changed.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Note: <br>Please note that the authorization sets do not include permissions for standard tables, such as Customer, Vendor and Contact.<br>These permissions should be assigned separately via individual or standard authorization sets, if necessary.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note: <br>Please note that the authorization sets do not include permissions for standard tables, such as Customer, Vendor and Contact.<br>These permissions should be assigned separately via individual or standard authorization sets, if necessary.
 </div>

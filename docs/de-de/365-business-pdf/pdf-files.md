@@ -1,6 +1,4 @@
----
-title: PDF-Dateien
----
+# PDF-Dateien
 
 In der Seite PDF-Dateien werden die PDF-Dateien angelegt und hochgeladen, die in den verschiedenen Konfigurationen
  - [PDF Briefpapier Konfiguration](stationery.md)
@@ -9,7 +7,7 @@ verwendet werden. Die Seite dient der zentralen Administration und erlaubt es an
 
 ![PDF-Dateien](/assets/images/365-business-pdf/pdf-files.png)  
 
-#### Wie erstelle ich eine neue PDF-Datei?
+## Wie erstelle ich eine neue PDF-Datei?
 
 1. Öffnen Sie die Seite **PDF-Dateien**.
 2. Klicken Sie auf **Neu**.

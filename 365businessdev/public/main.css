@@ -29,6 +29,59 @@ body {
 	/* letter-spacing: 0.01rem; */
 }
 
+h1 {
+    font-size: 2.25rem; /* ~29.25px */
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 1.8rem; /* ~23.4px */
+    line-height: 1.3;
+}
+
+h3 {
+    font-size: 1.5rem; /* ~19.5px */
+    line-height: 1.4;
+}
+
+h4 {
+    font-size: 1.25rem; /* ~16.25px */
+    line-height: 1.5;
+}
+
+h5 {
+    font-size: 1.1rem; /* ~15.4px */
+    line-height: 1.6;
+}
+
+h6 {
+    font-size: 1rem; /* ~13px */
+    line-height: 1.7;
+}
+
+/* Images in the content area */
+
+p img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    box-shadow: 0 1.6px 3.6px 0 #00000021,0 0.3px 0.9px 0 #00000021;
+    -webkit-box-shadow: 0 1.6px 3.6px 0 #00000021,0 0.3px 0.9px 0 #00000021;
+    border-radius: 0.125rem;
+    border: 1px solid #fff0;
+    outline-color: light-dark(#171717, #efefef);
+}
+
+html[data-bs-theme="dark"] p img {
+    box-shadow: 0 1.6px 3.6px 0 rgba(255, 255, 255, 0.1),
+                0 0.3px 0.9px 0 rgba(255, 255, 255, 0.08);
+    -webkit-box-shadow: 0 1.6px 3.6px 0 rgba(255, 255, 255, 0.1),
+                        0 0.3px 0.9px 0 rgba(255, 255, 255, 0.08);
+    border: 1px solid #444;
+    color: #efefef;
+}
+
 .toc form.filter>i.bi {
     font-size: 16px;
 }
@@ -82,10 +135,20 @@ a:hover {
     border-color: #c3e6cb
 }
 
+.alert-success > i {
+    --fa-secondary-color: #00c319;
+    --fa-primary-color: #111111;
+}
+
 .alert-info {
     color: #0c5460;
     background-color: #d1ecf1;
     border-color: #bee5eb
+}
+
+.alert-info > i {
+    --fa-secondary-color: #00b7c3;
+    --fa-primary-color: #111111;
 }
 
 .alert-notice {

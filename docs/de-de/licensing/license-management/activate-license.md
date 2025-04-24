@@ -22,7 +22,7 @@ Die Lizenzaktivierung wird über die Seite **Erweiterungslizenzverwaltung (365 b
 3. Wählen Sie **Weiter** um fortzufahren.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Gut zu wissen:</strong> Die Partnerlizenzierung ist nur für Microsoft Partner mit einem gültigen Partnervertrag verfügbar.
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Gut zu wissen</strong> Die Partnerlizenzierung ist nur für Microsoft Partner mit einem gültigen Partnervertrag verfügbar.
 </div>
 
 ## Schritt 3: Lizenzierung wählen
@@ -33,7 +33,7 @@ Die Lizenzaktivierung wird über die Seite **Erweiterungslizenzverwaltung (365 b
 3. Wählen Sie **Weiter** um fortzufahren.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Gut zu wissen:</strong> Die Preise werden, basierend auf Ihrer Auswahl, in Echtzeit berechnet. Die Preise können je nach Lizenzmethode und Abonnementlaufzeit variieren.
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Gut zu wissen</strong> Die Preise werden, basierend auf Ihrer Auswahl, in Echtzeit berechnet. Die Preise können je nach Lizenzmethode und Abonnementlaufzeit variieren.
 </div>
 
 ## Schritt 4: Registrierungsinformationen
@@ -46,7 +46,7 @@ Abhängig von der Partner- oder Endkundenlizenzierung unterscheidet sich der Pro
 2. Wählen Sie **Weiter** um fortzufahren.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Gut zu wissen:</strong> Bitte verwenden Sie die Microsoft Partner ID, die Sie bei Abschluss des Partnervertrags mit 365 business development angegeben haben.
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Gut zu wissen</strong> Bitte verwenden Sie die Microsoft Partner ID, die Sie bei Abschluss des Partnervertrags mit 365 business development angegeben haben.
 </div>
 
 ### Schritt 4.2: Endkundenlizenzierung
@@ -68,7 +68,7 @@ Abhängig von der Partner- oder Endkundenlizenzierung unterscheidet sich der Pro
 Dieser Schritt ist nur bei vorheriger Auswahl der Zahlungsmethode **Kreditkarte** notwendig.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> Der Schritt der Zahlungsautorisierung ist nur einmalig notwendig und wird ggf. übersprungen, sofern bereits ein gültiges Zahlungsmittel hinterlegt ist.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> Der Schritt der Zahlungsautorisierung ist nur einmalig notwendig und wird ggf. übersprungen, sofern bereits ein gültiges Zahlungsmittel hinterlegt ist.
 </div>
 
 1. Ein neues Browser-Fenster zur Zahlungsautorisierung wird geöffnet.
@@ -79,7 +79,7 @@ Dieser Schritt ist nur bei vorheriger Auswahl der Zahlungsmethode **Kreditkarte*
 6. Warten Sie auf die Bestätigung der Zahlungsautorisierung.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Gut zu wissen:</strong> Unter Umständen verhindern die Einstellungen Ihres Browsers, dass das Fenster zur Zahlungsautorisierung automatisch geöffnet wird.<br>
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Gut zu wissen</strong> Unter Umständen verhindern die Einstellungen Ihres Browsers, dass das Fenster zur Zahlungsautorisierung automatisch geöffnet wird.<br>
     Bitte wählen Sie in diesem Fall den Link <strong>Falls Ihre Browsereinstellungen das Öffnen eines neuen Fensters für die Zahlung...</strong>, um die Zahlungsautorisierung in einem neuen Tab zu öffnen.
 </div>
 

@@ -1,6 +1,4 @@
----
-title: Einrichtung
----
+# Einrichtung
 
 Die Print Agent Einrichtung enthält die Konfiguration für die Kommunikation zwischen Microsoft Dynamics 365 Business Central und dem 365 business Print Agent Service oder der Cloud, je nach gewähltem Service Mode.
 
@@ -27,7 +25,7 @@ Die Print Agent Einrichtung enthält die Konfiguration für die Kommunikation zw
 ## Wie wird Direktverbindung als Dienstmodus eingerichtet?
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong> Die Unterstützung für die Verbindung mehrerer Print Agent-Dienst Instanzen wurde mit 365 business Print Agent Version 18.2 hinzugefügt.<br>Bitte überprüfen Sie, ob Sie die neueste Version von 365 business Print Agent verwenden, um diese Funktion zu nutzen.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong> Die Unterstützung für die Verbindung mehrerer Print Agent-Dienst Instanzen wurde mit 365 business Print Agent Version 18.2 hinzugefügt.<br>Bitte überprüfen Sie, ob Sie die neueste Version von 365 business Print Agent verwenden, um diese Funktion zu nutzen.
 </div>
 
  1. Wählen Sie **Direktverbindung** als **Dienstmodus**.<br>[Mehr erfahren](print-agent-whatis.md#architektur)
@@ -40,7 +38,7 @@ Die Print Agent Einrichtung enthält die Konfiguration für die Kommunikation zw
 
 ![Direktverbindung - Print Agent Diensteinrichtung](/assets/images/365-business-print-agent/ad7903e49277a20398b0c18fa585552dcfe486312d657bc2c78b7e41f2b3d62b.png)  
 
-### Siehe auch
+# Siehe auch
 
  - [Print Agent Architektur](print-agent-whatis.md#architektur)
  - [Was ist Print Agent?](print-agent-whatis.md)

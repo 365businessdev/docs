@@ -1,6 +1,4 @@
----
-title: What is ZUGFeRD?
----
+# What is ZUGFeRD?
 
 ZUGFeRD Support
 ZUGFeRD (Central User Guide of the Forum for Electronic Invoices in Germany) is a standardized format for the exchange of electronic invoices, primarily designed to make electronic invoicing accessible to small and medium-sized businesses. ZUGFeRD invoices combine human-readable PDFs with machine-readable XML data, enabling both manual and automated processing of invoices.
@@ -19,7 +17,7 @@ Our app, 365 business E-Invoice, offers complete support for ZUGFeRD 2.0 EN16931
 
 By supporting the ZUGFeRD standard, our solution streamlines the invoicing process, enabling businesses to take full advantage of automated invoice generation and processing. This automation saves time and resources while ensuring that all invoices comply with current legal standards.
 
-### How 365 business E-Invoice works
+## How 365 business E-Invoice works
 
 365 business E-Invoice enables companies to create, send, receive, and process electronic invoices directly from Microsoft Dynamics 365 Business Central. 365 business E-Invoice consists of two main components:
 
@@ -29,5 +27,5 @@ By supporting the ZUGFeRD standard, our solution streamlines the invoicing proce
 ![365 business E-Invoice Overview](/assets/images/365-business-e-invoice/e-invoice-overview_en-US.png)
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Good to know:</strong> In addition to integration via Microsoft 365 mailboxes, other service integrations through other service providers can also be used. Feel free to contact us.
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Good to know</strong> In addition to integration via Microsoft 365 mailboxes, other service integrations through other service providers can also be used. Feel free to contact us.
 </div>

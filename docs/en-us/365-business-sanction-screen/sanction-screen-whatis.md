@@ -1,6 +1,5 @@
----
-title: What is Sanction Screening?
----
+# What is Sanction Screening?
+
 Sanction screening is a process in which companies check their business partners, debtors, employees, and transactions against national and international sanction lists. These lists contain individuals, organizations, and countries that have been sanctioned due to illegal activities, terrorism, or other threats.
 
 ## Monitored Risks
@@ -28,11 +27,11 @@ By implementing effective sanction screening, companies can ensure that they act
 ![365 business Sanction Screen - Data Catalogs](/assets/images/365-business-sanction-screen/sanctionscreen.data-catalog.en-US.png)
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Good to know:</strong> 365 business Sanction Screen allows the control of the sanction lists or data catalogs to be checked, depending on the individual requirements of the company.<br>
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Good to know</strong> 365 business Sanction Screen allows the control of the sanction lists or data catalogs to be checked, depending on the individual requirements of the company.<br>
     For more information, see <a href="data-sources.md">here</a>.
 </div>
 
-### See Also
+# See Also
 
 - [Step-by-Step Guide](get-started.md)
 - [Setup](setup.md)

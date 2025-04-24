@@ -1,6 +1,5 @@
----
-title: What is 365 business Barcode?
----
+# What is 365 business Barcode?
+
 ## What is a barcode?
 
 There are many different types of barcodes. They all consist of optical patterns and encode data so that it can be read automatically or by machine. The German term for barcode is Strichcode, as it is made up of parallel bars of varying widths and gaps.
@@ -30,5 +29,5 @@ With 365 business Barcode, you can integrate barcodes into any part of your appl
 
 365 business Barcode is an extension for Microsoft Dynamics 365 Business Central, you can use to add barcode capabilities to your business processes.
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong> As business processes and documents are usually customized, 365 business Barcode must be integrated into your individual business processes and documents.<br><br>Sprechen Sie uns gerne an, wenn Sie Unterstützung bei der Implementierung benötigen.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong> As business processes and documents are usually customized, 365 business Barcode must be integrated into your individual business processes and documents.<br><br>Feel free to contact us for support or guidance on how to implement 365 business Barcode in your business processes.
 </div>

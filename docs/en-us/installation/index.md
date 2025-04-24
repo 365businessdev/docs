@@ -1,6 +1,4 @@
----
-title: Home Page
----
+# Installation
 
 Extensions and apps for Microsoft Dynamics 365 Business Central are provided either via Microsoft AppSource or by installing a .app file, depending on the deployment method. In this section, you will learn more about the installation and deployment of 365 business development apps for Microsoft Dynamics 365 Business Central.
 

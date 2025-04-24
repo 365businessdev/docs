@@ -1,6 +1,5 @@
----
-title: ZUGFeRD vs. XRechnung
----
+# ZUGFeRD vs. XRechnung
+
 ZUGFeRD and XRechnung are two key standards for electronic invoices, differing in structure, application, and target audience. Both comply with the EN-16931 standard, but they offer distinct approaches for processing and exchanging invoice data. While ZUGFeRD, as a hybrid format, combines visual and machine-readability, XRechnung focuses solely on structured, machine-readable data transmission.
 
 The following table highlights the key differences and use cases of these two formats:
@@ -29,7 +28,7 @@ In addition, the XRechnung file contains Germany-specific content (mainly of a t
 Since the introduction of ZUGFeRD 2.1.1 in July 2020, ZUGFeRD and XRechnung are now fully compatible.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Good to know:</strong> 365 business E-Invoice creates ZUGFeRD 2.3.0 files in the EXTENDED profile and is therefore fully compatible with XRechnung. No additional configuration is required for processing incoming XRechnung files.
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Good to know</strong> 365 business E-Invoice creates ZUGFeRD 2.3.0 files in the EXTENDED profile and is therefore fully compatible with XRechnung. No additional configuration is required for processing incoming XRechnung files.
 </div>
 
 ## What is Factur-X?

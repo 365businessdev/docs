@@ -1,25 +1,24 @@
----
-title: Printer Configuration
----
+# Printer Configuration
+
 Printer Configuration are actually used as _Printers_ in Microsoft Dynamics 365 Business Central. For each printer a default printer configuration is automatically created. This configuration is created with the available features of your printer.
 
 Additionally, you can create multiple other configurations for different scenarios like color and/or duplex printing.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Important:</strong> The <b>Code</b> field of a Printer Configuration is displayed to the user through the <b>Printer Selection</b> and in various other locations inside Microsoft Dynamics 365 Business Central.<br>Keep in mind to choose a user-friendly Name for the Printer Configuration.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Important</strong> The <b>Code</b> field of a Printer Configuration is displayed to the user through the <b>Printer Selection</b> and in various other locations inside Microsoft Dynamics 365 Business Central.<br>Keep in mind to choose a user-friendly Name for the Printer Configuration.
 </div>
 
 ## What are Printer Configurations?
 
 There are two types of printer configurations in 365 business Print Agent:
 
-#### Printer Configuration
+### Printer Configuration
 
 Printer configration can be created directly in Microsoft Dynamics 365 Business Central, based on the available functionalities of your printer. These settings are intended for simple print jobs like duplex, copies, color output, paper type and tray.
 
 ![Printer Configuration](/assets/images/365-business-print-agent/1b3143accd75d67305341ac9a314b681aa754fe966df87c434e0d240752862a8.png)  
 
-#### Print Profile
+### Print Profile
 
 A print profile represents a specific configuration of your printer that controls advanced functionalities.
 
@@ -31,7 +30,7 @@ Advanced functionalities include:
 * Printing options for label printers, such as offset, temperature, and print speed.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Good to know:</strong> 
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Good to know</strong> 
     To manage print profiles, use the 365 business Print Agent Config tool.<br>
     Learn more at our <a href="print-agent-config-printprofile.md">documentation</a>.
 </div>
@@ -61,7 +60,7 @@ Printer Configuration can be created manually through the **Printer Configuratio
     ![Assisted Printer Configuration - Enable Printer Configuration](/assets/images/365-business-print-agent/e5a81f4c85fe8f35f56e061524f6e9b021a7b856078c0fe3a49ba1fbc607ce97.png)  
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Good to know:</strong>In some cases it can be useful to rotate the print output during printing, for example to print a layout that was created in landscape format in portrait format on a label printer.<br>.
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Good to know</strong>In some cases it can be useful to rotate the print output during printing, for example to print a layout that was created in landscape format in portrait format on a label printer.<br>.
     Use the <strong>Rotation</strong> field in the printer settings to define how the print output should be rotated.
 </div>
 
@@ -73,7 +72,7 @@ At this point, you are ready to print with 365 business Print Agent by manually 
 
 To get the most comfort out of direct printing functionality you should now assign the Printer Configuration in **Printer Selection** page.
 
-#### How to assign Printer Configuration in Printer Selection?
+### How to assign Printer Configuration in Printer Selection?
 
  1. Open **Print Selection**.
  2. Select **User ID** or leave blank to assign the printer (configuration) for every user.
@@ -81,9 +80,9 @@ To get the most comfort out of direct printing functionality you should now assi
  4. Select **Printer Name** by choosing from the Drop-down menu.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Good to know:</strong> Microsoft Dynamics 365 Business Central provides a additional page, called <b>Printer Management</b>. Here you'll find every printer (configuration), enabled in Print Agent. From here you can easily open the printer configuration or set the selected printer (configuration) as default.<br><img src="/assets/images/365-business-print-agent/f66b313410695f3a550f126155fc3b9d6abf9c663c5840e9d2c1887948fbfd41.png">
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Good to know</strong> Microsoft Dynamics 365 Business Central provides a additional page, called <b>Printer Management</b>. Here you'll find every printer (configuration), enabled in Print Agent. From here you can easily open the printer configuration or set the selected printer (configuration) as default.<br><img src="/assets/images/365-business-print-agent/f66b313410695f3a550f126155fc3b9d6abf9c663c5840e9d2c1887948fbfd41.png">
 </div>
 
-### See also
+# See also
 
  - [Printer](printer.md)

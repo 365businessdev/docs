@@ -1,6 +1,5 @@
----
-title: Reporting and statistics
----
+# Reporting and statistics
+
 One of the key features of 365 business Print Agent Config is the advanced charting, statistics and logging. These can be found in the dashboard when you start the application, under the "History" or "Statistics" menu.
 
 Use this information to:

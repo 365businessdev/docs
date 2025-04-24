@@ -1,9 +1,7 @@
----
-title: Kennzeichen in der Umsatzsteuererklärung
----
+# Umsatzsteuererklärung
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Info:</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Info</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
 </div>
 
 ![MwSt.-Abrechnung USt](/assets/images/365-business-eric/vat-statement-annual-vat-return-de.png)

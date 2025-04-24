@@ -1,6 +1,4 @@
----
-title: Papierformate
----
+# Papierformate
 
 Gibt die vom Drucker unterstützten Papierformate an. Sie können den Wert auf eine beliebige Standardpapierart setzen, die von .NET Framework unterstützt wird.
 

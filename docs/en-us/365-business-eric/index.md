@@ -1,13 +1,14 @@
----
-title: Introduction
----
+# 365 business ERiC
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Info:</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Info</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
 </div>
+
 Willkommen in der Dokumentation für 365 business ERiC! Dieser umfassende Leitfaden bietet Ihnen alle notwendigen Informationen, um 365 business ERiC effektiv zu nutzen.
 
 ## Über 365 business ERiC
+
+![365 business ERiC](/assets/images/365-business-eric/logo.png)  
 
 365 business ERiC ist eine leistungsstarke Erweiterung für Microsoft Dynamics 365 Business Central, die entwickelt wurde, um den Prozess der elektronischen Berechnung und Übermittlung von Steuererklärungen und -anmeldungen an deutsche Steuerbehörden mithilfe von ELSTER zu vereinfachen und zu optimieren. Mit 365 business ERiC können Sie Ihre Steuererklärungen und -anmeldungen vollständig elektronisch aus Microsoft Dynamics 365 Business Central übermitteln, den manuellen Aufwand reduzieren und eine genaue und rechtzeitige Übermittlung der Steuererklärungen und -anmeldungen sicherstellen.
 
@@ -77,8 +78,8 @@ Mit der ELSTER Schnittstelle **365 business ERiC** sparen Sie sich nicht nur Zei
         <p>
             Erfahren Sie mehr über 365 business ERiC:
             <ul class="fa-ul">
-                <li><span class="fa-li"><i class="fa-solid fa-pen-ruler"></i></span><a href="eric-whatis.md">Was ist 365 business ERiC?</a></li>
-                <li><span class="fa-li"><i class="fa-solid fa-folders"></i></span><a href="elster-tax-data-type.md">Welche Steuerdatenarten werden unterstützt?</a></li>
+                <li><span class="fa-li"><i class="fa-duotone fa-thin fa-pen-ruler fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="eric-whatis.md">Was ist 365 business ERiC?</a></li>
+                <li><span class="fa-li"><i class="fa-duotone fa-thin fa-folders fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="elster-tax-data-type.md">Welche Steuerdatenarten werden unterstützt?</a></li>
             </ul>
         </p>
     </div>
@@ -87,12 +88,12 @@ Mit der ELSTER Schnittstelle **365 business ERiC** sparen Sie sich nicht nur Zei
              <p>
                 Erfahren Sie wie mit 365 business ERiC Steuerdaten an ELSTER übermittelt werden:
                 <ul class="fa-ul">
-                    <li><span class="fa-li"><i class="fa-solid fa-play"></i></span><a href="elster-tax-statements.md">ELSTER Steuerdaten erstellen</a></li>
-                    <li><span class="fa-li"><i class="fa-solid fa-building-columns"></i></span><a href="elster-sales-vat-adv-notification.md">Umsatzsteuervoranmeldung erstellen</a></li>
-                    <li><span class="fa-li"><i class="fa-solid fa-building-columns"></i></span><a href="elster-annual-vat-return.md">Umsatzsteuererklärung erstellen</a></li>
-                    <li><span class="fa-li"><i class="fa-solid fa-calendar-clock"></i></span><a href="elster-permanent-time-limit-extension.md">Dauerfristverlängerung erstellen</a></li>
-                    <li><span class="fa-li"><i class="fa-solid fa-building-columns"></i></span><a href="elster-recapulative-statement.md">Zusammenfassende Meldung erstellen</a></li>
-                    <li><span class="fa-li"><i class="fa-solid fa-cart-shopping"></i></span><a href="bop-one-stop-shop.md">One-Stop-Shop (OSS) erstellen</a></li>
+                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-play fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="elster-tax-statements.md">ELSTER Steuerdaten erstellen</a></li>
+                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-building-columns fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="elster-sales-vat-adv-notification.md">Umsatzsteuervoranmeldung erstellen</a></li>
+                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-building-columns fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="elster-annual-vat-return.md">Umsatzsteuererklärung erstellen</a></li>
+                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-calendar-clock fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="elster-permanent-time-limit-extension.md">Dauerfristverlängerung erstellen</a></li>
+                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-building-columns fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="elster-recapulative-statement.md">Zusammenfassende Meldung erstellen</a></li>
+                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-cart-shopping fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="bop-one-stop-shop.md">One-Stop-Shop (OSS) erstellen</a></li>
                 </ul>
             </p>
     </div>
@@ -101,9 +102,9 @@ Mit der ELSTER Schnittstelle **365 business ERiC** sparen Sie sich nicht nur Zei
              <p>
                 Erfahren Sie mehr über die Einrichtung:
                 <ul class="fa-ul">
-                    <li><span class="fa-li"><i class="fa-solid fa-pen-ruler"></i></span><a href="setup.md">ELSTER Einrichtung vornehmen</a></li>
-                    <li><span class="fa-li"><i class="fa-solid fa-buildings"></i></span><a href="company-information.md">Einrichtung in Firmendaten ergänzen</a></li>
-                    <li><span class="fa-li"><i class="fa-solid fa-calculator-simple"></i></span><a href="vat-statement-setup/vat-statement-setup.md">MwSt.-Abrechnung einrichten</a></li>
+                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-pen-ruler fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="setup.md">ELSTER Einrichtung vornehmen</a></li>
+                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-buildings fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="company-information.md">Einrichtung in Firmendaten ergänzen</a></li>
+                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-calculator-simple fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="vat-statement-setup/vat-statement-setup.md">MwSt.-Abrechnung einrichten</a></li>
                 </ul>
             </p>
     </div>

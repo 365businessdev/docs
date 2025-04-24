@@ -71,7 +71,7 @@ With the **Update License Information** action, you can request an update of the
 ### Extend Trial Period
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Good to know:</strong> Each 365 business development app is provided with a 30-day trial period. During this trial period, you can test the app or feature without restrictions.<br>
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Good to know</strong> Each 365 business development app is provided with a 30-day trial period. During this trial period, you can test the app or feature without restrictions.<br>
     <br>
     Need more time?<br>
     No problem! <a href="https://365businessdev.com/contact/" target="_blank">Contact</a> us regarding an extension of your trial period.

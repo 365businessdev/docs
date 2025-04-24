@@ -4,7 +4,7 @@ title: Invoices
 Through the **Extension License Management (365 business development)** in Microsoft Dynamics 365 Business Central, you can view and download your invoices at any time. The invoices are available as e-invoices in the ZUGFeRD/Factur-X format.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Note:</strong> The <strong>Invoices</strong> option is only available for end-customer licensing, i.e., without provision by a Microsoft partner, for data protection reasons.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note</strong> The <strong>Invoices</strong> option is only available for end-customer licensing, i.e., without provision by a Microsoft partner, for data protection reasons.
 </div>
 
 ## At a Glance

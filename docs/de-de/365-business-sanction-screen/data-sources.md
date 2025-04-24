@@ -1,6 +1,4 @@
----
-title: Datenkataloge
----
+# Datenkataloge
 
 Die Auswahl der Datenkataloge für die Sanktionslistenprüfung ist ein wichtiger Schritt bei der Einrichtung von 365 business Sanction Screen in Microsoft Dynamics 365 Business Central. Die Datenkataloge referenzieren auf die entsprechenden Sanktionslisten, die für die Überprüfung herangezogen werden sollen.
 
@@ -10,7 +8,7 @@ Standardmäßig sind alle verfügbaren Datenkataloge für die Sanktionslistenpr�
 
 Die zu verwendenden Datenkataloge können in der Seite **Sanktionsdatenkatalog** konfiguriert werden. Hier können Sie die einzelnen Datenkataloge aktivieren oder deaktivieren, um die Sanktionslistenprüfung an Ihre Anforderungen anzupassen. Darüber hinaus verfügt jeder Katalog über einen Link zur offiziellen Quelle, um weitere Informationen zu erhalten.
 
-### Siehe auch
+# Siehe auch
 
 - [Schrittanleitung](get-started.md)
 - [Einrichtung](setup.md)

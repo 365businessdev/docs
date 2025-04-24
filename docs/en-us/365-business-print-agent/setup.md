@@ -1,6 +1,5 @@
----
-title: Setup
----
+# Setup
+
 The Print Agent Setup contains the configuration for the communication between Microsoft Dynamics 365 Business Central and 365 business Print Agent Service or Cloud, depending on the selected Service Mode.
 
 ![Print Agent Setup](/assets/images/365-business-print-agent/646d98fab6c688ad444f61f5397dce86873cda4a90db60986a40ba1eb3911ce9.png)
@@ -26,7 +25,7 @@ The Print Agent Setup contains the configuration for the communication between M
 ## How to set up Print Agent for Direct Connection Service Mode?
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Note:</strong> The support to connect multiple Print Agent service instances was added with 365 business Print Agent version 18.2.<br>Please check if you have the latest version of 365 business Print Agent to use this feature.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note</strong> The support to connect multiple Print Agent service instances was added with 365 business Print Agent version 18.2.<br>Please check if you have the latest version of 365 business Print Agent to use this feature.
 </div>
 
  1. Select **Direct Connection** as **Service Mode**.<br>[Learn more](print-agent-whatis.md#architecture)
@@ -39,7 +38,7 @@ The Print Agent Setup contains the configuration for the communication between M
 
 ![Direct Connection - Print Agent Client Setup](/assets/images/365-business-print-agent/ad7903e49277a20398b0c18fa585552dcfe486312d657bc2c78b7e41f2b3d62b.png) 
 
-### See also
+# See also
 
  - [Print Agent Architecture](print-agent-whatis.md#architecture)
  - [What is Print Agent?](print-agent-whatis.md)

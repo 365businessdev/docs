@@ -15,7 +15,7 @@ Ein API Schlüssel kann zudem unabhängig vom eigentlich Mailchimp Konto aktivie
 ![Mailchimp - Your API Keys](/assets/images/365-business-mailchimp-integration/mailchimp-your-api-keys.png)
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Sicherheit der API-Schlüssel:</strong> API Schlüssel gewähren vollen Zugriff auf Ihr Mailchimp Konto und sollten daher genauso geschützt werden wie ein Passwort.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Sicherheit der API-Schlüssel</strong> API Schlüssel gewähren vollen Zugriff auf Ihr Mailchimp Konto und sollten daher genauso geschützt werden wie ein Passwort.
 </div>
 
 ### Siehe auch

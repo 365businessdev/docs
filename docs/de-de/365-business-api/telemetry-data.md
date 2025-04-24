@@ -27,7 +27,7 @@ Die Telemetrie sammelt folgende Daten:
 | sessionId | Eindeutige Sitzungskennung (`GUID`). |
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong>Zusätzliche Dimensionen können automatisch von Microsoft Dynamics 365 Business Central gesendet werden.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong>Zusätzliche Dimensionen können automatisch von Microsoft Dynamics 365 Business Central gesendet werden.
 </div>
 
 ### Zusätzliche Dimensionen

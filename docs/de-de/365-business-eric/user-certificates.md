@@ -1,7 +1,7 @@
 # Benutzerzertifikate
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong> Mit der 365 business ERiC Version 17.8 wurden zusätzlich zum Organisationszertifikat, das in der ELSTER Einrichtung hinterlegt werden kann, sogenannte Benutzerzertifikate eingeführt.<br>Bitte prüfen Sie, ob Sie über die aktuellste Version von 365 business ERiC verfügen.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong> Mit der 365 business ERiC Version 17.8 wurden zusätzlich zum Organisationszertifikat, das in der ELSTER Einrichtung hinterlegt werden kann, sogenannte Benutzerzertifikate eingeführt.<br>Bitte prüfen Sie, ob Sie über die aktuellste Version von 365 business ERiC verfügen.
 </div>
 
 Wenn verschiedene Anwender die Steuerdatenmeldungen an das Finanzamt vornehmen und die Anwender über persönliche Zertifikate verfügen, so kann das Zertifikat als Benutzerzertifikat hinterlegt werden. Benutzerzertifikate werden dabei über die **ELSTER Einrichtung**, durch den Aufruf **Benutzerzertifikate** in der Gruppe **Zertifikat**, verwaltet.
@@ -9,7 +9,7 @@ Wenn verschiedene Anwender die Steuerdatenmeldungen an das Finanzamt vornehmen u
 ![Aktion - Benutzerzertifikate](/assets/images/365-business-eric/user-certificates-action.png)
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong> Benutzerzertifikate werden additiv zum Organisationszertifikat, dass in der <a href="setup.md">ELSTER Einrichtung</a> hinterlegt wird, verwendet.<br>Sofern für den übermittelnden Benutzer kein Benutzerzertifikat existiert, verwendet 365 business ERiC das Organisationszertifikat für die Übermittlung.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong> Benutzerzertifikate werden additiv zum Organisationszertifikat, dass in der <a href="setup.md">ELSTER Einrichtung</a> hinterlegt wird, verwendet.<br>Sofern für den übermittelnden Benutzer kein Benutzerzertifikat existiert, verwendet 365 business ERiC das Organisationszertifikat für die Übermittlung.
 </div>
 
 In der Ansicht **ELSTER Benutzerzertifikate** finden Sie die Liste alle hinterlegten Benutzerzertifikate für die ELSTER Übermittlung.

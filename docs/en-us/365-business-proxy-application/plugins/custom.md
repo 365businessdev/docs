@@ -17,7 +17,7 @@ These include, among others
  - and much more.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Contact us!</strong>We develop individual plugins for you to connect your local systems and resources. With 365 business Proxy Application there are no limits.<br>
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Contact us!</strong>We develop individual plugins for you to connect your local systems and resources. With 365 business Proxy Application there are no limits.<br>
     <br>
     <a href="https://365businessdev.com/kontakt/" target="_blank">Get in touch with us</a>.
 </div>

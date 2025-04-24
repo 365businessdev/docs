@@ -1,20 +1,18 @@
----
-title: UStVA - Umsatzsteuervoranmeldung
----
+# UStVA - Umsatzsteuervoranmeldung
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Info:</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Info</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
 </div>
 
 Umsatzsteuervoranmeldungen müssen von Unternehmern monatlich oder vierteljährlich abgegeben werden, um eine bereits entstandene Umsatzsteuer an das Finanzamt zu melden und abzuführen bzw. bei einem Vorsteuerüberschuss erstattet zu bekommen.
 
-#### Umsatzsteuerliche Organschaft
+## Umsatzsteuerliche Organschaft
 
 Mit der 365 business ERiC Version 17.8 wurde die Unterstützung für die Umsatzsteuerliche Organschaft auf Basis von [OPplus](https://www.continia.com/de/loesungen/opplus.md) hinzugefügt.
 
 Weitere Informationen zur umsatzsteuerlichen Organschaft finden Sie [hier](opp-affiliation.md).
 
-#### So erstellen Sie eine USt.-Voranmeldung
+## So erstellen Sie eine USt.-Voranmeldung
 1. Wählen Sie **ELSTER Steuerdaten** in der Suche von Business Central.
 2. Klicken Sie auf **Neu**.
 3. Wählen Sie die Datenart **UStVA - Umsatzsteuervoranmeldung**.
@@ -30,9 +28,9 @@ Weitere Informationen zur umsatzsteuerlichen Organschaft finden Sie [hier](opp-a
 
 ![Umsatzsteuervoranmeldung](/assets/images/365-business-eric/elster-sales-vat-adv-notification.png)
 
-#### Infobox-Bereich
+## Infobox-Bereich
 
-##### Dateien
+### Dateien
 
 In den Dateien der ELSTER Steuerdaten werden sämtliche übertragenen und empfangenen Dateien zur aktuellen Umsatzsteuervoranmeldung gespeichert.
 Hierzu zählen:
@@ -43,19 +41,19 @@ Hierzu zählen:
 
 Weitere Informationen finden Sie [hier](elster-tax-statements.md#dateien).
 
-##### MwSt.-Abrechnungszeilen
+### MwSt.-Abrechnungszeilen
 
 Im Infobox-Bereich **MwSt.-Abrechnungszeilen** werden die für die ausgewählte Steuerdatenzeile verwendeten MwSt.-Abrechnungszeilen, inkl. der Betragsart und dem Betrag, angezeigt.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Wichtiger Hinweis:</strong> Der Betrag, entweder der MwSt.-Betrag oder die Bemessungsgrundlage, der Zeile in der MwSt.-Abrechnung. Bitte beachten Sie, dass dieser Betrag zum Zeitpunkt der Berechnung der ELSTER-Steuererklärung berechnet wird und der aktuelle Betrag in der MwSt.-Abrechnung abweichen kann.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Wichtiger Hinweis</strong> Der Betrag, entweder der MwSt.-Betrag oder die Bemessungsgrundlage, der Zeile in der MwSt.-Abrechnung. Bitte beachten Sie, dass dieser Betrag zum Zeitpunkt der Berechnung der ELSTER-Steuererklärung berechnet wird und der aktuelle Betrag in der MwSt.-Abrechnung abweichen kann.
 </div>
 
-##### ELSTER Übertragung
+### ELSTER Übertragung
 
 Im Infobox-Bereich **ELSTER Übertragung** werden die wesentlichen Informationen zur elektronischen Übermittlung der ELSTER Steuerdaten zusammengefasst.
 
-#### Weitere Optionen
+### Weitere Optionen
 Zusätzlich zu den oben genannten Einstellungen können Sie folgende Optionen setzen:
 
 | Name | Beschreibung |
@@ -65,7 +63,7 @@ Zusätzlich zu den oben genannten Einstellungen können Sie folgende Optionen se
 | Erstattungsbetrag verrechnen | Gibt an, ob ein möglicher Erstattungsbetrag mit der Zahlungsgebühr auf dieser Umsatzsteuervoranmeldung verrechnet werden soll. |
 | Lastschrifteinzug widerrufen | Gibt an, dass das Lastschriftmandat für diese Steuermeldung widerrufen wird. |
 
-### Siehe auch
+# Siehe auch
 - [ELSTER Steuerdaten](elster-tax-statements.md)
 - [MwSt.-Abrechnung Einrichtung](vat-statement-setup/vat-statement-setup.md)
 - [Datenart - Zusammenfassende Meldung - Dokumentation](elster-recapulative-statement.md)

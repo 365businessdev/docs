@@ -5,7 +5,7 @@ title: Print-Plugin
 Das **Print** Plugin in 365 business Proxy Application bietet die Möglichkeit auf Bilder aus dem lokale Dateisystem, sowie verfügbare Netzlaufwerke oder UNC-Pfade, zuzugreifen.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Gut zu wissen:</strong>Sie suchen eine vollintegrierte Anbindung ihrer lokalen Druckerinfrastruktur in Microsoft Dynamics 365 Business Central? Sie m&ouml;chten reguläre Drucker oder Etikettendrucker anbinden und nativ aus Microsoft Dynamics 365 Business Central ansteuern?<br>
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Gut zu wissen</strong>Sie suchen eine vollintegrierte Anbindung ihrer lokalen Druckerinfrastruktur in Microsoft Dynamics 365 Business Central? Sie m&ouml;chten reguläre Drucker oder Etikettendrucker anbinden und nativ aus Microsoft Dynamics 365 Business Central ansteuern?<br>
     <br>Dann ist <a href="https://365businessdev.com/produkte-loesungen/365-business-print-agent/" target="_blank">365 business Print Agent</a> die richtige L&ouml;sung f&uuml;r Sie! Erfahren Sie mehr und <a href="https://calendly.com/365businessdev" target="_blank">buchen Sie eine kostenlose und unverbindliche Demonstration</a>.
 </div>
 

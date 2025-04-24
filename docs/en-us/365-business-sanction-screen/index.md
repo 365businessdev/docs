@@ -1,7 +1,4 @@
----
-title: Introduction
----
-
+# Introduction
 
 Companies are legally required to regularly check their business partners against sanction lists to ensure that they do not conduct business with sanctioned individuals, groups, or organizations. This obligation arises from various EU regulations and the Foreign Trade and Payments Act (AWG).
 
@@ -18,7 +15,7 @@ With 365 business Sanction Screen, companies can automate their sanction list ch
 
 Thanks to the integration into Microsoft Dynamics 365 Business Central, companies can perform their sanction list checks directly in their ERP system. The solution offers seamless integration into the user interface of Microsoft Dynamics 365 Business Central and allows users to perform sanction list checks directly from the system.
 
-### Benefits of 365 business Sanction Screen:
+## Benefits of 365 business Sanction Screen:
 
 - **Comprehensive Coverage:** Conduct sanction checks with over 240 data sources, including:
     - EU CFSP - Consolidated List of Persons

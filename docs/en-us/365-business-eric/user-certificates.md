@@ -1,13 +1,11 @@
----
-title: User Certificates
----
+# Benutzerzertifikate
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Info:</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Info</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
 </div>
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong> Mit der 365 business ERiC Version 17.8 wurden zusätzlich zum Organisationszertifikat, das in der ELSTER Einrichtung hinterlegt werden kann, sogenannte Benutzerzertifikate eingeführt.<br>Bitte prüfen Sie, ob Sie über die aktuellste Version von 365 business ERiC verfügen.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong> Mit der 365 business ERiC Version 17.8 wurden zusätzlich zum Organisationszertifikat, das in der ELSTER Einrichtung hinterlegt werden kann, sogenannte Benutzerzertifikate eingeführt.<br>Bitte prüfen Sie, ob Sie über die aktuellste Version von 365 business ERiC verfügen.
 </div>
 
 Wenn verschiedene Anwender die Steuerdatenmeldungen an das Finanzamt vornehmen und die Anwender über persönliche Zertifikate verfügen, so kann das Zertifikat als Benutzerzertifikat hinterlegt werden. Benutzerzertifikate werden dabei über die **ELSTER Einrichtung**, durch den Aufruf **Benutzerzertifikate** in der Gruppe **Zertifikat**, verwaltet.
@@ -15,7 +13,7 @@ Wenn verschiedene Anwender die Steuerdatenmeldungen an das Finanzamt vornehmen u
 ![Aktion - Benutzerzertifikate](/assets/images/365-business-eric/user-certificates-action.png)
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong> Benutzerzertifikate werden additiv zum Organisationszertifikat, dass in der <a href="setup.md">ELSTER Einrichtung</a> hinterlegt wird, verwendet.<br>Sofern für den übermittelnden Benutzer kein Benutzerzertifikat existiert, verwendet 365 business ERiC das Organisationszertifikat für die Übermittlung.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis</strong> Benutzerzertifikate werden additiv zum Organisationszertifikat, dass in der <a href="setup.md">ELSTER Einrichtung</a> hinterlegt wird, verwendet.<br>Sofern für den übermittelnden Benutzer kein Benutzerzertifikat existiert, verwendet 365 business ERiC das Organisationszertifikat für die Übermittlung.
 </div>
 
 In der Ansicht **ELSTER Benutzerzertifikate** finden Sie die Liste alle hinterlegten Benutzerzertifikate für die ELSTER Übermittlung.
@@ -28,7 +26,7 @@ In der Ansicht **ELSTER Benutzerzertifikate** finden Sie die Liste alle hinterle
 | Zertifikat (PFX) vorhanden | Zeigt an, dass die Zertifikatsdatei (PFX) in Microsoft Dynamics 365 Business Central hochgeladen wurde. |
 | Zertifikat PIN vorhanden | Zeigt an, dass die Zertifikats-PIN in Microsoft Dynamics 365 Business Central angegeben ist. |
 
-#### Wie speichere ich ein Benutzerzertifikat in Business Central?
+## Wie speichere ich ein Benutzerzertifikat in Business Central?
 1. Öffnen Sie die ELSTER Einrichtung über die Business Central Suche.
 2. Klicken Sie auf die Gruppe **Zertifikat**.
 3. Klicken Sie auf **Benutzerzertifikate** um die Liste der Benutzerzertifikate zu öffnen.

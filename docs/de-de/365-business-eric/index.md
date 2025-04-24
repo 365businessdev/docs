@@ -4,6 +4,8 @@ Willkommen in der Dokumentation für 365 business ERiC! Dieser umfassende Leitfa
 
 ## Über 365 business ERiC
 
+![365 business ERiC](/assets/images/365-business-eric/logo.png)  
+
 365 business ERiC ist eine leistungsstarke Erweiterung für Microsoft Dynamics 365 Business Central, die entwickelt wurde, um den Prozess der elektronischen Berechnung und Übermittlung von Steuererklärungen und -anmeldungen an deutsche Steuerbehörden mithilfe von ELSTER zu vereinfachen und zu optimieren. Mit 365 business ERiC können Sie Ihre Steuererklärungen und -anmeldungen vollständig elektronisch aus Microsoft Dynamics 365 Business Central übermitteln, den manuellen Aufwand reduzieren und eine genaue und rechtzeitige Übermittlung der Steuererklärungen und -anmeldungen sicherstellen.
 
 ## Funktionen und Möglichkeiten
