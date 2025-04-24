@@ -3,12 +3,12 @@
 Ein Druckprofil ist eine **spezielle Konfiguration** Ihres Druckers, mit der **erweiterte Funktionen** gesteuert werden können.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Wichtig:</strong>
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Wichtig:</strong>
 	Für Standardfunktionen wie Duplexdruck, Kopien, Farbausgabe oder Papierauswahl sind keine Druckprofile erforderlich. Möchten Sie jedoch spezielle Druckfunktionen nutzen, erfolgt dies über Druckprofile.
 </div>
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Wichtig:</strong>
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Wichtig:</strong>
 	Druckprofile sind nur für Drucker verfügbar, die mit dem Emulationstyp <b>Standard</b> eingerichtet wurden.
 </div>
 
@@ -37,7 +37,7 @@ Klicken Sie auf **Neu**, um den Assistenten zu starten.
 Nach einem kurzen Einführungstext wählen Sie ein PDF für den Probedruck aus und klicken dann auf **Weiter**.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis:</strong>
 	Das gewählte PDF wird tatsächlich gedruckt!
 </div>
 
@@ -50,7 +50,7 @@ Wenn das Ergebnis nicht zufriedenstellend ist, können Sie über **Konfigurieren
 ![Wizard-2](/assets/images/365-business-print-agent/config-tool/PrintProfileWizard3.PNG) 
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis:</strong>
 	Die Darstellung der Druckeinstellungen kann je nach Drucker unterschiedlich ausfallen.
 </div>
 
@@ -68,6 +68,6 @@ Klicken Sie auf **Speichern**, um das Profil zu sichern und in Microsoft Dynamic
 
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis:</strong>
 	Damit das Druckprofil in Microsoft Dynamics 365 Business Central erscheint, müssen die Drucker dort neu synchronisiert werden. <a href="printer-configuration.md">Hier</a> erfahren Sie mehr.
 </div><br/>

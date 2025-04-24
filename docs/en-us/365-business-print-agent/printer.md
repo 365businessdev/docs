@@ -15,7 +15,7 @@ When you create a printer using the **Get Shared Printers...** action, a printer
 In addition, 365 business Print Agent supports native communication through **Zebra (ZPL)** and **SATO (SBPL) emulation**. PDF files are translated into native control characters before being sent to the printer, which can speed up processing.
 
 <div class="alert alert-notice">
-	<i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Important note:</strong>
+	<i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Important note:</strong>
 	When sharing network printers in 365 business Print Agent, timeouts may occur as the response from the actual printer may take longer.<br>
 	This is a known issue with Windows printer management and may not be resolved by 365 business Print Agent.<br><br>
 	<strong>Recommendation:</strong> Install 365 business Print Agent directly on print servers and share locally installed printers instead of using printers from a remote print server.
@@ -29,7 +29,7 @@ In the **365 business Print Agent** application, you will find the list of curre
 In the **Emulation** column, you can activate the **Zebra (ZPL)** or **SATO (SBPL)** option - in contrast to the **Standard** - in order to use emulation (PDF conversion) and direct communication via ZPL/SBPL control characters.
 
 <div class="alert alert-info">
-	<i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Good to know:</strong>
+	<i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Good to know:</strong>
 	Printing via ZPL / SBPL emulation is usually significantly faster than PDF printing and delivers better print results. <br><br>
 	<strong>Recommendation:</strong> Activate the corresponding emulation when using Zebra or SATO printers.
 </div>

@@ -11,7 +11,7 @@ Each Print Agent Service is identified by a unique **Client ID (GUID)** and moni
 The Print Agent should be installed on the **Windows system** on which the corresponding printers are set up.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Good to know:</strong>
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Good to know:</strong>
 	The Print Agent Service can work with all printers that are installed locally on the system.<br>
 	Enabling <b>network printers</b> can lead to <b>timeouts</b>, as the response times over the network are longer. <br>
 	This behavior is a limitation of Windows printer management and cannot be completely circumvented by the 365 business Print Agent.<br><br>

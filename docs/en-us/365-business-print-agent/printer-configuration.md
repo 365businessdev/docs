@@ -6,7 +6,7 @@ Furthermore, the stored [Print Profiles](print-agent-config-printprofile.md) are
 In addition to the standard configuration, further settings can be created for special requirements such as color and/or duplex printing.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Important:</strong>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Important:</strong>
 	The <b>Code</b> field of a Printer Configuration is displayed to the user via the <b>Printer Selection</b> and in various other places in Microsoft Dynamics 365 Business Central. <br>
 	Therefore, use a <b>user-friendly name</b>.
 </div>
@@ -43,7 +43,7 @@ Typical examples of extended functions:
 <br>
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Good to know:</strong> 
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Good to know:</strong> 
     Print Profiles are managed in the 365 business Print Agent Windows application.<br>
     Learn more at our <a href="print-agent-config-printprofile.md">documentation</a>.
 </div>
@@ -84,7 +84,7 @@ Printer Configuration can be created in two ways:
     ![Assisted Printer Configuration - Enable Printer Configuration](/assets/images/365-business-print-agent/e5a81f4c85fe8f35f56e061524f6e9b021a7b856078c0fe3a49ba1fbc607ce97.png)  
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Good to know:</strong>
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Good to know:</strong>
 	In some cases, it may be useful to rotate the print output - e.g. if a layout created in landscape format is to be output in portrait format on a label printer.<br>
 	Use the <b>Rotation</b> field within the printer settings for this.
 </div>
@@ -106,7 +106,7 @@ To get the most out of **Direct Printing**, you should assign the printer settin
  4. Select **Printer Name** from the drop-down menu.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Good to know:</strong>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Good to know:</strong>
 	In the <b>Printer Management</b> overview, you will find all printers activated in the 365 business Print Agent and their configurations. <br>
 	From here you can easily open Printer Configuration or set a default Printer.<br>
 	<img src="/assets/images/365-business-print-agent/f66b313410695f3a550f126155fc3b9d6abf9c663c5840e9d2c1887948fbfd41.png">

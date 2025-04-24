@@ -12,7 +12,7 @@ It basically consists of at least two components:
 - [Print Agent Service (Connector)](print-agent-client-whatis.md), a Windows service
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Important:</strong>365 business Print Agent supports every printer with Microsoft Windows compatible drivers or printer software.
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Important:</strong>365 business Print Agent supports every printer with Microsoft Windows compatible drivers or printer software.
 </div>
 
 ## Architecture
@@ -20,7 +20,7 @@ It basically consists of at least two components:
 365 business Print Agent is able to operate in two separate so-called Service Modes, the **365 business Print Agent Cloud** and the **Direct Connection** mode.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Good to know:</strong>The Print Agent Service and the app support both service modes. The mode can be changed at any time.<br>Please note: Existing configurations in Microsoft Dynamics 365 Business Central must be removed before switching.
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Good to know:</strong>The Print Agent Service and the app support both service modes. The mode can be changed at any time.<br>Please note: Existing configurations in Microsoft Dynamics 365 Business Central must be removed before switching.
 </div>
 
 #### Print Agent Cloud _(recommended)_
@@ -33,7 +33,7 @@ Communication between the Print Agent Service and the cloud is realized via stat
 ![365 business Print Agent - Cloud Architecture](/assets/images/365-business-print-agent/595f77629b38af2a850494a4d1c0e75ab37d0bde234e206a427cfe5dc37d3180.png)
 
 <div class="alert alert-info">
-	<i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Note:</strong>The 365 business Print Agent Cloud Service is hosted in Germany.<br>
+	<i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note:</strong>The 365 business Print Agent Cloud Service is hosted in Germany.<br>
 	</strong>No print jobs or printer data are stored</strong>. (Except when using <strong>Secure Print</strong>!)<br>
 	The service acts exclusively as an intermediary in real time.  
 </div>

@@ -42,6 +42,6 @@ Der Zebra-Druckertreiber bietet zwei Konfigurationsbereiche:
 
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Gut zu wissen</strong>
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Gut zu wissen</strong>
 	Diese Konfiguration gilt nun für <b>alle Benutzer</b> – einschließlich des Dienstes <b>365 business Print Agent</b>.	
 </div>

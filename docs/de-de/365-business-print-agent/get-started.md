@@ -3,7 +3,7 @@
 In dieser Kurzanleitung wird erklärt, wie Sie 365 business Print Agent aktivieren und einen Drucker einrichten.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis:</strong>
 	Testen Sie den 365 business Print Agent <strong>kostenlos in Sandbox-Umgebungen</strong> von Microsoft Dynamics 365 Business Central.<br>
 	Zusätzlich gibt es eine <strong>kostenlose 30-tägige Testphase für Echt- und On-Premises-Umgebungen</strong> ohne Funktionseinschränkungen.
 </div>
@@ -16,7 +16,7 @@ In dieser Kurzanleitung wird erklärt, wie Sie 365 business Print Agent aktivier
  - Eine Internetverbindung
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Wichtiger Hinweis:</strong>
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Wichtiger Hinweis:</strong>
 	Diese Kurzanleitung konzentriert sich auf den Dienstmodus <strong>Print Agent Cloud</strong>.<br/>
 	Für die Einrichtung der Direktverbindung besuchen Sie bitte die <a href="setup.md">Dokumentation</a>.
 </div>
@@ -41,7 +41,7 @@ Installieren Sie die App von Microsoft AppSource und warten Sie, bis die Install
  3. Kopieren Sie den Wert **Tenant ID**, indem Sie auf den Feldwert klicken.
     
 	<div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis:</strong>
 	Die Tenant ID verknüpft den Print Agent-Dienst mit Ihrer Microsoft Dynamics 365 Business Central-Umgebung.<br>
 	Sie benötigen die Tenant ID später bei der Einrichtung des Print Agent-Dienstes.
     </div>
@@ -92,7 +92,7 @@ Um Drucker direkt in Microsoft Dynamics 365 Business Central verwenden zu könne
 ## Schritt 2.2: Aktivieren der Druckereinstellung
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Gut zu wissen:</strong>
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Gut zu wissen:</strong>
 	Freigegebene Drucker sind in Microsoft Dynamics 365 Business Central nicht direkt verfügbar.<br>
 	Stattdessen müssen Sie <a href="printer-configuration.md">Druckereinstellungen</a> erstellen, die dann in der <strong>Druckerauswahl</strong> oder in der <strong>Report Request Page</strong> ausgewählt werden können.<br><br/>
 	Für jeden Drucker wird automatisch eine vom System erstellte Druckereinstellung angelegt, basierend auf den verfügbaren Druckerfunktionen.
@@ -116,7 +116,7 @@ Die Konfiguration erfolgt in Microsoft Dynamics 365 Business Central auf der Sta
  4. Wählen Sie den **Druckernamen** aus.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis:</strong>
 	In der Seite **Druckerverwaltung** sehen Sie alle aktivierten Drucker (Konfigurationen).<br>
 	Von hier können Sie Druckereinstellungen öffnen oder einen Drucker als Standard festlegen.<br>
 	<img src="/assets/images/365-business-print-agent/f66b313410695f3a550f126155fc3b9d6abf9c663c5840e9d2c1887948fbfd41.png">

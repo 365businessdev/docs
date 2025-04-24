@@ -9,7 +9,7 @@ During this process, you define:
 Once all required settings have been completed, the database is created and the communication service for **Microsoft Dynamics 365 Business Central** is configured.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Important:</strong>
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Important:</strong>
 	Before starting the initial setup in 365 business Print Config, please <b>ensure you have installed and set up</b> the "365 business Print Agent" app from Microsoft AppSource in your Microsoft Dynamics 365 Business Central tenant.<br/>
     This is required to enable communication between your on-premise service and the Business Central tenant.
 </div>
@@ -28,12 +28,12 @@ Once all required settings have been completed, the database is created and the 
    ![Database](/assets/images/365-business-print-agent/config-tool/wizard/wizard2_en.PNG) 
 
    <div class="alert alert-notice">
-       <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Important:</strong>
+       <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Important:</strong>
 	   When using Microsoft SQL Server, additional license costs may be incurred.
    </div>
    
    <div class="alert alert-info">
-       <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Note:</strong>
+       <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note:</strong>
 	   You can change the database at a later stage. <a href="print-agent-config-databases.md">Learn more</a>.
    </div><br/>
 
@@ -41,7 +41,7 @@ Once all required settings have been completed, the database is created and the 
    ![CloudClient](/assets/images/365-business-print-agent/config-tool/wizard/wizard3_en.PNG) 
    
    <div class="alert alert-info">
-       <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Note:</strong>
+       <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note:</strong>
 	   You can change the service mode later. <a href="print-agent-config-connections.md">Learn more</a>.
    </div><br/>
 
@@ -49,7 +49,7 @@ Once all required settings have been completed, the database is created and the 
    ![CloudClient](/assets/images/365-business-print-agent/config-tool/wizard/wizard4-cloud_en.PNG) 
    
    <div class="alert alert-info">
-       <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Note:</strong>
+       <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note:</strong>
 	   You can find the <b>Tenant-ID</b> in the "365 business Print Agent" app within Microsoft Dynamics 365 Business Central.
    </div><br/>
 
@@ -60,6 +60,6 @@ Once all required settings have been completed, the database is created and the 
    ![CloudClient](/assets/images/365-business-print-agent/config-tool/wizard/wizard6-cloud_en.PNG) 
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Note:</strong>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note:</strong>
 	After completing the wizard, we recommend proceeding with printer sharing. <a href="print-agent-config-printers.md">Learn more</a>.
 </div><br/>

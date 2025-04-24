@@ -10,13 +10,13 @@
 - [365 business Print Agent Service Installer](https://365businessapi.com/api/SoftwareDownload?AppId=c2e7d99c-d3c6-4ecc-9c6b-7be4048b41a9)
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Wichtig:</strong>
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Wichtig:</strong>
 	Wenn Sie den Print Agent im <b>Direct Connection</b> verwenden, stellen Sie sicher, dass der Service-Port von Ihrem Dynamics 365 Business Central-Tenant erreichbar ist.<br>
 	Für SaaS-Umgebungen empfehlen wir dringend die Nutzung von **Print Agent Cloud**.
 </div>
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Hinweis:</strong>
 	Um den Print Agent Service zu aktualisieren, laden Sie die <a href="https://365businessapi.com/api/SoftwareDownload?AppId=c2e7d99c-d3c6-4ecc-9c6b-7be4048b41a9">aktuelle Version</a> herunter und installieren Sie diese – Ihre <b>bisherigen Einstellungen bleiben erhalten</b>.
 </div>
 
@@ -25,7 +25,7 @@
 Bitte lesen Sie den [Artikel](print-agent-whatis.md#architektur) um herauszufinden, um den passenden Verbindungsart für Ihr Szenario auszuwählen.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Bemerkung:</strong>
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Bemerkung:</strong>
 	Bei angebundenen <b>Netzwerkdruckern</b> kann es jedoch zu <b>Zeitüberschreitungen</b> kommen, da die Antwortzeiten über das Netzwerk länger sind.<br>
 	Dieses Verhalten ist eine Einschränkung der Windows-Druckerverwaltung und kann vom 365 business Print Agent nicht vollständig umgangen werden.<br><br>
 	<b>Empfehlung:</b> Installieren Sie den Print Agent <b>direkt auf dem Druckserver</b> und geben Sie dort lokal installierte Drucker frei – anstatt auf freigegebene Drucker von einem entfernten Server zuzugreifen.
@@ -74,7 +74,7 @@ Im Folgenden wird beschrieben, wie Sie die Verbindungsart nachträglich ändern 
 ### Einrichtung: Direct Connection
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Wichtig:</strong>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Wichtig:</strong>
 	Stellen Sie sicher, dass die Service-URL und der Port in Ihrer Umgebung von Dynamics 365 Business Central erreichbar sind.  
 	Für SaaS empfehlen wir den <b>Print Agent Cloud</b> Modus.
 </div>

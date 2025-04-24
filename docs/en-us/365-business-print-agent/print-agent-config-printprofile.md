@@ -4,12 +4,12 @@ A Print Profile is a **Custom Printer Configuration** that enables **advanced fe
 
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Important:</strong>
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Important:</strong>
 	Basic printing tasks like duplex printing, number of copies, color output, or paper selection do not require a Print Profile. However, if you want to use special printing functions, a Print Profile is required.
 </div>
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Important:</strong>
+    <i class="fa-light fa-hand-point-up fa-lg"></i> <strong>Important:</strong>
 	Print Profiles are only available for printers that are configured with the <b>Standard</b> emulation type.
 </div>
 
@@ -38,7 +38,7 @@ Click **New** to launch the setup wizard.
 After a short introduction, select a PDF file for test printing and click **Next**.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Note:</strong>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note:</strong>
 	The selected PDF will actually be printed!
 </div>
 
@@ -51,7 +51,7 @@ If not, you can adjust the settings further using the **Configure** button.
 ![Wizard-2](/assets/images/365-business-print-agent/config-tool/PrintProfileWizard3_en.PNG) 
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Note:</strong>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note:</strong>
 	The appearance of the print settings dialog may vary depending on the printer model.
 </div>
 
@@ -68,6 +68,6 @@ After successful configuration, you can complete the wizard.
 Click **Save** to store the profile and make it available in Microsoft Dynamics 365 Business Central.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Note:</strong>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note:</strong>
 	To use the new Print Profile in Microsoft Dynamics 365 Business Central, the printer list must be refreshed. Learn more <a href="printer-configuration.md">here</a>.
 </div><br/>
