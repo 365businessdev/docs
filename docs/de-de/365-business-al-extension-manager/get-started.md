@@ -9,7 +9,7 @@ Nach dem Start der Anwendung erscheint der Connection Manager, indem die Verbind
 Die Einstellungen können anschließend gespeichert werden.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong> Für die Kommunikation wird ein aktivierter OData-/API-Service und Development Service an der Microsoft Dynamics 365 Business Central Server Instanz benötigt.
 </div>
 
@@ -41,7 +41,7 @@ Zur Installation einer oder mehrerer Erweiterungen oder Partner Apps, gehen Sie 
  
  3. Die Anwendung analysiert die Erweiterungen und liest die Abhängigkeiten und Bedingungen, wie bspw. Server Runtime Version, aus.<br>![Extensions hochladen](/assets/images/365-business-al-extension-manager/upload-extension-view.de-DE.png)<br>
     <div class="alert alert-info">
-        <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+        <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong>Hierbei werden Ihnen Warnungen und Fehler direkt angezeigt. So sehen Sie bspw. vor der eigentlichen Installation ob alle Abhängigkeiten erfüllt sind oder die Server Runtime Version kompatibel mit der Runtime Version der Erweiterung ist.
     </div>
 
@@ -54,7 +54,7 @@ Zur Installation einer oder mehrerer Erweiterungen oder Partner Apps, gehen Sie 
 ![Deinstallation Abhängigkeiten](/assets/images/365-business-al-extension-manager/unpublish-extension.de-DE.png)
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Gut zu wissen</strong>Zum Aufheben der Veröffentlichung einer Erweiterung (<i>Unpublish</i>) ist die <code>365 business App Automation API</code> Erweiterung (im Lieferumfang enthalten) erforderlich.
 </div>
 

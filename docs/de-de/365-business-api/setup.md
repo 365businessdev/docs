@@ -14,7 +14,7 @@ Gibt die URL zur Verbindung mit den 365 business API Diensten an. Der Wert wird 
 Der Standardwert lautet: `https://api.365businessapi.com`
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong>Kunden die über einen Development-Zugang verfügen können in diesem Feld die URL zum Development System hinterlegen. Transaktionen mit dem Development System werden nicht berechnet. Bitte beachten Sie jedoch, dass die Daten, die an das Development System geschickt werden nicht verschlüsselt werden und durch unser Team weiterverarbeitet werden können.
 </div>
 
@@ -22,7 +22,7 @@ Der Standardwert lautet: `https://api.365businessapi.com`
 Erlaubt das Senden von anonymisierten Telemetriedaten zur Verwendung von 365 business API Dienste. Die Telemetriedaten dienen uns unsere Dienste und Funktionen weiter zu verbessern und Probleme und Fehler zu identifizieren.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong>Weitere Informationen darüber welche Daten erhoben werden finden Sie <a href="telemetry-data.md">Telemetrie</a>.
 </div>
 

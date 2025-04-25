@@ -24,7 +24,7 @@ Gehen Sie wie folgt vor, um die automatisierte Sanktionslistenprüfung in Micros
 7. Wählen Sie die Aktion **Status auf 'Bereit' festlegen**, um den Aufgabenwarteschlangenposten zu aktivieren.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong>Zur optimalen Gewährleistung der Sanktionslistenprüfung empfehlen wir, die Prüfintervalle der einzelnen Entitäten (z.B. Debitor) in der <strong>Sanction Screen Einrichtung</strong> zu konfigurieren.
 </div>
 

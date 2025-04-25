@@ -16,7 +16,7 @@ In particular, this may result in **duplicate printer names**, which are **not s
 Uninstall all printer extensions in your Business Central environment – **except for the 365 business Print Agent**.
 
 <div class="alert alert-warn">
-    <i class="fa-light fa-triangle-exclamation fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-triangle-exclamation fa-xl"></i>
 	<strong>Attention</strong>
 	In Microsoft Dynamics 365 Business Central <strong>On-Premises</strong> environments, printers installed on the BC server are added automatically.<br>
 	Please make sure to remove any unwanted printers from the Business Central server as well.

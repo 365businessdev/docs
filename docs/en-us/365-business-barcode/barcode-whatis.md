@@ -29,6 +29,6 @@ With 365 business Barcode, you can integrate barcodes into any part of your appl
 
 365 business Barcode is an extension for Microsoft Dynamics 365 Business Central, you can use to add barcode capabilities to your business processes.
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong> As business processes and documents are usually customized, 365 business Barcode must be integrated into your individual business processes and documents.<br><br>Feel free to contact us for support or guidance on how to implement 365 business Barcode in your business processes.
 </div>

@@ -15,11 +15,11 @@ Barcode Einstellungen dienen dazu wiederverwendbare Vorlagen zu erstellen, welch
  7. Klicken Sie in das Feld **Farbe** und/oder **Hintergrundfarbe** um, abweichend vom Standard, Farben zu definieren. _(optional)_<br>![Farbauswahl](/assets/images/365-business-barcode/5c299f7b1b93a3b1b6c71d46c162491a9264e72fb4d66f9e435a182684624243.png)
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong>Während der Einrichtung der Barcode Einstellungen wird laufend die Vorschau des Barcodes mit einem Beispielwert angezeigt.
 </div>
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Gut zu wissen</strong>Abhängig von der gewählten <b>Barcode-Symbolik</b> stehen weitere Optionen zur Verfügung.
 </div>

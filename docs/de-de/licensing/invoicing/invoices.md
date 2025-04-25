@@ -3,7 +3,7 @@
 Über die **Erweiterungslizenzverwaltung (365 business development)** in Microsoft Dynamics 365 Business Central können Sie Ihre Rechnungen jederzeit einsehen und herunterladen. Die Rechnungen stehen Ihnen als E-Rechnung, im ZUGFeRD/Factur-X Format, zur Verfügung.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong> Die Option <strong>Rechnungen</strong> steht aus Datenschutzgründen nur bei der Endkundenlizenzierung, d.h. ohne Bereitstellung durch einen Microsoft Partner, zur Verfügung.
 </div>
 

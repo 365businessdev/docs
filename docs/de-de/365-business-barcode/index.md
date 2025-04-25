@@ -37,7 +37,7 @@
 </div>
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Gut zu wissen</strong> 365 business Barcode kann kostenlos und unverbindlich für 30 Tage getestet werden.<br>Sie brauchen mehr Zeit? Kein Problem, sprechen Sie uns einfach an!
 </div>
 
@@ -51,8 +51,8 @@
         <p>
             Erfahren Sie mehr über 365 business Barcode:
             <ul class="fa-ul">
-                <li><span class="fa-li"><i class="fa-duotone fa-thin fa-pen-ruler" fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="barcode-whatis.md">Was ist 365 business Barcode?</a></li>
-                <li><span class="fa-li"><i class="fa-duotone fa-thin fa-qrcode" fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="supported-barcodes.md">Welche Barcodearten werden unterstützt?</a></li>
+                <li><span class="fa-li"><i class="fa-duotone fa-thin fa-pen-ruler fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="barcode-whatis.md">Was ist 365 business Barcode?</a></li>
+                <li><span class="fa-li"><i class="fa-duotone fa-thin fa-qrcode fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="supported-barcodes.md">Welche Barcodearten werden unterstützt?</a></li>
             </ul>
         </p>
     </div>
@@ -61,7 +61,7 @@
              <p>
                 Erfahren Sie Barcodes eingerichtet werden:
                 <ul class="fa-ul">
-                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-sliders" fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="barcode-settings.md">Barcode Einstellungen vornehmen</a></li>
+                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-sliders fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="barcode-settings.md">Barcode Einstellungen vornehmen</a></li>
                 </ul>
             </p>
     </div>
@@ -70,8 +70,8 @@
              <p>
                 Erfahren Sie Barcodes genutzt werden können:
                 <ul class="fa-ul">
-                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-display-code" fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="barcode-howto.md">365 business Barcode einbinden</a></li>
-                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-code" fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="../../al-developer/al-developer.md">AL Developer Documentation (en-US)</a></li>
+                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-display-code fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="barcode-howto.md">365 business Barcode einbinden</a></li>
+                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-code fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="../../al-developer/al-developer.md">AL Developer Documentation (en-US)</a></li>
                 </ul>
             </p>
     </div>

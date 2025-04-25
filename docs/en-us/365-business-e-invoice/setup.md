@@ -3,7 +3,7 @@
 Receiving an electronic invoice is currently already possible via email inboxes. Alternatively, invoices can also be provided via an electronic interface or offered for download.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Good to know</strong>We recommend integrating one or more Microsoft 365 mailboxes into Microsoft Dynamics 365 Business Central to efficiently automate the processing of e-invoices and start with low entry barriers.
 </div>
 
@@ -16,7 +16,7 @@ Please note that the creation and processing of e-invoices may require the setup
  - Unit of Measure (International Standard Code)
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Good to know</strong>We support you in reviewing your setup in Microsoft Dynamics 365 Business Central.<br>
     <br>
     <a href="https://365businessdev.com/kontakt/" target="_blank">Feel free to contact us</a>.
@@ -61,7 +61,7 @@ In the 365 business E-Invoice setup, additional parameters can be specified to o
 The receipt of electronic documents (import) is supported by 365 business E-Invoice in the Factur-X / ZUGFeRD format. This enables companies to directly process incoming e-invoices in Microsoft Dynamics 365 Business Central. Immediately after the installation of 365 business E-Invoice, the app is basically ready to process e-invoices (e.g., PDF invoices with embedded Factur-X / ZUGFeRD data).
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Good to know</strong>During the installation of 365 business E-Invoice, an e-invoice service with the code <strong>365 ZUGFERD</strong> is created and fully configured.
 </div>
 
@@ -78,7 +78,7 @@ The receipt of electronic documents (import) is supported by 365 business E-Invo
 To retrieve and process incoming e-invoices from Microsoft 365 mailboxes, it is necessary to configure these mailboxes accordingly. This uses the <a href="https://learn.microsoft.com/en-us/dynamics365/business-central/admin-how-setup-email" target="_blank"><strong>Email Accounts</strong></a> functionality of Microsoft Dynamics 365 Business Central.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong>365 business E-Invoice currently only supports email inboxes of the account type "Microsoft 365".
 </div>
 
@@ -91,7 +91,7 @@ To retrieve and process incoming e-invoices from Microsoft 365 mailboxes, it is 
 4. Click **OK** to close the email account selection.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Good to know</strong>For sending e-invoices, the configured email accounts according to the email scenarios are used, regardless of the setup in the e-invoice setup.
 </div>
 
@@ -100,7 +100,7 @@ To retrieve and process incoming e-invoices from Microsoft 365 mailboxes, it is 
 By enabling automatic import, purchase invoices and credit memos in the Factur-X / ZUGFeRD format from incoming emails are automatically processed.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Good to know</strong>The user who enables automatic import must have access to this mailbox, otherwise the emails cannot be retrieved due to missing permissions.
 </div>
 
@@ -112,7 +112,7 @@ By enabling automatic import, purchase invoices and credit memos in the Factur-X
 6. Set the interval at which the emails should be retrieved in the **Minutes between executions** field (e.g., 1440min = 24h), if desired.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong>Since the processing of emails is very resource-intensive, it is recommended to perform the processing at night. It is also recommended that the time between executions is not too short.
 </div>
 
@@ -139,7 +139,7 @@ The extended e-invoice service flow is configured via the **Document Sending Pro
 The **Electronic Document Service Flow Code** field refers to the workflow used to send the electronic document. The *MS-EDOCTOS-01* workflow is provided by Microsoft, but other workflows with different conditions can also be created.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong>Learn more about <a href="https://learn.microsoft.com/en-us/dynamics365/business-central/across-workflow" target="_blank">Workflows in Microsoft Dynamics 365 Business Central</a>.
 </div>
 
@@ -161,7 +161,7 @@ By default, the extended e-invoice service flow uses the e-invoice service **E-I
 The e-invoice can also be generated and sent manually via the *Post and send* action, or from the posted document via *Send by Email*. In this case, no outgoing e-invoices are generated, but the electronic invoice or credit memo is sent directly from the document via the Microsoft Dynamics 365 Business Central standard.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong>The option <strong>Enable ZUGFeRD E-Invoice Export</strong> in the <strong>E-Invoice Setup</strong> must be enabled so that sales invoices and credit memos are automatically converted into electronic Factur-X - ZUGFeRD files.
 </div>
 

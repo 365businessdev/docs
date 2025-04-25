@@ -58,7 +58,7 @@ Neben dem ELSTER-Zertifikat muss auch die Zertifikat PIN in Business Central ges
 ### Benutzerzertifikate
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong> Mit der 365 business ERiC Version 17.8 wurden zusätzlich zum Organisationszertifikat, das in der ELSTER Einrichtung hinterlegt werden kann, sogenannte <a href="user-certificates.md">Benutzerzertifikate</a> eingeführt.<br>Bitte prüfen Sie, ob Sie über die aktuellste Version von 365 business ERiC verfügen.
 </div>
 

@@ -3,7 +3,7 @@
 365 business E-Invoice offers multiple integration and extensibility points, to allow you to customize the solution to your needs. The following sections describe the available events for customizing the export of electronic documents.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong>Typically, customization is required through special business requirements, such as adding additional fields to the electronic document. The following examples are provided to demonstrate how to use the events and how to customize the electronic document.<br>
     <br>
     The examples are not intended to be used as-is, but rather as a starting point for your own implementation. You can use the examples as a reference to create your own customizations.
@@ -92,7 +92,7 @@ The following example demonstrates how to add a description to the buyer trade p
 The following example demonstrates how to merge an additional PDF document, for example Terms & Conditions, to the PDF document, before the electronic document is created.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong>This example is utilizing <a href="../365businesspdf/readme.md">365 business PDF</a> to merge the additional PDF document. If you are not using 365 business PDF, you can use any other PDF library to merge the additional PDF document.
 </div>
 
@@ -151,7 +151,7 @@ The `OnAfterCreateZUGFeRDDocument` event is triggered before creating ZUGFeRD do
 
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Good to know</strong>Keep in mind, that any manipulations of the PDF document must be done before the actual electronic document is created, otherwise this would break the PDF/A-3 compliance and the electronic document would not be valid.<br>
     <br>
     Use only the <strong>OnBeforeCreateZUGFeRDDocument event publisher</strong> to manipulate the PDF document and the XML metadata, before the electronic document is created.
@@ -435,7 +435,7 @@ The `OnAfterAddLineToXml` event is triggered after adding sales invoice or credi
 | `line` | Record "bdev.E-Invoice Line Model" | The XML document line model |
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Good to know</strong>We recommend to integration with <a href="#onbeforeinsertsalesinvoicecrmemoheadertomodel---event">OnBeforeInsertSalesInvoiceCrMemoHeaderToModel - Event</a> or <a href="#onbeforeinsertsalesinvoicecrmemolinetomodel---event">OnBeforeInsertSalesInvoiceCrMemoLineToModel - Event</a> to add additional information directly to the models, instead manipulating the XML document. This is more efficient and less error-prone.
 </div>
 

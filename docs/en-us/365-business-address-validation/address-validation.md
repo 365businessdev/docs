@@ -13,7 +13,7 @@ The address validation can be executed in different ways:
  - Batch processing execution (e.g. *Check contact addresses*).
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong> The automatic validation on address change is only executed if the <a href="address-prediction.md">address prediction</a> was not used to select the address.
 </div>
 

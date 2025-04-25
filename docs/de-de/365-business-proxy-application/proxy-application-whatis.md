@@ -31,7 +31,7 @@ Einzige Voraussetzung ist eine bestehende **Internetverbindung**. Die Datenüber
 ![Proxy Application Architektur](/assets/images/365-business-proxy-application/proxy-application-architecture.png)
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong>
     Der 365 business Proxy Application Cloud Service wird in Deutschland gehostet und speichert <b>keine Langzeitdaten.</b><br>
     Er fungiert als Vermittler und stellt eine verschlüsselte Echtzeitverbindung zum Proxy Application Client her.

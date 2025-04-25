@@ -3,7 +3,7 @@
 In dieser Kurzanleitung erfahren Sie, wie Sie die **365 business Proxy Application** in Ihrer Microsoft Dynamics 365 Business Central Umgebung installieren und einrichten.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong>
 	Testen Sie den 365 business Proxy Application <b>kostenlos in Sandbox-Umgebungen</b> von Microsoft Dynamics 365 Business Central.
 	Zusätzlich gibt es eine <b>kostenlose 30-tägige Testphase für Echt- und On-Premises-Umgebungen</b> ohne Funktionseinschränkungen.
@@ -16,7 +16,7 @@ In dieser Kurzanleitung erfahren Sie, wie Sie die **365 business Proxy Applicati
 - Eine Internetverbindung
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Gut zu wissen</strong>
 	Diese Kurzanleitung beschreibt die Einrichtung und Inbetriebnahme von 365 business Proxy Application mit dem <b>File Plugin</b>.  
     Weitere Informationen zu anderen Plugins finden Sie in der <a href="plugins.md">Plugin-Dokumentation</a>.
@@ -30,7 +30,7 @@ In dieser Kurzanleitung erfahren Sie, wie Sie die **365 business Proxy Applicati
 Installieren Sie die App über Microsoft AppSource.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong>
 	Die App Pakete für Ihre Microsoft Dynamics 365 Business Central <b>On-Premises</b> Umgebung finden Sie in unseren <a href="https://downloads.365businessdev.com/de-DE/365-business-proxy-application/" target="_blank">Downloads</a>.
 </div>
@@ -44,7 +44,7 @@ Installieren Sie die App über Microsoft AppSource.
  3. Kopieren Sie den Wert **Tenant-ID**, indem Sie auf den Feldwert klicken.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong>
 	Die Tenant-ID verknüpft den 365 business Proxy Application-Dienst mit Ihrer Microsoft Dynamics 365 Business Central-Umgebung.
 	Sie benötigen die Tenant-ID später bei der Einrichtung des Dienstes.	
@@ -62,7 +62,7 @@ Installieren Sie die App über Microsoft AppSource.
  4. Geben Sie die **Tenant-ID** aus dem vorherigen Schritt und einen **Namen** für den Client ein, der Ihnen dabei hilft den Client in Microsoft Dynamics 365 Business Central zu identifizieren.
  5. *(Optional)* Geben Sie einen Domänenbenutzer und das Kennwort ein, mit dem 365 business Proxy Application Client betrieben werden soll.
     <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong> Wenn Sie keinen Benutzer angeben, wird 365 business Proxy Application Client im Kontext <strong>Lokales System</strong> ausgeführt.
     </div>
 
@@ -80,7 +80,7 @@ Um auf die Proxy Application Clients direkt in Microsoft Dynamics 365 Business C
  4. Klicken Sie auf den **Namen** des Proxy Application Client um die Karte zu öffnen.
  5. In der Proxy Application Client Karte finden Sie das Feld **Client ID**.
     <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong> Die Client ID wird verwendet, um den Proxy Application Dienst zu adressieren. 365 business Proxy Application stellt zusätzlich Funktionen zur Verfügung um die Clients, die ein spezifisches Plugin unterstützen, zurückgibt. In dieser Kurzanleitung wird allerdings davon ausgegangen, dass die spezifische Client ID verwendet wird.
     </div>
 
@@ -120,7 +120,7 @@ Um die Ansteuerung von Clients zu vereinfachen gibt es die Möglichkeit einen St
 ![Proxy Application Einrichtung - Standard Client für Plugin](/assets/images/365-business-proxy-application/3fafd304-0799-4d9a-a079-a6a13e1a27ff.png)
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong>Die Auswahl von Clients ist nur möglich, wenn auf dem Client bereits das ausgewählte Plugin installiert ist.
 </div>
 

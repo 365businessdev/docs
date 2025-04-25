@@ -76,7 +76,7 @@ The **Screening Interval** determines how often the sanctions list check is perf
 | **Manually** | The check is performed manually by the user only. |
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Good to know</strong> In the automated task queue entry <strong>Sanctions Check</strong>, the setting can be overridden to perform special checks deviating from the standard.
 </div>
 

@@ -8,7 +8,7 @@ Therefore, the 365 business Print Agent blocks the use of incompatible virtual p
 If you still want to test the functionality with a virtual printer, we recommend setting up a **manually installed Microsoft XPS Document Writer (MXDW)**.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Good to know</strong>
 	Virtual printers typically trigger a <b>Save As</b> dialog to specify a file path.<br>
 	Since print jobs handled by the 365 business Print Agent run under the <b>Local System</b> account, displaying dialogs is not possible and will result in errors.<br><br>
@@ -39,7 +39,7 @@ The following is the recommended procedure for setting up a **virtual printer wi
 11. Share this printer in the **365 business Print Agent Setup** in Microsoft Dynamics 365 Business Central.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Good to know</strong>
 	Ensure that the directory specified in Step 5 has <b>read and write permissions</b> for the user running the 365 business Print Agent service.<br>
 	For testing purposes, you may temporarily run the service under a user account with full access to that path.

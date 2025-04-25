@@ -56,9 +56,9 @@ Mit 365 business E-Invoice sind Unternehmen optimal auf die regulatorischen Anfo
         <p>
             Erfahren Sie mehr über 365 business E-Invoice:
             <ul class="fa-ul">
-                <li><span class="fa-li"><i class="fa-duotone fa-thin fa-pen-ruler" fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="zugferd-whatis.md">Was ist ZUGFeRD?</a></li>
-                <li><span class="fa-li"><i class="fa-duotone fa-thin fa-down-left-and-up-right-to-center" fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="zugferd-xrechnung.md">ZUGFeRD vs. XRechnung</a></li>
-                <li><span class="fa-li"><i class="fa-duotone fa-thin fa-folders" fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="supported-document-types.md">Welche Belegarten werden unterstützt?</a></li>
+                <li><span class="fa-li"><i class="fa-duotone fa-thin fa-pen-ruler fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="zugferd-whatis.md">Was ist ZUGFeRD?</a></li>
+                <li><span class="fa-li"><i class="fa-duotone fa-thin fa-down-left-and-up-right-to-center fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="zugferd-xrechnung.md">ZUGFeRD vs. XRechnung</a></li>
+                <li><span class="fa-li"><i class="fa-duotone fa-thin fa-folders fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="supported-document-types.md">Welche Belegarten werden unterstützt?</a></li>
             </ul>
         </p>
     </div>
@@ -67,7 +67,7 @@ Mit 365 business E-Invoice sind Unternehmen optimal auf die regulatorischen Anfo
              <p>
                 Erfahren Sie mehr über die Benutzung von 365 business E-Invoice:
                 <ul class="fa-ul">
-                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-file-pdf" fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="create-from-file.md">E-Beleg aus ZUGFeRD PDF-Datei erzeugen</a></li>
+                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-file-pdf fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="create-from-file.md">E-Beleg aus ZUGFeRD PDF-Datei erzeugen</a></li>
                 </ul>
             </p>
     </div>
@@ -76,10 +76,10 @@ Mit 365 business E-Invoice sind Unternehmen optimal auf die regulatorischen Anfo
              <p>
                 Erfahren Sie mehr über die Einrichtung:
                 <ul class="fa-ul">
-                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-pen-ruler" fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="setup.md">E-Invoice Einrichtung vornehmen</a></li>
-                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-file-import" fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="setup.md#e-beleg-import">E-Invoice Import einrichten</a></li>
-                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-file-export" fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="setup.md#e-beleg-export">E-Invoice Export einrichten</a></li>
-                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-book" fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="https://learn.microsoft.com/de-de/dynamics365/business-central/finance-edocuments-overview" target="_blank">E-Beleg Dokumentation (Microsoft Learn)</a></li>
+                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-pen-ruler fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="setup.md">E-Invoice Einrichtung vornehmen</a></li>
+                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-file-import fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="setup.md#e-beleg-import">E-Invoice Import einrichten</a></li>
+                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-file-export fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="setup.md#e-beleg-export">E-Invoice Export einrichten</a></li>
+                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-book fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="https://learn.microsoft.com/de-de/dynamics365/business-central/finance-edocuments-overview" target="_blank">E-Beleg Dokumentation (Microsoft Learn)</a></li>
                 </ul>
             </p>
     </div>

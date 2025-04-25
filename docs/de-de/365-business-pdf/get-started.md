@@ -28,7 +28,7 @@ Für jede unterstützte Aktion, wie Signierung, Verkettung und Briefpapier, gibt
 Es entstehen Ihnen keinerlei Kosten und die Testphase endet automatisch.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong> Erfahren Sie mehr über die Registrierung für die 365 business API und starten Sie Ihre kostenlose und unverbindliche Testphase.
 </div>
 
@@ -38,6 +38,6 @@ Die 365 business API Dienste werden, nach Ablauf der kostenlosen und unverbindli
 Wenn Sie bspw. bei 1.000 Dokumenten das Briefpapier anwenden lassen, liegen die Kosten bei 100,- Euro (Stand: Mai 2022)
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong> Die aktuellen Preise können Sie unserer <a href="https://365businessdev.com/cloud/preise/pdf/">Website</a> entnehmen.
 </div>

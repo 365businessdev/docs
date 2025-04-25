@@ -15,14 +15,14 @@ After installation, if the 365 business API was not already installed, the Welco
 After the registration is complete, you will receive your personal API authentication key, which is required to communicate with the 365 business API.<br>
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong> No further setup of 365 business Barcode is necessary.
 </div>
 
 ## Step 2: Set up barcode settings
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong> During the installation of 365 business Barcode some standard barcode types are added automatically. You can use, modify or delete them directly.
 </div>
 
@@ -36,12 +36,12 @@ To set up barcode settings, open the **Barcode Settings** page in Microsoft Dyna
  6. Click in the **Color** and/or **Background color** field to define colors different from the default. _(optional)_<br>![Color Picker](/assets/images/365-business-barcode/5c299f7b1b93a3b1b6c71d46c162491a9264e72fb4d66f9e435a182684624243.png)
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong>While setting up the barcode settings, the preview of the barcode with a sample value is continuously displayed.
 </div>
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Good to know</strong>Depending on the selected <b>barcode symbology</b> further options are available.
 </div>
 

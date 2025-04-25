@@ -1,7 +1,7 @@
 # Fristverlängerung
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
 </div>
 
@@ -21,7 +21,7 @@ Mit dem Antrag auf Fristverlängerung möchte ein Unternehmer erreichen, dass se
 Beim Antrag auf Fristverlängerung muss eine Begründung, sowie ein Datum für die gewünschte Dauer der Fristverlängerung angegeben werden.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong> Elektronisch abgegebene Anträge auf Fristverlängerung werden standardmäßig maschinell geprüft.
 </div>
 
@@ -38,7 +38,7 @@ Beim Antrag auf Fristverlängerung muss eine Begründung, sowie ein Datum für d
 10. Klicken Sie auf **XML-Datei übertragen**, um die Steuerdatei einzureichen und elektronisch an die deutschen Steuerbehörden zu übermitteln.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong> Für die Steuerdatenart <b>Antrag auf Fristverlängerung</b> findet keine automatisierte Berechnung statt. Stattdessen müssen individuelle Begründungen im Bereich <b>Zeile</b> angegeben werden.
 </div>
 

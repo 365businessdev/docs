@@ -43,7 +43,7 @@ The Zebra printer driver provides two types of configuration:
 ---
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Good to know</strong>
     These default settings will now apply to <b>all users</b> – including the <b>365 business Print Agent</b> service.
 </div>

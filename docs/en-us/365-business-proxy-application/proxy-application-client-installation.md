@@ -15,7 +15,7 @@ Learn how to install and configure the **365 business Proxy Application Client**
   - [Download Proxy Application Client Installer](https://365businessapi.com/api/SoftwareDownload?AppId=da472ae3-fa8a-406f-bbea-c2aafd5f77d5)
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Note</strong>
     If you want to update your Proxy Application Client, simply download the <a href="https://365businessapi.com/api/SoftwareDownload?AppId=da472ae3-fa8a-406f-bbea-c2aafd5f77d5">latest version</a>.<br>
     Your existing configuration will be retained.
@@ -28,7 +28,7 @@ Learn how to install and configure the **365 business Proxy Application Client**
 Before you begin, please read the article [What is 365 business Proxy Application?](proxy-application-whatis.md) to determine the best system for installation.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Good to know</strong>
     You will need the **Tenant-ID** of your Business Central environment for installation.<br>
     You can find it on the **Proxy Application Setup** page in Microsoft Dynamics 365 Business Central.<br>
@@ -52,7 +52,7 @@ Before you begin, please read the article [What is 365 business Proxy Applicatio
    ![Account login](/assets/images/365-business-proxy-application/bd510f87-83cc-471f-a2e8-bb1ef9dc428a.png)
 
 	<div class="alert alert-info">
-		<i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+		<i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
 		<strong>Note</strong>
 		If no user is specified, the 365 business Proxy Application Client runs in the context of <strong>Local System</strong>.
 	</div>

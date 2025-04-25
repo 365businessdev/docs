@@ -28,7 +28,7 @@ In addition, the XRechnung file contains Germany-specific content (mainly of a t
 Since the introduction of ZUGFeRD 2.1.1 in July 2020, ZUGFeRD and XRechnung are now fully compatible.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Good to know</strong> 365 business E-Invoice creates ZUGFeRD 2.3.0 files in the EXTENDED profile and is therefore fully compatible with XRechnung. No additional configuration is required for processing incoming XRechnung files.
 </div>
 

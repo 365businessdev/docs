@@ -15,7 +15,7 @@ Insbesondere kann es dazu kommen, dass **Druckernamen mehrfach vergeben werden**
 Deinstallieren Sie alle Druckererweiterungen in Ihrer Business Central Umgebung – **außer dem 365 business Print Agent**.
 
 <div class="alert alert-warn">
-    <i class="fa-light fa-triangle-exclamation fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-triangle-exclamation fa-xl"></i>
 	<strong>Achtung</strong>
 	In Microsoft Dynamics 365 Business Central <strong>On-Premises</strong> Umgebungen werden Drucker, die direkt auf dem BC-Server installiert sind, automatisch eingebunden.<br>
 	Bitte deinstallieren Sie die Drucker auf dem Microsoft Dynamics 365 Business Central Server.

@@ -3,7 +3,7 @@
 Benutzer Einstellungen dienen dazu das Verhalten der Adressvalidierung pro Benutzer zu spezifizieren bzw. anzupassen.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong> Als Administrator, mit dem Berechtigungssatz <code>SUPER</code>, können Sie globale Einstellungen und Einstellungen anderer Benutzer verändern oder definieren.
 </div>
 

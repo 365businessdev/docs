@@ -9,7 +9,7 @@ Im Dialog-Fenster `Suchen & Ersetzen` können Sie die Parameter für die Durchf�
 Im Bereich **Datensatz** wird die Tabelle (z.B. Debitor) und die vorgefilterte Anzahl an Datensätzen angezeigt.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong> Aktuell gesetzte Filter in der aufrufenden Ansicht (z.B. Debitor Übersicht) werden beim Aufruf von Suchen & Ersetzen berücksichtigt. Somit können Sie bereits ein Vorauswahl für die zu verarbeitenden Datensätze treffen.
 </div>
 
@@ -31,7 +31,7 @@ Im Bereich **Optionen** haben Sie die Möglichkeit zusätzliche Einstellungen f�
 ## Überprüfung
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong> Wir empfehlen die Einstellungen im Bereich Überprüfung <b>nicht</b> zu verändern, da dies unter Umständen zu Inkonsistenzen führen kann.<br><br>Bitte konsultieren Sie Ihren Microsoft Dynamics Partner bevor Sie Datenänderungen ohne Überprüfung/Validierung durchführen.
 </div>
 

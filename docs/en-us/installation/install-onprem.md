@@ -3,7 +3,7 @@
 For Microsoft Dynamics 365 Business Central On-Premise environments, so-called Runtime Packages are provided. These are precompiled extensions that you can directly install in your Microsoft Dynamics 365 Business Central environment.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Good to know</strong> It is important to use the correct version for the platform version of Microsoft Dynamics 365 Business Central you are using. Runtime Packages are only compatible with the version they were compiled for.<br>Using them in a different version may lead to errors.
 </div>
 
@@ -22,7 +22,7 @@ The **365 business development App Installer** is available on our GitHub page. 
 This section explains how to use the **365 business development App Installer** to install our extensions in Microsoft Dynamics 365 Business Central On-Premise environments.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong> Please note that the 365 business development App Installer must be run in a PowerShell session with elevated privileges (Administrator).<br>
     <br>
     The execution must take place on the Microsoft Dynamics 365 Business Central server, as the Microsoft Dynamics 365 Business Central PowerShell modules are required for the installation.
@@ -41,7 +41,7 @@ This section explains how to use the **365 business development App Installer** 
  5. Select the Microsoft Dynamics 365 Business Central service instance (_only if more than one instance is installed_).
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong> You can find the Application ID and the full command for the 365 business development App Installer on the respective product's download page.<br>
     <br>
     Go to the <a href="https://downloads.365businessdev.com/" target="_blank">365 business development Downloads</a>.

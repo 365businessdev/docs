@@ -16,7 +16,7 @@ Erfahren Sie hier, wie Sie den **365 business Proxy Application Client** install
 
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong>
     Wenn Sie den Proxy Application Client aktualisieren möchten, laden Sie die <a href="https://365businessapi.com/api/SoftwareDownload?AppId=da472ae3-fa8a-406f-bbea-c2aafd5f77d5">aktuelle Version</a> herunter.<br>
 	Ihre Konfiguration bleibt erhalten.
@@ -29,7 +29,7 @@ Erfahren Sie hier, wie Sie den **365 business Proxy Application Client** install
 Bitte lesen Sie vorab den Artikel [Was ist 365 business Proxy Application?](proxy-application-whatis.md), um zu entscheiden, auf welchem System der Client installiert werden soll.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Gut zu wissen</strong>
     Für die Installation benötigen Sie die <strong>Tenant-ID</strong> Ihrer Business Central Umgebung.<br>
     Diese finden Sie in der Seite <strong>Proxy Application Einrichtung</strong> im Microsoft Dynamics Business Central.<br>
@@ -51,7 +51,7 @@ Bitte lesen Sie vorab den Artikel [Was ist 365 business Proxy Application?](prox
    ![Anmeldung mit Benutzerkonto](/assets/images/365-business-proxy-application/bd510f87-83cc-471f-a2e8-bb1ef9dc428a.png)
 
 	<div class="alert alert-info">
-		<i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+		<i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
 		<strong>Hinweis</strong>
 		Wenn Sie keinen Benutzer angeben, wird 365 business Proxy Application Client im Kontext <strong>Lokales System</strong> ausgeführt.
 	</div>

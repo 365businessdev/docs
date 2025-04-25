@@ -10,7 +10,7 @@ Die 365 business Proxy Application ist eine leistungsstarke Erweiterung für Dyn
 Ob Dateizugriff, Drucker, Lagerlifte, Waagen oder Kartenleser – mit dem flexibel erweiterbaren Plugin-System der Proxy Application sind Ihren Integrationsmöglichkeiten kaum Grenzen gesetzt.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong> 365 business Proxy Application ist darauf konzipiert mit möglichst wenig Aufwand Integrationen von lokalen Ressourcen in Ihre Geschäftsprozesse zu ermöglichen.<br>Sie benötigen eine individuelle Anbindung an ein lokales Gerät oder eine Maschine? <a href="https://365businessdev.com/kontakt/" target="_blank">Sprechen Sie uns gerne an</a>.
 </div>
 

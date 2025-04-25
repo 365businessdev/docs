@@ -16,7 +16,7 @@ In der Regel wird die jeweils aktuellste Version des ERiC-Dienst verwendet. Sola
 Sollten Sie in Ihrem Microsoft Dynamics 365 Business Central eine veraltete Version betreiben, so kann es vorkommen, dass die neueste API-Dienstversion ggf. nicht kompatibel mit der Extension ist. In diesem Fall müssen Sie eine andere API-Dienstversion auswählen.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong> Wir empfehlen ausdrücklich die Verwendung der jeweils aktuellsten API-Dienstversion und 365 business ERiC Extension.
 </div>
 

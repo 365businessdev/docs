@@ -3,7 +3,7 @@
 User settings are used to specify or adjust the behavior of the address validation per user.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong> As administrator, with the permission set <code>SUPER</code>, you can change or define global settings and settings of other users.
 </div>
 

@@ -11,7 +11,7 @@ Barcode settings are used to create reusable templates that can be used in the i
  3. Select a **Code**. 
  4. Select the type of barcode you want to use (for example, `QR Code`) in **Barcode symbology** field.
     <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong>While setting up the barcode settings, the preview of the barcode with a sample value is continuously displayed.
     </div>
  5. Select a **description** for the barcode setting.
@@ -19,6 +19,6 @@ Barcode settings are used to create reusable templates that can be used in the i
  7. Click in the **Color** and/or **Background color** field to define colors different from the default. _(optional)_<br>![Color Picker](/assets/images/365-business-barcode/5c299f7b1b93a3b1b6c71d46c162491a9264e72fb4d66f9e435a182684624243.png)
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Good to know</strong> Depending on the selected <b>barcode symbology</b> further options are available.
 </div>

@@ -8,7 +8,7 @@ title: 365 business Proxy Application Changelog
  - Optimize `GetDefaultClientByPlugin()` implementation to return first supported client, if no default specified
  - Fix client name validation in Default Plugin clients
  - Update support urls
- - Tenant ID editable for on-premises environments
+ - Tenant ID editable for On-Premises environments
  - Fix WaitSpinner control, while plugin installation
 
 #### Version 18.1.21.16419

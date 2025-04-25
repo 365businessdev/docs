@@ -5,7 +5,9 @@ title: Introduction
 On this page, you will find information about the different types of licenses we offer. You will also learn how to manage the licensing for our products.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> If you have any questions, do not hesitate to <a href="https://365businessdev.com/contact/" target="_blank">contact</a> us.
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
+	<strong>Info</strong>
+	If you have any questions, do not hesitate to <a href="https://365businessdev.com/contact/" target="_blank">contact</a> us.
 </div>
 
 <div class="columns">

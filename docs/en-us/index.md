@@ -7,6 +7,6 @@ Business Central is fast to implement, easy to configure, and simplicity guides 
 As an Microsoft Development Partner we at 365 business development are providing several Apps in Microsoft AppSource.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong>If you are not sure where to find what you are looking for, you can filter by titles in the navigation pane to the left.
 </div>

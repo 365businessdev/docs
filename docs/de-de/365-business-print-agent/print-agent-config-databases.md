@@ -14,19 +14,19 @@ Gehen Sie dazu wie folgt vor:
 ![Datenbank](/assets/images/365-business-print-agent/config-tool/Database_SQL.PNG)
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Gut zu wissen</strong>
 	Die Nutzung von Microsoft SQL Server kann zusätzliche Lizenzkosten verursachen.
 </div>
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong>
 	Abhängig von der Anzahl migrierter Druckaufträge kann die Migration <b>mehrere Stunden</b> dauern. Der Fortschritt wird während des gesamten Prozesses angezeigt.
 </div>
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong>
 	Ein späterer Wechsel der <b>Datenbank</b> ist jederzeit möglich.	
 </div>

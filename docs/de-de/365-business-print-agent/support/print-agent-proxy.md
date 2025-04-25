@@ -50,7 +50,8 @@ Falls Ihre Organisation jedoch vorschreibt, dass **sämtlicher ausgehender Inter
 5. **Speichern Sie die Datei** und starten Sie den **365 business Print Agent Cloud Service** neu, um die Konfiguration zu übernehmen.
 
 <div class="alert alert-notice">
-	<i class="fa-light fa-thin fa-hand-point-up fa-lg"></i> <strong>Gut zu wissen</strong>
+	<i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
+	<strong>Gut zu wissen</strong>
 	Änderungen an der Proxy-Konfiguration werden erst nach dem Neustart des jeweiligen Dienstes wirksam. 
 </div>
 
@@ -103,6 +104,7 @@ Falls Ihre Organisation jedoch vorschreibt, dass **sämtlicher ausgehender Inter
 ---
 
 <div class="alert alert-notice">
-	<i class="fa-light fa-thin fa-hand-point-up fa-lg"></i> <strong>Gut zu wissen</strong>
+	<i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
+	<strong>Gut zu wissen</strong>
 	Änderungen an der Proxy-Konfiguration werden erst nach dem Neustart des jeweiligen Dienstes wirksam. 
 </div>

@@ -32,14 +32,14 @@ Sobald dieser geschlossen ist und der **Service Status** ein grünes Häkchen ze
 ![Einstellung-Cloud](/assets/images/365-business-print-agent/config-tool/Settings_Cloud.PNG)
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Gut zu wissen</strong>
 	Bitte stellen Sie sicher, dass die Schritte in der richtigen Reihenfolge durchgeführt werden.<br/>
     Die Installation und Einrichtung der 365 business Print Agent App in Ihrem Microsoft Dynamics 365 Business Central <strong>muss vor</strong> der Konfiguration in der 365 business Print Agent Config Tool erfolgen.
 </div>
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong>
 	Sollte Ihre Organisation einen <b>Proxy</b> für ausgehenden Datenverkehr verwenden, beachten Sie bitte diesen <a href="support/print-agent-proxy.md">Support-Artikel</a>.	
 </div>
@@ -69,14 +69,14 @@ Sobald dieser geschlossen ist und der **Service Status** ein grünes Häkchen ze
 ![Einstellung-Server](/assets/images/365-business-print-agent/config-tool/Settings_Server.PNG)
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Gut zu wissen</strong>
 	Die Einrichtung des Servers ist damit abgeschlossen!<br><br>
 	Für die Nutzung außerhalb Ihres Netzwerks sind zusätzliche Schritte notwendig – z. B. Firewall- und Router-Konfiguration. Bitte wenden Sie sich an Ihre IT-Abteilung oder Ihren Systemdienstleister.
 </div>
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong>
 	Der Server kann optional mit dem <strong>HTTPS</strong>-Protokoll betrieben werden.<br/>
 	Klicken Sie dafür auf <b>HTTPS Konfiguration</b> und wählen Sie eine der drei Zertifikatsarten:
@@ -88,7 +88,7 @@ Sobald dieser geschlossen ist und der **Service Status** ein grünes Häkchen ze
 </div>
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong>
 	Sollte Ihre Organisation einen <b>Proxy</b> für ausgehenden Datenverkehr verwenden, beachten Sie bitte diesen <a href="support/print-agent-proxy.md">Support-Artikel</a>.
 </div>

@@ -26,7 +26,7 @@ In der aktuellen Version werden folgende Anwendungsbereiche unterstützt:
 Die bereitgestellten Integrationen lassen sich über die Seite [Einrichtung für Adressvalidierung](setup.md) aktivieren und deaktivieren.<br>Erfahren Sie mehr unter [Einrichtung](setup.md).
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong> Weitere Integrationen können über die bereitgestellte API unkompliziert angebunden werden.<br>Erfahren Sie mehr in unserer <a href="https://docs.365businessdev.com/de-DE/al-developer/365businessaddressvalidation/">Entwickler Dokumentation</a>.
 </div>
 
@@ -38,7 +38,7 @@ In der Regel ist die Funktion auf den Feldern **Name** und **Adresse** verfügba
 ![Adressvorhersage](/assets/images/365-business-address-validation/addressprediction.de-DE.gif)
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong> Die Adressvorhersage im Feld <b>Name</b> sucht für Debitoren, Kreditoren und Unternehmenskontakte nach Unternehmen und Organisationen. Zusätzlich werden weitere Organisationsinformationen ermittelt und ggf. ergänzt.<br><br>Im Feld <b>Adresse</b> wird hingegen ausschließlich nach einer gültigen Postadresse gesucht.
 </div>
 

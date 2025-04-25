@@ -42,5 +42,7 @@ With the **ADDRESSVALIDATION** permission set, users are given full access to ad
 With the **ADDRVALIDATION-BASIC** permission set, users get access to the objects necessary to run address validation and prediction. However, setup data cannot be changed.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> <strong>Note: <br>Please note that the authorization sets do not include permissions for standard tables, such as Customer, Vendor and Contact.<br>These permissions should be assigned separately via individual or standard authorization sets, if necessary.
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
+	<strong>Info</strong>
+	Please note that the authorization sets do not include permissions for standard tables, such as Customer, Vendor and Contact.<br>These permissions should be assigned separately via individual or standard authorization sets, if necessary.
 </div>

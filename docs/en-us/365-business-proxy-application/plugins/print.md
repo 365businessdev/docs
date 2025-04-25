@@ -5,7 +5,7 @@ The **Print Plugin** of the 365 business Proxy Application enables the printing 
 It is one of the **Standard Plugins** and can be installed directly via the **Proxy Application Clients** page in Microsoft Dynamics 365 Business Central.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Good to know</strong>
 	Are you looking for a <b>fully integration</b> of your local printer infrastructure in <b>Microsoft Dynamics 365 Business Central</b>?<br>
 	Would you like to connect regular printers or label printers and control them natively from Microsoft Dynamics 365 Business Central?<br><br>

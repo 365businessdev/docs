@@ -3,7 +3,7 @@
 **365 business Proxy Application** bietet eine Vielzahl von Standard-Plugins, mit denen Sie problemlos auf Ihr lokales Dateisystem zugreifen sowie Drucker, Waagen und weitere Geräte direkt aus **Microsoft Dynamics 365 Business Central** integrieren können.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Gut zu wissen</strong>
     365 business Proxy Application ist darauf ausgelegt, lokale Systeme mit minimalem Aufwand in Ihre Geschäftsprozesse einzubinden.<br>
     Sie benötigen ein individuelles Plugin für ein lokales Gerät oder eine Maschine? <a href="https://365businessdev.com/kontakt/" target="_blank">Sprechen Sie uns gerne an</a>.
@@ -59,7 +59,7 @@ Dazu gehören unter anderem:
 - und viele weitere
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Gut zu wissen</strong>
 	Individuelle Plugins basieren auf dem gleichen System wie die Standard-Plugins und lassen sich flexibel erweitern oder neu erstellen.
 </div>

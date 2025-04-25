@@ -5,7 +5,7 @@ The **365 business Proxy Application Client** is a Windows service that runs loc
 Each client is uniquely identified by a **Client ID (GUID)** and is responsible for executing the tasks specifically addressed to it by Microsoft Dynamics 365 Business Central.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Good to know</strong>
     By default, the 365 business Proxy Application Client runs under the <strong>Local System</strong> account.<br>
     Some plugins (e.g. the File Plugin) may require execution under a domain user account.

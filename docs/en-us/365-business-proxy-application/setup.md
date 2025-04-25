@@ -23,7 +23,7 @@ It displays the current application log of the selected **Proxy Application Clie
 ![365 business Proxy Application Client Log](/assets/images/365-business-proxy-application/366d4823-9bd2-47f0-96bf-b672d18eb033.png)
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Note</strong>
     Logs contain <strong>no sensitive data</strong> and are intended solely for error analysis.<br>
     Please include the logs when submitting a support request so our <a href="https://365businessdev.atlassian.net/servicedesk/customer/portal/20" target="_blank">support team</a> can assist you effectively.

@@ -17,7 +17,7 @@ Die Anzahl der zu lizenzierenden Mandanten kann in der Seite **Mandantenlizenzie
 ![Mandantenlizenzierungsübersicht](/assets/images/licensing/1074090a-522a-48a7-ae00-6dfd7ac604f1.png)
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Gut zu wissen</strong> Mandanten mit dem Kennzeichen <strong>Testunternehmen</strong> werden in dieser Ansicht automatisch ausgeblendet und sind von der Lizenzierung ausgenommen.
 </div>
 

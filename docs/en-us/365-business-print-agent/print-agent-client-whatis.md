@@ -11,7 +11,7 @@ Each Print Agent Service is identified by a unique **Client ID (GUID)** and moni
 The Print Agent should be installed on the **Windows system** on which the corresponding printers are set up.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Good to know</strong>
 	The Print Agent Service can work with all printers that are installed locally on the system.<br>
 	Enabling <b>network printers</b> can lead to <b>timeouts</b>, as the response times over the network are longer. <br>
@@ -28,7 +28,7 @@ All printers installed on the system automatically appear in the **Printer** vie
 Select the printers you want to make available for Microsoft Dynamics 365 Business Central.
 
 <div class="alert alert-warn">
-    <i class="fa-light fa-triangle-exclamation fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-triangle-exclamation fa-xl"></i>
 	<strong>Attention</strong>
 	Once a printer is shared, removing the share or deleting the printer can lead to <b>failed print jobs</b>.  
 	Therefore, manage shared printers with special care.

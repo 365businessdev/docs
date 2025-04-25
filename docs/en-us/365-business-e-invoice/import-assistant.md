@@ -10,18 +10,18 @@ Possible causes for issues include:
 * Incorrect assignment of units of measure to items.
 
 <div class="alert alert-notice">
-	<i class="fa-light fa-hand-point-up fa-lg"></i>
+	<i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Good to know</strong>The assignment of items and G/L accounts is done individually for each vendor to prevent incorrect automatic linking of similar item or G/L account numbers.
 	<br/>Units of measure, on the other hand, are stored in "E-Document Services" under "365 ZUGFERD" and "Import Mapping".
 </div>
 
 <div class="alert alert-info">
-	<i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+	<i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong>Once an item, G/L account, or unit of measure is assigned, it will be automatically recognized and applied by 365 business E-Invoice for recurring items, G/L accounts, and units.
 </div>
 
 <div class="alert alert-info">
-	<i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+	<i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong>Existing item assignments can be removed via the "Item References", and G/L account assignments via "Text-to-Account Mapping" for each vendor.
 	<br/>The removal of unit of measure assignments, however, is done in "E-Document Services" under "365 ZUGFERD" and "Import Mapping".
 </div>
@@ -48,7 +48,7 @@ The affected PDF file will be displayed visually on the right side to assist wit
 Click "Next" to begin resolving the issues one by one.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong> You can cancel and restart the 365 business E-Invoice Import Assistant at any time.
 </div>
 
@@ -75,18 +75,18 @@ Select the corresponding item or G/L account to create the link.
 ![365 business E-Invoice](/assets/images/365-business-e-invoice/assistent3_en.png)
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong> For each invoice line, you can choose whether it is an item or a G/L account.
     <br/>Depending on your selection, the available data you can assign will change.
 </div>
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong> The current invoice line will be highlighted in the PDF view on the right side to help you keep track.
 </div>
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong> If an item is not available, you can ignore it for now and link it to a purchase line in a later step.
     <br/>Once an item has been successfully assigned, it will be automatically recognized in the future.
 </div>

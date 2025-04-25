@@ -12,10 +12,10 @@ The setup is done on the **PDF Concatenation Configurations** page. Multiple cha
 4. Specify a **Description** for the configuration.
 5. Create a new configuration line.
 6. Select the **Position** (Before/After) to concatenate the PDF file with the printed document.
-   <div class="alert alert-info"><i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+   <div class="alert alert-info"><i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong> If you want to attach several files before or after the actual document or report, you can specify the order in the <b>Position No.</b> field.</div>
 7. Select the **PDF File Code** for the PDF file you want to concatenate.
-   <div class="alert alert-info"><i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+   <div class="alert alert-info"><i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong> PDF files must be created in the <a href="pdf-files.md">PDF files</a> page before use.</div>
 
 ![Concatenate Configuration](/assets/images/365-business-pdf/concatenate-configuration.png)  

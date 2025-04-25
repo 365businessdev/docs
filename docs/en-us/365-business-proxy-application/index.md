@@ -1,7 +1,7 @@
 # 365 business Proxy Application
 
 Welcome to the documentation for 365 business Proxy Application!  
-This guide provides everything you need to securely and efficiently integrate local resources into **Microsoft Dynamics 365 Business Central**—whether from the cloud or on-premises environments.
+This guide provides everything you need to securely and efficiently integrate local resources into **Microsoft Dynamics 365 Business Central**—whether from the cloud or On-Premises environments.
 
 ## What is 365 business Proxy Application?
 
@@ -11,7 +11,7 @@ It enables secure access to local devices and systems—while fully complying wi
 Whether you're connecting to file systems, printers, storage lifts, scales, or card readers—the extensible plugin system allows seamless and flexible integrations with minimal effort.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Note</strong> The 365 business Proxy Application is designed to integrate local resources into your processes with minimal setup.<br>
     Need a custom integration for a device or machine? <a href="https://365businessdev.com/kontakt/" target="_blank">Feel free to contact us</a>.
 </div>

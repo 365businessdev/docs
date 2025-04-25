@@ -9,7 +9,7 @@ title: 365 business Print Agent Changelog
  - Identify and warn for multiple printer extensions installed.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong> To enable print profile support, update the 365 business Print Agent service to version 1.5.13.16761 or later.<br><br>
     <a href="https://365businessapi.com/api/SoftwareDownload?AppId=c2e7d99c-d3c6-4ecc-9c6b-7be4048b41a9">Get latest version</a>.
 </div>
@@ -32,7 +32,9 @@ title: 365 business Print Agent Changelog
  - Auto-fill custom paper width & height
 
 <div class="alert alert-warn">
-    <i class="fa-light fa-triangle-exclamation fa-lg"></i> <strong>Important</strong>This version requires an update of the Dynamics 365 Business Central license.
+    <i class="fa-duotone fa-solid fa-triangle-exclamation fa-xl"></i>
+	<strong>Attention</strong>
+	This version requires an update of the Dynamics 365 Business Central license.
 </div>
 
 #### Version 18.8.188.13754
@@ -59,7 +61,7 @@ title: 365 business Print Agent Changelog
  - Task #2660 - Migrate User Group to Security Group for Business Central 22.
  - Task #2831 - Error Message Collector for auto-enable printer configurations.
  - Fix issue #2832 - Rotation support for Print Agent cloud service mode.
- - Task #2896 - Export/Import Print Agent Setup (on-premises only).
+ - Task #2896 - Export/Import Print Agent Setup (On-Premises only).
  - Fix issue #2900 - Fix RunModal exception on licensing check at OnAfterSetupPrinter event.
 
 #### Version 18.5.158.11287 
@@ -80,7 +82,7 @@ title: 365 business Print Agent Changelog
  - Task #2762 - Add 90°, 180° and 270° rotation support.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong> Asynchronous print job executing is implemented with 365 business Print Agent service 1.4.0.0 and later. Please update 365 business Print Agent service instances to enable asynchronous print job execution.<br><br>
     <a href="https://365businessapi.com/api/SoftwareDownload?AppId=c2e7d99c-d3c6-4ecc-9c6b-7be4048b41a9">Get latest version</a>.
 </div>

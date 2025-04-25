@@ -40,7 +40,7 @@ Die App ermöglicht es Benutzern, alle **Secure Print Aufträge**, die über die
 ---
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong>Die App funktioniert ausschließlich in Verbindung mit dem kostenpflichtigen <strong>Secure Print</strong> Add-On der 365 business Print Agent Lösung. Bitte prüfen Sie in der <strong>Erweiterungslizenzverwaltung (365 business development)</strong>, ob Ihre Umgebung entsprechend lizenziert ist.
 </div>
 <br/>

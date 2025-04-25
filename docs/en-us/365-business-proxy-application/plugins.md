@@ -3,7 +3,7 @@
 **365 business Proxy Application** offers a wide range of standard plugins that allow seamless integration of local resources such as file systems, printers, scales, and more—directly within **Microsoft Dynamics 365 Business Central**.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Good to know</strong>
     365 business Proxy Application is designed to integrate local systems into your business processes with minimal effort.<br>
     Need a custom plugin for a local device or machine? <a href="https://365businessdev.com/kontakt/" target="_blank">Contact us here</a>.
@@ -59,7 +59,7 @@ Examples include:
 - And much more
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Good to know</strong>
     Custom plugins are built on the same framework as the standard plugins and can be flexibly extended or newly developed.
 </div>

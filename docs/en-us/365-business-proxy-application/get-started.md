@@ -3,10 +3,10 @@
 This quick guide explains how to install and configure the **365 business Proxy Application** in your Microsoft Dynamics 365 Business Central environment.
 
 <div class="alert alert-info">
- <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+ <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong>
 Test the 365 business Proxy Application <strong>free of charge in sandbox environments</strong> of Microsoft Dynamics 365 Business Central. <br>
-In addition, there is a <strong>free 30-day trial period for real and on-premises environments</strong> without functional restrictions.
+In addition, there is a <strong>free 30-day trial period for real and On-Premises environments</strong> without functional restrictions.
 </div>
 
 ## Requirements
@@ -16,7 +16,7 @@ In addition, there is a <strong>free 30-day trial period for real and on-premise
 - An internet connection
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Good to know</strong>
     This guide shows how to set up the 365 business Proxy Application using the <b>File Plugin</b>.  
     For more information about other plugins, please refer to the <a href="plugins.md">plugin documentation</a>.
@@ -30,7 +30,7 @@ Open the **Marketplace for Extensions** in Business Central and search for **365
 Install the app via Microsoft AppSource.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Note</strong>
     Installation packages for your <b>On-Premises</b> Business Central environment can be found in our <a href="https://downloads.365businessdev.com/de-DE/365-business-proxy-application/" target="_blank">download portal</a>.
 </div>
@@ -44,7 +44,7 @@ Install the app via Microsoft AppSource.
 3. Copy the **Tenant-ID** by clicking on the field value.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong>
 	The Tenant-ID links the Proxy Application Service to your Microsoft Dynamics 365 Business Central environment.<br>
 	You will need the Tenant-ID later when setting up the Proxy Application Service.
@@ -64,7 +64,7 @@ Install the app via Microsoft AppSource.
 5. *(Optional)* Enter a domain user and password under which the client should run.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Note</strong>
     If you don’t specify a user, 365 business Proxy Application Client will run in the <strong>Local System</strong> context.
 </div>
@@ -84,7 +84,7 @@ To access Proxy Application Clients in Business Central, they must first be acti
 5. The **Client ID** is listed in the client card.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Note</strong>
     The Client ID is used to address the Proxy Application Service directly.  
     While it's possible to use plugin-specific resolution, this guide assumes you use a specific Client ID.
@@ -124,7 +124,7 @@ To simplify client selection, you can define a default client per plugin. This a
 ![Default Plugin Client](/assets/images/365-business-proxy-application/3fafd304-0799-4d9a-a079-a6a13e1a27ff.png)
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Note</strong>
     You can only select clients that already have the selected plugin installed.
 </div>

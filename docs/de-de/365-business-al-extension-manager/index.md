@@ -12,7 +12,7 @@ Gerade auch die Berücksichtigung der Abhängigkeiten zwischen Erweiterungen fü
 Zusätzlich erschwert wird der Prozess durch sogenannte Runtime Packages, die von Drittanbietern herausgegeben werden und keinen Quellcode enthalten, wodurch Abhängigkeitsanalysen oftmals über klassische Werkzeuge (bspw. PowerShell Skripte) zusätzlich erschwert werden.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong>Runtime Packages sind vorkompilierte AL-Erweiterungen, die auf einer spezifischen Plattform Version kompiliert wurden und ggf. auch nicht auf abweichenden Versionen lauffähig sind.<br>Runtime Packages können, entgegen klassischer AL-Erweiterungen, nicht einfach entpackt und analysiert werden.
 </div>
 

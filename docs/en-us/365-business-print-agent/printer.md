@@ -15,7 +15,7 @@ When you create a printer using the **Get Shared Printers...** action, a printer
 In addition, 365 business Print Agent supports native communication through **Zebra (ZPL)** and **SATO (SBPL) emulation**. PDF files are translated into native control characters before being sent to the printer, which can speed up processing.
 
 <div class="alert alert-notice">
-	<i class="fa-light fa-hand-point-up fa-lg"></i>
+	<i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Good to know</strong>
 	When sharing network printers in 365 business Print Agent, timeouts may occur as the response from the actual printer may take longer.<br>
 	This is a known issue with Windows printer management and may not be resolved by 365 business Print Agent.<br><br>
@@ -30,7 +30,7 @@ In the **365 business Print Agent** application, you will find the list of curre
 In the **Emulation** column, you can activate the **Zebra (ZPL)** or **SATO (SBPL)** option - in contrast to the **Standard** - in order to use emulation (PDF conversion) and direct communication via ZPL/SBPL control characters.
 
 <div class="alert alert-info">
-	<i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+	<i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong>
 	Printing via ZPL / SBPL emulation is usually significantly faster than PDF printing and delivers better print results. <br><br>
 	<strong>Recommendation:</strong> Activate the corresponding emulation when using Zebra or SATO printers.
@@ -49,7 +49,7 @@ On the **Printer** page, unavailable printers (e.g. __Offline__) and printers wi
 ![Offline Printer](/assets/images/365-business-print-agent/d0b9f0f4f2d7ac5404b0414ce7a9c9827fc102a43e91af13d1636e411b4dbd7d.png)  
 
 <div class="alert alert-warn">
-	<i class="fa-light fa-triangle-exclamation fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-triangle-exclamation fa-xl"></i>
 	<strong>Attention</strong>
 	The printer status is determined by the Windows print service. This status may not always be up-to-date, as the Windows Print Service only checks the status when necessary.<br>
 	If problems are detected during a print job, the status is updated immediately.<br>

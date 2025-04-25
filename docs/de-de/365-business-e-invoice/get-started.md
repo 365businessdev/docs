@@ -8,7 +8,7 @@ In dieser Kurzanleitung wird erklärt, wie Sie 365 business E-Invoice aktivieren
  - Microsoft 365 Postfach *(optional, für Empfang von E-Rechnungen per E-Mail)*
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Gut zu wissen</strong>Diese Kurzanleitung konzentriert sich auf den Empfang von E-Rechnungen im Factur-X - ZUGFeRD Format über die Microsoft 365 Postfach Integration.<br/>Für weitere Informationen zur Einrichtung besuchen Sie bitte die <a href="setup.md">Dokumentation</a>.
 </div>
 
@@ -38,7 +38,7 @@ Durch das Aktivieren des automatischen Imports, werden Einkaufsrechnungen und -g
  6. Setzen Sie, falls gewünscht, das Intervall in dem die E-Mails abgerufen werden sollen im Feld **Minuten zwischen Ausführungen** (z.B. 1440min = 24h).
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Gut zu wissen</strong>Sie können den Abruf der E-Belege aus den konfigurierten Microsoft 365 Postfächern auch manuell auslösen. Hierzu können Sie die Aktion <strong>Empfangen</strong> im E-Belegdienst aufrufen.
 </div>
 

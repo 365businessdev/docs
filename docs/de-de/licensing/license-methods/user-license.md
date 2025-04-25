@@ -7,7 +7,9 @@ Benutzerlizenzen sind auf einzelne Benutzer innerhalb eines Mandanten beschränk
 Die Benutzerlizenzierung erlaubt die flexible Zuweisung von Lizenzen an einzelne Benutzer. Jeder Benutzer erhält eine eigene Lizenz, mit der die Berechtigung zur Nutzung der App oder des Features gewährt wird.
 
 <div class="alert alert-warn">
-    <i class="fa-light fa-triangle-exclamation fa-lg"></i> <strong>Wichtiger Hinweis</strong> Bitte beachten Sie, dass abhängig von der App oder dem Feature eine Lizenzierung aller aktiven Benutzer unter Umständen obligatorisch ist, da andernfalls die Funktionalität innerhalb von Microsoft Dynamics 365 Business Central eingeschränkt sein kann.
+    <i class="fa-duotone fa-solid fa-triangle-exclamation fa-xl"></i>
+	<strong>Achtung</strong>
+	Bitte beachten Sie, dass abhängig von der App oder dem Feature eine Lizenzierung aller aktiven Benutzer unter Umständen obligatorisch ist, da andernfalls die Funktionalität innerhalb von Microsoft Dynamics 365 Business Central eingeschränkt sein kann.
 </div>
 
 ## Welche Benutzer müssen lizenziert werden?
@@ -25,7 +27,7 @@ Die Anzahl der zu lizenzierenden Benutzer wird, abhängig vom Umgebungstyp (sieh
 Bei der Identifizierung der zu lizenzierenden Benutzer werden alle aktiven Benutzer (`Status` = `Aktiviert`) in der Business Central Umgebung geprüft. Diese Prüfung erfolgt u.U. unabhängig davon, ob der Benutzer tatsächlich auf die Apps und Features von 365 business development zugreift. Die Benutzer werden im Anschluss auf die zugewiesenen Microsoft Dynamics 365 Business Central Lizenzen (Plan) hin überprüft.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Gut zu wissen</strong> Die Lizenzierung von Benutzern für die Apps und Features von 365 business development richtet sich nach der tatsächlichen Anzahl an Benutzern in der Microsoft Dynamics 365 Business Central Umgebung. Dabei finden geteilte Microsoft Dynamics 365 Business Central Lizenzen (z.B. Device plan) keine Berücksichtigung. Es werden ausschließlich die tatsächlich lizenzierten Benutzer gezählt, unabhängig davon, ob eine geteilte oder exklusive Lizenz vorliegt.
 </div>
 
@@ -40,7 +42,7 @@ Lizenzpflichtig sind Benutzer mit den folgenden Plänen:
  - Dynamics 365 Business Central for IWs plan
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Gut zu wissen</strong> Benutzer mit den folgenden Plänen sind nicht lizenzpflichtig:
     <ul>
         <li>Delegated Admin agent - Partner plan</li>

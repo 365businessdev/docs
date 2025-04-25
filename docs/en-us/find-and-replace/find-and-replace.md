@@ -9,7 +9,7 @@ In the dialog window `Find & Replace` you can specify the parameters for the exe
 In the **Record Set** area, the table (e.g. Customer) and the pre-filtered number of records are displayed.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong> Currently set filters in the calling view (e.g. customer overview) are taken into account when calling Search & Replace. Thus you can already make a preselection for the data records to be processed.
 </div>
 
@@ -31,7 +31,7 @@ In the **Options** section you have the possibility to specify additional settin
 ## Validation
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong> We recommend <b>not</b> changing the settings in the Validation section, as this may cause inconsistencies.<br><br>Please consult your Microsoft Dynamics partner before making any data changes without verification/validation.
 </div>
 

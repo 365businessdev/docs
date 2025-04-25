@@ -19,7 +19,7 @@ Aktuell werden folgende Funktionen und Dienste über die 365 business API bereit
         </p>
         <p>
             <ul class="fa-ul">
-                <li><span class="fa-li"><i class="fa-duotone fa-thin fa-book" fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="../365-business-eric/index.md">Über 365 business ERiC</a></li>
+                <li><span class="fa-li"><i class="fa-duotone fa-solid fa-circle-arrow-right fa-xl" style="--fa-secondary-color: #00b7c3"></i></span><a href="../365-business-eric/index.md">Über 365 business ERiC</a></li>
             </ul>
         </p>
     </div>
@@ -30,7 +30,7 @@ Aktuell werden folgende Funktionen und Dienste über die 365 business API bereit
         </p>
         <p>
             <ul class="fa-ul">
-                <li><span class="fa-li"><i class="fa-duotone fa-thin fa-book" fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="../365-business-pdf/index.md">Über 365 business PDF</a></li>
+                <li><span class="fa-li"><i class="fa-duotone fa-solid fa-circle-arrow-right fa-xl" style="--fa-secondary-color: #00b7c3"></i></span><a href="../365-business-pdf/index.md">Über 365 business PDF</a></li>
             </ul>
         </p>
     </div>
@@ -41,7 +41,7 @@ Aktuell werden folgende Funktionen und Dienste über die 365 business API bereit
         </p>
         <p>
             <ul class="fa-ul">
-                <li><span class="fa-li"><i class="fa-duotone fa-thin fa-book" fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="../365-business-barcode/index.md">Über 365 business Barcode</a></li>
+                <li><span class="fa-li"><i class="fa-duotone fa-solid fa-circle-arrow-right fa-xl" style="--fa-secondary-color: #00b7c3"></i></span><a href="../365-business-barcode/index.md">Über 365 business Barcode</a></li>
             </ul>
         </p>
     </div>
@@ -54,7 +54,7 @@ Aktuell werden folgende Funktionen und Dienste über die 365 business API bereit
         </p>
         <p>
             <ul class="fa-ul">
-                <li><span class="fa-li"><i class="fa-duotone fa-thin fa-book" fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="../365-business-address-validation/index.md">Über 365 business Address Validation</a></li>
+                <li><span class="fa-li"><i class="fa-duotone fa-solid fa-circle-arrow-right fa-xl" style="--fa-secondary-color: #00b7c3"></i></span><a href="../365-business-address-validation/index.md">Über 365 business Address Validation</a></li>
             </ul>
         </p>
     </div>
@@ -65,7 +65,7 @@ Aktuell werden folgende Funktionen und Dienste über die 365 business API bereit
         </p>
         <p>
             <ul class="fa-ul">
-                <li><span class="fa-li"><i class="fa-duotone fa-thin fa-book" fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="../365-business-sanction-screen/index.md">Über 365 business Sanction Screen</a></li>
+                <li><span class="fa-li"><i class="fa-duotone fa-solid fa-circle-arrow-right fa-xl" style="--fa-secondary-color: #00b7c3"></i></span><a href="../365-business-sanction-screen/index.md">Über 365 business Sanction Screen</a></li>
             </ul>
         </p>
     </div>
@@ -76,7 +76,7 @@ Aktuell werden folgende Funktionen und Dienste über die 365 business API bereit
         </p>
         <p>
             <ul class="fa-ul">
-                <li><span class="fa-li"><i class="fa-duotone fa-thin fa-book" fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="../365-business-e-invoice/index.md">Über 365 business E-Invoice</a></li>
+                <li><span class="fa-li"><i class="fa-duotone fa-solid fa-circle-arrow-right fa-xl" style="--fa-secondary-color: #00b7c3"></i></span><a href="../365-business-e-invoice/index.md">Über 365 business E-Invoice</a></li>
             </ul>
         </p>
     </div>

@@ -1,12 +1,12 @@
 # Benutzerzertifikate
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
 </div>
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong> Mit der 365 business ERiC Version 17.8 wurden zusätzlich zum Organisationszertifikat, das in der ELSTER Einrichtung hinterlegt werden kann, sogenannte Benutzerzertifikate eingeführt.<br>Bitte prüfen Sie, ob Sie über die aktuellste Version von 365 business ERiC verfügen.
 </div>
 
@@ -15,7 +15,7 @@ Wenn verschiedene Anwender die Steuerdatenmeldungen an das Finanzamt vornehmen u
 ![Aktion - Benutzerzertifikate](/assets/images/365-business-eric/user-certificates-action.png)
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong> Benutzerzertifikate werden additiv zum Organisationszertifikat, dass in der <a href="setup.md">ELSTER Einrichtung</a> hinterlegt wird, verwendet.<br>Sofern für den übermittelnden Benutzer kein Benutzerzertifikat existiert, verwendet 365 business ERiC das Organisationszertifikat für die Übermittlung.
 </div>
 

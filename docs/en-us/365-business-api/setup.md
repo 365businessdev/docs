@@ -14,7 +14,7 @@ Specifies the URL for connecting to the 365 business API services. The value is 
 The default value is: `https://api.365businessapi.com`
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong> Customers with a development access can enter the URL to the development system in this field. Transactions with the development system are not charged. However, please note that the data sent to the development system is not encrypted and can be further processed by our team.
 </div>
 
@@ -22,7 +22,7 @@ The default value is: `https://api.365businessapi.com`
 Allows the sending of anonymized telemetry data for the use of 365 business API services. The telemetry data helps us to further improve our services and functions and to identify problems and errors.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong> For more information about which data is collected, please see <a href="telemetry-data.md">Telemetry</a>.
 </div>
 

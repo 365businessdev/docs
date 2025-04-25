@@ -27,6 +27,6 @@ Folgende Barcodearten werden aktuell unterstützt:
 | UPC-E | Ja | Ja | Nein | Ja | Nein |
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong> Einige Barcodearten, wie bspw. QR Code, können zum Beispiel durch die Einbettung von Bildern individualisiert werden.
 </div>

@@ -1,7 +1,7 @@
 # Printer Access Permission
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong>
 	This function is available from version <b>18.1</b> of the 365 business Print Agent.<br>
 	Please make sure that you are using the latest version.
@@ -11,7 +11,7 @@ In certain scenarios - for example, in the case of geographically separated bran
 This is done via **Printer Access Permissions** by assigning one or more [user groups](https://learn.microsoft.com/de-DE/dynamics365/business-central/ui-define-granular-permissions) to a printer.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Good to know</strong>
 	If <b>no</b> user groups are assigned, the printer and the associated printer settings are visible and usable for <b>all users</b> in Microsoft Dynamics 365 Business Central. <br>
 	<br>
@@ -25,7 +25,7 @@ Printer access permissions restrict the **visibility** of printers and their con
 If a user **is not authorized**, the printer is not displayed in the **Printer Selections**.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong>
 	Even if a user does not have access to a printer, this printer can still be accessed via <b>background processes</b>.
 </div>

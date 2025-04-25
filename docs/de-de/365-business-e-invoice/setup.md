@@ -3,7 +3,7 @@
 Der Empfang einer elektronischen Rechnung ist aktuell bereits über E-Mail-Postfächer möglich. Alternativ können Rechnungen auch über eine elektronische Schnittstelle bereitgestellt oder zum Download angeboten werden.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Gut zu wissen</strong>Wir empfehlen die Integration eines oder mehrerer Microsoft 365-Postfächer in Microsoft Dynamics 365 Business Central, um die automatische Verarbeitung von E-Belegen effizient zu gestalten und mit geringen Einstiegshürden zu starten.
 </div>
 
@@ -17,7 +17,7 @@ Bitte beachten Sie, dass für die Erstellung und Verarbeitung von E-Belegen u.U.
 
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Gut zu wissen</strong>Wir unterstützen Sie bei der Überprüfung Ihrer Einrichtung in Microsoft Dynamics 365 Business Central.<br>
     <br>
     <a href="https://365businessdev.com/kontakt/" target="_blank">Sprechen Sie uns gerne an</a>.
@@ -62,7 +62,7 @@ In der 365 business E-Invoice Einrichtung können zusätzliche Parameter angegeb
 Der Empfang von elektronischen Belegen (Import) wird von 365 business E-Invoice im Factur-X / ZUGFeRD-Format unterstützt. Dies ermöglicht Unternehmen, eingehende E-Belege direkt in Microsoft Dynamics 365 Business Central zu verarbeiten. Direkt nach der Installation von 365 business E-Invoice ist die App grundsätzlich dafür bereit, E-Belege (z.B. PDF-Rechnungen mit eingebetteten Factur-X / ZUGFeRD Daten) zu verarbeiten.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Gut zu wissen</strong>Während der Installation von 365 business E-Invoice wird ein E-Belegdienst mit dem Code <strong>365 ZUGFERD</strong> angelegt und vollständig konfiguriert.
 </div>
 
@@ -79,7 +79,7 @@ Der Empfang von elektronischen Belegen (Import) wird von 365 business E-Invoice 
 Um eingehende E-Belege aus Microsoft 365 Postfächern abrufen und verarbeiten zu können, ist es erforderlich, diese Postfächer entsprechend zu konfigurieren. Hierzu wird auf die <a href="https://learn.microsoft.com/de-de/dynamics365/business-central/admin-how-setup-email" target="_blank"><strong>E-Mail Konten</strong></a> Funktionalität von Microsoft Dynamics 365 Business Central zurückgegriffen.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong>365 business E-Invoice unterstützt derzeit nur E-Mail Postfächer der Kontoart "Microsoft 365".
 </div>
 
@@ -92,7 +92,7 @@ Um eingehende E-Belege aus Microsoft 365 Postfächern abrufen und verarbeiten zu
 4. Klicken Sie auf **OK** um die E-Mail-Konto Auswahl zu schließen.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Gut zu wissen</strong>Für Versand von E-Belegen werden unabhängig von der Einrichtung in der E-Invoice Einrichtung die konfigurierten E-Mail Konten gem. der E-Mail Szenarien verwendet.
 </div>
 
@@ -101,7 +101,7 @@ Um eingehende E-Belege aus Microsoft 365 Postfächern abrufen und verarbeiten zu
 Durch das Aktivieren des automatischen Imports, werden Einkaufsrechnungen und -gutschriften im Factur-X / ZUGFeRD-Format aus den eingehenden E-Mails automatisch verarbeitet.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Gut zu wissen</strong>Der Benutzer, welcher den automatischen Import aktiviert, muss zwingend Zugriff auf dieses Postfach haben, da sonst die E-Mails aufgrund von fehlender Berechtigung nicht abgerufen werden können.
 </div>
 
@@ -113,7 +113,7 @@ Durch das Aktivieren des automatischen Imports, werden Einkaufsrechnungen und -g
 6. Setzen Sie, falls gewünscht, das Intervall in dem die E-Mails abgerufen werden sollen im Feld **Minuten zwischen Ausführungen** (z.B. 1440min = 24h).
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong>Da die Verarbeitung von E-Mails sehr leistungsintensiv ist, empfiehlt es sich, die Verarbeitung in der Nacht durchzuführen. Ebenso ist es empfehlenswert, dass die Zeit zwischen den Ausführungen nicht zu gering ist.
 </div>
 
@@ -140,7 +140,7 @@ Der erweiterte E-Beleg-Serviceflow wird über die **Belegsendeprofile** in Micro
 Das Feld **Serviceflowcode für elektronischen Beleg** referenziert auf den Workflow, der für den Versand des elektronischen Belegs verwendet wird. Der Workflow *MS-EDOCTOS-01* wird durch Microsoft bereitgestellt, es können jedoch auch weitere Workflows mit abweichenden Bedingungen angelegt werden.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong>Erfahren Sie mehr über <a href="https://learn.microsoft.com/de-de/dynamics365/business-central/across-workflow" target="_blank">Workflows in Microsoft Dynamics 365 Business Central</a>.
 </div>
 
@@ -162,7 +162,7 @@ Standardmäßig verwendet der erweiterte E-Beleg-Serviceflow den E-Belegdienst *
 Der E-Beleg kann auch manuell über die Aktion *Buchen und senden*, bzw. aus dem gebuchten Beleg heraus über *Per E-Mail senden*, erzeugt und versendet werden. Dabei werden keine ausgehenden E-Belege erzeugt, sondern die elektronische Rechnung oder Gutschrift direkt aus dem Beleg heraus über den Microsoft Dynamics 365 Business Central Standard versendet.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong>Die Option <strong>ZUGFeRD E-Invoice Export aktivieren</strong> in der <strong>E-Invoice Einrichtung</strong> muss aktiviert sein, damit die Verkaufsrechnungen und -gutschriften automatisch in elektronische Factur-X - ZUGFeRD Dateien umgewandelt werden.
 </div>
 

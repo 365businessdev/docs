@@ -6,7 +6,7 @@ Zusätzlich werden die hinterlegten [Druckprofile](print-agent-config-printprofi
 Neben der Standardkonfiguration können weitere Einstellungen für spezielle Anforderungen wie Farb- und/oder Duplexdruck erstellt werden.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong>
 	Das <b>Code</b> Feld einer Druckereinstellung wird dem Benutzer über die <b>Druckerauswahl</b> und an verschiedenen anderen Stellen in Microsoft Dynamics 365 Business Central angezeigt.<br>
 	Verwenden Sie daher einen <b>benutzerfreundlichen Namen</b>.
@@ -44,7 +44,7 @@ Typische Beispiele für erweiterte Funktionen:
 <br>
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong>
 	Die Verwaltung von Druckprofilen wird in der 365 business Print Agent Windows Anwendung durchgeführt.<br>
     Erfahren Sie mehr in der <a href="print-agent-config-printprofile.md">Dokumentation</a>.
@@ -87,7 +87,7 @@ Druckereinstellungen können auf zwei Wegen erstellt werden:
 	
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Gut zu wissen</strong>
 	In einigen Fällen kann es sinnvoll sein, die Druckausgabe zu drehen – z. B. wenn ein im Querformat erstelltes Layout im Hochformat auf einem Etikettendrucker ausgegeben werden soll.<br>
 	Verwenden Sie hierfür das Feld <b>Drehung</b> innerhalb der Druckereinstellungen.
@@ -110,7 +110,7 @@ Um den **Direktdruck** optimal zu nutzen, sollten Sie die Druckereinstellungen a
 
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong>
 	In der Übersicht <b>Druckerverwaltung</b> finden Sie alle im 365 business Print Agent aktivierten Drucker und deren Konfigurationen.<br>
 	Von hier aus können Sie Druckereinstellungen bequem öffnen oder einen Standarddrucker festlegen.<br>

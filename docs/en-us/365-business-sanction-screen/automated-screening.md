@@ -24,7 +24,7 @@ Follow these steps to set up automated sanction list screening in Microsoft Dyna
 7. Select the **Set Status to 'Ready'** action to activate the job queue entry.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong> To ensure optimal sanction list screening, we recommend configuring the screening intervals for each entity (e.g., customer) in the <strong>Sanction Screen Setup</strong>.
 </div>
 

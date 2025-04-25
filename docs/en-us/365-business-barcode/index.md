@@ -37,7 +37,7 @@ Encode and decode 1D and 2D barcodes directly from Microsoft Dynamics 365 Busine
 </div>
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Good to know</strong> 365 business Barcode can be tested free of charge and without obligation for 30 days.<br>You need more time? No problem, just contact us.
 </div>
 

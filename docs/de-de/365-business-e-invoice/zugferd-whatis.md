@@ -9,7 +9,7 @@ ZUGFeRD (Zentraler User Guide des Forums elektronische Rechnung Deutschland) ist
 * Flexibilität: Das ZUGFeRD-Format ist sowohl für kleine Unternehmen als auch für große Konzerne geeignet, da es sich leicht in bestehende IT-Infrastrukturen integrieren lässt.
 
 <div class="alert alert-notice">
-	<i class="fa-light fa-hand-point-up fa-lg"></i>
+	<i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Gut zu wissen</strong>365 business E-Invoice unterstützt ZUGFeRD 2.3 Profil-EN16931 EXTENDED.<br/>
 	Diese Version basiert auf der europäischen Norm EN 16931, die die Grundlage für den grenzüberschreitenden elektronischen Rechnungsaustausch bildet. 
 	Diese Norm ist nicht nur für den europäischen Markt von Bedeutung, sondern auch für die Anforderungen an die E-Rechnung in Deutschland und Frankreich ab 2025.
@@ -33,6 +33,6 @@ Durch die Unterstützung des ZUGFeRD-Standards wird der Rechnungsprozess digital
 ![365 business E-Invoice Überlick](/assets/images/365-business-e-invoice/e-invoice-overview_de-DE.png)
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Gut zu wissen</strong>Neben der Integration über Microsoft 365 Postfächer können auch andere Dienstintegrationen, über andere Dienstanbieter verwendet werden. Sprechen Sie uns gerne an.
 </div>

@@ -11,7 +11,7 @@ Jeder Print Agent Service wird über eine eindeutige **Client-ID (GUID)** identi
 Der Print Agent sollte auf dem **Windows-System** installiert sein, auf dem auch die entsprechenden Drucker eingerichtet sind.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Gut zu wissen</strong>
 	Der Print Agent Service kann mit allen Druckern arbeiten, die lokal auf dem System installiert sind.<br>
 	Bei angebundenen <b>Netzwerkdruckern</b> kann es jedoch zu <b>Zeitüberschreitungen</b> kommen, da die Antwortzeiten über das Netzwerk länger sind.<br>
@@ -28,7 +28,7 @@ Alle auf dem System installierten Drucker erscheinen automatisch in der Ansicht 
 Wählen Sie die Drucker aus, die Sie für Microsoft Dynamics 365 Business Central verfügbar machen möchten.
 
 <div class="alert alert-warn">
-    <i class="fa-light fa-triangle-exclamation fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-triangle-exclamation fa-xl"></i>
 	<strong>Achtung</strong>
 	Sobald ein Drucker freigegeben ist, kann das Entfernen der Freigabe oder das Löschen des Druckers zu <b>fehlgeschlagenen Druckaufträgen</b> führen.  
 	Verwalten Sie freigegebene Drucker daher mit besonderer Sorgfalt.

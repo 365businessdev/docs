@@ -13,7 +13,7 @@ The setup takes place in the **PDF Stationery Configurations** page. Here, multi
 5. Create a new configuration line.
 6. Select the **Stationery Type** to specify where the PDF file should be applied as stationery.
 7. Select the **PDF File Code** for the PDF file you want to concatenate.
-   <div class="alert alert-info"><i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+   <div class="alert alert-info"><i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong> PDF files must be created in the <a href="pdf-files.md">PDF files</a> page before use.</div>
 
 ![Stationery Configuration](/assets/images/365-business-pdf/stationery-configuration.png)

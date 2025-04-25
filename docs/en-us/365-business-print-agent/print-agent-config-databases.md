@@ -14,19 +14,19 @@ To do this, follow these steps:
 ![Database](/assets/images/365-business-print-agent/config-tool/Database_SQL_en.PNG)
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-triangle-exclamation fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-triangle-exclamation fa-xl"></i>
 	<strong>Attention</strong>
 	When using Microsoft SQL Server, additional license costs may be incurred.
 </div>
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong>
 	Depending on the number of print jobs being migrated, the migration process can take <b>several hours</b>. You will be informed about the progress throughout.
 </div>
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong>
     You can change the <b>database type</b> at any time.
 </div>

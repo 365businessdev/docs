@@ -76,7 +76,7 @@ Das **Screening-Intervall** bestimmt, wie oft die Sanktionslistenprüfung durchg
 | **Manuell** | Die Prüfung erfolgt ausschließlich manuell durch den Anwender. |
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Gut zu wissen</strong>Im automatisierten Aufgabenwarteschlangenposten <strong>Sanktionsprüfung</strong> kann die Einstellung übersteuert werden, um abweichend vom Standard individuell Sonderprüfungen durchzuführen.
 </div>
 

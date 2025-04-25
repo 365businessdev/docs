@@ -1,12 +1,12 @@
 # Organschaft
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
 </div>
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong> Mit der 365 business ERiC Version 17.8 wurde die Unterstützung für die Umsatzsteuerliche Organschaft auf Basis von <a href="https://www.continia.com/de/loesungen/opplus/">OPplus</a> hinzugefügt.<br>Bitte prüfen Sie, ob Sie über die aktuellste Version von 365 business ERiC verfügen um diese Funktion zu verwenden.
 </div>
 
@@ -17,7 +17,7 @@ Alle Unternehmen der Organschaft sind beim Finanzamt unter einer Steuernummer er
 Mit dem Microsoft Dynamics 365 Business Central Modul [OPplus](https://www.continia.com/de/loesungen/opplus.md) haben Sie die Möglichkeit eine Umsatzsteuerliche Organschaft abzubilden. Hierfür wird in der Bilanz und Umsatzsteuer Einrichtung von OPplus ein Code für die Organschaft angelegt. Alle Mandanten mit dem identischen Code werden in der Folge bei der Berechnung der Umsatzsteuervoranmeldung zusammengerechnet.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong> Weitere Informationen finden Sie in der <a href="https://help.gbedv.de/de-DE/site/tax/#umsatzsteuer">Dokumentation von OPplus</a>.
 </div>
 

@@ -11,18 +11,18 @@ Mögliche Ursachen für Probleme sind vielfältig, wie beispielsweise:
 
 
 <div class="alert alert-notice">
-	<i class="fa-light fa-hand-point-up fa-lg"></i>
+	<i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Gut zu wissen</strong>Die Zuweisung von Artikeln und Sachkonten erfolgt individuell für jeden Kreditor, um zu verhindern, dass aufgrund ähnlicher Artikel- oder Sachkontonummern versehentlich falsche Artikel oder Sachkonten automatisch verknüpft werden.
 	<br/>Einheiten hingegen werden in den "E-Belegdiensten" unter "365 ZUGFERD" und "Zuordnung importieren" gespeichert.
 </div>
 
 <div class="alert alert-info">
-	<i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+	<i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong>Sobald eine Artikel-, Sachkonto- oder Einheitenzuweisung einmalig erfolgt ist, wird diese von 365 business E-Invoice für wiederkehrende Artikel, Sachkonten und Einheiten automatisch beachtet und gesetzt.
 </div>
 
 <div class="alert alert-info">
-	<i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+	<i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong>Bestehende Artikelzuweisungen können über die Artikelreferenzen, und Sachkontozuweisungen über die Zuordnung Text zu Konto für den jeweiligen Kreditor aufgehoben werden.
 	<br/>Die Aufhebung von Einheitenzuweisungen erfolgt hingegen in den "E-Belegdiensten" unter "365 ZUGFERD" und "Zuordnung importieren".
 </div>
@@ -49,7 +49,7 @@ Die betroffene PDF-Datei wird dabei visuell auf der rechten Seite dargestellt, u
 Durch einen Klick auf "Weiter" startet die Behebung der Probleme in einzelnen Schritten.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong> Sie können den 365 business E-Invoice Import Assistenten jederzeit abbrechen und neu starten.
 </div>
 
@@ -75,18 +75,18 @@ Wählen Sie den entsprechenden Artikel oder das Sachkonto aus um die Verknüpfun
 ![365 business E-Invoice](/assets/images/365-business-e-invoice/assistent3.png) 
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong>Für jede Rechnungsposition können Sie wählen, ob es sich um einen Artikel oder ein Sachkonto handelt.
 	<br/>Abhängig von Ihrer Auswahl ändern sich die verfügbaren Daten, die Sie zuweisen können.
 </div>
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong>In der PDF-Ansicht auf der rechten Seite wird jeweils die aktuelle Rechnungspositionszeile hervorgehoben, um den Überblick zu behalten.
 </div>
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong>Wenn ein Artikel nicht verfügbar ist, können Sie diesen vorerst ignorieren und in einem späteren Schritt mit einer Einkaufszeile verknüpfen.
 	<br/>Sobald ein Artikel erfolgreich zugeordnet wurde, wird dieser in Zukunft automatisch erkannt.
 </div>

@@ -3,7 +3,9 @@
 Auf dieser Seite finden Sie Informationen zu den verschiedenen Arten von Lizenzen, die wir anbieten. Weiterhin erfahren Sie, wie Sie die Lizenzierung für unsere Produkte durchführen können.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i> Wenn Sie Fragen haben, zögern Sie nicht, uns zu <a href="https://365businessdev.com/kontakt/" target="_blank">kontaktieren</a>.
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
+	<strong>Hinweis</strong>
+	Wenn Sie Fragen haben, zögern Sie nicht, uns zu <a href="https://365businessdev.com/kontakt/" target="_blank">kontaktieren</a>.
 </div>
 
 <div class="columns">

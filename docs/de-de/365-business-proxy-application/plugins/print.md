@@ -5,7 +5,7 @@ Das **Druck-Plugin** der 365 business Proxy Application ermöglicht das Drucken 
 Es gehört zu den **Standard-Plugins** und kann direkt über die Seite **Proxy Application Clients** in Microsoft Dynamics 365 Business Central installiert werden.
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Gut zu wissen</strong>
 	Sie suchen eine <b>vollintegrierte Anbindung</b> ihrer lokalen Druckerinfrastruktur in <b>Microsoft Dynamics 365 Business Central</b>? Sie m&ouml;chten reguläre Drucker oder Etikettendrucker anbinden und nativ aus Microsoft Dynamics 365 Business Central ansteuern?<br><br>
 	Dann ist <a href="https://365businessdev.com/produkte-loesungen/365-business-print-agent/" target="_blank">365 business Print Agent</a> die richtige L&ouml;sung f&uuml;r Sie!<br>

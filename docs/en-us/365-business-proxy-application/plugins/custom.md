@@ -18,7 +18,7 @@ Examples include:
 - and much more
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Good to know</strong>
     We develop individual plugins for connecting your local systems—securely, efficiently, and exactly to your needs.<br><br>
     <a href="https://365businessdev.com/kontakt/" target="_blank">Feel free to contact us</a>.

@@ -12,7 +12,7 @@ Especially the consideration of dependencies between extensions leads to problem
 The process is further complicated by so-called runtime packages, which are published by third parties and do not contain any source code, which often makes dependency analyses using classic tools (e.g. PowerShell scripts) even more difficult.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong>Runtime Packages are precompiled AL extensions that have been compiled on a specific platform version and may not run on different versions.<br>Runtime Packages, unlike classic AL extensions, cannot be easily unpacked and analyzed.
 </div>
 

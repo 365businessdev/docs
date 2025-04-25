@@ -1,19 +1,21 @@
 # One-Stop-Shop (OSS) 
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong>This page is not available in the selected language. The page is available in <b>German</b>. Please select other language to display.
 </div>
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong> Mit der 365 business ERiC Version 17.10 wurde die Unterstützung für One-Stop-Shop (OSS) hinzugefügt.<br>Bitte prüfen Sie, ob Sie über die aktuellste Version von 365 business ERiC verfügen um diese Funktion zu verwenden.
 </div>
 
 Der One-Stop-Shop (OSS) und die Fernverkäufe ab dem 01.07.2021 sind die größte Reform der Umsatzsteuer für den EU-Onlinehandel und sollen den innergemeinschaftlichen Handel endlich vereinfachen. Die Besteuerung erfolgt ab einem Gesamtwert von 10.000 € im Bestimmungsland, die bisherigen Lieferschwellen entfallen. Die Mehrwertsteuer muss nur noch bei einer zentralen Registrierungsstelle pro Land angemeldet werden, Umsatzsteueranmeldungen in einzelnen Ländern werden damit überflüssig.
 
 <div class="alert alert-warn">
-    <i class="fa-light fa-triangle-exclamation fa-lg"></i> <strong>Wichtig</strong>Aktuell wird die elektronische Übermittlung, mit Hilfe der ELSTER Rich Client (ERiC) Bibliothek, nicht unterstützt. Das BZSt hat zum Zweck der elektronischen Meldung im Onlineportal "Mein BOP" einen CSV-Import zur Verfügung gestellt.
+    <i class="fa-duotone fa-solid fa-triangle-exclamation fa-xl"></i>
+	<strong>Achtung</strong>
+	Aktuell wird die elektronische Übermittlung, mit Hilfe der ELSTER Rich Client (ERiC) Bibliothek, nicht unterstützt. Das BZSt hat zum Zweck der elektronischen Meldung im Onlineportal "Mein BOP" einen CSV-Import zur Verfügung gestellt.
 </div>
 
 ## Wie erfolgt die Übermittlung der One-Stop-Shop (OSS) Meldung?
@@ -21,7 +23,7 @@ Der One-Stop-Shop (OSS) und die Fernverkäufe ab dem 01.07.2021 sind die größt
 Die Meldung für One-Stop-Shop (OSS) erfolgt über das [**Mein BOP**](https://www.elster.de/bportal/login/softpse) Onlineportal des Bundeszentralamt für Steuern (BZSt). Die elektronische Meldung erfolgt dabei über eine OSS CSV-Datei, die die relevanten Informationen enthält.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong> Der Upload der Daten, mittels CSV-Datei, im Mein BOP Onlineportal führt noch nicht zur Übermittlung der Daten an das BZSt. Es besteht nach dem Upload die Möglichkeit, die Daten einzeln zu überprüfen und bei Bedarf zu ändern.
 </div>
 
@@ -39,7 +41,7 @@ Die Berechnung der One-Stop-Shop (OSS) Werte erfolgt auf Basis der in der [ELSTE
 ![OSS MwSt.-Abrechnung](/assets/images/365-business-eric/cacd50a60a6113e35c9371fb5e86bdc83d421bc2f9fd4e8329bc7810d526da60.png)
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Info</strong> Es ist empfehlenswert für jedes EU-Mitgliedsland eine entsprechende MwSt.-Geschäftsbuchungsgruppe (z.B. <code>B2C-AT</code> für Privatverkäufe nach Österreich) anzulegen und entsprechende Sachkonten für die Verbuchung zu verwenden.
 </div>
 
