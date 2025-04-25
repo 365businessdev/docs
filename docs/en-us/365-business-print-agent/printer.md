@@ -49,7 +49,8 @@ On the **Printer** page, unavailable printers (e.g. __Offline__) and printers wi
 ![Offline Printer](/assets/images/365-business-print-agent/d0b9f0f4f2d7ac5404b0414ce7a9c9827fc102a43e91af13d1636e411b4dbd7d.png)  
 
 <div class="alert alert-warn">
-	<i class="fa-light fa-triangle-exclamation fa-lg"></i> <strong>Important:</strong>
+	<i class="fa-light fa-triangle-exclamation fa-lg"></i>
+	<strong>Attention</strong>
 	The printer status is determined by the Windows print service. This status may not always be up-to-date, as the Windows Print Service only checks the status when necessary.<br>
 	If problems are detected during a print job, the status is updated immediately.<br>
 	If changes are made to the printer without an active print job, the displayed status may differ from the actual status.

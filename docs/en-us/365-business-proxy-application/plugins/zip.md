@@ -1,13 +1,16 @@
+# ZIP Plugin
+
+The **ZIP Plugin** of the 365 business Proxy Application enables the creation, unpacking and display of ZIP archives on local drives, network drives or via UNC paths.
+
+It is one of the **Standard Plugins** and can be installed directly via the **Proxy Application Clients** page in Microsoft Dynamics 365 Business Central.
+
 ---
-title: ZIP Plugin
+
+## AL integration
+
+The following functions are available via the codeunit `bdev.PRX Proxy Application` (ID 5523630).
+
 ---
-The **ZIP** plugin in 365 business Proxy Application offers the option of creating, accessing or unzipping ZIP archives in the local file system, as well as on available network drives or UNC paths.
-
-The ZIP plugin is one of the standard plugins of 365 business Proxy Application and can be installed directly from the **Proxy Application Clients** page.
-
-## Objects
-
-The following procedures are available through `bdev.PRX Proxy Application` codeunit (ID 5523630).
 
 ## Functions
 

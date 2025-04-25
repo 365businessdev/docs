@@ -14,7 +14,8 @@ To do this, follow these steps:
 ![Database](/assets/images/365-business-print-agent/config-tool/Database_SQL_en.PNG)
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-triangle-exclamation fa-lg"></i> <strong>Important:</strong>
+    <i class="fa-light fa-triangle-exclamation fa-lg"></i>
+	<strong>Attention</strong>
 	When using Microsoft SQL Server, additional license costs may be incurred.
 </div>
 

@@ -28,7 +28,8 @@ Alle auf dem System installierten Drucker erscheinen automatisch in der Ansicht 
 Wählen Sie die Drucker aus, die Sie für Microsoft Dynamics 365 Business Central verfügbar machen möchten.
 
 <div class="alert alert-warn">
-    <i class="fa-light fa-triangle-exclamation fa-lg"></i> <strong>Wichtig:</strong>
+    <i class="fa-light fa-triangle-exclamation fa-lg"></i>
+	<strong>Achtung</strong>
 	Sobald ein Drucker freigegeben ist, kann das Entfernen der Freigabe oder das Löschen des Druckers zu <b>fehlgeschlagenen Druckaufträgen</b> führen.  
 	Verwalten Sie freigegebene Drucker daher mit besonderer Sorgfalt.
 </div>

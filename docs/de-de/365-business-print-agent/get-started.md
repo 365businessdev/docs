@@ -23,7 +23,7 @@ In dieser Kurzanleitung wird erklärt, wie Sie 365 business Print Agent aktivier
 	Für die Einrichtung der Direktverbindung besuchen Sie bitte die <a href="setup.md">Dokumentation</a>.
 </div>
 
-<br/>
+---
 
 ## Schritt 1: Installation von 365 business Print Agent
 
@@ -45,8 +45,8 @@ Installieren Sie die App von Microsoft AppSource und warten Sie, bis die Install
 	<div class="alert alert-info">
     <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
     <strong>Hinweis</strong>
-	Die Tenant ID verknüpft den Print Agent-Dienst mit Ihrer Microsoft Dynamics 365 Business Central-Umgebung.<br>
-	Sie benötigen die Tenant ID später bei der Einrichtung des Print Agent-Dienstes.
+	Die Tenant-ID verknüpft den Print Agent-Dienst mit Ihrer Microsoft Dynamics 365 Business Central-Umgebung.<br>
+	Sie benötigen die Tenant-ID später bei der Einrichtung des Print Agent-Dienstes.
     </div>
 	
  4. Wählen Sie **Software herunterladen...** um den [365 business Print Agent Service](print-agent-client-whatis.md) herunterzuladen.

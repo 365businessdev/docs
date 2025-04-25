@@ -1,26 +1,25 @@
+# Custom Plugins
+
+**365 business Proxy Application** is designed to integrate seamlessly into your business processes with minimal effort.  
+Thanks to its open documentation and highly flexible **plugin architecture**, custom integrations with local systems can be implemented quickly and efficiently.
+
 ---
-title: Custom Plugins
----
- 
-365 business Proxy Application is designed to be integrated into your business processes with as little effort as possible. Thanks to the open documentation and the flexibly expandable plug-in system, individual connections to your local resources are possible in the shortest possible time and with little effort.
 
-## Do you need an individual connection to a local device or machine?
+## Need a custom integration?
 
-We have also created numerous individual plugins for our customers and partners, which have been used to connect local systems, machines and resources via 365 business Proxy Application.
+We've already developed a wide range of custom plugins for our customers and partners—enabling direct interaction between Microsoft Dynamics 365 Business Central and local devices or machines.
 
-These include, among others
+Examples include:
 
- - Cash register connection
- - Scale connection
- - Warehouse lift connection
- - MES connection
- - and much more.
+- POS system integration  
+- Scale integration  
+- Warehouse lift control  
+- MES system connectivity  
+- and much more
 
 <div class="alert alert-notice">
     <i class="fa-light fa-hand-point-up fa-lg"></i>
-    <strong>Good to know</strong>We develop individual plugins for you to connect your local systems and resources. With 365 business Proxy Application there are no limits.<br>
-    <br>
-    <a href="https://365businessdev.com/kontakt/" target="_blank">Get in touch with us</a>.
+    <strong>Good to know</strong>
+    We develop individual plugins for connecting your local systems—securely, efficiently, and exactly to your needs.<br><br>
+    <a href="https://365businessdev.com/kontakt/" target="_blank">Feel free to contact us</a>.
 </div>
-
-

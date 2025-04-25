@@ -1,27 +1,30 @@
 # Einrichtung
 
-Die **Proxy Application Einrichtung** enthält die grundlegende Konfiguration für die Kommunikation zwischen Microsoft Dynamics 365 Business Central und den 365 business Proxy Application Clients.
+Die **Proxy Application Einrichtung** enthält die zentrale Konfiguration für die Kommunikation zwischen **Microsoft Dynamics 365 Business Central** und den verbundenen **365 business Proxy Application Clients**.
 
 ![Proxy Application Einrichtung](/assets/images/365-business-proxy-application/9c4905bab8db474caa704353d2772447fdcea02339e7dbb5ec2e138974df12dd.png)  
 
+---
+
 ## Einrichtungsparameter
 
-| Feldname | Gruppe | Beschreibung |
-| --- | --- | --- |
-| Tenant ID | Allgemein | Gibt die Tenant-ID an, die zur Sicherung der Kommunikation zwischen dem Proxy Application Dienst und Microsoft Dynamics 365 Business Central verwendet wird.|
-| Neue Clients automatisch aktivieren | Allgemein | Gibt an, ob neue Proxy Application Clients automatisch für die Verwendung mit Microsoft Dynamics 365 Business Central aktiviert werden sollen. |
+| Feldname                          | Gruppe     | Beschreibung |
+|----------------------------------|------------|--------------|
+| **Tenant-ID**                    | Allgemein  | Eindeutige Kennung zur sicheren Verbindung zwischen Business Central und dem Proxy Application Dienst. |
+| **Neue Clients automatisch aktivieren** | Allgemein  | Gibt an, ob neue Clients nach Registrierung automatisch aktiviert werden sollen. |
 
-## Protokolle
+---
 
-Zur besseren Überwachung und der einfacheren Analyse von Problemen und Fehlern steht in Microsoft Dynamics 365 Business Central die Aktion **Protokolle** zur Verfügung.
+## Protokolle anzeigen
 
-Diese Aktion ruft das aktuelle Anwendungsprotokoll des gewählten 365 business Proxy Application Client ab und zeigt diesen an.
+Zur Überwachung und Analyse bietet Business Central die Aktion **Protokolle** an.  
+Sie zeigt das aktuelle Anwendungsprotokoll des ausgewählten **Proxy Application Clients** an – direkt in Business Central.
 
 ![365 business Proxy Application Client Protokoll](/assets/images/365-business-proxy-application/366d4823-9bd2-47f0-96bf-b672d18eb033.png)
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
-    <strong>Hinweis</strong> Die Protokolle enthalten keinen sensiblen Daten und dienen dazu ihnen im Fehlerfall im Fehlerfall schneller Unterstützung bereitstellen zu können.<br>
-    <br>
-    Bitte senden Sie die Protokolldateien grundsätzlich mit Support Anfragen mit, so dass unser <a href="https://365businessdev.atlassian.net/servicedesk" target="_blank">Support Team</a> alle notwendigen Informationen vorliegen hat.
+    <i class="fa-duotone fa-lightbulb fa-lg"></i>
+    <strong>Hinweis</strong>
+    Die Protokolle enthalten <strong>keine sensiblen Daten</strong> und dienen ausschließlich der Fehleranalyse.<br>
+    Bitte senden Sie Protokolldateien bei Support-Anfragen immer mit, damit unser <a href="https://365businessdev.atlassian.net/servicedesk/customer/portal/20" target="_blank">Support-Team</a> Ihnen bestmöglich helfen kann.
 </div>

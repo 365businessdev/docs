@@ -1,22 +1,25 @@
----
-title: Print Plugin
----
- 
-The **Print** plugin in 365 business Proxy Application offers the possibility to access images from the local file system, as well as available network drives or UNC paths.
+# Print Plugin
+
+The **Print Plugin** of the 365 business Proxy Application enables the printing of PDF documents.
+
+It is one of the **Standard Plugins** and can be installed directly via the **Proxy Application Clients** page in Microsoft Dynamics 365 Business Central.
 
 <div class="alert alert-notice">
     <i class="fa-light fa-hand-point-up fa-lg"></i>
-    <strong>Good to know</strong> Are you looking for a fully integrated connection to your local printer infrastructure in Microsoft Dynamics 365 Business Central? Do you want to connect regular printers or label printers and control them natively from Microsoft Dynamics 365 Business Central?
-    <br>Then <a href="https://365businessdev.com/produkte-loesungen/365-business-print-agent/" target="_blank">365 business Print Agent</a> is the right solution for you! Find out more and <a href="https://calendly.com/365businessdev" target="_blank">book a free, no-obligation demonstration</a>.
+    <strong>Good to know</strong>
+	Are you looking for a <b>fully integration</b> of your local printer infrastructure in <b>Microsoft Dynamics 365 Business Central</b>?<br>
+	Would you like to connect regular printers or label printers and control them natively from Microsoft Dynamics 365 Business Central?<br><br>
+	Then <a href="https://365businessdev.com/produkte-loesungen/365-business-print-agent/" target="_blank">365 business Print Agent</a> is the right solution for you!<br>
+	Find out more and <a href="https://calendly.com/365businessdev" target="_blank">book a free, no-obligation demonstration</a>.
 </div>
 
-The Print Plugin is one of the standard plugins of 365 business Proxy Application and can be installed directly via the **Proxy Application Clients** page.
+---
+
+## AL integration
+
+All functions are provided via the code unit `bdev.PRX Proxy Application` (ID 5523630).
 
 ## Functions
-
-## Objects
-
-The following procedures are available through `bdev.PRX Proxy Application` codeunit (ID 5523630).
 
 ### Print (*Print*)
 
@@ -37,7 +40,9 @@ success: Boolean := Print([clientId: Guid,] printerName: Text, file: Codeunit "T
 
 Returns `true` if the print job was successfully created.
 
-### Print Loakele file (*Print*)
+---
+
+### Print local file (*Print*)
 
 ```al
 success: Boolean := Print([clientId: Guid,] printerName: Text, filePath: Text)
@@ -50,7 +55,7 @@ success: Boolean := Print([clientId: Guid,] printerName: Text, filePath: Text)
  - `printerName: Text`<br>
    Specifies the name of the printer.
  - `filePath: Text`<br>
-   Specifies the path or UNC path for which the file list is to be retrieved.
+   Specifies the document to be printed (e.g. PDF file).
 
 **Returns
 

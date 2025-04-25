@@ -179,7 +179,7 @@
 - name: 365 business Proxy Application
   href: 365-business-proxy-application/index.md
   items:
-    - name: What is Proxy Application?
+    - name: What is 365 business Proxy Application?
       href: 365-business-proxy-application/proxy-application-whatis.md
     - name: Get Started
       href: 365-business-proxy-application/get-started.md
@@ -188,6 +188,8 @@
     - name: Plugins
       href: 365-business-proxy-application/plugins.md
       items:
+        - name: Installation
+          href: 365-business-proxy-application/plugins/install.md      
         - name: File Plugin
           href: 365-business-proxy-application/plugins/file.md
         - name: ZIP Plugin
@@ -195,7 +197,9 @@
         - name: Image Plugin
           href: 365-business-proxy-application/plugins/image.md   
         - name: Print Plugin
-          href: 365-business-proxy-application/plugins/print.md   
+          href: 365-business-proxy-application/plugins/print.md
+        - name: Custom Plugins
+          href: 365-business-proxy-application/plugins/custom.md            
     - name: What is the Proxy Application Client?
       href: 365-business-proxy-application/proxy-application-client-whatis.md
     - name: Install Proxy Application Client on Windows

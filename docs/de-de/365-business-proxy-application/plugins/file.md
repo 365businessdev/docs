@@ -1,18 +1,18 @@
+# Datei-Plugin
+
+Das **File Plugin** der 365 business Proxy Application ermöglicht den vollumfänglichen Zugriff auf lokale Dateisysteme, Netzlaufwerke und UNC-Pfade.
+
+Es gehört zu den **Standard-Plugins** und kann direkt über die Seite **Proxy Application Clients** in Microsoft Dynamics 365 Business Central installiert werden.
+
 ---
-title: Datei-Plugin
----
 
-Das **File** Plugin in 365 business Proxy Application bietet vollumfänglichen Zugriff auf das lokale Dateisystem, sowie verfügbare Netzlaufwerke oder UNC-Pfade.
+## AL-Integration
 
-Das File Plugin gehört zu den Standard Plugins von 365 business Proxy Application und kann direkt über die Seite **Proxy Application Clients** installiert werden.
-
-## Objekte
-
-Die u.g. Funktionen werden über die Codeunit `bdev.PRX Proxy Application` (ID 5523630) bereitgestellt.
+Alle Funktionen werden über die Codeunit `bdev.PRX Proxy Application` (ID 5523630) bereitgestellt.
 
 ### Beispiel
 
-Im folgenden Beispiel wird der angegebene Ordner ausgelesen. Anschließend wird geprüft, ob die Datei "hello-world.txt" bereits existiert und ggf. gelöscht. Anschließend wird eine neue Datei "hello-world.txt", mit dem Inhalt "Hello, World!", erstellt.
+Im folgenden Beispiel wird ein Ordner eingelesen, eine vorhandene Datei ggf. gelöscht und eine neue Datei mit dem Inhalt `"Hello, World!"` erstellt:
 
 ```al
 
@@ -54,9 +54,11 @@ end;
 
 ```
 
-## Funktionen
+---
 
-### Dateiliste aufrufen (*ListFiles*)
+## Funktionen im Überblick
+
+### Dateien auflisten – (*ListFiles*)
 
 ```al
 files: Record "bdev.PRX File Item" temporary := ListFiles([clientId: Guid,] filePath: Text [,fileFilter: Text])
@@ -79,11 +81,14 @@ ListFiles(var files: Record "bdev.PRX File Item" temporary, [clientId: Guid,] fi
 
 Gibt die temporäre Tabelle `bdev.PRX File Item` zu, die die Dateiliste darstellt.
 
+---
+
 ### Prüfen ob Datei existiert (*FileExists*)
 
 ```al
 fileExists: Boolean := FileExists([clientId: Guid,] filePath: Text)
 ```
+
 **Parameter**
 
  - `clientId: Guid` (Optional)<br>
@@ -94,6 +99,8 @@ fileExists: Boolean := FileExists([clientId: Guid,] filePath: Text)
 **Rückgabe**
 
 Gibt `true` zurück, wenn die Datei existiert.
+
+---
 
 ### Datei lesen (*GetFile*)
 
@@ -110,6 +117,8 @@ file: Codeunit "Temp Blob" := GetFile([clientId: Guid,] filePath: Text)
 **Rückgabe**
 
 Gibt `Codeunit "Temp Blob"` zurück, mit dem Inhalt der Datei.
+
+---
 
 ### Datei schreiben (*PostFile*)
 
@@ -129,6 +138,8 @@ success: Boolean := PostFile([clientId: Guid,] filePath: Text, file: Codeunit "T
 
 Gibt `true` zurück, wenn die Datei erfolgreich geschrieben wurde.
 
+---
+
 ### Datei löschen (*DeleteFile*)
 
 ```al
@@ -144,6 +155,8 @@ success: Boolean := DeleteFile([clientId: Guid,] filePath: Text)
 **Rückgabe**
 
 Gibt `true` zurück, wenn die Datei erfolgreich gelöscht wurde.
+
+---
 
 ### Datei verschieben (*MoveFile*)
 
@@ -165,6 +178,8 @@ success: Boolean := MoveFile([clientId: Guid,] fromFilePath: Text, toFilePath: T
 
 Gibt `true` zurück, wenn die Datei erfolgreich verschoben wurde.
 
+---
+
 ### Datei kopieren (*CopyFile*)
 
 ```al
@@ -185,6 +200,8 @@ success: Boolean := CopyFile([clientId: Guid,] fromFilePath: Text, toFilePath: T
 
 Gibt `true` zurück, wenn die Datei erfolgreich kopiert wurde.
 
+---
+
 ### Datei umbenennen (*RenameFile*)
 
 ```al
@@ -203,6 +220,8 @@ success: Boolean := RenameFile([clientId: Guid,] filePath: Text, newFilePath: Te
 
 Gibt `true` zurück, wenn die Datei erfolgreich umbenannt wurde.
 
+---
+
 ### Prüfen ob Verzeichnis existiert (*DirectoryExists*)
 
 ```al
@@ -219,6 +238,8 @@ success: Boolean := DirectoryExists([clientId: Guid,] directoryPath: Text)
 
 Gibt `true` zurück, wenn das Verzeichnis existiert.
 
+---
+
 ### Verzeichnis erstellen (*CreateDirectory*)
 
 ```al
@@ -234,6 +255,8 @@ success: Boolean := CreateDirectory([clientId: Guid,] directoryPath: Text)
 **Rückgabe**
 
 Gibt `true` zurück, wenn das Verzeichnis erstellt wurde.
+
+---
 
 ### Verzeichnis löschen (*DeleteDirectory*)
 
@@ -253,6 +276,8 @@ success: Boolean := DeleteDirectory([clientId: Guid,] directoryPath: Text [, rec
 
 Gibt `true` zurück, wenn das Verzeichnis gelöscht wurde.
 
+---
+
 ### Verzeichnis verschieben (*MoveDirectory*)
 
 ```al
@@ -270,6 +295,8 @@ success: Boolean := MoveDirectory([clientId: Guid,] fromDirectoryPath: Text, toD
 **Rückgabe**
 
 Gibt `true` zurück, wenn das Verzeichnis verschoben wurde.
+
+---
 
 ### Verzeichnis kopieren (*CopyDirectory*)
 

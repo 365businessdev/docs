@@ -48,7 +48,8 @@ Auf der Seite **Drucker** werden nicht verfügbare Drucker (z. B. __Offline__)
 ![Nicht verfügbarer Drucker](/assets/images/365-business-print-agent/d0b9f0f4f2d7ac5404b0414ce7a9c9827fc102a43e91af13d1636e411b4dbd7d.png)
 
 <div class="alert alert-warn">
-    <i class="fa-light fa-triangle-exclamation fa-lg"></i> <strong>Wichtig:</strong>
+    <i class="fa-light fa-triangle-exclamation fa-lg"></i>
+	<strong>Achtung</strong>
 	Der Druckerstatus wird vom Windows-Druckdienst ermittelt. Dieser Status ist möglicherweise nicht immer aktuell, da der Windows-Druckdienst nur bei Bedarf eine Statusprüfung durchführt.<br>
 	Werden während eines Druckauftrags Probleme festgestellt, wird der Status unmittelbar aktualisiert.<br>
 	Erfolgen Änderungen am Drucker ohne aktiven Druckauftrag, kann der angezeigte Status vom tatsächlichen Status abweichen.

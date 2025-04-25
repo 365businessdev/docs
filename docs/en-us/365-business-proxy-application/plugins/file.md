@@ -1,19 +1,18 @@
+# File Plugin
+
+The **File Plugin** of the 365 business Proxy Application enables full access to local file systems, network drives and UNC paths.
+
+It is one of the **Standard Plugins** and can be installed directly via the **Proxy Application Clients** page in Microsoft Dynamics 365 Business Central.
+
 ---
-title: File Plugin
----
 
- 
-The **File** plugin in 365 business Proxy Application provides full access to the local file system, as well as available network drives or UNC paths.
+## AL integration
 
-The File plugin is one of the standard plugins of 365 business Proxy Application and can be installed directly via the **Proxy Application Clients** page.
-
-## Objects
-
-The following procedures are available through `bdev.PRX Proxy Application` codeunit (ID 5523630).
+All functions are provided via the code unit `bdev.PRX Proxy Application` (ID 5523630).
 
 ### Example
 
-In the following example, the specified folder is read out. It then checks whether the "hello-world.txt" file already exists and deletes it if necessary. A new file "hello-world.txt" with the content "Hello, World!" is then created.
+In the following example, a folder is read in, an existing file is deleted if necessary and a new file with the content “Hello, World!” is created:
 
 ```al
 
@@ -55,9 +54,11 @@ end;
 
 ```
 
-## Functions
+---
 
-### Call up file list (*ListFiles*)
+## Functions at a glance
+
+### List files (*ListFiles*)
 
 ```al
 files: Record "bdev.PRX File Item" temporary := ListFiles([clientId: Guid,] filePath: Text [,fileFilter: Text])
@@ -80,6 +81,8 @@ ListFiles(var files: Record "bdev.PRX File Item" temporary, [clientId: Guid,] fi
 
 Returns the temporary table `bdev.PRX File Item`, which represents the file list.
 
+---
+
 ### Check if file exists (*FileExists*)
 
 ```al
@@ -96,6 +99,8 @@ fileExists: Boolean := FileExists([clientId: Guid,] filePath: Text)
 
 Returns `true` if the file exists.
 
+---
+
 ### Read file (*GetFile*)
 
 ```al
@@ -111,6 +116,8 @@ file: Codeunit "Temp Blob" := GetFile([clientId: Guid,] filePath: Text)
 **Return**
 
 Returns `Codeunit "Temp Blob"` with the content of the file.
+
+---
 
 ### Write file (*PostFile*)
 
@@ -130,6 +137,8 @@ success: Boolean := PostFile([clientId: Guid,] filePath: Text, file: Codeunit "T
 
 Returns `true` if the file was written successfully.
 
+---
+
 ### Delete file (*DeleteFile*)
 
 ```al
@@ -145,6 +154,8 @@ success: Boolean := DeleteFile([clientId: Guid,] filePath: Text)
 **Returns
 
 Returns `true` if the file was successfully deleted.
+
+---
 
 ### Move file (*MoveFile*)
 
@@ -166,6 +177,8 @@ success: Boolean := MoveFile([clientId: Guid,] fromFilePath: Text, toFilePath: T
 
 Returns `true` if the file was successfully moved.
 
+---
+
 ### Copy file (*CopyFile*)
 
 ```al
@@ -186,6 +199,8 @@ success: Boolean := CopyFile([clientId: Guid,] fromFilePath: Text, toFilePath: T
 
 Returns `true` if the file was copied successfully.
 
+---
+
 ### Rename file (*RenameFile*)
 
 ```al
@@ -204,6 +219,8 @@ success: Boolean := RenameFile([clientId: Guid,] filePath: Text, newFilePath: Te
 
 Returns `true` if the file has been successfully renamed.
 
+---
+
 ### Check if directory exists (*DirectoryExists*)
 
 ```al
@@ -220,6 +237,8 @@ success: Boolean := DirectoryExists([clientId: Guid,] directoryPath: Text)
 
 Returns `true` if the directory exists.
 
+---
+
 ### Create directory (*CreateDirectory*)
 
 ```al
@@ -235,6 +254,8 @@ success: Boolean := CreateDirectory([clientId: Guid,] directoryPath: Text)
 **Returns
 
 Returns `true` if the directory has been created.
+
+---
 
 ### Delete directory (*DeleteDirectory*)
 
@@ -254,6 +275,8 @@ success: Boolean := DeleteDirectory([clientId: Guid,] directoryPath: Text [, rec
 
 Returns `true` if the directory has been deleted.
 
+---
+
 ### Move directory (*MoveDirectory*)
 
 ```al
@@ -271,6 +294,8 @@ success: Boolean := MoveDirectory([clientId: Guid,] fromDirectoryPath: Text, toD
 **Returns
 
 Returns `true` if the directory has been moved.
+
+---
 
 ### Copy directory (*CopyDirectory*)
 

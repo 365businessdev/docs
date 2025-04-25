@@ -1,59 +1,65 @@
 # Plugins
 
-365 business Proxy Application offers numerous standard plugins with which you can easily access your local file system, integrate printers, scales and much more directly from Microsoft Dynamics 365 Business Central.
+**365 business Proxy Application** offers a wide range of standard plugins that allow seamless integration of local resources such as file systems, printers, scales, and more—directly within **Microsoft Dynamics 365 Business Central**.
 
 <div class="alert alert-notice">
     <i class="fa-light fa-hand-point-up fa-lg"></i>
-    <strong>Good to know</strong>365 business Proxy Application is designed to enable the integration of local resources into your business processes with as little effort as possible.<br>Do you need an individual connection to a local device or machine? <a href="https://365businessdev.com/kontakt/" target="_blank">Get in touch with us</a>.
+    <strong>Good to know</strong>
+    365 business Proxy Application is designed to integrate local systems into your business processes with minimal effort.<br>
+    Need a custom plugin for a local device or machine? <a href="https://365businessdev.com/kontakt/" target="_blank">Contact us here</a>.
 </div>
 
-<br/>
+---
 
-## Install proxy application plugins
+## Installing Plugins
 
-The plugins for 365 business Proxy Application are installed via Microsoft Dynamics 365 Business Central.
+Plugins are installed directly from within Microsoft Dynamics 365 Business Central:
 
 ![Proxy Application Client Plugin Installation](/assets/images/365-business-proxy-application/proxyapp-installplugin-de-DE.gif)
 
- 1. open Microsoft Dynamics 365 Business Central.
- 2. open **Proxy Application Clients** page.
- 3. select **Refresh** to load the available 365 business Proxy Application Clients.
- 4. select the desired proxy application client based on the name you assigned in the previous step.
- 5. select **Install plugins**.
- 6. click **Next**.
- 7. select the plugins (e.g. File Plugin) that you want to install.<br>
-    ![Plugin Auswahl](/assets/images/365-business-proxy-application/2fd00b9a-6e91-4db9-9418-05a7cb61c22f.png)
- 8. click **Next**.
- 9. after the successful plugin installation click **Close**.
+1. Open **Microsoft Dynamics 365 Business Central**.
+2. Go to the **Proxy Application Clients** page.
+3. Click **Refresh** to load all available clients.
+4. Select the client by its assigned name.
+5. Click **Install Plugins**.
+6. Click **Next**.
+7. Select the plugins you wish to install (e.g., File Plugin).<br>
+   ![Plugin Selection](/assets/images/365-business-proxy-application/2fd00b9a-6e91-4db9-9418-05a7cb61c22f.png)
+8. Click **Next** again.
+9. Once the installation is complete, click **Close**.
 
-## Which plugins are available?
+---
 
-365 business Proxy Application currently offers the following standard plugins:
+## Available Plugins
 
-| Component | Description | Documentation |
-| --- | --- | --- |
-| File Plugin | Full access to the local file system. | [Documentation](plugins/file.md) |
-| Image Plugin | Read, scale and resize images from the file system. | [Documentation](plugins/image.md) |
-| Print Plugin | Direct control of local printers. | [Documentation](plugins/print.md) |
-| Zip Plugin | Pack and unpack ZIP archives. | [Documentation](plugins/zip.md) |
-| Kaptura Plugin | Control KAPTURA 3D Scanner. | *Documentation coming soon* |
-| Haenel Lift Plugin | Control the Haenel warehouse lift. | *Documentation coming soon* |
+The following standard plugins are currently available:
 
-### Further individual plugins
+| Plugin                | Description                                                      | Documentation                        |
+|-----------------------|------------------------------------------------------------------|--------------------------------------|
+| **File Plugin**       | Full access to the local file system                             | [Documentation](plugins/file.md)     |
+| **Image Plugin**      | Read, scale, and resize images from the file system              | [Documentation](plugins/image.md)    |
+| **Print Plugin**      | Direct printing to local printers                                | [Documentation](plugins/print.md)    |
+| **Zip Plugin**        | Create and extract ZIP archives                                  | [Documentation](plugins/zip.md)      |
+| **Kaptura Plugin**    | Integration with KAPTURA 3D scanner                              | *Documentation coming soon*          |
+| **Haenel Lift Plugin**| Control a Haenel storage lift                                    | *Documentation coming soon*          |
 
-We have also created numerous individual plugins for our customers and partners, which were used to connect local systems, machines and resources via 365 business Proxy Application.
-
-These include, among others:
-
- - Cash register connection
- - Scale connection
- - Warehouse lift connection
- - MES connection
- - and much more.
+---
 
 
+## Custom Plugins
 
+We’ve developed many custom plugins for customers and partners to connect local systems and machines directly to Dynamics 365 Business Central.
 
+Examples include:
 
+- POS system integration
+- Scale integration
+- Vertical lift system control
+- MES system integration
+- And much more
 
-
+<div class="alert alert-notice">
+    <i class="fa-light fa-hand-point-up fa-lg"></i>
+    <strong>Good to know</strong>
+    Custom plugins are built on the same framework as the standard plugins and can be flexibly extended or newly developed.
+</div>

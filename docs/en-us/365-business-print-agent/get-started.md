@@ -17,12 +17,13 @@ In addition, there is a <strong>free 30-day trial period for real and on-premise
  - An internet connection 
 
 <div class="alert alert-notice">
-	<i class="fa-light fa-hand-point-up fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0. 7"></i> <strong>Important note:</strong>
+	<i class="fa-light fa-hand-point-up fa-lg"></i>
+	<strong>Good to know</strong>
 	This quick guide focuses on the <strong>Print Agent Cloud</strong> service mode.<br/>
 	For setting up the direct connection, please visit the <a href="setup.md">documentation</a>.
 </div>
 
-<br>
+---
 
 ## Step 1: Installation of 365 business Print Agent
 
@@ -39,13 +40,13 @@ Open the **Print Agent Setup** page in Microsoft Dynamics 365 Business Central:
 	[Learn more](print-agent-whatis.md#architecture)<br/>
 	![Print Agent Setup - Service Mode Selection](/assets/images/365-business-print-agent/646d98fab6c688ad444f61f5397dce86873cda4a90db60986a40ba1eb3911ce9.png)
  2. Select **Authenticate Print Agent**.
- 3. Copy the **Tenant ID** value by clicking on the field value.
+ 3. Copy the **Tenant-ID** value by clicking on the field value.
     
 	<div class="alert alert-info">
 		<i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
     <strong>Info</strong>
-		The Tenant ID links the Print Agent Service to your Microsoft Dynamics 365 Business Central environment.<br>
-		You will need the Tenant ID later when setting up the Print Agent Service.
+		The Tenant-ID links the Print Agent Service to your Microsoft Dynamics 365 Business Central environment.<br>
+		You will need the Tenant-ID later when setting up the Print Agent Service.
     </div>
 	
  4. Select **Download software...** to download the [365 business Print Agent Service](print-agent-client-whatis.md).

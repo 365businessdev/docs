@@ -50,7 +50,8 @@ However, if your organization mandates that **all outbound internet traffic must
 5. **Save the file** and restart the **365 business Print Agent Cloud Service** to apply the configuration.
 
 <div class="alert alert-notice">
-	<i class="fa-light fa-thin fa-hand-point-up fa-lg"></i> <strong>Good to know:</strong>
+	<i class="fa-light fa-thin fa-hand-point-up fa-lg"></i>
+	<strong>Good to know</strong>
 	Changes to the proxy configuration only take effect after the respective service is restarted.
 </div>
 
@@ -98,6 +99,7 @@ However, if your organization mandates that **all outbound internet traffic must
 ---
 
 <div class="alert alert-notice">
-	<i class="fa-light fa-thin fa-hand-point-up fa-lg"></i> <strong>Good to know:</strong>
+	<i class="fa-light fa-thin fa-hand-point-up fa-lg"></i>
+	<strong>Good to know</strong>
 	Changes to the proxy configuration only take effect after the respective service is restarted.
 </div>

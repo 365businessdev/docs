@@ -1,27 +1,29 @@
 # What is the Proxy Application Client?
 
-The 365 business Proxy Application Client is a Windows service that executes the installed plugins and establishes the data connection to the Proxy Application Server.
+The **365 business Proxy Application Client** is a Windows service that runs local [plugins](plugins.md) and establishes a secure connection to the **Proxy Application Cloud Service**.
 
-Each proxy application client is identified by a client ID (GUID) and executes the jobs addressed to it via the installed [plugins](plugins.md).
+Each client is uniquely identified by a **Client ID (GUID)** and is responsible for executing the tasks specifically addressed to it by Microsoft Dynamics 365 Business Central.
 
 <div class="alert alert-notice">
     <i class="fa-light fa-hand-point-up fa-lg"></i>
-    <strong>Good to know</strong> By default, the proxy application client is executed in the <strong>local system</strong> context, but depending on the installed plugin (e.g. file plugin), execution in the domain context may be necessary.
+    <strong>Good to know</strong>
+    By default, the 365 business Proxy Application Client runs under the <strong>Local System</strong> account.<br>
+    Some plugins (e.g. the File Plugin) may require execution under a domain user account.
 </div>
 
-<br/>
+---
 
-## The task of the Proxy Application Client
+## Responsibilities of the 365 business Proxy Application Client
 
-The 365 business Proxy Application Client performs the following functions:
+The Proxy Application Client performs two core functions:
 
-1. establishing communication between 365 business Proxy Application Service and client.
-2. execution of the plugins and plugin jobs (e.g. write file)
+1. Establishes and manages secure communication with the **365 business Proxy Application Cloud Service**
+2. Executes installed **plugins** and processes incoming jobs (e.g. writing files)
 
-# See also
+---
+
+## See also
 
 - [What is 365 business Proxy Application?](proxy-application-whatis.md)
-- [What are 365 business Proxy Application plugins?](plugins.md)
-
-
+- [What are 365 business Proxy Application Plugins?](plugins.md)
 

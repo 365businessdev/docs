@@ -1,24 +1,25 @@
+# Maßgeschneiderte Plugins
+
+**365 business Proxy Application** ist darauf ausgelegt, mit minimalem Aufwand in Ihre Geschäftsprozesse integriert zu werden.  
+Durch die offene Dokumentation und das flexibel erweiterbare **Plugin-System** lassen sich individuelle Anbindungen an lokale Systeme schnell und effizient realisieren.
+
 ---
-title: Maßgeschneiderte Plugins
----
 
-365 business Proxy Application ist darauf konzipiert mit möglichst wenig Aufwand in Ihre Geschäftsprozesse integriert zu werden. Dank der offenen Dokumentation und dem flexibel erweiterbaren Plugin System sind individuelle Anbindungen an Ihre lokalen Ressourcen in kürzester Zeit und mit wenig Aufwand möglich.
+## Individuelle Anbindung benötigt?
 
-## Sie benötigen eine individuelle Anbindung an ein lokales Gerät oder eine Maschine?
+Für viele unserer Kunden und Partner haben wir bereits individuelle Plugins entwickelt, mit denen lokale Geräte und Maschinen direkt aus Microsoft Dynamics 365 Business Central angesteuert werden können.
 
-Für unsere Kunden und Partner haben wir zusätzlich zahlreiche individuelle Plugins erstellt, mit derer Hilfe über 365 business Proxy Application lokale Systeme, Maschinen und Ressourcen angebunden wurden.
+Beispiele dafür sind:
 
-Hierzu zählen unter anderem:
-
- - Kassen-Anbindung
- - Waagen-Anbindung
- - Lager Lift-Anbindung
- - MES-Anbindung
- - uvm.
+- Anbindung von Kassensystemen  
+- Integration von Waagen  
+- Steuerung von Lagerliften  
+- Anbindung von MES-Systemen  
+- und vieles mehr
 
 <div class="alert alert-notice">
     <i class="fa-light fa-hand-point-up fa-lg"></i>
-    <strong>Gut zu wissen</strong>Wir entwickeln für Sie individuelle Plugins zur Anbindung Ihrer lokalen Systeme und Ressourcen. Mit 365 business Proxy Application sind keine Grenzen gesetzt.<br>
-    <br>
+    <strong>Gut zu wissen</strong>
+    Wir entwickeln individuelle Plugins zur Anbindung Ihrer lokalen Systeme – effizient, sicher und exakt auf Ihre Anforderungen zugeschnitten.<br><br>
     <a href="https://365businessdev.com/kontakt/" target="_blank">Sprechen Sie uns gerne an</a>.
 </div>

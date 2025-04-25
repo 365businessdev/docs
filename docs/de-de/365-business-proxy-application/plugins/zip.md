@@ -1,18 +1,20 @@
+# ZIP-Plugin
+
+Das **ZIP-Plugin** der 365 business Proxy Application ermöglicht das Erstellen, Entpacken und Anzeigen von ZIP-Archiven auf lokalen Laufwerken, Netzlaufwerken oder über UNC-Pfade.
+
+Es gehört zu den **Standard-Plugins** und kann direkt über die Seite **Proxy Application Clients** in Microsoft Dynamics 365 Business Central installiert werden.
+
 ---
-title: ZIP-Plugin
+
+## AL-Integration
+
+Die folgenden Funktionen stehen über die Codeunit `bdev.PRX Proxy Application` (ID 5523630) zur Verfügung.
+
 ---
-
-Das **ZIP** Plugin in 365 business Proxy Application bietet die Möglichkeit ZIP Archive im lokalen Dateisystem, sowie verfügbare Netzlaufwerke oder UNC-Pfade, zu erstellen, darauf zuzugreifen oder diese zu entpacken.
-
-Das ZIP Plugin gehört zu den Standard Plugins von 365 business Proxy Application und kann direkt über die Seite **Proxy Application Clients** installiert werden.
-
-## Objekte
-
-Die u.g. Funktionen werden über die Codeunit `bdev.PRX Proxy Application` (ID 5523630) bereitgestellt.
 
 ## Funktionen
 
-### ZIP komprimiertes Archiv erstellen (*ZipArchive*)
+### ZIP-Archiv erstellen – (*ZipArchive*)
 
 ```al
 success: Boolean := ZipArchive([clientId: Guid;] filePath: Text; archivePath: Text[; password: Text][; compressionLevel: Integer][; overwrite: Boolean])
@@ -37,7 +39,9 @@ success: Boolean := ZipArchive([clientId: Guid;] filePath: Text; archivePath: Te
 
 Gibt `true` zurück, wenn das ZIP Archiv erfolgreich erstellt wurde.
 
-### ZIP komprimiertes Archiv entpacken (*UnzipArchive*)
+---
+
+### ZIP-Archiv entpacken (*UnzipArchive*)
 
 ```al
 success: Boolean := UnzipArchive([clientId: Guid;] archivePath: Text; extractPath: Text[; password: Text][; overwrite: Boolean])
@@ -58,7 +62,9 @@ success: Boolean := UnzipArchive([clientId: Guid;] archivePath: Text; extractPat
 
 Gibt `true` zurück, wenn das ZIP Archiv erfolgreich extrahiert wurde.
 
-### ZIP komprimiertes Archiv entpacken (*ZipArchiveList*)
+---
+
+### ZIP-Archiv entpacken (*ZipArchiveList*)
 
 ```al
 [files: Record "bdev.PRX File Item" temporary :=] ZipArchiveList(var files: Record "bdev.PRX File Item" temporary[; clientId: Guid]; archivePath: Text[; password: Text])

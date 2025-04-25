@@ -97,4 +97,12 @@
     This is a warning.
 </div>
 
+13.
+
+<div class="alert alert-warn">
+    <i class="fa-duotone fa-solid fa-circle-exclamation fa-lg"></i>
+    <strong>Attention</strong>
+    This is a warning.
+</div>
+
 

@@ -1,13 +1,16 @@
+# Image plugin
+
+The **Image plugin** of the 365 business Proxy Application allows access to images from the local file system, as well as available network drives or UNC paths.
+
+It is one of the **Standard Plugins** and can be installed directly via the **Proxy Application Clients** page in Microsoft Dynamics 365 Business Central.
+
 ---
-title: Image Plugin
+
+## AL integration
+
+The following functions are available via the codeunit `bdev.PRX Proxy Application` (ID 5523630).
+
 ---
-The **Image** plugin in 365 business Proxy Application offers the possibility to access images from the local file system, as well as available network drives or UNC paths.
-
-The Image Plugin is one of the standard plugins of 365 business Proxy Application and can be installed directly via the **Proxy Application Clients** page.
-
-## Objects
-
-The following procedures are available through `bdev.PRX Proxy Application` codeunit (ID 5523630).
 
 ## Functions
 

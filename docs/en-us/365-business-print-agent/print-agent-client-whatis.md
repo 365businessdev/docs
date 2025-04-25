@@ -28,7 +28,8 @@ All printers installed on the system automatically appear in the **Printer** vie
 Select the printers you want to make available for Microsoft Dynamics 365 Business Central.
 
 <div class="alert alert-warn">
-    <i class="fa-light fa-triangle-exclamation fa-lg"></i> <strong>Important:</strong>
+    <i class="fa-light fa-triangle-exclamation fa-lg"></i>
+	<strong>Attention</strong>
 	Once a printer is shared, removing the share or deleting the printer can lead to <b>failed print jobs</b>.  
 	Therefore, manage shared printers with special care.
 </div>

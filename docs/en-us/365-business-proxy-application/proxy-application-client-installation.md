@@ -1,63 +1,65 @@
-# Install Proxy Application Client on Windows
- 
+# Proxy Application Client Installation
+
+Learn how to install and configure the **365 business Proxy Application Client**.
+
+---
+
 ## Requirements
 
-- Operating system
-    - Windows 10 or higher (64-bit)
-    - Windows Server 2016 or higher (64-bit)
-- .NET 8.0
-- Internet connection
-- [365 business Proxy Application Client Installer](https://365businessapi.com/api/SoftwareDownload?AppId=da472ae3-fa8a-406f-bbea-c2aafd5f77d5)
+- **Operating System**  
+  - Windows 10 or later (64-bit)  
+  - Windows Server 2016 or later (64-bit)
+
+- **Software**  
+  - .NET 8.0 Runtime  
+  - [Download Proxy Application Client Installer](https://365businessapi.com/api/SoftwareDownload?AppId=da472ae3-fa8a-406f-bbea-c2aafd5f77d5)
 
 <div class="alert alert-info">
     <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
-    <strong>Info</strong> To update your Proxy Application Client, download the <a href="https://365businessapi.com/api/SoftwareDownload?AppId=da472ae3-fa8a-406f-bbea-c2aafd5f77d5">latest version</a>. Your settings will be restored after the installation. 
+    <strong>Note</strong>
+    If you want to update your Proxy Application Client, simply download the <a href="https://365businessapi.com/api/SoftwareDownload?AppId=da472ae3-fa8a-406f-bbea-c2aafd5f77d5">latest version</a>.<br>
+    Your existing configuration will be retained.
 </div>
 
-## Before you start
+---
 
-Please [read the article](proxy-application-whatis.md) to find out where to install the 365 business Proxy Application Client.
+## Preparation
+
+Before you begin, please read the article [What is 365 business Proxy Application?](proxy-application-whatis.md) to determine the best system for installation.
 
 <div class="alert alert-notice">
     <i class="fa-light fa-hand-point-up fa-lg"></i>
-    <strong>Good to know</strong> Please note that to complete the installation of the 365 business Proxy Application Client, you need to specify the <strong>Tenant ID</strong> of your Microsoft Dynamics 365 Business Central environment.<br>
-    <br>
-    You can find this information in the <strong>Proxy Application Setup</strong>.<br>
-    <br>
-    For more information, please visit the page <a href="get-started.md">Get Started</a>.
+    <strong>Good to know</strong>
+    You will need the **Tenant-ID** of your Business Central environment for installation.<br>
+    You can find it on the **Proxy Application Setup** page in Microsoft Dynamics 365 Business Central.<br>
+    For more details, refer to the [Getting Started guide](get-started.md).
 </div>
 
-## Installation of the Proxy Application Client
+---
 
- 1. [Download](https://365businessapi.com/api/SoftwareDownload?AppId=da472ae3-fa8a-406f-bbea-c2aafd5f77d5) the latest version of the 365 business Proxy Application Client.
- 2. save the downloaded ZIP file on the server or computer you want to use with 365 business Proxy Application.
- 3. unzip the ZIP file (e.g. `C:\install`)
- 4. start the setup file and follow the instructions
- 5. enter the **Tenant ID** of your Microsoft Dynamics 365 Business Central environment and a **Name** for the client, which will help you to identify the client in Microsoft Dynamics 365 Business Central.<br>
-    ![Proxy Application Client Installation - Data Entry](/assets/images/365-business-proxy-application/c21483cf5f877db2cc391ffa37013ce6d0fca92b9ee7ecc22d7dbbf7d97403f6.png)
- 6. *(Optional)* Enter a domain user and the password with which 365 business Proxy Application Client is to be operated.<br>
-    ![Proxy Application Client Installation - Login](/assets/images/365-business-proxy-application/bd510f87-83cc-471f-a2e8-bb1ef9dc428a.png)
-    <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
-    <strong>Info</strong> If you do not specify a user, 365 business Proxy Application Client will run in the <strong>Local System</strong> context.
-    </div>
- 7. after the installation is complete, the service is started automatically and is immediately available in Microsoft Dynamics 365 Business Central, in the **Proxy Application Clients** page.
 
-## Install proxy application plugins
+## Installing the Proxy Application Client
 
-The plugins for 365 business Proxy Application are installed via Microsoft Dynamics 365 Business Central.
+1. Download the latest version of the client ZIP file:<br> 
+   [Download now](https://365businessapi.com/api/SoftwareDownload?AppId=da472ae3-fa8a-406f-bbea-c2aafd5f77d5)
+2. Save the file to your desired system.
+3. Extract the ZIP archive (e.g., to `C:\install`).
+4. Launch the setup file and follow the installation wizard.
+5. Enter your **Tenant-ID** and a unique **Name** for the client.<br>
+   ![Input during installation](/assets/images/365-business-proxy-application/c21483cf5f877db2cc391ffa37013ce6d0fca92b9ee7ecc22d7dbbf7d97403f6.png)
+   
+6. *(Optional)* Provide domain username and password under which the service should run.<br>
+   ![Account login](/assets/images/365-business-proxy-application/bd510f87-83cc-471f-a2e8-bb1ef9dc428a.png)
 
-![Proxy Application Client Plugin Installation](/assets/images/365-business-proxy-application/proxyapp-installplugin-de-DE.gif)
+	<div class="alert alert-info">
+		<i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+		<strong>Note</strong>
+		If no user is specified, the 365 business Proxy Application Client runs in the context of <strong>Local System</strong>.
+	</div>
 
- 1. open Microsoft Dynamics 365 Business Central.
- 2. open **Proxy Application Clients** page.
- 3. select **Refresh** to load the available 365 business Proxy Application Clients.
- 4. select the desired proxy application client based on the name you assigned in the previous step.
- 5. select **Install plugins**.
- 6. click **Next**.
- 7. select the plugins (e.g. File Plugin) that you want to install.<br>
-    ![Plugin Auswahl](/assets/images/365-business-proxy-application/2fd00b9a-6e91-4db9-9418-05a7cb61c22f.png)
- 8. click **Next**.
- 9. after the successful plugin installation click **Close**.
+7. After successful installation, the service will start automatically and be available in Business Central under **Proxy Application Clients**.
 
+### See also
+
+ - [Plugin Installation](plugins/install.md)
 

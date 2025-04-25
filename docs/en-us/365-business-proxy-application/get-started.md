@@ -1,121 +1,148 @@
-# Get Started
+# Getting Started
 
-This quick guide explains how to install and set up 365 business Proxy Application in your Microsoft Dynamics 365 Business Central environment.
+This quick guide explains how to install and configure the **365 business Proxy Application** in your Microsoft Dynamics 365 Business Central environment.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
-    <strong>Info</strong> Test the 365 business Proxy Application, including all standard plugins, at no cost in sandbox environments of Microsoft Dynamics 365 Business Central. In addition, there is a free 30-day trial period without functional restrictions for real and on-premises environments.
+ <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
+    <strong>Info</strong>
+Test the 365 business Proxy Application <strong>free of charge in sandbox environments</strong> of Microsoft Dynamics 365 Business Central. <br>
+In addition, there is a <strong>free 30-day trial period for real and on-premises environments</strong> without functional restrictions.
 </div>
 
-## Prerequisites
+## Requirements
 
- - Microsoft Dynamics 365 Business Central 2021 release wave 1 (18.0) or newer.
- - A Microsoft Windows client device to run [365 business Proxy Application Client](https://365businessapi.com/api/SoftwareDownload?AppId=da472ae3-fa8a-406f-bbea-c2aafd5f77d5).
- - An internet connection.
+- Microsoft Dynamics 365 Business Central 2021 release wave 1 (version 18.0) or later
+- A Microsoft Windows system (Windows Server 2016 or newer recommended) to run the [365 business Proxy Application Client](https://365businessapi.com/api/SoftwareDownload?AppId=da472ae3-fa8a-406f-bbea-c2aafd5f77d5)
+- An internet connection
 
 <div class="alert alert-notice">
     <i class="fa-light fa-hand-point-up fa-lg"></i>
-    <strong>Good to know</strong>This quick guide describes the setup and commissioning of 365 business Proxy Application with the file plugin.<br/>For more information on setting up other plugins, please visit the <a href="plugins.md">documentation</a>.
+    <strong>Good to know</strong>
+    This guide shows how to set up the 365 business Proxy Application using the <b>File Plugin</b>.  
+    For more information about other plugins, please refer to the <a href="plugins.md">plugin documentation</a>.
 </div>
 
-<br/>
+---
 
 ## Step 1: Installation of 365 business Proxy Application
 
-Open the **Marketplace for Extensions** in Microsoft Dynamics 365 Business Central and search for **365 business Proxy Application**.
-Install the app from Microsoft AppSource and wait until the installation is complete.
+Open the **Marketplace for Extensions** in Business Central and search for **365 business Proxy Application**.  
+Install the app via Microsoft AppSource.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
-    <strong>Info</strong>The app packages for your Microsoft Dynamics 365 Business Central <strong>On-Premise</strong> environment can be found in our <a href="https://downloads.365businessdev.com/de-DE/365-business-proxy-application/" target="_blank">Downloads</a>.
+    <i class="fa-duotone fa-lightbulb fa-lg"></i>
+    <strong>Note</strong>
+    Installation packages for your <b>On-Premises</b> Business Central environment can be found in our <a href="https://downloads.365businessdev.com/de-DE/365-business-proxy-application/" target="_blank">download portal</a>.
 </div>
 
-<br/>
+---
 
-### Step 1.1: Proxy application setup
+### Step 1.1: Proxy Application Setup
 
-To set up the 365 business Proxy Application, open the **Proxy Application Setup** page in Microsoft Dynamics 365 Business Central.
+1. Open the **Proxy Application Setup** page in Business Central.  
+2. Click **Authenticate** to connect your environment to the Cloud Service.  
+3. Copy the **Tenant-ID** by clicking on the field value.
 
- 1. select **Authenticate** to connect your Microsoft Dynamics 365 Business Central environment to 365 business Proxy Application Service.
- 2. copy the **Tenant ID** value by clicking on the field value.
-    <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
-    <strong>Info</strong> Specifies the Tenant ID used to secure the communication between the Proxy Application Service and Microsoft Dynamics 365 Business Central.
+<div class="alert alert-info">
+    <i class="fa-duotone fa-lightbulb fa-lg"></i>
+    <strong>Info</strong>
+	The Tenant-ID links the Proxy Application Service to your Microsoft Dynamics 365 Business Central environment.<br>
+	You will need the Tenant-ID later when setting up the Proxy Application Service.
     </div>
- 4. select **Download client...** to download [365 business Proxy Application Client](proxy-application-client-whatis.md).
+</div>
 
-<br/>
+4. Click **Download Client...** to download the [365 business Proxy Application Client](proxy-application-client-whatis.md).
 
-### Step 1.2: Installing 365 business Proxy Application Client
+---
 
- 1. save the downloaded ZIP file on the server or computer you want to use with 365 business Proxy Application.
- 2. unpack the ZIP file (e.g. `C:\install`)
- 3. start the setup file and follow the instructions
- 4. enter the **Tenant ID** from the previous step and a **Name** for the client, which will help you to identify the client in Microsoft Dynamics 365 Business Central.
- 5. *(Optional)* Enter a domain user and the password with which 365 business Proxy Application Client is to be operated.
-    <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
-    <strong>Info</strong> If you do not specify a user, 365 business Proxy Application Client will run in the <strong>Local System</strong> context.
-    </div>
+### Step 1.2: Install 365 business Proxy Application Client
 
-## Step 2: Set up Proxy Application Client
+1. Save the downloaded ZIP file to the server or computer you want to use with the Proxy Application.  
+2. Extract the ZIP file (e.g., `C:\install`)  
+3. Run the setup file and follow the instructions.  
+4. Enter the **Tenant-ID** from the previous step and assign a **Name** for the client to identify it in Business Central.  
+5. *(Optional)* Enter a domain user and password under which the client should run.
 
-To be able to access the Proxy Application Clients directly in Microsoft Dynamics 365 Business Central, the clients must be activated.
+<div class="alert alert-info">
+    <i class="fa-duotone fa-lightbulb fa-lg"></i>
+    <strong>Note</strong>
+    If you don’t specify a user, 365 business Proxy Application Client will run in the <strong>Local System</strong> context.
+</div>
 
- 1. open the **Proxy Application Setup** in Microsoft Dynamics 365 Business Central.
- 2. when opening the page, all available 365 business Proxy Application Clients are automatically retrieved and displayed in the setup:
-    ![Proxy Application Setup](/assets/images/365-business-proxy-application/9c4905bab8db474caa704353d2772447fdcea02339e7dbb5ec2e138974df12dd.png)  
- 3. select **Enabled** to enable a proxy application client for use.
- 4. click on the **Name** of the Proxy Application Client to open the map.
- 5. in the Proxy Application Client card you will find the **Client ID** field.
-    <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
-    <strong>Info</strong> The Client ID is used to address the Proxy Application service. 365 business Proxy Application provides additional functions to return the clients that support a specific plugin. In this quick guide, however, it is assumed that the specific client ID is used.
-    </div>
+
+---
+
+## Step 2: Register and Activate Clients
+
+To access Proxy Application Clients in Business Central, they must first be activated.
+
+1. Open the **Proxy Application Setup** in Business Central.  
+2. Available clients are automatically discovered and listed when you open the page:  
+   ![Proxy Application Setup](/assets/images/365-business-proxy-application/9c4905bab8db474caa704353d2772447fdcea02339e7dbb5ec2e138974df12dd.png)  
+3. Enable a client by checking the **Enabled** box.  
+4. Click the **Name** of the client to open its card.  
+5. The **Client ID** is listed in the client card.
+
+<div class="alert alert-info">
+    <i class="fa-duotone fa-lightbulb fa-lg"></i>
+    <strong>Note</strong>
+    The Client ID is used to address the Proxy Application Service directly.  
+    While it's possible to use plugin-specific resolution, this guide assumes you use a specific Client ID.
+</div>
+
+
+---
 
 ### Step 2.1: Install Proxy Application Client Plugins
 
 ![Proxy Application Client Plugin Installation](/assets/images/365-business-proxy-application/proxyapp-installplugin-de-DE.gif)
 
- 1. open Microsoft Dynamics 365 Business Central.
- 2. open **Proxy Application Clients** page.
- 3. select **Refresh** to load the available 365 business Proxy Application Clients.
- 4. select the desired proxy application client based on the name you assigned in the previous step.
- 5. select **Install plugins**.
- 6. click **Next**.
- 7. select the plugins (e.g. File Plugin) that you want to install.<br>
-    ![Plugin Selection](/assets/images/365-business-proxy-application/2fd00b9a-6e91-4db9-9418-05a7cb61c22f.png)
- 8. click **Next**.
- 9. after the successful plugin installation, click **Close**.
+1. Open Microsoft Dynamics 365 Business Central.  
+2. Open the **Proxy Application Clients** page.  
+3. Click **Refresh** to load available clients.  
+4. Select the client you named earlier.  
+5. Click **Install Plugins**.  
+6. Click **Next**.  
+7. Select the plugin(s) you want to install (e.g., File Plugin).  
+   ![Plugin Selection](/assets/images/365-business-proxy-application/2fd00b9a-6e91-4db9-9418-05a7cb61c22f.png)  
+8. Click **Next**.  
+9. After installation completes, click **Close**.
 
-### Step 2.2: Standard clients for plugin *(Optional)*
 
-To simplify the control of clients, it is possible to define a standard client for plugins. This allows you to enable 365 business Proxy Application to automatically select the client for the current plugin.
+---
 
- 1. open Microsoft Dynamics 365 Business Central.
- 2. open **Proxy Application Setup** page.
- 3. select **Associated**.
- 4. select **Standard Clients**.
- 5. select the **Plugin** for which you want to set a default client (e.g. File Plugin).
- 6. select the **Name** of the client.
+### Step 2.2: Set Default Client for Plugins *(Optional)*
 
-![Proxy Application Setup - Default Client for Plugin](/assets/images/365-business-proxy-application/3fafd304-0799-4d9a-a079-a6a13e1a27ff.png)
+To simplify client selection, you can define a default client per plugin. This allows automatic assignment of clients for specific tasks.
+
+1. Open BMicrosoft Dynamics 365 Business Central.  
+2. Navigate to **Proxy Application Setup**.  
+3. Choose **Associated** > **Standard Clients**.  
+4. Select the **Plugin** (e.g., File Plugin).  
+5. Select the **Client Name** to assign.
+
+![Default Plugin Client](/assets/images/365-business-proxy-application/3fafd304-0799-4d9a-a079-a6a13e1a27ff.png)
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg"></i>
-    <strong>Info</strong>The selection of clients is only possible if the selected plugin is already installed on the client.
+    <i class="fa-duotone fa-lightbulb fa-lg"></i>
+    <strong>Note</strong>
+    You can only select clients that already have the selected plugin installed.
 </div>
 
-## Step 3: Implementing the file plugin
 
-This quick guide explains how to write a file to your local file system using 365 business Proxy Application. The following is an AL extension for Microsoft Dynamics 365 Business Central. This quick guide assumes that the AL project already exists and only needs to be extended to include integration with 365 business Proxy Application.
+---
 
-### Step 3.1: Dependency on 365 business Proxy Application
+## Step 3: File Plugin Implementation
 
-To be able to access the functions in 365 business Proxy Application, your AL extension must define a dependency to 365 business Proxy Application.
+This quick guide explains how to write a file to your local file system using the **File Plugin** of **365 business Proxy Application**.  
+We assume that your AL project already exists and just needs to be extended.
 
- 1. open the application manifest (`app.json`) in Visual Studio Code.  
- 2. add the following entry to the JSON token `dependencies`:
+---
+
+### Step 3.1: Add Proxy Application Dependency
+
+1. Open your `app.json` manifest in Visual Studio Code.  
+2. Add the following dependency under the `dependencies` array:
     ```json
     [..],
     "dependencies": [
@@ -128,16 +155,17 @@ To be able to access the functions in 365 business Proxy Application, your AL ex
     ],
     [..]
     ```
- 3. execute the command **AL: Download symbols**.
+3. Execute the command **AL: Download symbols**.
+	
+---
 
-### Step 3.2: AL implementation
+### Step 3.2: Read and Write a File via AL
 
-In the following, a file is written as an example and then read again. This quick guide assumes that a file with the content "Hello, World!" is to be written as `test.txt` in the path `C:\temp`.
+This example writes and then reads a file with the contents `Hello, World!` into/from `C:\temp\test.txt`.
+You can find more detailed information in the [Plugin documentation](plugins.md).
 
-Detailed documentation can be found in the [Plugin documentation](plugins.md).
-
- 1. open an existing code unit or create a new AL file in which the AL code can be developed
- 2. insert the following AL code:
+ 1. Open an existing code unit or create a new AL file in which the AL code can be developed
+ 2. Insert the following AL code:
     ```al
     procedure WriteAndReadHelloWorldFile()
     var
@@ -195,9 +223,9 @@ Detailed documentation can be found in the [Plugin documentation](plugins.md).
         exit(ReadContentFromTempBlob(file));
     end;
     ```
- 3. execute the function `WriteAndReadHelloWorldFile()`.
+ 3. Execute the function `WriteAndReadHelloWorldFile()`.
 
-# See also
+### See also
 
  - [Proxy Application Architecture](proxy-application-whatis.md#architecture)
  - [What is the Proxy Application Service](proxy-application-client-whatis.md)
