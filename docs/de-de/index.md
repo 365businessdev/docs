@@ -23,6 +23,41 @@ Als Microsoft Development Partner bietet Ihnen 365 business development zahlreic
 
 <div class="columns" style="margin-top: 30px; margin-bottom: 10px;">
     <div>
+        <span class="columns-title">365 business<br>Print Agent</span>
+        <p style="height: 200px; font-size: 13px; padding-top: 10px;">
+            Einfache Integration Ihrer Druckerinfrastruktur und direktes Drucken in Microsoft Dynamics 365 Business Central.
+        </p>
+        <p>
+            <ul class="fa-ul">
+                <li><span class="fa-li"><i class="fa-duotone fa-solid fa-circle-arrow-right fa-xl" style="--fa-secondary-color: #00b7c3"></i></span><a href="../365-business-print-agent/index.md">Über 365 business Print Agent</a></li>
+            </ul>
+        </p>
+    </div>
+    <div>
+        <span class="columns-title">365 business<br>Proxy Application</span>
+        <p style="height: 200px; font-size: 13px; padding-top: 10px;">
+            Ob Dateizugriff, Drucker, Lagerlifte, Waagen oder Kartenleser – mit dem flexibel erweiterbaren Plugin-System von 365 business Proxy Application sind Ihren Integrationsmöglichkeiten kaum Grenzen gesetzt.
+        </p>
+        <p>
+            <ul class="fa-ul">
+                <li><span class="fa-li"><i class="fa-duotone fa-solid fa-circle-arrow-right fa-xl" style="--fa-secondary-color: #00b7c3"></i></span><a href="../365-business-proxy-application/index.md">Über 365 business Proxy Application</a></li>
+            </ul>
+        </p>
+    </div>
+    <div>
+        <span class="columns-title">365 business<br>E-Invoice</span>
+        <p style="height: 200px; font-size: 13px; padding-top: 10px;">
+            Erstellen und verarbeiten Sie elektronische Rechnungen im Factur-X / ZUGFeRD Format in Business Central.
+        </p>
+        <p>
+            <ul class="fa-ul">
+                <li><span class="fa-li"><i class="fa-duotone fa-solid fa-circle-arrow-right fa-xl" style="--fa-secondary-color: #00b7c3"></i></span><a href="../365-business-e-invoice/index.md">Über 365 business E-Invoice</a></li>
+            </ul>
+        </p>
+    </div>
+</div>
+<div class="columns" style="margin-top: 30px; margin-bottom: 10px;">
+    <div>
         <span class="columns-title">365 business<br>ERiC</span>
         <p style="height: 200px; font-size: 13px; padding-top: 10px;">
             Übermitteln Sie die verschiedene ELSTER Steuerdatenarten direkt aus Business Central an das Finanzamt.
@@ -80,13 +115,13 @@ Als Microsoft Development Partner bietet Ihnen 365 business development zahlreic
         </p>
     </div>
     <div>
-        <span class="columns-title">365 business<br>E-Invoice</span>
+        <span class="columns-title">365 business development<br>Find &amp; Replace</span>
         <p style="height: 200px; font-size: 13px; padding-top: 10px;">
-            Erstellen und verarbeiten Sie elektronische Rechnungen im Factur-X / ZUGFeRD Format in Business Central.
+            Massendatenänderungen einfach und unkompliziert, direkt innerhalb von Microsoft Dynamics 365 Business Central, mit Hilfe von Suchen &amp; Ersetzen ausführen.
         </p>
         <p>
             <ul class="fa-ul">
-                <li><span class="fa-li"><i class="fa-duotone fa-solid fa-circle-arrow-right fa-xl" style="--fa-secondary-color: #00b7c3"></i></span><a href="../365-business-e-invoice/index.md">Über 365 business E-Invoice</a></li>
+                <li><span class="fa-li"><i class="fa-duotone fa-solid fa-circle-arrow-right fa-xl" style="--fa-secondary-color: #00b7c3"></i></span><a href="../find-and-replace/index.md">Über 365 business development Find & Replace</a></li>
             </ul>
         </p>
     </div>

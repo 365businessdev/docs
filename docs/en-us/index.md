@@ -21,6 +21,42 @@ Business Central is quick to implement, easy to configure, and simplicity is our
 
 As a Microsoft Development Partner, 365 business development offers numerous solutions available for both Microsoft Dynamics 365 Business Central Online (SaaS) and On-Premise environments. You can find our solutions on [Microsoft AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&search=365%20business%20development&product=dynamics-365-business-central) for Business Central Online and in our [Download Area](https://downloads.365businessdev.com/) for On-Premise environments.
 
+
+<div class="columns" style="margin-top: 30px; margin-bottom: 10px;">
+    <div>
+        <span class="columns-title">365 business<br>Print Agent</span>
+        <p style="height: 200px; font-size: 13px; padding-top: 10px;">
+            Easily integrate your printing infrastructure and print directly within Microsoft Dynamics 365 Business Central.
+        </p>
+        <p>
+            <ul class="fa-ul">
+                <li><span class="fa-li"><i class="fa-duotone fa-solid fa-circle-arrow-right fa-xl" style="--fa-secondary-color: #00b7c3"></i></span><a href="../365-business-print-agent/index.md">About 365 business Print Agent</a></li>
+            </ul>
+        </p>
+    </div>
+    <div>
+        <span class="columns-title">365 business<br>Proxy Application</span>
+        <p style="height: 200px; font-size: 13px; padding-top: 10px;">
+            Whether it's file access, printers, warehouse lifts, scales, or card readers – the flexible and extendable plugin system of the 365 business Proxy Application offers virtually limitless integration possibilities.
+        </p>
+        <p>
+            <ul class="fa-ul">
+                <li><span class="fa-li"><i class="fa-duotone fa-solid fa-circle-arrow-right fa-xl" style="--fa-secondary-color: #00b7c3"></i></span><a href="../365-business-proxy-application/index.md">About 365 business Proxy Application</a></li>
+            </ul>
+        </p>
+    </div>
+    <div>
+        <span class="columns-title">365 business<br>E-Invoice</span>
+        <p style="height: 200px; font-size: 13px; padding-top: 10px;">
+            Create and process electronic invoices in Factur-X / ZUGFeRD format in Business Central.
+        </p>
+        <p>
+            <ul class="fa-ul">
+                <li><span class="fa-li"><i class="fa-duotone fa-solid fa-circle-arrow-right fa-xl" style="--fa-secondary-color: #00b7c3"></i></span><a href="../365-business-e-invoice/index.md">About 365 business E-Invoice</a></li>
+            </ul>
+        </p>
+    </div>
+</div>
 <div class="columns" style="margin-top: 30px; margin-bottom: 10px;">
     <div>
         <span class="columns-title">365 business<br>ERiC</span>
@@ -80,13 +116,13 @@ As a Microsoft Development Partner, 365 business development offers numerous sol
         </p>
     </div>
     <div>
-        <span class="columns-title">365 business<br>E-Invoice</span>
+        <span class="columns-title">365 business development<br>Find & Replace</span>
         <p style="height: 200px; font-size: 13px; padding-top: 10px;">
-            Create and process electronic invoices in Factur-X / ZUGFeRD format in Business Central.
+            Perform bulk data changes easily and conveniently directly within Microsoft Dynamics 365 Business Central using the Find & Replace feature.
         </p>
         <p>
             <ul class="fa-ul">
-                <li><span class="fa-li"><i class="fa-duotone fa-solid fa-circle-arrow-right fa-xl" style="--fa-secondary-color: #00b7c3"></i></span><a href="../365-business-e-invoice/index.md">About 365 business E-Invoice</a></li>
+                <li><span class="fa-li"><i class="fa-duotone fa-solid fa-circle-arrow-right fa-xl" style="--fa-secondary-color: #00b7c3"></i></span><a href="../find-and-replace/index.md">Über 365 business development Find & Replace</a></li>
             </ul>
         </p>
     </div>
