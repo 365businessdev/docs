@@ -20,10 +20,10 @@ Payment for end customers within the EU is usually made by invoice. For end cust
 
 Payments by invoice are usually made in advance for the respective billing period. Invoicing is done electronically via email, as an e-invoice (ZUGFeRD/Factur-X format). The invoice contains all relevant payment information, such as invoice number, invoice date, due date, payment method, bank details, and tax number.
 
-[▶️ Learn more about payments by invoice](/invoicing/payment.md#payment-by-invoice)
+[▶️ Learn more about payments by invoice](invoicing/payment.md#payment-by-invoice)
 
 ### Payment by Credit Card
 
 Credit card payments are processed through our payment service provider Stripe. Stripe is an international payment service provider that enables credit card payments. Payment is made through a secure connection directly to Stripe. Billing is usually done in advance for the respective billing period.
 
-[▶️ Learn more about payments by credit card](/invoicing/payment.md#payment-by-credit-card)
+[▶️ Learn more about payments by credit card](invoicing/payment.md#payment-by-credit-card)

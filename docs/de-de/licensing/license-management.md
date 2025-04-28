@@ -45,19 +45,19 @@ Während der Testphase stehen folgende Funktionen zur Verfügung:
 | Funktion | Beschreibung | Weitere Informationen |
 | --- | --- | --- |
 | **Testphase verlängern** | Verlängert die Testphase um weitere 10 Tage. | [Testphase verlängern](#testphase-verlängern) |
-| **Lizenz aktivieren** | Startet den Assistenten zur Lizenzaktivierung. | [Lizenz aktivieren](/license-management/activate-license.md) |
+| **Lizenz aktivieren** | Startet den Assistenten zur Lizenzaktivierung. | [Lizenz aktivieren](license-management/activate-license.md) |
 
 Nach der Lizenzaktivierung stehen folgende Funktionen zur Verfügung:
 
 | Funktion | Beschreibung | Weitere Informationen |
 | --- | --- | --- |
 | **Microsoft Partner zuweisen** | Weißt den Microsoft Partner zu, der die Lizenz bereitgestellt hat. | [Microsoft Partner zuweisen](#microsoft-partner-zuweisen) |
-| **Ausgabengrenze** | Öffnet die Seite zur Festlegung von Ausgabengrenzen. | [Ausgabengrenze](/license-management/spending-limit.md) |
-| **Automatische Lizenz-Zuweisung** | Aktiviert die automatische Lizenzzuweisung. | [Lizenzzuweisung](/license-management/assign-license.md) |
-| **Manuelle Lizenz-Zuweisung** | Deaktiviert die automatische Lizenzzuweisung. | [Lizenzzuweisung](/license-management/assign-license.md) | 
-| **Mandanten-/Benutzerlizenz zuweisen** | Öffnet die Seite zur Zuweisung von Benutzer- oder Mandantenlizenzen, bei manueller Lizenz-Zuweisung. | [Lizenzzuweisung](/license-management/assign-license.md) |
+| **Ausgabengrenze** | Öffnet die Seite zur Festlegung von Ausgabengrenzen. | [Ausgabengrenze](license-management/spending-limit.md) |
+| **Automatische Lizenz-Zuweisung** | Aktiviert die automatische Lizenzzuweisung. | [Lizenzzuweisung](license-management/assign-license.md) |
+| **Manuelle Lizenz-Zuweisung** | Deaktiviert die automatische Lizenzzuweisung. | [Lizenzzuweisung](license-management/assign-license.md) | 
+| **Mandanten-/Benutzerlizenz zuweisen** | Öffnet die Seite zur Zuweisung von Benutzer- oder Mandantenlizenzen, bei manueller Lizenz-Zuweisung. | [Lizenzzuweisung](license-management/assign-license.md) |
 | **Rechnungen** | Zeigt die Rechnungen an. | [Rechnungen anzeigen](invoicing/invoices.md) |
-| **Lizenz kündigen** | Kündigt die Lizenz zum nächstmöglichen Zeitpunkt. | [Lizenz kündigen](/license-management/terminate-license.md) |
+| **Lizenz kündigen** | Kündigt die Lizenz zum nächstmöglichen Zeitpunkt. | [Lizenz kündigen](license-management/terminate-license.md) |
 
 ### Lizenzinformationen anzeigen
 

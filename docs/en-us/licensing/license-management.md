@@ -46,19 +46,19 @@ During the trial period, the following functions are available:
 | Function | Description | More Information |
 | --- | --- | --- |
 | **Extend Trial Period** | Extends the trial period by another 10 days. | [Extend Trial Period](#extend-trial-period) |
-| **Activate License** | Starts the license activation wizard. | [Activate License](/license-management/activate-license.md) |
+| **Activate License** | Starts the license activation wizard. | [Activate License](license-management/activate-license.md) |
 
 After license activation, the following functions are available:
 
 | Function | Description | More Information |
 | --- | --- | --- |
 | **Assign Microsoft Partner** | Assigns the Microsoft partner who provided the license. | [Assign Microsoft Partner](#assign-microsoft-partner) |
-| **Spending Limit** | Opens the page to set spending limits. | [Spending Limit](/license-management/spending-limit.md) |
-| **Automatic License Assignment** | Activates automatic license assignment. | [License Assignment](/license-management/assign-license.md) |
-| **Manual License Assignment** | Deactivates automatic license assignment. | [License Assignment](/license-management/assign-license.md) | 
-| **Assign Company/User License** | Opens the page to assign user or company licenses for manual license assignment. | [License Assignment](/license-management/assign-license.md) |
+| **Spending Limit** | Opens the page to set spending limits. | [Spending Limit](license-management/spending-limit.md) |
+| **Automatic License Assignment** | Activates automatic license assignment. | [License Assignment](license-management/assign-license.md) |
+| **Manual License Assignment** | Deactivates automatic license assignment. | [License Assignment](license-management/assign-license.md) | 
+| **Assign Company/User License** | Opens the page to assign user or company licenses for manual license assignment. | [License Assignment](license-management/assign-license.md) |
 | **Invoices** | Displays the invoices. | [View Invoices](invoicing/invoices.md) |
-| **Terminate License** | Terminates the license at the next possible date. | [Terminate License](/license-management/terminate-license.md) |
+| **Terminate License** | Terminates the license at the next possible date. | [Terminate License](license-management/terminate-license.md) |
 
 ### View License Information
 

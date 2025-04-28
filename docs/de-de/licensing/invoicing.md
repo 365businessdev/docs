@@ -19,10 +19,10 @@ Die Zahlung für Endkunden innerhalb der EU erfolgt in der Regel per Rechnung. F
 
 Zahlungen per Rechnung erfolgen in der Regel im Voraus für den jeweiligen Abrechnungszeitraum. Die Rechnungsstellung erfolgt elektronisch per E-Mail, als E-Rechnung (ZUGFeRD/Factur-X Format). Die Rechnung enthält alle relevanten Informationen zur Zahlung, wie z.B. Rechnungsnummer, Rechnungsdatum, Fälligkeitsdatum, Zahlungsmittel, Bankverbindung und Steuernummer.
 
-[▶️ Erfahren Sie mehr über Zahlungen per Rechnung](/invoicing/payment.md#zahlung-per-rechnung)
+[▶️ Erfahren Sie mehr über Zahlungen per Rechnung](invoicing/payment.md#zahlung-per-rechnung)
 
 ### Zahlung per Kreditkarte
 
 Kreditkartenzahlungen werden über unseren Zahlungsdienstleister Stripe abgewickelt. Stripe ist ein internationaler Zahlungsdienstleister, der die Abwicklung von Kreditkartenzahlungen ermöglicht. Die Zahlung erfolgt über eine sichere Verbindung direkt an Stripe. Die Abrechnung erfolgt in der Regel im Voraus für den jeweiligen Abrechnungszeitraum.
 
-[▶️ Erfahren Sie mehr über Zahlungen per Kreditkarte](/invoicing/payment.md#zahlung-per-kreditkarte)
+[▶️ Erfahren Sie mehr über Zahlungen per Kreditkarte](invoicing/payment.md#zahlung-per-kreditkarte)
