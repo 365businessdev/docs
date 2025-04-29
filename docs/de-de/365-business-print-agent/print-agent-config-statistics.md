@@ -19,8 +19,8 @@ Nutzen Sie diese Informationen, um:
       <th colspan="2">Statistik</th>
     </tr>
     <tr>
-      <td colspan="2"><img src="/assets/images/365-business-print-agent/config-tool/Dashboard.png" alt="Start-Dashboard"></td>
-      <td colspan="2"><img src="/assets/images/365-business-print-agent/config-tool/statistics.PNG" alt="">Statistiken</td>
+      <td colspan="2"><img src="/assets/images/365-business-print-agent/config-tool/Dashboard.PNG" alt="Start-Dashboard"></td>
+      <td colspan="2"><img src="/assets/images/365-business-print-agent/config-tool/statistics.png" alt="">Statistiken</td>
     </tr>
     <tr>
         <td style="padding: 0px !important;width:25%"></td>
