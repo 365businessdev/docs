@@ -25,11 +25,17 @@ export default {
     //console.log("🚀 main.js gestartet");
 
     // Matomo Tag Manager dynamisch laden
-    //const matomoScript = document.createElement("script");
-    //matomoScript.async = true;
-    //matomoScript.src = "https://cdn.matomo.cloud/businessdev.matomo.cloud/container_v7xJrAFg.js";
-    //document.head.appendChild(matomoScript);
-    //console.log("📊 Matomo Tag Manager geladen!");
+    // const matomoScript = document.createElement("script");
+    // matomoScript.async = true;
+    // matomoScript.src = "https://cdn.matomo.cloud/businessdev.matomo.cloud/container_v7xJrAFg.js";
+    // document.head.appendChild(matomoScript);
+	var _mtm = window._mtm = window._mtm || [];
+	_mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+	(function() {
+	  var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+	  g.async=true; g.src='https:///businessdev.matomo.cloud/container_v7xJrAFg.js'; s.parentNode.insertBefore(g,s);
+	})();
+    console.log("📊 Matomo Tag Manager geladen!");
 	
 	setTimeout(() => {
 		//console.log("🕒 Warten hat geholfen! Suche nach Sprachumschalt-Buttons...");
