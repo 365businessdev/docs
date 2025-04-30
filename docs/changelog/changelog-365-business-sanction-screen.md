@@ -1,13 +1,11 @@
----
-title: 365 business Sanction Screen Changelog
----
+# 365 business Sanction Screen Changelog
 
-#### Version 18.1.129.18464
+## Version 18.1.129.18464
 
 - #60196 Show checklist items in control add-in, only if they are more than one item
 - #60197 Normalize query values in match request body properties for better matching
 
-#### Version 18.1.100.17658
+## Version 18.1.100.17658
 
 - #59259 Add additional implementations
   - Customer Bank Account
@@ -28,10 +26,10 @@ title: 365 business Sanction Screen Changelog
 - #59255 Add additional information to sanction screening results
 - #59282 Fix automated screening task, with exclude switch enabled
 
-#### Version 18.0.59.17388
+## Version 18.0.59.17388
 
 - Add Sanction Screen Quick Check page.
 
-#### Version 18.0.48.17348
+## Version 18.0.48.17348
 
 - Initial Release of 365 business Sanction Screen for Microsoft Dynamics 365 Business Central 2021 release wave 1 (18.0) or newer.

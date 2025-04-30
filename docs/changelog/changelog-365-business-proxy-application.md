@@ -1,8 +1,6 @@
----
-title: 365 business Proxy Application Changelog
----
+# 365 business Proxy Application Changelog
 
-#### Version 18.1.31.16587
+## Version 18.1.31.16587
  
  - Add ZIP plugin
  - Optimize `GetDefaultClientByPlugin()` implementation to return first supported client, if no default specified
@@ -11,7 +9,7 @@ title: 365 business Proxy Application Changelog
  - Tenant ID editable for On-Premises environments
  - Fix WaitSpinner control, while plugin installation
 
-#### Version 18.1.21.16419
+## Version 18.1.21.16419
 
  - Add Plugin installation wizard
  - File plugin
@@ -21,5 +19,5 @@ title: 365 business Proxy Application Changelog
  - Add version check for client and plugins.
  - Minor UI enhancements.
 
-#### Version 18.0.5.14157
+## Version 18.0.5.14157
  - Initial release.
