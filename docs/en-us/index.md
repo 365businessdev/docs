@@ -135,6 +135,6 @@ As a Microsoft Development Partner, 365 business development offers numerous sol
     <br>
     Can't find the right product? Feel free to contact us!
     <ul class="fa-ul">
-        <li><span class="fa-li"><i class="fa-duotone fa-solid fa-circle-arrow-right fa-xl" style="--fa-secondary-color: #00b7c3"></i></span><a href="https://365businessdev.com/en/contact/">Contact</a></li>
+        <li><span class="fa-li"><i class="fa-duotone fa-solid fa-circle-arrow-right fa-l"></i></span><a href="https://365businessdev.com/en/contact/" style="color: #155724 !important">Contact</a></li>
     </ul>
 </div>

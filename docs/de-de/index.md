@@ -134,6 +134,6 @@ Als Microsoft Development Partner bietet Ihnen 365 business development zahlreic
     <br>
     Nicht das richtige Produkt dabei? Sprechen Sie uns gerne an!<br>
     <ul class="fa-ul">
-        <li><span class="fa-li"><i class="fa-duotone fa-solid fa-circle-arrow-right fa-xl" style="--fa-secondary-color: #00b7c3"></i></span><a href="https://365businessdev.com/kontakt/">Kontakt</a></li>
+        <li><span class="fa-li"><i class="fa-duotone fa-solid fa-circle-arrow-right fa-l"></i></span><a href="https://365businessdev.com/kontakt/" style="color: #155724 !important">Kontakt</a></li>
     </ul>
 </div>
