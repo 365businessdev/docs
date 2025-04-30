@@ -27,7 +27,6 @@ export default {
     //<!-- Matomo -->
 	var _paq = window._paq = window._paq || [];
 	/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-	_paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
 	_paq.push(["setDomains", ["*.www.365businessdev.com","*.docs.365businessdev.com","*.downloads.365businessdev.com"]]);
 	_paq.push(["enableCrossDomainLinking"]);
 	_paq.push(['trackPageView']);
