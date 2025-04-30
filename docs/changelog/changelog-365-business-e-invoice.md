@@ -1,5 +1,9 @@
 # 365 business E-Invoice Changelog
 
+## Version 25.2.383.19533
+
+- Fix issue #61164 - Sending E-Document through Extended E-Document Service Flow (Document Sending Profile) fails
+
 ## Version 25.2.379.19451
 
 - Feature #61093 Implement E-Document Service Integration V2 _(applies to Business Central 2025 Release Wave 1 or newer)_
