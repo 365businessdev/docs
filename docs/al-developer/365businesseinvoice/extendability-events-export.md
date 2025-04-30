@@ -40,6 +40,7 @@ Use the following code to implement the `OnBeforeCreateZUGFeRDDocument` event. T
     begin
         // Custom logic before creating ZUGFeRD document
     end;
+```
 
 ```al
     [EventSubscriber(ObjectType::Codeunit, Codeunit::"bdev.E-Invoice Integration", OnBeforeCreateZUGFeRDDocument, '', true, true)]
