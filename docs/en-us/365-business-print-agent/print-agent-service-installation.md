@@ -13,7 +13,7 @@
     <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Good to know</strong>
 	If you use the Print Agent in the <b>Direct Connection</b>, make sure that the service port is accessible from your Dynamics 365 Business Central tenant.<br>
-	For SaaS environments, we strongly recommend the use of **Print Agent Cloud**.
+	For SaaS environments, we strongly recommend the use of <strong>Print Agent Cloud</strong>.
 </div>
 
 <div class="alert alert-info">

@@ -13,7 +13,7 @@
     <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Gut zu wissen</strong>
 	Wenn Sie den Print Agent im <b>Direct Connection</b> verwenden, stellen Sie sicher, dass der Service-Port von Ihrem Dynamics 365 Business Central-Tenant erreichbar ist.<br>
-	Für SaaS-Umgebungen empfehlen wir dringend die Nutzung von **Print Agent Cloud**.
+	Für SaaS-Umgebungen empfehlen wir dringend die Nutzung von <strong>Print Agent Cloud</strong>.
 </div>
 
 <div class="alert alert-info">
