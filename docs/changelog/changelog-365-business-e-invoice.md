@@ -1,5 +1,10 @@
 # 365 business E-Invoice Changelog
 
+## Version 25.2.387.19971
+
+- Add support for Service Participant ID (Routing ID / Leitweg ID)
+- Compatibility fix for Microsoft Dynamics 365 Business Central 2025 Release Wave 1 (26.2)
+
 ## Version 25.2.383.19533
 
 - Fix issue #61164 - Sending E-Document through Extended E-Document Service Flow (Document Sending Profile) fails
