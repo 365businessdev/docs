@@ -7,6 +7,39 @@ Für Microsoft Dynamics 365 Business Central On-Premise Umgebungen werden sogena
     <strong>Gut zu wissen</strong>Es ist wichtig die korrekte Version, für die bei Ihnen eingesetzte Plattform Version von Microsoft Dynamics 365 Business Central, zu verwenden. Runtime Packages sind nur für die Version für die Sie kompiliert wurden kompatibel.<br>Der Einsatz in einer anderen Version kann zu Fehlern führen.
 </div>
 
+## Voraussetzungen
+
+Da alle 365 business development Apps als ISV-Module im ISV-Objektbereich bereitgestellt werden, ist eine Erweiterung der Microsoft Dynamics 365 Business Central-Lizenz erforderlich, um Zugriff auf den ISV-Objektbereich und die entsprechende App-Funktionalität zu erhalten.
+
+<div class="alert alert-notice">
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
+    <strong>Gut zu wissen</strong> Die Erweiterung der Microsoft Dynamics 365 Business Central-Kundenlizenz mit der 365 business development App-Lizenz ist nur für Microsoft Dynamics 365 Business Central On-Premise-Umgebungen notwendig und erfordert nicht, dass der Kunde die 365 business development App-Lizenz tatsächlich kauft.<br>
+    <br>
+    Die 365 business development App-Lizenz wird allen Microsoft Dynamics 365 Business Central-Kunden kostenlos zur Verfügung gestellt, solange eine gültige Microsoft Dynamics 365 Business Central-Kundenlizenz besteht.
+</div>
+
+Um 365 business development Apps in Microsoft Dynamics 365 Business Central On-Premise-Umgebungen auszuführen, muss die Microsoft Dynamics 365 Business Central-Kundenlizenz (`*.bclicense`) mit der entsprechenden 365 business development App-Lizenz erweitert werden. In der Regel wird dies von Ihrem Microsoft Dynamics 365 Business Central-Partner über das Microsoft Partner Source Business Center (PSBC) durchgeführt.
+
+<div class="alert alert-info">
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
+    <strong>Info</strong> Um Zugriff auf die 365 business development App-Lizenz zu erhalten, muss der Microsoft Dynamics 365 Business Central-Partner die 365 business development Partnervereinbarung unterzeichnet haben.<br>
+    <br>
+    Wenn Sie Microsoft Dynamics 365 Business Central-Partner sind und die 365 business development Partnervereinbarung noch nicht unterzeichnet haben, kontaktieren Sie uns bitte unter <a href="mailto:info@365businessdev.com">info@365businessdev.com</a>, um die Vereinbarung zu erhalten. Nach der Unterzeichnung erhalten Sie als autorisierter Reseller Zugriff auf die 365 business development App-Lizenz und können die Lizenzen Ihrer Kunden entsprechend erweitern.
+</div>
+
+### ISV-Modul
+
+Alle 365 business development Apps werden als ISV-Module bereitgestellt. Die folgende Tabelle listet den ISV-Anbieter, die Modul-ID, die ID und den Namen der 365 business development Apps auf, die Sie zur Erweiterung der Microsoft Dynamics 365 Business Central-Kundenlizenz (`*.bclicense`) verwenden können:
+
+| ISV-Anbieter | Modul-ID | ID | Name |
+| --- | --- | --- | --- |
+| 7058648 | 78954 | 5523650 | 365 business development Apps |
+
+<div class="alert alert-notice">
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
+    <strong>Gut zu wissen</strong> Seit Anfang 2025 werden die 365 business development Apps nicht mehr in einzelne ISV-Module für die Lizenzierung aufgeteilt. Stattdessen werden alle 365 business development Apps nun als ein einziges ISV-Modul mit der ID <code>5523650</code> bereitgestellt. Dies vereinfacht den Lizenzierungsprozess und ermöglicht die Nutzung aller 365 business development Apps, ohne diese einzeln lizenzieren zu müssen.
+</div>
+
 ## Installation
 
 Die Installation von Erweiterungen in Microsoft Dynamics 365 Business Central On-Premise Umgebungen findet über die Windows PowerShell statt. Um die Installation zu vereinfachen und das Fehlerpotential zu verringern stellen wir ein PowerShell Script, den **365 business development App Installer**, zur Verfügung, welches Sie zur Installation unserer Erweiterungen für Microsoft Dynamics 365 Business Central verwenden können.
