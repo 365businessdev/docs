@@ -1,5 +1,11 @@
 # 365 business E-Invoice Changelog
 
+## Version 25.2.389.20073
+
+- Fix BasisPeriodMeasure XML namespace
+- Optimize ZUGFeRD Export Validation
+- Feature #61346 Add support for "Charge (Item)", implemented as Document Level `SpecifiedTradeAllowanceCharge`
+
 ## Version 25.2.387.19971
 
 - Add support for Service Participant ID (Routing ID / Leitweg ID)
