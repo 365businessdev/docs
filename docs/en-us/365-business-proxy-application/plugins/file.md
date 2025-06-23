@@ -121,6 +121,12 @@ Returns `Codeunit "Temp Blob"` with the content of the file.
 
 ### Write file (*PostFile*)
 
+<div class="alert alert-warn">
+    <i class="fa-duotone fa-solid fa-triangle-exclamation fa-xl"></i>
+    <strong>Attention</strong>
+    Please note that the file size limit is 250 MB.
+</div>
+
 ```al
 success: Boolean := PostFile([clientId: Guid,] filePath: Text, file: Codeunit "Temp Blob")
 ```
