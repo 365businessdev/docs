@@ -1,5 +1,20 @@
 # 365 business Print Agent Changelog
 
+## Version 18.12.230.20314
+
+ - Feature #61448 - Add support for RAW printing using Text Generic printer driver.
+ - Allow change of Print Agent tenant ID in Print Agent Setup page. _(On-Premises only)_
+
+## Version 18.11.228.18870
+
+ - Feature #60500 - Add permission set mode for Printer Access Permissions.
+ - Remove obsoleted fields, controls and procedures (tag `18.8`)
+ - Feature #60569 - Add Report Outage feature
+
+## Version 18.10.222.17956
+
+ - Feature #3259 - Add Secure Print feature
+
 ## Version 18.9.215.16815
 
  - Task #59056 - Add print profile support for printer configurations.
