@@ -1,62 +1,75 @@
-# 365 business Print Agent
+# 365 Business Print Agent
 
-The `365 business Print Agent` app is adding printing capabilities and integrate your printer infrastructure to Microsoft Dynamics 365 Business Central.
+The `365 Business Print Agent` app adds printing capabilities and integrates your printer infrastructure with Microsoft Dynamics 365 Business Central.
+
+---
 
 ## App Dependencies
 
-To be able to create your own implementation you have to add a dependency to the `365 business Print Agent` app. You do this by adding the following to the `dependencies` node in your `app.json` file:
+To create your own implementation, add a dependency to the `365 Business Print Agent` app by including the following in the `dependencies` node of your `app.json` file:
 
 ```json
-    {
-      "id": "6fb30c19-f5d6-4e4c-b006-18fba4de1898",
-      "name": "365 business Print Agent",
-      "publisher": "365 business development",
-      "version": "18.0.0.0"
-    }
+{
+  "id": "6fb30c19-f5d6-4e4c-b006-18fba4de1898",
+  "name": "365 Business Print Agent",
+  "publisher": "365 Business Development",
+  "version": "18.0.0.0"
+}
 ```
+
+---
 
 ## Implementation
 
-The `365 business Print Agent` app is providing an internal API codeunit to allow integration custom specific business processes. For example you can print external PDF documents to a specified [Printer Configuration](https://docs.365businessdev.com/en-US/365-business-print-agent/printer-configuration/).
+The `365 Business Print Agent` app provides an internal API codeunit to allow integration with custom-specific business processes. For example, you can print external PDF documents to a specified [Printer Configuration](https://docs.365businessdev.com/en-US/365-business-print-agent/printer-configuration/).
 
-### Methods
+---
 
-The `bdev.Print Agent` codeunit object is providing the following public methods:
+## Methods
+
+### Overview
+
+The `bdev.Print Agent` codeunit object provides the following public methods:
 
 | Method | Description |
 | --- | --- |
 | [`IsPrinted(): Boolean`](#isprinted-boolean) | Returns the status of the last print job execution. |
-| [`PrintPdf(Text, Codeunit, Record)`](#printpdftext-codeunit-record) | Print PDF file, stored in `Temp Blob` codeunit, at specified `bdev.PrA Printer Configuration`. |
-| [`PrintPdf(Text, Codeunit, Integer, Record)`](#printpdftext-codeunit-integer-record) | Print specified number of copies of the PDF file, stored in `Temp Blob` codeunit, at specified `bdev.PrA Printer Configuration`. |
-| [`PrintPdf(Codeunit, Record)`](#printpdfcodeunit-record) | Print PDF file, stored in `Temp Blob` codeunit, at specified `bdev.PrA Printer Configuration`. |
-| [`PrintPdf(Codeunit, Integer, Record)`](#printpdfcodeunit-integer-record) | Print specified number of copies of the PDF file, stored in `Temp Blob` codeunit, at specified `bdev.PrA Printer Configuration`. |
-| [`PrintPdf(Text, InStream, Record)`](#printpdftext-instream-record) | Print PDF file stream at specified `bdev.PrA Printer Configuration`. |
-| [`PrintPdf(Text, InStream, Integer, Record)`](#printpdftext-instream-integer-record) | Print specified number of copies of the PDF file stream at specified `bdev.PrA Printer Configuration`. |
-| [`PrintPdf(InStream, Record)`](#printpdfinstream-record) | Print PDF file stream at specified `bdev.PrA Printer Configuration`. |
-| [`PrintPdf(InStream, Integer, Record)`](#printpdfinstream-integer-record) | Print specified number of copies of the PDF file stream at specified `bdev.PrA Printer Configuration`. |
-| [`PrintZPL(Text, Text, Record)`](#printzpltext-text-record) | Send Zebra Programming Language (ZPL) commands to specified Printer Configuration. |
-| [`PrintZPL(Text, Record)`](#printzpltext-record) | Send Zebra Programming Language (ZPL) commands to specified Printer Configuration. | 
+| [`PrintPdf(Text, Codeunit, Record)`](#printpdftext-codeunit-record) | Prints a PDF document in Temp Blob at the specified Printer Configuration. |
+| [`PrintPdf(Text, Codeunit, Integer, Record)`](#printpdftext-codeunit-integer-record) | Prints the specified number of copies of the PDF document in Temp Blob at the specified Printer Configuration. |
+| [`PrintPdf(Codeunit, Record)`](#printpdfcodeunit-record) | Prints a PDF document in Temp Blob at the specified Printer Configuration. |
+| [`PrintPdf(Codeunit, Integer, Record)`](#printpdfcodeunit-integer-record) | Prints the specified number of copies of the PDF document in Temp Blob at the specified Printer Configuration. |
+| [`PrintPdf(Text, InStream, Record)`](#printpdftext-instream-record) | Prints a PDF document stream at the specified Printer Configuration. |
+| [`PrintPdf(Text, InStream, Integer, Record)`](#printpdftext-instream-integer-record) | Prints the specified number of copies of the PDF document stream at the specified Printer Configuration. |
+| [`PrintPdf(InStream, Record)`](#printpdfinstream-record) | Prints a PDF document stream at the specified Printer Configuration. |
+| [`PrintPdf(InStream, Integer, Record)`](#printpdfinstream-integer-record) | Prints the specified number of copies of the PDF document stream at the specified Printer Configuration. |
+| [`PrintZPL(Text, Text, Record)`](#printzpltext-text-record) | Sends Zebra Programming Language (ZPL) commands to the specified Printer Configuration. |
+| [`PrintZPL(Text, Record)`](#printzpltext-record) | Sends Zebra Programming Language (ZPL) commands to the specified Printer Configuration. |
+| [`PrintRAW(Text, InStream, Record)`](#printrawtext-instream-record) | Prints RAW data stream at the specified Printer Configuration. |
+| [`PrintRAW(InStream, Record)`](#printrawinstream-record) | Prints RAW data stream at the specified Printer Configuration. |
+| [`PrintRAW(Text, Record)`](#printrawtext-record) | Prints RAW data at the specified Printer Configuration. |
 
-#### `IsPrinted(): Boolean`
+---
 
-Returns the status of the last print job execution.
+### Method Details
 
-##### Remarks
+#### IsPrinted() procedure
 
-Use GetLastErrorText() to get further information, if a print job has not been executed successfully.
+**Description:** Returns the status of the last print job execution.
 
-##### Return
+**Remarks:** Use `GetLastErrorText()` to get further information if a print job has not been executed successfully.
 
-True if previous print job has been executed successfully. Otherwise false.
+**Return:**
+- `True` if the previous print job has been executed successfully.
+- `False` otherwise.
 
-##### Example
+**Example:**
 
 ```al
 procedure MyCustomPrint(documentName: Text; var tempBlob: Codeunit "Temp Blob"; printerConfigurationCode: Text[250])
 var
     printerConfiguration: Record "bdev.PrA Printer Configuration";
     printAgent: Codeunit "bdev.Print Agent";
-    printJobFailedErr: Label 'The print job failed with following error message: %1', Comment = '%1 = Error message';
+    printJobFailedErr: Label 'The print job failed with the following error message: %1', Comment = '%1 = Error message';
 begin
     if (not printerConfiguration.Get(printerConfigurationCode)) then
         exit;
@@ -70,7 +83,7 @@ begin
         printerConfiguration
     );
 
-    if (not printAgent.IsPrinter()) then
+    if (not printAgent.IsPrinted()) then
         Error(
             printJobFailedErr,
             GetLastErrorText()
@@ -78,201 +91,194 @@ begin
 end;
 ```
 
-#### `PrintPdf(Text, Codeunit, Record)`
+#### PrintPdf(Text, Codeunit, Record) procedure
 
-Print PDF file, stored in `Temp Blob` codeunit, at specified `bdev.PrA Printer Configuration`.
+**Description:** Prints a PDF document in Temp Blob at the specified `bdev.PrA Printer Configuration`.
 
-##### Remarks
+**Remarks:** The `documentName` parameter is used only for the history view in the 365 Business Print Agent application.
 
-The `documentName` parameter is used only for the history view in the 365 business Print Agent application.
-
-##### Example
+**Example:**
 
 ```al
 printAgent.PrintPdf(documentName, tempBlob, printerConfiguration);
 ```
 
-#### `PrintPdf(Text, Codeunit, Integer, Record)`
+#### PrintPdf(Text, Codeunit, Integer, Record) procedure
 
-Print specifed number of copies of the PDF file, stored in `Temp Blob` codeunit, at specified `bdev.PrA Printer Configuration`.
+**Description:** Prints the specified number of copies of the PDF document in Temp Blob at the specified `bdev.PrA Printer Configuration`.
 
-##### Remarks
+**Remarks:**
+- The `documentName` parameter is used only for the history view in the 365 Business Print Agent application.
+- The `noOfCopies` parameter specifies the number of __additional__ copies to be printed. For example, if you want to print just the original document, specify `noOfCopies = 0`. To print the original document and one copy, specify `noOfCopies = 1`.
 
-The `documentName` parameter is used only for the history view in the 365 business Print Agent application.
+#### PrintPdf(Codeunit, Record) procedure
 
-`noOfCopies` parameter specifies the number of __additional__ copies to be printed. For example if you want to print just the original document specify `noOfCopies` = 0, but to print the original document and one copy of the document specify `noOfCopies` = 1.
+**Description:** Prints a PDF document in Temp Blob at the specified `bdev.PrA Printer Configuration`.
 
-#### `PrintPdf(Codeunit, Record)`
+**Remarks:** If the `documentName` parameter is omitted, _External PDF Document_ will be used as the document name. The name of the document is displayed in the history view of the 365 Business Print Agent application.
 
-Print PDF file, stored in `Temp Blob` codeunit, at specified `bdev.PrA Printer Configuration`.
+#### PrintPdf(Codeunit, Integer, Record) procedure
 
-##### Remarks
+**Description:** Prints the specified number of copies of the PDF document in Temp Blob at the specified `bdev.PrA Printer Configuration`.
 
-If the `documentName` parameter is omitted, _External PDF Document_ will be used as the document name. The name of the document is displayed in the history view of the 365 business Print Agent application.
+**Remarks:**
+- If the `documentName` parameter is omitted, _External PDF Document_ will be used as the document name. The name of the document is displayed in the history view of the 365 Business Print Agent application.
+- The `noOfCopies` parameter specifies the number of __additional__ copies to be printed. For example, if you want to print just the original document, specify `noOfCopies = 0`. To print the original document and one copy, specify `noOfCopies = 1`.
 
-#### `PrintPdf(Codeunit, Integer, Record)`
+#### PrintPdf(Text, InStream, Record) procedure
 
-Print specified number of copies of the PDF file, stored in `Temp Blob` codeunit, at specified `bdev.PrA Printer Configuration`.
+**Description:** Prints a PDF document stream at the specified `bdev.PrA Printer Configuration`.
 
-##### Remarks
+**Remarks:** The `documentName` parameter is used only for the history view in the 365 Business Print Agent application.
 
-If the `documentName` parameter is omitted, _External PDF Document_ will be used as the document name. The name of the document is displayed in the history view of the 365 business Print Agent application.
-
-`noOfCopies` parameter specifies the number of __additional__ copies to be printed. For example if you want to print just the original document specify `noOfCopies` = 0, but to print the original document and one copy of the document specify `noOfCopies` = 1.
-
-#### `PrintPdf(Text, InStream, Record)`
-
-Print PDF file stream at specified `bdev.PrA Printer Configuration`.
-
-##### Remarks
-
-The `documentName` parameter is used only for the history view in the 365 business Print Agent application.
-
-##### Example
+**Example:**
 
 ```al
 printAgent.PrintPdf(documentName, streamIn, printerConfiguration);
 ```
 
-#### `PrintPdf(Text, InStream, Integer, Record)`
+#### PrintPdf(Text, InStream, Integer, Record) procedure
 
-Print specified number of copies of the PDF file stream at specified `bdev.PrA Printer Configuration`.
+**Description:** Prints the specified number of copies of the PDF document stream at the specified `bdev.PrA Printer Configuration`.
 
-##### Remarks
+**Remarks:**
+- The `documentName` parameter is used only for the history view in the 365 Business Print Agent application.
+- The `noOfCopies` parameter specifies the number of __additional__ copies to be printed. For example, if you want to print just the original document, specify `noOfCopies = 0`. To print the original document and one copy, specify `noOfCopies = 1`.
 
-The `documentName` parameter is used only for the history view in the 365 business Print Agent application.
-
-`noOfCopies` parameter specifies the number of __additional__ copies to be printed. For example if you want to print just the original document specify `noOfCopies` = 0, but to print the original document and one copy of the document specify `noOfCopies` = 1.
-
-##### Example
+**Example:**
 
 ```al
 printAgent.PrintPdf(documentName, streamIn, noOfCopies, printerConfiguration);
 ```
 
-#### `PrintPdf(InStream, Record)`
+#### PrintPdf(InStream, Record) procedure
 
-Print PDF file stream at specified `bdev.PrA Printer Configuration`.
+**Description:** Prints a PDF document stream at the specified `bdev.PrA Printer Configuration`.
 
-##### Remarks
+**Remarks:** If the `documentName` parameter is omitted, _External PDF Document_ will be used as the document name. The name of the document is displayed in the history view of the 365 Business Print Agent application.
 
-If the `documentName` parameter is omitted, _External PDF Document_ will be used as the document name. The name of the document is displayed in the history view of the 365 business Print Agent application.
-
-##### Example
+**Example:**
 
 ```al
 printAgent.PrintPdf(streamIn, printerConfiguration);
 ```
 
-#### `PrintPdf(InStream, Integer, Record)`
+#### PrintPdf(InStream, Integer, Record) procedure
 
-Print PDF file stream at specified `bdev.PrA Printer Configuration`.
+**Description:** Prints the specified number of copies of the PDF document stream at the specified `bdev.PrA Printer Configuration`.
 
-##### Remarks
+**Remarks:**
+- If the `documentName` parameter is omitted, _External PDF Document_ will be used as the document name. The name of the document is displayed in the history view of the 365 Business Print Agent application.
+- The `noOfCopies` parameter specifies the number of __additional__ copies to be printed. For example, if you want to print just the original document, specify `noOfCopies = 0`. To print the original document and one copy, specify `noOfCopies = 1`.
 
-If the `documentName` parameter is omitted, _External PDF Document_ will be used as the document name. The name of the document is displayed in the history view of the 365 business Print Agent application.
-
-`noOfCopies` parameter specifies the number of __additional__ copies to be printed. For example if you want to print just the original document specify `noOfCopies` = 0, but to print the original document and one copy of the document specify `noOfCopies` = 1.
-
-##### Example
+**Example:**
 
 ```al
 printAgent.PrintPdf(streamIn, noOfCopies, printerConfiguration);
 ```
 
-#### `PrintZPL(Text, Text, Record)`
+#### PrintZPL(Text, Text, Record) procedure
 
-Send ZPL commands to specified `bdev.PrA Printer Configuration`.
+**Description:** Sends ZPL commands to the specified `bdev.PrA Printer Configuration`.
 
-> **Important**<br>Sending ZPL commands is only supported for Zebra printers. Sending ZPL commands to other printers may cause unforeseen errors to occur.
+> **Important**<br>Sending ZPL commands is only supported for Zebra printers. Sending ZPL commands to other printers may cause unforeseen errors.
 
-##### Remarks
+**Remarks:** The `documentName` parameter is used only for the history view in the 365 Business Print Agent application.
 
-The `documentName` parameter is used only for the history view in the 365 business Print Agent application.
+**Additional Resources:**
 
-##### Additional Resources
-
-Zebra Programming Language (ZPL) is the command language used by all ZPL compatible printers. It is a command based language used by the printers as instructions to create the images printed on the labels.
-You find ZPL Command Information and Details at the following link:
+Zebra Programming Language (ZPL) is the command language used by all ZPL-compatible printers. It is a command-based language used by the printers as instructions to create the images printed on the labels.
+You can find ZPL Command Information and Details at the following link:
 
 - https://supportcommunity.zebra.com/s/article/ZPL-Command-Information-and-DetailsV2
 
-##### Example
+**Example:**
 
 ```al
 printAgent.PrintZPL(documentName, zplCommands, printerConfiguration);
 ```
 
-#### `PrintZPL(Text, Record)`
+#### PrintZPL(Text, Record) procedure
 
-Send ZPL commands to specified `bdev.PrA Printer Configuration`.
+**Description:** Sends ZPL commands to the specified `bdev.PrA Printer Configuration`.
 
-> **Important**<br>Sending ZPL commands is only supported for Zebra printers. Sending ZPL commands to other printers may cause unforeseen errors to occur.
+> **Important**<br>Sending ZPL commands is only supported for Zebra printers. Sending ZPL commands to other printers may cause unforeseen errors.
 
-##### Remarks
+**Remarks:**
+- If the `documentName` parameter is omitted, _ZPL commands_ will be used as the document name. The name of the document is displayed in the history view of the 365 Business Print Agent application.
+- The `zplCommands` parameter contains the ZPL commands to be sent to the printer.
 
-If the `documentName` parameter is omitted, _ZPL commands_ will be used as the document name. The name of the document is displayed in the history view of the 365 business Print Agent application.
+**Additional Resources:**
 
-##### Additional Resources
-
-Zebra Programming Language (ZPL) is the command language used by all ZPL compatible printers. It is a command based language used by the printers as instructions to create the images printed on the labels.
-You find ZPL Command Information and Details at the following link:
+Zebra Programming Language (ZPL) is the command language used by all ZPL-compatible printers. It is a command-based language used by the printers as instructions to create the images printed on the labels.
+You can find ZPL Command Information and Details at the following link:
 
 - https://supportcommunity.zebra.com/s/article/ZPL-Command-Information-and-DetailsV2
 
-##### Example
+**Example:**
 
 ```al
 printAgent.PrintZPL(zplCommands, printerConfiguration);
 ```
 
-### Example
+#### PrintRAW(Text, InStream, Record) procedure
 
-#### Print external PDF documents from Record Link
+**Description:** Prints RAW data stream at the specified `bdev.PrA Printer Configuration`.
+
+<div class="alert alert-info">
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
+    <strong>Info</strong> Available starting version 18.12.230.20314.
+</div>
+
+**Remarks:** The `documentName` parameter is used only for the history view in the 365 Business Print Agent application.
+
+**Example:**
 
 ```al
-procedure PrintRecordLink(recordLink: Record "Record Link")
-var
-    printAgent: Codeunit "bdev.Print Agent";
-    pdfDocumentStream: InStream;
-begin
-    if (not recordLink.URL1.EndsWith('.pdf')) then
-        Error('Unsupported file type. Direct printing is only available for PDF files.');
-
-    pdfDocumentStream := DownloadPdfDocumentFromUrl(recordLink.URL1);
-    printAgent.PrintPdf(recordLink.Description, pdfDocumentStream, GetPrinterConfiguration());
-end;
-
-local procedure DownloadPdfDocumentFromUrl(url: Text) pdfDocumentStream: InStream
-var
-    client: HttpClient;
-    response: HttpResponseMessage;
-begin
-    if (not client.Get(url, response)) then
-        Error('Downloading PDF document from URL failed.');
-
-    if (not response.IsSuccessStatusCode()) then
-        Error(response.ReasonPhrase());
-
-    if (not response.Content.ReadAs(pdfDocumentStream)) then
-        Error('Failed to read content.');
-end;
-
-local procedure GetPrinterConfiguration() PrinterConfiguration: Record "bdev.PrA Printer Configuration"
-begin
-    PrinterConfiguration.Reset();
-    PrinterConfiguration.SetRange(Enabled, true);
-    PrinterConfiguration.FindFirst();
-end;
+printAgent.PrintRAW(documentName, stream, printerConfiguration);
 ```
+
+#### PrintRAW(InStream, Record) procedure
+
+**Description:** Prints RAW data stream at the specified `bdev.PrA Printer Configuration`.
+
+<div class="alert alert-info">
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
+    <strong>Info</strong> Available starting version 18.12.230.20314.
+</div>
+
+**Remarks:** If the `documentName` parameter is omitted, _External RAW Data_ will be used as the document name. The name of the document is displayed in the history view of the 365 Business Print Agent application.
+
+**Example:**
+
+```al
+printAgent.PrintRAW(stream, printerConfiguration);
+```
+
+#### PrintRAW(Text, Record) procedure
+
+**Description:** Prints RAW data at the specified `bdev.PrA Printer Configuration`.
+
+<div class="alert alert-info">
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
+    <strong>Info</strong> Available starting version 18.12.230.20314.
+</div>
+
+**Remarks:** If the `documentName` parameter is omitted, _External RAW Data_ will be used as the document name. The name of the document is displayed in the history view of the 365 Business Print Agent application.
+
+**Example:**
+
+```al
+printAgent.PrintRAW(rawData, printerConfiguration);
+```
+
+---
 
 ## Events
 
-Additionally `365 business Print Agent` app is providing an codeunit to subscribe to various events.
+### Overview
 
-### Event Publisher
-
-The `bdev.Print Agent Events` codeunit object is providing the following event publisher:
+The `365 Business Print Agent` app provides a codeunit to subscribe to various events.
 
 | Event Publisher | Description |
 | --- | --- |
@@ -280,47 +286,41 @@ The `bdev.Print Agent Events` codeunit object is providing the following event p
 | [`PrinterOfflineEvent(Text, Text, Text)`](#printerofflineeventtext-text-text) | Event raised when a printer goes offline. |
 | [`PrinterFailureEvent(Text, Text, Text)`](#printerfailureeventtext-text-text) | Event raised when a printer goes into failure mode. |
 
+---
+
+### Event Details
+
 #### `PrintAgentClientOfflineEvent(Text, DateTime)`
 
-Event raised when a Print Agent Client goes offline.
+**Description:** Event raised when a Print Agent Client goes offline.
 
-##### Parameter
+**Parameters:**
 
 | Parameter | Description |
 | --- | --- |
-| `printAgentName` | Name of the print agent client service. | 
-| `lastSeen` | Date/time the print agent client service was last seen. | 
+| `printAgentName` | Name of the print agent client service. |
+| `lastSeen` | Date/time the print agent client service was last seen. |
 
 #### `PrinterOfflineEvent(Text, Text, Text)`
 
-Event raised when a printer goes offline.
+**Description:** Event raised when a printer goes offline.
 
-##### Parameter
+**Parameters:**
 
 | Parameter | Description |
 | --- | --- |
-| `printAgentName` | Name of the print agent client service, hosting the printer. | 
-| `printerName` | Name of the printer. | 
-| `status` | Current status of the printer, e.g. 'Not available' of 'Offline'. |
-
-<div class="alert alert-info">
-    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
-    <strong>Info</strong>Status can be a comma separated list of status values. Refer to Enum 'bdev.Printer Status' for list of possible status.
-</div>
+| `printAgentName` | Name of the print agent client service hosting the printer. |
+| `printerName` | Name of the printer. |
+| `status` | Current status of the printer, e.g., 'Not available' or 'Offline'. |
 
 #### `PrinterFailureEvent(Text, Text, Text)`
 
-Event raised when a printer goes into failure mode.
+**Description:** Event raised when a printer goes into failure mode.
 
-##### Parameter
+**Parameters:**
 
 | Parameter | Description |
 | --- | --- |
-| `printAgentName` | Name of the print agent client service, hosting the printer. | 
-| `printerName` | Name of the printer. | 
-| `status` | Current status of the printer, e.g. 'Low Toner'. |
-
-<div class="alert alert-info">
-    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
-    <strong>Info</strong>Status can be a comma separated list of status values. Refer to Enum 'bdev.Printer Status' for list of possible status.
-</div>
+| `printAgentName` | Name of the print agent client service hosting the printer. |
+| `printerName` | Name of the printer. |
+| `status` | Current status of the printer, e.g., 'Low Toner'. |
