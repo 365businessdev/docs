@@ -1,5 +1,11 @@
 # 365 business E-Invoice Changelog
 
+## Version 25.2.393.20399
+
+- Fix remove Description from ApplicableTradePaymentDiscountTerms
+- Do not export lines with zero quantity
+- Fix GetVATAmntLines() for multiple VAT rates
+
 ## Version 25.2.389.20073
 
 - Fix BasisPeriodMeasure XML namespace
