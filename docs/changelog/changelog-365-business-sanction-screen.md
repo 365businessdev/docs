@@ -1,5 +1,12 @@
 # 365 business Sanction Screen Changelog
 
+## Version 18.1.140.20403
+
+- Add "Data Catalogs Last Updated"
+- Add No. of enabled Datasets counter
+- Add multi-select Enable/Disable Data Catalogs
+- Add feature #61564 - Default state for unscreened entities
+
 ## Version 18.1.129.18464
 
 - #60196 Show checklist items in control add-in, only if they are more than one item
