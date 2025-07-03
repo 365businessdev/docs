@@ -27,6 +27,28 @@ Additionally, you will find useful information about the current configuration a
 
 ![365 business Sanction Screen - Setup](/assets/images/365-business-sanction-screen/sanctionscreen.setup.en-US.png)
 
+### Unscreened Entity Status
+
+Using the **Unscreened Entity Status** setting, you can define how Microsoft Dynamics 365 Business Central should handle records that have not yet been checked. This primarily concerns new entities that have not yet been screened against sanctions lists.
+
+![Base Setup - Unscreened Entity Status](/assets/images/365-business-sanction-screen/73fc2a26-9a38-4d6b-95f9-a87b3952aeca.png)
+
+#### Option - No Data Available
+
+In this setting, the status of a record that has not yet been checked is displayed as **No Data Available**. This means that the record has not yet been screened against sanctions lists, and no information about potential matches is available.
+
+![No Data Available](/assets/images/365-business-sanction-screen/a984ff8a-4edd-4a65-88b8-3ec7c71505db.png)
+
+When used, for example, in sales documents, the user is informed based on the selection in [Match Behavior](#match-behavior) and must confirm that the record can be processed further without screening.
+
+#### Option - Blocked
+
+In this setting, the status of a record that has not yet been checked is displayed as **Blocked**. This means that the record cannot be processed further until it has been screened against sanctions lists.
+
+![Blocked](/assets/images/365-business-sanction-screen/decea6c2-896b-4fc8-a675-d8954124380f.png)
+
+When used, for example, in sales documents, the user receives an error message stating that the record has not yet been checked and cannot be processed further. The match must first be reviewed before continuing.
+
 ### Sales & Receivables
 
 In the **Sales & Receivables** group, you can specify how Microsoft Dynamics 365 Business Central should handle potential matches and hits in the sanctions list check within sales documents and customers.

@@ -27,6 +27,28 @@ Zusätzlich finden Sie nützliche Informationen zur aktuellen Konfiguration und 
 
 ![365 business Sanction Screen - Einrichtung](/assets/images/365-business-sanction-screen/sanctionscreen.setup.de-DE.png)
 
+### Status ungeprüfter Datensätze
+
+Über die Einstellung **Status ungeprüfter Datensätze** können Sie festlegen, wie Microsoft Dynamics 365 Business Central mit Datensätzen umgehen soll, die noch nicht geprüft wurden. Dies betrifft insbesondere neue Entitäten, die noch nicht auf Sanktionslisten geprüft wurden.
+
+![Grundeinrichtung - Status ungeprüfter Datensätze](/assets/images/365-business-sanction-screen/94b5d4d1-13f9-4181-9cb0-741657a0f5d1.png)
+
+#### Option - Keine Daten verfügbar
+
+In dieser Einstellung wird der Status eines Datensatzes, der noch nicht geprüft wurde, als **Keine Daten verfügbar** angezeigt. Dies bedeutet, dass der Datensatz noch nicht auf Sanktionslisten geprüft wurde und keine Informationen zu möglichen Übereinstimmungen vorliegen.
+
+![Keine Daten verfügbar](/assets/images/365-business-sanction-screen/4e761f85-3780-4008-aed3-692009a5c16b.png)
+
+Bei der Verwendung, zum Beispiel in Verkaufsbelegen, wird der Anwender, abhängig von der Auswahl im [Trefferverhalten](#trefferverhalten), darüber informiert und muss bestätigen, dass der Datensatz auch ohne Prüfung weiterverarbeitet werden kann.
+
+#### Option - Gesperrt
+
+In dieser Einstellung wird der Status eines Datensatzes, der noch nicht geprüft wurde, als **Gesperrt** angezeigt. Dies bedeutet, dass der Datensatz nicht weiterverarbeitet werden kann, bis er auf Sanktionslisten geprüft wurde.
+
+![Gesperrt](/assets/images/365-business-sanction-screen/221730ec-deea-46da-9001-be4424f37aee.png)
+
+Bei der Verwendung, zum Beispiel in Verkaufsbelegen, erhält der Anwender eine Fehlermeldung, dass der Datensatz noch nicht geprüft wurde und nicht weiterverarbeitet werden kann. Der Treffer muss zunächst geprüft werden, um weiterzuarbeiten.
+
 ### Debitoren & Verkauf
 
 In der Gruppe **Debitoren & Verkauf** können Sie festlegen, wie Microsoft Dynamics 365 Business Central mit möglichen Übereinstimmungen und Treffern bei der Sanktionslistenprüfung, innerhalb von Verkaufsbelegen und Debitoren umgehen soll.
