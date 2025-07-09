@@ -146,6 +146,8 @@
       items:
         - name: Ersteinrichtung
           href: 365-business-print-agent/print-agent-config-firststart.md
+        - name: Voraussetzungen
+          href: 365-business-print-agent/print-agent-config-requirements.md
         - name: Verwaltung von Druckern
           href: 365-business-print-agent/print-agent-config-printers.md
         - name: Druckprofil

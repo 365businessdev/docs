@@ -33,20 +33,20 @@ The `bdev.Print Agent` codeunit object provides the following public methods:
 
 | Method | Description |
 | --- | --- |
-| [`IsPrinted(): Boolean`](#isprinted-boolean) | Returns the status of the last print job execution. |
-| [`PrintPdf(Text, Codeunit, Record)`](#printpdftext-codeunit-record) | Prints a PDF document in Temp Blob at the specified Printer Configuration. |
-| [`PrintPdf(Text, Codeunit, Integer, Record)`](#printpdftext-codeunit-integer-record) | Prints the specified number of copies of the PDF document in Temp Blob at the specified Printer Configuration. |
-| [`PrintPdf(Codeunit, Record)`](#printpdfcodeunit-record) | Prints a PDF document in Temp Blob at the specified Printer Configuration. |
-| [`PrintPdf(Codeunit, Integer, Record)`](#printpdfcodeunit-integer-record) | Prints the specified number of copies of the PDF document in Temp Blob at the specified Printer Configuration. |
-| [`PrintPdf(Text, InStream, Record)`](#printpdftext-instream-record) | Prints a PDF document stream at the specified Printer Configuration. |
-| [`PrintPdf(Text, InStream, Integer, Record)`](#printpdftext-instream-integer-record) | Prints the specified number of copies of the PDF document stream at the specified Printer Configuration. |
-| [`PrintPdf(InStream, Record)`](#printpdfinstream-record) | Prints a PDF document stream at the specified Printer Configuration. |
-| [`PrintPdf(InStream, Integer, Record)`](#printpdfinstream-integer-record) | Prints the specified number of copies of the PDF document stream at the specified Printer Configuration. |
-| [`PrintZPL(Text, Text, Record)`](#printzpltext-text-record) | Sends Zebra Programming Language (ZPL) commands to the specified Printer Configuration. |
-| [`PrintZPL(Text, Record)`](#printzpltext-record) | Sends Zebra Programming Language (ZPL) commands to the specified Printer Configuration. |
-| [`PrintRAW(Text, InStream, Record)`](#printrawtext-instream-record) | Prints RAW data stream at the specified Printer Configuration. |
-| [`PrintRAW(InStream, Record)`](#printrawinstream-record) | Prints RAW data stream at the specified Printer Configuration. |
-| [`PrintRAW(Text, Record)`](#printrawtext-record) | Prints RAW data at the specified Printer Configuration. |
+| <h7 id="isprinted-boolean">`IsPrinted(): Boolean`</h7> | Returns the status of the last print job execution. |
+| <h7 id="printpdftext-codeunit-record">`PrintPdf(Text, Codeunit, Record)`</h7> | Prints a PDF document in Temp Blob at the specified Printer Configuration. |
+| <h7 id="printpdftext-codeunit-integer-record">`PrintPdf(Text, Codeunit, Integer, Record)`</h7> | Prints the specified number of copies of the PDF document in Temp Blob at the specified Printer Configuration. |
+| <h7 id="printpdfcodeunit-record">`PrintPdf(Codeunit, Record)`</h7> | Prints a PDF document in Temp Blob at the specified Printer Configuration. |
+| <h7 id="printpdfcodeunit-integer-record">`PrintPdf(Codeunit, Integer, Record)`</h7> | Prints the specified number of copies of the PDF document in Temp Blob at the specified Printer Configuration. |
+| <h7 id="printpdftext-instream-record">`PrintPdf(Text, InStream, Record)`</h7> | Prints a PDF document stream at the specified Printer Configuration. |
+| <h7 id="printpdftext-instream-integer-record">`PrintPdf(Text, InStream, Integer, Record)`</h7> | Prints the specified number of copies of the PDF document stream at the specified Printer Configuration. |
+| <h7 id="printpdfinstream-record">`PrintPdf(InStream, Record)`</h7> | Prints a PDF document stream at the specified Printer Configuration. |
+| <h7 id="printpdfinstream-integer-record">`PrintPdf(InStream, Integer, Record)`</h7> | Prints the specified number of copies of the PDF document stream at the specified Printer Configuration. |
+| <h7 id="printzpltext-text-record">`PrintZPL(Text, Text, Record)`</h7> | Sends Zebra Programming Language (ZPL) commands to the specified Printer Configuration. |
+| <h7 id="printzpltext-record">`PrintZPL(Text, Record)`</h7> | Sends Zebra Programming Language (ZPL) commands to the specified Printer Configuration. |
+| <h7 id="printrawtext-instream-record">`PrintRAW(Text, InStream, Record)`</h7> | Prints RAW data stream at the specified Printer Configuration. |
+| <h7 id="printrawinstream-record">`PrintRAW(InStream, Record)`</h7>| Prints RAW data stream at the specified Printer Configuration. |
+| <h7 id="printrawtext-record">`PrintRAW(Text, Record)`</h7> | Prints RAW data at the specified Printer Configuration. |
 
 ---
 

@@ -146,6 +146,8 @@
       items:
         - name: Quick Start
           href: 365-business-print-agent/print-agent-config-firststart.md
+        - name: Requirements
+          href: 365-business-print-agent/print-agent-config-requirements.md
         - name: Printer Management
           href: 365-business-print-agent/print-agent-config-printers.md
         - name: Print Profile
