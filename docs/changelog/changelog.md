@@ -26,6 +26,7 @@
 - [365 business Proxy Application Change Log](changelog-365-business-proxy-application.md)
 - [365 business E-Invoice Change Log](changelog-365-business-e-invoice.md)
 - [365 business Sanction Screen Change Log](changelog-365-business-sanction-screen.md)
+- [365 business Banking Change Log](changelog-365-business-banking.md)
 
 ## Versioning
 

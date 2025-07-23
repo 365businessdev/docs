@@ -1,4 +1,4 @@
-# Bankkontoverbindung in 365 business Banking herstellen
+# Bankkontoverbindung herstellen
 
 Um Banktransaktionen bzw. Kontoumsätze abzurufen und Zahlungen zu initiieren, müssen Sie zunächst eine Verbindung zu Ihrer Bank herstellen. Diese Verbindung erfolgt über die [finAPI](https://www.finapi.io/), die als Schnittstelle zwischen Microsoft Dynamics 365 Business Central und Ihrer Bank fungiert.
 

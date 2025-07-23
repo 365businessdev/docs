@@ -27,7 +27,7 @@ Die finAPI GmbH gehört heute zu den führenden Providern von Open Banking und O
 
 Erfahren Sie mehr über die Funktionsweise der Integration in [Bankanbindung](banking-howitworks.md).
 
-# Siehe auch
+## Siehe auch
 
 - [Bankanbindung](banking-howitworks.md)
 - [Unterstützte Banken](supported-banks.md)

@@ -1,4 +1,4 @@
-# SEPA Purpose Code
+# SEPA Purpose Codes
 
 Der SEPA Purpose Code wird verwendet, um den Zweck einer SEPA-Überweisung zu identifizieren. Dieser Code ist optional und kann verwendet werden, um den Zweck der Zahlung zu spezifizieren. Die Verwendung des SEPA Purpose Codes kann die Zuordnung von Zahlungen zu offenen Posten oder Sachkonten verbessern und die Effizienz der Zahlungsabstimmung erhöhen. 
 
@@ -36,7 +36,7 @@ Gehen Sie wie folgt vor, um SEPA Purpose Codes in 365 business Banking zu verwal
 
 Eine vollständige Liste der SEPA Purpose Codes finden Sie in der [ISO 20022 Dokumentation](https://www.iso20022.org/catalogue-messages/additional-content-messages/external-code-sets).
 
-# Siehe auch
+## Siehe auch
 
 - [ZKA Code (Geschäftsvorfallcode)](zka-code.md)
 - [Zahlungscode Zuordnung](../payment-code-mapping.md)

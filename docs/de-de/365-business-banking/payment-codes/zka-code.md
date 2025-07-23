@@ -1,4 +1,4 @@
-# ZKA Code (Geschäftsvorfallcode)
+# ZKA Codes (Geschäftsvorfallcodes)
 
 Der ZKA-Code (Geschäftsvorfallcode, GV-Code) ist eine dreistellige numerische Kennung im deutschen Zahlungsverkehr, die die Art des Bankgeschäfts beschreibt.
 Er stammt aus der FinTS/HBCI- und DFÜ-Spezifikation der Deutschen Kreditwirtschaft (ehemals ZKA). Die Verwendung des ZKA-Codes ist optional, aber empfohlen, um die Zuordnung von Zahlungen zu offenen Posten oder Sachkonten zu verbessern.
@@ -34,7 +34,7 @@ Gehen Sie wie folgt vor, um ZKA-Codes in 365 business Banking zu verwalten:
 | **400** | Charge / Fee                           |
 
 
-# Siehe auch
+## Siehe auch
 
 - [SEPA Purpose Code](sepa-purpose-code.md)
 - [Zahlungscode Zuordnung](../payment-code-mapping.md)

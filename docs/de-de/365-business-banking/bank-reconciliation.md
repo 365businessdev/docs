@@ -1,4 +1,4 @@
-# Banktransaktionen abrufen
+# Bankkontoabstimmung
 
 Mit 365 business Banking können Sie Banktransaktionen abrufen und in der Zahlungsabstimmung in Microsoft Dynamics 365 Business Central verwenden. Dies ermöglicht eine effiziente Verwaltung Ihrer Bankkonten und eine nahtlose Integration in Ihre Finanzprozesse. 
 
@@ -50,7 +50,7 @@ Sofern der Ausgleich akzeptiert und die Bankabstimmung gebucht wird, werden die 
 
 Sie erhalten eine Zahlung von einem Debitor auf Ihr Bankkonto. Die Zahlung wird an hand des Verwendungszwecks der Banktransaktion dem Debitor zugeordnet. Wenn Sie die Zahlung verbuchen, wird geprüft, ob das Debitor Bankkonto bereits existiert. Falls nicht, wird es automatisch erstellt und die Bankkontoinformationen (u.A. IBAN, BIC/SWIFT Code) werden aus der Banktransaktion übernommen. 
 
-### Zahlungscode Zuweisung
+### Zahlungscode Zuordnung
 
 Im Rahmen einer SEPA Zahlung werden neben dem Verwendungszweck zusätzliche Zahlungscodes übermittelt, die zur Identifizierung der Zahlung verwendet werden. Im Rahmen der Zahlungsabstimmung können diese Codes verwendet werden, um die Zuordnung der Banktransaktionen zu den offenen Posten oder Sachkonten zu verbessern.
 
@@ -62,41 +62,15 @@ Folgende Zahlungscodes werden unterstützt:
 - **SEPA Purpose Code**: Der SEPA Purpose Code wird verwendet, um den Zweck der SEPA Überweisung zu identifizieren. Dieser Code ist optional und kann verwendet werden, um den Zweck der Zahlung zu spezifizieren.
   Weitere Informationen, siehe [SEPA Purpose Code](payment-codes/sepa-purpose-code.md).
 
-Über die Seite **Zahlungscode Zuweisung** kann eine Zuordnung von Zahlungscodes zu Kontoart und Kontonr. vorgenommen werden. Dies ermöglicht eine genauere Zuordnung der Banktransaktionen zu den entsprechenden Konten und verbessert die Effizienz der Abstimmung.
+Über die Seite **Zahlungscode Zuordnung** kann eine Zuordnung von Zahlungscodes zu Kontoart und Kontonr. vorgenommen werden. Dies ermöglicht eine genauere Zuordnung der Banktransaktionen zu den entsprechenden Konten und verbessert die Effizienz der Abstimmung.
 
 Weitere Informationen finden Sie in der Dokumentation zur [Zahlungscode Zuordnung](payment-code-mapping.md).
 
-## Automatisierung
+## Siehe auch
 
-Das Abrufen von Banktransaktionen und der automatische Abgleich kann mit 365 business Banking automatisiert werden. Dies ermöglicht eine regelmäßige Aktualisierung der Banktransaktionen und eine nahtlose Integration in Ihre Finanzprozesse. Hierzu wird pro Bankkonto ein Aufgabenwarteschlangenposten erstellt, der regelmäßig die Banktransaktionen abruft, das Zahlungsabstimmungsbuch.-Blatt aktualisiert und die Banktransaktionen automatisch abgleicht.
-
-### Schritt-für-Schritt-Anleitung
-
-Gehen Sie wie folgt vor, um die Automatisierung für das Abrufen von Banktransaktionen einzurichten:
-
-1. Wählen Sie **Bankkonten** in der Suche von Microsoft Dynamics 365 Business Central aus.
-2. Wählen Sie das Bankkonto aus, für das Sie die Automatisierung einrichten möchten.
-3. Wählen Sie unter **Aktionen** die Aktion **Banktransaktionsabruf automatisieren**.
-4. Geben Sie die gewünschten Filter und die Option für den automatischen Abgleich an.
-   ![Banktransaktionsabruf automatisieren](/assets/images/365-business-banking/retrieve-bank-transactions.en-US.png)
-5. Wählen Sie **OK**, um die Einstellungen zu bestätigen.
-6. Wählen Sie **Ja**, um den erstellten Aufgabenwarteschlangenposten anzuzeigen.
-   ![Aufgabenwarteschlangenposten anzeigen](/assets/images/365-business-banking/retrieve-bank-transactions-open-job-queue-entry.en-US.png)
-7. Überprüfen Sie den Aufgabenwarteschlangenposten und stellen Sie sicher, dass die Einstellungen korrekt sind.
-8. Wählen Sie **Status auf 'Bereit' festlegen**, um die Automatisierung zu aktivieren.
-
-
-<div class="alert alert-info">
-    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
-    <strong>Hinweis</strong>
-    Der Aufgabenwarteschlangenposten wird standardmäßig auf täglichen Abruf eingestellt. Sie können jedoch die Häufigkeit des Abrufs anpassen, indem Sie die Einstellungen im Aufgabenwarteschlangenposten ändern.
-</div>
-
-# Siehe auch
-
+- [Bankkontoabstimmung automatisieren](bank-reconciliation-automation.md)
 - [Banking Benutzer einrichten](banking-user-setup.md)
 - [Bankkontoverbindung herstellen](banking-connection.md)
-- [Banktransaktionen abrufen](banking-retrieve-transactions.md)
 - [Zahlungscode Zuordnung](payment-code-mapping.md)
 - [ZKA Code](payment-codes/zka-code.md)
 - [SEPA Purpose Code](payment-codes/sepa-purpose-code.md)
