@@ -18,6 +18,6 @@ In page Address Validation Status you will find the last recorded address of the
 
 In some cases it may make sense to check an address manually. This can also be done via the view Status of the address validation. For this purpose, the action **Set Validated** is available under Actions group. Until the next change to the source data record, no further validation is performed and the address data record is marked as **Validated**.
 
-# See also 
+## See also 
  - [Address Validation Setup](setup.md)
  - [Address Validation](address-validation.md)

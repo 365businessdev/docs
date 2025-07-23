@@ -77,7 +77,7 @@ Wenn im Rahmen der Sanktionsprüfung keine Treffer gefunden wurden, wird in der 
     <strong>Gut zu wissen</strong>Der Berechtigungssatz <strong>Sanktionsprüfung - Whitelist</strong> wird benötigt, um einen Sanktionstrefferposten auf die Whitelist zu setzen.
 </div>
 
-# Siehe auch
+## Siehe auch
 
 - [Einrichtung](setup.md)
 - [Datenkataloge für Sanktionsprüfung](data-sources.md)

@@ -28,6 +28,6 @@ Die Anzeige der Posten aus den Organgesellschaften wird aktuell nicht unterstüt
 
 Weitere Einschränkungen bestehen aktuell nicht.
 
-# Siehe auch
+## Siehe auch
  - [Umsatzsteuervoranmeldung](elster-sales-vat-adv-notification.md)
  - [Dokumentation von OPplus](https://help.gbedv.de/de-DE/site/tax/#umsatzsteuer)

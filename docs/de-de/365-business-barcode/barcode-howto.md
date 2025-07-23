@@ -112,6 +112,6 @@ dataitem(BarcodeBuffer; "bdev.Barcode")
      end;
      ```
 
-# Siehe auch
+## Siehe auch
 
  - [AL Developer Documentation (en-US)](../../al-developer/al-developer.md)

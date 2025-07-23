@@ -39,7 +39,7 @@ In der aktuellen Version der USt.-Erklärung für 365 business ERiC gibt es funk
 | 2. Zeitraum | Die Angabe vom "2. Zeitraum" (Vordruckzeile 21) wird aktuell nicht unterstützt. |
 | Ergänzende Angaben | Die Angabe von ergänzenden Informationen in einem separaten Dokument mit der Überschrift "Ergänzende Angaben zur Steuererklärung" (Vordruckzeile 27) wird aktuell nicht unterstützt. |
 
-# Siehe auch
+## Siehe auch
 - [ELSTER Steuerdaten](elster-tax-statements.md)
 - [Datenart - Umsatzsteuervoranmeldung - Dokumentation](elster-sales-vat-adv-notification.md)
 - [Datenart - Zusammenfassende Meldung - Dokumentation](elster-recapulative-statement.md)

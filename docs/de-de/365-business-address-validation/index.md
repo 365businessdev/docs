@@ -60,7 +60,7 @@ Die Adressvalidierung kann in den verschiedensten Sprachen und Schriftsätzen er
 Auf Grund der umfangreichen Referenzdatenbanken zur Prüfung werden zudem weltweite Adressprüfungen unterstützt.
 Der detaillierte, vielfach hausnummerngenaue Adressabgleich sorgt zusätzlich für eine hohe Qualität der Adressdaten.
 
-# Siehe auch 
+## Siehe auch 
  - [Erste Schritte](get-started.md)
  - [Einrichtung für Adressvalidierung](setup.md)
  - [Adressvorhersage](address-prediction.md)

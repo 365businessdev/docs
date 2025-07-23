@@ -32,7 +32,7 @@ Durch die Implementierung einer effektiven Sanktionsprüfung können Unternehmen
     Weitere Informationen finden Sie <a href="data-sources.md">hier</a>.
 </div>
 
-# Siehe auch
+## Siehe auch
 
 - [Schrittanleitung](get-started.md)
 - [Einrichtung](setup.md)

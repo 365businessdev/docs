@@ -28,7 +28,7 @@ Gehen Sie wie folgt vor, um die automatisierte Sanktionslistenprüfung in Micros
     <strong>Hinweis</strong>Zur optimalen Gewährleistung der Sanktionslistenprüfung empfehlen wir, die Prüfintervalle der einzelnen Entitäten (z.B. Debitor) in der <strong>Sanction Screen Einrichtung</strong> zu konfigurieren.
 </div>
 
-# Siehe auch
+## Siehe auch
 
 - [Einrichtung](setup.md)
 - [Datenkataloge für Sanktionsprüfung](data-sources.md)

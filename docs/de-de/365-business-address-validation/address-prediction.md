@@ -35,6 +35,6 @@ In der [Einrichtung für Adressvalidierung](setup.md) kann die **Max. Anzahl der
     <strong>Hinweis</strong> Über die Aktion <i>Mehr laden...</i> können alle weiteren Vorhersagen angezeigt werden.
 </div>
 
-# Siehe auch 
+## Siehe auch 
  - [Einrichtung für Adressvalidierung](setup.md)
  - [Adressvalidierung](address-validation.md)

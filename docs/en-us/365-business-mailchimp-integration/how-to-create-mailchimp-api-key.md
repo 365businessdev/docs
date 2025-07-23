@@ -19,6 +19,6 @@ Ein API Schlüssel kann zudem unabhängig vom eigentlich Mailchimp Konto aktivie
     <strong>Info</strong> API Schlüssel gewähren vollen Zugriff auf Ihr Mailchimp Konto und sollten daher genauso geschützt werden wie ein Passwort.
 </div>
 
-# Siehe auch
+## Siehe auch
 - [Einrichtung](setup.md)
 - [Mailchimp API Schlüssel](https://us1.admin.mailchimp.com/account/api.md)

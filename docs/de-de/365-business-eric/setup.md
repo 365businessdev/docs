@@ -64,6 +64,6 @@ Neben dem ELSTER-Zertifikat muss auch die Zertifikat PIN in Business Central ges
 
 Wenn verschiedene Anwender die Steuerdatenmeldungen an das Finanzamt vornehmen und die Anwender über persönliche Zertifikate verfügen, so kann das Zertifikat als [Benutzerzertifikat](user-certificates.md) hinterlegt werden.
 
-# Siehe auch
+## Siehe auch
  - [Benutzerzertifikate](user-certificates.md)
  - [Umsatzsteuerliche Organschaft](opp-affiliation.md)

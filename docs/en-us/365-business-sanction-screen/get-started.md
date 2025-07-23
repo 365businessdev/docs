@@ -77,7 +77,7 @@ If no hits were found during the sanctions check, the following will be displaye
     <strong>Good to know</strong>The permission set <strong>Sanctions Check - Whitelist</strong> is required to add a sanction hit entry to the whitelist.
 </div>
 
-# See Also
+## See also
 
 - [Setup](setup.md)
 - [Data Catalogs for Sanctions Check](data-sources.md)

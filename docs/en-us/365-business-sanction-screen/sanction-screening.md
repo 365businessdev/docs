@@ -97,7 +97,7 @@ If the sanction match is a **false positive**, follow these steps:
     <strong>Good to know</strong>The permission set <strong>Sanction Screening - Whitelist</strong> is required to add a sanction match entry to the whitelist.
 </div>
 
-# See Also
+## See also
 
 - [Setup](setup.md)
 - [Data Catalogs for Sanction Screening](data-sources.md)

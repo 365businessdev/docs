@@ -36,6 +36,6 @@ In einigen Städten oder Orten werden zum Beispiel Straßennamen mehrfach verwen
 
 Werden bei der Validierung von Adressen mehrere Ergebnisse gefunden, die eventuell die korrekte Adresse sein könnten, wird die Seite **Adressvalidierungs-Ergebnisse** angezeigt. Diese Seite zeigt die potentiellen Adressen und erlaubt dem Anwender die korrekte Adresse auszuwählen.
 
-# Siehe auch 
+## Siehe auch 
  - [Einrichtung für Adressvalidierung](setup.md)
  - [Adressvorhersage](address-prediction.md)

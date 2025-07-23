@@ -10,5 +10,5 @@ Since, in addition to sending via email, the provision of data via electronic in
 
 ![365 business E-Invoice](/assets/images/365-business-e-invoice/upload_en.png)
 
-# See also
+## See also
 - [Solving problems with the Import Assistant](import-assistant.md) 

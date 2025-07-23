@@ -34,6 +34,6 @@ Your manual input will be defined as default.
 
 In some cities or towns, for example, street names are used more than once and thus cannot be clearly assigned without specifying the correct postal code. In some cases street names are very similar and abbreviated or misspelled street names cannot be clearly identified.
 
-# See also 
+## See also 
  - [Address Validation Setup](setup.md)
  - [Address Prediction](address-prediction.md)

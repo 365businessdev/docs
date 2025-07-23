@@ -39,7 +39,7 @@ Zusätzlich zu den oben genannten Einstellungen können Sie folgende Optionen se
 | Testübertragung | Gibt an, dass diese Steuermeldung nur zu Testzwecken dient. Diese Steuerübertragung wird nach der Übermittlung von ELSTER gelöscht und nicht verarbeitet. |
 | Berichtigte Anmeldung | Gibt an, dass es sich bei dieser Steuermeldung um eine korrigierte Mitteilung handelt. Nachdem Sie eine Steuermeldung für einen bestimmten Zeitraum erfolgreich übertragen haben, müssen Sie diese Option einstellen, damit Sie eine aktualisierte Steuermeldung übertragen können. |
 
-# Siehe auch
+## Siehe auch
 - [ELSTER Steuerdaten](elster-tax-statements.md)
 - [MwSt.-Abrechnung Einrichtung](vat-statement-setup/vat-statement-setup.md)
 - [Datenart - USt.-Voranmeldung - Dokumentation](elster-sales-vat-adv-notification.md)

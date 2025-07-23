@@ -26,5 +26,5 @@ You can specify for which action you want to apply the configuration. For exampl
 
 You can specify the application for each configuration in the **Application** group on the **PDF Chaining Configuration** page.
 
-# See also
+## See also
  - [Document Attachments](document-attachments.md)

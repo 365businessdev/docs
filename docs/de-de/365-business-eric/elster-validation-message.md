@@ -24,7 +24,7 @@ Der hinterlegte Zertifikat PIN ist nicht korrekt (siehe [Einrichtung](setup.md))
     <strong>Hinweis</strong> Die Liste der häufigen Validierungsmeldungen wird regelmäßig aktualisiert um Ihnen direkt Lösungsvorschläge zu bieten. Sollte Ihre Meldung hier nicht aufgelistet sein und Sie benötigen Unterstützung, wenden Sie sich bitte an <a href="mailto:support@365businessdev.de">support@365businessdev.de</a>.
 </div>
 
-# Siehe auch
+## Siehe auch
  - [ELSTER Steuerdatenarten](elster-tax-data-type.md)
  - [Firmendaten](company-information.md)
  - [Einrichtung](setup.md)

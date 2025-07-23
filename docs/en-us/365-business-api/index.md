@@ -92,7 +92,7 @@ The official 365 business API Cloud Service documentation at [api-doc.365busines
 
 Simply create a dependency on your multi-tenant extension to use the 365 business API app and use the internal API to consume 365 business API services.
 
-# See Also
+## See also
 
 - [365 business API Status](https://status.365businessdev.com)
 - [365 business API Cloud Service Documentation](https://api-doc.365businessdev.com)

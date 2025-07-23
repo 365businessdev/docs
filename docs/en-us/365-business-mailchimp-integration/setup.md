@@ -24,6 +24,6 @@ In der Einrichtung müssen folgende Einstellungen angegeben werden:
     <strong>Info</strong>Nach der Hinterlegung des API Schlüssel wird dieser gegen die Mailchimp API geprüft und Ihre Mailchimp Kontoinformationen werden ermittelt.
 </div>
 
-# Siehe auch
+## Siehe auch
 - [Mailchimp API Schlüssel erstellen](how-to-create-mailchimp-api-key.md)
 - [Informationen zu API Schlüsseln](https://mailchimp.com/help/about-api-keys.md)

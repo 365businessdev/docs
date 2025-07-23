@@ -10,5 +10,5 @@ Da neben dem Versand per E-Mail, auch die Bereitstellung der Daten mittels elekt
 
 ![365 business E-Invoice](/assets/images/365-business-e-invoice/upload.png)  
 
-# Siehe auch 
+## Siehe auch 
  - [Probleme lösen mit dem Import Assistenten](import-assistant.md)
