@@ -48,7 +48,7 @@ Darüber hinaus werden auch die Rückmeldungen der ELSTER Server, nach erfolgter
     <strong>Hinweis</strong> Abweichend zu den sonstigen Steuerdatenarten wird bei der Steuerdatenart <b>One-Stop-Shop (OSS)</b> keine XML-Datei erstellt und es steht aktuell keine elektronische Übermittlung zur Verfügung.<br>Stattdessen wird für die Steuerdatenart <b>One-Stop-Shop (OSS)</b> eine CSV-Datei erstellt, welche im Onlineportal "Mein BOP" importiert werden kann.
 </div>
 
-# Siehe auch
+## Siehe auch
  - [ELSTER Steuerdatenarten](elster-tax-data-type.md)
  - [Datenart - USt.-Voranmeldung - Dokumentation](elster-sales-vat-adv-notification.md)
  - [Datenart - Zusammenfassende Meldung - Dokumentation](elster-recapulative-statement.md)

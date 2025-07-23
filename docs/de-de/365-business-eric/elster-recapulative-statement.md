@@ -25,7 +25,7 @@ Zusätzlich zu den oben genannten Einstellungen können Sie folgende Optionen se
 | --- | --- |
 | Testübertragung | Gibt an, dass diese Steuermeldung nur zu Testzwecken dient. Diese Steuerübertragung wird nach der Übermittlung von ELSTER gelöscht und nicht verarbeitet. |
 
-# Siehe auch
+## Siehe auch
 - [ELSTER Steuerdaten](elster-tax-statements.md)
 - [Datenart - USt.-Voranmeldung - Dokumentation](elster-sales-vat-adv-notification.md)
 - [Datenart - Dauerfristverlängerung - Dokumentation](elster-permanent-time-limit-extension.md)

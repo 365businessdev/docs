@@ -111,7 +111,7 @@ Mit 365 business Sanction Screen werden zwei Berechtigungssätze bereitgestellt,
 | `BDEV.OS.BASIC` | Sanktionsprüfung - BASIS | Stellt die grundsätzlichen Berechtigungen zum Arbeiten mit 365 business Sanction Screen zur Verfügung. Dieser Berechtigungssatz sollte an **alle Benutzer** vergeben werden. |
 | `BDEV.OS.WHITELIST` | Sanktionsprüfung - Whitelist | Berechtigt den Anwender dazu Sanktionstrefferposten auf die Whitelist zu setzen. |
 
-# Siehe auch
+## Siehe auch
 
 - [Schrittanleitung](get-started.md)
 - [Datenkataloge für Sanktionsprüfung](data-sources.md)

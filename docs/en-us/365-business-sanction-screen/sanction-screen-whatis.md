@@ -32,7 +32,7 @@ By implementing effective sanction screening, companies can ensure that they act
     For more information, see <a href="data-sources.md">here</a>.
 </div>
 
-# See Also
+## See also
 
 - [Step-by-Step Guide](get-started.md)
 - [Setup](setup.md)

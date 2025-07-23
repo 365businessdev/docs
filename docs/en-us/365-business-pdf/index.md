@@ -53,7 +53,7 @@ In the current version, the integration is provided in the Microsoft standard fo
 | Project | Report selection - Project |
 | Service | Report selection - Service |
 
-# See also
+## See also
  - [PDF Stationery Configuration](stationery.md)
  - [PDF Document Concatenate Configuration](concatenate.md)
  - [PDF Signing Configuration](signing.md)

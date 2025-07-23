@@ -65,7 +65,7 @@ Zusätzlich zu den oben genannten Einstellungen können Sie folgende Optionen se
 | Erstattungsbetrag verrechnen | Gibt an, ob ein möglicher Erstattungsbetrag mit der Zahlungsgebühr auf dieser Umsatzsteuervoranmeldung verrechnet werden soll. |
 | Lastschrifteinzug widerrufen | Gibt an, dass das Lastschriftmandat für diese Steuermeldung widerrufen wird. |
 
-# Siehe auch
+## Siehe auch
 - [ELSTER Steuerdaten](elster-tax-statements.md)
 - [MwSt.-Abrechnung Einrichtung](vat-statement-setup/vat-statement-setup.md)
 - [Datenart - Zusammenfassende Meldung - Dokumentation](elster-recapulative-statement.md)

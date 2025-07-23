@@ -15,5 +15,5 @@ The document attachments can be found via the action **Document Attachments**. H
 
 ![365 business PDF - Document Attachments](/assets/images/365-business-pdf/365businesspdf-doc-attachments.gif)
 
-# See also
+## See also
  - [PDF Document Concatenate Configuration](concatenate.md)

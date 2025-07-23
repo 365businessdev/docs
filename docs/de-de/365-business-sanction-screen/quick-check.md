@@ -13,6 +13,6 @@ In einigen Fällen kann es sinnvoll sein Prüfungen durchzuführen, bevor Sie ei
 5. Überprüfen Sie die Ergebnisse und führen Sie die erforderlichen Aktionen durch.
 6. Wählen Sie **Schließen**, um die Seite zu schließen.
 
-# Siehe auch
+## Siehe auch
 
 - [Sanktionsprüfung](sanction-screening.md)

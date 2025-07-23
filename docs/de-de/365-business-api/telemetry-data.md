@@ -50,6 +50,6 @@ Alle kundenspezifischen oder identifizierbaren Informationen, die wir über Tele
 ## Wie lange werden die Daten gespeichert?
 In der Regel werden Telemetriedaten 30 Tage lang gespeichert. In Einzelfällen können Telemetriedaten zur Erstellung von Workitems in unserem Product Backlog verwendet werden und werden in diesen Fällen auf unbestimmte Zeit aufbewahrt.
 
-# Siehe auch
+## Siehe auch
  - [{% t titles.setup %}](setup.md)
  - [Datenschutzerklärung](https://365businessdev.com/datenschutzerklaerung/)

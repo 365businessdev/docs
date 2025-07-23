@@ -18,5 +18,5 @@ Die Beleganhänge finden Sie über die Aktion **Beleganhänge**. Hier können Si
 
 ![365 business PDF - Beleganhänge](/assets/images/365-business-pdf/365businesspdf-doc-attachments.gif)
 
-# Siehe auch
+## Siehe auch
  - [PDF Dokumentverkettung Einrichtung](concatenate.md)

@@ -93,7 +93,7 @@ Die offizielle 365 business API Cloud Service Dokumentation unter [api-doc.365bu
 
 Erstellen Sie einfach eine Abhängigkeit von Ihrer mandantenfähigen Erweiterung, um die 365 business API-App zu nutzen, und verwenden Sie die interne API, um 365 business API-Dienste zu konsumieren.
 
-# Siehe auch
+## Siehe auch
 
 - [365 business API Status](https://status.365businessdev.com)
 - [365 business API Cloud Service Dokumentation](https://api-doc.365businessdev.com)

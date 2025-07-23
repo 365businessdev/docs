@@ -35,7 +35,7 @@ Sie finden die [Preise](https://365businessdev.com/cloud/preise/address-validati
     <strong>Hinweis</strong>Sie möchten mehr über die Lizensierung und die Abrechnung der 365 business API Cloud Dienste erfahren?<br>Sprechen Sie uns gerne an oder schreiben Sie uns unter <a href="mailto:info@365businessdev.com">info@365businessdev.com</a>.
 </div>
 
-# Siehe auch 
+## Siehe auch 
  - [Adressvalidierung](address-validation.md)
  - [Adressvorhersage](address-prediction.md)
  - [Einrichtung für Adressvalidierung](setup.md)

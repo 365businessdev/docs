@@ -28,7 +28,7 @@ Follow these steps to set up automated sanction list screening in Microsoft Dyna
     <strong>Info</strong> To ensure optimal sanction list screening, we recommend configuring the screening intervals for each entity (e.g., customer) in the <strong>Sanction Screen Setup</strong>.
 </div>
 
-# See also
+## See also
 
 - [Setup](setup.md)
 - [Data catalogs for sanction screening](data-sources.md)

@@ -8,7 +8,7 @@ By default, all available data catalogs for the sanctions list check are enabled
 
 The data catalogs to be used can be configured on the **Sanctions Data Catalog** page. Here you can enable or disable individual data catalogs to tailor the sanctions list check to your requirements. Additionally, each catalog has a link to the official source for more information.
 
-# See also
+## See also
 
 - [Step-by-step guide](get-started.md)
 - [Setup](setup.md)

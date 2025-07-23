@@ -53,6 +53,6 @@ The `bdev.E-Invoice Integration` codeunit is the main integration point for exte
    </div>
 </div>
 
-# See also
+## See also
 
  - [Documentation - 365 business E-Invoice](../../en-us/365-business-e-invoice/index.md)

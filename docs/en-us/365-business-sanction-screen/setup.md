@@ -111,7 +111,7 @@ The **Screening Interval** determines how often the sanctions list check is perf
 | `BDEV.OS.BASIC` | Sanctions Check - BASIC | Provides the basic permissions to work with 365 business Sanction Screen. This permission set should be assigned to **all users**. |
 | `BDEV.OS.WHITELIST` | Sanctions Check - Whitelist | Authorizes the user to add sanction hit entries to the whitelist. |
 
-# See also
+## See also
 
 - [Step-by-step guide](get-started.md)
 - [Data catalogs for sanctions check](data-sources.md)

@@ -21,6 +21,6 @@ In der Ansicht Status der Adressvalididerung finden Sie jeweils die zuletzt erfa
 
 In einigen Fällen kann es Sinn machen einen Adresse manuell zu prüfen. Dies kann ebenfalls über die Ansicht Status der Adressvalididerung geschehen. Hierzu steht unter Aktionen die Aktion **Adresse manuell geprüft** zur Verfügung. Bis zur nächsten Änderung an dem Quelldatensatz erfolgt keine weitere Prüfung und der Adressdatensatz wird als **Geprüft** gekennzeichnet.
 
-# Siehe auch 
+## Siehe auch 
  - [Einrichtung für Adressvalidierung](setup.md)
  - [Adressvalidierung](address-validation.md)

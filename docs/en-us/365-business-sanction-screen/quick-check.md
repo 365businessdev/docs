@@ -13,6 +13,6 @@ In some cases, it may be useful to perform checks before taking an action. In th
 5. Review the results and take the necessary actions.
 6. Select **Close** to close the page.
 
-# See also
+## See also
 
 - [Sanction Screening](sanction-screening.md)

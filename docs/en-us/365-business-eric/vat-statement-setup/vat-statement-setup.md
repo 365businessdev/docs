@@ -45,7 +45,7 @@ Die verschiedenen Datenarten verwenden, da unterschiedliche Informationen und Ke
 
 Die notwendigen Kennzahlen und die zu Grunde liegenden Einrichtungen in der MwSt.-Abrechnung unterscheiden sich, abhängig von den erstellen MwSt.-Produkt- und Geschäftsbuchungsgruppen, sowie vom verwendeten Kontenrahmen. Aus diesem Grund ist es uns leider nicht möglich eine einheitliche MwSt.-Abrechnung auszuliefern, die für die Berechnung verwendet werden kann.
 
-# Siehe auch
+## Siehe auch
  - [ELSTER Einrichtung](../setup.md)
  - [ELSTER Steuerdatenarten](../elster-tax-data-type.md)
  - [Microsoft Docs - Festlegen einer MwSt.-Abrechnung](https://docs.microsoft.com/de-de/dynamics365/business-central/finance-how-setup-vat-statement)

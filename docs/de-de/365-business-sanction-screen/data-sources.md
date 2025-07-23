@@ -8,7 +8,7 @@ Standardmäßig sind alle verfügbaren Datenkataloge für die Sanktionslistenpr�
 
 Die zu verwendenden Datenkataloge können in der Seite **Sanktionsdatenkatalog** konfiguriert werden. Hier können Sie die einzelnen Datenkataloge aktivieren oder deaktivieren, um die Sanktionslistenprüfung an Ihre Anforderungen anzupassen. Darüber hinaus verfügt jeder Katalog über einen Link zur offiziellen Quelle, um weitere Informationen zu erhalten.
 
-# Siehe auch
+## Siehe auch
 
 - [Schrittanleitung](get-started.md)
 - [Einrichtung](setup.md)

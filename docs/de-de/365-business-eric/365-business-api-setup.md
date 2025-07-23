@@ -31,6 +31,6 @@ Zudem liefert die Version 2 zusätzliche Informationen, wie beispielsweise die T
 ## Welche Einrichtung muss ich vornehmen?
 In der 365 business API Einrichtung sind keine weiteren Einrichtungen notwendig. Die spezifischen Konfigurationsparameter für 365 business ERiC finden sich in der [**ELSTER Einrichtung**](setup.md).
 
-# Siehe auch 
+## Siehe auch 
 - [ELSTER Einrichtung](setup.md)
 - [365 business API Einrichtung](../365-business-api/setup.md)

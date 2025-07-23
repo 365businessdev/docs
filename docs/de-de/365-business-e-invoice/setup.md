@@ -166,7 +166,7 @@ Der E-Beleg kann auch manuell über die Aktion *Buchen und senden*, bzw. aus dem
     <strong>Hinweis</strong>Die Option <strong>ZUGFeRD E-Invoice Export aktivieren</strong> in der <strong>E-Invoice Einrichtung</strong> muss aktiviert sein, damit die Verkaufsrechnungen und -gutschriften automatisch in elektronische Factur-X - ZUGFeRD Dateien umgewandelt werden.
 </div>
 
-# Siehe auch
+## Siehe auch
 
  - <a href="https://learn.microsoft.com/de-de/dynamics365/business-central/admin-how-setup-email" target="_blank">E-Mail einrichten</a>
  - <a href="https://learn.microsoft.com/de-de/dynamics365/business-central/across-workflow" target="_blank">Workflows in Microsoft Dynamics 365 Business Central</a>

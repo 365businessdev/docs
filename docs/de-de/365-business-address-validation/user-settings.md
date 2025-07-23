@@ -21,6 +21,6 @@ In der aktuellen Version werden folgende Einstellungen unterstützt:
 
 Globale Einstellungen werden für alle Benutzer im System angewandt, sofern diese nicht eine spezifische Einstellung vorgenommen haben. Bei globale Einstellungen bleibt der Wert im Feld `Benutzer ID` leer.
 
-# Siehe auch 
+## Siehe auch 
  - [Einrichtung für Adressvalidierung](setup.md)
  - [Adressvalidierung](address-validation.md)

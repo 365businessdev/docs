@@ -35,6 +35,6 @@ In [Address Validation Setup](setup.md) you can specify the max. number of predi
     <strong>Info</strong> By clicking the <i>Load more...</i> action in the address prediction list, all additional predictions will be shown.
 </div>
 
-# See also 
+## See also 
  - [Address Validation Setup](setup.md)
  - [Address Validation](address-validation.md)

@@ -76,7 +76,7 @@ To handle problematic E-Documents, 365 business E-Invoice provides the **Import 
  1. Call the **Import Wizard** action in the E-Document.
  2. The Import Wizard assists you in step-by-step troubleshooting (see [Import Wizard](import-assistant.md)).
 
-# See also
+## See also
 
  - [Setup](setup.md)
  - [Import Wizard](import-assistant.md)

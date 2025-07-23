@@ -76,7 +76,7 @@ Um problembehaftete E-Belege zu bearbeiten wird über 365 business E-Invoice der
  1. Rufen Sie die Aktion **Importassistent** in dem E-Beleg auf.
  2. Der Importassistent unterstützt Sie bei der schrittweisen Behebung der Probleme (siehe [Import Assistent](import-assistant.md)).
 
-# Siehe auch
+## Siehe auch
 
  - [Einrichtung](setup.md)
  - [Import Assistent](import-assistant.md)
