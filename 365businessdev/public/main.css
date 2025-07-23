@@ -65,7 +65,9 @@ p img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
 
+p img, li img {
     box-shadow: 0 1.6px 3.6px 0 #00000021,0 0.3px 0.9px 0 #00000021;
     -webkit-box-shadow: 0 1.6px 3.6px 0 #00000021,0 0.3px 0.9px 0 #00000021;
     border-radius: 0.125rem;
@@ -73,7 +75,7 @@ p img {
     outline-color: light-dark(#171717, #efefef);
 }
 
-html[data-bs-theme="dark"] p img {
+html[data-bs-theme="dark"] p img, html[data-bs-theme="dark"] li img {
     box-shadow: 0 1.6px 3.6px 0 rgba(255, 255, 255, 0.1),
                 0 0.3px 0.9px 0 rgba(255, 255, 255, 0.08);
     -webkit-box-shadow: 0 1.6px 3.6px 0 rgba(255, 255, 255, 0.1),
