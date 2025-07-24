@@ -26,7 +26,7 @@ Abhängig von der Bank und der Zahlungsform kann es erforderlich sein, eine TAN 
 
 1. Wählen Sie **Autorisieren**, um den Zahlungsvorgang zu bestätigen.
 2. Folgen Sie den Anweisungen auf dem Bildschirm, um den Dauerauftrag zu autorisieren. Dies kann die Eingabe einer TAN oder die Bestätigung über eine Banking-App umfassen.
-   ![Autorisierung des Dauerauftrags](/assets/images/365-business-banking/bank-payment-authentication-webform.en-US.png)
+   ![Autorisierung des Dauerauftrags](/assets/images/365-business-banking/standing-order-authentication-webform.en-US.png)
 3. Nach erfolgreicher Autorisierung wird der Dauerauftrag gespeichert.
    ![Bestätigung des Dauerauftrags](/assets/images/365-business-banking/bank-payment-confirmation.en-US.png)
 4. Wählen Sie **Schließen**, um den Dialog zu schließen.
