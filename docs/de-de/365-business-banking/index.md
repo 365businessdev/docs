@@ -42,7 +42,7 @@ Mit 365 business Banking können Sie Ihre Bankprozesse effizienter gestalten und
    <div>
        <a href="supported-banks.md">
            <div>
-               <div><i class="fa-duotone fa-thin fa-book-open-cover" style="--fa-secondary-color: #00b7c3"></i></div>
+               <div><i class="fa-duotone fa-thin fa-building-columns" style="--fa-secondary-color: #00b7c3"></i></div>
                <div>Unterstützung</div>
                <div>Unterstützte Banken</div>
            </div>
@@ -56,9 +56,9 @@ Mit 365 business Banking können Sie Ihre Bankprozesse effizienter gestalten und
         <p>
             Erfahren Sie mehr über 365 business Banking:
             <ul class="fa-ul">
-                <li><span class="fa-li"><i class="fa-duotone fa-thin fa-pen-ruler fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="banking-whatis.md">Was ist 365 business Banking?</a></li>
-                <li><span class="fa-li"><i class="fa-duotone fa-thin fa-folders fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="supported-banks.md">Welche Banken werden unterstützt?</a></li>
-                <li><span class="fa-li"><i class="fa-duotone fa-thin fa-folders fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="banking-howitworks.md">Wie erfolgt der Abruf meiner Daten?</a></li>
+                <li><span class="fa-li"><i class="fa-duotone fa-thin fa-circle-question fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="banking-whatis.md">Was ist 365 business Banking?</a></li>
+                <li><span class="fa-li"><i class="fa-duotone fa-thin fa-building-columns fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="supported-banks.md">Welche Banken werden unterstützt?</a></li>
+                <li><span class="fa-li"><i class="fa-duotone fa-thin fa-binary-circle-check fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="banking-howitworks.md">Wie erfolgt der Abruf meiner Daten?</a></li>
             </ul>
         </p>
     </div>
@@ -67,11 +67,11 @@ Mit 365 business Banking können Sie Ihre Bankprozesse effizienter gestalten und
              <p>
                 Erfahren Sie welche Funktionen 365 business Banking bietet:
                 <ul class="fa-ul">
-                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-building-columns fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="bank-reconciliation.md">Banktransaktionen abrufen</a></li>
-                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-building-columns fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="bank-payment.md">Zahlungen erstellen</a></li>
-                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-building-columns fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="payment-types/sepa-credit-transfer.md">SEPA Überweisung erstellen</a></li>
-                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-building-columns fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="payment-types/direct-debit.md">Lastschrift erstellen</a></li>
-                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-building-columns fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="payment-types/standing-order.md">Dauerauftrag erstellen</a></li>
+                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-receipt fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="bank-reconciliation.md">Banktransaktionen abrufen</a></li>
+                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-file-invoice-dollar fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="bank-payment.md">Zahlungen erstellen</a></li>
+                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-money-bill-transfer fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="payment-types/sepa-credit-transfer.md">SEPA Überweisung erstellen</a></li>
+                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-money-check-dollar-pen fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="payment-types/direct-debit.md">Lastschrift erstellen</a></li>
+                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-money-bills fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="payment-types/standing-order.md">Dauerauftrag erstellen</a></li>
                 </ul>
             </p>
     </div>
@@ -80,8 +80,8 @@ Mit 365 business Banking können Sie Ihre Bankprozesse effizienter gestalten und
              <p>
                 Erfahren Sie mehr über die Einrichtung:
                 <ul class="fa-ul">
-                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-pen-ruler fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="banking-user-setup.md">Banking Benutzer einrichten</a></li>
-                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-play fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="banking-connection.md">Bankverbindung herstellen</a></li>
+                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-user-unlock" style="--fa-secondary-color: #00b7c3"></i></span><a href="banking-user-setup.md">Banking Benutzer einrichten</a></li>
+                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-link fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="banking-connection.md">Bankverbindung herstellen</a></li>
                 </ul>
             </p>
     </div>
