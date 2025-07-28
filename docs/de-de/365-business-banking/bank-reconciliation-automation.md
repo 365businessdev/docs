@@ -2,6 +2,13 @@
 
 Das Abrufen von Banktransaktionen und der automatische Abgleich kann mit 365 business Banking automatisiert werden. Dies ermöglicht eine regelmäßige Aktualisierung der Banktransaktionen und eine nahtlose Integration in Ihre Finanzprozesse. Hierzu wird pro Bankkonto ein Aufgabenwarteschlangenposten erstellt, der regelmäßig die Banktransaktionen abruft, das Zahlungsabstimmungsbuch.-Blatt aktualisiert und die Banktransaktionen automatisch abgleicht.
 
+<div class="alert alert-notice">
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
+    <strong>Gut zu wissen</strong>
+    Sofern die Bank eine Multi-Faktor-Authentifizierung erfordert, wird der Aufgabenwarteschlangenposten automatisch pausiert, damit die Authentifizierung manuell durchgeführt werden kann. Nach erfolgreicher Authentifizierung kann der Aufgabenwarteschlangenposten fortgesetzt werden, um die Banktransaktionen weiterhin automatisch abzurufen und abzugleichen.<br>
+    Abhängig von der Bank kann die Häufigkeit der Multi-Faktor-Authentifizierung variieren, liegt jedoch in der Regel zwischen 30 und 90 Tagen.
+</div>
+
 ### Schritt-für-Schritt-Anleitung
 
 Gehen Sie wie folgt vor, um die Automatisierung für das Abrufen von Banktransaktionen einzurichten:

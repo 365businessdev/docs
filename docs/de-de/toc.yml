@@ -85,12 +85,14 @@
         - name: Banking Benutzer Einrichtung
           href: 365-business-banking/banking-user-setup.md 
         - name: Zahlungsformen
-          href: 365-business-banking/payment-method-setup.md
+          href: 365-business-banking/setup/payment-method-setup.md
         - name: ZKA Codes
-          href: 365-business-banking/payment-codes/zka-code.md
+          href: 365-business-banking/setup/zka-code.md
         - name: SEPA Purpose Codes
-          href: 365-business-banking/payment-codes/sepa-purpose-code.md
-      
+          href: 365-business-banking/setup/sepa-purpose-code.md
+        - name: Kontextwörter
+          href: 365-business-banking/setup/context-words.md
+
 - name: 365 business E-Invoice
   href: 365-business-e-invoice/index.md
   items:

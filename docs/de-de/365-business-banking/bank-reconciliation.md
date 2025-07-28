@@ -30,13 +30,28 @@ Gehen Sie wie folgt vor, um Banktransaktionen in 365 business Banking abzurufen:
     Der Import der Banktransaktionen prüft automatisch, ob Transaktionen bereits importiert wurden und ignoriert entsprechende Dubletten. Dies stellt sicher, dass Ihre Zahlungsabstimmung immer aktuell und genau ist.
 </div>
 
+### Banktransaktionszeilen aufteilen
+
+In einigen Fällen kann es erforderlich sein, Banktransaktionszeilen aufzuteilen, um die Zuordnung zu mehreren Sachkonten durchzuführen. Dies kann beispielsweise bei Lastschriften der Steuerbehörde der Fall sein, bei denen mehrere Steuern in einer einzigen Transaktion enthalten sind.
+
+![Banktransaktionszeilen aufteilen](/assets/images/365-business-banking/split-bank-recon-lines1.en-US.png)
+
+Gehen Sie wie folgt vor, um Banktransaktionszeilen aufzuteilen:
+
+1. Wählen Sie die Banktransaktionszeile aus, die Sie aufteilen möchten.
+2. Wählen Sie die Aktion **Zeilen aufteilen** in der Gruppe **Zeile** aus.
+3. Trennen Sie die Banktransaktionszeile in mehrere Zeilen auf, indem Sie die entsprechenden Beträge anpassen und ggf. den Transaktionstext ändern.
+   ![Banktransaktionszeilen aufteilen](/assets/images/365-business-banking/split-bank-recon-lines2.en-US.png)
+4. Wählen Sie **OK**, um die Änderungen zu speichern.
+   ![Banktransaktionszeilen aufteilen](/assets/images/365-business-banking/split-bank-recon-lines3.en-US.png)
+
 ## Zahlungsabstimmung
 
 Nach dem Abruf der Banktransaktionen können Sie diese in der Zahlungsabstimmung verwenden. Die Banktransaktionen werden automatisch den offenen Posten in Microsoft Dynamics 365 Business Central zugeordnet, um eine effiziente Abstimmung zu ermöglichen. Dabei wird die Microsoft Dynamics 365 Business Central Bankabstimmung (siehe [Verwalten und Abstimmen Ihrer Bankkonten](https://learn.microsoft.com/de-de/dynamics365/business-central/bank-manage-bank-accounts)) verwendet, und um zusätzliche Funktionen ergänzt, um ein besseres Ergebnis beim Abgleich der Banktransaktionen zu erzielen.
 
-### Identifizierung der Kontoart
+### Absender-Identifizierung
 
-Ergänzend zum Microsoft Standard, wird bei der Zahlungsabstimmung, zur Identifizierung der Kontoart, die IBAN des Bankkontos aus der Banktransaktion verwendet. Dies ermöglicht eine genauere Zuordnung der Transaktionen zu den entsprechenden Konten und verbessert die Effizienz der Abstimmung.
+Ergänzend zum Microsoft Standard, wird bei der Zahlungsabstimmung, zur Identifizierung des Absenders, die IBAN des Bankkontos aus der Banktransaktion verwendet. Dies ermöglicht eine genauere Zuordnung der Transaktionen zu den entsprechenden Konten und verbessert die Effizienz der Abstimmung.
 
 Sofern der Ausgleich akzeptiert und die Bankabstimmung gebucht wird, werden die Stammdaten (z.B. Debitor Bankkonto) der ausgeglichenen Konten (z.B. Debitor, Kreditor) aktualisiert bzw. ergänzt, um bei zukünftigen Abstimmungen eine schnellere und genauere Zuordnung zu ermöglichen. 
 
@@ -50,6 +65,21 @@ Sofern der Ausgleich akzeptiert und die Bankabstimmung gebucht wird, werden die 
 
 Sie erhalten eine Zahlung von einem Debitor auf Ihr Bankkonto. Die Zahlung wird an hand des Verwendungszwecks der Banktransaktion dem Debitor zugeordnet. Wenn Sie die Zahlung verbuchen, wird geprüft, ob das Debitor Bankkonto bereits existiert. Falls nicht, wird es automatisch erstellt und die Bankkontoinformationen (u.A. IBAN, BIC/SWIFT Code) werden aus der Banktransaktion übernommen. 
 
+### Erweiterte Belegnr.- und Verwendungszweck-Identifizierung
+
+Zusätzlich zur Absender-Identifizierung wird bei der Zahlungsabstimmung auch die Belegnr. und der Verwendungszweck der Banktransaktion verwendet, um die Zuordnung zu den offenen Posten zu verbessern. Dies ermöglicht eine genauere Zuordnung der Transaktionen zu den entsprechenden Konten und verbessert die Effizienz der Abstimmung. 
+
+Über den Microsoft Standard hinausgehend, wird bei der Zahlungsabstimmung der Verwendungszweck analysiert bzw. Belegnummern extrahiert, um die Zuordnung zu den offenen Posten zu optimieren. Dabei werden auch Teilbelegnummern, bis zu vier Zeichen berücksichtigt, um bei Sammelüberweisungen eine genauere Zuordnung zu ermöglichen.
+
+Zur Optimierung der Zuordnung von Teilbelegnummern, können Sie gängige Kontextwörter definieren, die bei der Analyse des Verwendungszwecks berücksichtigt werden und die Gewichtung einer Teilbelegnummer erhöhen.
+
+Weitere Informationen finden Sie in der Dokumentation zu [Kontextwörtern](setup/context-words.md).
+
+#### Beispiel
+
+Ihre Belegnummern lauten `25002019` und `25002021`, im Verwendungszweck der Banktransaktion wird durch den Absender `Invoice 25002019, 2021` angegeben. Die Belegnummer `25002019` wird automatisch erkannt, da sie exakt mit der Belegnummer übereinstimmt. Die Teilbelegnummer `2021` wird ebenfalls als "schwache" Übereinstimmung erkannt und für den Ausgleich angeboten.
+Durch die Verwendung von Kontextwörtern, wie z.B. `Invoice`, wird die Teilbelegnummer `2021` als "starke" Übereinstimmung erkannt und für den Ausgleich priorisiert.
+
 ### Zahlungscode Zuordnung
 
 Im Rahmen einer SEPA Zahlung werden neben dem Verwendungszweck zusätzliche Zahlungscodes übermittelt, die zur Identifizierung der Zahlung verwendet werden. Im Rahmen der Zahlungsabstimmung können diese Codes verwendet werden, um die Zuordnung der Banktransaktionen zu den offenen Posten oder Sachkonten zu verbessern.
@@ -57,14 +87,18 @@ Im Rahmen einer SEPA Zahlung werden neben dem Verwendungszweck zusätzliche Zahl
 Folgende Zahlungscodes werden unterstützt:
 
 - **ZKA Code**: Der ZKA Code, auch Geschäftsvorfallcode genannt, wird verwendet, um den Geschäftsvorfall der Banktransaktion zu identifizieren. Dieser Code wird in der Regel von der Bank bereitgestellt und kann zur Identifizierung der Art der Transaktion verwendet werden.
-  Weitere Informationen, siehe [ZKA Code](payment-codes/zka-code.md).
+  Weitere Informationen, siehe [ZKA Code](setup/zka-code.md).
 
 - **SEPA Purpose Code**: Der SEPA Purpose Code wird verwendet, um den Zweck der SEPA Überweisung zu identifizieren. Dieser Code ist optional und kann verwendet werden, um den Zweck der Zahlung zu spezifizieren.
-  Weitere Informationen, siehe [SEPA Purpose Code](payment-codes/sepa-purpose-code.md).
+  Weitere Informationen, siehe [SEPA Purpose Code](setup/sepa-purpose-code.md).
 
 Über die Seite **Zahlungscode Zuordnung** kann eine Zuordnung von Zahlungscodes zu Kontoart und Kontonr. vorgenommen werden. Dies ermöglicht eine genauere Zuordnung der Banktransaktionen zu den entsprechenden Konten und verbessert die Effizienz der Abstimmung.
 
 Weitere Informationen finden Sie in der Dokumentation zur [Zahlungscode Zuordnung](payment-code-mapping.md).
+
+Im Rahmen des automatischen Ausgleichs der Banktransaktionen, wird die Zahlungscode Zuordnung automatisch berücksichtigt. Sofern ein Zahlungscode zugeordnet ist, wird dieser bei der Zuordnung der Banktransaktion zu den offenen Posten oder Sachkonten verwendet. Dies verbessert die Effizienz der Abstimmung und reduziert den manuellen Aufwand für die Zuordnung von Banktransaktionen.
+
+![Zahlungscode Zuordnung in Zahlungsabstimmung Buch.-Blatt](/assets/images/365-business-banking/bank-reconciliation-payment-code-mapping.en-US.png)
 
 ## Siehe auch
 
@@ -72,5 +106,5 @@ Weitere Informationen finden Sie in der Dokumentation zur [Zahlungscode Zuordnun
 - [Banking Benutzer einrichten](banking-user-setup.md)
 - [Bankkontoverbindung herstellen](banking-connection.md)
 - [Zahlungscode Zuordnung](payment-code-mapping.md)
-- [ZKA Code](payment-codes/zka-code.md)
-- [SEPA Purpose Code](payment-codes/sepa-purpose-code.md)
+- [ZKA Code](setup/zka-code.md)
+- [SEPA Purpose Code](setup/sepa-purpose-code.md)

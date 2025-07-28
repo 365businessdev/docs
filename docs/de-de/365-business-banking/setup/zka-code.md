@@ -5,6 +5,13 @@ Er stammt aus der FinTS/HBCI- und DFÜ-Spezifikation der Deutschen Kreditwirtsch
 
 365 business Banking unterstützt die Verwendung von ZKA-Codes bei der Zahlungsabstimmung. Während der Installation für 365 business Banking werden die häufigsten ZKA-Codes automatisch eingerichtet. Sie können jedoch auch eigene ZKA-Codes hinzufügen oder bestehende Codes anpassen, um Ihre spezifischen Anforderungen zu erfüllen.
 
+<div class="alert alert-success">
+    <i class="fa-duotone fa-solid fa-question-circle fa-xl"></i>
+    <strong>Wussten Sie schon?</strong>
+    Bei der Installation von 365 business Banking werden bereits einige gängige ZKA-Codes eingerichtet.<br>
+    Diese können Sie jederzeit anpassen oder erweitern, um die Zuordnung zu den offenen Posten zu optimieren.
+</div>
+
 ## Schritt-für-Schritt-Anleitung
 
 Gehen Sie wie folgt vor, um ZKA-Codes in 365 business Banking zu verwalten:

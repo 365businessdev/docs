@@ -49,4 +49,4 @@ Die Zahlungsauslösung erfolgt über die [finAPI GmbH](https://www.finapi.io/), 
 
 Die Einrichtung der Zahlungsarten erfolgt über die Festlegung der Zahlungsart in der **Zahlungsform** in Microsoft Dynamics 365 Business Central. Hier können Sie die gewünschten Zahlungsarten auswählen und konfigurieren.
 
-Weitere Informationen zur Einrichtung finden Sie in der [Zahlungsarten Einrichtung](payment-method-setup.md).
+Weitere Informationen zur Einrichtung finden Sie in der [Zahlungsarten Einrichtung](setup/payment-method-setup.md).

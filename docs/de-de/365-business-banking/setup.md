@@ -17,7 +17,7 @@ In der **Finanzbuchhaltung Einrichtung** finden Sie im Bereich **Banking** die E
 
 Die Zahlungsformen legen fest, welche Zahlungsarten für Ihre Bankkonten und Transaktionen verwendet werden können. Diese Einstellungen sind in der Seite **Zahlungsformen** zu finden. Hier können Sie die gewünschten Zahlungsarten auswählen und konfigurieren.
 
-Weitere Informationen zur Einrichtung der Zahlungsformen finden Sie in der [Zahlungsform Einrichtung](payment-method-setup.md).
+Weitere Informationen zur Einrichtung der Zahlungsformen finden Sie in der [Zahlungsform Einrichtung](setup/payment-method-setup.md).
 
 ## Banking Benutzer Einrichtung
 
@@ -30,6 +30,6 @@ Weitere Informationen zur Einrichtung des Banking Benutzers finden Sie in der [B
 Zusätzlich zu den oben genannten Einstellungen können Sie weitere Anpassungen vornehmen, um 365 business Banking optimal an Ihre Bedürfnisse anzupassen. Dazu gehören:
 
 - **ZKA Codes**: ZKA Codes (Geschäftsvorfallcode, GV-Code) werden verwendet, um spezifische Geschäftsvorfälle zu kennzeichnen. Diese Codes können in der Seite **ZKA Codes** verwaltet werden.
-  Weitere Informationen finden Sie in der [ZKA Codes Einrichtung](payment-codes/zka-code.md).
+  Weitere Informationen finden Sie in der [ZKA Codes Einrichtung](setup/zka-code.md).
 - **SEPA Purpose Codes**: SEPA Purpose Codes (Zahlungszweckcodes) werden verwendet, um den Zweck einer Zahlung zu kennzeichnen. Diese Codes können in der Seite **SEPA Purpose Codes** verwaltet werden.
-  Weitere Informationen finden Sie in der [SEPA Purpose Codes Einrichtung](payment-codes/sepa-purpose-code.md).
+  Weitere Informationen finden Sie in der [SEPA Purpose Codes Einrichtung](setup/sepa-purpose-code.md).

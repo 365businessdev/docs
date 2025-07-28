@@ -6,6 +6,13 @@ Der SEPA Purpose Code ist ein standardisierter, nach ISO 20022 definierter, vier
 
 365 business Banking unterstützt die Verwendung von SEPA Purpose Codes bei der Zahlungsabstimmung und der Erstellung von SEPA-Überweisungen. Während der Installation für 365 business Banking werden die häufigsten SEPA Purpose Codes automatisch eingerichtet. Sie können jedoch auch eigene SEPA Purpose Codes hinzufügen oder bestehende Codes anpassen, um Ihre spezifischen Anforderungen zu erfüllen.
 
+<div class="alert alert-success">
+    <i class="fa-duotone fa-solid fa-question-circle fa-xl"></i>
+    <strong>Wussten Sie schon?</strong>
+    Bei der Installation von 365 business Banking werden bereits einige gängige SEPA Purpose Codes eingerichtet.<br>
+    Diese können Sie jederzeit anpassen oder erweitern, um die Zuordnung zu den offenen Posten zu optimieren.
+</div>
+
 ## Schritt-für-Schritt-Anleitung
 
 Gehen Sie wie folgt vor, um SEPA Purpose Codes in 365 business Banking zu verwalten:

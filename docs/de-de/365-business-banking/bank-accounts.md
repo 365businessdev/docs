@@ -13,6 +13,12 @@ Unter anderem können Sie folgende Kontoarten verwalten:
 <i aria-hidden="true" class="fas fa-check"></i> Genossenschaftsanteile (z. B. bei Volks- und Raiffeisenbanken)
 </ul>
 
+## Bankkonto
+
+Bankkonten sind die Grundlage für die Verwaltung Ihrer Banktransaktionen. Sie können Bankkonten in Microsoft Dynamics 365 Business Central hinzufügen und verwalten, um Zahlungen zu initiieren und Banktransaktionen abzurufen. 
+
+![Bankkonto](/assets/images/365-business-banking/bank-account.en-US.png)
+
 ## Autorisierung und Sicherheit
 
 Die Verbindung zu Ihren Bankkonten erfolgt über die [finAPI GmbH](https://www.finapi.io/), die eine sichere und zuverlässige Schnittstelle zu verschiedenen Banken in Deutschland und Europa bereitstellt. Die Authentifizierung erfolgt über die 365 business API, die sicherstellt, dass Ihre Daten geschützt sind und keine sensiblen Informationen zwischengespeichert oder verarbeitet werden.
