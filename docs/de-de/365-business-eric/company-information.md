@@ -9,7 +9,7 @@ Die Wirtschafts-Identifikationsnummer (W-IdNr.) ist eine eindeutige Identifikati
 
 <div class="alert alert-info">
     <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
-    <strong>Hinweis</strong> Sofern Ihnen bislang keine Wirtschafts-Identifikationsnummer zugewiesen wurde, können Sie diese über das [Bundeszentralamt für Steuern (BZSt)](https://www.bzst.de) beantragen. Die Zuteilung erfolgt in der Regel automatisch, wenn Sie eine Umsatzsteuer-Identifikationsnummer (USt-IdNr.) beantragt haben.
+    <strong>Hinweis</strong> Sofern Ihnen bislang keine Wirtschafts-Identifikationsnummer zugewiesen wurde, können Sie diese über das <a href="https://www.bzst.de" target="_blank">Bundeszentralamt für Steuern (BZSt)</a> beantragen. Die Zuteilung erfolgt in der Regel automatisch, wenn Sie eine Umsatzsteuer-Identifikationsnummer (USt-IdNr.) beantragt haben.
 </div>
 
 <div class="alert alert-notice">
@@ -24,7 +24,7 @@ Die W-IdNr. wird, nach der Vergabe, für die elektronische Übertragung von Steu
 | --- | --- |
 | Wirtschafts-Identifikationsnummer | Gibt die vom Bundeszentralamt für Steuern (BZSt) vergebene Wirtschafts-Identifikationsnummer an. |
 
-## Welche 365 business ERiC Konfigurationsparameter gibt es?
+## Standardkontakt für Finanzamt
 
 Bei der elektronischen Übertragung von Steuerdaten verlangen die deutschen Steuerbehörden eine Angabe von Kontaktpersonen in Ihrem Unternehmen.
 In der Regel handelt es sich hierbei immer um denselben Kontakt. Aus diesem Grund wurde die Seite der Firmendaten um die folgenden Felder erweitert:
