@@ -8,6 +8,7 @@ In der Regel handelt es sich hierbei immer um denselben Kontakt. Aus diesem Grun
 
 | Feldname | Beschreibung | 
 | --- | --- |
+| Wirtschafts-Identifikationsnummer | Gibt die vom Bundeszentralamt für Steuern (BZSt) vergebene Wirtschafts-Identifikationsnummer an. |
 | Standardkontakt für Finanzamt | Standardkontakt für die Kommunikation mit dem Finanzamt. |
 | Standardkontakt Telefonnr. für das Finanzamt | Standardkontakt Telefonnr. für die Kommunikation mit dem Finanzamt. |
 | Standardkontakt E-Mail für das Finanzamt | Standardkontakt E-Mail für die Kommunikation mit dem Finanzamt. | 
