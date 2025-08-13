@@ -1,5 +1,10 @@
 # 365 business ERiC Changelog
 
+## Version 17.13.279.20913
+
+- Add feature 61842 - Commercial Identification No. (Wirtschafts-Identifikationsnummer) in UStVA / UStDV
+- Remove support for 365 business API - ERiC service v1 (obsoleted with `17.7.78.4114`)
+
 ## Version 17.13.262.19279
 
 - Fix issue 60024 TestCopyVATStatementToNewCompany Failed in 17.12.249.18353
