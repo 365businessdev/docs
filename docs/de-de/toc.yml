@@ -43,8 +43,56 @@
     - name: Unterstützte Barcodearten
       href: 365-business-barcode/supported-barcodes.md 
     - name: 365 business Barcode einbinden
-      href: 365-business-barcode/barcode-howto.md 
-      
+      href: 365-business-barcode/barcode-howto.md  
+
+- name: 365 business Banking
+  href: 365-business-banking/index.md
+  items:
+    - name: Erste Schritte
+      href: 365-business-banking/get-started.md  
+    - name: Was ist 365 business Banking?
+      href: 365-business-banking/banking-whatis.md
+    - name: Bankanbindung
+      href: 365-business-banking/banking-howitworks.md
+    - name: Bankkonten
+      href: 365-business-banking/bank-accounts.md
+      items:
+        - name: Unterstützte Banken
+          href: 365-business-banking/supported-banks.md
+        - name: Bankkontoverbindung herstellen
+          href: 365-business-banking/banking-connection.md
+    - name: Bankkontoabstimmung
+      href: 365-business-banking/bank-reconciliation.md
+      items:
+        - name: Zahlungscode Zuordnung
+          href: 365-business-banking/payment-code-mapping.md
+        - name: Automatisierung
+          href: 365-business-banking/bank-reconciliation-automation.md
+    - name: Zahlungen
+      href: 365-business-banking/bank-payment.md
+      items:
+        - name: Zlg.-Ausg. Buch.-Blatt
+          href: 365-business-banking/payment-journal.md
+        - name: SEPA-Überweisung
+          href: 365-business-banking/payment-types/sepa-credit-transfer.md
+        - name: Lastschrift
+          href: 365-business-banking/payment-types/direct-debit.md
+        - name: Dauerauftrag
+          href: 365-business-banking/payment-types/standing-order.md
+    - name: Einrichtung
+      href: 365-business-banking/setup.md
+      items:
+        - name: Banking Benutzer Einrichtung
+          href: 365-business-banking/banking-user-setup.md 
+        - name: Zahlungsformen
+          href: 365-business-banking/setup/payment-method-setup.md
+        - name: ZKA Codes
+          href: 365-business-banking/setup/zka-code.md
+        - name: SEPA Purpose Codes
+          href: 365-business-banking/setup/sepa-purpose-code.md
+        - name: Kontextwörter
+          href: 365-business-banking/setup/context-words.md
+
 - name: 365 business E-Invoice
   href: 365-business-e-invoice/index.md
   items:
