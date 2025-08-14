@@ -41,7 +41,10 @@ Die unterstützten Zahlungsarten umfassen:
 
 ## Ressourcen
 
-Im Rahmen der Kommunikation von Microsoft Dynamics 365 Business Central mit finAPI wird die 365 business API zur Authentifizierung verwendet. Hierbei werden keinerlei Daten zwischengespeichert oder verarbeitet.
+Im Rahmen der Kommunikation von Microsoft Dynamics 365 Business Central mit finAPI wird die 365 business API zur Authentifizierung und Sicherung der Kommunikation verwendet. Hierbei werden keinerlei Daten zwischengespeichert oder verarbeitet.
+
+![Ressourcen](/assets/images/365-business-banking/resources.en-US.png)
+
 Dabei werden die folgenden DNS-Namen, Ports und Protokolle verwendet:
 
 | DNS-Name | Port | Protokoll | Beschreibung |
