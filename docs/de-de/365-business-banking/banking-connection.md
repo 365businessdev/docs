@@ -8,6 +8,13 @@ Bei der Bankkontoverbindung handelt es sich um einen einmaligen Prozess, der es 
 
 Bevor Sie mit der Bankkontoverbindung beginnen, stellen Sie sicher, dass Sie einen [Banking-Benutzer in Microsoft Dynamics 365 Business Central eingerichtet](banking-user-setup.md) haben. Sollte die Einrichtung des Benutzers noch nicht erfolgt sein, erscheint die Einrichtung automatisch, wenn Sie die Bankkontoverbindung herstellen möchten.
 
+<div class="alert alert-warn">
+    <i class="fa-duotone fa-solid fa-triangle-exclamation fa-xl"></i>
+    <strong>Achtung</strong>
+    Bankkommunikation kann unter Umständen eine Multi-Faktor-Authentifizierung, zum Beispiel über eine mobile App oder SMS-TAN, oder direkte Bankinteraktion erfordern. In diesem Fall erscheint ein entsprechendes Fenster, welches ein <strong>Pop-up</strong> bei Ihrer Bank öffnet.<br>
+    Bitte stellen Sie sicher, dass Pop-ups in Ihrem Browser nicht blockiert werden und lassen Sie Pop-ups von Ihrer Microsoft Dynamics 365 Business Central URL (z.B. https://businesscentral.dynamics.com) zu.
+</div>
+
 ## Schritt-für-Schritt-Anleitung
 
 Gehen Sie wie folgt vor, um Ihre Bankkontoverbindung in 365 business Banking herzustellen:
