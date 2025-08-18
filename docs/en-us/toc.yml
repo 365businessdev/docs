@@ -44,6 +44,54 @@
       href: 365-business-barcode/supported-barcodes.md 
     - name: Implement 365 business Barcode
       href: 365-business-barcode/barcode-howto.md  
+
+- name: 365 business Banking
+  href: 365-business-banking/index.md
+  items:
+    - name: Get Started
+      href: 365-business-banking/get-started.md  
+    - name: What is 365 business Banking?
+      href: 365-business-banking/banking-whatis.md
+    - name: Bank Integration
+      href: 365-business-banking/banking-howitworks.md
+    - name: Bank Accounts
+      href: 365-business-banking/bank-accounts.md
+      items:
+        - name: Supported Banks
+          href: 365-business-banking/supported-banks.md
+        - name: Establish Bank Connection
+          href: 365-business-banking/banking-connection.md
+    - name: Bank Reconciliation
+      href: 365-business-banking/bank-reconciliation.md
+      items:
+        - name: Payment Code Mapping
+          href: 365-business-banking/payment-code-mapping.md
+        - name: Automation
+          href: 365-business-banking/bank-reconciliation-automation.md
+    - name: Payments
+      href: 365-business-banking/bank-payment.md
+      items:
+        - name: Payment Journal
+          href: 365-business-banking/payment-journal.md
+        - name: SEPA Credit Transfer
+          href: 365-business-banking/payment-types/sepa-credit-transfer.md
+        - name: Direct Debit
+          href: 365-business-banking/payment-types/direct-debit.md
+        - name: Standing Order
+          href: 365-business-banking/payment-types/standing-order.md
+    - name: Setup
+      href: 365-business-banking/setup.md
+      items:
+        - name: Banking User Setup
+          href: 365-business-banking/banking-user-setup.md 
+        - name: Payment Methods
+          href: 365-business-banking/setup/payment-method-setup.md
+        - name: ZKA Codes
+          href: 365-business-banking/setup/zka-code.md
+        - name: SEPA Purpose Codes
+          href: 365-business-banking/setup/sepa-purpose-code.md
+        - name: Context Words
+          href: 365-business-banking/setup/context-words.md
       
 - name: 365 business E-Invoice
   href: 365-business-e-invoice/index.md
@@ -316,4 +364,4 @@
     - name: 365 business E-Invoice 
       href: ../changelog/changelog-365-business-e-invoice.md    
     - name: 365 business Sanction Screen
-      href: ../changelog/changelog-365-business-sanction-screen.md  
+      href: ../changelog/changelog-365-business-sanction-screen.md
