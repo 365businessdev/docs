@@ -5,7 +5,7 @@ Die Authentifizierung gegenüber der Bank erfolgt über die [finAPI](https://www
 <div class="alert alert-warn">
     <i class="fa-duotone fa-solid fa-triangle-exclamation fa-xl"></i>
     <strong>Achtung</strong>
-    Die Benutzerinformationen werden ausschließlich in Microsoft Dynamics 365 Business Central gespeichert. Das Password wird dabei verschlüsselt und ist nach der Vergabe mehr nicht einsehbar. Bitte stellen Sie sicher, dass Sie die Zugangsdaten sicher aufbewahren.<br>
+    Die Benutzerinformationen werden ausschließlich in Microsoft Dynamics 365 Business Central gespeichert. Das Password wird dabei verschlüsselt und ist nach der Vergabe nicht mehr einsehbar. Bitte stellen Sie sicher, dass Sie die Zugangsdaten sicher aufbewahren.<br>
     Es ist uns nicht möglich, die Benutzerinformationen oder das Passwort zu ändern oder zurückzusetzen. Sollten Sie das Passwort vergessen haben, müssen Sie den Benutzer löschen und neu anlegen.
 </div>
 
