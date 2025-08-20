@@ -92,6 +92,8 @@
           href: 365-business-banking/setup/sepa-purpose-code.md
         - name: Context Words
           href: 365-business-banking/setup/context-words.md
+    - name: Frequently Asked Questions (FAQ)
+      href: 365-business-banking/faq.md
       
 - name: 365 business E-Invoice
   href: 365-business-e-invoice/index.md
