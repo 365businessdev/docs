@@ -23,7 +23,7 @@ The connection of additional countries will be carried out step by step. You can
 
 ## Banks
 
-Currently, more than 4,200 banks are supported for direct connection. These banks cover a wide range of financial institutions, including large national banks, regional banks, and savings banks. A list of supported banks can be found in 365 business Banking under **Banks**.
+Currently, more than 3,000 banks are supported for direct connection. These banks cover a wide range of financial institutions, including large national banks, regional banks, and savings banks. A list of supported banks can be found in 365 business Banking under **Banks**.
 
 ![Banks](/assets/images/365-business-banking/banks.en-US.png)
 

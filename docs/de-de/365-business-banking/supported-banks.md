@@ -23,7 +23,7 @@ Die Anbindung weiterer Länder erfolgt schrittweise. Die vollständige Liste der
 
 ## Banken
 
-Aktuell werden mehr als 4.200 Banken für die direkte Anbindung unterstützt. Diese Banken decken eine breite Palette von Finanzinstituten ab, darunter große nationale Banken, regionale Banken und Sparkassen. Eine Liste der unterstützten Banken finden Sie in 365 business Banking unter **Banken**.
+Aktuell werden mehr als 3.000 Banken für die direkte Anbindung unterstützt. Diese Banken decken eine breite Palette von Finanzinstituten ab, darunter große nationale Banken, regionale Banken und Sparkassen. Eine Liste der unterstützten Banken finden Sie in 365 business Banking unter **Banken**.
 
 ![Banken](/assets/images/365-business-banking/banks.en-US.png)
 
