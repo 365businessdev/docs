@@ -57,7 +57,7 @@ As a Microsoft Development Partner, 365 business development offers numerous sol
         </p>
     </div>
 </div>
-<div class="columns" style="margin-top: 30px; margin-bottom: 10px;">
+<div class="columns" style="margin-bottom: 10px;">
     <div>
         <span class="columns-title">365 business<br>ERiC</span>
         <p style="height: 200px; font-size: 13px; padding-top: 10px;">
@@ -69,6 +69,17 @@ As a Microsoft Development Partner, 365 business development offers numerous sol
             </ul>
         </p>
     </div>
+        <div>
+            <span class="columns-title">365 business<br>Banking</span>
+            <p style="height: 200px; font-size: 13px; padding-top: 10px;">
+                Direct connection to your bank accounts, automated bank reconciliation, and efficient payment transactions, integrated into Microsoft Dynamics 365 Business Central.
+            </p>
+            <p>
+                <ul class="fa-ul">
+                    <li><span class="fa-li"><i class="fa-duotone fa-solid fa-circle-arrow-right fa-xl" style="--fa-secondary-color: #00b7c3"></i></span><a href="365-business-banking/index.md">About 365 business Banking</a></li>
+                </ul>
+            </p>
+        </div>
     <div>
         <span class="columns-title">365 business<br>PDF</span>
         <p style="height: 200px; font-size: 13px; padding-top: 10px;">
@@ -80,6 +91,8 @@ As a Microsoft Development Partner, 365 business development offers numerous sol
             </ul>
         </p>
     </div>
+</div>
+<div class="columns" style="margin-top: 10px;">
     <div>
         <span class="columns-title">365 business<br>Barcode</span>
         <p style="height: 200px; font-size: 13px; padding-top: 10px;">
@@ -91,8 +104,6 @@ As a Microsoft Development Partner, 365 business development offers numerous sol
             </ul>
         </p>
     </div>
-</div>
-<div class="columns" style="margin-top: 10px;">
     <div>
         <span class="columns-title">365 business<br>Address Validation</span>
         <p style="height: 200px; font-size: 13px; padding-top: 10px;">
@@ -115,6 +126,8 @@ As a Microsoft Development Partner, 365 business development offers numerous sol
             </ul>
         </p>
     </div>
+</div>
+<div class="columns" style="margin-top: 10px;">
     <div>
         <span class="columns-title">365 business development<br>Find & Replace</span>
         <p style="height: 200px; font-size: 13px; padding-top: 10px;">

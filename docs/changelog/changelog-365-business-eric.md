@@ -1,5 +1,9 @@
 # 365 business ERiC Changelog
 
+## Version 17.13.281.21039
+
+- Add new event `OnBeforeConfirmSubmission()` in `bdev.ERiC Tax Data`
+
 ## Version 17.13.279.20913
 
 - Add feature 61842 - Commercial Identification No. (Wirtschafts-Identifikationsnummer) in UStVA / UStDV

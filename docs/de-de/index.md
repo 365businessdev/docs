@@ -56,7 +56,7 @@ Als Microsoft Development Partner bietet Ihnen 365 business development zahlreic
         </p>
     </div>
 </div>
-<div class="columns" style="margin-top: 30px; margin-bottom: 10px;">
+<div class="columns" style="margin-bottom: 10px;">
     <div>
         <span class="columns-title">365 business<br>ERiC</span>
         <p style="height: 200px; font-size: 13px; padding-top: 10px;">
@@ -65,6 +65,17 @@ Als Microsoft Development Partner bietet Ihnen 365 business development zahlreic
         <p>
             <ul class="fa-ul">
                 <li><span class="fa-li"><i class="fa-duotone fa-solid fa-circle-arrow-right fa-xl" style="--fa-secondary-color: #00b7c3"></i></span><a href="365-business-eric/index.md">Über 365 business ERiC</a></li>
+            </ul>
+        </p>
+    </div>
+    <div>
+        <span class="columns-title">365 business<br>Banking</span>
+        <p style="height: 200px; font-size: 13px; padding-top: 10px;">
+            Direkte Anbindung an Ihre Bankkonten, automatisierter Kontoabruf und effizienter Zahlungsverkehr, integriert in Microsoft Dynamics 365 Business Central.
+        </p>
+        <p>
+            <ul class="fa-ul">
+                <li><span class="fa-li"><i class="fa-duotone fa-solid fa-circle-arrow-right fa-xl" style="--fa-secondary-color: #00b7c3"></i></span><a href="365-business-banking/index.md">Über 365 business Banking</a></li>
             </ul>
         </p>
     </div>
@@ -79,6 +90,8 @@ Als Microsoft Development Partner bietet Ihnen 365 business development zahlreic
             </ul>
         </p>
     </div>
+</div>
+<div class="columns" style="margin-top: 10px;">
     <div>
         <span class="columns-title">365 business<br>Barcode</span>
         <p style="height: 200px; font-size: 13px; padding-top: 10px;">
@@ -90,8 +103,6 @@ Als Microsoft Development Partner bietet Ihnen 365 business development zahlreic
             </ul>
         </p>
     </div>
-</div>
-<div class="columns" style="margin-top: 10px;">
     <div>
         <span class="columns-title">365 business<br>Address Validation</span>
         <p style="height: 200px; font-size: 13px; padding-top: 10px;">
@@ -114,6 +125,8 @@ Als Microsoft Development Partner bietet Ihnen 365 business development zahlreic
             </ul>
         </p>
     </div>
+</div>
+<div class="columns" style="margin-top: 10px;">
     <div>
         <span class="columns-title">365 business development<br>Find &amp; Replace</span>
         <p style="height: 200px; font-size: 13px; padding-top: 10px;">
