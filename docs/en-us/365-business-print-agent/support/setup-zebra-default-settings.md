@@ -47,3 +47,9 @@ The Zebra printer driver provides two types of configuration:
     <strong>Good to know</strong>
     These default settings will now apply to <b>all users</b> – including the <b>365 business Print Agent</b> service.
 </div>
+
+<div class="alert alert-warn">
+    <i class="fa-duotone fa-solid fa-triangle-exclamation fa-xl"></i>
+    <strong>Attention</strong>
+    In some cases, the default values only take effect after <b>restarting the Print Agent Service</b>.
+</div>

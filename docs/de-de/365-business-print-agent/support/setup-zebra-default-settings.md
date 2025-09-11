@@ -40,9 +40,16 @@ Der Zebra-Druckertreiber bietet zwei Konfigurationsbereiche:
 5. Klicken Sie auf **Standardwerte**
 6. Passen Sie hier die gewünschten Einstellungen an (z. B. Geschwindigkeit, Helligkeit etc.)
 
+---
 
 <div class="alert alert-notice">
     <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Gut zu wissen</strong>
 	Diese Konfiguration gilt nun für <b>alle Benutzer</b> – einschließlich des Dienstes <b>365 business Print Agent</b>.	
+</div>
+
+<div class="alert alert-warn">
+    <i class="fa-duotone fa-solid fa-triangle-exclamation fa-xl"></i>
+    <strong>Achtung</strong>
+    In einigen Fällen werden die Standardwerte erst nach einem <b>Neustart des Print Agent Dienstes</b> wirksam.
 </div>
