@@ -45,6 +45,12 @@ Gehen Sie wie folgt vor, um Banktransaktionszeilen aufzuteilen:
 4. Wählen Sie **OK**, um die Änderungen zu speichern.
    ![Banktransaktionszeilen aufteilen](/assets/images/365-business-banking/split-bank-recon-lines3.en-US.png)
 
+<div class="alert alert-info">
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
+    <strong>Hinweis</strong>
+    Die Aufteilung von Banktransaktionszeilen kann über die Aktion <strong>Zeile zurücksetzen</strong> wieder aufgehoben werden. Dabei wird der ursprüngliche Zustand der Banktransaktionszeilen wiederhergestellt.
+</div>
+
 ## Zahlungsabstimmung
 
 Nach dem Abruf der Banktransaktionen können Sie diese in der Zahlungsabstimmung verwenden. Die Banktransaktionen werden automatisch den offenen Posten in Microsoft Dynamics 365 Business Central zugeordnet, um eine effiziente Abstimmung zu ermöglichen. Dabei wird die Microsoft Dynamics 365 Business Central Bankabstimmung (siehe [Verwalten und Abstimmen Ihrer Bankkonten](https://learn.microsoft.com/de-de/dynamics365/business-central/bank-manage-bank-accounts)) verwendet, und um zusätzliche Funktionen ergänzt, um ein besseres Ergebnis beim Abgleich der Banktransaktionen zu erzielen.

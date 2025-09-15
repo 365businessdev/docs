@@ -45,6 +45,12 @@ Follow these steps to split bank transaction lines:
 4. Select **OK** to save the changes.
    ![Splitting Bank Transaction Lines](/assets/images/365-business-banking/split-bank-recon-lines3.en-US.png)
 
+<div class="alert alert-info">
+   <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
+   <strong>Info</strong>
+   You can undo the splitting of bank transaction lines using the <strong>Undo Split Line</strong> action. This restores the original state of the bank transaction lines.
+</div>
+
 ## Payment Reconciliation
 
 After retrieving bank transactions, you can use them in payment reconciliation. The bank transactions are automatically matched to the open entries in Microsoft Dynamics 365 Business Central to enable efficient reconciliation. The Microsoft Dynamics 365 Business Central bank reconciliation (see [Managing and Reconciling Your Bank Accounts](https://learn.microsoft.com/en-us/dynamics365/business-central/bank-manage-bank-accounts)) is used and enhanced with additional features to achieve better results when matching bank transactions.
