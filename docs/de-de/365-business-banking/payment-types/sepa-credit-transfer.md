@@ -27,13 +27,11 @@ Gehen Sie wie folgt vor, um Zahlungen in 365 business Banking zu initiieren:
 
 Abhängig von der Bank und der Zahlungsform kann es erforderlich sein, eine TAN oder eine andere Authentifizierungsmethode zu verwenden, um die Zahlung zu bestätigen. In diesem Fall erscheint ein Dialog zur Bestätigung der Zahlung.
 
-![Autorisierung der Zahlung](/assets/images/365-business-banking/bank-payment-authentication.en-US.png)
-
 1. Wählen Sie **Autorisieren**, um den Zahlungsvorgang zu bestätigen.
 2. Folgen Sie den Anweisungen auf dem Bildschirm, um die Zahlung zu autorisieren. Dies kann die Eingabe einer TAN oder die Bestätigung über eine Banking-App umfassen.
-   ![Autorisierung der Zahlung](/assets/images/365-business-banking/bank-payment-authentication-webform.en-US.png)
+   ![Autorisierung der Zahlung](/assets/images/365-business-banking/sepa-payment.de-DE.png)
 3. Nach erfolgreicher Autorisierung wird die Zahlung verarbeitet und abgeschlossen.
-   ![Bestätigung der Zahlung](/assets/images/365-business-banking/bank-payment-confirmation.en-US.png)
+   ![Bestätigung der Zahlung](/assets/images/365-business-banking/payment-authorized.de-DE.png)
 4. Wählen Sie **Schließen**, um den Dialog zu schließen und zur Zahlungsabwicklung zurückzukehren.
 
 Nach der Bestätigung und Ausführung der Zahlung wird die Zahlung im Zlg.-Ausg. Buch.-Blatt verbucht. Sofern die Aktion **Zahlungen durchführen und buchen** verwendet wurde, erfolgt die Buchung automatisch. Andernfalls müssen Sie die Zahlung über die Aktion **Buchen** im Zlg.-Ausg. Buch.-Blatt manuell buchen.
