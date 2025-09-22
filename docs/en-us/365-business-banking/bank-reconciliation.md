@@ -34,6 +34,12 @@ Follow these steps to retrieve bank transactions in 365 business Banking:
 
 In some cases, it may be necessary to split bank transaction lines to allocate them to multiple general ledger accounts. This can be the case, for example, with direct debits from the tax authority, where multiple taxes are included in a single transaction.
 
+<div class="alert alert-notice">
+   <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
+   <strong>Good to know</strong>
+   Bank transaction lines can also be automatically split using <a href="setup/bank-transaction-split-rules.md">Bank Transaction Split Rules</a>. These rules are applied when retrieving bank transactions and help to optimize and automate the payment reconciliation process.
+</div>
+
 ![Splitting Bank Transaction Lines](/assets/images/365-business-banking/split-bank-recon-lines1.en-US.png)
 
 Follow these steps to split bank transaction lines:

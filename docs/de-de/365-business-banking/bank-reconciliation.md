@@ -34,6 +34,12 @@ Gehen Sie wie folgt vor, um Banktransaktionen in 365 business Banking abzurufen:
 
 In einigen Fällen kann es erforderlich sein, Banktransaktionszeilen aufzuteilen, um die Zuordnung zu mehreren Sachkonten durchzuführen. Dies kann beispielsweise bei Lastschriften der Steuerbehörde der Fall sein, bei denen mehrere Steuern in einer einzigen Transaktion enthalten sind.
 
+<div class="alert alert-notice">
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
+    <strong>Gut zu wissen</strong>
+    Banktransaktionszeilen können auch automatisch über <a href="setup/bank-transaction-split-rules.md">Banktransaktion Aufteilungsregeln</a> aufgeteilt werden. Diese Regeln werden beim Abruf der Banktransaktionen angewendet und helfen dabei, den Prozess der Zahlungsabstimmung zu optimieren und zu automatisieren.
+</div>
+
 ![Banktransaktionszeilen aufteilen](/assets/images/365-business-banking/split-bank-recon-lines1.en-US.png)
 
 Gehen Sie wie folgt vor, um Banktransaktionszeilen aufzuteilen:

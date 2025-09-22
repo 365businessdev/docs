@@ -92,6 +92,8 @@
           href: 365-business-banking/setup/sepa-purpose-code.md
         - name: Kontextwörter
           href: 365-business-banking/setup/context-words.md
+        - name: Banktransaktion Aufteilungsregeln
+          href: 365-business-banking/setup/bank-transaction-split-rules.md
     - name: Häufig gestellte Fragen (FAQ)
       href: 365-business-banking/faq.md
 
