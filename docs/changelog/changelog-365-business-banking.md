@@ -1,5 +1,12 @@
 # 365 business Banking Changelog
 
+## Version 18.0.263.21520
+
+- Add feature #62103 Auto Split Bank Recon. Line
+- Fix issue #62108 Text overflow for `differentCreditor` / `differentDebitor`
+- Disable fuzzy matching for document number to reduce false positives
+- Add feature #62100 XS2A, FinTS & Web Scraping Bank Interface implementation
+
 ## Version 18.0.247.21447
 
 - Add feature #62013 365 business Banking Webform control add-in
