@@ -1,6 +1,6 @@
 # 365 business Banking Changelog
 
-## Version 18.0.263.21520
+## Version 18.0.266.21523
 
 - Add feature #62103 Auto Split Bank Recon. Line
 - Fix issue #62108 Text overflow for `differentCreditor` / `differentDebitor`
