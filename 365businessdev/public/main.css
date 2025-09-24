@@ -5,6 +5,7 @@
 @import "sharp-duotone-thin.min.css";
 @import "sharp-thin.min.css";
 @import "thin.min.css";
+@import url('https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css');
 
 .toc .expand-stub::before {
   display: inline-block;
@@ -88,20 +89,27 @@ html[data-bs-theme="dark"] p img, html[data-bs-theme="dark"] li img {
     font-size: 16px;
 }
 
+.bi-english,
 .bi-german {
-	display: inline-block;
-    width: 16px; /* Größe anpassen */
-    height: 16px;
-    background: url("../../assets/images/german.png") no-repeat center center;
+    display: inline-block;
+    width: 16px;          /* Größe anpassen */
+    height: 12px;         /* Verhältnis 4:3 für Flaggen */
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .bi-english {
-	display: inline-block;
-    width: 16px;
-    height: 16px;
-    background: url("../../assets/images/usa.png") no-repeat center center;
-    background-size: cover;
+    background-image: url("https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/us.svg");
+}
+
+.bi-german {
+    background-image: url("https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/de.svg");
+}
+
+.bi-english::before,
+.bi-german::before {
+    content: none !important;
 }
 
 
@@ -314,4 +322,10 @@ ul.fa-ul>li a:hover {
 
 code {
     font-size: 14px;
+}
+
+.flag-24 {
+  font-size: 24px;         /* skaliert die Flagge */
+  vertical-align: middle;
+  margin-right: 8px;
 }
