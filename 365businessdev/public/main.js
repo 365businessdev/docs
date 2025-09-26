@@ -1,5 +1,5 @@
 export default {
-  defaultTheme: 'dark',
+  defaultTheme: 'light',
   iconLinks: [
     {
       icon: 'english',
