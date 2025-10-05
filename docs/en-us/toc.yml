@@ -79,6 +79,13 @@
           href: 365-business-banking/payment-types/direct-debit.md
         - name: Standing Order
           href: 365-business-banking/payment-types/standing-order.md
+    - name: Payment Services
+      href: 365-business-banking/payment-services.md
+      items:
+        - name: PayPal
+          href: 365-business-banking/payment-services/paypal.md
+        - name: Stripe
+          href: 365-business-banking/payment-services/stripe.md
     - name: Setup
       href: 365-business-banking/setup.md
       items:

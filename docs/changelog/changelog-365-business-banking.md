@@ -1,5 +1,10 @@
 # 365 business Banking Changelog
 
+## Version 18.1.282.21685
+
+- Add feature #62149 Stripe & PayPal Banking Provider integration
+- Add feature #62191 Transfer unapplied payment journal lines to new statement
+
 ## Version 18.0.271.21552
 
 - Add feature #62103 Auto Split Bank Recon. Line
