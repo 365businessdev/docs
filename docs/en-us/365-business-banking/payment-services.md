@@ -5,8 +5,24 @@ This allows you to automatically retrieve transactions and include them in payme
 
 ## Supported Payment Services
 
- - PayPal
- - Stripe
+<div class="columns">
+   <div>
+       <a href="payment-services/paypal.md">
+           <div>
+               <div><img src="/assets/images/365-business-banking/paypal-logo.png" alt="PayPal Logo" style="height: 40px;"></div>
+               <div>PayPal</div>
+           </div>
+       </a>
+   </div>
+   <div>
+       <a href="payment-services/stripe.md">
+           <div>
+               <div><img src="/assets/images/365-business-banking/stripe-logo.png" alt="Stripe Logo" style="height: 40px;"></div>
+               <div>Stripe</div>
+           </div>
+       </a>
+   </div>
+</div>
 
 <div class="alert alert-info">
    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
@@ -26,9 +42,9 @@ This allows you to automatically retrieve transactions and include them in payme
 6. Depending on the provider, different authentication data may be required. Enter the necessary information.  
    ![Enter credentials](/assets/images/365-business-banking/paypal-setup.de-DE.png)
 7. Select the **Authenticate** action to check and activate access.
-   ![Authenticate](/assets/images/365-business-banking/paypal-authentication-successful.de-DE.png)
+
+Afterwards, you can retrieve and process the transactions from the payment service using the Payment Reconciliation Journal (see [Using the Payment Reconciliation Journal](bank-reconciliation.md)).
 
 # See Also
-
- - [Set up PayPal account](../payment-services/paypal.md)
- - [Set up Stripe account](../payment-services/stripe.md)
+ - [Set up PayPal account](payment-services/paypal.md)
+ - [Set up Stripe account](payment-services/stripe.md)

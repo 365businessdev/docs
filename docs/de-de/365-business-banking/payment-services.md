@@ -5,8 +5,24 @@ Dadurch lassen sich Transaktionen automatisch abrufen und in den Zahlungsabgleic
 
 ## Unterstützte Zahlungsdienste
 
- - PayPal
- - Stripe
+<div class="columns">
+   <div>
+       <a href="payment-services/paypal.md">
+           <div>
+               <div><img src="/assets/images/365-business-banking/paypal-logo.png" alt="PayPal Logo" style="height: 40px;"></div>
+               <div>PayPal</div>
+           </div>
+       </a>
+   </div>
+   <div>
+       <a href="payment-services/stripe.md">
+           <div>
+               <div><img src="/assets/images/365-business-banking/stripe-logo.png" alt="Stripe Logo" style="height: 40px;"></div>
+               <div>Stripe</div>
+           </div>
+       </a>
+   </div>
+</div>
 
 <div class="alert alert-info">
     <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
@@ -26,10 +42,11 @@ Dadurch lassen sich Transaktionen automatisch abrufen und in den Zahlungsabgleic
 6. Je nach Anbieter werden unterschiedliche Authentifizierungsdaten benötigt. Geben Sie die erforderlichen Daten ein.  
    ![Anmeldedaten eingeben](/assets/images/365-business-banking/paypal-setup.de-DE.png)
 7. Wählen Sie die Aktion **Authentifizieren**, um den Zugriff zu prüfen und zu aktivieren.
-   ![Authentifizieren](/assets/images/365-business-banking/paypal-authentication-successful.de-DE.png)
+
+Anschließend können die Transaktionen des Zahlungsdienstes über das Zahlungsabstimmungsbuch.-Blatt abgerufen und verarbeitet werden (siehe [Zahlungsabstimmungsbuch-Blatt verwenden](bank-reconciliation.md)).
 
 # Siehe auch
 
- - [PayPal Konto einrichten](../payment-services/paypal.md)
- - [Stripe Konto einrichten](../payment-services/stripe.md)
+ - [PayPal Konto einrichten](payment-services/paypal.md)
+ - [Stripe Konto einrichten](payment-services/stripe.md)
 
