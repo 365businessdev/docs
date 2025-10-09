@@ -30,6 +30,9 @@ In dieser Kurzanleitung wird erklärt, wie Sie 365 business Print Agent aktivier
 Öffnen Sie den **Marketplace für Erweiterungen** in Microsoft Dynamics 365 Business Central und suchen Sie nach **365 business Print Agent**.
 Installieren Sie die App von Microsoft AppSource und warten Sie, bis die Installation abgeschlossen ist.
 
+Alternativ verwenden Sie den nachfolgenden Link, um **365 business Print Agent** direkt aus Microsoft AppSource zu installieren:  
+[365 business Print Agent installieren | Microsoft AppSource](https://appsource.microsoft.com/de-de/product/dynamics-365-business-central/PUBID.business_development_christoph_krieg%7CAID.365businessprintagent%7CPAPPID.6fb30c19-f5d6-4e4c-b006-18fba4de1898?modalAppId=PUBID.business_development_christoph_krieg%7CAID.365businessprintagent%7CPAPPID.6fb30c19-f5d6-4e4c-b006-18fba4de1898&signInModalType=2&ctaType=2)
+
 ---
 
 ## Schritt 1.1: Print Agent Einrichtung

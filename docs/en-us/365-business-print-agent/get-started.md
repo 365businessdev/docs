@@ -30,6 +30,9 @@ In addition, there is a <strong>free 30-day trial period for real and On-Premise
 Open the **Extension Marketplace** in Microsoft Dynamics 365 Business Central and search for **365 business Print Agent**.
 Install the app from Microsoft AppSource and wait until the installation is complete.
 
+Alternatively, use the following link to install **365 business Print Agent** directly from Microsoft AppSource:  
+[Install 365 business Print Agent | Microsoft AppSource](https://appsource.microsoft.com/en-US/product/dynamics-365-business-central/PUBID.business_development_christoph_krieg%7CAID.365businessprintagent%7CPAPPID.6fb30c19-f5d6-4e4c-b006-18fba4de1898?modalAppId=PUBID.business_development_christoph_krieg%7CAID.365businessprintagent%7CPAPPID.6fb30c19-f5d6-4e4c-b006-18fba4de1898&signInModalType=2&ctaType=2)
+
 ---
 
 ## Step 1.1: Print Agent Setup
