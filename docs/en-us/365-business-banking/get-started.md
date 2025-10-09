@@ -11,6 +11,9 @@ Welcome to 365 business Banking, the simple and secure solution for managing you
 
 Open the **Extension Marketplace** in Microsoft Dynamics 365 Business Central and search for **365 business Banking**. Install the app from Microsoft AppSource and wait for the installation to complete.
 
+Alternatively, use the following link to install **365 business Banking** directly from Microsoft AppSource:  
+[Install 365 business Banking | Microsoft AppSource](https://appsource.microsoft.com/en-US/product/DynamicsBC/PUBID.business_development_christoph_krieg%7CAID.365businessbanking%7CPAPPID.2ddb5a5d-a539-46f7-8c68-2e37cf7d0dfb?modalAppId=PUBID.business_development_christoph_krieg%7CAID.365businessbanking%7CPAPPID.2ddb5a5d-a539-46f7-8c68-2e37cf7d0dfb&signInModalType=2&ctaType=2)
+
 ## Step 2: Setting Up a Banking User
 
 To connect bank accounts, retrieve transactions, and initiate payments, you need to set up a banking user in Microsoft Dynamics 365 Business Central. Follow these steps:
