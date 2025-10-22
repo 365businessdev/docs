@@ -28,5 +28,5 @@ Um die Verbindung zu Ihrem Stripe-Konto zu trennen, gehen Sie wie folgt vor:
 
 1. Wählen Sie **Bankkonten** in der Suche von Microsoft Dynamics 365 Business Central aus.
 2. Wählen Sie das Bankkonto aus, das mit Stripe verbunden ist.
-3. Wählen Sie in der **Bankkonto Karte**, unter **Aktionen** die Aktionsgruppe **Kontoverbindung** und **Verbindung lösen** aus.
+3. Wählen Sie in der **Bankkonto Karte**, unter **Aktionen** die Aktionsgruppe **Kontoverbindung** und **Verbindung aufheben...** aus.
 4. Bestätigen Sie die Bestätigungsabfrage mit **Ja**.
