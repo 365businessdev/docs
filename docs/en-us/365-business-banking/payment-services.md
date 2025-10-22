@@ -22,7 +22,21 @@ This allows you to automatically retrieve transactions and include them in payme
            </div>
        </a>
    </div>
-</div>
+      <div>
+          <a href="payment-services/mollie.md">
+              <div>
+                  <div><img src="/assets/images/365-business-banking/mollie-logo.png" alt="Mollie Logo" style="height: 40px;"></div>
+                  <div>Mollie</div>
+              </div>
+          </a>
+      </div>
+   </div>
+   
+   <div class="alert alert-info">
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
+    <strong>Note</strong>
+    We are continuously working to integrate additional payment services to provide you with an even broader selection.<br>Please check regularly for new versions of 365 business Banking to take advantage of new features.
+   </div>
 
 <div class="alert alert-info">
    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
@@ -48,3 +62,4 @@ Afterwards, you can retrieve and process the transactions from the payment servi
 # See Also
  - [Set up PayPal account](payment-services/paypal.md)
  - [Set up Stripe account](payment-services/stripe.md)
+ - [Set up Mollie account](payment-services/mollie.md)

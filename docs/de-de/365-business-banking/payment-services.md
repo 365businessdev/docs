@@ -1,6 +1,6 @@
 # Zahlungsdienste
 
-Mit **365 business Banking** können Sie neben klassischen Bankkonten auch **Zahlungsdienste wie PayPal und Stripe** direkt mit **Microsoft Dynamics 365 Business Central** verbinden.  
+Mit **365 business Banking** können Sie neben klassischen Bankkonten auch **Zahlungsdienste**, wie PayPal, Stripe und mollie, direkt mit **Microsoft Dynamics 365 Business Central** verbinden.  
 Dadurch lassen sich Transaktionen automatisch abrufen und in den Zahlungsabgleich einbeziehen.
 
 ## Unterstützte Zahlungsdienste
@@ -22,12 +22,20 @@ Dadurch lassen sich Transaktionen automatisch abrufen und in den Zahlungsabgleic
            </div>
        </a>
    </div>
+   <div>
+       <a href="payment-services/mollie.md">
+           <div>
+               <div><img src="/assets/images/365-business-banking/mollie-logo.png" alt="Mollie Logo" style="height: 40px;"></div>
+               <div>Mollie</div>
+           </div>
+       </a>
+   </div>
 </div>
 
 <div class="alert alert-info">
     <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Hinweis</strong>
-    Die Anbindung weiterer Zahlungsdienste, wie z.B. Mollie, ist in Planung.<br>Bitte prüfen Sie regelmäßig, ob eine neue Version von 365 business Banking verfügbar ist, um von neuen Funktionen zu profitieren.
+    Wir arbeiten kontinuierlich daran, weitere Zahlungsdienste zu integrieren, um Ihnen eine noch größere Auswahl zu bieten.<br>Bitte prüfen Sie regelmäßig, ob eine neue Version von 365 business Banking verfügbar ist, um von neuen Funktionen zu profitieren.
 </div>
 
 ## Schritt-für-Schritt-Anleitung
@@ -49,4 +57,5 @@ Anschließend können die Transaktionen des Zahlungsdienstes über das Zahlungsa
 
  - [PayPal Konto einrichten](payment-services/paypal.md)
  - [Stripe Konto einrichten](payment-services/stripe.md)
+ - [Mollie Konto einrichten](payment-services/mollie.md)
 

@@ -86,6 +86,8 @@
           href: 365-business-banking/payment-services/paypal.md
         - name: Stripe
           href: 365-business-banking/payment-services/stripe.md
+        - name: Mollie
+          href: 365-business-banking/payment-services/mollie.md
     - name: Einrichtung
       href: 365-business-banking/setup.md
       items:
