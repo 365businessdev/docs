@@ -1,5 +1,19 @@
 # 365 business Banking Changelog
 
+## Version 18.1.301.21939
+
+- Add feature #62190 Mollie Banking Provider integration
+- Fix issue #62307 Post bank acc. recon journal and not using BNK bank account.
+
+## Version 18.1.291.21895
+
+- Fix end date calculation for get transactions from PayPal
+- Add validation for Gen. Journal Batch type in Bal. Account No. validation
+- Clear access token if invalid from banking user deletion or unauthorized response
+- Add temporary record to manage filters in CarryOutPayment procedure
+- Fix pagination for Stripe balance transactions, after first retrival
+- Fix issue #62286 Update Banking Provider for existing Bank Accounts
+
 ## Version 18.1.282.21685
 
 - Add feature #62149 Stripe & PayPal Banking Provider integration

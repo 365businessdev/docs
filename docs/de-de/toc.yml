@@ -377,4 +377,6 @@
     - name: 365 business E-Invoice 
       href: ../changelog/changelog-365-business-e-invoice.md    
     - name: 365 business Sanction Screen
-      href: ../changelog/changelog-365-business-sanction-screen.md           
+      href: ../changelog/changelog-365-business-sanction-screen.md        
+    - name: 365 business Banking
+      href: ../changelog/changelog-365-business-banking.md   
