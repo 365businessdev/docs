@@ -1,5 +1,12 @@
 # 365 business Print Agent Changelog
 
+## Version 18.12.237.21969
+
+- Add error handling for Print Agent connectivity issues and introduce TryGetResponseContent procedure
+- Update Print Job Error Codes
+- Fix client version empty, on direct connection
+- Fix service URL validation logic to ensure correct protocol handling
+
 ## Version 18.12.230.20314
 
  - Feature #61448 - Add support for RAW printing using Text Generic printer driver.

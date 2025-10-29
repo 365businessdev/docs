@@ -1,5 +1,12 @@
 # 365 business Banking Changelog
 
+## Version 18.1.309.22016
+
+- Preserve bank transaction details on transfer unapplied bank acc. recon. lines to new statement
+- Add fee description handling for PayPal transactions in bank transaction model
+- Clear banking user token on password change
+- Prevent bank acc. recon. lines to be applied multiple times through automation
+
 ## Version 18.1.301.21939
 
 - Add feature #62190 Mollie Banking Provider integration
