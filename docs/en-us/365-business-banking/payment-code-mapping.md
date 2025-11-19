@@ -1,5 +1,12 @@
 # Payment Code Mapping
 
+<div class="alert alert-warn">
+    <i class="fa-duotone fa-solid fa-triangle-exclamation fa-xl"></i>
+    <strong>Attention</strong>
+    The payment code mapping feature has been deprecated and will no longer be available in future versions of 365 business Banking.<br>
+    Instead, use the <a href="bank-reconciliation-rules.html"><strong>Reconciliation Rules</strong></a> to enable more accurate mapping of bank transactions to the corresponding accounts and improve reconciliation efficiency.
+</div>
+
 As part of a SEPA payment, additional payment codes are transmitted alongside the payment reference, which are used to identify the payment. These codes can be used during payment reconciliation to improve the assignment of bank transactions to open items or general ledger accounts.
 
 The following payment codes are supported:
