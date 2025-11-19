@@ -84,7 +84,7 @@
         - name: Standing Order
           href: 365-business-banking/payment-types/standing-order.md
         - name: Verification of Payee (VOP)
-          href: 365-business-banking/setup/bank-payment-vop.md
+          href: 365-business-banking/bank-payment-vop.md
     - name: Payment Services
       href: 365-business-banking/payment-services.md
       items:

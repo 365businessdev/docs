@@ -33,7 +33,9 @@ Follow these steps to define reconciliation rules in 365 business Banking:
           In addition to the criteria, the fields for the posting setup (posting type, business posting group, VAT business posting group, product posting group, VAT product posting group) are prefilled with the values from the selected bank transaction, as well as the chosen dimensions.
      </div>
 5. Set the desired criteria and posting settings in the reconciliation rule.
+   ![Reconciliation Rules](/assets/images/365-business-banking/reconciliationRule.de-DE.png)
 6. Close the **Reconciliation Rules** page.
+7. Select **Yes** to apply the reconciliation rules to the current bank reconciliation journal.
 
 # See also
 

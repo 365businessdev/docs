@@ -33,7 +33,9 @@ Gehen Sie wie folgt vor, um Kontierungsregeln in 365 business Banking festzulege
         Dabei werden neben den Kriterien auch die Felder für die Buchungseinrichtung (Buchungsart, Geschäftsbuchungsgruppe, MwSt.-Geschäftsbuchungsgruppe, Produktbuchungsgruppe, MwSt.-Produktbuchungsgruppe) mit den Werten der ausgewählten Banktransaktion und die gewählten Dimensionen vorausgefüllt.
     </div>
 5. Legen Sie die gewünschten Kriterien und Buchungseinstellungen in der Kontierungsregel fest.
+   ![Reconciliation Rules](/assets/images/365-business-banking/reconciliationRule.de-DE.png)
 6. Schließen Sie die Seite **Kontierungsregeln**.
+7. Wählen Sie **Ja**, um die Kontierungsregeln auf das aktuelle Zahlungsabstimmungsbuch.-Blatt anzuwenden.
 
 # Siehe auch 
 

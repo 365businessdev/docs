@@ -4,7 +4,7 @@
     <i class="fa-duotone fa-solid fa-triangle-exclamation fa-xl"></i>
     <strong>Achtung</strong>
     Die Funktion der Zahlungscode Zuordnung ist abgekündigt und wird in zukünftigen Versionen von 365 business Banking nicht mehr verfügbar sein.<br>
-    Verwenden Sie stattdessen die <a href="bank-reconciliation-rules.html"><strong>Kontierungsregeln</strong></a>, um eine genauere Zuordnung der Banktransaktionen zu den entsprechenden Konten zu ermöglichen und die Effizienz der Abstimmung zu verbessern.
+    Verwenden Sie stattdessen die <a href="bank-reconciliation-rules.md"><strong>Kontierungsregeln</strong></a>, um eine genauere Zuordnung der Banktransaktionen zu den entsprechenden Konten zu ermöglichen und die Effizienz der Abstimmung zu verbessern.
 </div>
 
 Im Rahmen einer SEPA Zahlung werden neben dem Verwendungszweck zusätzliche Zahlungscodes übermittelt, die zur Identifizierung der Zahlung verwendet werden. Im Rahmen der Zahlungsabstimmung können diese Codes verwendet werden, um die Zuordnung der Banktransaktionen zu den offenen Posten oder Sachkonten zu verbessern.

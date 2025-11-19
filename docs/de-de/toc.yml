@@ -84,7 +84,7 @@
         - name: Dauerauftrag
           href: 365-business-banking/payment-types/standing-order.md
         - name: Empfängerüberprüfung (VOP)
-          href: 365-business-banking/setup/bank-payment-vop.md
+          href: 365-business-banking/bank-payment-vop.md
     - name: Zahlungsdienste
       href: 365-business-banking/payment-services.md
       items:
