@@ -64,6 +64,10 @@
     - name: Bank Reconciliation
       href: 365-business-banking/bank-reconciliation.md
       items:
+        - name: Reconciliation Rules
+          href: 365-business-banking/bank-reconciliation-rules.md
+        - name: Posting Setup
+          href: 365-business-banking/bank-reconciliation-posting-setup.md
         - name: Payment Code Mapping
           href: 365-business-banking/payment-code-mapping.md
         - name: Automation

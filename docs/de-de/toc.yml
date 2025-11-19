@@ -66,6 +66,8 @@
       items:
         - name: Kontierungsregeln
           href: 365-business-banking/bank-reconciliation-rules.md
+        - name: Buchungseinrichtung
+          href: 365-business-banking/bank-reconciliation-posting-setup.md
         - name: Zahlungscode Zuordnung
           href: 365-business-banking/payment-code-mapping.md
         - name: Automatisierung
