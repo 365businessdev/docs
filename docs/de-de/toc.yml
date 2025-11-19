@@ -64,6 +64,8 @@
     - name: Bankkontoabstimmung
       href: 365-business-banking/bank-reconciliation.md
       items:
+        - name: Kontierungsregeln
+          href: 365-business-banking/bank-reconciliation-rules.md
         - name: Zahlungscode Zuordnung
           href: 365-business-banking/payment-code-mapping.md
         - name: Automatisierung

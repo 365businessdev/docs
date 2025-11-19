@@ -120,3 +120,5 @@ Im Rahmen des automatischen Ausgleichs der Banktransaktionen, wird die Zahlungsc
 - [Zahlungscode Zuordnung](payment-code-mapping.md)
 - [ZKA Code](setup/zka-code.md)
 - [SEPA Purpose Code](setup/sepa-purpose-code.md)
+- [Buchungseinrichtung im Zahlungsabstimmungsbuch.-Blatt](bank-reconciliation-posting-setup.md)
+- [Kontierungsregeln](bank-reconciliation-rules.md)
