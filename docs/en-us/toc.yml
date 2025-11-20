@@ -83,6 +83,8 @@
           href: 365-business-banking/payment-types/direct-debit.md
         - name: Standing Order
           href: 365-business-banking/payment-types/standing-order.md
+        - name: SEPA Payment Import
+          href: 365-business-banking/sepa-payment-import.md
         - name: Verification of Payee (VOP)
           href: 365-business-banking/bank-payment-vop.md
     - name: Payment Services

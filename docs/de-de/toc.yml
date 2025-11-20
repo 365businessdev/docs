@@ -83,6 +83,8 @@
           href: 365-business-banking/payment-types/direct-debit.md
         - name: Dauerauftrag
           href: 365-business-banking/payment-types/standing-order.md
+        - name: SEPA-Zahlungsimport
+          href: 365-business-banking/sepa-payment-import.md
         - name: Empfängerüberprüfung (VOP)
           href: 365-business-banking/bank-payment-vop.md
     - name: Zahlungsdienste
