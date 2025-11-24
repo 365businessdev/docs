@@ -1,5 +1,12 @@
 # 365 business Banking Changelog
 
+## Version 18.1.327.22387
+
+- Add feature #61920 Reconciliation Rules
+- Add feature #61992 SEPA Payment Import
+- Add feature #62648 Set ending balance in Payment Recon. Journal (regular bank account only)
+- Fix issue #62735 PayPal transaction ID is not unique
+
 ## Version 18.1.309.22016
 
 - Preserve bank transaction details on transfer unapplied bank acc. recon. lines to new statement
