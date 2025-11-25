@@ -1,6 +1,6 @@
 # 365 business Banking Changelog
 
-## Version 18.1.327.22387
+## Version 18.1.331.22403
 
 - Add feature #61920 Reconciliation Rules
 - Add feature #61992 SEPA Payment Import
