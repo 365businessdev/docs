@@ -23,5 +23,4 @@ Mollie ist ein Zahlungsdienstleister, der es Unternehmen ermöglicht, Zahlungen 
 1. Wählen Sie **Bankkonten** in der Suche von Microsoft Dynamics 365 Business Central aus.
 2. Wählen Sie das Bankkonto aus, dessen Verbindung Sie trennen möchten.
 3. Wählen Sie in der **Bankkonto Karte**, unter **Aktionen** die Aktionsgruppe **Kontoverbindung** und **Verbindung aufheben...** aus.
-   ![Verbindung trennen](/assets/images/365-business-banking/disconnect-banking-provider.de-DE.png)
 4. Bestätigen Sie die Bestätigugsabfrage mit **Ja**.

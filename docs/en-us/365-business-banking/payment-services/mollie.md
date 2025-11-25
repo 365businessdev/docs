@@ -23,5 +23,4 @@ Mollie is a payment service provider that enables businesses to accept payments 
 1. Select **Bank Accounts** from the Microsoft Dynamics 365 Business Central search.
 2. Select the bank account whose connection you want to disconnect.
 3. On the **Bank Account Card**, under **Actions**, choose the **Account Connection** action group and select **Disconnect...**.
-   ![Disconnect connection](/assets/images/365-business-banking/disconnect-banking-provider.de-DE.png)
 4. Confirm the prompt by selecting **Yes**.

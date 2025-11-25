@@ -30,6 +30,14 @@ Dadurch lassen sich Transaktionen automatisch abrufen und in den Zahlungsabgleic
            </div>
        </a>
    </div>
+   <div>
+       <a href="payment-services/klarna.md">
+           <div>
+               <div><img src="/assets/images/365-business-banking/klarna-logo.png" alt="Klarna Logo" style="height: 40px;"></div>
+               <div>Klarna (Beta)</div>
+           </div>
+       </a>
+   </div>
 </div>
 
 <div class="alert alert-info">
