@@ -1,5 +1,10 @@
 # 365 business Banking Changelog
 
+## Version 18.1.336.22408
+
+- Add feature #62749 Klarna payment service support (BETA)
+- Fix GetClearingGLAccountNo() is invoked for bank acc. recon. lines applied to document #61920
+
 ## Version 18.1.331.22403
 
 - Add feature #61920 Reconciliation Rules

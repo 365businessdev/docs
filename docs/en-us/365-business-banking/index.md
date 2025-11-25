@@ -82,6 +82,7 @@ With 365 business Banking, you can streamline your banking processes and optimiz
                 <ul class="fa-ul">
                     <li><span class="fa-li"><i class="fa-duotone fa-thin fa-user-unlock" style="--fa-secondary-color: #00b7c3"></i></span><a href="banking-user-setup.md">Set up banking users</a></li>
                     <li><span class="fa-li"><i class="fa-duotone fa-thin fa-link fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="banking-connection.md">Establish bank connection</a></li>
+                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-binary-circle-check fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="bank-reconciliation-rules.md">Reconciliation Rules</a></li>
                 </ul>
             </p>
     </div>

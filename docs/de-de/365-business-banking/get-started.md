@@ -64,6 +64,12 @@ Gehen Sie wie folgt vor, um Banktransaktionen in 365 business Banking abzurufen:
 Nach dem Abruf der Banktransaktionen können Sie diese in der Zahlungsabstimmung verwenden. Die Banktransaktionen werden automatisch den offenen Posten in Microsoft Dynamics 365 Business Central zugeordnet, um eine effiziente Abstimmung zu ermöglichen. Dabei wird die Microsoft Dynamics 365 Business Central Bankabstimmung verwendet, um zusätzliche Funktionen ergänzt, um ein besseres Ergebnis beim Abgleich der Banktransaktionen zu erzielen.
 
 Prüfen Sie die zugeordneten Banktransaktionen und nehmen Sie gegebenenfalls Anpassungen vor. Sobald Sie mit der Zuordnung zufrieden sind, können Sie den Ausgleich der Banktransaktionen buchen.
+ 
+<div class="alert alert-notice">
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
+    <strong>Gut zu wissen</strong>
+    Verwenden Sie die <strong><a href="bank-reconciliation-rules.md">Kontierungsregeln</a></strong>, um den Ausgleich von Banktransaktionen zu automatisieren und zu optimieren. Die Kontierungsregeln ermöglichen es Ihnen, komplexe Kriterien festzulegen, um Transaktionen automatisch den richtigen Sachkonten zuzuordnen und erweiterte Buchungseinstellungen zu definieren.
+</div>
 
 ## Schritt 3.2: Zahlungen buchen und Bankkonto abstimmen
 

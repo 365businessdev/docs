@@ -82,6 +82,7 @@ Mit 365 business Banking können Sie Ihre Bankprozesse effizienter gestalten und
                 <ul class="fa-ul">
                     <li><span class="fa-li"><i class="fa-duotone fa-thin fa-user-unlock" style="--fa-secondary-color: #00b7c3"></i></span><a href="banking-user-setup.md">Banking Benutzer einrichten</a></li>
                     <li><span class="fa-li"><i class="fa-duotone fa-thin fa-link fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="banking-connection.md">Bankverbindung herstellen</a></li>
+                    <li><span class="fa-li"><i class="fa-duotone fa-thin fa-binary-circle-check fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="bank-reconciliation-rules.md">Kontierungsregeln</a></li>
                 </ul>
             </p>
     </div>

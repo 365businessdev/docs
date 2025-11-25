@@ -64,6 +64,12 @@ Follow these steps to retrieve bank transactions in 365 business Banking:
 After retrieving bank transactions, you can use them in payment reconciliation. The bank transactions are automatically matched to the open entries in Microsoft Dynamics 365 Business Central to enable efficient reconciliation. The Microsoft Dynamics 365 Business Central bank reconciliation is used and enhanced with additional features to achieve better results when matching bank transactions.
 
 Review the matched bank transactions and make adjustments if necessary. Once you are satisfied with the matching, you can post the reconciliation of the bank transactions.
+ 
+<div class="alert alert-notice">
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
+    <strong>Good to know</strong>
+    Use the <strong><a href="bank-reconciliation-rules.md">Reconciliation Rules</a></strong> to automate and optimize the reconciliation of bank transactions. The reconciliation rules allow you to set complex criteria to automatically assign transactions to the correct general ledger accounts and define advanced posting settings.
+</div>
 
 ## Step 3.2: Posting Payments and Reconciling Bank Accounts
 
