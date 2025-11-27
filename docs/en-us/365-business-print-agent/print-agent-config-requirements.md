@@ -11,6 +11,7 @@ The following **DNS names**, **ports**, and **protocols** are used for communica
 |----------------------------------|------|----------|------------------------------------------------------------------------------|
 | `api.365businessapi.com`         | 443  | HTTPS    | API endpoint for automatic updates.                                          |
 | `printagent.365businessapi.com`  | 443  | HTTPS    | API endpoint for functionality and license validation.                       |
+| `license.365businessapi.com` | 443 | HTTPS | API endpoint for license verification and management. |
 | `status.365businessdev.com`      | 443  | HTTPS    | Endpoint used for health checks.                                             |
 | `docs.365businessdev.com`        | 443  | HTTPS    | Documentation accessible via the Print Agent Config.                         |
 | `365businessdev.atlassian.net`   | 443  | HTTPS    | Support portal for technical inquiries and support tickets.                  |
