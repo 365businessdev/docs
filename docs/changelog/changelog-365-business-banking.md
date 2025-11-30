@@ -1,5 +1,11 @@
 # 365 business Banking Changelog
 
+## Version 18.1.345.22472
+
+- Add feature #61923 Bank Reconciliation Posting Setup with Deferral Schedule
+- Add Sender Customer Reference, End-to-End Reference and Transaction ID as payment matching criteria
+- Fix issue #62799 Application Method "Apply-to Oldest" is failing with Bank Reconciliation Posting Setup
+
 ## Version 18.1.336.22408
 
 - Add feature #62749 Klarna payment service support (BETA)
