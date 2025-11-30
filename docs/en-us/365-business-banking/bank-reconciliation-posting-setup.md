@@ -21,27 +21,6 @@ These settings help ensure that bank transactions are posted correctly and compl
     Learn more about <strong>Reconciliation Rules</strong> in the <a href="bank-reconciliation-rules.md">related section</a>.
 </div>
 
-## Deferral Plan
-
-In addition to the posting setup mentioned above, you can also specify a deferral plan. The deferral plan allows you to determine whether the expense arising from the bank transaction should be allocated over several months.  
-This is particularly useful for payments that cover multiple future periods – for example:
-
-- Annual insurance  
-- Software or license fees
-- Maintenance invoices  
-- Advance payments for services
-
-If a **Deferral Code** is entered in the bank reconciliation sheet line, 365 Business Banking automatically creates a posting sheet line with this deferral plan. The subsequent deferral is fully handled by the Microsoft Dynamics 365 Business Central standard according to the deferral rules specified.
-
-![Deferral Schedule](/assets/images/365-business-banking/bank-reconciliation-posting-setup-deferral.de-DE.png)
-
-<div class="alert alert-info">
-    <i class="fa-duotone fa-solid fa-lightbulb-on fa-xl"></i>
-    <strong>Info</strong>
-    Deferrals are <strong>only meaningful</strong> if the bank transaction generates an expense (e.g., an automatically created general ledger posting or vendor invoice).<br>
-    A pure payment without an expense posting cannot be deferred.
-</div>
-
 ## What can the posting setup be used for?
 
 The posting setup is used to ensure that bank transactions are posted correctly in Microsoft Dynamics 365 Business Central. By defining the parameters listed above, you can:
@@ -59,6 +38,31 @@ Correct posting setup can improve the accuracy of your financial data and help e
     Note that incorrect posting setup can result in erroneous postings that may affect your financial reports and tax returns. Make sure to review the posting setup carefully and consult your accountant or tax advisor if necessary.
 </div>
 
+## Deferral Schedule
+
+In addition to the posting setup mentioned above, you can also specify a deferral schedule. The deferral schedule allows you to determine whether the expense arising from the bank transaction should be allocated over several months.  
+This is particularly useful for payments that cover multiple future periods – for example:
+
+- Annual insurance  
+- Software or license fees
+- Maintenance invoices  
+- Advance payments for services
+
+When a **Deferral Code** is entered in the payment reconciliation journal line, 365 business Banking automatically creates a deferral schedule for the selected line. This deferral schedule can then be individually adjusted via the _AssistEdit_ or the **Deferral Schedule** action.
+
+![Deferral Code](/assets/images/365-business-banking/bank-reconciliation-posting-setup-deferral.de-DE.png)
+
+The subsequent deferral is carried out completely by the Microsoft Dynamics 365 Business Central standard, as part of the posting via the above-mentioned posting settings.
+
+![Posting Preview with Deferral Code](/assets/images/365-business-banking/bank-reconciliation-posting-setup-deferral-preview.de-DE.png)
+
+<div class="alert alert-info">
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
+    <strong>Note</strong>
+    Deferrals are <strong>only meaningful</strong> when the bank transaction creates an expense (e.g., an automatically created general ledger entry or vendor invoice).<br>
+    A pure payment without an expense posting cannot be deferred.
+</div>
+
 ## Step-by-step guide
 
 In the following section, we describe the posting of a direct debit with posting setup and deferral plan. We assume the following scenario:
@@ -72,10 +76,10 @@ In the following section, we describe the posting of a direct debit with posting
 4. In the **Account No.** field, enter the vendor number or select the vendor providing the software subscription.
 5. In the **Posting Type** field, select **Purchase**.
    <div class="alert alert-info">
-        <i class="fa-duotone fa-solid fa-lightbulb-on fa-xl"></i>
-        <strong>Info</strong>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
+    <strong>Info</strong>
         The Business Posting Group and VAT Business Posting Group are automatically taken from the vendor master.<br>Adjust these if necessary.
-    </div>
+   </div>
 6. In the **Product Posting Group** field, select the appropriate product posting group for the software subscription.
 7. Review the **VAT Product Posting Group** field and adjust if necessary.
 8. In the **Deferral Code** field, select the appropriate deferral plan that defines the distribution of costs over 12 months.

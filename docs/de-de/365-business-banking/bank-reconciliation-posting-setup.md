@@ -21,27 +21,6 @@ Diese Einstellungen helfen dabei, die korrekte Verbuchung von Banktransaktionen 
     Erfahren Sie mehr über <strong>Kontierungsregeln</strong> im <a href="bank-reconciliation-rules.md">entsprechenden Abschnitt</a>.
 </div>
 
-## Abgrenzungsplan
-
-Neben den o.g. Buchungseinstellungen können Sie zusätzlich einen Abgrenzungsplan festlegen. Mit dem Abgrenzungsplan können Sie festlegen, ob der durch die Banktransaktion entstehende Aufwand periodengerecht über mehrere Monate verteilt werden soll.  
-Dies ist besonders hilfreich bei Zahlungen, die mehrere zukünftige Perioden betreffen – beispielsweise:
-
-- Jahresversicherungen  
-- Software- oder Lizenzgebühren
-- Wartungsrechnungen  
-- Vorauszahlungen für Dienstleistungen
-
-Wird ein **Abgrenzungscode** in der Zahlungsabstimmungsbuch.-Blattzeile hinterlegt, erzeugt 365 business Banking automatisch eine Buch.-Blattzeile mit diesem Abgrenzungsplan. Die anschließende Abgrenzung erfolgt vollständig durch den Microsoft Dynamics 365 Business Central Standard gemäß der hinterlegten Abgrenzungsregeln.
-
-![Deferral Code in der Buchungseinrichtung](/assets/images/365-business-banking/bank-reconciliation-posting-setup-deferral.de-DE.png)
-
-<div class="alert alert-info">
-    <i class="fa-duotone fa-solid fa-lightbulb-on fa-xl"></i>
-    <strong>Hinweis</strong>
-    Abgrenzungen sind <strong>nur sinnvoll</strong>, wenn die Banktransaktion einen Aufwand erzeugt (z. B. eine automatisch erstellte Sachkontenbuchung oder Kreditorenrechnung).<br>
-    Eine reine Zahlung ohne Aufwandsbuchung kann nicht abgegrenzt werden.
-</div>
-
 ## Wofür kann die Buchungseinrichtung verwendet werden?
 
 Die Buchungseinrichtung wird verwendet, um sicherzustellen, dass Banktransaktionen korrekt in Microsoft Dynamics 365 Business Central verbucht werden. Durch die Definition der oben genannten Parameter können Sie:
@@ -59,6 +38,31 @@ Durch die korrekte Buchungseinrichtung können Sie die Genauigkeit Ihrer Finanzd
     Bitte beachten Sie, dass eine falsche Buchungseinrichtung zu fehlerhaften Buchungen führen kann, die Ihre Finanzberichte und Steuererklärungen beeinträchtigen können. Stellen Sie sicher, dass Sie die Buchungseinrichtung sorgfältig überprüfen und gegebenenfalls mit Ihrem Buchhalter oder Steuerberater abstimmen.
 </div>
 
+## Abgrenzungsplan
+
+Neben den o.g. Buchungseinstellungen können Sie zusätzlich einen Abgrenzungsplan festlegen. Mit dem Abgrenzungsplan können Sie festlegen, ob der durch die Banktransaktion entstehende Aufwand periodengerecht über mehrere Monate verteilt werden soll.  
+Dies ist besonders hilfreich bei Zahlungen, die mehrere zukünftige Perioden betreffen – beispielsweise:
+
+- Jahresversicherungen  
+- Software- oder Lizenzgebühren
+- Wartungsrechnungen  
+- Vorauszahlungen für Dienstleistungen
+
+Wird ein **Abgrenzungscode** in der Zahlungsabstimmungsbuch.-Blattzeile hinterlegt, erzeugt 365 business Banking automatisch einen Abgrenzungsplan zur ausgewählten Zeile. Dieser Abgrenzungsplan kann anschließend über den _AssistEdit_ oder die Aktion **Rechnungsabgrenzungsplan** individuell angepasst werden.
+
+![Abgrenzungscode](/assets/images/365-business-banking/bank-reconciliation-posting-setup-deferral.de-DE.png)
+
+Die anschließende Abgrenzung erfolgt vollständig durch den Microsoft Dynamics 365 Business Central Standard, im Rahmen der Buchung über die o.g. Buchungseinstellungen.
+
+![Buchungsvorschau mit Abgrenzungscode](/assets/images/365-business-banking/bank-reconciliation-posting-setup-deferral-preview.de-DE.png)
+
+<div class="alert alert-info">
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
+    <strong>Hinweis</strong>
+    Abgrenzungen sind <strong>nur sinnvoll</strong>, wenn die Banktransaktion einen Aufwand erzeugt (z. B. eine automatisch erstellte Sachkontenbuchung oder Kreditorenrechnung).<br>
+    Eine reine Zahlung ohne Aufwandsbuchung kann nicht abgegrenzt werden.
+</div>
+
 ## Schritt-für-Schritt-Anleitung
 
 Im folgenden Abschnitt beschreiben wir, die Buchung einer Lastschrift mit Buchungseinrichtung und Abgrenzungsplan. Dabei gehen wir von folgendem Szenario aus:
@@ -72,10 +76,10 @@ Im folgenden Abschnitt beschreiben wir, die Buchung einer Lastschrift mit Buchun
 4. Geben Sie im Feld **Kontonr.** die Kreditorennr. ein oder wählen Sie den Kreditor aus, der das Softwareabonnement bereitstellt.
 5. Wählen Sie im Feld **Buchungsart** die Option **Einkauf**.
    <div class="alert alert-info">
-        <i class="fa-duotone fa-solid fa-lightbulb-on fa-xl"></i>
-        <strong>Hinweis</strong>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
+       <strong>Hinweis</strong>
         Die Geschäftsbuchungsgruppe und MwSt.-Geschäftsbuchungsgruppe werden automatisch aus dem Kreditorenstamm übernommen.<br>Passen Sie diese bei Bedarf an.
-    </div>
+   </div>
 6. Wählen Sie im Feld **Produktbuchungsgruppe** die entsprechende Produktbuchungsgruppe für das Softwareabonnement aus.
 7. Überprüfen Sie das Feld **MwSt.-Produktbuchungsgruppe** und passen Sie es bei Bedarf an.
 8. Wählen Sie im Feld **Abgrenzungscode** den entsprechenden Abgrenzungsplan aus, der die Verteilung der Kosten über 12 Monate definiert.
