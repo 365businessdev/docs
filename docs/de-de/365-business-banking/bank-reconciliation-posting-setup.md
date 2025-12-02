@@ -38,6 +38,47 @@ Durch die korrekte Buchungseinrichtung können Sie die Genauigkeit Ihrer Finanzd
     Bitte beachten Sie, dass eine falsche Buchungseinrichtung zu fehlerhaften Buchungen führen kann, die Ihre Finanzberichte und Steuererklärungen beeinträchtigen können. Stellen Sie sicher, dass Sie die Buchungseinrichtung sorgfältig überprüfen und gegebenenfalls mit Ihrem Buchhalter oder Steuerberater abstimmen.
 </div>
 
+### Zahlungsabstimmungsbuch.-Blattzeile Buchung
+
+Über die Einstellung **Zahlungsabstimmungsbuch.-Blattzeile Buchung** in der **Finanzbuchhaltung Einrichtung** steuern Sie, wie **Sachkonten** im Zahlungsabstimmungsbuch.-Blatt gebucht werden, wenn eine Buchungseinrichtung definiert ist.
+
+Sie können dabei folgende Optionen wählen:
+
+#### **Verrechnungskonto verwenden** (Standard)
+
+Diese Methode erzeugt neben der Zahlung eine zusätzliche Buchung (technisch eine „Rechnung“), die den Aufwand bzw. Ertrag mithilfe der Buchungseinrichtung korrekt verbucht und anschließend über ein Verrechnungskonto ausgleicht.
+
+**Vorteile:**
+
+- Höchste Transparenz  
+- Zahlung und Aufwand/Ertrag klar getrennt  
+- Korrekte MwSt.-Behandlung in allen Szenarien  
+- Ideal bei Bankgebühren, MwSt.-pflichtigen Buchungen und Abstimmungsprozessen  
+
+Diese Einstellung wird für die meisten Unternehmen empfohlen.
+
+#### **Direktbuchung**
+
+Die Zahlung wird direkt auf das Sachkonto gebucht. Die Buchungseinrichtung wird dabei direkt auf die *Postenart Zahlung* angewendet, sodass Aufwands-/Ertragsposten und MwSt.-Einträge in einem Schritt erzeugt werden.
+
+**Vorteile:**
+
+- Weniger Buchungszeilen  
+- Schneller und einfacher Prozess
+
+### Vergleich der Optionen
+
+| Option | Vorteile | Nachteile | Typische Anwendungsfälle |
+|--------|----------|-----------|---------------------------|
+| **Verrechnungskonto verwenden** (Standard) | Maximale Nachvollziehbarkeit; saubere Trennung von Zahlung und Aufwand/Ertrag; klare MwSt.-Abbildung; beste Grundlage für Abstimmung & Korrekturen | Mehr Buchungszeilen | Empfohlen in allen regulären Fällen, v. a. bei MwSt.; Bankgebühren; wiederkehrenden Geschäftsvorfällen |
+| **Direktbuchung** | Weniger Posten; schnelle Verbuchung | Weniger transparent; MwSt.-Logik wirkt direkt auf Zahlung; mögliche Konflikte, wenn das Sachkonto eigene MwSt.-Felder hat | Kleine Unternehmen; einfache Sachkontenzahlungen; Vorgänge ohne Abgrenzung |
+
+<div class="alert alert-notice">
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
+    <strong>Gut zu wissen</strong>
+    Wenn ein <strong>Abgrenzungsplan</strong> verwendet wird, nutzt das System auch bei gewählter <strong>Direktbuchung</strong> automatisch ein Verrechnungskonto, da Abgrenzungen technisch nicht direkt über Bankkonten erzeugt werden können.
+</div>
+
 ## Abgrenzungsplan
 
 Neben den o.g. Buchungseinstellungen können Sie zusätzlich einen Abgrenzungsplan festlegen. Mit dem Abgrenzungsplan können Sie festlegen, ob der durch die Banktransaktion entstehende Aufwand periodengerecht über mehrere Monate verteilt werden soll.  

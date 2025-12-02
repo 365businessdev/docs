@@ -38,6 +38,49 @@ Correct posting setup can improve the accuracy of your financial data and help e
     Note that incorrect posting setup can result in erroneous postings that may affect your financial reports and tax returns. Make sure to review the posting setup carefully and consult your accountant or tax advisor if necessary.
 </div>
 
+### Bank Reconciliation Line Posting
+
+The **Bank Reconciliation Line Posting** setting in the **General Ledger Setup** determines how **G/L accounts** are posted in the bank reconciliation worksheet when a posting setup is defined.
+
+You can choose between the following options:
+
+#### **Use Clearing Account** (default)
+
+With this method, the system creates an additional posting (technically an “invoice” entry) alongside the payment.  
+This posting records the expense or revenue using the defined posting setup and then clears it through a designated clearing account.
+
+**Advantages:**
+
+- Highest transparency  
+- Clear separation between payment and expense/revenue  
+- Correct VAT handling in all scenarios  
+- Ideal for bank fees, VAT-relevant transactions, and reconciliation processes  
+
+This option is recommended for most companies.
+
+#### **Direct Posting**
+
+With this method, the payment is posted **directly to the G/L account**.  
+The posting setup is applied directly to the *payment entry*, meaning that expense/revenue and VAT entries are created in a single step.
+
+**Advantages:**
+
+- Fewer G/L entries  
+- Faster and simpler posting process  
+
+### Comparison of Options
+
+| Option | Advantages | Disadvantages | Typical Use Cases |
+|--------|------------|---------------|--------------------|
+| **Use Clearing Account** (default) | Maximum traceability; clean separation of payment and expense/revenue; clear VAT mapping; best foundation for reconciliation & corrections | More posting lines | Recommended for most scenarios, especially with VAT; bank fees; recurring transactions |
+| **Direct Posting** | Fewer entries; fast processing | Less transparent; VAT logic applies directly to the payment; potential conflicts if the G/L account has its own VAT setup | Small businesses; simple G/L postings; scenarios without deferrals |
+
+<div class="alert alert-notice">
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
+    <strong>Good to know</strong>
+    When a <strong>deferral schedule</strong> is used, the system will automatically apply a clearing account even if <strong>Direct Posting</strong> is selected, as deferrals cannot be created directly against bank accounts.
+</div>
+
 ## Deferral Schedule
 
 In addition to the posting setup mentioned above, you can also specify a deferral schedule. The deferral schedule allows you to determine whether the expense arising from the bank transaction should be allocated over several months.  
