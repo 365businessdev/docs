@@ -1,5 +1,12 @@
 # 365 business Banking Changelog
 
+## Version 18.1.357.22522
+
+- Add feature #62828 Bank Account Reconciliation Line Posting option
+- Fix issue #61920 Purchase Document number check
+- Fix issue #62826 Klarna "API Key" with extended length of 255 characters
+- Fix issue #62827 Copy VAT Setup to Jnl. Lines w/ additional posting setup specified
+
 ## Version 18.1.345.22472
 
 - Add feature #61923 Bank Reconciliation Posting Setup with Deferral Schedule
