@@ -30,3 +30,5 @@ Currently, more than 4,000 banks are supported for direct connection. These bank
 ![Banks](/assets/images/365-business-banking/banks.en-US.png)
 
 The list also provides information on the functions supported by the banks, such as retrieving account information (AIS) and initiating payments (PIS), as well as the supported payment methods (e.g., SEPA real-time transfer, direct debit).
+
+A list of all supported banks can be found on the page: [Supported Banks in 365 business Banking](supported-bank-list.md).

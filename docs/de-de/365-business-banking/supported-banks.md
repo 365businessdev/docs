@@ -30,3 +30,5 @@ Aktuell werden mehr als 4.000 Banken für die direkte Anbindung unterstützt. Di
 ![Banken](/assets/images/365-business-banking/banks.en-US.png)
 
 In der Liste finden Sie zudem Informationen zu den von den Banken unterstützten Funktionen, wie z.B. den Abruf von Kontoinformationen (AIS) und die Auslösung von Zahlungen (PIS), sowie der unterstützten Zahlungsarten (z.B. SEPA Echtzeitüberweisung, Lastschrift).
+
+Ein Liste aller unterstützten Banken finden Sie auf der Seite: [Unterstützte Banken in 365 business Banking](supported-bank-list.md).
