@@ -16,7 +16,6 @@ Kernanwendungsfunktionen von 365 business Banking werden stetig weiterentwickelt
 | **[ZKA Codes (Geschäftsvorfallcodes) Unterstützung](../setup/zka-code.md)** | - | <i aria-hidden="true" class="fas fa-check" style="color: #3dd73d; font-size: larger;"></i><br>September 2025 |
 | **[SEPA Purpose Codes Unterstützung](../setup/sepa-purpose-code.md)** | - | <i aria-hidden="true" class="fas fa-check" style="color: #3dd73d; font-size: larger;"></i><br>September 2025 |
 | **[Mehrstufige Genehmigung](details/multi-level-approval.md)** | - | Januar 2026 |
-| **[Bereitstellung Dynamics 365 Business Central On-Premise](details/on-premise-support.md)** | - | Januar 2026 |
 | **[Multi-User Bankkonto Anmeldung](details/multi-user-bank-account-login.md)** | Q1/2026 | H1/2026 |
 
 ## Zahlungseingang
@@ -65,3 +64,12 @@ Der Zahlungsausgang ist ein kritischer Prozess für Unternehmen, um ihre finanzi
 | **[Zlg.-Ausgang Buch.-Blatt Druck](details/payment-journal-print.md)** | - | Dezember 2025 |
 | **[SEPA Dauerauftrag - Cashflow Integration](details/sepa-standing-order-cashflow-integration.md)** | Januar 2026 | - |
 | **[Transitkonten für Zahlungen](details/transit-payments.md)** | - | Q1/2026 |
+
+## Entwicklung
+
+Unser Fokus liegt darauf, Business Central AL-Entwickler produktiver zu machen und Consultants und Benutzern die Möglichkeit zu geben, mehr Funktionalität zu implementieren und gleichzeitig die Kosten für Änderungen zu senken.
+
+| Funktion | Öffentliche Vorschau | Allgemeine Verfügbarkeit |
+| --- | :---: | :---: |
+| **[Bereitstellung Dynamics 365 Business Central On-Premise](details/on-premise-support.md)** | - | Januar 2026 |
+| **[Erweiterbarkeit](details/extensibility.md)** | - | Januar 2026 |

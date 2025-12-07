@@ -16,7 +16,6 @@ Core application features of 365 business Banking are continuously developed and
 | **[ZKA Codes (Business Transaction Codes) Support](../setup/zka-code.md)** | - | <i aria-hidden="true" class="fas fa-check" style="color: #3dd73d; font-size: larger;"></i><br>September 2025 |
 | **[SEPA Purpose Codes Support](../setup/sepa-purpose-code.md)** | - | <i aria-hidden="true" class="fas fa-check" style="color: #3dd73d; font-size: larger;"></i><br>September 2025 |
 | **[Multi-Level Approval](details/multi-level-approval.md)** | - | January 2026 |
-| **[Dynamics 365 Business Central On-Premise Deployment](details/on-premise-support.md)** | - | January 2026 |
 | **[Multi-User Bank Account Login](details/multi-user-bank-account-login.md)** | Q1/2026 | H1/2026 |
 
 ## Payment Receipts
@@ -65,3 +64,12 @@ Payment outgoing is a critical process for businesses to fulfill their financial
 | **[Payment Journal Print](details/payment-journal-print.md)** | - | December 2025 |
 | **[SEPA Standing Order - Cash Flow Integration](details/sepa-standing-order-cashflow-integration.md)** | January 2026 | - |
 | **[Transit Accounts for Payments](details/transit-payments.md)** | - | Q1/2026 |
+
+## Development
+
+Our focus is on making Business Central AL developers more productive, and empowering consultants and users to do more while lowering the cost of changes.
+
+| Feature | Public Preview | General Availability |
+| --- | :---: | :---: |
+| **[Dynamics 365 Business Central On-Premise Deployment](details/on-premise-support.md)** | - | January 2026 |
+| **[Extensibility](details/extensibility.md)** | - | January 2026 |
