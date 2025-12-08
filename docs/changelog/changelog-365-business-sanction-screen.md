@@ -1,5 +1,15 @@
 # 365 business Sanction Screen Changelog
 
+## Version 18.2.157.22572
+
+- Do not remove whitespace from query value
+- Conditional address node in query properties
+- Fix issue # 62883 PEP data collection is not searched
+
+## Version 18.2.154.22385
+
+- Fix permission set issue for BC22 (on-premise only)
+
 ## Version 18.1.140.20403
 
 - Add "Data Catalogs Last Updated"
