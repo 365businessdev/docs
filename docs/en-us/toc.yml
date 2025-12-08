@@ -112,7 +112,84 @@
         - name: Bank Transaction Split Rules
           href: 365-business-banking/setup/bank-transaction-split-rules.md
     - name: What's new and planned
-      href: 365-business-banking/features/index.md
+      href: 365-business-banking/features/index.md      
+      items:
+        - name: General
+          items: 
+            - name: PSD2 Banking Connection
+              href: 365-business-banking/banking-howitworks.md
+            - name: ZKA Codes (Business Transaction Codes) Support
+              href: 365-business-banking/setup/zka-code.md
+            - name: SEPA Purpose Codes Support
+              href: 365-business-banking/setup/sepa-purpose-code.md
+            - name: Multi-Level Approval
+              href: 365-business-banking/features/details/multi-level-approval.md
+            - name: Multi-User Bank Account Login
+              href: 365-business-banking/features/details/multi-user-bank-account-login.md
+        - name: Payment Receipts
+          items:
+            - name: Bank Account Reconciliation Context Words
+              href: 365-business-banking/setup/context-words.md
+            - name: Automate Bank Account Reconciliation
+              href: 365-business-banking/bank-reconciliation-automation.md
+            - name: Sender Identification in Settlement
+              href: 365-business-banking/bank-reconciliation.md#sender-identification
+            - name: Advanced Document No. and Purpose Code Identification in Settlement
+              href: 365-business-banking/bank-reconciliation.md#advanced-document-no-and-purpose-identification
+            - name: Bank Transaction Split Rules
+              href: 365-business-banking/setup/bank-transaction-split-rules.md
+            - name: Partial Posting Payment Reconciliation Journal
+              href: 365-business-banking/features/details/partial-booking-payment-reconciliation-journal.md
+            - name: Payment Service Provider Fee Handling
+              href: 365-business-banking/features/details/psp-fee-handling.md
+            - name: Allocation Rules
+              href: 365-business-banking/bank-reconciliation-rules.md
+            - name: Posting Setup in Payment Reconciliation Journals
+              href: 365-business-banking/bank-reconciliation-posting-setup.md
+            - name: Deferral Schedules in Payment Reconciliation Journals
+              href: 365-business-banking/bank-reconciliation-posting-setup.md#deferral-schedule
+            - name: Handling Exchange Rate Differences for Foreign Currency Accounts
+              href: 365-business-banking/features/details/foreign-currency-differences.md
+            - name: Extended Reconciliation Log
+              href: 365-business-banking/features/details/extended-reconciliation-log.md
+        - name: Payment Services
+          items:
+            - name: PayPal Integration
+              href: 365-business-banking/payment-services/paypal.md
+            - name: Stripe Integration
+              href: 365-business-banking/payment-services/stripe.md
+            - name: Mollie Integration
+              href: 365-business-banking/payment-services/mollie.md
+            - name: Klarna Integration
+              href: 365-business-banking/payment-services/klarna.md
+            - name: Shopify Payments Integration
+              href: 365-business-banking/features/details/shopify-payments.md
+            - name: Amazon Pay Integration
+              href: 365-business-banking/features/details/amazon-pay.md
+        - name: Payment Outgoing
+          items:
+            - name: Execute SEPA Payments
+              href: 365-business-banking/payment-types/sepa-credit-transfer.md
+            - name: Execute SEPA Direct Debits
+              href: 365-business-banking/payment-types/direct-debit.md
+            - name: SEPA Standing Order
+              href: 365-business-banking/payment-types/standing-order.md
+            - name: SEPA Payment File Import
+              href: 365-business-banking/sepa-payment-import.md
+            - name: Return Direct Debit Processing
+              href: 365-business-banking/features/details/return-direct-debit-processing.md
+            - name: Payment Journal Print
+              href: 365-business-banking/features/details/payment-journal-print.md
+            - name: SEPA Standing Order - Cash Flow Integration
+              href: 365-business-banking/features/details/sepa-standing-order-cashflow-integration.md
+            - name: Transit Accounts for Payments
+              href: 365-business-banking/features/details/transit-payments.md
+        - name: Development
+          items:
+            - name: Dynamics 365 Business Central On-Premise Deployment
+              href: 365-business-banking/features/details/on-premise-support.md
+            - name: Extensibility
+              href: 365-business-banking/features/details/extensibility.md
     - name: Frequently Asked Questions (FAQ)
       href: 365-business-banking/faq.md
       

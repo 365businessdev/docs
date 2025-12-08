@@ -59,6 +59,9 @@
       items:
         - name: Unterstützte Banken
           href: 365-business-banking/supported-banks.md
+          items:
+            - name: Übersicht
+              href: 365-business-banking/supported-bank-list.md
         - name: Bankkontoverbindung herstellen
           href: 365-business-banking/banking-connection.md
     - name: Bankkontoabstimmung
@@ -113,6 +116,83 @@
           href: 365-business-banking/setup/bank-transaction-split-rules.md
     - name: Neuerungen und geplante Funktionen
       href: 365-business-banking/features/index.md
+      items:
+        - name: Allgemein
+          items: 
+            - name: PSD2 Bankanbindung
+              href: 365-business-banking/banking-howitworks.md
+            - name: ZKA Codes (Geschäftsvorfallcodes) Unterstützung
+              href: 365-business-banking/setup/zka-code.md
+            - name: SEPA Purpose Codes Unterstützung
+              href: 365-business-banking/setup/sepa-purpose-code.md
+            - name: Mehrstufige Genehmigung
+              href: 365-business-banking/features/details/multi-level-approval.md
+            - name: Multi-User Bankkonto Anmeldung
+              href: 365-business-banking/features/details/multi-user-bank-account-login.md
+        - name: Zahlungseingang
+          items:
+            - name: Bankkontoabstimmung Kontextwörter
+              href: 365-business-banking/setup/context-words.md
+            - name: Bankkontoabstimmung automatisieren
+              href: 365-business-banking/bank-reconciliation-automation.md
+            - name: Absender-Identifizierung im Ausgleich
+              href: 365-business-banking/bank-reconciliation.md#absender-identifizierung
+            - name: Erw. Belegnr.- und Verwendungszweck-Identifizierung im Ausgleich
+              href: 365-business-banking/bank-reconciliation.md#erweiterte-belegnr--und-verwendungszweck-identifizierung
+            - name: Banktransaktion Aufteilungsregeln
+              href: 365-business-banking/setup/bank-transaction-split-rules.md
+            - name: Teilbuchung Zahlungsabstimmungsbuch.-Blatt
+              href: 365-business-banking/features/details/partial-booking-payment-reconciliation-journal.md
+            - name: Behandlung von Zahlungsdienst Gebühren
+              href: 365-business-banking/features/details/psp-fee-handling.md
+            - name: Kontierungsregeln
+              href: 365-business-banking/bank-reconciliation-rules.md
+            - name: Buchungseinrichtung in Zahlungsabstimmungsbuch.-Blättern
+              href: 365-business-banking/bank-reconciliation-posting-setup.md
+            - name: Abgrenzungspläne in Zahlungsabstimmungsbuch.-Blättern
+              href: 365-business-banking/bank-reconciliation-posting-setup.md#abgrenzungsplan
+            - name: Behandlung von Kursdifferenzen bei Fremdwährungskonten
+              href: 365-business-banking/features/details/foreign-currency-differences.md
+            - name: Erweitertes Ausgleichsprotokoll
+              href: 365-business-banking/features/details/extended-reconciliation-log.md
+        - name: Zahlungsdienste
+          items:
+            - name: PayPal Integration
+              href: 365-business-banking/payment-services/paypal.md
+            - name: Stripe Integration
+              href: 365-business-banking/payment-services/stripe.md
+            - name: Mollie Integration
+              href: 365-business-banking/payment-services/mollie.md
+            - name: Klarna Integration
+              href: 365-business-banking/payment-services/klarna.md
+            - name: Shopify Payments Integration
+              href: 365-business-banking/features/details/shopify-payments.md
+            - name: Amazon Pay Integration
+              href: 365-business-banking/features/details/amazon-pay.md
+        - name: Zahlungsausgang
+          items:
+            - name: SEPA Zahlungen durchführen
+              href: 365-business-banking/payment-types/sepa-credit-transfer.md
+            - name: SEPA Lastschriften durchführen
+              href: 365-business-banking/payment-types/direct-debit.md
+            - name: SEPA Dauerauftrag
+              href: 365-business-banking/payment-types/standing-order.md
+            - name: SEPA Zahlungsdatei Import
+              href: 365-business-banking/sepa-payment-import.md
+            - name: Verarbeitung Rücklastschrift
+              href: 365-business-banking/features/details/return-direct-debit-processing.md
+            - name: Zlg.-Ausgang Buch.-Blatt Druck
+              href: 365-business-banking/features/details/payment-journal-print.md
+            - name: SEPA Dauerauftrag - Cashflow Integration
+              href: 365-business-banking/features/details/sepa-standing-order-cashflow-integration.md
+            - name: Transitkonten für Zahlungen
+              href: 365-business-banking/features/details/transit-payments.md
+        - name: Entwicklung
+          items:
+            - name: Bereitstellung Dynamics 365 Business Central On-Premise
+              href: 365-business-banking/features/details/on-premise-support.md
+            - name: Erweiterbarkeit
+              href: 365-business-banking/features/details/extensibility.md
     - name: Häufig gestellte Fragen (FAQ)
       href: 365-business-banking/faq.md
 
