@@ -47,7 +47,7 @@ Der Einsatz von Zahlungsdiensten (PSP) wie PayPal, Stripe und Mollie wird immer 
 | **[Stripe Integration](../payment-services/stripe.md)** | - | <i aria-hidden="true" class="fas fa-check" style="color: #3dd73d; font-size: larger;"></i><br>Oktober 2025 |
 | **[Mollie Integration](../payment-services/mollie.md)** | - | <i aria-hidden="true" class="fas fa-check" style="color: #3dd73d; font-size: larger;"></i><br>Oktober 2025 |
 | **[Klarna Integration](../payment-services/klarna.md)** | <i aria-hidden="true" class="fas fa-check" style="color: #3dd73d; font-size: larger;"></i><br>November 2025 | Dezember 2025 |
-| **[Shopify Payments Integration](details/shopify-payments.md)** | Januar 2026 | - |
+| **[Shopify Payments Integration](details/shopify-payments.md)** | Dezember 2025 | Januar 2026 |
 | **[Amazon Pay Integration](details/amazon-pay.md)** | Januar 2026 | - |
 
 ## Zahlungsausgang
