@@ -1,5 +1,11 @@
 # 365 business Banking Changelog
 
+## Version 18.1.359.22717
+
+  - Fix issue #63037 SEPA 'B2B' collective direct debit not supported returned from FinTS server.
+  - Add feature licensing checks in banking procedures #63038
+  - Add GUI feedback for retrieving Klarna transactions and payouts
+
 ## Version 18.1.357.22522
 
 - Add feature #62828 Bank Account Reconciliation Line Posting option
