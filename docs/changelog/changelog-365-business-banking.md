@@ -1,6 +1,6 @@
 # 365 business Banking Changelog
 
-## Version 18.1.359.22717
+## Version 18.1.361.22734
 
   - Fix issue #63037 SEPA 'B2B' collective direct debit not supported returned from FinTS server.
   - Add feature licensing checks in banking procedures #63038
