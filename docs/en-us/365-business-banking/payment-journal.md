@@ -25,3 +25,17 @@ To initiate payments, use the payment journals in Microsoft Dynamics 365 Busines
 ## Posting Payments
 
 After processing the payments, the journal lines in the payment journal can be posted. If the action **Process and Post Payments** was used, the posting is done automatically. Otherwise, you need to manually post the payment using the **Post** action in the payment journal.
+
+## Printing the Payment Journal
+
+With the function to print the payment journal in 365 business Banking, users can generate the journal in a printable format. This allows users to create a physical copy of the journal that can be used for review, approval, and archiving purposes. The printout contains all relevant information of the journal, including payment details, recipient data, and the bank account to be used.
+
+![Payment Journal Printout](/assets/images/365-business-banking/payment-journal-report.en-US.png)
+
+### Step-by-Step Guide
+
+1. Select **Payment Journals** in the search of Microsoft Dynamics 365 Business Central.
+2. Select an existing payment journal.
+3. Choose the action **Print** in the menu bar.
+4. Select **Print Approval**, if the printout should include a section for signatures to approve the payments.
+5. Choose **Print** to start the printing process.

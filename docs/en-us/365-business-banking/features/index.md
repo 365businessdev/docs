@@ -61,7 +61,7 @@ Payment outgoing is a critical process for businesses to fulfill their financial
 | **[SEPA Standing Order](../payment-types/standing-order.md)** | - | <i aria-hidden="true" class="fas fa-check" style="color: #3dd73d; font-size: larger;"></i><br>September 2025 |
 | **[SEPA Payment File Import](../sepa-payment-import.md)** | - | <i aria-hidden="true" class="fas fa-check" style="color: #3dd73d; font-size: larger;"></i><br>November 2025 |
 | **[Return Direct Debit Processing](details/return-direct-debit-processing.md)** | - | December 2025 |
-| **[Payment Journal Print](details/payment-journal-print.md)** | - | December 2025 |
+| **[Payment Journal Print](details/payment-journal-print.md)** | - | <i aria-hidden="true" class="fas fa-check" style="color: #3dd73d; font-size: larger;"></i><br>December 2025 |
 | **[SEPA Standing Order - Cash Flow Integration](details/sepa-standing-order-cashflow-integration.md)** | January 2026 | - |
 | **[Transit Accounts for Payments](details/transit-payments.md)** | - | Q1/2026 |
 

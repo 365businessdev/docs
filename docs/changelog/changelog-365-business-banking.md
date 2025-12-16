@@ -1,10 +1,17 @@
 # 365 business Banking Changelog
 
+## Version 18.1.367.22763
+
+- Task #63060 Execution date editable in SEPA Payment Import processing
+- Add feature #63077 End-to-End Refernce in Payment Journal
+  - Task #63077 Set End-to-End Reference with Suggest Vendor Pmts
+- Add feature #61925 Print Payment Journal
+
 ## Version 18.1.361.22734
 
-  - Fix issue #63037 SEPA 'B2B' collective direct debit not supported returned from FinTS server.
-  - Add feature licensing checks in banking procedures #63038
-  - Add GUI feedback for retrieving Klarna transactions and payouts
+- Fix issue #63037 SEPA 'B2B' collective direct debit not supported returned from FinTS server.
+- Add feature licensing checks in banking procedures #63038
+- Add GUI feedback for retrieving Klarna transactions and payouts
 
 ## Version 18.1.357.22522
 

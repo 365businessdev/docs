@@ -26,3 +26,17 @@ Um Zahlungen zu initiieren, verwenden Sie die Zlg.-Ausg. Buch.-Blätter in Micro
 ## Zahlungsausgang buchen
 
 Nach der Durchführung der Zahlungen können die Buch.-Blattzeilen im Zlg.-Ausg. Buch.-Blatt gebucht werden. Sofern die Aktion **Zahlungen durchführen und buchen** verwendet wurde, erfolgt die Buchung automatisch. Andernfalls müssen Sie die Zahlung über die Aktion **Buchen** im Zlg.-Ausg. Buch.-Blatt manuell buchen.
+
+## Zahlungsausgang Buch.-Blatt drucken
+
+Mit der Funktion zum Drucken des Zlg.-Ausgang Buch.-Blatts in 365 business Banking können Benutzer das Buch.-Blatt in einem druckbaren Format generieren. Dies ermöglicht es den Benutzern, eine physische Kopie des Buch.-Blatts zu erstellen, die für Überprüfungs-, Freigabe- und Archivierungszwecke verwendet werden kann. Der Ausdruck enthält alle relevanten Informationen des Buch.-Blatts, einschließlich der Zahlungsdetails, Empfängerdaten und zu verwendenden Bankkonto.
+
+![Zlg.-Ausg.-Buch.-Blatt Ausdruck](/assets/images/365-business-banking/payment-journal-report.de-DE.png)
+
+### Schritt-für-Schritt Anleitung
+
+1. Wählen Sie **Zlg.-Ausg. Buch.-Blätter** in der Suche von Microsoft Dynamics 365 Business Central aus.
+2. Wählen Sie ein vorhandenes Zlg.-Ausg. Buch.-Blatt.
+3. Wählen Sie die Aktion **Drucken** in der Menüleiste.
+4. Wählen Sie **Genehmigung drucken**, wenn auf dem Ausdruck ein Bereich für Unterschriften zur Genehmigung der Zahlungen enthalten sein soll.
+5. Wählen Sie **Drucken**, um den Druckvorgang zu starten.

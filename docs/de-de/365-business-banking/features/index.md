@@ -61,7 +61,7 @@ Der Zahlungsausgang ist ein kritischer Prozess für Unternehmen, um ihre finanzi
 | **[SEPA Dauerauftrag](../payment-types/standing-order.md)** | - | <i aria-hidden="true" class="fas fa-check" style="color: #3dd73d; font-size: larger;"></i><br>September 2025 |
 | **[SEPA Zahlungsdatei Import](../sepa-payment-import.md)** | - | <i aria-hidden="true" class="fas fa-check" style="color: #3dd73d; font-size: larger;"></i><br>November 2025 |
 | **[Verarbeitung Rücklastschrift](details/return-direct-debit-processing.md)** | - | Dezember 2025 |
-| **[Zlg.-Ausgang Buch.-Blatt Druck](details/payment-journal-print.md)** | - | Dezember 2025 |
+| **[Zlg.-Ausgang Buch.-Blatt Druck](details/payment-journal-print.md)** | - | <i aria-hidden="true" class="fas fa-check" style="color: #3dd73d; font-size: larger;"></i><br>Dezember 2025 |
 | **[SEPA Dauerauftrag - Cashflow Integration](details/sepa-standing-order-cashflow-integration.md)** | Januar 2026 | - |
 | **[Transitkonten für Zahlungen](details/transit-payments.md)** | - | Q1/2026 |
 

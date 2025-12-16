@@ -7,3 +7,5 @@ The Payment Journal is the foundation for outgoing payments in Microsoft Dynamic
 ## Feature Description
 
 With the Payment Journal print function in 365 business Banking, users can generate the journal in a printable format. This enables users to create a physical copy of the journal that can be used for review, approval, and archiving purposes. The printout contains all relevant journal information, including payment details, recipient data, and the bank account to be used.
+
+![Payment Journal Printout](/assets/images/365-business-banking/payment-journal-report.en-US.png)

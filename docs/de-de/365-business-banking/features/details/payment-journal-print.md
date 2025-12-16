@@ -7,3 +7,5 @@ Das Zlg.-Ausgang Buch.-Blatt ist die Basis für ausgehende Zahlungen in Microsof
 ## Funktionsbeschreibung
 
 Mit der Funktion zum Drucken des Zlg.-Ausgang Buch.-Blatts in 365 business Banking können Benutzer das Buch.-Blatt in einem druckbaren Format generieren. Dies ermöglicht es den Benutzern, eine physische Kopie des Buch.-Blatts zu erstellen, die für Überprüfungs-, Freigabe- und Archivierungszwecke verwendet werden kann. Der Ausdruck enthält alle relevanten Informationen des Buch.-Blatts, einschließlich der Zahlungsdetails, Empfängerdaten und zu verwendenden Bankkonto.
+
+![Zlg.-Ausg.-Buch.-Blatt Ausdruck](/assets/images/365-business-banking/payment-journal-report.de-DE.png)
