@@ -15,6 +15,7 @@ Kernanwendungsfunktionen von 365 business Banking werden stetig weiterentwickelt
 | **[PSD2 Bankanbindung](../banking-howitworks.md)** | - | <i aria-hidden="true" class="fas fa-check" style="color: #3dd73d; font-size: larger;"></i><br>September 2025 |
 | **[ZKA Codes (Geschäftsvorfallcodes) Unterstützung](../setup/zka-code.md)** | - | <i aria-hidden="true" class="fas fa-check" style="color: #3dd73d; font-size: larger;"></i><br>September 2025 |
 | **[SEPA Purpose Codes Unterstützung](../setup/sepa-purpose-code.md)** | - | <i aria-hidden="true" class="fas fa-check" style="color: #3dd73d; font-size: larger;"></i><br>September 2025 |
+| **[Empfängerüberprüfung (VoP)](details/verification-of-payee.md)** | - | Januar 2026 |
 | **[Mehrstufige Genehmigung](details/multi-level-approval.md)** | - | Januar 2026 |
 | **[Multi-User Bankkonto Anmeldung](details/multi-user-bank-account-login.md)** | Q1/2026 | H1/2026 |
 

@@ -1,6 +1,6 @@
-# Verification of Payee (VOP)
+# Verification of Payee (VoP)
 
-Since October 2025, the Verification of Payee (VOP) has been mandatory for SEPA transfers in Germany. This measure aims to prevent fraud and increase payment security by matching the payee's name with the information stored at the bank.
+Since October 2025, the Verification of Payee (VoP) has been mandatory for SEPA transfers in Germany. This measure aims to prevent fraud and increase payment security by matching the payee's name with the information stored at the bank.
 
 365 business Banking supports Verification of Payee for SEPA transfers to ensure your payments comply with legal requirements. When you initiate a SEPA transfer, the payee's name is automatically checked. If the payee's name does not match the information held by the bank, you will be notified and can take appropriate action.
 
@@ -33,6 +33,6 @@ Follow these steps to enter a differing account holder. The example below uses a
 <div class="alert alert-notice">
     <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
     <strong>Good to know</strong>
-    Recipient verification (VOP) is intended to protect against fraud and increase the security of processing SEPA transfers.<br>
+    Recipient verification (VoP) is intended to protect against fraud and increase the security of processing SEPA transfers.<br>
     Please make changes to the Account Holder field only if you are sure the differing name is correct and used regularly.
 </div>
