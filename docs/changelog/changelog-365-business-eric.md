@@ -1,5 +1,12 @@
 # 365 business ERiC Changelog
 
+## Version 17.14.294.22831
+
+- Add feature #61949 - Approval Workflow integration for ELSTER Tax Data
+- Add feature #62067 - ERiC Affiliation support
+- Add feature #62777 - Global Dimension Filter for ELSTER Tax Data calculation
+- UI enhancements in ELSTER Tax Data Card
+
 ## Version 17.13.281.21039
 
 - Add new event `OnBeforeConfirmSubmission()` in `bdev.ERiC Tax Data`
