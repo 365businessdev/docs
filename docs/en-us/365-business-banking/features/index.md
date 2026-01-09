@@ -47,9 +47,9 @@ The use of payment service providers (PSP) like PayPal, Stripe, and Mollie is be
 | **[PayPal Integration](../payment-services/paypal.md)** | - | <i aria-hidden="true" class="fas fa-check" style="color: #3dd73d; font-size: larger;"></i><br>October 2025 |
 | **[Stripe Integration](../payment-services/stripe.md)** | - | <i aria-hidden="true" class="fas fa-check" style="color: #3dd73d; font-size: larger;"></i><br>October 2025 |
 | **[Mollie Integration](../payment-services/mollie.md)** | - | <i aria-hidden="true" class="fas fa-check" style="color: #3dd73d; font-size: larger;"></i><br>October 2025 |
-| **[Klarna Integration](../payment-services/klarna.md)** | <i aria-hidden="true" class="fas fa-check" style="color: #3dd73d; font-size: larger;"></i><br>November 2025 | December 2025 |
-| **[Shopify Payments Integration](details/shopify-payments.md)** | December 2025 | January 2026 |
-| **[Amazon Pay Integration](details/amazon-pay.md)** | January 2026 | - |
+| **[Klarna Integration](../payment-services/klarna.md)** | <i aria-hidden="true" class="fas fa-check" style="color: #3dd73d; font-size: larger;"></i><br>November 2025 | <i aria-hidden="true" class="fas fa-check" style="color: #3dd73d; font-size: larger;"></i><br>December 2025 |
+| **[Shopify Payments Integration](details/shopify-payments.md)** | January 2026 | Q1/2026 |
+| **[Amazon Pay Integration](details/amazon-pay.md)** | Q1/2026 | - |
 
 ## Payment Outgoing
 
@@ -61,7 +61,7 @@ Payment outgoing is a critical process for businesses to fulfill their financial
 | **[Execute SEPA Direct Debits](../payment-types/direct-debit.md)** | - | <i aria-hidden="true" class="fas fa-check" style="color: #3dd73d; font-size: larger;"></i><br>September 2025 |
 | **[SEPA Standing Order](../payment-types/standing-order.md)** | - | <i aria-hidden="true" class="fas fa-check" style="color: #3dd73d; font-size: larger;"></i><br>September 2025 |
 | **[SEPA Payment File Import](../sepa-payment-import.md)** | - | <i aria-hidden="true" class="fas fa-check" style="color: #3dd73d; font-size: larger;"></i><br>November 2025 |
-| **[Return Direct Debit Processing](details/return-direct-debit-processing.md)** | - | December 2025 |
+| **[Return Direct Debit Processing](details/return-direct-debit-processing.md)** | - | January 2026 |
 | **[Payment Journal Print](details/payment-journal-print.md)** | - | <i aria-hidden="true" class="fas fa-check" style="color: #3dd73d; font-size: larger;"></i><br>December 2025 |
 | **[SEPA Standing Order - Cash Flow Integration](details/sepa-standing-order-cashflow-integration.md)** | January 2026 | - |
 | **[Transit Accounts for Payments](details/transit-payments.md)** | - | Q1/2026 |
