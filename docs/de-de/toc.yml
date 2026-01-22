@@ -375,6 +375,8 @@
       href: 365-business-sanction-screen/sanction-screening.md
     - name: Automatisierte Prüfung (Aufgabenwarteschlange)
       href: 365-business-sanction-screen/automated-screening.md
+    - name: Automatisierte Prüfung bei Belegfreigabe
+      href: 365-business-sanction-screen/automated-check.md
 
 - name: 365 business development - Suchen & Ersetzen
   href: find-and-replace/index.md

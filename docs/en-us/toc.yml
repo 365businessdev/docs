@@ -372,6 +372,8 @@
       href: 365-business-sanction-screen/sanction-screening.md
     - name: Automated Screening (Job Queue)
       href: 365-business-sanction-screen/automated-screening.md
+    - name: Automated Screening on Document Release
+      href: 365-business-sanction-screen/automated-check.md      
 
 - name: 365 business development - Find & Replace
   href: find-and-replace/index.md
