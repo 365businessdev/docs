@@ -86,6 +86,7 @@ Thanks to the integration into Microsoft Dynamics 365 Business Central, companie
                     <li><span class="fa-li"><i class="fa-solid fa-screwdriver-wrench"></i></span><a href="setup.md">Perform Sanction Screen Setup</a></li>
                     <li><span class="fa-li"><i class="fa-solid fa-clock"></i></span><a href="setup.md#screening-interval">Screening Intervals</a></li>
                     <li><span class="fa-li"><i class="fa-solid fa-bolt-lightning"></i></span><a href="automated-screening.md#setting-up-automated-sanction-list-screening">Set up Automated Sanction Screening</a></li>
+                    <li><span class="fa-li"><i class="fa-solid fa-bolt-lightning"></i></span><a href="automated-check.md#automated-check">Set up Automated Sanction Screening on Document Release</a></li>
                 </ul>
             </p>
     </div>
