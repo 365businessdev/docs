@@ -22,4 +22,6 @@ Dabei können vier verschiedene Ergebnisse der Überprüfung auftreten:
 | **No Match** | Die IBAN und der Name stimmen nicht überein. |
 | **Keine Check möglich** | Die Überprüfung konnte nicht durchgeführt werden, z. B. weil die Empfängerbank nicht am VoP-Verfahren teilnimmt. |
 
+![VOP Status](/assets/images/365-business-banking/vop/vop-log-entries.de-DE.png)
+
 Je nach Ergebnis der Überprüfung können Sie entscheiden, ob Sie das Bankkonto akzeptieren, korrigieren oder weitere Maßnahmen ergreifen möchten, bevor Sie Zahlungen an dieses Konto ausführen.

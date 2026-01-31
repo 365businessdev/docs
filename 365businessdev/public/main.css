@@ -222,6 +222,7 @@ a:hover {
     border-radius: 0.125rem;
     border: 1px solid #fff0;
     outline-color: light-dark(#171717, #efefef);
+    width: 220px;
 }
 /* Box im dark mode Rahmen */
 html[data-bs-theme="dark"] .columns > div {

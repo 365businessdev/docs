@@ -91,6 +91,16 @@ For more information, see the documentation on [Context Words](setup/context-wor
 
 Your document numbers are `25002019` and `25002021`. In the purpose of the bank transaction, the sender specifies `Invoice 25002019, 2021`. The document number `25002019` is automatically recognized as it matches the document number exactly. The partial document number `2021` is also recognized as a "weak" match and offered for reconciliation. By using context words, such as `Invoice`, the partial document number `2021` is recognized as a "strong" match and prioritized for reconciliation.
 
+### Payment Application Fields
+
+As part of payment reconciliation, various fields are available to you to optimize the reconciliation of bank transactions. These fields help you improve the allocation of transactions to open entries and simplify the reconciliation process.
+
+By default, the **Document No.** and **External Document No.** of the open entries are used for reconciliation. Additionally, the **Payment Application Settings** page offers you the option to specify additional fields from the **Customer Ledger Entry** and **Vendor Ledger Entry** tables for reconciliation.
+
+![Payment Application Settings](/assets/images/365-business-banking/pmt-application-settings.de-DE.png)
+
+The fields defined in **Payment Application Fields** are considered when analyzing bank transactions to improve the allocation to open entries. This allows for more accurate allocation of transactions to the respective accounts and improves the efficiency of reconciliation. Any field can be used, regardless of origin (e.g., Microsoft Base Application).
+
 ### Payment Code Mapping
 
 As part of a SEPA payment, additional payment codes are transmitted alongside the purpose, which are used to identify the payment. These codes can be used during payment reconciliation to improve the allocation of bank transactions to open entries or general ledger accounts.
@@ -116,4 +126,5 @@ As part of the automatic reconciliation of bank transactions, the payment code m
 - [Establishing Bank Account Connections](banking-connection.md)
 - [Payment Code Mapping](payment-code-mapping.md)
 - [ZKA Code](setup/zka-code.md)
-- [SEPA Purpose Code](setup/sepa-purpose-code.md)
+- [SEPA Purpose Code](setup/sepa-purpose-code.md)- [Posting Setup in Payment Reconciliation Journal](bank-reconciliation-posting-setup.md)
+- [Reconciliation Rules](bank-reconciliation-rules.md)

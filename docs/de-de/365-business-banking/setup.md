@@ -8,11 +8,24 @@ In der **Finanzbuchhaltung Einrichtung** finden Sie im Bereich **Banking** die E
 
 | Feldname | Beschreibung | Standard-Wert |
 | --- | --- | --- |
+| Bankkonto-Diagramm Saldoart | Gibt die Art des Saldos an, der in Bankkonten Diagrammen verwendet werden soll. | Perioden-Saldo  |
 | Verwendungszweck Überschreitungsoption | Legt fest, was zu tun ist, wenn mehrere Rechnungen bezahlt werden, aber die Zahlungsreferenz (Verwendungszweck) die maximale Länge überschreitet. |  |
 | Zahlungsabstimungsbuch.-Blattzeile Buchung | Legt fest, wie Zahlungsabstimmungsbuch.-Blattzeilen mit Kontoart Sachkonto gebucht werden, wenn eine Buchungseinrichtung festgelegt ist. Wählen Sie aus, ob ein Verrechnungskonto verwendet oder direkt auf die Sachkonten gebucht werden soll. | Verrechnungskonto verwenden |
+| Bankkonten erstellen | Legt fest, ob Bankkonten automatisch erstellt werden sollen, wenn Zahlungsabstimmungsbuch.-Blattzeilen für neue Debitoren- oder Kreditorenbankkonten angewendet werden. Diese Option führt zu einer höheren Rate automatisch abgeglichener Banktransaktionen, da mehr Bankkonten für den Abgleich zur Verfügung stehen. | Ja |
 | Bankkonto Nr.-Serie | Legt die Nummernserie für Bankkonten fest. | _Microsoft Standard_ |
 | Dauerauftrag Nr.-Serie | Legt die Nummernserie für Daueraufträge fest. | `SO00001` - `SO99999` |
 | Zahlungsavis Nr.-Serie | Legt die Nummernserie für Zahlungsavis fest. | `RN00001` - `RN99999` |
+
+### Bankkonto-Diagramm Saldoart
+
+Die Option **Bankkonto-Diagramm Saldoart** legt fest, welche Art von Saldo in den Diagrammen der Bankkonten angezeigt wird. Sie können zwischen folgenden Optionen wählen:
+
+- **Perioden-Saldo** (Standard)<br>
+  Diese Option zeigt den Saldo basierend auf den Transaktionen innerhalb des angezeigten Zeitraums (z.B. Monat) an. Dies ist nützlich, um die finanzielle Entwicklung über einen bestimmten Zeitraum zu verfolgen.
+- **Saldo bis Datum**<br>
+  Diese Option zeigt den laufenden Saldo bis zu einem bestimmten Datum an. Dies ist hilfreich, um den aktuellen Kontostand zu einem bestimmten Zeitpunkt zu sehen.
+- **Beide**<br>
+  Diese Option zeigt sowohl den Perioden-Saldo als auch den Saldo bis Datum an, sodass Sie beide Perspektiven gleichzeitig betrachten können.
 
 ### Verwendungszweck Überschreitungsoption
 
@@ -63,6 +76,18 @@ Sie können zwischen folgenden Optionen wählen:
     automatisch ein Verrechnungskonto genutzt.
     Dies ist notwendig, damit die Abgrenzungsbuchungen technisch korrekt erzeugt und periodengerecht verbucht werden können.
 </div>
+
+### Bankkonten erstellen
+
+Die Option **Bankkonten erstellen** legt fest, ob Bankkonten automatisch erstellt werden sollen, wenn Zahlungsabstimmungsbuch.-Blattzeilen für neue Debitoren- oder Kreditorenbankkonten gebucht werden. Diese Option führt zu einer höheren Rate automatisch abgeglichener Banktransaktionen, da mehr Bankkonten für den Abgleich zur Verfügung stehen.
+
+365 business Banking erstellt dabei automatisch neue Bankkonten in Microsoft Dynamics 365 Business Central, wenn eine Zahlungsabstimmungsbuch.-Blattzeile mit einem unbekannten Bankkonto eines Debitors oder Kreditors gebucht wird (siehe [Bankkontoabstimmung - Absender-Identifizierung](bank-reconciliation.md#absender-identifizierung)). Das neue Bankkonto wird dabei mit den relevanten Informationen aus der Zahlungsabstimmungsbuch.-Blattzeile bzw. der Banktransaktion angelegt.
+
+#### Verbundene Bankkonten
+
+In der **Finanzbuchhaltung Einrichtung**, in der Aktionsgruppe **Bank**, finden Sie die Aktion **Verbundene Bankkonten verwalten**. Diese Aktion öffnet die Seite **Verbundene Bankkonten**, in der Sie Bankkonten von verbundenen Unternehmen verwalten können, um zu verhindern, dass für interne Umbuchungen (bspw. bei fehlerhafter Überweisung durch den Debitor) ein neues Bankkonto erstellt und dem ausgeglichenen Debitor zugeordnet wird.
+
+![Verbundene Bankkonten](/assets/images/365-business-banking/associated-bank-accounts.de-DE.png)
 
 ## Zahlungsformen
 

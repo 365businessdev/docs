@@ -8,6 +8,55 @@ Die Überprüfung erfolgt in Echtzeit, bei der Durchführung der Überweisung, s
 
 ![Verification of Payee (VoP) Warnung](/assets/images/365-business-banking/vop-warning.png)
 
+## Empfängerüberprüfung (VoP) direkt in 365 business Banking
+
+Zusätzlich steht das Feature **Empfängerüberprüfung (VoP)** in 365 business Banking zur Verfügung. Mit dieser Funktion können Sie Ihre Stammdaten (z.B. Debitoren- und Kreditorenkonten) direkt in Microsoft Dynamics 365 Business Central auf Übereinstimmung mit den bei der Bank hinterlegten Informationen überprüfen.
+ 
+<div class="alert alert-notice">
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
+    <strong>Gut zu wissen</strong>
+    Bei der Empfängerüberprüfung (VoP) in 365 business Banking handelt es sich um ein kostenpflichtiges Feature, dass auch separat von 365 business Banking lizenziert werden kann.<br>Bitte beachten Sie, dass durch den Einsatz der Empfängerüberprüfung (VoP) zusätzliche Kosten entstehen können.<br>
+    <br>
+    Für weitere Informationen zu den Lizenzierungs- und Preismodellen wenden Sie sich bitte an Ihren Microsoft-Partner oder den 365 business development Support.
+</div>
+
+Die Überprüfungsergebnisse werden dabei übersichtlich dargestellt, sodass Sie schnell erkennen können, ob die hinterlegten Namen korrekt sind oder ob Anpassungen erforderlich sind.
+
+![Empfängerüberprüfung (VoP) in 365 business Banking](/assets/images/365-business-banking/vop/cust-bank-acc.de-DE.png)
+
+### Welche Status gibt es?
+
+Bei der Empfängerüberprüfung (VoP) in 365 business Banking gibt es folgende Status:
+
+| Status | Beschreibung |
+|--------|--------------|
+| _Leer_ | Bei dem Bankkonto handelt es sich nicht um ein SEPA-Bankkonto oder es liegen unvollständige Informationen vor. |
+| ⚪ | Die Empfängerüberprüfung (VoP) wurde für dieses Bankkonto noch nicht durchgeführt. Der Kontoinhaber wurde bisher nicht mit den Bankdaten abgeglichen. |
+| ◯ | Die Empfängerüberprüfung (VoP) ist für dieses Bankkonto nicht verfügbar. Mögliche Gründe sind technische Einschränkungen, nicht unterstützte Länder, Banken oder Kontotypen. |
+| 🔴 | Die Empfängerüberprüfung (VoP) ist fehlgeschlagen. Der angegebene Kontoinhaber stimmt nicht mit dem von der Bank gemeldeten Namen überein. Dies kann auf eine fehlerhafte oder potenziell riskante Zahlung hinweisen. |
+| 🟡 | Die Empfängerüberprüfung (VoP) hat eine teilweise Übereinstimmung festgestellt. Der angegebene Kontoinhaber weicht geringfügig vom von der Bank gemeldeten Namen ab. Bitte prüfen Sie die Details vor der weiteren Verarbeitung. | 
+| 🟢 | Die Empfängerüberprüfung (VoP) war erfolgreich. Der angegebene Kontoinhaber stimmt mit dem von der Bank zurückgemeldeten Namen überein. |
+
+#### Was passiert bei einer fehlgeschlagenen Überprüfung?
+
+Bei einer fehlgeschlagenen Empfängerüberprüfung (VoP) in 365 business Banking wird der Status '🔴' angezeigt. Dies bedeutet, dass der angegebene Kontoinhaber nicht mit dem von der Bank gemeldeten Namen übereinstimmt. In diesem Fall sollten Sie die hinterlegten Informationen überprüfen und gegebenenfalls korrigieren, um sicherzustellen, dass Ihre Zahlungen korrekt abgewickelt werden. 
+
+<div class="alert alert-warn">
+    <i class="fa-duotone fa-solid fa-triangle-exclamation fa-xl"></i>
+    <strong>Achtung</strong>
+    Bitte beachten Sie, dass die Ausführung von SEPA-Überweisungen an Empfänger mit fehlgeschlagener Empfängerüberprüfung (VoP) nicht aktiv unterbunden wird.<br>
+    365 business Banking informiert Sie lediglich über die Nichtübereinstimmung, sodass Sie entsprechende Maßnahmen ergreifen können.<br>
+    <br>
+    <img src="/assets/images/365-business-banking/vop/vop-warning-pmt-journal.de-DE.png" alt="VoP Warnung im Zahlungsjournal">
+</div>
+
+#### Was passiert bei einer teilweisen Übereinstimmung?
+
+Bei einer teilweisen Übereinstimmung wird der Status '🟡' angezeigt. Dies bedeutet, dass der angegebene Kontoinhaber geringfügig vom von der Bank gemeldeten Namen abweicht. In diesem Fall bietet Ihnen das System an, den von der Bank zurückgemeldeten Namen des Kontoinhabers zu aktualisieren.
+
+![VoP Teilweise Übereinstimmung](/assets/images/365-business-banking/vop/vop-close-match-qst.de-DE.png)
+
+
 ## Was passiert bei einer Nichtübereinstimmung?
 
 Wenn der Name des Zahlungsempfängers nicht mit den bei der Bank hinterlegten Informationen übereinstimmt, erhalten Sie eine Warnung. In diesem Fall haben Sie die Möglichkeit, die Überweisung zu überprüfen und gegebenenfalls zu korrigieren, bevor sie ausgeführt wird. Dies gibt Ihnen die Gelegenheit, Fehler zu beheben und sicherzustellen, dass Ihre Zahlung an den richtigen Empfänger geht.

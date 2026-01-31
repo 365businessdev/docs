@@ -86,7 +86,7 @@ Dank der Integration in Microsoft Dynamics 365 Business Central können Unterneh
                     <li><span class="fa-li"><i class="fa-duotone fa-thin fa-screwdriver-wrench fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="setup.md">Sanction Screen Einrichtung vornehmen</a></li>
                     <li><span class="fa-li"><i class="fa-duotone fa-thin fa-clock fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="setup.md#screening-intervall">Screening Intervalle</a></li>
                     <li><span class="fa-li"><i class="fa-duotone fa-thin fa-bolt-lightning fa-lg" style="--fa-secondary-color: #00b7c3"></i></span><a href="automated-screening.md#automatisierte-sanktionslistenprüfung-einrichten">Automatisierte Sanktionsprüfung einrichten</a></li>
-                    <li><span class="fa-li"><i class="fa-solid fa-bolt-lightning"></i></span><a href="automated-check.md#automated-check">Automatisierte Sanktionsprüfung bei Belegfreigabe</a></li>
+                    <li><span class="fa-li"><i class="fa-solid fa-bolt-lightning"></i></span><a href="automated-check.md#automatisierte-sanktionsprüfung-bei-belegfreigabe">Automatisierte Sanktionsprüfung bei Belegfreigabe</a></li>
                 </ul>
             </p>
     </div>

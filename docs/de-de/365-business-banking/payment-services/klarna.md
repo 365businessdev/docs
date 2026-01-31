@@ -1,11 +1,5 @@
 # Klarna
 
-<div class="alert alert-warn">
-    <i class="fa-duotone fa-solid fa-triangle-exclamation fa-xl"></i>
-    <strong>Achtung</strong>
-    Die Integration mit Klarna befindet sich derzeit in der Beta-Phase. Einige Funktionen könnten noch nicht vollständig verfügbar oder stabil sein. Wir empfehlen, diese Integration zunächst in einer Testumgebung zu evaluieren, bevor Sie sie in einer Produktionsumgebung einsetzen.
-</div>
-
 Klarna ist ein Zahlungsdienstleister, der es Unternehmen ermöglicht, Zahlungen online zu akzeptieren. Mit Klarna können Sie verschiedene Zahlungsmethoden wie Rechnungskauf, Ratenkauf und Sofortüberweisung integrieren. Mit **365 business Banking** können Sie Ihr Klarna-Konto direkt mit **Microsoft Dynamics 365 Business Central** verbinden, um Transaktionen automatisch abzurufen und in den Zahlungsabgleich einzubeziehen.
 
 ## Voraussetzungen

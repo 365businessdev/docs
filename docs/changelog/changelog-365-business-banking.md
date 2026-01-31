@@ -1,5 +1,22 @@
 # 365 business Banking Changelog
 
+## Version 18.2.391.23494
+
+- Add feature #63128 Verification of Payee
+- Add feature #63306 Get Bank Account logo from Bank
+- Fix issue #63528 Drill-Down in Role Center Cues does not work
+- Unify procedure to set up bank account image #63306
+- Add feature #63573 Get additional bank accounts
+- Refactor transaction ID generation in Klarna transactions to use SHA256 hash for uniqueness
+- Fix payment method translation in Pmt. Journal report #61925
+- Add feature 'Balance to Date' in bank account chart
+- Add feature #63129 Set up associated bank accounts
+- Add feature #63130 Additional match fields
+- Fix issue #63624 Posting Type cannot be cleared
+- Remove 'Beta' version for Klarna provider #62749
+- Add feature #62750 Shopify Payment support
+- Improve feature #62149 PayPal transaction retrieval
+
 ## Version 18.1.367.22763
 
 - Task #63060 Execution date editable in SEPA Payment Import processing

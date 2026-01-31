@@ -40,3 +40,13 @@ Mit der Funktion zum Drucken des Zlg.-Ausgang Buch.-Blatts in 365 business Banki
 3. Wählen Sie die Aktion **Drucken** in der Menüleiste.
 4. Wählen Sie **Genehmigung drucken**, wenn auf dem Ausdruck ein Bereich für Unterschriften zur Genehmigung der Zahlungen enthalten sein soll.
 5. Wählen Sie **Drucken**, um den Druckvorgang zu starten.
+
+### Empfängerüberprüfung (VoP)
+
+Mit der Empfängerüberprüfung (VoP) in 365 business Banking können Sie sicherstellen, dass die Kontoinhaberinformationen Ihrer Zahlungsempfänger mit den bei der Bank hinterlegten Daten übereinstimmen. Dies hilft, Fehler zu vermeiden und die Sicherheit Ihrer Zahlungen zu erhöhen. Weitere Informationen zur Empfängerüberprüfung (VoP) finden Sie im Abschnitt [Empfängerüberprüfung (VoP) in 365 business Banking](bank-payment-vop.md).
+
+Im Zlg.-Ausg. Buch.-Blatt wird der VoP-Status für jede Buch.-Blattzeile angezeigt, sodass Sie schnell erkennen können, ob die Kontoinhaberinformationen überprüft wurden und ob sie übereinstimmen.
+
+![VoP Status im Zlg.-Ausg. Buch.-Blatt](/assets/images/365-business-banking/vop/pmt-journal-vop-action.de-DE.png)
+
+Zudem haben Sie die Möglichkeit, die Empfängerüberprüfung (VoP) direkt aus dem Zlg.-Ausg. Buch.-Blatt heraus durchzuführen. Wählen Sie dazu die Aktion **Empfängerüberprüfung (VoP)** in der Menüleiste aus. Dadurch werden die Kontoinhaberinformationen aller Buch.-Blattzeilen überprüft und der VoP-Status entsprechend aktualisiert.

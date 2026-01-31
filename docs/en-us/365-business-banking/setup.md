@@ -8,11 +8,24 @@ In the **General Ledger Setup**, under the **Banking** section, you will find th
 
 | Field Name | Description | Default Value |
 | --- | --- | --- |
+| Bank Account Chart Balance Type | Specifies the type of balance to be used in bank account charts. | Period Balance |
 | Payment Reference Overflow Option | Specifies what to do if multiple invoices are paid, but the payment reference exceeds the maximum length. |  |
 | Bank Account Reconciliation Line Posting | Specifies how G/L Account bank account reconciliation lines are posted, when posting setup is specified. Select whether to use a clearing account or post directly to the G/L accounts. | Use Clearing Account |
+| Create Bank Accounts | Specifies whether bank accounts should be created automatically when payment reconciliation journal lines for new customer or vendor bank accounts are applied. This option leads to a higher rate of automatically reconciled bank transactions, as more bank accounts are available for reconciliation. | Yes |
 | Bank Account No. Series | Specifies the number series for bank accounts. | _Microsoft Standard_ |
 | Standing Order No. Series | Specifies the number series for standing orders. | `SO00001` - `SO99999` |
 | Payment Advice No. Series | Specifies the number series for payment advices. | `RN00001` - `RN99999` |
+
+### Bank Account Chart Balance Type
+
+The **Bank Account Chart Balance Type** option determines which type of balance is displayed in the bank account charts. You can choose from the following options:
+
+- **Period Balance** (default)<br>
+  This option shows the balance based on transactions within the displayed period (e.g., month). This is useful for tracking financial development over a specific period.
+- **Balance to Date**<br>
+  This option shows the running balance up to a specific date. This is helpful for viewing the current account balance at a specific point in time.
+- **Both**<br>
+  This option displays both the period balance and the balance to date, allowing you to view both perspectives simultaneously.
 
 ### Payment Reference Overflow Option
 
@@ -63,6 +76,18 @@ You can choose between the following options:
     a clearing account will still be used automatically.  
     This is necessary to correctly generate and manage the deferral entries and to ensure proper period allocation.
 </div>
+
+### Create Bank Accounts
+
+The **Create Bank Accounts** option determines whether bank accounts should be created automatically when payment reconciliation journal lines for new customer or vendor bank accounts are posted. This option leads to a higher rate of automatically reconciled bank transactions, as more bank accounts are available for reconciliation.
+
+365 business Banking automatically creates new bank accounts in Microsoft Dynamics 365 Business Central when a payment reconciliation journal line with an unknown bank account of a customer or vendor is posted (see [Bank Reconciliation - Sender Identification](bank-reconciliation.md#sender-identification)). The new bank account is created with the relevant information from the payment reconciliation journal line or the bank transaction.
+
+#### Associated Bank Accounts
+
+In the **General Ledger Setup**, in the **Bank** action group, you will find the **Manage Associated Bank Accounts** action. This action opens the **Associated Bank Accounts** page, where you can manage bank accounts of associated companies to prevent the creation of a new bank account for internal transfers (e.g., in the case of erroneous transfers by the customer) and assign it to the reconciled customer.
+
+![Associated bank accounts](/assets/images/365-business-banking/associated-bank-accounts.de-DE.png)
 
 ## Payment Methods
 

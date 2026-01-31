@@ -30,11 +30,21 @@ Dadurch lassen sich Transaktionen automatisch abrufen und in den Zahlungsabgleic
            </div>
        </a>
    </div>
+</div>
+<div class="columns">
    <div>
        <a href="payment-services/klarna.md">
            <div>
                <div><img src="/assets/images/365-business-banking/klarna-logo.png" alt="Klarna Logo" style="height: 40px;"></div>
-               <div>Klarna (Beta)</div>
+               <div>Klarna</div>
+           </div>
+       </a>
+   </div>
+   <div>
+       <a href="payment-services/shopify.md">
+           <div>
+               <div><img src="/assets/images/365-business-banking/shopify-logo.png" alt="Shopify Logo" style="height: 40px;"></div>
+               <div>Shopify (Beta)</div>
            </div>
        </a>
    </div>

@@ -1,6 +1,6 @@
 # Payment Services
 
-With **365 business Banking**, you can connect not only traditional bank accounts but also **payment services like PayPal and Stripe** directly to **Microsoft Dynamics 365 Business Central**.  
+With **365 business Banking**, you can connect not only traditional bank accounts but also **payment services**, such as PayPal, Stripe, and mollie, directly to **Microsoft Dynamics 365 Business Central**.  
 This allows you to automatically retrieve transactions and include them in payment reconciliation.
 
 ## Supported Payment Services
@@ -22,26 +22,38 @@ This allows you to automatically retrieve transactions and include them in payme
            </div>
        </a>
    </div>
-      <div>
-          <a href="payment-services/mollie.md">
-              <div>
-                  <div><img src="/assets/images/365-business-banking/mollie-logo.png" alt="Mollie Logo" style="height: 40px;"></div>
-                  <div>Mollie</div>
-              </div>
-          </a>
-      </div>
+   <div>
+       <a href="payment-services/mollie.md">
+           <div>
+               <div><img src="/assets/images/365-business-banking/mollie-logo.png" alt="Mollie Logo" style="height: 40px;"></div>
+               <div>Mollie</div>
+           </div>
+       </a>
    </div>
-   
-   <div class="alert alert-info">
+</div>
+<div class="columns">
+   <div>
+       <a href="payment-services/klarna.md">
+           <div>
+               <div><img src="/assets/images/365-business-banking/klarna-logo.png" alt="Klarna Logo" style="height: 40px;"></div>
+               <div>Klarna</div>
+           </div>
+       </a>
+   </div>
+   <div>
+       <a href="payment-services/shopify.md">
+           <div>
+               <div><img src="/assets/images/365-business-banking/shopify-logo.png" alt="Shopify Logo" style="height: 40px;"></div>
+               <div>Shopify (Beta)</div>
+           </div>
+       </a>
+   </div>
+</div>
+
+<div class="alert alert-info">
     <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
     <strong>Note</strong>
     We are continuously working to integrate additional payment services to provide you with an even broader selection.<br>Please check regularly for new versions of 365 business Banking to take advantage of new features.
-   </div>
-
-<div class="alert alert-info">
-   <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
-   <strong>Note</strong>
-   Integration of additional payment services, such as Mollie, is planned.<br>Please check regularly for new versions of 365 business Banking to benefit from new features.
 </div>
 
 ## Step-by-Step Guide
@@ -60,6 +72,7 @@ This allows you to automatically retrieve transactions and include them in payme
 Afterwards, you can retrieve and process the transactions from the payment service using the Payment Reconciliation Journal (see [Using the Payment Reconciliation Journal](bank-reconciliation.md)).
 
 # See Also
+
  - [Set up PayPal account](payment-services/paypal.md)
  - [Set up Stripe account](payment-services/stripe.md)
  - [Set up Mollie account](payment-services/mollie.md)

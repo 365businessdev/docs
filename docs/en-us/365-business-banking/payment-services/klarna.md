@@ -1,11 +1,5 @@
 # Klarna
 
-<div class="alert alert-warn">
-   <i class="fa-duotone fa-solid fa-triangle-exclamation fa-xl"></i>
-   <strong>Attention</strong>
-   The integration with Klarna is currently in beta phase. Some features may not yet be fully available or stable. We recommend evaluating this integration in a test environment first before deploying it in a production environment.
-</div>
-
 Klarna is a payment service provider that enables businesses to accept payments online. With Klarna, you can integrate various payment methods such as invoice payment, installment payment, and instant transfer. With **365 business Banking**, you can connect your Klarna account directly with **Microsoft Dynamics 365 Business Central** to automatically retrieve transactions and include them in payment reconciliation.
 
 ## Prerequisites

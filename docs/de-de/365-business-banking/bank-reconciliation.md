@@ -92,6 +92,17 @@ Weitere Informationen finden Sie in der Dokumentation zu [Kontextwörtern](setup
 Ihre Belegnummern lauten `25002019` und `25002021`, im Verwendungszweck der Banktransaktion wird durch den Absender `Invoice 25002019, 2021` angegeben. Die Belegnummer `25002019` wird automatisch erkannt, da sie exakt mit der Belegnummer übereinstimmt. Die Teilbelegnummer `2021` wird ebenfalls als "schwache" Übereinstimmung erkannt und für den Ausgleich angeboten.
 Durch die Verwendung von Kontextwörtern, wie z.B. `Invoice`, wird die Teilbelegnummer `2021` als "starke" Übereinstimmung erkannt und für den Ausgleich priorisiert.
 
+### Zahlungsausgleich Felder
+
+Im Rahmen der Zahlungsabstimmung stehen Ihnen verschiedene Felder zur Verfügung, um den Ausgleich der Banktransaktionen zu optimieren. Diese Felder helfen Ihnen dabei, die Zuordnung der Transaktionen zu den offenen Posten zu verbessern und den Abstimmungsprozess zu vereinfachen.
+
+Standardmäßig werden dabei die **Belegnr.** und die **Externe Belegnummer** der offenen Posten für den Ausgleich verwendet. Zusätzlich steht Ihnen in der Seite **Zahlungsausgleichseinstellungen** die Option zur Verfügung, um weitere Felder aus den Tabellen **Debitorenposten** und **Kreditorenposten** für den Ausgleich anzugeben.
+
+![Zahlungsausgleichseinstellungen](/assets/images/365-business-banking/pmt-application-settings.de-DE.png)
+
+Die in den **Zahlungsausgleich Felder** definierten Felder werden bei der Analyse der Banktransaktionen berücksichtigt, um die Zuordnung zu den offenen Posten zu verbessern. Dies ermöglicht eine genauere Zuordnung der Transaktionen zu den entsprechenden Konten und verbessert die Effizienz der Abstimmung.
+Dabei kann jedes Feld, unabhängig von der Herkunft (z.B. Microsoft Base Application) verwendet werden.
+
 ### Zahlungscode Zuordnung
 
 Im Rahmen einer SEPA Zahlung werden neben dem Verwendungszweck zusätzliche Zahlungscodes übermittelt, die zur Identifizierung der Zahlung verwendet werden. Im Rahmen der Zahlungsabstimmung können diese Codes verwendet werden, um die Zuordnung der Banktransaktionen zu den offenen Posten oder Sachkonten zu verbessern.

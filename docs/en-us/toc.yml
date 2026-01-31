@@ -96,6 +96,10 @@
           href: 365-business-banking/payment-services/stripe.md
         - name: Mollie
           href: 365-business-banking/payment-services/mollie.md
+        - name: Klarna
+          href: 365-business-banking/payment-services/klarna.md
+        - name: Shopify
+          href: 365-business-banking/payment-services/shopify.md
     - name: Setup
       href: 365-business-banking/setup.md
       items:
