@@ -1,5 +1,12 @@
 # 365 business Banking Changelog
 
+## Version 18.2.394.23593
+
+- Fix issue #63714 SEPA Collective Direct Debit does not work
+- Add task #63715 Hide domestic capabilities if not applicable
+- Fix feature registration on upgrade, for additional features
+- Add feature #63766 Multi-Currency IBAN support
+
 ## Version 18.2.391.23494
 
 - Add feature #63128 Verification of Payee
