@@ -1,5 +1,11 @@
 # 365 business Print Agent Changelog
 
+## Version 18.12.239.23676
+
+- Fix issue #63837 Missing page settings for ZPL print jobs
+- Fix warning AA0202 The name of the local variable is identical to a field, method, or action
+- Add multiple overloads for PrintPdf and PrintRAW procedures to directly address printer name, instead of printer configuration
+
 ## Version 18.12.237.21969
 
 - Add error handling for Print Agent connectivity issues and introduce TryGetResponseContent procedure
