@@ -28,17 +28,43 @@ Shopify is an e-commerce platform that enables businesses to create and manage o
 9.  Sign in with your Shopify credentials.
 10. Confirm the installation of the **365 business Banking** app in your Shopify shop.
     ![Shopify app installation](/assets/images/365-business-banking/install-shopify-app.de-DE.png)
-
-    <div class="alert alert-warn">
-        <i class="fa-duotone fa-solid fa-triangle-exclamation fa-xl"></i>
-        <strong>Note</strong>
-        Since the <strong>365 business Banking</strong> app for Shopify was developed exclusively for integration with Microsoft Dynamics 365 Business Central, it is currently "<i>not verified</i>" by Shopify.<br>
-        Shopify explicitly provides this status for apps that are not developed for the general public, but for use in connection with a specific software solution, such as Microsoft Dynamics 365 Business Central in this case.
-    </div>
-
 11.  After successful installation, a confirmation of successful authorization appears.
     ![Shopify authorization successful](/assets/images/365-business-banking/connect-shopify-success.de-DE.png)
 12.  Return to Microsoft Dynamics 365 Business Central. The connection is now established.
+
+## Private App Integration
+
+In addition to the **365 business Banking** app for Shopify, which simplifies the connection process, it is also possible to establish a connection via a _private_ app. This method requires more manual effort but provides an alternative integration option for businesses with specific requirements or restrictions.
+
+### Create a Private Shopify App
+
+1. Navigate to **https://dev.shopify.com/** and sign in with your Shopify credentials.
+2. Select **Apps** from the left menu.
+3. Select **Create app**.
+4. In the **Start from Dev Dashboard** section, enter an app name (e.g., `365 business Banking (Private)`).
+5. Select **Create** to create the app.
+6. Create a new version with the following settings:
+   - **App URL**: `https://banking.365businessapi.com/api/v1.0/shopify/connect`
+   - **Redirect URL**: `https://banking.365businessapi.com/api/v1.0/shopify/callback`
+   - **Scopes**: `read_shopify_payments_accounts,read_shopify_payments_payouts`
+   - **Optional Scopes**: `read_orders`
+   - **API Version**: `2026-01`
+7. Select **Release** and confirm the publication of the app.
+
+### Shopify Connection Setup
+
+1. Select **Bank Accounts** in the search of Microsoft Dynamics 365 Business Central.
+2. Create a new bank account or select an existing one.
+3. In the **Bank Account Card**, under **Actions**, select the **Account Connection** action group and **Connect...**.
+   ![Start connection](/assets/images/365-business-banking/connect-banking-provider.de-DE.png)
+4. Select **Shopify** from the list.
+   ![Select Shopify connection](/assets/images/365-business-banking/select-shopify-provider.de-DE.png)
+5. Confirm the confirmation prompt with **Yes**.
+6. Enter the **Shop Name** of your Shopify shop (e.g., `myshop` for `myshop.myshopify.com`).
+7. Select the **Private App** option in the **Mode** field.
+8. Enter the **Client ID** and **Client Secret** of the previously created private app.
+   ![Private App settings](/assets/images/365-business-banking/shopify-private-app-settings.de-DE.png)
+9.  Click **Authenticate** to establish the connection between Shopify and 365 business Banking. (Analogous to steps 8-12 of the previous guide.)
 
 ### Updating the Account Connection
 
