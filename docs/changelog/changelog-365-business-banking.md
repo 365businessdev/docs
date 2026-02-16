@@ -1,5 +1,15 @@
 # 365 business Banking Changelog
 
+## Version 18.2.398.23725
+
+- Add feature #63856 Shopify Private App Support
+
+## Version 18.2.397.23679
+
+- Add Connection ID to find existing banking bank accounts #63766 Multi-Currency IBAN
+- Fix default licensing method
+- Fix issue #63812 PayPal error to many transactions
+
 ## Version 18.2.394.23593
 
 - Fix issue #63714 SEPA Collective Direct Debit does not work
