@@ -1,5 +1,10 @@
 # 365 business Banking Changelog
 
+## Version 18.2.400.23759
+
+- Enhance error handling for Shopify transaction retrieval and processing #62750
+- Add feature #63880 Feature Telemetry
+
 ## Version 18.2.398.23725
 
 - Add feature #63856 Shopify Private App Support
