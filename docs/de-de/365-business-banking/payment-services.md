@@ -48,6 +48,14 @@ Dadurch lassen sich Transaktionen automatisch abrufen und in den Zahlungsabgleic
            </div>
        </a>
    </div>
+   <div>
+       <a href="payment-services/universal.md">
+           <div>
+               <div><img src="/assets/images/365-business-banking/logo.png" alt="Universal Logo" style="height: 40px;"></div>
+               <div>Universal</div>
+           </div>
+       </a>
+   </div>
 </div>
 
 <div class="alert alert-info">
@@ -76,4 +84,7 @@ Anschließend können die Transaktionen des Zahlungsdienstes über das Zahlungsa
  - [PayPal Konto einrichten](payment-services/paypal.md)
  - [Stripe Konto einrichten](payment-services/stripe.md)
  - [Mollie Konto einrichten](payment-services/mollie.md)
+ - [Klarna Konto einrichten](payment-services/klarna.md)
+ - [Shopify Konto einrichten](payment-services/shopify.md)
+ - [Universal Banking Provider einrichten](payment-services/universal.md)
 

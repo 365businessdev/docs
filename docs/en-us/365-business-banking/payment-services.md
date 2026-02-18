@@ -48,6 +48,14 @@ This allows you to automatically retrieve transactions and include them in payme
            </div>
        </a>
    </div>
+      <div>
+          <a href="payment-services/universal.md">
+              <div>
+                  <div><img src="/assets/images/365-business-banking/logo.png" alt="Universal Logo" style="height: 40px;"></div>
+                  <div>Universal</div>
+              </div>
+          </a>
+      </div>
 </div>
 
 <div class="alert alert-info">
@@ -76,3 +84,6 @@ Afterwards, you can retrieve and process the transactions from the payment servi
  - [Set up PayPal account](payment-services/paypal.md)
  - [Set up Stripe account](payment-services/stripe.md)
  - [Set up Mollie account](payment-services/mollie.md)
+ - [Set up Klarna account](payment-services/klarna.md)
+ - [Set up Shopify account](payment-services/shopify.md)
+ - [Set up Universal Banking Provider](payment-services/universal.md)

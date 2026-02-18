@@ -103,6 +103,8 @@
           href: 365-business-banking/payment-services/klarna.md
         - name: Shopify
           href: 365-business-banking/payment-services/shopify.md
+        - name: Universal
+          href: 365-business-banking/payment-services/universal.md
     - name: Einrichtung
       href: 365-business-banking/setup.md
       items:
