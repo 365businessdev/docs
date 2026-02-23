@@ -1,5 +1,12 @@
 # 365 business Address Validation Changelog
 
+## Version 18.11.144.23830
+
+ - Migrate to API Auth. Provider
+ - Add feature #63767 Logo integration
+ - Update logo
+ - Add new Address Data Hash v2 table and migrate existing data
+
 ## Version 18.10.130.14542
 
  - Migrate to new 365 business API Address Validation service
