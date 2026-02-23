@@ -1,10 +1,14 @@
 # 365 business Sanction Screen Changelog
 
+## Version 18.2.160.23364
+
+- Add feature #63558 Automatic screening of Sales / Purch. Documents on Release
+
 ## Version 18.2.157.22572
 
 - Do not remove whitespace from query value
 - Conditional address node in query properties
-- Fix issue # 62883 PEP data collection is not searched
+- Fix issue #62883 PEP data collection is not searched
 
 ## Version 18.2.154.22385
 
