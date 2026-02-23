@@ -1,6 +1,14 @@
 # 365 business Banking Changelog
 
-## Version 18.2.400.23759
+## Version 18.2.403.23798
+
+- Enhance bank transaction import to prevent integer overflow on line numbers
+- Fix issue #62750 Shopify API retrieval
+- Implement Shopify API Version 2026-01 #62750
+- Add feature #63133 Universal Banking Provider (CSV file format)
+- Add feature #63929 Copy Posting Setup from G/L Account
+
+## Version 18.2.400.23778
 
 - Enhance error handling for Shopify transaction retrieval and processing #62750
 - Add feature #63880 Feature Telemetry
