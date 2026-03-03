@@ -1,5 +1,10 @@
 # 365 business Banking Changelog
 
+## Version 18.2.406.23963
+
+- Fix issue #64016 JIT conflict on retrieve bank transactions in new bank acc. reconciliation
+- Fix issue #64037 Fix re-apply bank acc. reconciliation journal
+
 ## Version 18.2.403.23798
 
 - Enhance bank transaction import to prevent integer overflow on line numbers
